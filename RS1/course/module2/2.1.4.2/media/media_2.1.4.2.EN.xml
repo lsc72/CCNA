@@ -1,0 +1,46 @@
+﻿<textcomponents>
+
+<!--slide 2-->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>IOS Command Conventions</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	
+
+	<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="12"><b>When describing the use of commands, we generally use these conventions.</b></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>  
+	 
+	<tr>
+		<td bgcolor='#666263' width="150"><font color='#FFFFFF'><b>Convention</b></font></td>
+		<td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>boldface</b></td>
+		<td bgcolor='#E9E7E8'>Boldface text indicates commands and keywords that you enter literally as shown.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><i>italics</i></td>
+		<td bgcolor='#F2F2F2'>Italic text indicates arguments for which you supply values. </td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>[x]</td>
+		<td bgcolor='#E9E7E8'>Square brackets indicate an optional element (keyword or argument).</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>{x}</td>
+		<td bgcolor='#F2F2F2'>Braces indicate a required element (keyword or argument).</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>[x {y | z}]</td>
+		<td bgcolor='#E9E7E8'>Braces and vertical lines within square brackets indicate a required choice within an optional element.</td>
+	</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,83 @@
+﻿<textcomponents>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Custom:<br>Media]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Custom:<br>Healthcare]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Custom:<br>Government]]></text> 
+	</component>
+	  
+	<component id="ID_txt04">
+		<text><![CDATA[Public]]></text> 
+	</component>
+		
+	<component id='ID_txt05'>
+		<text><![CDATA[Custom:<br>And More]]></text> 
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[Private:<br>Hometown News]]></text> 
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Hybrid]]></text> 
+	</component>
+
+	  
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<font size="17">Custom clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[The most common vector for data loss includes instant messaging software and social media sites. For instance, intercepted email or IM messages could be captured and reveal confidential information.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<font size="17">Custom clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[The most common vector for data loss includes instant messaging software and social media sites. For instance, intercepted email or IM messages could be captured and reveal confidential information.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<font size="17">Custom clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[The most common vector for data loss includes instant messaging software and social media sites. For instance, intercepted email or IM messages could be captured and reveal confidential information.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<font size="17">Public clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Cloud-based applications and services offered in a public cloud are made available to the general population. Services may be free or are offered on a pay-per-use model, such as paying for online storage. The public cloud uses the Internet to provide services.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt05">
+		<text><![CDATA[<font size="17">Custom clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt05">
+		<text><![CDATA[The most common vector for data loss includes instant messaging software and social media sites. For instance, intercepted email or IM messages could be captured and reveal confidential information.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt06">
+		<text><![CDATA[<font size="17">Private clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt06">
+		<text><![CDATA[Cloud-based applications and services offered in a public cloud are made available to the general population. Services may be free or are offered on a pay-per-use model, such as paying for online storage. The public cloud uses the Internet to provide services.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt07">
+		<text><![CDATA[<font size="17">Hybrid clouds</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt07">
+		<text><![CDATA[A hybrid cloud is made up of two or more clouds (example: part custom, part public), where each part remains a distinctive object, but both are connected using a single architecture. Individuals on a hybrid cloud would be able to have degrees of access to various services based on user access rights.]]></text>
+	</component>
+
+
+	  
+</textcomponents>

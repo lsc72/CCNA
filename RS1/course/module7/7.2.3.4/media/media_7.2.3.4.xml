@@ -1,0 +1,39 @@
+<textcomponents> 
+
+
+<component id="ID_s1_title">
+<text><![CDATA[Communications link-local IPv6]]></text>
+</component>
+<component id="ID_s1_txt01">
+<text><![CDATA[<b>Adresse IPv6 source</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[<b>Adresse IPv6 de destination</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[<b>Paquet IPv6</b>]]></text> 
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[Utilisations d'une adresse link-local IPv6]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Messages des protocoles de routage]]></text>
+</component>
+<component id="ID_bubble01">
+<text><![CDATA[<font color="#FFFFFF">Je vais envoyer mes informations de routage aux autres routeurs de l'adresse link-local.</font>]]></text> 
+</component>
+
+<component id="ID_bubble02">
+<text><![CDATA[<font color="#FFFFFF">Je vais envoyer mes informations de routage aux autres routeurs de l'adresse link-local.</font>]]></text> 
+</component>
+
+<component id="ID_bubble03">
+<text><![CDATA[<font color="#FFFFFF">Je vais utiliser l'adresse link-local du routeur comme adresse de passerelle par défaut.</font>]]></text> 
+</component>
+
+
+</textcomponents>

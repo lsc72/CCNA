@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.5 Transmission de diffusion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transmission de diffusion</h1>
+        <div>
+          <p>Le trafic de diffusion est utilisé pour envoyer des paquets à tous les hôtes du réseau grâce à l'adresse de diffusion du réseau. En diffusion, le paquet contient une adresse IPv4 de destination avec uniquement des un (1) dans la partie hôte. Cela signifie que tous les hôtes se trouvant sur ce réseau local (domaine de diffusion) recevront le paquet et le regarderont. De nombreux protocoles réseau, tels que DHCP, utilisent les diffusions. Lorsqu'un hôte reçoit un paquet envoyé à l'adresse de diffusion du réseau, il traite le paquet comme s'il s'agissait d'un paquet adressé à son adresse de monodiffusion. </p>
+          <p>La diffusion peut être dirigée ou limitée. Une diffusion dirigée est envoyée à tous les hôtes d’un réseau particulier. Par exemple, un hôte sur le réseau 172.16.4.0/24 envoie un paquet à 172.16.4.255. Une diffusion limitée est envoyée à 255.255.255.255. Par défaut, les routeurs ne transfèrent pas les diffusions. </p>
+          <p>Par exemple, un hôte du réseau 172.16.4.0/24 envoie une diffusion à tous les hôtes de son réseau à l'aide d'un paquet dont l'adresse de destination est 255.255.255.255.</p>
+          <p>Lancez l'animation pour voir un exemple de diffusion limitée.</p>
+          <p>Lorsqu'un paquet est diffusé, il utilise les ressources du réseau et est traité par chaque hôte destinataire sur le réseau. Ainsi, le trafic de diffusion devrait être limité de sorte qu'il ne réduise pas les performances du réseau ou des périphériques. Dans la mesure où les routeurs séparent les domaines de diffusion, la création de sous-réseaux peut améliorer les performances du réseau en éliminant le trafic de diffusion excessif.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation showing a broadcast transmission.  A PC with the IP address 172.16.4.1 is sending a broadcast message to all the other devices.  The switch receives the frame and sends it out all other ports except for the port from which it received the frame. .</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

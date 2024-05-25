@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.5 Longueur de préfixe</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Longueur de préfixe</h1>
+        <div>
+          <p>Il peut devenir fastidieux d'exprimer les adresses réseau et les adresses d'hôtes avec l'adresse du masque de sous-réseau au format décimal à point. Heureusement, il existe une méthode plus rapide d'identification du masque de sous-réseau, appelée la longueur de préfixe.</p>
+          <p>En fait, la longueur de préfixe correspond au nombre de bits définis sur 1 dans le masque de sous-réseau. Elle est notée au moyen de la « notation de barre oblique », soit le signe « / » suivi du nombre de bits définis sur 1. Il suffit donc de compter le nombre de bits du masque de sous-réseau et d'y ajouter une barre oblique.</p>
+          <p>Pour voir un exemple, reportez-vous au tableau ci-contre. La première colonne contient la liste des masques de sous-réseau qui peuvent être utilisés avec une adresse d'hôte. La deuxième colonne indique l'adresse binaire 32 bits convertie. La dernière colonne affiche la longueur de préfixe obtenue. </p>
+          <p>Nous verrons plus tard pourquoi différents types de longueur de préfixe sont utilisées. Pour l'instant, nous allons nous concentrer sur le masque de sous-réseau /24, c'est-à-dire (255.255.255.0).</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table with three columns and nine rows. The column headings are “Subnet Mask”, “32-bit Address”, “Prefix Length”. The purpose of the table is to show examples of dotted decimal subnet masks represented in binary and then the prefix notation. Prefix notation is a slash in front of the number of 1 bits in the subnet mask. For example, the subnet mask 255.255.255.0 can be represented with the prefix notation /24.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

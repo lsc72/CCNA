@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.1.2 Coexistence des protocoles IPv4 et IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Coexistence des protocoles IPv4 et IPv6</h1>
+        <div>
+          <p>La transition vers l'IPv6 n'aura pas lieu à une date fixe. Dans un futur proche, l'IPv4 et l'IPv6 vont continuer à coexister. La transition vers l'IPv6 durera probablement plusieurs années. L'IETF a créé divers protocoles et outils pour aider les administrateurs réseau à migrer leurs réseaux vers l'IPv6. Les techniques de migration peuvent être classées en trois catégories :</p>
+          <p>
+            <ul>
+              <li>
+                <b>la double pile</b> : comme l'illustre la figure 1, la double pile permet à l'IPv4 et à l'IPv6 de coexister sur le même segment de réseau. Les périphériques double pile exécutent les piles de protocoles IPv4 et IPv6 simultanément.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>le tunneling</b> :comme l'illustre la figure 2, le tunneling est une méthode de transport des paquets IPv6 via un réseau IPv4. Les paquets IPv6 sont encapsulés dans des paquets IPv4, de la même manière que d'autres types de données. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>la traduction</b> : comme l'illustre la figure 3, les périphériques IPv6 peuvent utiliser la traduction d'adresses réseau 64 (NAT64) pour communiquer avec les périphériques IPv4 à l'aide d'une technique de traduction similaire à la NAT pour l'IPv4. Un paquet IPv6 est traduit en un paquet IPv4, et inversement. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : le tunneling et la traduction sont utilisés uniquement lorsque nécessaire. L'objectif doit être de communiquer de manière native via le protocole IPv6 depuis la source jusqu'à la destination.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router connected to three network segments. Each has a computer running IPv4 and IPv6 in dual-stack mode, which allows the two protocols to co-exist. Figure 2 shows two routers. Each router has a network segment on one of the Fast Ethernet ports.  There is a computer on each network segment that is running only IPv6.  There is an IPv4 only tunnel connecting the two routers. The tunnel encapsulates the IPv6 packet within an IPv4 packet for transmission. Figure 3 shows a router that has an IPv6 only segment on one Fast Ethernet port and an IPv4 only segment on another Fast Ethernet port.  The router is serving as a Network Address Translation 64 device allowing IPv6 enabled devices to communicate with IPv4 enabled devices.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

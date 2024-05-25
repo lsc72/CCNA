@@ -1,0 +1,54 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Adresses IPv4 au format binaire</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Adresse réseau de LAN A</b><br/>11000000.10101000.00001010.00000000 /24]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>Adresse réseau de LAN B</b><br/>11000000.10101000.00001011.00000000 /24]]></text>
+	</component>
+
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Adresses IPv4 au format décimal à point</b>]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>Adresse réseau de LAN A</b><br/>192.168.10.0 /24]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[<b>Adresse réseau de LAN B</b><br/>192.168.11.0 /24]]></text>
+	</component>
+
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Comparaison de l'adresse IPv4 de PC1 aux formats binaire et décimal à point</b>]]></text>
+	</component>
+	
+	 <component id="ID_s3_btn01">
+  <text><![CDATA[Adresse Décimale]]></text>
+  </component>
+<component id="ID_s3_btn02">
+  <text><![CDATA[Octets]]></text>
+  </component>
+<component id="ID_s3_btn03">
+  <text><![CDATA[Adresse 32 Bits]]></text> 
+  </component>
+  
+  <component id="ID_s3_txt01">
+  <text><![CDATA[192.168.10.10 est une adresse IP attribuée à un ordinateur.]]></text> 
+  </component>
+   <component id="ID_s3_txt02">
+  <text><![CDATA[Cette adresse se compose de quatre octets différents.]]></text> 
+  </component>
+   <component id="ID_s3_txt03">
+  <text><![CDATA[L'ordinateur stocke l'adresse sous forme de flux de données complet de 32 bits.]]></text> 
+  </component>
+	
+	
+</textcomponents>

@@ -1,0 +1,11 @@
+﻿<textcomponents>
+  <component id="ID_s1_title">
+    <text><![CDATA[<b>Switch Configuration Tasks</b>]]></text>
+  </component>
+  <component id="ID_s01_txt01">
+  <text><![CDATA[<textformat blockindent='-20'><ul><li><b>Configure the device name</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>hostname</b> <i>name</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure user EXEC mode</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line console 0</b></li><li id="space"><b>password</b> <i>password</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure remote Telnet / SSH access</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line vty 0 15</b></li><li id="space"><b>password</b> <i>password</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure privileged EXEC mode</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>enable secret</b> <i>password</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure all passwords in the config file</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>service password-encryption</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Provide legal notification</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>banner motd</b> <i>delimiter message delimiter</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Configure the management SVI</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>interface vlan 1</b></li><li id="space"><b>ip address</b> <i>ip-address subnet-mask</i></li><li id="space"><b>no shutdown</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Save the configuration</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>copy running-config  startup-config</b></li></ul></textformat>]]></text>
+</component>
+    <component id="ID_title02">
+    <text><![CDATA[<b>Sample Switch Configuration</b>]]></text>
+  </component>
+</textcomponents>

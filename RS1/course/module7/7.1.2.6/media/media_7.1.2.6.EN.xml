@@ -1,0 +1,229 @@
+﻿<textcomponents>
+<!--slide-01-->
+<component id="ID_s1_title">
+<text><![CDATA[<b>Types of Addresses in a Network</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[<b>Network</b>]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt02">
+  <text><![CDATA[Network Address]]></text> 
+  </component>
+  
+<component id="ID_s1_txt03">
+  <text><![CDATA[<b>Hosts Addresses</b>]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt04">
+  <text><![CDATA[First Host Address]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt05">
+  <text><![CDATA[Last Host Address]]></text> 
+  </component>
+<component id="ID_s1_txt06">
+  <text><![CDATA[Broadcast Address]]></text> 
+  </component>
+  
+ <component id="ID_s1_titleTxt01">
+		<text><![CDATA[Network Address]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[Address and subnet mask refer to a network. All hosts within the network share the same network address. The host portion is all 0s.
+]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Host Addresses]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Unique IP addresses assigned to hosts and devices. The host portion always contains assorted 0s and 1s but never all 0s or all 1s.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[First Host Address]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[First available host IP address in that network. The host portion always has all 0s and ends with a 1.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[Last Host Address]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[Last available host IP address in that network. The host portion always has all 1s and ends with a 0.]]></text>
+	</component>
+	<component id="ID_s1_titleTxt05">
+		<text><![CDATA[Broadcast Address]]></text>
+	</component>
+	
+	<component id="ID_s1_bodyTxt05">
+		<text><![CDATA[A special address that communicates with all hosts in a network. For instance, when a host sends a packet to the network broadcast IPv4 address, all other hosts in the network receive the packet. The broadcast address uses the highest address in the network range. The host portion is all 1s.]]></text>
+	</component> 
+  
+  
+  <!--slide-02-->
+<component id="ID_s2_title">
+<text><![CDATA[<b>Types of Addresses in Network 192.168.10.0 /24</b>]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+  <text><![CDATA[<b>Network</b>]]></text> 
+  </component>
+  
+  <component id="ID_s2_txt02">
+  <text><![CDATA[Network Address]]></text> 
+  </component>
+  
+<component id="ID_s2_txt03">
+  <text><![CDATA[<b>Hosts Addresses</b>]]></text> 
+  </component>
+  
+  <component id="ID_s2_txt04">
+  <text><![CDATA[First Host Address]]></text> 
+  </component>
+  
+  <component id="ID_s2_txt05">
+  <text><![CDATA[Last Host Address]]></text> 
+  </component>
+<component id="ID_s2_txt06">
+  <text><![CDATA[Broadcast Address]]></text> 
+  </component>
+  
+ <component id="ID_s2_titleTxt01">
+		<text><![CDATA[Network Address]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[The host portion is all 0s (.00000000)]]></text>
+	</component>
+	
+	<component id="ID_s2_titleTxt02">
+		<text><![CDATA[Host Addresses]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt02">
+		<text><![CDATA[The host portion contains 0s and 1s (.00000001 to .11111110)]]></text>
+	</component>
+	
+	<component id="ID_s2_titleTxt03">
+		<text><![CDATA[First Host Address]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt03">
+		<text><![CDATA[The host portion is all 0s and ends with a 1 (.00000001)]]></text>
+	</component>
+	
+	<component id="ID_s2_titleTxt04">
+		<text><![CDATA[Last Host Address]]></text>
+	</component>
+	<component id="ID_s2_bodyTxt04">
+		<text><![CDATA[The host portion is all 1s and ends with a 0 (.11111110)]]></text>
+	</component>
+	<component id="ID_s2_titleTxt05">
+		<text><![CDATA[Broadcast Address]]></text>
+	</component>
+	
+	<component id="ID_s2_bodyTxt05">
+		<text><![CDATA[The host portion is all 1s (.11111111)]]></text>
+	</component> 
+  
+    
+  
+ 
+   <!--slide-03-->
+<component id="ID_s3_title">
+<text><![CDATA[<b>Network Address</b>]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+<text><![CDATA[<b>Network Portion</b>]]></text>
+</component>
+
+<component id="ID_s3_txt02">
+<text><![CDATA[<b>Host Portion</b>]]></text> 
+</component>
+
+<component id="ID_s3_bubble01">
+<text><![CDATA[All 0s in the host portion]]></text> 
+</component> 
+   
+     <!--slide-04-->
+<component id="ID_s4_title">
+<text><![CDATA[<b>Host Address</b>]]></text>
+</component>
+
+<component id="ID_s4_txt01">
+<text><![CDATA[<b>Network Portion</b>]]></text>
+</component>
+
+<component id="ID_s4_txt02">
+<text><![CDATA[<b>Host Portion</b>]]></text> 
+</component>
+
+<component id="ID_s4_bubble01">
+<text><![CDATA[0s and 1s in the host portion]]></text> 
+</component> 
+  
+  
+<component id="ID_s5_title">
+<text><![CDATA[<b>First Host Address</b>]]></text>
+</component>
+<component id="ID_s5_txt01">
+<text><![CDATA[<b>Network Portion</b>]]></text>
+</component>
+
+<component id="ID_s5_txt02">
+<text><![CDATA[<b>Host Portion</b>]]></text> 
+</component>
+
+<component id="ID_s5_bubble01">
+<text><![CDATA[All 0s and a 1 in the host portion]]></text> 
+</component>
+  
+  
+<component id="ID_s6_title">
+<text><![CDATA[<b>Last Host Address</b>]]></text>
+</component>
+<component id="ID_s6_txt01">
+<text><![CDATA[<b>Network Portion</b>]]></text>
+</component>
+
+<component id="ID_s6_txt02">
+<text><![CDATA[<b>Host Portion</b>]]></text> 
+</component>
+
+<component id="ID_s6_bubble01">
+<text><![CDATA[All 1s and a 0 in the host portion]]></text> 
+</component>   
+  
+  
+<component id="ID_s7_title">
+<text><![CDATA[<b>Broadcast Address</b>]]></text>
+</component>
+
+<component id="ID_s7_txt01">
+<text><![CDATA[<b>Network Portion</b>]]></text>
+</component>
+
+<component id="ID_s7_txt02">
+<text><![CDATA[<b>Host Portion</b>]]></text> 
+</component>
+
+<component id="ID_s7_bubble01">
+<text><![CDATA[All 1s in the host portion]]></text> 
+</component>  
+
+<component id="ID_static_45">
+<text><![CDATA[<span class="orangeText">10.1.1</span>.1]]></text> 
+</component>  <component id="ID_static_46">
+<text><![CDATA[<span class="orangeText">10.1.1</span>.10]]></text> 
+</component>  <component id="ID_static_47">
+<text><![CDATA[<span class="orangeText">10.1.1</span>.12]]></text> 
+</component>  <component id="ID_static_48">
+<text><![CDATA[<span class="orangeText">10.1.1</span>.11]]></text> 
+</component>  <component id="ID_static_49">
+<text><![CDATA[<span class="orangeText">10.1.1</span>.254]]></text> 
+</component>   
+  
+  
+</textcomponents>

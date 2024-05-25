@@ -1,0 +1,42 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Tous les périphériques mis sous tension en même temps</b>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Réseau]]></text>
+	</component>
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Les adresses MAC sont raccourcies à des fins de démonstration.]]></text>
+	</component>
+
+	<component id='ID_s1_bubble01'>
+		<text><![CDATA[Requête ARP : j'ai besoin de l'adresse MAC de la passerelle par défaut, 192.168.1.1]]></text>
+	</component>
+	
+	<component id='ID_s1_bubble02'>
+		<text><![CDATA[Je vais envoyer une réponse ARP et prétendre que je suis la passerelle par défaut !]]></text>
+	</component>
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[192.168.1.120<br/>MAC 00-0B]]></text>
+	</component>
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[192.168.1.110<br/>MAC 00-0A]]></text>
+	</component>
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[192.168.1.1<br/>MAC 00-0D]]></text>
+	</component>
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[192.168.1.50<br/>MAC 00-0C]]></text>
+	</component>
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[G0/0]]></text>
+	</component>
+	
+</textcomponents>

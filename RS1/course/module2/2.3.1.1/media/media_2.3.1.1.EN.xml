@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<!-- Slide 1 -->
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Connecting End Devices</b>]]></text>
+</component>
+<component id="ID_ins_title">
+  <text><![CDATA[Devices Requiring IP Addresses]]></text> 
+  </component>
+  <component id="ID_ins_body">
+  <text><![CDATA[<textformat blockindent='-16'><ul><LI>Computers (work stations, laptops, file servers, web servers)</LI><LI>Network printers</LI><LI>VoIP phones</LI><LI>Security cameras</LI><LI>Smart phones</LI><LI>Mobile handheld devices (such as wireless barcode scanners)</LI></ul></textformat>]]></text> 
+  </component>
+<!-- End Slide 1 -->
+
+
+<!-- Slide 2 -->
+
+	<component id='ID_s2_title'>
+		<text><![CDATA[<b>Configuring a Static IP Address on a Host</b>]]></text>
+	</component>
+
+
+<!-- End Slide 2 -->
+
+
+</textcomponents>

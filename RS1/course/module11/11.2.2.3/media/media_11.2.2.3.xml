@@ -1,0 +1,183 @@
+<textcomponents>
+    <!--Slide 1-->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Attaque de mot de passe</b>]]></text>
+    </component>
+    <component id='ID_s1_TB_header'>
+        <text>
+            <![CDATA[Les pirates peuvent lancer différents types d'attaques de mots de passe]]>
+        </text>
+    </component>
+    <component id='ID_s1_TB_body'>
+        <text>
+            <![CDATA[<textformat blockindent="-18"><li>Attaques en force</li><li>Chevaux de Troie</li><li>Analyseurs de paquets</li></textformat>]]>
+        </text>
+    </component>
+    <!--Slide 2-->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Exploitation de la confiance</b>]]></text>
+    </component>
+    <component id='ID_s2_table'>
+        <text>
+            <![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>				
+			<tr>
+				<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#ffffff'><b>Network OS</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='11' color='#ffffff'><b>Trust Models</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Windows</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Domains Active Directory (AD)</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Linux and UNIX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Network File System (NFS) Network Information Service Plus (NIS+)</font></td>
+				</tr>	
+			</table>]]>
+        </text>
+    </component>
+
+    <component id="ID_s2_txt01">
+		<text><![CDATA[Système A]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Système B]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Pirate]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Le système A fait confiance au système B.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Le système B fait confiance à n'importe qui.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Objectif :<br/>un pirate veut accéder au système A.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[user = psmith ;<br/>Pat Smith]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+		<text><![CDATA[user = psmith ; Pat Smith]]></text>
+	</component>
+	
+	<component id="ID_s2_txt09">
+		<text><![CDATA[Compromis par le pirate<br/>user=psmith ; Pat Smith]]></text>
+	</component>
+	
+	<component id="ID_s2_bubble01"> 
+		<text><![CDATA[<font color="#ffffff">J'ai pris possession du système B, j'ai à présent accès au système A.</font>]]></text> 
+	</component>
+
+	<component id="ID_s2_bubble02"> 
+		<text><![CDATA[<font color="#ffffff">Je ne peux pas accéder au système A, mais le système B est ouvert.</font>]]></text> 
+	</component>
+    <!-- 
+    <component id="ID_s2_txt05">
+        <text>
+            <![CDATA[]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt06">
+        <text>
+            <![CDATA[Le pirate accède au système A.]]>
+        </text>
+    </component>
+     -->
+    <!--Slide 3-->
+    <component id="ID_s3_title">
+        <text>
+            <![CDATA[<b>Redirection de port</b>]]></text>
+    </component>
+    <component id='ID_s3_TB_body'>
+        <text>
+            <![CDATA[La redirection de port est une attaque fondée sur l'exploitation de la confiance qui utilise un hôte compromis pour faire passer, via un pare-feu, un trafic qui serait normalement bloqué. Ce type d'attaque est principalement limité par l'utilisation de modèles de confiance appropriés. Un logiciel antivirus et un système IDS sur l'hôte permettent de détecter et d'empêcher l'installation d'utilitaires de redirection de port sur cet hôte par le pirate.]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt01">
+        <text>
+            <![CDATA[<b>Pirate</b>]]></text>
+    </component>
+    <component id="ID_s3_txt02">
+        <text>
+            <![CDATA[<b>Le pirate installe un logiciel sur l'hôte A.</b>]]></text>
+    </component>
+    <component id="ID_s3_txt03REMOVED">
+        <text>
+            <![CDATA[<b>Source : Pirate<br/>Destination : B<br/>Port : 23</b>]]></text>
+    </component>
+    <component id="ID_s3_txt04">
+        <text>
+            <![CDATA[<b>Hôte compromis A</b>]]></text>
+    </component>
+    <component id="ID_s3_txt05">
+        <text>
+            <![CDATA[<b>Le pirate accède à l'hôte B via un autre port.</b>]]></text>
+    </component>
+    <component id="ID_s3_txt06">
+        <text>
+            <![CDATA[<b>Hôte B</b>]]></text>
+    </component>
+    <!--Slide 4-->
+    <component id="ID_s4_title">
+        <text>
+            <![CDATA[<b>L'homme du milieu (Man in the Middle)</b>]]></text>
+    </component>
+    <component id="ID_s4_txt01">
+        <text>
+            <![CDATA[Victime]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt02">
+        <text>
+            <![CDATA[<b>La victime clique sur un lien dans un e-mail d'hameçonnage</b>]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt03">
+        <text>
+            <![CDATA[Serveur Web]]>
+        </text>
+    </component>
+    <component id="end">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+</textcomponents>

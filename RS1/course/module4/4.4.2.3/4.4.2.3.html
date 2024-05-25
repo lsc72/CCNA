@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.2.3 Topologie point à point logique</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Topologie point à point logique</h1>
+        <div>
+          <p>Les nœuds finaux communiquant dans un réseau point à point peuvent être physiquement connectés via des périphériques intermédiaires. Cependant, l'utilisation de périphériques physiques sur un réseau n'affecte pas la topologie logique. </p>
+          <p>Comme l'illustre la figure 1, les nœuds source et de destination peuvent être indirectement connectés l'un à l'autre sur une distance géographique quelconque. Dans certains cas, la connexion logique établie entre les nœuds forme un circuit nommé circuit virtuel. Un circuit virtuel est une connexion logique établie au sein d'un réseau entre deux périphériques réseau. Les deux nœuds situés aux extrémités du circuit virtuel s'échangent les trames. Cela se produit même si les trames sont dirigées via des périphériques intermédiaires, comme illustré à la figure 2. Les circuits virtuels sont d'importants composants de communication logiques qu'utilisent certaines technologies de couche 2. </p>
+          <p>La méthode d'accès au support qu'utilise le protocole de liaison de données est déterminée par la topologie point à point logique et non pas par la topologie physique. Cela signifie que la connexion point à point logique établie entre deux nœuds n'est pas nécessairement établie entre deux nœuds physiques à chaque extrémité d'une liaison physique. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows two routers connected with a point to point connection through a cloud.  The cloud is empty. Figure 2 shows the same two routers connected with a point to point connection through a cloud.  This cloud has several pieces of network equipment.  This demonstrates that sometimes a point to point is not a physical wire connecting two routers.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

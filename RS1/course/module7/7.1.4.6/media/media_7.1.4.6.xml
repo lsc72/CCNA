@@ -1,0 +1,59 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Récapitulatif de l'adressage par classe</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Classes D et E<br/>12,5 %</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Classe A<br/>50 %</b>]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Classe B<br/>25 %</b>]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Classe C<br/>12,5 %</b>]]></text>
+	</component>
+
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Classe A</b>]]></text>
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[Nombre total de réseaux : 128]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Nombre total d'hôtes/réseau :	16 777 214]]></text>
+	</component>
+
+
+
+	<component id="ID_txt08">
+		<text><![CDATA[<b>Classe B</b>]]></text>
+	</component>
+
+	<component id="ID_txt09">
+		<text><![CDATA[Nombre total de réseaux : 16 384]]></text>
+	</component>
+
+	<component id="ID_txt10">
+		<text><![CDATA[Nombre total d'hôtes/réseau :	65 534]]></text>
+	</component>
+
+
+	<component id="ID_txt11">
+		<text><![CDATA[<b>Classe C</b>]]></text>
+	</component>
+
+	<component id="ID_txt12">
+		<text><![CDATA[Nombre total de réseaux : 2 097 152]]></text>
+	</component>
+
+	<component id="ID_txt13">
+		<text><![CDATA[Nombre total d'hôtes/réseau :	254]]></text>
+	</component>
+
+</textcomponents>

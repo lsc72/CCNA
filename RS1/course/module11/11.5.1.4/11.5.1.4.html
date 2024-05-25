@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.5.1.4 Chapitre 11 : Conception d&#x0027;un réseau de petite taille</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.5.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 11 : Conception d&#x0027;un réseau de petite taille</h1>
+        <div>
+          <p>Pour répondre aux besoins des utilisateurs, même les réseaux de petite taille doivent faire l'objet d'une planification et d'une conception. La planification garantit que tous les besoins, les facteurs de coûts et les options de déploiement sont pris en compte. La fiabilité, l'évolutivité et la disponibilité sont des aspects essentiels de la conception d'un réseau. </p>
+          <p></p>
+          <p>La prise en charge et le développement d'un petit réseau requièrent une bonne connaissance des protocoles et des applications de réseau exécutés sur le réseau concerné. Les analyseurs de protocoles permettent à un professionnel des réseaux de compiler rapidement des données statistiques à propos des flux de trafic sur un réseau. Les informations collectées par l'analyseur de protocole sont évaluées en fonction de la source et de la destination du trafic, ainsi que du type de trafic envoyé. L'analyse peut ensuite être utilisée par un technicien réseau pour déterminer comment améliorer la gestion du trafic. Les protocoles réseau les plus courants sont les suivants : DNS, Telnet, SMTP, POP, DHCP, HTTP et FTP.</p>
+          <p></p>
+          <p>Lors de la planification de la mise en œuvre d'un réseau, il est indispensable de tenir compte des menaces et des failles de sécurité potentielles. Tous les périphériques du réseau doivent être sécurisés. Cela inclut les routeurs, les commutateurs, les périphériques des utilisateurs finaux et même les dispositifs de sécurité. Les réseaux doivent être protégés contre les logiciels malveillants tels que les virus, les chevaux de Troie et les vers. Les logiciels antivirus peuvent détecter la plupart des virus et des chevaux de Troie et les empêcher de se propager dans le réseau. La meilleure façon de limiter les risques d'attaque de ver est de télécharger les mises à jour de sécurité du fournisseur du système d'exploitation et d'appliquer des correctifs sur tous les systèmes vulnérables. </p>
+          <p></p>
+          <p>Les réseaux doivent également être protégés contre les attaques de réseau. Celles-ci peuvent être classées en trois catégories principales : les attaques de reconnaissance, les attaques par accès et les attaques par déni de service. Plusieurs méthodes permettent de protéger un réseau contre les attaques. </p>
+          <p>
+            <ul>
+              <li>Les services de sécurité réseau d'authentification, d'autorisation et de gestion des comptes fournissent la structure principale permettant de mettre en place un contrôle d'accès sur un périphérique réseau. Ces services permettent de contrôler les utilisateurs autorisés à accéder à un réseau (authentification), ce que ces derniers peuvent faire lorsqu'ils sont connectés (autorisation) et les actions qu'ils exécutent lors de l'accès au réseau (gestion des comptes).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Un pare-feu est l'un des outils de sécurité les plus efficaces pour protéger les utilisateurs internes du réseau contre les menaces externes. Un pare-feu se trouve entre deux réseaux, ou plus, et contrôle le trafic entre eux tout en contribuant à interdire les accès non autorisés.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Pour protéger les périphériques réseau, il est important d'utiliser des mots de passe forts. En outre, si des périphériques réseau font l'objet d'un accès à distance, il est vivement recommandé d'activer SSH à la place du protocole Telnet non sécurisé. </li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Après la mise en œuvre du réseau, l'administrateur doit être en mesure de le contrôler et d'assurer sa connectivité. Plusieurs commandes permettent d'y parvenir. Pour tester la connectivité réseau à des destinations locales et distantes, on utilise généralement des commandes telles que <b>ping</b>, <b>telnet</b> et <b>traceroute</b>. </p>
+          <p></p>
+          <p>Sur les périphériques Cisco IOS, la commande <b>show version</b> peut être utilisée pour vérifier et dépanner certains composants matériels et logiciels de base utilisés lors du processus de démarrage. Pour afficher des informations relatives à toutes les interfaces réseau d'un routeur, on utilise la commande <b>show ip interface</b>. La commande <b>show ip interface brief</b> permet d'afficher un résultat plus abrégé que la commande <b>show ip interface</b>. CDP (Cisco Discovery Protocol) est un protocole propriétaire de Cisco qui s'exécute au niveau de la couche liaison de données. Puisque le protocole CDP fonctionne au niveau de la couche liaison de données, deux périphériques réseau Cisco ou plus, tels que des routeurs prenant en charge différents protocoles de couche réseau, peuvent échanger des informations même si la connectivité de couche 3 n'existe pas.</p>
+          <p></p>
+          <p>Les fichiers de configuration Cisco IOS tels que startup-config (configuration de démarrage) et running-config (configuration en cours) doivent être archivés. Ils peuvent être enregistrés dans un fichier texte ou être stockés sur un serveur TFTP. Certains modèles de routeur possèdent également un port USB et permettent ainsi de sauvegarder les fichiers sur un périphérique de stockage USB. Si nécessaire, ces fichiers peuvent être copiés vers le routeur ou le commutateur à partir du serveur TFTP ou du périphérique USB.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

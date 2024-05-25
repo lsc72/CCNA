@@ -1,0 +1,33 @@
+﻿<textcomponents>
+<component id="ID_title">
+	<text><![CDATA[<b>Primary Command Modes</b>]]></text>
+</component>
+ 
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+	<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+        <td width="160" bgcolor='#666263' valign="top"><font color='#ffffff'><b>Command Mode</b></font></td>
+		<td width="260" bgcolor='#666263' valign="top" class="width"><font color='#ffffff'><b>Description</b></font> </td>
+		<td bgcolor='#666263' valign="top"><font color='#ffffff'><b>Default Device Prompt</b></font> </td>
+	 </tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>User Exec Mode</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-16'><ul><li>Mode allows access to only a limited number of basic monitoring commands.</li><li>It is often referred to as “view-only” mode.</li></ul></textformat></font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536' face="_typewriter" color="#000000">Switch><br/>Router></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Privileged EXEC Mode</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-16'><ul><li>Mode allows access to all commands and features.</li><li>The user can use any monitoring commands and execute configuration and management commands.</li></ul></textformat></font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536' face="_typewriter" color="#000000">Switch#<br/>Router#</font></td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

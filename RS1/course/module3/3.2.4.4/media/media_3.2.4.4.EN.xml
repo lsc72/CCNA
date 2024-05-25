@@ -1,0 +1,47 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Comparing the OSI Model and the TCP/IP Model</b>]]></text>
+</component>
+<component id="ID_txt01">
+  <text><![CDATA[<b>OSI Model</b>]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Application]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Presentation]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Session]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[Transport]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[Network]]></text> 
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[Data Link]]></text> 
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[Physical]]></text> 
+  </component>
+<component id="ID_txt09">
+  <text><![CDATA[<b>TCP/IP Model</b>]]></text> 
+  </component>
+<component id="ID_txt10">
+  <text><![CDATA[Application]]></text> 
+  </component>
+<component id="ID_txt11">
+  <text><![CDATA[Transport]]></text> 
+  </component>
+<component id="ID_txt12">
+  <text><![CDATA[Internet]]></text> 
+  </component>
+<component id="ID_txt13">
+  <text><![CDATA[Network Access]]></text> 
+  </component>
+<component id="ID_txt14">
+  <text><![CDATA[The key similarities are in the transport and network layers; however, the two models differ in how they relate to the layers above and below each layer.]]></text> 
+  </component>
+</textcomponents>

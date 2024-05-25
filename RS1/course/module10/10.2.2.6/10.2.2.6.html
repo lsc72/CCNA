@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.6 Fonctionnement du protocole DHCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fonctionnement du protocole DHCP</h1>
+        <div>
+          <p>Comme le montre la figure, lorsqu'un périphérique IPv4 configuré pour le protocole DHCP démarre ou se connecte au réseau, le client diffuse un message de détection DHCP (DHCPDISCOVER) pour identifier les serveurs DHCP disponibles sur le réseau. Un serveur DHCP répond par un message d'offre DHCP (DHCPOFFER), qui offre un bail au client. Ce message contient l'adresse IPv4 et le masque de sous-réseau à attribuer, l'adresse IPv4 du serveur DNS et l'adresse IPv4 de la passerelle par défaut. L'offre de bail indique également la durée du bail.</p>
+          <p>Le client peut recevoir plusieurs messages DHCP OFFER si le réseau local comporte plusieurs serveurs DHCP. Il doit donc effectuer un choix et envoyer une requête DHCP (DHCPREQUEST) qui identifie explicitement le serveur et l'offre de bail qu'il accepte. Un client peut choisir de demander une adresse que le serveur lui a déjà attribuée précédemment. </p>
+          <p>En supposant que l'adresse IPv4 demandée par le client ou offerte par le serveur est encore disponible, le serveur renvoie un message d'accusé de réception DHCP (DHCPACK) confirmant au client que le bail est conclu. Si l'offre n'est plus valide, le serveur sélectionné répond par un message d'accusé de réception DHCP négatif (DHCPNAK). Si un message DHCPNAK est renvoyé, le processus de sélection doit recommencer avec un nouveau message DHCPDISCOVER transmis. Une fois que le client obtient le bail, celui-ci doit être renouvelé avant son expiration via un autre message DHCPREQUEST.</p>
+          <p>Le serveur DHCP s'assure que toutes les adresses IP sont uniques (une même adresse IP ne peut pas être attribuée à deux périphériques réseau différents en même temps). La plupart des fournisseurs Internet utilisent le protocole DHCP pour attribuer des adresses à leurs clients.</p>
+          <p>Le protocole DHCPv6 possède un ensemble de messages similaires à ceux illustrés dans la figure et relatifs à DHCP pour IPv4. Les messages DHCPv6 sont SOLICIT, ADVERTISE, INFORMATION REQUEST et REPLY.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the DHCP conversation between a host and a server.  There are 4 steps listed.  DHCP Discover, DHCP offer, DHCP request, and DHCP acknowledgment.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.4 Accès aux supports</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Accès aux supports</h1>
+        <div>
+          <p>Différentes méthodes de contrôle d'accès au support peuvent être requises lors d'une même communication. Chaque environnement réseau que les paquets rencontrent alors qu'ils voyagent d'un hôte local à un hôte distant peut présenter différentes caractéristiques. Par exemple, un réseau local Ethernet se compose de plusieurs hôtes qui sont en concurrence pour accéder au support réseau. Les liaisons série consistent en une connexion directe entre deux périphériques. </p>
+          <p>Les interfaces de routeur encapsulent le paquet dans la trame appropriée et une méthode adéquate de contrôle d'accès au support est utilisée pour accéder à chaque liaison. Un échange de paquets de couche réseau peut impliquer de nombreuses transitions de support et de couches liaison de données. </p>
+          <p>À chaque tronçon le long du chemin, un routeur :</p>
+          <p>
+            <ul>
+              <li>accepte une trame d'un support.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>désencapsule la trame.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>réencapsule le paquet dans une nouvelle trame.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>achemine la nouvelle trame appropriée jusqu'au support de ce segment du réseau physique.</li>
+            </ul>
+          </p>
+          <p>Le routeur présenté dans la figure comporte une interface Ethernet pour se connecter au réseau local et une interface série pour se connecter au réseau étendu. Pour traiter les trames, le routeur utilise des services de couche liaison de données afin de recevoir la trame d'un support, de désencapsuler cette trame dans l'unité de données de protocole de la couche 3, de réencapsuler l'unité de données de protocole dans une nouvelle trame et de placer la trame sur le support de la liaison suivante du réseau.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an animation that shows how the frame header and trailer change depending on the media.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

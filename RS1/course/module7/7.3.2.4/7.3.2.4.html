@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.2.4 Traceroute - Test du chemin</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Traceroute - Test du chemin</h1>
+        <div>
+          <p>La commande ping permet de tester la connectivité entre deux hôtes, mais ne fournit pas d'informations sur les détails des périphériques entre les hôtes. Traceroute (tracert) est un utilitaire qui génère la liste des tronçons empruntés sur le chemin. Cette liste peut fournir d'importantes informations pour la vérification et le dépannage. Si les données parviennent à destination, la commande affiche la liste des interfaces de tous les routeurs situés entre les hôtes. Si les données restent bloquées au niveau d'un tronçon, l'adresse du dernier routeur ayant répondu à la commande peut fournir une indication sur l'endroit où se situe le problème ou sur d'éventuelles restrictions de sécurité.</p>
+          <p>
+            <b>Durée de transmission ou RTT (Round Trip Time)</b>
+          </p>
+          <p>L'exécution de la commande traceroute fournit la durée de transmission sur chacun des tronçons rencontrés sur le chemin et indique si un tronçon n'a pas répondu. La durée de transmission correspond à la durée nécessaire à un paquet pour atteindre l'hôte distant, plus le temps mis par l'hôte pour répondre. Un astérisque (*) indique un paquet perdu ou sans réponse. </p>
+          <p>Cette information permet de localiser un routeur problématique sur le chemin. Si un tronçon est associé à des temps de réponse longs ou à une perte de données, cela indique que les ressources du routeur ou que ses connexions sont saturées.</p>
+          <p>
+            <b>TTL IPv4 et limite du nombre de tronçons IPv6</b>
+          </p>
+          <p>La commande traceroute utilise une fonction du champ TTL du protocole IPv4 et le champ de limite de nombre de tronçons du protocole IPv6 dans les en-têtes de couche 3, ainsi que le message ICMP de dépassement de délai. </p>
+          <p>Lancez l’animation de la figure pour visualiser l’utilisation du paramètre TTL par l’utilitaire traceroute. </p>
+          <p>La première séquence des messages envoyés par traceroute contient un champ TTL égal à 1. Cela entraîne l'expiration du champ TTL de durée de vie du paquet IPv4 au niveau du premier routeur. Ce routeur répond ensuite en envoyant un message ICMPv4. L’utilitaire traceroute dispose à présent de l’adresse du premier tronçon.</p>
+          <p>Puis, il incrémente progressivement le champ TTL (2, 3, 4, etc.) pour chaque séquence de messages. Cela permet d’obtenir l’adresse de chaque tronçon, à mesure que les paquets expirent sur le chemin restant. Le champ TTL est incrémenté jusqu'à ce que la destination soit atteinte ou jusqu'à une valeur maximale prédéfinie.</p>
+          <p>Après que la destination finale a été atteinte, l'hôte répond par un message ICMP Port Unreachable (port inaccessible) ou ICMP Echo Reply (réponse d'écho), à la place du message ICMP Time Exceeded (délai dépassé).</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an animation of the trace route process.  A host forms an echo request with a TTL of one and a destination IP address and sends the packet.  The command line syntax for the example is trace r t one hundred ninety two dot one hundred sixty eight dot one dot two.  The first router receives this packet and it decrements the TTL by one since it is a hop.  The TTL is now zero so the packet is returned to the sender.  The sending host does not receive the expected echo reply so it increases the TTL to a value of two and resends the packet.  The first router receives the packet and decrements the TTL by one.  The TTL now has a value of one so the router sends the packet to the next router, and this router will decrement the TTL by one.  Now that the TTL is zero the router returns the packet to the sender.  The sender increments the TTL to three and again sends the packet through the network.  When the third router receives the packet the TTL is decremented to zero and the packet is returned to the sender.  Still not receiving an echo reply, the sender increases the TTL to four and sends it across the network.  The packet moves through three routers and now has a TTL of one.  The receiving host receives the packet and sends back the echo reply to the sender.  </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

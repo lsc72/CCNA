@@ -1,0 +1,62 @@
+<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Couche liaison de données</b></font>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Les protocoles de couche liaison de données régissent la manière dont une trame est formatée pour être utilisée sur différents supports.]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Différents protocoles peuvent être utilisés pour différents supports.]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[À chaque tronçon le long du chemin, un périphérique intermédiaire accepte les trames d'un support, décapsule les trames, puis transmet les paquets dans une nouvelle trame. Les en-têtes de chaque trame sont formatés spécifiquement pour le support qu'ils vont traverser.]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Trame]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Paris]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Japon]]></text>
+</component><!-- more info --><component id="ID_InfoTitle">		
+<text><![CDATA[<b>Plus d'infos</b>]]></text>	
+</component>
+
+<component id="ID_InfoBody">		
+<text><![CDATA[Il est important de comprendre la signification du terme « support » dans le contexte de ce chapitre. Dans ce contexte, ce terme fait référence au matériel qui transporte les signaux représentant les données transmises. Un support est le câble de cuivre, la fibre optique ou l'air à travers lequel voyagent les signaux. Dans ce chapitre, le terme « support » ne fait pas référence au même contenu (par exemple, audio, image, télévision et vidéo) que celui auquel il est fait référence lorsque l'on parle de contenu numérique et de multimédia.<br/><br/>Un réseau physique diffère d'un réseau logique. Les réseaux logiques sont des structures définies au niveau de la couche réseau par l'organisation du système d'adressage hiérarchique. Les réseaux physiques représentent l'interconnexion des périphériques sur un support commun. Un réseau physique est parfois également nommé segment de réseau.]]></text>
+</component>
+
+<component id="ID_TipText">
+<text><![CDATA[Plus d'infos]]></text>
+</component><!-- controller --><component id="end">
+	<text><![CDATA[Fin]]></text>
+</component>
+
+<component id="fforward">
+	<text><![CDATA[Avance rapide]]></text>
+</component>
+
+<component id="pause">
+	<text><![CDATA[Pause]]></text>
+</component>
+
+<component id="play">
+	<text><![CDATA[Lecture]]></text>
+</component>
+
+<component id="rewind">
+	<text><![CDATA[Rembobiner]]></text>
+</component>
+
+<component id="start">
+	<text><![CDATA[Début]]></text>
+</component>
+
+</textcomponents>

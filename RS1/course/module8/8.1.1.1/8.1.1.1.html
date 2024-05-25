@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.1 Domaines de diffusion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Domaines de diffusion</h1>
+        <div>
+          <p>Dans un réseau LAN Ethernet, les périphériques utilisent des diffusions pour localiser les éléments suivants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Les autres périphériques</b> : les périphériques utilisent le protocole ARP qui envoie des diffusions de couche 2 à une adresse IPv4 connue du réseau local pour connaître son adresse MAC. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Les services : </b>en règle générale, les configurations d'adresse IPv4 des hôtes sont définies via le protocole DHCP, qui envoie des messages de diffusion sur le réseau local afin de localiser un serveur DHCP.</li>
+            </ul>
+          </p>
+          <p>Les commutateurs diffusent les messages de diffusion sur toutes les interfaces, sauf celle d'où les messages proviennent. Par exemple, si un commutateur de la figure ci-contre recevait un message de diffusion, il le transmettrait aux autres commutateurs et utilisateurs connectés sur le réseau.</p>
+          <p>Les routeurs ne diffusent pas les messages de diffusion. Lorsqu'un routeur en reçoit un, il ne le transfère pas par ses autres interfaces. Par exemple, lorsque le routeur R1 reçoit un message de diffusion sur son interface Gigabit Ethernet 0/0, il ne le transfère pas par une autre interface. </p>
+          <p>De ce fait, chaque interface du routeur est connectée à un <i>domaine de diffusion</i> et les messages de diffusion sont uniquement diffusés au sein de son domaine.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router connected to the Internet and to another switch. The switch is connected to three other switches. A box encompasses all the switches and the router interface and is labeled “Broadcast Domain”.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

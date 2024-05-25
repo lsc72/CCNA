@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.1 Paramètres de mode duplex et de débit</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Paramètres de mode duplex et de débit</h1>
+        <div>
+          <p>Les paramètres de bande passante et de mode duplex de chaque port de commutateur sont des paramètres fondamentaux. Il est essentiel que ceux du port de commutateur et des périphériques connectés (ordinateur ou autre commutateur) soient en adéquation. </p>
+          <p>Deux types de paramètres duplex sont employés pour les communications sur les réseaux Ethernet : le mode semi-duplex et le mode duplex intégral.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Mode duplex intégral</b> : les deux extrémités de la connexion peuvent envoyer et recevoir des données simultanément. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mode semi-duplex</b> : une seule extrémité de la connexion peut envoyer des données à la fois. </li>
+            </ul>
+          </p>
+          <p>La négociation automatique est une option proposée sur la plupart des commutateurs Ethernet et des cartes réseau. Elle permet l'échange automatique d'informations sur le débit et le mode duplex entre deux périphériques. Le commutateur et le périphérique connecté choisissent le mode le plus performant. Le mode duplex intégral est choisi si les deux périphériques sont compatibles et que la bande passante commune la plus importante est sélectionnée.</p>
+          <p>Par exemple, sur la figure 1, la carte réseau Ethernet de PC-A peut fonctionner en mode duplex intégral ou en mode semi-duplex, et à un débit de 10 ou 100 Mbit/s. PC-A est connecté au commutateur S1 sur le port 1 qui peut fonctionner en mode duplex intégral ou semi-duplex, et à un débit de 10, 100 ou 1 000 Mbit/s (1 Gbit/s). Si les deux périphériques utilisent la négociation automatique, le mode de fonctionnement est duplex intégral, avec un débit de 100 Mbit/s.</p>
+          <p>
+            <b>Remarque</b> : sur la plupart des commutateurs et des cartes réseau Ethernet Cisco, la négociation automatique est définie par défaut pour le débit et le mode duplex. Les ports Gigabit Ethernet fonctionnent uniquement en mode duplex intégral.</p>
+          <p>
+            <b>Incohérence dans les paramètres duplex</b>
+          </p>
+          <p>L'un des principaux problèmes de performances sur les liaisons Ethernet à 10/100 Mbit/s survient lorsque l'un des ports de la liaison fonctionne en mode semi-duplex alors que l'autre fonctionne en mode duplex intégral, comme illustré sur la figure 2. Cela se produit lorsque l'un des ports ou les deux ports d'une liaison sont réinitialisés et qu'après le processus de négociation automatique, les deux partenaires de la liaison ne possèdent plus la même configuration. Le problème peut également survenir lorsque des utilisateurs reconfigurent un côté d'une liaison et oublient d'en faire autant de l'autre côté. La négociation automatique doit être soit activée soit désactivée des deux côtés.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a PC connected to a switch. The two devices have autonegotiated to operate at full duplex and at 100 Mb/s. Figure 2 shows a PC connected to a switch. The PC is operating at full duplex but the switch is operating at half-duplex and is getting collisions.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+﻿<textcomponents>
+        <component id="ID_s1_title">
+        <text><![CDATA[<b>Troubleshoot using Terminal Monitor and Debug</b>]]></text>
+	</component>
+
+        <!--Syntax Checker Button Text-->
+		<component id="ID_s1_reset">
+			<text><![CDATA[Reset]]></text>
+		</component>
+
+        <component id="ID_s1_showme">
+			<text><![CDATA[Show Me]]></text>
+		</component>
+
+        <component id="ID_s1_showall">
+			<text><![CDATA[Show All]]></text>
+		</component>
+	<!--End Syntax Checker Button Text-->
+
+        <component id="ID_s1_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+                <feedback id="fb"><![CDATA[<b><font face="_sans" color="#FFFFFF">***You must enter the exact and full command. Commands that include a name or password are case-sensitive.***</font></b> ]]></feedback>
+              <existingcommands><![CDATA[<font face="_sans"><b>Issue the command to allow log messages to be sent to your remote session.</b></font>]]></existingcommands>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ terminal monitor]]></correctresponse>
+                                <deviceresponse><![CDATA[R1#]]></deviceresponse>
+                       <instruction><![CDATA[<font face="_sans"><b><ul>Issue the following troubleshooting commands:<li>Issue the debug command that will monitor the status of ICMP messages on R1.</li><li>Ping a device with an IP address of 10.0.0.10.</li><li>Turn off all debugging.</li></font>]]></instruction>
+              </command>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ debug ip icmp]]></correctresponse>
+              </command>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ ping 10.0.0.10]]></correctresponse>
+                                <deviceresponse><![CDATA[Type escape sequence to abort.<br>Sending 5, 100-byte ICMP Echos to 10.0.0.10, timeout is 2 seconds:<br>!!!!!<br>Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms<br>*Nov 13 12:56:08.147: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1, <br>topology BASE, dscp 0 topoid 0<br>*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1, <br>topology BASE, dscp 0 topoid 0<br>*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1, <br>topology BASE, dscp 0 topoid 0<br>*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1, <br>topology BASE, dscp 0 topoid 0<br>*Nov 13 12:56:08.151: ICMP: echo reply rcvd, src 10.0.0.10, dst 10.0.0.1, <br>topology BASE, dscp 0 topoid 0]]></deviceresponse>
+              </command>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ undebug all]]></correctresponse>
+                                <deviceresponse><![CDATA[All possible debugging has been turned off<br>R1#<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font face="_sans"><b>You have successfully used the Terminal Monitor and Debug commands to troubleshoot.</font>]]></instruction>
+              </command>
+<command prompt=""/>
+ </component>
+</textcomponents>

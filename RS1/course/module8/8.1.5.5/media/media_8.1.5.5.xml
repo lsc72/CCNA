@@ -1,0 +1,29 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Topologie réseau VLSM résultante</b>]]></text>
+	</component>
+    <component id="ID_s2_title">
+		<text><![CDATA[<b>Topologie du réseau : sous-réseaux VLSM</b>]]></text>
+	</component>
+    <component id="ID_s3_title">
+		<text><![CDATA[<b>Topologie du réseau : sous-réseaux VLSM</b>]]></text>
+	</component>
+    <component id="ID_s4_title">
+		<text><![CDATA[<b>Topologie du réseau : sous-réseaux VLSM</b>]]></text>
+	</component>
+    <component id="ID_s5_title">
+		<text><![CDATA[<b>Topologie du réseau : sous-réseaux VLSM</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Bâtiment A</b>]]></text> 
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Bâtiment B</b>]]></text> 
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Bâtiment C</b>]]></text> 
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Bâtiment D</b>]]></text> 
+	</component>
+</textcomponents>

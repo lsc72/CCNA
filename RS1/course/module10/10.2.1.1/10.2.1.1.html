@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.1 HTTP (Hypertext Transfer Protocol) et HTML (Hypertext Markup Language)</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>HTTP (Hypertext Transfer Protocol) et HTML (Hypertext Markup Language)</h1>
+        <div>
+          <p>Lorsqu'une adresse web (ou URL) est tapée dans un navigateur web, ce dernier établit une connexion au service web s'exécutant sur le serveur à l'aide du protocole HTTP. L'URL et l'URI (Uniform Resource Identifier) sont les noms que la plupart des utilisateurs associent aux adresses web. </p>
+          <p>Pour mieux comprendre l'interaction entre le navigateur web et le client web, voyons comment une page web s'ouvre dans un navigateur. Dans cet exemple, utilisez l'URL http://www.cisco.com/index.html.</p>
+          <p>Dans un premier temps, le navigateur interprète les trois parties de l'URL : (voir illustration 1) </p>
+          <p>1. <b>http</b> (protocole ou schéma) ;</p>
+          <p>2. <b>www.cisco.com</b> (nom du serveur)</p>
+          <p>3. <b>index.html</b> (nom du fichier demandé)</p>
+          <p>Comme illustré à la figure 2, le navigateur fait ensuite appel à un serveur de noms pour convertir l'adresse www.cisco.com en une adresse numérique, qu'il utilise pour se connecter au serveur. Le navigateur envoie une requête GET au serveur et demande le fichier <b>index.html </b>en se conformant à la norme HTTP. Comme le montre la figure 3, le serveur envoie au navigateur le code HTML pour cette page web. Enfin, comme le montre la figure 4, le navigateur déchiffre le code HTML et met en forme la page pour la fenêtre du navigateur.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a server and client connected to a network where the client is using HTTP Figure 2 shows step one, the client requesting a web page. Figure 3 shows step two, the server response with an example of the response header. Figure 4 shows the web page rendering in a browser on the client.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

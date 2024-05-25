@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.2 Problèmes liés aux grands domaines de diffusion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problèmes liés aux grands domaines de diffusion</h1>
+        <div>
+          <p>Un grand domaine de diffusion est un réseau qui connecte de nombreux hôtes. Dans ce type de domaine, les hôtes peuvent générer un nombre excessif de diffusion et ainsi avoir un impact négatif sur le réseau. Sur la figure 1, LAN 1 connecte 400 utilisateurs qui pourraient générer un trafic de diffusion provoquant :</p>
+          <p>
+            <ul>
+              <li>un fonctionnement ralenti du réseau en raison de la quantité importante de trafic généré </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>un fonctionnement ralenti des périphériques puisque chacun doit accepter et traiter chaque paquet de diffusion</li>
+            </ul>
+          </p>
+          <p>La solution consiste à réduire la taille du réseau pour créer des domaines de diffusion plus petits. Ce processus s'appelle la <i>segmentation en sous-réseaux</i>. Ces espaces réseau plus petits sont appelés des <i>sous-réseaux</i>. </p>
+          <p>Dans l'exemple de la figure 2, les 400 utilisateurs sur LAN 1 portant l'adresse réseau 172.16.0.0 /16 ont été divisés en deux sous-réseaux de 200 utilisateurs chacun : 172.16.0.0 /24 et 172.16.1.0 /24. Les diffusions ne sont propagées qu'au sein des domaines de diffusion plus petits. Ainsi, une diffusion de LAN 1 ne se propage pas à LAN 2. </p>
+          <p>Notez que la longueur du préfixe est passée de /16 à /24. C'est le principe de base de la segmentation en sous-réseau : utiliser des bits d'hôte pour créer des sous-réseaux supplémentaires. </p>
+          <p>
+            <b>Remarque</b> : les termes <i>sous-réseau</i> et <i>réseau</i> sont souvent utilisés de manière interchangeable. La plupart des réseaux sont des sous-réseaux d'un bloc d'adresses plus grand.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router connected to the Internet and to another switch. The switch is connected to three other switches. A box encompasses all the switches and the router interface and is labeled “LAN1: 172.16.0.0/16 (400 users)”. Figure 2 shows a router connected to the Internet and two switches. Each switch is its on LAN with 200 users each.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

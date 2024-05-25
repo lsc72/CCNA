@@ -1,0 +1,12 @@
+<textcomponents>
+
+<component id="ID_titletxt">
+<text><![CDATA[Exploring the Network…]]></text>
+</component>
+
+
+<component id="ID_Bodytxt">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Communicating in a Network-Centric World</li><li>The Network as a Platform</li><li>LANs, WANs, and the Internet</li><li>The Changing Network Environment</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,119 @@
+<textcomponents>
+
+<component id="ID_s1_text01">
+<text><![CDATA[<b>Couche application</b>]]></text>
+</component>
+<component id="ID_s1_text02">
+<text><![CDATA[Nom du système]]></text>
+</component>
+<component id="ID_s1_text03">
+<text><![CDATA[Config hôte]]></text>
+</component>
+<component id="ID_s1_text04">
+<text><![CDATA[E-mail]]></text>
+</component>
+<component id="ID_s1_text05">
+<text><![CDATA[Transfert de fichiers]]></text>
+</component>
+<component id="ID_s1_text06">
+<text><![CDATA[Web]]></text>
+</component>
+<component id="ID_s1_text07REMOVED">
+<text><![CDATA[Cliquez sur chaque protocole d'application pour obtenir plus d'informations.]]></text>
+</component>
+
+
+<component id="ID_btn01">
+<text><![CDATA[<b>DNS</b>]]></text>
+</component>
+<component id="ID_btn02">
+<text><![CDATA[<b>BOOTP</b>]]></text>
+</component>
+<component id="ID_btn03">
+<text><![CDATA[<b>DHCP</b>]]></text>
+</component>
+<component id="ID_btn04">
+<text><![CDATA[<b>SMTP</b>]]></text>
+</component>
+<component id="ID_btn05">
+<text><![CDATA[<b>POP</b>]]></text>
+</component>
+<component id="ID_btn06">
+<text><![CDATA[<b>IMAP</b>]]></text>
+</component>
+<component id="ID_btn07">
+<text><![CDATA[<b>FTP</b>]]></text>
+</component>
+<component id="ID_btn08">
+<text><![CDATA[<b>TFTP</b>]]></text>
+</component>
+<component id="ID_btn09">
+<text><![CDATA[<b>HTTP</b>]]></text>
+</component>
+<component id="ID_btn10">
+<text><![CDATA[<b>HTTPS</b>]]></text>
+</component>
+
+
+<component id="ID_titleTxt01">
+<text><![CDATA[<b>Système (ou service) de noms de domaine (DNS) - ports TCP et UDP 53</b>]]></text>
+</component> 
+<component id="ID_bodyTxt01">
+<text><![CDATA[Traduit des noms de domaines (par exemple, cisco.com) en adresses IP]]></text>
+</component> 
+<component id="ID_titleTxt02">
+<text><![CDATA[<b>Protocole BOOTP (Bootstrap Protocol) - ports UDP client 68 et serveur 67</b> ]]></text>
+</component> 
+<component id="ID_bodyTxt02">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Permet à une station de travail sans disque de découvrir sa propre adresse IP, l'adresse IP d'un serveur BOOTP sur le réseau et le fichier à importer dans la mémoire pour démarrer la machine.</li><li>Le protocole DHCP remplace le protocole BOOTP.</li></ul></textformat>]]></text>
+</component> 
+<component id="ID_titleTxt03">
+<text><![CDATA[<b>Protocole DHCP (Dynamic Host Configuration Protocol) - ports UDP client 68 et serveur 67</b>]]></text>
+</component> 
+<component id="ID_bodyTxt03">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Attribue dynamiquement des adresses IP aux stations clientes au démarrage.</li><li>Permet aux adresses d'être réutilisées lorsqu'elles ne sont plus nécessaires.</li></ul>]]></text>
+</component>
+<component id="ID_titleTxt04">
+<text><![CDATA[<b>Protocole SMTP (Simple Mail Transfer Protocol) - port TCP 25</b>]]></text>
+</component> 
+<component id="ID_bodyTxt04">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Permet aux clients d'envoyer un e-mail à un serveur de messagerie.</li><li>Permet aux serveurs d'envoyer un e-mail à d'autres serveurs.</li></ul>]]></text>
+</component> 
+<component id="ID_titleTxt05">
+<text><![CDATA[<b>Protocole POP (Post Office Protocol) - port TCP 110</b>]]></text>
+</component> 
+<component id="ID_bodyTxt05">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Permet aux clients de récupérer des e-mails sur un serveur de messagerie.</li><li>Télécharge les e-mails du serveur de messagerie sur le bureau.</li></ul>]]></text>
+</component> 
+<component id="ID_titleTxt06">
+<text><![CDATA[<b>Protocole IMAP (Internet Message Access Protocol) - port TCP 143</b>]]></text>
+</component> 
+<component id="ID_bodyTxt06">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Permet aux clients d'accéder aux e-mails stockés sur un serveur de messagerie.</li><li>Conserve les messages sur le serveur.</li></ul>]]></text>
+</component> 
+<component id="ID_titleTxt07">
+<text><![CDATA[<b>Protocole FTP (File Transfer Protocol) - ports TCP 20 et 21</b>]]></text>
+</component> 
+<component id="ID_bodyTxt07">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Définit les règles qui permettent à l'utilisateur d'un hôte d'accéder à des fichiers sur un autre hôte du réseau et de transférer des fichiers vers un autre hôte du réseau.</li><li>Protocole d'acheminement des données fiable, orienté connexion et avec accusé de réception.</li></ul>]]></text>
+</component> 
+<component id="ID_titleTxt08">
+<text><![CDATA[<b>Protocole TFTP (Trivial File Transfer Protocol) - port UDP 69</b>]]></text>
+</component> 
+<component id="ID_bodyTxt08">
+<text><![CDATA[<textformat blockindent="-14"><ul><li>Protocole de transfert de fichiers simple et sans connexion.</li><li>Protocole d'acheminement de fichiers au mieux et sans accusé de réception.</li><li>Produit moins de surcharge que le protocole FTP.</li></ul>]]></text>
+</component> 
+<component id="ID_titleTxt09">
+<text><![CDATA[<b>Protocole HTTP (Hypertext Transfer Protocol) - ports TCP 80 et 8080</b>]]></text>
+</component> 
+<component id="ID_bodyTxt09">
+<text><![CDATA[Ensemble de règles permettant d'échanger du texte, des graphiques, des sons, des vidéos et autres fichiers multimédia sur le Web.]]></text>
+</component> 
+<component id="ID_titleTxt10">
+<text><![CDATA[<b>Protocole HTTPS (Hypertext Transfer Protocol Secure) - ports TCP et UDP 443</b>]]></text>
+</component> 
+<component id="ID_bodyTxt10">
+<text><![CDATA[<li>Le navigateur utilise le chiffrement pour sécuriser les communications HTTP.</li><li>Authentifie le site Web auquel votre navigateur se connecte.</li>]]></text>
+</component> 
+
+</textcomponents>

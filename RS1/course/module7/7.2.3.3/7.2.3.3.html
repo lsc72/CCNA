@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.3 Adresses de monodiffusion IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses de monodiffusion IPv6</h1>
+        <div>
+          <p>Une adresse de monodiffusion IPv6 identifie une interface sur un périphérique IPv6 de façon unique. Un paquet envoyé à une adresse de monodiffusion est reçu par l'interface correspondant à cette adresse. Comme c'est le cas avec l'IPv4, une adresse source IPv6 doit être une adresse de monodiffusion. L'adresse IPv6 de destination peut, quant à elle, être une adresse de monodiffusion ou de multidiffusion.</p>
+          <p>Les types d'adresses de diffusion IPv6 les plus courants sont les adresses de diffusion globale et les adresses de monodiffusion link-local.</p>
+          <p>
+            <b>monodiffusion globale</b>
+          </p>
+          <p>Une adresse de diffusion globale est similaire à une adresse IPv4 publique. Ces adresses sont uniques au monde et routables sur Internet. Les adresses de diffusion globale peuvent être configurées de manière statique ou attribuées dynamiquement. </p>
+          <p>
+            <b>Link-local</b>
+          </p>
+          <p>Les adresses link-local sont utilisées pour communiquer avec d'autres périphériques sur la même liaison locale. Dans le cadre de l'IPv6, le terme « link » (ou liaison) fait référence à un sous-réseau. Les adresses link-local sont confinées à une seule liaison. Leur caractère unique doit être confirmé uniquement sur cette liaison, car elles ne sont pas routables au-delà de la liaison. En d'autres termes, les routeurs ne transmettent aucun paquet avec une adresse source ou de destination link-local. </p>
+          <p>
+            <b>Adresse locale unique</b>
+          </p>
+          <p>L'adresse de monodiffusion locale unique est un autre type d'adresse de monodiffusion. Les adresses IPv6 locales uniques ont certains points communs avec les adresses privées RFC 1918 utilisées dans l'IPv4, mais présentent également d'importantes différences. Des adresses locales uniques sont utilisées pour l'adressage local au sein d'un site ou entre un nombre limité de sites. Ces adresses ne doivent pas être routables sur le réseau IPV6 global et ne doivent pas être traduites en adresses IPv6 globales. Les adresses locales uniques sont comprises entre FC00::/7 et FDFF::/7. </p>
+          <p>Avec l'IPv4, les adresses privées sont associées aux fonctions NAT/PAT pour fournir une traduction « plusieurs vers un seul » d'adresses privées en adresses publiques. Cette opération est effectuée en raison du caractère restreint de l'espace d'adressage IPv4. De nombreux sites utilisent également le caractère privé des adresses RFC 1918 pour sécuriser ou masquer leur réseau et limiter les risques. Cependant, ce n'est pas le but premier de ces technologies et l'IETF a toujours recommandé que les sites prennent les précautions de sécurité nécessaires au niveau de leur routeur connecté à Internet. Les adresses locales uniques peuvent être utilisées pour les périphériques qui n'auront jamais besoin d'être accessibles sur un autre réseau. </p>
+                  </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the six types of IPv6 unicast addresses including: Global Unicast; link-local; the loopback addreress, which is ::1/128; the unspecified address, which is ::/128; unique local with a range from FC00::/7 to FDFF::/7; and embedded IPv4.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.2 Problèmes d&#x0027;adressage IP sur des périphériques finaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problèmes d&#x0027;adressage IP sur des périphériques finaux</h1>
+        <div>
+          <p>Sous Windows, lorsque le périphérique ne parvient pas à contacter un serveur DHCP, Windows attribue automatiquement une adresse appartenant à la plage 169.254.0.0/16. Ce processus est conçu pour faciliter la communication sur le réseau local. C'est comme si Windows vous disait : « je vais utiliser cette adresse de la plage 169.254.0.0/16, car c'est la seule que j'ai réussi à obtenir ». Un ordinateur avec l'adresse 169.254.0.0/16 n'est généralement pas en mesure de communiquer avec d'autres périphériques du réseau, car il y a de fortes chances que ces périphériques n'appartiennent pas au réseau 169.254.0.0/16. Cette situation traduit un problème d'attribution automatique d'adresse IPv4 qui doit être résolu.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : les autres systèmes d'exploitation, tels que Linux et OS X, n'attribuent pas d'adresse IPv4 à l'interface réseau si la communication avec un serveur DHCP échoue.</p>
+          <p></p>
+          <p>La plupart des périphériques finaux sont configurés pour utiliser un serveur DHCP pour l'attribution automatique des adresses IPv4. Si le périphérique n'est pas en mesure de communiquer avec le serveur DHCP, le serveur ne pourra pas attribuer d'adresse IPv4 au réseau requis et le périphérique ne pourra pas communiquer.</p>
+          <p></p>
+          <p>Pour vérifier les adresses IP attribuées à un ordinateur Windows, utilisez la commande <b>ipconfig</b>, comme indiqué dans l'illustration.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘ipconfig’ with the IP address highlighted.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

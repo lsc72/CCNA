@@ -1,0 +1,60 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+        <text><![CDATA[<b>Characteristics of the IP Protocol</b>]]></text>
+    </component>
+    
+    <component id="ID_txt01">
+        <text><![CDATA[Frame]]></text>
+    </component>
+    
+    <component id="ID_txt02">
+        <text><![CDATA[IP Header]]></text>
+    </component>
+
+	<component id="ID_txt03">
+        <text><![CDATA[Data]]></text>
+    </component>
+	
+     <component id="ID_txt04">
+        <text><![CDATA[Source IP Address]]></text>
+    </component>
+
+     <component id="ID_txt05">
+        <text><![CDATA[Destination IP Address]]></text>
+    </component>
+
+    <component id="ID_txt06">
+        <text><![CDATA[Connectionless]]></text>
+    </component>
+
+     <component id="ID_txt07">
+        <text><![CDATA[Best Effort]]></text>
+    </component>
+
+     <component id="ID_txt08">
+        <text><![CDATA[Media Independent]]></text>
+    </component>
+
+	<component id="ID_s1_titleTxt01">
+        <text><![CDATA[Connectionless]]></text>
+    </component>
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[No connection with the destination is established before sending data packets.]]></text>
+    </component>
+
+	<component id="ID_s1_titleTxt02">
+        <text><![CDATA[Best Effort]]></text>
+    </component>
+	<component id="ID_s1_bodyTxt02">
+        <text><![CDATA[IP is inherently unreliable because packet delivery is not guaranteed.]]></text>
+    </component>
+	
+	<component id="ID_s1_titleTxt03">
+        <text><![CDATA[Media Independent]]></text>
+    </component>
+	<component id="ID_s1_bodyTxt03">
+        <text><![CDATA[Operation is independent of the medium (i.e., copper, fiber optic, or wireless) carrying the data.]]></text>
+    </component>
+	
+</textcomponents>

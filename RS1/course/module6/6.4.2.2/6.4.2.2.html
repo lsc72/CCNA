@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.2.2 Vérifier la configuration d&#x0027;une interface</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Vérifier la configuration d&#x0027;une interface</h1>
+        <div>
+          <p>Plusieurs commandes permettent de vérifier la configuration d'une interface. La plus utile est la commande <b>show ip interface brief</b>. Le résultat généré répertorie toutes les interfaces, leur adresse IPv4 et leur état actuel. Les interfaces configurées et connectées doivent afficher l'état « up » et le protocole « up ». Tout autre état indique un problème de configuration ou de câblage.</p>
+          <p>Vous pouvez vérifier la connectivité à partir de l'interface, à l'aide de la commande <b>ping</b>. Les routeurs Cisco envoient cinq requêtes ping consécutives et mesurent les durées de transmission minimale, moyenne et maximale. Les points d'exclamation permettent de vérifier la connectivité.</p>
+          <p>La figure 1 présente le résultat de la commande <b>show ip interface brief,</b> qui indique que toutes les interfaces LAN et la liaison WAN sont activées et opérationnelles. Notez que la commande <b>ping</b> a généré cinq points d'exclamation pour vérifier la connectivité au routeur R2.</p>
+          <p>Voici d'autres commandes de vérification des interfaces :</p>
+          <p>
+            <ul>
+              <li>
+                <b>show ip route</b>
+                <b>- </b>Affiche le contenu de la table de routage IPv4 stocké dans la mémoire vive.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>show interfaces</b>
+                <b>- </b>Affiche des statistiques pour toutes les interfaces d'un périphérique.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>show ip interface</b>
+                <b>- </b>Affiche des statistiques IPv4 pour toutes les interfaces d'un routeur.</li>
+            </ul>
+          </p>
+          <p>La figure 2 illustre le résultat de la commande <b>show ip route</b>. Notez les trois entrées du réseau connecté directement et les adresses IPv4 de leurs interfaces locales.</p>
+          <p>Pensez à enregistrer la configuration à l'aide de la commande <b>copy running-config startup-config</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows output from the “show ip interface brief” command and a successful ping. Figure 2 shows the output from the “show ip route” command verifying that the router has a entries in the routing table for all directly connected networks.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

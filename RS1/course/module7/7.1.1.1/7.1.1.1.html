@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.1 Adresses IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses IPv4</h1>
+        <div>
+          <p>Le format binaire est un système de numération utilisant les chiffres 0 et 1 qui sont appelés des <i>bits</i>. Le système de numération décimal utilise 10 chiffres, de 0 à 9. </p>
+          <p>Il est important de comprendre le système binaire puisque les hôtes, les serveurs et les périphériques réseau utilisent l'adressage binaire. Plus précisément, ils utilisent des adresses IPv4 binaires pour s'identifier, comme le montre la figure 1. </p>
+          <p>Chaque adresse est une chaîne de 32 bits divisée en quatre parties appelées <i>octets</i>. Chaque octet contient 8 bits séparés par un point. Par exemple, sur la figure, l'adresse IPv4 de PC1 est 11000000.10101000.00001010.00001010. L'adresse de sa passerelle par défaut serait celle de l'interface Gigabit Ethernet de R1, 11000000.10101000.00001010.00000001. </p>
+          <p>Il peut être difficile de s'en sortir avec les nombres binaires. Pour simplifier leur utilisation, les adresses IPv4 sont souvent exprimées en notation décimale à point, comme à la figure 2. L'adresse IPv4 de PC1 est 192.168.10.10 et celle de sa passerelle par défaut est 192.168.10.1. </p>
+          <p>la figure 3 compare l'adresse de PC1 au format décimal à point et au format binaire 32 bits.</p>
+          <p>Pour bien comprendre l'adressage réseau, il est important de connaître l'adressage binaire et de s'entraîner à convertir des adresses IPv4 entre le format binaire et le format décimal à point.</p>
+          <p>Cette section explique comment effectuer la conversion entre les systèmes de numération en base deux et en base 10. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with router connected to two LANs and to a cloud. Each LAN has a PC and there is a PC in the cloud. All the devices are labeled with their IP addresses in binary format, which is a series of 32 binary digits separated by a period at every 8th bit. Figure 2 shows the same topology as Figure 1. But now the devices are labeled with their IPv4 addresses in dotted decimal notation. Figure 3 shows the IP address 192.168.10.10 in dotted decimal format and in binary digits format.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

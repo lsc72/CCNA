@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.1 Représentation de l’adresse IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Représentation de l’adresse IPv6</h1>
+        <div>
+          <p>Les adresses IPv6 ont une longueur de 128 bits et sont notées sous forme de chaînes de valeurs hexadécimales. Tous les groupes de 4 bits sont représentés par un caractère hexadécimal unique ; pour un total de 32 valeurs hexadécimales, comme l'illustre la figure 1. Les adresses IPv6 ne sont pas sensibles à la casse et peuvent être notées en minuscules ou en majuscules. </p>
+          <p>
+            <b>Format privilégié</b>
+          </p>
+          <p>Comme l'illustre la figure 1, le format privilégié pour noter une adresse IPv6 est x:x:x:x:x:x:x:x, où chaque « x » est constitué de quatre valeurs hexadécimales. Pour faire référence aux 8 bits d'une adresse IPv4, nous utilisons le terme « octet ». Pour les adresses IPv6, « hextet » est le terme officieux qui désigne un segment de 16 bits ou de quatre valeurs hexadécimales. Chaque « x » équivaut à un hextet, 16 bits, ou à quatre caractères hexadécimaux.</p>
+          <p>Le format privilégié implique que l'adresse IPv6 soit écrite à l'aide de 32 caractères hexadécimaux. Cela ne signifie pas nécessairement que c'est la solution idéale pour représenter une adresse IPv6. Dans les pages suivantes, nous verrons deux règles permettant de réduire le nombre de chiffres requis pour représenter une adresse IPv6.</p>
+          <p>La figure 2 passe en revue la relation entre les formats décimal, binaire et hexadécimal. La figure 3 présente des exemples d'adresses IPv6 au format privilégié.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the format for an IPv4 address, which is eight sets of four hexadecimal values separated by colons. A set of four hexadecimal values is called a hextet. Figure 2 is a table listing the decimal and binary equivalents of the 16 hexadecimal digits. Figure 3 lists example IPv6 addresses in the preferred format. The preferred format of listing all 32 hexadecimal digits, each hextet separated by a colon. For example, 2001:0DB8:0000:1111:0000:0000:0000:0200.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

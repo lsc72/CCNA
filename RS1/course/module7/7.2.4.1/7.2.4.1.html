@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.1 Structure d&#x0027;une adresse de diffusion globale IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Structure d&#x0027;une adresse de diffusion globale IPv6</h1>
+        <div>
+          <p>Les adresses de diffusion globale  (GUA) IPv6 sont uniques au monde et routables (Internet IPv6). Ces adresses sont équivalentes aux adresses publiques IPv4. L'ICANN (Internet Committee for Assigned Names and Numbers), opérateur de l'IANA, attribue des blocs d'adresses IPv6 aux cinq organismes d'enregistrement Internet locaux. Actuellement, seules des adresses de diffusion globale dont les trois premiers bits sont 001 ou 2000::/3 sont attribuées. En d'autres termes, le premier chiffre hexadécimal d'une adresse de diffusion globale  (GUA) commence par 2 ou par 3. C'est uniquement 1/8e de l'espace d'adressage IPv6 total disponible : seule une infime partie est exclue pour les autres types d'adresse de monodiffusion et de multidiffusion. </p>
+          <p>
+            <b>Remarque</b> : l'adresse 2001:0DB8::/32 a été réservée à des fins de documentation, notamment pour être utilisée dans des exemples. </p>
+          <p>La figure 1 illustre la structure et la plage d'adresses de diffusion globale.</p>
+          <p>Une adresse de diffusion globale se compose de trois parties :</p>
+          <p>
+            <ul>
+              <li>Préfixe de routage global</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ID de sous-réseau</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ID d'interface</li>
+            </ul>
+          </p>
+          <p>
+            <b>Préfixe de routage global</b>
+          </p>
+          <p>Le préfixe de routage global est le préfixe ou la partie réseau de l'adresse attribué(e) par le fournisseur (par exemple un FAI) à un client ou à un site. Généralement, les RIR attribuent le préfixe global de routage /48 aux clients, à savoir tous les clients potentiels, des réseaux d'entreprise aux réseaux particuliers. </p>
+          <p>La figure 2 illustre la structure d'une adresse de diffusion globale utilisant le préfixe de routage global /48. Les préfixes /48 sont les préfixes de routage global les plus couramment attribués et seront utilisés dans la plupart des exemples de ce cours. </p>
+          <p>Par exemple, l'adresse IPv6 2001:0DB8:ACAD::/48 a un préfixe indiquant que les 48 premiers bits (3 hextets) (2001:0DB8:ACAD) constituent le préfixe ou la partie réseau de l'adresse. La suite de deux fois deux points (::) avant la longueur de préfixe /48 signifie que le reste de l'adresse contient uniquement des 0.</p>
+          <p>La taille du préfixe global de routage détermine la taille de l'ID de sous-réseau.</p>
+          <p>
+            <b>ID de sous-réseau</b>
+          </p>
+          <p>L'ID de sous-réseau est utilisé par une entreprise pour identifier les sous-réseaux au sein de son site. Plus l'ID de sous-réseau est un nombre important, plus il y a de sous-réseaux disponibles.</p>
+          <p>
+            <b>ID d'interface</b>
+          </p>
+          <p>L'ID d'interface IPv6 est l'équivalent de la partie hôte d'une adresse IPv4. Le terme ID d'interface est utilisé, car un hôte unique peut avoir plusieurs interfaces, chacune dotée d'une ou de plusieurs adresses IPv6. Dans la plupart des cas, il est fortement recommandé d'utiliser des sous-réseaux /64, c'est-à-dire un ID d'interface 64 bits, comme illustré à la figure 2. </p>
+          <p>
+            <b>Remarque</b> : contrairement à l'adressage IPv4, avec IPv6, les adresses d'hôte contenant uniquement des 0 ou uniquement des 1 peuvent être attribuées à un périphérique. L'adresse contenant uniquement des 1 peut être attribuée, puisque les adresses de diffusion ne sont pas utilisées dans IPv6. L'adresse contenant uniquement des 0 peut également être utilisée, mais elle est réservée comme adresse anycast de routeur de sous-réseau, et elle ne doit être attribuée qu'aux routeurs.</p>
+          <p>Un moyen simple de lire la plupart des adresses IPv6 consiste à compter le nombre d'hextets. Comme l'illustre la figure 3, dans une adresse de diffusion globale /64, les quatre premiers hextets sont réservés à la partie réseau de l'adresse, le quatrième hextet indiquant l'ID de sous-réseau. Les quatre hextets restants sont réservés à l'ID d'interface </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the first three bits in an IPv6 global unicast address are set to 001.  The figure shows the range of binary bits for the first hextet to be from 2000 to 3FFF. Figure 2 shows the IPv6 global routing prefix of /48.  The first 48 bits serve as the global routing prefix and the next sixteen bits are used as a subnet identifier.  The /48 routing prefix plus the 16 bit subnet identifier form the /64 prefix.   The remaining 64 bits are the interface identifier. Figure 3 shows how to read a global unicast address.  The address is listed first as a compressed address, 2001:DB8:ACAD:1::10/64.  The first four hextets is the prefix and the last four hextets is the interface identifier.  This expands to 2001:0DB8:ACAD:0001:0000:0000:0000:0010 /64.  The global routing prefix is 2001:0DB8:ACAD.  The subnet ID is 0001 and the interface ID is 0000:0000:0000:0200.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

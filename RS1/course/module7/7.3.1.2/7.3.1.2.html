@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.2 Messages de sollicitation et d&#x0027;annonce de routeur ICMPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Messages de sollicitation et d&#x0027;annonce de routeur ICMPv6</h1>
+        <div>
+          <p>Les messages d'informations et d'erreur du protocole ICMPv6 ressemblent fortement aux messages de contrôle et d'erreur mis en œuvre par le protocole ICMPv4. Cependant, l'ICMPv6 offre de nouvelles fonctions et fonctionnalités avancées qui n'existent pas dans l'ICMPv4. Les messages ICMPv6 sont encapsulés dans l'IPv6.</p>
+          <p>ICMPv6 offre quatre nouveaux protocoles dans le cadre du protocole NDP (Neighbor Discovery Protocol) ou ND. </p>
+          <p>Messages envoyés entre un routeur IPv6 et un périphérique IPv6 : </p>
+          <p>
+            <ul>
+              <li>Message de sollicitation de routeur (RS)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Message d'annonce de routeur (RA)</li>
+            </ul>
+          </p>
+          <p>Messages envoyés entre des périphériques IPv6 : </p>
+          <p>
+            <ul>
+              <li>Message de sollicitation de voisin</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Messages d'annonce de voisin</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque </b>: CMPv6 ND inclut également le message de redirection, qui comporte une fonction similaire au message de redirection utilisé dans l'ICMPv4.</p>
+          <p>La figure 1 illustre un exemple d'échange de messages de sollicitation et d'annonce de routeur entre un ordinateur et un routeur. Cliquez sur chaque message pour obtenir plus d'informations.</p>
+          <p>Les messages de sollicitation et d'annonce de voisin sont utilisés pour la résolution d'adresse et la détection d'adresse dupliquée (DAD).</p>
+          <p>
+            <b>Résolution d'adresse</b>
+          </p>
+          <p>La résolution d'adresse est utilisée lorsqu'un périphérique du réseau local (LAN) connaît l'adresse de monodiffusion IPv6 d'une destination, mais pas son adresse MAC Ethernet. Pour déterminer l'adresse MAC de destination, le périphérique envoie un message de sollicitation de voisin à l'adresse du nœud sollicité. Le message inclut l'adresse IPv6 (ciblée) connue. Le périphérique portant l'adresse IPv6 ciblée répond par un message d'annonce de voisin qui inclut son adresse MAC Ethernet. La figure 2 illustre deux ordinateurs échangeant des messages de sollicitation et d'annonce de voisin. Cliquez sur chaque message pour obtenir plus d'informations.</p>
+          <p>
+            <b>Détection des adresses dupliquées </b>
+          </p>
+          <p>Lorsqu'une adresse de monodiffusion globale ou de monodiffusion link-local est attribuée à un périphérique, il est recommandé d'utiliser la détection d'adresse dupliquée pour s'assurer que l'adresse est unique. Pour vérifier le caractère unique d'une adresse, le périphérique envoie un message de sollicitation de voisin avec sa propre adresse IPv6 comme adresse IPv6 ciblée, comme le montre la figure 3. Si cette adresse est attribuée à un autre périphérique du réseau, ce dernier répond en envoyant un message d'annonce de voisin. Ce message informe le périphérique expéditeur que l'adresse est utilisée. Si aucun message d'annonce de voisin n'a été renvoyé au bout d'un certain temps, l'adresse de monodiffusion est unique et peut être utilisée.</p>
+          <p>
+            <b>Remarque</b> : la détection d'adresse dupliquée n'est pas obligatoire, mais le RFC 4861 recommande de l'utiliser sur les adresses de monodiffusion.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a PC is booting and sends out an RS requesting an RA. The router is sending out RAs every 200 seconds. Clicking the two message types opens a textbox with more information. In Figure 2, one PC knows the IPv6 address of another PC but does not know the MAC address. It sends out a NS message, which is a solicited-node multicast. The PC replies with an NS unicast message. Figure 3 shows the DAD process with one PC using a solicited-node multicast to make sure other PCs are not currently using the IPv6 address that the PC wants to use.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Default Gateway Functions</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>A Default Gateway …</b><br/><br/><textformat blockindent='-17'><ul><li>Routes traffic to other networks</li><br/><li>Has a local IP address in the same address range as other hosts on the network </li><br/><li>Can take data in and forward data out</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

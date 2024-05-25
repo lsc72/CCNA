@@ -1,0 +1,57 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Management Ports and Interfaces</b>]]></text>
+	</component>
+	<component id='ID_s1_titleTxt01'>
+	<text><![CDATA[]]></text>
+</component>
+<component id='ID_s1_titleTxt011'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s1_bodyTxt01'>
+	<text><![CDATA[<b>In-band router interfaces</b> are the LAN (i.e. Gigabit Ethernet) and WAN (i.e., eHWICs) interfaces configured with IP addressing to carry user traffic. Ethernet interfaces are the most common LAN connections, while common WAN connections include serial and DSL interfaces.]]></text>
+</component>
+
+<component id='ID_s1_titleTxt02'>
+	<text><![CDATA[]]></text>
+</component>
+<component id='ID_s1_titleTxt012'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s1_bodyTxt02'>
+	<text><![CDATA[<b>Management ports</b> include the console and AUX ports which are used to configure, manage, and troubleshoot the router. Unlike LAN and WAN interfaces, management ports are not used for packet forwarding user traffic.]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Inband Router Interfaces</b>]]></text>
+	</component>
+	<component id='ID_s2_titleTxt01'>
+	<text><![CDATA[]]></text>
+</component>
+
+<component id='ID_s2_titleTxt011'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s2_bodyTxt01'>
+	<text><![CDATA[<b>Serial WAN interfaces</b> added to eHWIC0 and labeled Serial 0 (i.e., S0/0/0) and Serial 1 (i.e., S0/0/1). Serial interfaces are used for connecting routers to external WAN networks. Each serial WAN interface has its own IP address and subnet mask, which identifies it as a member of a specific network.
+]]></text>
+</component>
+
+<component id='ID_s2_titleTxt02'>
+	<text><![CDATA[]]></text>
+</component>
+
+<component id='ID_s2_titleTxt012'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s2_bodyTxt02'>
+	<text><![CDATA[<b>Ethernet LAN interfaces</b> labeled GE 0/0 (i.e., G0/0) and GE 0/1 (i.e., G0/1). Ethernet interfaces are used for connecting to other Ethernet-enabled devices including switches, routers, firewalls, etc. Each LAN interface has its own IPv4 address and subnet mask and/or IPv6 address and prefix, which identifies it as a member of a specific network.]]></text>
+</component>
+
+
+</textcomponents>

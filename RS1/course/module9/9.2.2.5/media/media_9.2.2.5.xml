@@ -1,0 +1,47 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Contrôle d'encombrement TCP</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+		<text><![CDATA[Segment TCP 1]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Segment TCP 2]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Segment TCP 3]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Segment TCP 4]]></text> 
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Segment d'accusé de réception 1]]></text> 
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Segment d'accusé de réception 2]]></text> 
+	</component>
+	
+	<component id="ID_txt07">
+		<text><![CDATA[Segment TCP 2]]></text> 
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[Segment TCP 3]]></text> 
+	</component>
+	
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Les numéros d'accusé de réception se réfèrent à l'octet suivant attendu et non à un segment. Les numéros de segment utilisés sont simplifiés pour les besoins de l'illustration.]]></text> 
+	</component>
+	
+	<component id="ID_txt10">
+		<text><![CDATA[Je ne reçois pas les accusés de réception attendus en provenance du PC B. Je vais donc diminuer le nombre d'octets à envoyer avant d'obtenir un accusé de réception.]]></text> 
+	</component>
+  
+</textcomponents>

@@ -1,0 +1,10 @@
+@import url('../../../common/styles/media2.css');
+
+#a1, #ID_txt03, #ID_txt05{
+	color: #FFFFFF !important;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+#ID_txt01, #ID_txt04 {
+	color: #FFF !important;
+}

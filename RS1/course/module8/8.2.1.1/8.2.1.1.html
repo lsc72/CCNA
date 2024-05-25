@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.2.1.1 Planifier la mise en œuvre du réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Planifier la mise en œuvre du réseau</h1>
+        <div>
+          <p>Comme l'illustre la figure, l'attribution d'un espace d'adressage de couche réseau dans le réseau d'entreprise doit être bien pensée. L'attribution d'adresses ne doit pas être laissée au hasard. </p>
+          <p>La planification des sous-réseaux nécessite d'étudier les besoins de l'entreprise en termes d'utilisation du réseau et la structure appropriée des sous-réseaux. L'étude des besoins réseau constitue le point de départ. Cela revient à examiner l'ensemble du réseau et à déterminer les principales divisions du réseau et leur segmentation. Pour dresser le plan d'adressage, il convient de définir les besoins de chaque sous-réseau concernant les critères suivants : taille, nombre d'hôtes par sous-réseau, méthode d'attribution des adresses d'hôte, hôtes nécessitant des adresses IPv4 statiques et hôtes pouvant utiliser le protocole DHCP pour obtenir leurs informations d'adressage.</p>
+          <p>La taille du sous-réseau nécessite de prévoir le nombre d'hôtes qui auront besoin d'adresses d'hôte IPv4 dans chaque sous-réseau du réseau privé subdivisé. Par exemple, dans une conception de réseau de campus, vous pouvez déterminer combien d'hôtes seront nécessaires sur les réseaux locaux de l'administration, de la faculté et des étudiants. Dans un réseau domestique, vous pouvez définir combien d'hôtes existent sur le réseau domestique local et combien appartiennent au réseau local du bureau à domicile.</p>
+          <p>Comme indiqué précédemment, le choix de la plage d'adresses IPv4 privées utilisée sur un réseau local appartient à l'administrateur réseau et doit être établi avec soin pour garantir que suffisamment d'adresses d'hôte seront disponibles à la fois pour les hôtes actuellement connus et pour les extensions futures. Souvenez-vous que les plages d'adresses IPv4 privées sont les suivantes :</p>
+          <p>
+            <ul>
+              <li>10.0.0.0 à 10.255.255.255 avec le masque de sous-réseau 255.0.0.0 ou /8</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>172.16.0.0 à 172.31.255.255 avec le masque de sous-réseau 255.240.0.0 ou /12</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>192.168.0.0 à 192.168.255.255 avec le masque de sous-réseau 255.255.0.0 ou /16</li>
+            </ul>
+          </p>
+          <p>Le nombre d'adresses IPv4 requises déterminera la ou les plages d'adresses d'hôte à utiliser. La segmentation en sous-réseaux de l'espace d'adresses IPv4 privées sélectionné vous fournira les adresses d'hôte permettant de répondre aux besoins de votre réseau.</p>
+          <p>Les adresses publiques utilisées pour se connecter à Internet sont généralement attribuées par un fournisseur d'accès. Par conséquent, même si les mêmes principes de segmentation s'appliquent, cette opération n'est généralement pas la responsabilité de l'administrateur réseau de l'entreprise.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows 3 LANs, the student LAN, Faculty LAN, and Administrative LAN.  This figure has a question mark above it.  This figure demonstrates how important it is to make a plan for subnetting.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

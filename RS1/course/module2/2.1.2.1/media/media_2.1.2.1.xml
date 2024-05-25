@@ -1,0 +1,39 @@
+﻿<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[Options d'accès à l'interface en ligne de commande]]></text>
+	</component><!-- buttons --><component id='ID_s1_btn01'>
+		<text><![CDATA[Console]]></text>
+	</component>
+
+
+	<component id='ID_s1_btn02'>
+		<text><![CDATA[SSH]]></text>
+	</component>
+
+
+	<component id='ID_s1_btn03'>
+		<text><![CDATA[Telnet]]></text>
+	</component><!-- End buttons --><!-- textboxes --><component id='ID_s1_titleTxt01'>
+		<text><![CDATA[Console]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[L'avantage d'utiliser un port de console est que le périphérique est accessible même si aucun service réseau n'a été configuré, par exemple en effectuant la configuration initiale du périphérique réseau. Pour effectuer la configuration initiale, un ordinateur exécutant un logiciel d'émulation de terminal est connecté au port de console du périphérique à l'aide d'un câble spécial. Ainsi, il est possible d'entrer au clavier de l'ordinateur connecté les commandes de configuration du commutateur ou du routeur. ]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt02'>
+		<text><![CDATA[SSH]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt02'>
+		<text><![CDATA[La méthode SSH est recommandée pour la gestion à distance, car elle offre une connexion sécurisée. SSH fournit une authentification chiffrée par mot de passe et transporte les données de la session. Ceci préserve la confidentialité de l'ID d'utilisateur, du mot de passe et des détails de la session de gestion. La plupart des versions de Cisco IOS incluent un serveur SSH et un client SSH qui peuvent être utilisés pour établir des sessions SSH avec d'autres périphériques.]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt03'>
+		<text><![CDATA[Telnet]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt03'>
+		<text><![CDATA[Les bonnes pratiques imposent l'utilisation de SSH au lieu de Telnet pour les connexions CLI de gestion à distance. Cisco IOS inclut un serveur Telnet et un client Telnet qui peuvent être utilisés pour établir des sessions Telnet avec d'autres périphériques.]]></text>
+	</component><!-- End textboxes --><!-- End Slide 1 --></textcomponents>

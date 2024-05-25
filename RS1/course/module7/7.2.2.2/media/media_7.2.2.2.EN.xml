@@ -1,0 +1,109 @@
+<textcomponents>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>Omitting Leading 0s</b>]]></text>
+</component>
+
+<!--Slide 1-->
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 2-->
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 3-->
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 4-->
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s4_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 5-->
+
+<component id='ID_s5_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s5_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 6-->
+
+<component id='ID_s6_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s6_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 7-->
+
+<component id='ID_s7_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s7_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<!--Slide 8-->
+
+<component id='ID_s8_txt01'>
+	<text><![CDATA[Preferred]]></text>
+</component>
+
+<component id='ID_s8_txt02'>
+	<text><![CDATA[No leading 0s]]></text>
+</component>
+
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+  <tr class="mtable_title">
+      <td colspan="2" bgcolor='#FFFFFF'><font size="5"></font></td>
+    </tr>
+
+    <tr class="mtable_top">
+      <td colspan='2' bgcolor='#666263'><font size='1' color='#0E6360'>.</font></td>
+    </tr>
+  
+  <tr >
+    <td bgcolor='#E9E7E8' width="200" ><font color='#393536' >&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#E9E7E8' width="400"><font color='#393536' >&nbsp;<br>&nbsp;</font></td>
+  </tr>
+  <tr >
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>&nbsp;<br>&nbsp;</font></td>
+  </tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

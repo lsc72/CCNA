@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+  <component id="ID_s1_title">
+    <text><![CDATA[<b>Switch Configuration Tasks</b>]]></text>
+  </component>
+  
+  <component id="ID_s1_txt01">
+  <text><![CDATA[<textformat blockindent='-20'><b>Configure the device name</b></textformat><textformat blockindent='1'><li class="space">hostname <i>name</i></li></textformat><br><textformat blockindent='-20'><b>Secure user EXEC mode</b></textformat></li><textformat blockindent='1'><li class="space">line console 0</li><li class="space">password <i>password</i></li><li class="space">login</li></textformat><br><textformat blockindent='-20'><b>Secure remote Telnet / SSH access</b></textformat><textformat blockindent='1'><li class="space">line vty 0 15</li><li class="space">password <i>password</i></li><li class="space">login</li></textformat><br><textformat blockindent='-20'><b>Secure privileged EXEC mode</b></textformat><textformat blockindent='1'><li class="space">enable secret <i>password</i></li></textformat><br><textformat blockindent='-20'><b>Secure all passwords in the config file</b></textformat><textformat blockindent='1'><li class="space">service password-encryption</li></textformat><br><textformat blockindent='-20'><b>Provide legal notification</b></textformat><textformat blockindent='1'><li class="space">banner motd <i>delimiter message delimiter</i></li></textformat><br><textformat blockindent='-20'><b>Configure the management SVI</b></textformat><textformat blockindent='1'><li class="space">interface vlan 1</li><li class="space">ip address <i>ip-address subnet-mask</i></li><li class="space">no shutdown</li></textformat><br><textformat blockindent='-20'><b>Save the configuration</b></textformat><textformat blockindent='1'><li class="space">copy running-config  startup-config</li></textformat>]]></text>
+	</component>
+	
+   <component id="ID_s2_title">
+    <text><![CDATA[<b>Sample Switch Configuration</b>]]></text>
+  </component>
+  
+</textcomponents>

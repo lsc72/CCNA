@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.5.1 La segmentation traditionnelle en sous-réseaux n&#x0027;est pas efficace</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>La segmentation traditionnelle en sous-réseaux n&#x0027;est pas efficace</h1>
+        <div>
+          <p>Avec la méthode classique de segmentation en sous-réseaux, le même nombre d'adresses est attribué à chaque sous-réseau. Si tous les sous-réseaux ont besoin d'un même nombre d'hôtes, l'utilisation de blocs d'adresses de taille fixe est intéressante. Mais, bien souvent, ce n’est pas le cas. </p>
+          <p>Par exemple, la topologie représentée à la figure 1 nécessite sept sous-réseaux, un pour chacun des quatre réseaux locaux et un autre pour chacune des trois connexions de réseau étendu entre les routeurs. Si l'on utilise la méthode classique de segmentation en sous-réseaux pour l'adresse 192.168.20.0/24, 3 bits peuvent être empruntés au dernier octet de la partie hôte pour obtenir les sept sous-réseaux requis. Comme l'illustre la figure 2, en empruntant 3 bits, on obtient 8 sous-réseaux et on laisse 5 bits d'hôte avec 30 hôtes utilisables par sous-réseau. Ce schéma permet de créer les sous-réseaux nécessaires et de répondre aux besoins en hôtes du plus grand réseau local.</p>
+          <p>Bien que cette méthode classique satisfasse aux besoins du plus grand réseau local et divise l'espace d'adressage en un nombre approprié de sous-réseaux, de nombreuses adresses sont inutilisées. </p>
+          <p>Par exemple, seules deux adresses sont nécessaires dans chaque sous-réseau des trois liaisons de réseau étendu. Puisque chaque sous-réseau possède 30 adresses utilisables, 28 adresses sont inutilisées dans chacun de ces sous-réseaux. Comme l'illustre la figure 3, ce sont au total 84 adresses qui sont inutilisées (28 x 3). </p>
+          <p>De plus, ce schéma ne laisse aucune place à un développement futur, puisqu’il réduit le nombre total de sous-réseaux disponibles. Cette utilisation inefficace des adresses est typique de la méthode classique de segmentation des réseaux. L'application d'un schéma de création de sous-réseaux classique à un scénario n'est pas très efficace. </p>
+          <p>La segmentation des sous-réseaux, qui revient à utiliser le masquage de sous-réseau de longueur variable (VLSM) permet d'optimiser l'efficacité de l'adressage.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows four routers with different host requirements.  Each router is connected to the adjacent router with a WAN link.  This shows a need for seven subnets. Figure 2 shows that by borrowing three host bits from a slash twenty four, we can create 8 subnets.  These subnets will be a slash twenty seven. Figure 3 shows that with the remaining five bits we will have 30 valid hosts on each of the subnets.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

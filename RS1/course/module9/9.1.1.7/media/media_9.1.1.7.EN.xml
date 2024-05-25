@@ -1,0 +1,47 @@
+﻿<textcomponents>
+	
+	<component id="ID_title">
+		<text><![CDATA[<b>Transport Layer Protocols</b>]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[IP Telephony]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Streaming Live Video]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[SMTP/POP (Email)]]></text>
+	</component>
+	
+	<component id="ID_txt07">
+		<text><![CDATA[HTTP]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[Required protocol properties:<br/><textformat blockindent='-18'><ul class="bulletIndent15"><li>Fast</li><li>Low overhead</li><li>Does not require acknowledgements</li><li>Does not resend lost data</li><li>Delivers data as it arrives</li></ul></textformat>]]></text>
+	</component>
+	
+	<component id="ID_txt09">
+		<text><![CDATA[Required protocol properties:<br/><textformat blockindent='-18'><ul class="bulletIndent15"><li>Reliable</li><li>Acknowledges data</li><li>Resends lost data</li><li>Delivers data in sequenced order</li></ul></textformat>]]></text>
+	</component>
+	
+	<component id="ID_txt18">
+		<text><![CDATA[<b>OSI Model</b>]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Email]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[UDP]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[TCP]]></text>
+	</component>
+
+</textcomponents>

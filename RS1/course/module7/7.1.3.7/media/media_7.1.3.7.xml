@@ -1,0 +1,83 @@
+<textcomponents>
+
+  <component id="ID_title">
+    <text><![CDATA[<b>Exercice - Monodiffusion, diffusion ou multidiffusion ?</b>]]></text>
+  </component>
+
+  <component id="ID_titleTxt01">
+    <text><![CDATA[Instructions]]></text>
+  </component>
+
+  <component id="ID_bodyTxt01">
+    <text><![CDATA[Cliquez sur <b>Démarrer</b> pour voir l'adresse IP de destination. Ensuite, cliquez sur les hôtes qui reçoivent un paquet en fonction du type d'adresse (monodiffusion, diffusion ou multidiffusion). Il s'agit d'un exercice chronométré.]]></text>
+  </component>
+
+  <component id="ID_start">
+    <text><![CDATA[Démarrer]]></text>
+  </component>
+
+  <component id="ID_stop">
+    <text><![CDATA[Stop]]></text>
+  </component>
+
+  <component id="ID_reset">
+    <text><![CDATA[Réinitialiser]]></text>
+  </component>
+  
+    
+<component id="ID_txt01">
+<text><![CDATA[<b>Adresse IP de destination =<b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[Hôte source]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[<b>Temps restant</b>]]></text> 
+  </component>
+  <component id="ID_txt04">
+  <text><![CDATA[Groupe 192.168.100.1<br> 225.5.77.126]]></text> 
+  </component>
+  <component id="ID_txt05">
+  <text><![CDATA[Groupe 192.168.100.2<br> 237.192.126.17]]></text> 
+  </component>
+  <component id="ID_txt06">
+  <text><![CDATA[192.168.100.3]]></text> 
+  </component>
+  <component id="ID_txt07">
+  <text><![CDATA[Groupe 192.168.100.4<br> 237.192.126.17]]></text> 
+  </component>
+  <component id="ID_txt08">
+  <text><![CDATA[Groupe 192.168.100.5<br> 225.5.77.126]]></text> 
+  </component>
+
+  <component id="ID_cBroad">
+    <text><![CDATA[Vous avez correctement identifié le type de transmission.]]></text>
+  </component>
+
+  <component id="ID_iBroad">
+    <text><![CDATA[Vous n'avez pas identifié correctement le type de transmission. Veuillez réessayer.]]></text>
+  </component>
+
+  <component id="ID_cMulti">
+    <text><![CDATA[Vous avez correctement identifié le type de transmission.]]></text>
+  </component>
+
+  <component id="ID_iMulti">
+    <text><![CDATA[Vous n'avez pas identifié correctement le type de transmission. Veuillez réessayer.]]></text>
+  </component>
+
+  <component id="ID_cUni">
+    <text><![CDATA[Vous avez correctement identifié le type de transmission.]]></text>
+  </component>
+
+  <component id="ID_iUni">
+    <text><![CDATA[Vous n'avez pas identifié correctement le type de transmission. Veuillez réessayer.]]></text>
+  </component>
+
+  <component id="ID_endGame">
+    <text><![CDATA[Bien ! Cliquez sur Réinitialiser pour continuer.]]></text>
+  </component>
+  
+  
+
+</textcomponents>

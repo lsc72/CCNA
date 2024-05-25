@@ -1,0 +1,15 @@
+<textcomponents>
+    
+    <component id="ID_title">
+      <text><![CDATA[ARP Broadcasts and Security]]></text>
+      </component>
+<component id="ID_txt01">
+    <text><![CDATA[<b>All devices powered on at the same time</b>]]></text>
+   </component>
+<component id="ID_txt02">
+   <text><![CDATA[Shared Media (multiple access)]]></text>
+   </component>
+<component id="ID_txt03">
+   <text><![CDATA[ARP broadcasts can flood the local media.]]></text>
+   </component>
+</textcomponents>

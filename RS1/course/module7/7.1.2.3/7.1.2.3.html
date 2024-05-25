@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.3 Logique AND (ET)</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Logique AND (ET)</h1>
+        <div>
+          <p>La logique AND (ET) est l'une des trois opérations binaires de base, appliquées en logique numérique. Les deux autres sont les opérations OR (OU) et NOT (NON). Bien que les trois opérations soient utilisées dans les réseaux de données, seule l'opération AND permet de déterminer l'adresse réseau. De ce fait, nous aborderons uniquement l'opération logique AND. </p>
+          <p>L'opération logique AND consiste à comparer deux bits, ce qui donne le résultat indiqué à la figure 1. Notez que l'opération 1 AND 1 donne le résultat 1.</p>
+          <p>Pour identifier l'adresse réseau d'un hôte IPv4, l'adresse IPv4 est soumise bit par bit à l'opération AND de manière logique avec le masque de sous-réseau. Lorsque cette opération AND est appliquée entre l'adresse et le masque de sous-réseau, le résultat obtenu est l'adresse réseau. </p>
+          <p>Pour comprendre comment l'opération AND permet d'obtenir une adresse réseau, prenons l'exemple d'un hôte dont l'adresse IPv4 est 192.168.10.10 et le masque de sous-réseau est 255.255.255.0. La figure 2 indique l'adresse IPv4 de l'hôte et l'adresse binaire convertie. L'adresse binaire du masque de sous-réseau de l'hôte est ajoutée à la figure 3. </p>
+          <p>Les zone jaunes de la figure 4 indiquent les bits AND qui ont généré un 1 binaire dans la ligne des résultats AND. Toutes les autres comparaisons de bits ont donné des 0. Notez que le dernier octet ne contient plus aucun bit 1 binaire. </p>
+          <p>Enfin, la figure 5 indique l'adresse réseau ainsi obtenue, 192.168.10.0 255.255.255.0. L'hôte 192.168.10.10 se trouve donc sur le réseau 192.168.10.0 255.255.255.0.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the logical AND operation where 1 and 1 equal 1 and all other possibilities equal zero. Figure 2 shows the dotted decimal and binary formats for the IP address 192.168.10.10. Figure 3 adds the dotted decimal and binary formats for the subnet mask 255.255.255.0 to Figure 2. Figure 4 shows the ANDing operation between the binary format of the IP address and the binary format of the subnet mask. Figure 5 shows the result of the ANDing operation is the network address, 192.168.10.0</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

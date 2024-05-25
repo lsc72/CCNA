@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.3 Règle n° 2 - Omettre les séquences composées uniquement de zéros</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Règle n° 2 - Omettre les séquences composées uniquement de zéros</h1>
+        <div>
+          <p>La deuxième règle permettant d'abréger la notation des adresses IPv6 est qu'une suite de deux fois deux points (::) peut remplacer toute chaîne unique et contiguë d'un ou plusieurs segments de 16 bits (hextets) composés uniquement de zéros. </p>
+          <p>Une suite de deux fois deux points (::) peut être utilisée une seule fois par adresse : sinon, il serait possible d'aboutir sur plusieurs adresses différentes. Lorsque l'omission des zéros de début de segment est utilisée, la notation des adresses IPv6 peut être considérablement réduite. Il s'agit du « format compressé ».</p>
+          <p>Adresse non valide : </p>
+          <p>
+            <ul>
+              <li>2001:0DB8::ABCD::1234</li>
+            </ul>
+          </p>
+          <p>Extensions possibles des adresses ambiguës compressées :</p>
+          <p>
+            <ul>
+              <li>2001:0DB8::ABCD:0000:0000:1234</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8::ABCD:0000:0000:0000:1234</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:0000:ABCD::1234</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:0000:0000:ABCD::1234</li>
+            </ul>
+          </p>
+          <p>Les figures 1 à 7 illustrent plusieurs exemples de l'utilisation de deux fois deux points (::) et d'omission des zéros de début de segment pour réduire la taille d'une adresse IPv6.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 7 show examples of Rule 2 which replaces a single, continuous string of one or more all zero hextets with a double colon. For example, the IPv6 address 2001:DB8:0:1111:0:0:0:200 that has already had Rule 1 applied to it becomes 2001:DB8:0:1111::200</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

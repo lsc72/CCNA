@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.4.5 Trames LAN et WAN</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.4.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Trames LAN et WAN</h1>
+        <div>
+          <p>Dans un réseau TCP/IP, tous les protocoles de couche 2 OSI fonctionnent avec le protocole IP sur la couche OSI 3. Cependant, le protocole de couche 2 utilisé dépend de la topologie logique et du support physique. </p>
+          <p>Chaque protocole effectue un contrôle d'accès au support pour les topologies logiques de couche 2 spécifiées. Cela signifie que différents périphériques réseau peuvent opérer comme des nœuds fonctionnant au niveau de la couche liaison de données lorsqu'ils mettent en œuvre ces protocoles. Ces périphériques incluent les cartes réseau des ordinateurs, ainsi que les interfaces des routeurs et les commutateurs de couche 2.</p>
+          <p>Le protocole de couche 2 utilisé pour une topologie réseau spécifique dépend de la technologie mettant en œuvre cette topologie. La technologie dépend à son tour de la taille du réseau (définie par le nombre d'hôtes et l'étendue géographique) et des services à fournir sur le réseau.</p>
+          <p>Un réseau local fait généralement appel à une technologie de bande passante élevée capable de prendre en charge de nombreux hôtes. Cette technologie est rentable en raison de l'étendue géographique relativement faible (un bâtiment ou un campus) des réseaux locaux et de leur densité élevée d'utilisateurs.</p>
+          <p>Cependant, utiliser une technologie de bande passante élevée n'est généralement pas rentable dans le cas des réseaux étendus couvrant de grandes étendues géographiques (par exemple, une ou plusieurs villes). La capacité de la bande passante est généralement moindre en raison du coût des liaisons physiques longue distance et de la technologie utilisées pour transporter les signaux à travers ces étendues. </p>
+          <p>La différence de bande passante a normalement pour résultat l'utilisation de différents protocoles pour les réseaux locaux et les réseaux étendus.</p>
+          <p>Les protocoles de couche liaison de données incluent : </p>
+          <p>
+            <ul>
+              <li>Ethernet </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>802.11 sans fil</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>PPP (Point-to-Point Protocol) </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>HDLC</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Frame Relay</li>
+            </ul>
+          </p>
+          <p>Cliquez sur le bouton Lecture pour voir des exemples de protocoles de couche 2.</p>
+       
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">This animation shows several routers connecting two end devices.  The layer two frame changes from hop to hop depending on the physical media.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

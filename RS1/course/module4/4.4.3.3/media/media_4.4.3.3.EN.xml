@@ -1,0 +1,72 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Contention-Based Access</b>]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Shared Media]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Frame]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Frame]]></text>
+	</component>
+
+	<component id="ID_bubble01">
+		<text><![CDATA[<font color="#FFFFFF">I try to send when I am ready.</font>]]></text>
+	</component>
+	
+	<component id="ID_bubble02">
+		<text><![CDATA[<font color="#FFFFFF">I try to send when I am ready.</font>]]></text>
+	</component>
+	
+	<component id="ID_bubble03">
+		<text><![CDATA[<font color="#FFFFFF">I try to send when I am ready.</font>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Controlled Access</b>]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Shared Media]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[Frame]]></text>
+	</component>
+
+	<component id="ID_txt09">
+		<text><![CDATA[<b>Ethernet Hub</b>]]></text>
+	</component>
+
+	<component id="ID_txt10">
+		<text><![CDATA[<b>Token Ring Network</b>]]></text>
+	</component>
+	
+	<component id="cross">
+		<text><![CDATA[<p class="ID_s1_bubble07"></p>]]></text>
+	</component>
+	
+
+	<component id="ID_bubble04">
+		<text><![CDATA[<font color="#FFFFFF">Not my turn yet</font>]]></text>
+	</component>
+
+	<component id="ID_bubble05">
+		<text><![CDATA[<font color="#FFFFFF">Not my turn yet</font>]]></text>
+	</component>
+
+	<component id="ID_bubble06">
+		<text><![CDATA[<font color="#FFFFFF">Not my turn yet</font>]]></text>
+	</component>
+
+	<component id="ID_bubble07">
+		<text><![CDATA[<font color="#FFFFFF">My turn to send</font>]]></text>
+	</component>
+
+
+</textcomponents>

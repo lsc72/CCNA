@@ -1,0 +1,43 @@
+<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Assignment of IP Addresses</b>]]></text>
+	</component>
+
+
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[ARIN]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[American Registry for Internet Numbers (ARIN) manages and maintains IPv4 and IPv6 addresses for North America. For more information, go to http://www.arin.net]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[RIPE NCC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Réseaux IP Europeans (RIPE) manages and maintains IPv4 and IPv6 addresses for Europe, the Middle East, and Central Asia http://www.ripe.net]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[APNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[Asia Pacific Network Information Centre (APNIC) manages and maintains IPv4 and IPv6 addresses for the Asia and Pacific regions including Australia. For more information, go to http://www.apnic.net]]></text>
+	</component>	
+	
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[AfriNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[African Network Information Centre (AfriNIC) manages and maintains IPv4 and IPv6 addresses for Africa. For more information, go to http://www.afrinic.net]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt05">
+		<text><![CDATA[LACNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt05">
+		<text><![CDATA[Regional Latin-American and Caribbean IP Address Registry (LACNIC) manages and maintains IPv4 and IPv6 addresses for Latin America and some Caribbean islands. For more information, go to http://www.lacnic.net]]></text>
+	</component>
+	
+</textcomponents>

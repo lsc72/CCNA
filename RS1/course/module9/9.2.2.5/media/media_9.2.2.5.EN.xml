@@ -1,0 +1,47 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>TCP Congestion Control</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+		<text><![CDATA[TCP segment 1]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[TCP segment 2]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[TCP segment 3]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[TCP segment 4]]></text> 
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Acknowledgement segment 1]]></text> 
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Acknowledgement segment 2]]></text> 
+	</component>
+	
+	<component id="ID_txt07">
+		<text><![CDATA[TCP segment 2]]></text> 
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[TCP segment 3]]></text> 
+	</component>
+	
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Acknowledgement numbers are for the next expected byte and not for a segment. The segment numbers used are simplified for illustration purposes.]]></text> 
+	</component>
+	
+	<component id="ID_txt10">
+		<text><![CDATA[<font id="a1">I’m not getting the acknowledgments I expect from PC B so I will reduce the number of bytes I send before getting an acknowledgement.</font>]]></text> 
+	</component>
+  
+</textcomponents> 

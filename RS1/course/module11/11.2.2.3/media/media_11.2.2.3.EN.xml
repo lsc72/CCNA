@@ -1,0 +1,167 @@
+<textcomponents>
+<!--Slide 1-->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Password Attack</b>]]></text>
+	</component>
+	
+	<component id='ID_s1_TB_header'>
+		<text><![CDATA[Attackers Can Implement Password Attacks Using Several Different Methods]]></text>
+	</component>
+	
+	<component id='ID_s1_TB_body'>
+		<text><![CDATA[<textformat blockindent="-18"><li>Brute-force attacks</li><li>Trojan horse programs</li><li>Packet sniffers</li></textformat>]]></text>
+	</component>
+
+<!--Slide 2-->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Trust Exploitation</b>]]></text>
+	</component>
+
+	<component id='ID_s2_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>				
+			<tr>
+				<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#ffffff'><b>Network OS</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='11' color='#ffffff'><b>Trust Models</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Windows</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Domains Active Directory (AD)</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Linux and UNIX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Network File System (NFS) Network Information Service Plus (NIS+)</font></td>
+				</tr>	
+			</table>]]>
+		</text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Trust Exploitation Example</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[System A]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[System B]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Attacker]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[System A trusts System B]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[System B trusts everyone]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Goal: An attacker wants to gain access to System A.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[user = psmith;<br/>PatSmith]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+		<text><![CDATA[<b>user = psmith;<br/>Pat Smith</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt09">
+		<text><![CDATA[<b>Compromised by attacker<br/>user = psmith;<br/>Pat Smith</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_bubble01"> 
+		<text><![CDATA[<font color="#ffffff">I own System B and now have access to System A.</font>]]></text> 
+	</component>
+
+	<component id="ID_s2_bubble02"> 
+		<text><![CDATA[<font color="#ffffff">I can't get access to System A but System B is open.</font>]]></text> 
+	</component>
+
+
+
+<!--Slide 3-->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Port Redirection</b>]]></text>
+	</component>
+	
+	<component id='ID_s3_TB_body'>
+		<text><![CDATA[Port redirection is a type of trust-exploitation attack that uses a compromised host to pass traffic through a firewall that would otherwise be dropped. It is mitigated primarily through the use of proper trust models. Antivirus software and host-based IDS can help detect and prevent an attacker installing port redirecting utilities on the host.]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Attacker</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<b>Attacker installs software on Host A</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt03REMOVED">
+		<text><![CDATA[<b>Source: Attacker<br/>Destination: B<br/>Port: 23</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt04">
+		<text><![CDATA[<b>Compromised Host A</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt05">
+		<text><![CDATA[<b>Attacker accesses Host B on a different port</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt06">
+		<text><![CDATA[<b>Host B</b>]]></text>
+	</component>
+
+
+
+<!--Slide 4-->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Man-in-the-Middle</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt01">
+		<text><![CDATA[Victim]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>Victim clicks link in Phish email</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt03">
+		<text><![CDATA[Web Server]]></text>
+	</component>
+
+	<component id="end">
+		<text><![CDATA[End]]></text>
+	</component>
+	
+	<component id="fforward">
+		<text><![CDATA[Fast Forward]]></text>
+	</component>
+	
+	<component id="pause">
+		<text><![CDATA[Pause]]></text>
+	</component>
+	
+	<component id="play">
+		<text><![CDATA[Play]]></text>
+	</component>
+	
+	<component id="rewind">
+		<text><![CDATA[Rewind]]></text>
+	</component>
+	
+	<component id="start">
+		<text><![CDATA[Start]]></text>
+	</component>
+
+</textcomponents>

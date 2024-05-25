@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.4.2 Commande arp</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commande arp</h1>
+        <div>
+          <p>La commande <b>arp</b> est exécutée à partir de l'invite de commande Windows, comme le montre la figure. La commande <b>arp –a</b> fournit la liste de tous les périphériques actuellement présents dans le cache ARP de l'hôte, en précisant leur adresse IPv4, leur adresse physique et leur type d'adressage (statique/dynamique). </p>
+          <p></p>
+          <p>Pour mettre à jour les informations stockées dans le cache, l'administrateur réseau peut effacer le cache à l'aide de la commande <b>arp -d*</b>. </p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : le cache ARP ne contient que les informations des périphériques auxquels des utilisateurs ont accédé récemment. Pour être sûr que le cache ARP contient des informations sur un périphérique donné dans son tableau ARP, envoyez une requête ping à ce périphérique.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a switch connected to five PCs and a router.  The output of the Windows command, “arp -a” is shown displaying the IP address and MAC address pairs that the PC knows about. </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

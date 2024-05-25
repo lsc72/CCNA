@@ -1,0 +1,24 @@
+﻿<textcomponents> 
+<component id="ID_title">
+   <text><![CDATA[<b>Réseau typique d'une petite entreprise</b>]]></text>
+   </component>
+   <!-- 
+	<component id="ID_txt01">
+<text><![CDATA[<b>Réseau local (LAN)</b>]]></text> 
+</component>
+    -->
+<component id="ID_txt01">
+<text><![CDATA[LAN]]></text> 
+</component>
+<!-- 
+<component id="ID_txt02">
+<text><![CDATA[<b>Réseau étendu (WAN)</b>]]></text> 
+</component> 
+ -->
+<component id="ID_txt02">
+<text><![CDATA[WAN]]></text> 
+</component> 
+<component id="ID_txt03">
+<text><![CDATA[Internet]]></text> 
+</component> 
+</textcomponents>

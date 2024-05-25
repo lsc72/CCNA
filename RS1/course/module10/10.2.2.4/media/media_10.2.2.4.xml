@@ -1,0 +1,65 @@
+﻿<textcomponents>
+
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Utilisation de nslookup</b>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Commandes de CLI Windows et Linux relatives au DNS</b>]]></text>
+</component>
+
+<component id="ID_SC_title">
+		<text><![CDATA[<b>Utilisation de la commande <font face="_typewriter">nslookup</font></b>]]></text>
+	</component><!--Syntax Checker Button Text--><component id="ID_sc_reset">
+			<text><![CDATA[Réinitialiser]]></text>
+		</component>
+
+        <component id="ID_sc_showme">
+			<text><![CDATA[Démonstration]]></text>
+		</component>
+
+        <component id="ID_sc_showall">
+			<text><![CDATA[Afficher tout]]></text>
+		</component><!--End Syntax Checker Button Text--><component id="ID_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+                <feedback id="fb"><![CDATA[<b><font size = '10' face="_sans" color="#FFFFFF">***Vous devez entrer la commande exacte et complète. Les commandes qui incluent un nom ou un mot de passe sont sensibles à la casse.***</font></b> ]]></feedback>
+              <existingcommands><![CDATA[<font size = '10' face="_sans"><b>À partir de l'invite de commande de Windows, saisissez « nslookup » pour lancer <br>une requête manuelle des serveurs de noms. <br></b></font>]]></existingcommands>
+                <command prompt="c:\>">
+                       <correctresponse><![CDATA[ nslookup]]></correctresponse>
+                                <deviceresponse><![CDATA[Serveur par défaut : adresse<br>inconnue : 10.10.10.1<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Le résultat affiche le nom et l'adresse IP du serveur DNS configuré dans le client. <br>Notez que l'adresse du serveur DNS peut être configurée manuellement ou attribuée dynamiquement par <br>DHCP. Vous êtes maintenant en mode nslookup. Saisissez le nom de domaine « www.cisco.com ».</font>]]></instruction>
+              </command>
+                <command prompt=">">
+                       <correctresponse><![CDATA[ www.cisco.com]]></correctresponse>
+                                <deviceresponse><![CDATA[Serveur : e144.dscb.akamaiedge.net<br>Adresses : 2600:1400:1:1:8500::90<br>          2600:1400:1:1:8200::90<br>          2600:1400:1:1:8100::90<br>          23.67.208.170<br>Alias : www.cisco.com<br>          www.cisco.com.akadns.net<br>          wwwds.cisco.com.edgekey.net<br>          wwwds.cisco.com.edgekey.net.globalredir.akadns.net<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Le résultat indique toutes les adresses IP liées à « www.cisco.com » actuellement présentes dans la base <br>de données du serveur « e144 ». Notez que les adresses IPv6 sont également répertoriées. En outre, plusieurs alias <br>permettant de résoudre l'adresse « www.cisco.com » sont affichés. Entrez la commande « exit » pour quitter le mode nslookup <br>et revenir à la ligne de commande de Windows.<br></font>]]></instruction>
+              </command>
+                <command prompt=">">
+                       <correctresponse><![CDATA[ exit]]></correctresponse>
+                                <deviceresponse><![CDATA[C:\><br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Vous pouvez interroger directement les serveurs DNS en ajoutant simplement le nom de domaine à la commande « nslookup ». <br>Entrez « nslookup www.google.com ».<br></font>]]></instruction>
+              </command>
+                <command prompt="c:\>">
+                       <correctresponse><![CDATA[ nslookup www.google.com]]></correctresponse>
+                                <deviceresponse><![CDATA[Serveur : Adresse<br>inconnue : 10.10.10.1<br><br>Réponse non autorisée :<br>Nom : www.google.com<br>Adresses : 2001:4860:4002:802::1014<br>          74.125.227.80<br>          74.125.227.84<br>          74.125.227.83<br>          74.125.227.82<br>          74.125.227.81<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b><ul>Vous utilisez dorénavant l'invite de commande de Linux. La commande nslookup est identique. <li>Entrez la commande « nslookup » pour lancer une requête manuelle des serveurs de noms. </li><li>Entrez « www.cisco.com » à l'invite >.</li><li>Saisissez la commande « exit » pour quitter le mode nslookup et revenir à la ligne de commandes de Linux. </li></font>]]></instruction>
+              </command>
+                <command prompt="user@cisconetacad$">
+                       <correctresponse><![CDATA[ nslookup]]></correctresponse>
+                                <deviceresponse><![CDATA[Serveur : 127.0.1.1<br>Adresse : 127.0.1.1#53]]></deviceresponse>
+              </command>
+                <command prompt=">">
+                       <correctresponse><![CDATA[ www.cisco.com]]></correctresponse>
+                                <deviceresponse><![CDATA[Réponse non autorisée :<br>www.cisco.com Nom canonique = www.cisco.com.akadns.net.<br>www.cisco.com.akadns.net Nom canonique = wwwds.cisco.com.edgekey.net.<br>wwwds.cisco.com.edgekey.net Nom canonique = wwwds.cisco.com.edgekey.net.globalredir.akadns.net.<br>wwwds.cisco.com.edgekey.net.globalredir.akadns.net Nom canonique = e144.dscb.akamaiedge.net.<br>Nom : e144.dscb.akamaiedge.net<br>Adresse : 23.60.112.170<br>]]></deviceresponse>
+              </command>
+                <command prompt=">">
+                       <correctresponse><![CDATA[ exit]]></correctresponse>
+                                <deviceresponse><![CDATA[user@cisconetacad$<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Comme dans Windows, vous pouvez interroger directement les serveurs DNS en ajoutant simplement le nom de domaine <br>à la commande nslookup. Entrez « nslookup www.google.com ».<br></font>]]></instruction>
+              </command>
+                <command prompt="user@cisconetacad$#">
+                       <correctresponse><![CDATA[ nslookup www.google.com]]></correctresponse>
+                                <deviceresponse><![CDATA[Serveur : 127.0.1.1<br>Adresse : 127.0.1.1#53<br><br>Réponse non autorisée :<br>Nom : www.google.com<br>Adresse : 74.125.225.209<br>Nom : www.google.com<br>Adresse : 74.125.225.210<br>Nom : www.google.com<br>Adresse : 74.125.225.211<br>Nom : www.google.com<br>Adresse : 74.125.225.212<br>Nom : www.google.com<br>Adresse : 74.125.225.208<br><br>user@cisconetacad$<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '10' face="_sans"><b>Vous avez correctement utilisé la commande nslookup pour vérifier l'état des noms de domaine.<br></font>]]></instruction>
+              </command>
+<command prompt=""/>
+ </component><!--End Syntax Checker Body Text--></textcomponents>

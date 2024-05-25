@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.1.4 Fiabilité de la couche transport</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fiabilité de la couche transport</h1>
+        <div>
+          <p>La couche transport est également responsable de la gestion des exigences de fiabilité d'une conversation. Des applications différentes ont des exigences différentes en matière de fiabilité du transport. </p>
+          <p>IP ne s'occupe que de la structure, de l'adressage et du routage des paquets. Il ne fixe pas le mode d'acheminement ou de transport des paquets. Les protocoles de transport définissent comment transmettre les messages entre les hôtes. La suite de protocoles TCP/IP propose deux protocoles de couche transport, TCP et UDP, comme illustré dans la figure ci-contre. Le protocole IP utilise ces protocoles de transport pour permettre aux hôtes de communiquer et de transmettre des données.</p>
+          <p>Le protocole TCP est un protocole de couche transport fiable et complet, qui garantit que toutes les données arrivent à destination. Toutefois, cela nécessite des champs supplémentaires dans l'en-tête TCP, ce qui augmente la taille du paquet et engendre des retards. En revanche, le protocole UDP est un protocole de couche transport plus simple, qui ne permet pas de garantir la fiabilité du transport. Il compte donc moins de zones et s'avère plus rapide que le protocole TCP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the four layers of the TCP/IP model and lists protocols that work at each of the layers.  At the Application layer there is FTP, HTTP, SMTP, DNS, and TFTP.  At the Transport layer there is both TCP and UDP.  The Internet layer has IP and the Network Access layer has LAN and WAN connections.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

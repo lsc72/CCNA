@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.2.5 Contrôle de flux TCP - Prévention des encombrements</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Contrôle de flux TCP - Prévention des encombrements</h1>
+        <div>
+          <p>En cas d'encombrement sur un réseau, des paquets sont mis au rebut par le routeur surchargé. Lorsque des paquets contenant des segments TCP ne parviennent pas à leur destination, ils sont considérés comme étant non reçus. En déterminant la vitesse à laquelle les segments TCP sont envoyés, mais non reçus, la source peut estimer le niveau d'encombrement du réseau.  </p>
+          <p></p>
+          <p>Chaque fois qu'il y a encombrement, les segments TCP perdus sont retransmis par la source. Si la retransmission n'est pas correctement contrôlée, une retransmission supplémentaire des segments TCP peut aggraver encore le niveau d'encombrement du réseau. Non seulement de nouveaux paquets contenant des segments TCP sont introduits sur le réseau, mais l'effet de rétroaction des segments TCP perdus et retransmis encombre encore davantage le réseau. Afin d'éviter et de contrôler l'encombrement du réseau, le protocole TCP utilise divers mécanismes, minuteurs et algorithmes de gestion des encombrements. </p>
+          <p></p>
+          <p>Si la source détermine que les segments TCP n'ont pas été reçus ou qu'ils n'ont pas été reçus à temps, elle peut diminuer le nombre d'octets à envoyer avant la réception d'un accusé de réception. Notez que c'est la source qui diminue le nombre d'octets non reçus à envoyer et non la taille de fenêtre déterminée par la destination.</p>
+          <p></p>
+          <p>
+            <b>Remarque :</b> l'explication des mécanismes, des minuteurs et des algorithmes réels de gestion des encombrements sort du cadre de ce cours.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows what happens when some segments get lost. PC 1 sends segments 1, 2, 3, and 4. Segments 2 and 3 were lost. PC B sends ACKs for 1 and 2. PC A says “I’m not getting the acknowledgments I expect for PC B so I will reduce the number of bytes I send before getting an acknowledgment.”</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

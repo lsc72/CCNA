@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.4 Accès avec gestion des conflits – CSMA/CD</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Accès avec gestion des conflits – CSMA/CD</h1>
+        <div>
+          <p>Les réseaux locaux sans fil, les réseaux locaux Ethernet avec concentrateurs, et les anciens réseaux de bus Ethernet constituent tous des exemples de réseaux d'accès avec gestion des conflits. Tous ces réseaux fonctionnent en mode semi-duplex. Une procédure est donc nécessaire pour déterminer à quel moment un périphérique peut envoyer des données et ce qui doit se produire lorsque plusieurs périphériques envoient des données au même moment.</p>
+          <p>Le processus d'accès multiple avec écoute de porteuse et détection de collision (CSMA/CD) est utilisé sur les réseaux locaux Ethernet en mode semi-duplex. La figure 1 montre un réseau local Ethernet utilisant un concentrateur. Le processus CSMA se déroule comme suit :</p>
+          <p>1. Le PC1 a une trame Ethernet à envoyer au PC3.</p>
+          <p>2. La carte réseau du PC1 doit déterminer si une personne ne transmet pas déjà des données sur le support. Si elle ne détecte aucun signal d'opérateur, en d'autres termes, si elle ne reçoit pas de transmission de la part d'un autre périphérique, elle considère que le réseau est disponible pour effectuer un envoi. </p>
+          <p>3. La carte réseau du PC1 envoie la trame Ethernet, comme illustré à la figure 1.</p>
+          <p>4. Le concentrateur Ethernet reçoit la trame. Un concentrateur Ethernet est également appelé répéteur multiport. Tous les bits reçus sur un port entrant sont régénérés et sont envoyés à tous les autres ports, comme indiqué à la figure 2.  </p>
+          <p>5. Si un autre périphérique, comme le PC2, veut transmettre des données mais est en train de recevoir une trame, il doit patienter jusqu'à ce que le canal soit libre.</p>
+          <p>6. Tous les périphériques reliés au concentrateur reçoivent la trame. Étant donné que la trame possède une adresse de liaison de données de destination pour le PC3, seul ce périphérique acceptera et copiera la trame dans son ensemble. Les cartes réseau de tous les autres périphériques ignoreront la trame, comme illustré à la figure 3.</p>
+          <p>Si deux périphériques transmettent en même temps, il se produit une collision. Les deux périphériques détectent la collision sur le réseau, constituant ce que l'on appelle une détection de collision (CD). Pour ce faire, la carte réseau compare les données transmises aux données reçues ou bien reconnait que l'amplitude du signal est plus grande que la normale sur le support. Les données envoyées par les deux périphériques sont corrompues et doivent être envoyées de nouveau.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1, 2 and 3 show three PCs attached to a hub. In Figure 1, PC1 says “The medium is available so I will send the Ethernet frame to PC3.” A frame is leaving PC1. In Figure 2, the hub forwards the frame to PC2 and PC3. PC2 says “I have a frame to send but I have to wait because I am receiving a frame.” In Figure 3, PC2 and PC3 receive the frame. PC2 says “This frame is not for me, so I will ignore it.” PC3 says, “This frame is for me, so I will copy in the entire frame.”</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

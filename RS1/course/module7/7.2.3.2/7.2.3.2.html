@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.2 Longueur de préfixe IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Longueur de préfixe IPv6</h1>
+        <div>
+          <p>Souvenez-vous que le préfixe (ou la partie réseau) d'une adresse IPv4 peut être identifié par un masque de sous-réseau en notation décimale à point ou une longueur de préfixe (notation de barre oblique). Par exemple, l'adresse IPv4 192.168.1.10 et le masque de sous-réseau en notation décimale à point 255.255.255.0 correspondent à 192.168.1.10/24. </p>
+          <p>L'IPv6 utilise la longueur de préfixe pour représenter le préfixe de l'adresse. Le protocole IPv6 n'utilise pas la notation décimale à point du masque de sous-réseau. La longueur de préfixe est utilisée pour indiquer la partie réseau d'une adresse IPv6 à l'aide de la notation adresse IPv6/longueur de préfixe.</p>
+          <p>La longueur de préfixe peut être comprise entre 0 et 128. La longueur de préfixe IPv6 standard pour les réseaux locaux et la plupart des autres types de réseau est /64. Cela signifie que le préfixe ou la partie réseau de l'adresse a une longueur de 64 bits, ce qui laisse 64 bits pour l'ID d'interface (partie hôte) de l'adresse.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows an example of /64 prefix notation in IPv6 addressing.  The IPv6 address 2001:0DB8:000A:0000:0000:0000:0000:0000 is divided into two parts. Four hextets or 64 bits on the left represents the network prefix and four hextets or 64 bits on the right represent the interface ID. The compressed IPv6 network address is written as 2001:DB8:A::/64</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.1 Décisions relatives aux transmissions entre les hôtes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Décisions relatives aux transmissions entre les hôtes</h1>
+        <div>
+          <p>La couche réseau est également responsable de diriger les paquets entre les hôtes. Un hôte peut envoyer un paquet à :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Lui-même</b>  un hôte peut s'envoyer une requête ping en envoyant un paquet à une adresse IPv4 spécifique, 127.0.0.1, appelée interface de bouclage. L'envoi d'une requête ping à l'interface de bouclage permet de tester la pile de protocoles TCP/IP sur l'hôte. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Un hôte local :</b>  il s'agit d'un hôte sur le même réseau local que l'hôte émetteur. Les hôtes partagent la même adresse réseau. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Un hôte distant :</b> il s'agit d'un hôte sur un réseau distant. Les hôtes ne partagent pas la même adresse réseau. </li>
+            </ul>
+          </p>
+          <p>Pour déterminer si le paquet est destiné à un hôte local ou à un hôte distant, la combinaison adresse IPv4/masque de sous-réseau du périphérique source (expéditeur) est comparée à la combinaison adresse IPv4/masque de sous-réseau du périphérique de destination.</p>
+          <p>Dans un réseau domestique ou d'entreprise, il peut y avoir plusieurs périphériques filaires et sans fil interconnectés par le biais d'un périphérique intermédiaire tel qu'un commutateur LAN et/ou un point d'accès sans fil (WAP). Ce périphérique intermédiaire permet l'interconnexion entre les hôtes locaux sur le réseau local. Les hôtes locaux peuvent se joindre et partager des informations sans nécessiter de périphériques supplémentaires. Si un hôte envoie un paquet à un périphérique appartenant au même réseau IP, le paquet est simplement transféré via l'interface hôte, par le biais du périphérique intermédiaire, directement au périphérique de destination. </p>
+          <p>Naturellement, dans la plupart des situations, nous voulons que nos périphériques soient connectés au-delà du segment de réseau local, par exemple à d'autres habitations, à d'autres entreprises et à Internet. Les périphériques se trouvant au-delà du segment de réseau local sont appelés hôtes distants. Lorsqu'un périphérique source envoie un paquet à un périphérique de destination distant, alors l'aide des routeurs et le routage sont nécessaires. Le routage est le processus de détermination du meilleur chemin vers une destination. Le routeur connecté au segment de réseau local est appelé la <b>passerelle par défaut</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router connected to a LAN with two hosts and the Internet with a remote server.  There is an arrow from one host to another host on the same network.  There is also an arrow from one host to the remote server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<textcomponents>
+
+  <component id="ID_title">
+     <text><![CDATA[<b>Dates d'épuisement des adresses IPv4 selon les RIR</b>]]></text>
+  </component>
+  <component id="transcript">
+     <text><![CDATA[<b>transcription ici</b>]]></text> 
+  </component>
+
+  <component id="ID_txt01">
+  	<text><![CDATA[<b>Date d'épuisement des adresses IPv4 : juillet 2015</b>]]></text>
+  </component>
+  <component id="ID_txt02">
+  	<text><![CDATA[<b>Date d'épuisement des adresses IPv4 : septembre 2012</b>]]></text>
+  </component>
+  <component id="ID_txt03">
+  	<text><![CDATA[<b>Date d'épuisement des adresses IPv4 : avril 2011</b>]]></text>
+  </component>
+  <component id="ID_txt04">
+  	<text><![CDATA[<b>Date d'épuisement prévue des adresses IPv4 : 2019</b>]]></text>
+  </component>
+  <component id="ID_txt05">
+  	<text><![CDATA[<b>Date d'épuisement des adresses IPv4 : juin 2014</b>]]></text>
+  </component>
+  
+</textcomponents>

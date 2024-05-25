@@ -1,0 +1,26 @@
+<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Messages de sollicitation et d'annonce de routeur</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Serveur DHCPv6]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Sollicitation de routeur - à tous les routeurs IPv6</b><br/>« J'ai besoin des informations d'adressage du routeur. »]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Annonce de routeur - à tous les nœuds IPv6</b><br/>Option 2 (SLAAC et DHCPv6) : « Voici votre préfixe, la longueur de préfixe et les informations de passerelle par défaut, mais vous devrez obtenir les informations DNS auprès d'un serveur DHCPv6. »]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Sollicitation DHCPv6 - À tous les serveurs DHCPv6</b><br/>Option 2 (SLAAC et DHCPv6) : « J'ai besoin d'informations d'adressage de la part du serveur DHCPv6. »]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>Remarque :</b> une annonce de routeur avec l'option 3 (DHCPv6 uniquement) nécessite que le client obtienne toutes les informations à partir du serveur DHCPv6, sauf l'adresse de la passerelle par défaut. L'adresse de la passerelle par défaut est l'adresse IPv6 source de l'annonce de routeur.]]></text>
+</component>
+
+</textcomponents>

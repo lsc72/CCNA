@@ -1,0 +1,164 @@
+﻿<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Exercice - Exigences liées à l&apos;architecture réseau</b>]]></text>
+    </component>
+    <!-- instructions -->
+    <component id="ID_instr_title">
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id="ID_instr_body">
+        <text>
+            <![CDATA[Sélectionnez la colonne appropriée pour indiquer les exigences liées à l&apos;architecture réseau correspondant aux caractéristiques et fonctions proposées.]]>
+        </text>
+    </component>
+    <!-- buttons -->
+    <component id="ID_s1_CHECK">
+        <text>
+            <![CDATA[Contrôler]]></text>
+    </component>
+    <component id="ID_s1_RESET">
+        <text>
+            <![CDATA[Réinitialiser]]></text>
+    </component>
+    <!--Number of rows in the table-->
+    <component id="txt_numrows">
+        <text>
+            <![CDATA[8]]>
+        </text>
+    </component>
+    <!--Number of columns for the answers in the table. Do not count the question column-->
+    <component id="txt_numcols">
+        <text>
+            <![CDATA[4]]>
+        </text>
+    </component>
+    <!--Answer column headers-->
+    <component id="MCTable_title">
+        <text>
+            <![CDATA[ ]]>
+        </text>
+    </component>
+    <component id="txt_col1">
+        <text>
+            <![CDATA[<b>Tolérance <br/>aux pannes</b>]]></text>
+    </component>
+    <component id="txt_col2">
+        <text>
+            <![CDATA[<b>Évolutivité</b>]]></text>
+    </component>
+    <component id="txt_col3">
+        <text>
+            <![CDATA[<b>Qualité <br/>de service</b>]]></text>
+    </component>
+    <component id="txt_col4">
+        <text>
+            <![CDATA[<b>Sécurité</b>]]></text>
+    </component>
+    <!--Question text - blockindent code moves the text away from the left edge a bit-->
+    <!--Question text - If questions are numbered, use blockindent for hanging indents-->
+    <component id="txt_q1">
+        <text>
+            <![CDATA[1. <textformat blockindent='12'>Les réseaux doivent toujours être disponibles.</textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q2">
+        <text>
+            <![CDATA[2. <textformat blockindent='12'>Les files d&apos;attente de priorité sont implémentées lorsque la <span class="spaceLeft">demande de bande passante réseau dépasse les capacités de la </span><span class="spaceLeft">bande passante disponible.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q3">
+        <text>
+            <![CDATA[3. <textformat blockindent='12'>L&apos;équipement des réseaux d&apos;entreprise et domestiques doit être<br/><span class="spaceLeft">protégé.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q4">
+        <text>
+            <![CDATA[4. <textformat blockindent='12'>Le développement d&apos;un plan pour la mise en file d&apos;attente de <span class="spaceLeft">priorité est une stratégie permettant d&apos;acheminer les informations </span><span class="spaceLeft">efficacement.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q5">
+        <text>
+            <![CDATA[5. <textformat blockindent='12'>Les données personnelles et professionnelles doivent être <span class="spaceLeft">protégées.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q6">
+        <text>
+            <![CDATA[6. <textformat blockindent='12'>Les réseaux peuvent s&apos;étendre ou se développer avec un impact <span class="spaceLeft">minime sur les performances.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q7">
+        <text>
+            <![CDATA[7. <textformat blockindent='12'>Les données peuvent circuler sur plusieurs routes<br/><span class="spaceLeft">à partir d&apos;une source distante.</span></textformat>]]>
+        </text>
+    </component>
+    <component id="txt_q8">
+        <text>
+            <![CDATA[8. <textformat blockindent='12'>Les normes de réseau communes permettent aux fournisseurs de <span class="spaceLeft">matériel et de logiciels de se concentrer sur l&apos;amélioration des</span><span class="spaceLeft"> produits et les services.</span></textformat>]]>
+        </text>
+    </component>
+    <!--Answers - Give the column number(s), column numbering start with 1 not 0-->
+    <!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+    <component id="txt_a1">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <component id="txt_a2">
+        <text>
+            <![CDATA[3]]>
+        </text>
+    </component>
+    <component id="txt_a3">
+        <text>
+            <![CDATA[4]]>
+        </text>
+    </component>
+    <component id="txt_a4">
+        <text>
+            <![CDATA[3]]>
+        </text>
+    </component>
+    <component id="txt_a5">
+        <text>
+            <![CDATA[4]]>
+        </text>
+    </component>
+    <component id="txt_a6">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <component id="txt_a7">
+        <text>
+            <![CDATA[1]]>
+        </text>
+    </component>
+    <component id="txt_a8">
+        <text>
+            <![CDATA[2]]>
+        </text>
+    </component>
+    <!-- Correct Feedback -->
+    <component id="ID_titleCorrect">
+        <text>
+            <![CDATA[Correct]]></text>
+    </component>
+    <component id="ID_correctText">
+        <text>
+            <![CDATA[Vous avez correctement associé chaque caractéristique à l&apos;exigence liée à l&apos;architecture réseau correspondante.]]>
+        </text>
+    </component>
+    <!-- Incorrect Feedback -->
+    <component id="ID_titleIncorrect">
+        <text>
+            <![CDATA[Incorrect]]></text>
+    </component>
+    <component id="ID_IncorrectText">
+        <text>
+            <![CDATA[Vous n&apos;avez pas correctement associé chaque caractéristique à l&apos;exigence liée à l&apos;architecture réseau correspondante. Cliquez sur le bouton Réinitialiser et réessayez.]]>
+        </text>
+    </component>
+</textcomponents>

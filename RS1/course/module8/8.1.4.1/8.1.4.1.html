@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.4.1 Segmentation du réseau en sous-réseaux selon les besoins des hôtes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Segmentation du réseau en sous-réseaux selon les besoins des hôtes</h1>
+        <div>
+          <p>Deux considérations sont à prendre en compte lors de la planification de sous-réseaux : </p>
+          <p>
+            <ul>
+              <li>le nombre d'adresses d'hôtes requis pour chaque réseau </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>le nombre de sous-réseaux individuels requis </li>
+            </ul>
+          </p>
+          <p>Le tableau de la figure ci-contre indique les détails de la segmentation d'un réseau /24. Observez la relation inverse entre le nombre de sous-réseaux et le nombre d'hôtes. Plus le nombre de bits empruntés pour créer des sous-réseaux est élevé, moins il y a d'hôtes disponibles. Si le réseau requiert davantage d'adresses d'hôte, un plus grand nombre de bits d'hôte est nécessaire, ce qui réduit le nombre de sous-réseaux.</p>
+          <p>Le nombre d'adresses d'hôte nécessaires dans le plus grand sous-réseau déterminera le nombre de bits qui doivent rester dans la partie hôte. Souvenez-vous que deux de ces adresses ne peuvent pas être utilisées. Le nombre d'adresses disponibles correspond donc à 2^n - 2. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table. The first column lists the six prefix lengths from /25 to /30. The second column lists the six subnet masks from 255.255.255.128 to 255.255.255.252. The third column shows the subnet mask in binary with the letter “n” above one bits and the letter “h” above zero bits. The effect is to show the borrowing of bits into the fourth octet from borrowing one bit in the first row (/25) to borrowing six bits in the last row (/30). The fourth and fifth columns show the number of subnets and hosts respectively. For example, borrowing 3 bits gets you 8 subnets with 30 hosts per subnet.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

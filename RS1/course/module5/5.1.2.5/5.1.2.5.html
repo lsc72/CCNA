@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.2.5 Adresse MAC de monodiffusion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresse MAC de monodiffusion</h1>
+        <div>
+          <p>Avec Ethernet, des adresses MAC différentes sont utilisées pour la monodiffusion (unicast), la multidiffusion (multicast) et la diffusion (broadcast) sur la couche 2.</p>
+          <p>L'adresse MAC de monodiffusion est l'adresse unique utilisée lorsqu'une trame est envoyée à partir d'un seul périphérique émetteur, à un seul périphérique destinataire.</p>
+          <p>Dans l'exemple de l'animation, un hôte avec l'adresse IPv4 192.168.1.5 (source) demande une page web au serveur dont l'adresse IPv4 de monodiffusion est 192.168.1.200. Pour qu’un paquet monodiffusion soit envoyé et reçu, une adresse IP de destination doit figurer dans l’en-tête du paquet IP. Une adresse MAC de destination correspondante doit également être présente dans l’en-tête de la trame Ethernet. Les adresses IP et MAC se combinent pour transmettre les données à un hôte de destination spécifique.</p>
+          <p>Le processus qu'un hôte source utilise pour déterminer l'adresse MAC de destination est appelé protocole ARP (Address Resolution Protocol). Il est traité ultérieurement dans ce chapitre.</p>
+          <p>L'adresse MAC de destination peut donc être une adresse de monodiffusion, de diffusion ou de multidiffusion, mais l'adresse MAC source doit toujours être une adresse de monodiffusion.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">This animation shows several computers connected to a switch.  Host 1 wants to send a packet to a server (a unicast).  The diagram shows the MAC address and IP address of both host 1 and the server.  The graphic also shows the frame with source and destination MAC address and the encapsulated packet with source and destination IP address.  When the animation plays, the frame travels from host 1 to the server since the switch forwards the frame based on MAC address and knows where the server is located.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

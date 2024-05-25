@@ -1,0 +1,104 @@
+<textcomponents>
+    <!-- Slide 1 -->
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>EUI-64 Process</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_txt01">
+        <text><![CDATA[ICMPv6 Router Advertisement]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[From RA Message]]></text>
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Created by client device]]></text>
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Prefix]]></text>
+    </component>
+    
+    <component id="ID_s1_txt05">
+        <text><![CDATA[Interface ID]]></text>
+    </component>
+    
+    <component id="ID_s1_txt06">
+        <text><![CDATA[<b>EUI-64 or random 64-bit number</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_txt07">
+        <text><![CDATA[/64]]></text>
+    </component>
+    
+    <component id="ID_bubble01">
+        <text><![CDATA[No one is tracking what IPv6 address I am using.]]></text>
+    </component>
+    
+    <!-- Slide 2 -->
+    <component id="ID_s2_title">
+		<text><![CDATA[<b>EUI-64 Process</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[OUI<br>24 bits]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Device Identifier<br>24 bits]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[EUI-64 Process]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Binary]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Binary]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Binary]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[Binary]]></text>
+	</component>
+		
+	<component id="ID_s2_txt08">
+		<text><![CDATA[<b>Step 1: Split the MAC address</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt09">
+		<text><![CDATA[<b>Step 2: Insert FFFE</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt10">
+		<text><![CDATA[<b>Step 3: Flip the U/L bit</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt11">
+		<text><![CDATA[Modified EUI-64 Interface ID in Hexadecimal Notation]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+        <text><![CDATA[<b>From RA Message</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+        <text><![CDATA[<b>EUI-64 generated</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt01">
+        <text><![CDATA[<b>From RA Message</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+        <text><![CDATA[<b>Random 64-bit number</b>]]></text>
+	</component>
+    
+</textcomponents>

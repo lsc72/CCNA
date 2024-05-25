@@ -1,0 +1,101 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Activity – Identify Network Security Terminology</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Drag the security term to the correct definition.]]></text>
+</component>
+
+<component id='ID_drag_header'>
+	<text><![CDATA[<b>Security Terms</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[An attack which slows down or crashes equipment and programs.]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[Creates a secure connection for remote workers.]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Blocks unauthorized access to your network.]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[Network attack that occurs on the first day that a vulnerability becomes known.]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[Arbitrary code running on user devices.]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[Terminology]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[Definition]]></text>
+</component>
+
+<!--Drag and Drop-->
+<component id='ID_ip1_DS'>
+	<text><![CDATA[<font color="#393536">Virtual Private<br>Network (VPN)</font>]]></text>
+</component>
+
+<component id='ID_ip2_DS'>
+	<text><![CDATA[<font color="#393536">Zero-day (-hour)</font>]]></text>
+</component>
+
+<component id='ID_ip3_DS'>
+	<text><![CDATA[<font color="#393536">Denial of Service</font>]]></text>
+</component>
+
+<component id='ID_ip4_DS'>
+	<text><![CDATA[<font color="#393536">Firewall</font>]]></text>
+</component>
+
+<component id='ID_ip5_DS'>
+	<text><![CDATA[<font color="#393536">Virus, worm, or <br/>Trojan horse</font>]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Definition</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Terminology</b>]]></text>
+	</component> 
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully chosen the terminology for security threats and components as described.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully chosen the terminology for security threats and components as described. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+</textcomponents>

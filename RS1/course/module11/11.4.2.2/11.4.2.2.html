@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.2.2 Conflit des paramètres duplex</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Conflit des paramètres duplex</h1>
+        <div>
+          <p>Résoudre un conflit des paramètres duplex peut s'avérer ardu, car la communication entre les périphériques concernés s'établit sans problème. Les conflits des paramètres duplex ne sont pas toujours visibles, même avec des outils tels que les commandes ping. Les petits paquets uniques ne permettent pas toujours de déceler un conflit des paramètres duplex. Une session de terminal, qui envoie des données lentement (en rafales très courtes) peut également parvenir à communiquer malgré un conflit des paramètres duplex. Même lorsque l'une des extrémités de la connexion tente d'envoyer une quantité importante de données et que la performance des liaisons chute de manière considérable, le problème peut ne pas être visible car le réseau reste opérationnel.</p>
+          <p></p>
+          <p>Le protocole propriétaire de Cisco, CDP, permet de détecter facilement un conflit des paramètres duplex entre deux équipements Cisco. Considérons la topologie et les messages de journal de la figure 1, où l'interface G0/0 sur R1 a été configurée par erreur pour fonctionner en mode semi-duplex. Le protocole CDP affiche des messages de journal à propos du lien présentant le conflit des paramètres duplex. Les messages contiennent également le nom des périphériques et des ports impliqués dans le conflit, ce qui facilite l'identification et la résolution du problème.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : ces messages étant des messages de journal, ils s'affichent uniquement sur une session de console par défaut. Pour voir ces messages avec une connexion à distance, la commande terminal monitor doit être activée.</p>
+          <p></p>
+          <p>La figure 2 montre que l'interface S1 est correctement configurée pour un fonctionnement en mode duplex intégral. La figure 3 montre que la configuration en mode semi-duplex sur R1 est à l'origine du problème.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1, 2, and 3 have the topology with a switch connected to a router. The devices have duplex mismatch. The switch is operating in full-duplex mode and the router is operating in half-duplex mode. Figure 1 also shows output for the switch’s console messages which indicate there is a duplex mismatch. Figure 2 displays output for the ‘show interfaces fastethernet 0/5’ command on the switch verifying that the switch is operating in full duplex mode. Figure 3 displays output for the ‘show interfaces gigabitethernet0/0’ common on the router verify that the router is operating in half-duplex mode.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

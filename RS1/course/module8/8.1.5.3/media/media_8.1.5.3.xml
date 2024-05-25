@@ -1,0 +1,58 @@
+<textcomponents><!--Slide 0ne--><component id="ID_s1_title">
+		<text><![CDATA[<b>Création de sous-réseaux de base</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Réseaux locaux<br /> A, B, C, D]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Non utilisé/disponible]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Le sous-réseau 7 est à nouveau segmenté en sous-réseaux.]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Partie réseau]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Partie hôte]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Décimale à point]]></text> 
+	</component><!--Slide Two--><component id="ID_s2_title">
+		<text><![CDATA[<b>Schéma de sous réseaux avec VLSM</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[3 autres bits empruntés au sous-réseau 7 :]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Réseaux étendus]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Non utilisé/disponible]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Segmentation d'un sous-réseau]]></text> 
+	</component>
+    
+    <component id="ID_s2_txt05">
+		<text><![CDATA[Partie réseau]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Partie hôte]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[Décimale à point]]></text> 
+	</component>
+</textcomponents>

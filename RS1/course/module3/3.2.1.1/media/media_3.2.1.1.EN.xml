@@ -1,0 +1,33 @@
+﻿<textcomponents>
+
+
+<!-- slide 1 -->
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Protocol Suite</b>]]></text>
+</component> 
+<component id="ID_s1_txt01">
+	<text><![CDATA[Protocol suites are sets of rules that work together to help solve a problem.]]></text>
+</component> 
+<component id="ID_s1_txt02">
+	<text><![CDATA[Content Layer]]></text>
+</component> 
+<component id="ID_s1_txt03">
+	<text><![CDATA[Rules Layer]]></text>
+</component> 
+<component id="ID_s1_txt04">
+	<text><![CDATA[Physical Layer]]></text>
+</component> 
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>Conversation protocol suite</b><br/>1. Use a common language<br/>2. Wait your turn<br/>3. Signal when finished]]></text>
+</component> 
+<component id="ID_bubble">
+	<text><![CDATA[<font color="#ffffff">Where is the café?</font>]]></text>
+</component> 
+
+<!-- end slide 1 -->
+
+
+
+
+	
+</textcomponents>

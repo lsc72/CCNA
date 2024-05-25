@@ -1,0 +1,41 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Adresses de multidiffusion IPv6 de nœud sollicité</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Ethernet]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[IPv6]]></text>
+</component>
+
+
+<component id="ID_txt03">
+<text><![CDATA[MAC de destination : multidiffusion]]></text>
+</component>
+
+
+<component id="ID_txt04">
+<text><![CDATA[IPV6 de destination : multidiffusion de nœud sollicité]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Ma carte réseau Ethernet a déterminé que cette multidiffusion n'était pas pour moi.]]></text>
+</component>
+
+
+<component id="ID_txt06">
+<text><![CDATA[Ma carte réseau Ethernet a déterminé que cette multidiffusion n'était pas pour moi.]]></text>
+</component>
+
+
+<component id="ID_txt07">
+<text><![CDATA[Ma carte réseau Ethernet a déterminé que cette multidiffusion est pour moi !]]></text>
+</component>
+
+
+
+</textcomponents>

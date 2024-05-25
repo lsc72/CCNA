@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.9 Formules de calcul des sous-réseaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Formules de calcul des sous-réseaux</h1>
+        <div>
+          <p>Pour calculer le nombre de sous-réseaux qui peuvent être créés à partir des bits empruntés, utilisez la formule indiquée dans la figure 1. La figure 2 fournit le nombre de sous-réseaux qui peuvent être créés si l'on emprunte 1, 2, 3, 4, 5 ou 6 bits. </p>
+          <p>
+            <b>Remarque</b> : les deux derniers bits ne peuvent pas être empruntés au dernier octet puisqu'aucune adresse d'hôte ne serait disponible. De ce fait, la longueur de préfixe maximale lors de la segmentation du réseau est /30 ou 255.255.255.252.</p>
+          <p>Pour calculer le nombre d'hôtes qui peuvent être pris en charge, utilisez la formule indiquée dans la figure 3. L'adresse réseau et l'adresse de diffusion sont les deux adresses de sous-réseau qui ne peuvent pas être attribuées à un hôte. Nous devons donc soustraire 2.</p>
+          <p>Comme le montre la figure 4, il reste 7 bits d'hôte, donc le calcul est le suivant : 2^7 = 128 - 2 = 126. Cela signifie que chaque sous-réseau dispose de 126 adresses d'hôte valides.</p>
+          <p>Donc, l'emprunt de 1 bit d'hôte du réseau permet la création de 2 sous-réseaux dont chacun peut prendre en charge un total de 126 hôtes.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the formula “2 to the power of n” where “n” is the number of bits borrowed. Figure 2 shows the formula calculation from 1 bit borrowed up to 6 bits borrowed. 2 to the 1 power equals 1, 2 to the 2 power equals four, and so on until 2 to the 6 power equals 64. Figure 3 shows the formula “2 to power of n minus 2” where “ne” is the number bits remaining in the host portion. Figure 4 shows the 192.168.1.0/25 subnet. The host bits are highlighted. The formula for the number of valid hosts per subnet is 2 to the 7 minus 2 which equals 126.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

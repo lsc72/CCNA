@@ -1,0 +1,44 @@
+<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Attribution des adresses IP</b>]]></text>
+	</component>
+
+	
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[ARIN]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[L'ARIN (American Registry for Internet Numbers) gère et maintient les adresses IPv4 et IPv6 pour l'Amérique du Nord. Pour en savoir plus, visitez http://www.arin.net]]></text>
+	</component>	
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[RIPE NCC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[L'organisme RIPE (Réseaux IP Européens) gère et maintient les adresses IPv4 et IPv6 pour l'Europe, le Moyen-Orient et l'Asie centrale (http://www.ripe.net).]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[APNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[L'APNIC (Asia Pacific Network Information Centre) gère et maintient les adresses IPv4 et IPv6 pour l'Asie et la région Pacifique, dont l'Australie. Pour en savoir plus, visitez http://www.apnic.net]]></text>
+	</component>
+			
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[AfriNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[L'AfriNIC (African Network Information Centre) gère et maintient les adresses IPv4 et IPv6 pour l'Afrique. Pour en savoir plus, visitez http://www.afrinic.net]]></text>
+	</component>
+  
+	<component id="ID_s1_titleTxt05">
+		<text><![CDATA[LACNIC]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt05">
+		<text><![CDATA[Le LACNIC (Regional Latin-American and Caribbean IP Address Registry) gère et maintient les adresses IPv4 et IPv6 pour l'Amérique latine et certaines îles des Caraïbes. Pour en savoir plus, visitez http://www.lacnic.net]]></text>
+	</component>
+
+  
+</textcomponents>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.3.2 Modifier la configuration en cours</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Modifier la configuration en cours</h1>
+        <div>
+          <p>Si les modifications apportées à la configuration en cours n'ont pas l'effet souhaité et que le fichier running-config n'a pas encore été enregistré, vous pouvez revenir à la configuration antérieure du périphérique en supprimant les commandes modifiées individuellement ou recharger le périphérique à l'aide de la commande <b>reload</b> du mode d'exécution privilégié afin de restaurer startup-config.</p>
+          <p></p>
+          <p>L'inconvénient de l'utilisation de la commande reload pour supprimer une configuration en cours non enregistrée est le court délai durant lequel le périphérique est hors ligne, entraînant une panne de réseau.</p>
+          <p></p>
+          <p>Quand il reçoit une commande de rechargement, IOS vérifie si la configuration en cours comporte des modifications qui n'ont pas été enregistrées dans la configuration initiale. Dans l'affirmative, IOS affiche une invite vous demandant s'il doit enregistrer les modifications. Pour abandonner les modifications, entrez <b>n</b> ou <b>no</b>.</p>
+          <p></p>
+          <p>Sinon, si des modifications indésirables ont été enregistrées dans la configuration initiale, il peut s'avérer nécessaire de supprimer toutes les configurations. Pour ce faire, vous devez effacer la configuration initiale et redémarrer le périphérique. La commande <b>erase startup-config</b> du mode d'exécution privilégié permet de supprimer la configuration initiale. Quand vous entrez cette commande, le commutateur vous demande de la confirmer. Appuyez sur <b>Entrée </b>pour accepter par défaut.</p>
+          <p></p>
+          <p>Après avoir supprimé le fichier de configuration initiale de la mémoire NVRAM, rechargez le périphérique pour supprimer le fichier de configuration en cours de la mémoire vive. Lors du rechargement, un commutateur charge la configuration initiale qui était proposée à l'origine avec le périphérique.  </p>
+          <p></p>
+          <p>Cliquez sur le bouton Lecture dans la figure pour afficher une démonstration vidéo expliquant comment enregistrer les fichiers de configuration de commutateur.</p>
+          <p></p>
+          <p>Cliquez <a href="../../files/2.2.3.2%20Video%20-%20Saving%20Configurations.pdf" target="_blank">ici</a> pour lire la transcription de cette vidéo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "Saving Configurations".</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

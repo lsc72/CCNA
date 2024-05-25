@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.1.1 Interprétation des résultats de requête ping</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Interprétation des résultats de requête ping</h1>
+        <div>
+          <p>L'utilisation de la commande <b>ping</b> constitue un moyen efficace de tester la connectivité. La commande <b>ping</b> utilise le protocole ICMP (Internet Control Message Protocol) et vérifie la connectivité de couche 3. Bien qu'elle ne permette pas toujours de diagnostiquer précisément la nature du problème, la commande <b>ping</b> peut aider à en identifier la cause, ce qui constitue une première étape importante dans le dépannage d'un réseau.</p>
+          <p></p>
+          <p>
+            <b>Indicateurs IOS de la commande ping</b>
+          </p>
+          <p></p>
+          <p>Une commande ping génère une indication pour chaque écho ICMP envoyé. Les indicateurs employés le plus souvent par IOS sont les suivants  :</p>
+          <p>
+            <ul>
+              <li>
+                <b>!</b> - Indique la réception d'une réponse d'écho ICMP, comme le montre la figure 1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.</b> - Indique l'expiration du délai d'attente d'une réponse d'écho ICMP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>U</b> - indique la réception d'un message ICMP d'inaccessibilité. </li>
+            </ul>
+          </p>
+          <p>Le caractère « <b>.</b> » (point) peut par exemple indiquer qu'un problème de connectivité a été rencontré sur le chemin parcouru. Il peut aussi signifier qu'un routeur situé sur le chemin ne possède pas de route vers la destination et qu'il n'a pas envoyé de message ICMP de destination inaccessible. Enfin, il indique parfois que la commande ping a été tout simplement bloquée par la sécurité d'un périphérique. Lors de l'envoi d'une requête ping sur un réseau local Ethernet, il est courant que le délai d'attente de la première requête d'écho expire si le processus ARP est requis.</p>
+          <p>La lettre « <b>U</b> » indique qu'un routeur situé sur le chemin et ne possédant pas de route vers l'adresse de destination a répondu par un message ICMP d'inaccessibilité. Le routeur ne possède pas de route vers l'adresse de destination ou la requête ping a été bloquée.  </p>
+          <p>
+            <b>Test de la boucle</b>
+          </p>
+          <p>La commande ping peut également être utilisée pour vérifier la configuration IP interne sur l'hôte local en envoyant une requête à l'adresse de bouclage 127.0.0.1, comme le montre la figure 2. Ceci permet de vérifier le bon fonctionnement de la pile de protocoles de la couche réseau à la couche physique (et en sens inverse) sans pour autant envoyer de signal sur les supports.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 and 2 show the same topology. R1 and R2 are connected through a WAN link. Each router has two LANs with a PC and a switch connected to each LAN. In Figure 1, output is shown for a successful ping from R1 to R2. In Figure 2, output is shown for a successful ping from PC2 to its loopback address, 127.0.0.1.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+﻿<textcomponents>
+<component id='ID_title'>
+	<text><![CDATA[<b>Exercice – Caractéristiques du protocole IP</b>]]></text>
+</component>
+<component id='ID_titleTxt01'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_bodyTxt01'>
+	<text><![CDATA[Lisez chaque caractéristique du protocole IP. Cliquez ensuite sur Sans connexion, Acheminement au mieux ou Indépendant du support pour indiquer la méthode de livraison.]]></text>
+</component>
+
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Caractéristique IP</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Mode de livraison</b>]]></text>
+</component>
+<!--buttons-->
+<component id="ID_btn01">
+<text><![CDATA[Réinitialiser]]></text>
+</component>
+<!-- Terms -->
+<component id="ID_term01">
+<text><![CDATA[<b>Sans connexion</b>]]></text>
+</component>
+
+<component id="ID_term02">
+<text><![CDATA[<b>Acheminement au mieux</b>]]></text>
+</component>
+
+<component id="ID_term03">
+<text><![CDATA[<b>Indépendant du support</b>]]></text>
+</component><!--Characteristics--><component id="ID_ans01">
+<text><![CDATA[Envoie un paquet même si l'hôte de destination ne peut pas le recevoir.]]></text>
+</component>
+
+<component id="ID_ans02">
+<text><![CDATA[Aucun contact n'est établi avec l'hôte de destination avant l'envoi d'un paquet.]]></text>
+</component>
+
+<component id="ID_ans03">
+<text><![CDATA[La livraison des paquets n'est pas garantie.]]></text>
+</component>
+
+<component id="ID_ans04">
+<text><![CDATA[Ne garantit pas que le paquet est intégralement acheminé et sans erreur.]]></text>
+</component>
+
+<component id="ID_ans05">
+<text><![CDATA[La fibre optique, les satellites et le sans fil peuvent être utilisés pour acheminer le même paquet.]]></text>
+</component>
+
+<component id="ID_ans06">
+<text><![CDATA[Adapte la taille du paquet envoyé selon le type d'accès au réseau utilisé.]]></text>
+</component>
+
+<component id='ID_break'>
+	<text><![CDATA[<br><br>]]></text>
+</component><!--feedback--><component id='ID_titleCorrect'>
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id='ID_correctText'>
+	<text><![CDATA[<span>Bravo ! Vous avez correctement associé les caractéristiques du protocole IP aux méthodes de livraison correspondantes.</span>]]></text>
+</component>
+
+<component id='ID_titleIncorrect'>
+	<text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+
+<component id='ID_incorrectText'>
+	<text><![CDATA[Veuillez réessayer.]]></text>
+</component>
+
+</textcomponents>

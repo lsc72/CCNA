@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.3.1.3 Chapitre 9 : Couche transport</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.3.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 9 : Couche transport</h1>
+        <div>
+          <p>La couche transport offre des services relatifs au transport en :</p>
+          <p>
+            <ul>
+              <li>Divisant en segments les données reçues d'une application ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Ajoutant un en-tête pour identifier et gérer chaque segment ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Utilisant les informations de l'en-tête pour réassembler les segments en données d'application ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Transférant les données assemblées à l'application adéquate.</li>
+            </ul>
+          </p>
+          <p>Les protocoles UDP et TCP sont couramment utilisés comme protocoles de couche transport.</p>
+          <p>Les datagrammes UDP et les segments TCP ajoutent aux données des en-têtes contenant un numéro de port source et un numéro de port de destination. Ces numéros de port permettent d'orienter les données vers l'application correcte s'exécutant sur l'ordinateur de destination.</p>
+          <p>Le protocole TCP ne transmet aucune donnée au réseau tant qu'il n'a pas la confirmation que la destination est prête à les recevoir. Le protocole TCP gère alors le flux de données et renvoie tout segment de données pour lequel la destination n'a pas envoyé d'accusé de réception. Le protocole TCP utilise divers mécanismes comme la connexion en trois étapes, les minuteurs, les accusés de réception et le fenêtrage dynamique pour assurer la fiabilité de ces fonctions. Le processus de fiabilité, cependant, impose une surcharge au réseau en raison des en-têtes de segment plus importants et de l'augmentation du trafic réseau entre la source et la destination.</p>
+          <p>Si les données d'application doivent être rapidement livrées à travers le réseau, ou si la bande passante du réseau ne peut pas prendre en charge la surcharge représentée par les messages de contrôle échangés entre les systèmes source et de destination, les développeurs préfèrent recourir au protocole UDP pour la couche transport. Le protocole UDP n'offre aucune des fonctions de fiabilité du protocole TCP. Ceci n'implique pourtant pas nécessairement que la communication elle-même n'est pas fiable, car les protocoles et les services de la couche application peuvent comporter des mécanismes permettant de traiter les datagrammes perdus ou retardés si l'application l'exige.</p>
+          <p>Le développeur d'applications décide du protocole de couche transport répondant le mieux aux exigences de l'application. Il est important de retenir que les autres couches jouent toutes un rôle dans les communications d'un réseau de données et en influencent les performances.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

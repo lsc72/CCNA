@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.3.3 Capturer la configuration dans un fichier texte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Capturer la configuration dans un fichier texte</h1>
+        <div>
+          <p>Vous pouvez aussi enregistrer et archiver les fichiers de configuration dans un document texte. Cette procédure permet de vous assurer qu'une copie de travail du fichier de configuration est disponible en vue d'une modification ou d'une réutilisation ultérieure.</p>
+          <p></p>
+          <p>Par exemple, supposons qu'un commutateur a été configuré et que la configuration en cours a été enregistrée sur le périphérique.</p>
+          <p>
+            <ul>
+              <li>Ouvrez un logiciel d'émulation de terminal, tel que PuTTY ou Tera Term (Figure 1), connecté à un commutateur.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Activez l'enregistrement dans le logiciel de terminal, comme PuTTY ou Tera Term, et attribuez un nom et un emplacement de fichier pour enregistrer le fichier journal. La figure 2 indique que <b>All session output</b> (Tous les résultats de session) seront capturés dans le fichier spécifié (c.-à-d. MySwitchLogs).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Exécutez la commande <b>show running-config</b> ou <b>show startup-config</b> à l'invite du mode d'exécution privilégié. Le texte affiché dans la fenêtre du terminal est alors placé dans le fichier choisi.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Désactivez l'enregistrement dans le logiciel de terminal. La figure 3 montre comment désactiver l'enregistrement en choisissant l'option d'ouverture de session <b>None</b> (Aucune).</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Le fichier texte créé peut être utilisé comme enregistrement de la façon dont le périphérique est actuellement implémenté. Il peut être nécessaire de modifier le fichier avant de l'utiliser afin de restaurer une configuration enregistrée sur un périphérique.</p>
+          <p></p>
+          <p>Pour restaurer un fichier de configuration sur un périphérique :</p>
+          <p>
+            <ul>
+              <li>passez en mode de configuration globale sur le périphérique ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>copiez et collez le fichier texte dans la fenêtre du terminal connecté au commutateur. </li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Le texte contenu dans le fichier est appliqué sous forme de commandes dans l'environnement CLI et devient la configuration en cours du périphérique. Cette méthode s'avère pratique pour configurer manuellement un périphérique.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1, 2 and 3 are a screen captures of PuTTY. Figure 1 is a the Session window. In Figure 2, “Logging” is selected, “All session output” is selected, and the log filename entered is “MySwitchLogs”. Figure 3 shows how to disable session logging by choosing “None”.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

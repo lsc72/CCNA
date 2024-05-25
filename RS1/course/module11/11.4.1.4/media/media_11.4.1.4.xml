@@ -1,0 +1,96 @@
+﻿
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Exercice - Mettre dans l&apos;ordre les étapes de dépannage</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Faites glisser chaque étape sur le champ situé en regard de la description correspondante.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque étape à sa description.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n&apos;avez pas correctement associé chaque étape à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>Vérifier</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>Réinitialiser</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF" size="15">Étapes</font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Étape 2]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Étape 4]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Étape 6]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[Étape 1]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[Étape 3]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[Étape 5]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font size="15">Étapes</font>]]></text>
+</component>
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<font size="15">Description</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Établir une théorie sur les causes probables]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Établir un plan d&apos;action pour résoudre le problème et implémenter la solution]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Documenter les constats, les actions et les résultats]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Identifier le problème]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Tester la théorie pour déterminer la cause]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Vérifier toutes les fonctionnalités du système et appliquer des mesures préventives]]></text> 
+</component>
+
+</textcomponents>

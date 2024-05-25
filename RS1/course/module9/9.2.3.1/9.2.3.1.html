@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.3.1 Faible surcharge et fiabilité du protocole UDP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Faible surcharge et fiabilité du protocole UDP</h1>
+        <div>
+          <p>Le protocole UDP est un protocole simple offrant des fonctions de couche transport de base. Il crée beaucoup moins de surcharge que le protocole TCP, car il n'est pas orienté connexion et ne propose pas de mécanismes sophistiqués de fiabilité (retransmission, séquençage et contrôle de flux).</p>
+          <p>Cela ne signifie pas que les applications utilisant le protocole UDP ne sont jamais fiables, ni que le protocole UDP n'est pas efficace. Cela signifie simplement que ces fonctions ne sont pas fournies par le protocole de la couche transport et qu'elles doivent être implémentées à un autre niveau, le cas échéant.</p>
+          <p>La faible surcharge qu'engendre le protocole UDP rend celui-ci très intéressant pour les cas où les transactions de requête et de réponse sont simples. Par exemple, l'utilisation de TCP pour DHCP créerait du trafic réseau inutile. En cas de problème lié à une requête ou à une réponse, le périphérique renvoie simplement la requête si aucune réponse n'a été reçue.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows two network segments connected through a network.  In one network segment there is a computer sending data, an I.P. phone, and a computer using a video application.  On the other segment there is a computer receiving the data sent by the sending computer, an IP phone, and a computer using a video application.  These are two examples of applications that utilize UDP due to its low overhead data transport method.  UDP provides this low overhead data transport because it has a small datagram header and no network management traffic.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<textcomponents>
+
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Logical AND Operation</b>]]></text>
+</component>
+
+<!--Slide 1-->
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[1 AND 1 = 1<br/>0 AND 1 = 0<br/>0 AND 0 = 0<br/>1 AND 0 = 0]]></text>
+</component>
+
+<!--Slide 2-->
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Host IP Binary Address</b>]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[IP address]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[Binary]]></text>
+</component>
+
+<!--Slide 3-->
+
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Binary Address of 255.255.255.0</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[IP address]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[Binary]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[Subnet mask]]></text>
+</component>
+
+<!--Slide 4-->
+
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>AND Operation</b>]]></text>
+</component>
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[IP address]]></text>
+</component>
+
+<component id='ID_s4_txt02'>
+	<text><![CDATA[Binary]]></text>
+</component>
+
+<component id='ID_s4_txt03'>
+	<text><![CDATA[Subnet mask]]></text>
+</component>
+
+<component id='ID_s4_txt04'>
+	<text><![CDATA[AND Results]]></text>
+</component>
+
+<!--Slide 5-->
+
+<component id='ID_s5_title'>
+	<text><![CDATA[<b>Resulting Network Address</b>]]></text>
+</component>
+
+<component id='ID_s5_txt01'>
+	<text><![CDATA[IP address]]></text>
+</component>
+
+<component id='ID_s5_txt02'>
+	<text><![CDATA[Binary]]></text>
+</component>
+
+<component id='ID_s5_txt03'>
+	<text><![CDATA[Subnet mask]]></text>
+</component>
+
+<component id='ID_s5_txt04'>
+	<text><![CDATA[AND Results]]></text>
+</component>
+
+<component id='ID_s5_txt05'>
+	<text><![CDATA[Network Address]]></text>
+</component>
+
+
+</textcomponents>

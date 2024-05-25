@@ -1,0 +1,48 @@
+﻿<textcomponents>
+<component id="ID_caption01REMOVED">
+<text><![CDATA[L'agent de remise des messages (MDA) gère la remise des e-mails entre les serveurs et les clients.]]></text>
+</component>
+<component id="ID_title">
+<text><![CDATA[<b>POP3</b>]]></text> 
+</component>
+<component id="ID_txt01REMOVED">
+<text><![CDATA[<b>Agent de messagerie<br>(MUA)</b>]]></text>
+</component> 
+
+<component id="ID_txt03">
+  <text><![CDATA[Destinataire]]></text> 
+  </component>
+
+<component id="ID_txt04">
+  <text><![CDATA[Serveur<br>SMTP/POP3]]></text> 
+  </component>
+  <component id="ID_txt05REMOVED">
+  <text><![CDATA[<b>Agent de remise des messages (MDA)</b>]]></text> 
+  </component>
+
+<component id="ID_txt06REMOVED">
+<text><![CDATA[<b>Agent de transfert des messages<br>(MTA)</b>]]></text> 
+</component>
+<component id="ID_txt07">
+<text><![CDATA[Serveur<br>SMTP/POP3]]></text> 
+</component> 
+
+
+<component id="ID_txt09REMOVED">
+<text><![CDATA[<b>Agent de messagerie<br>(MUA)</b>]]></text>
+</component> 
+
+<component id="ID_txt11">
+  <text><![CDATA[Expéditeur]]></text> 
+  </component> 
+<component id="ID_txt12">
+  <text><![CDATA[<b>Envoyer un e-mail</b>]]></text> 
+  </component>
+
+<component id="ID_bubble01">
+  <text><![CDATA[<p class="ID_bubble01">Le destinataire ne figure pas dans ma liste.<br/>J'ai transmis l'e-mail à un autre serveur.</p>]]></text> 
+</component>
+<component id="ID_bubble02">
+  <text><![CDATA[<p class="ID_bubble02 left">Destinataire@domaine.com figure dans ma liste.<br/>Je vais placer cet e-mail dans la boîte de réception du destinataire.</p>]]></text> 
+  </component>
+</textcomponents>

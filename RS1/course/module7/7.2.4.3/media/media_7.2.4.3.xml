@@ -1,0 +1,71 @@
+<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Messages de sollicitation et d'annonce de routeur</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Serveur DHCPv6]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Sollicitation de routeur - à tous les routeurs IPv6</b><br/>« J'ai besoin des informations d'adressage du routeur. »]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Annonce de routeur - à tous les nœuds IPv6</b><br/>Option 1 (SLAAC uniquement) : « Voici votre préfixe, la longueur de préfixe et les informations de passerelle par défaut. »]]></text>
+</component>
+
+<component id="ID_titleTxt01">
+<text><![CDATA[<b>Options d'annonce de routeur</b>]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+<text><![CDATA[<b>Option 1 (SLAAC uniquement)</b> : « J'ai tout ce dont vous avez besoin (préfixe, longueur de préfixe, passerelle par défaut) »<br/><b>Option 2 (SLAAC et DHCPv6)</b> : « Voici mes informations. Vous devez quand même obtenir d'autres informations telles que les adresses DNS auprès d'un serveur DHCPv6. »<br/><b>Option 3 (DHCPv6 uniquement)</b> : « Je ne peux pas vous aider. Demandez toutes ces informations à un serveur DHCPv6. »]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+        <text><![CDATA[<b>Adresse de diffusion globale et SLAAC</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Annonce de routeur ICMPv6]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Dans le message d'annonce de routeur (RA)]]></text>
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[EUI-64 créé par le périphérique client<br/>ou nombre à 64 bits aléatoire]]></text>
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Prefix]]></text>
+    </component>
+    
+    <component id="ID_s1_txt05">
+        <text><![CDATA[ID d'interface]]></text>
+    </component>
+    
+    <component id="ID_s1_txt06">
+        <text><![CDATA[<b>fc99:47ff:fe75:cee0</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_txt07">
+        <text><![CDATA[/64]]></text>
+    </component>
+	 <component id="ID_s1_txt08">
+        <text><![CDATA[<b>2001:DB8:ACAD:1::/64</b>]]></text>
+    </component>
+	 <component id="ID_s1_txt09">
+        <text><![CDATA[<b>2001:DB8:ACAD:1:fc99:47ff:fe75:cee0/64</b>]]></text>
+    </component>
+	 <component id="ID_s1_txt10">
+        <text><![CDATA[<b>2001:DB8:ACAD:1:</b>]]></text>
+    </component>
+    
+    <component id="ID_bubble01">
+        <text><![CDATA[Personne n'enregistre l'adresse IPv6 que j'utilise.]]></text>
+    </component>
+</textcomponents>

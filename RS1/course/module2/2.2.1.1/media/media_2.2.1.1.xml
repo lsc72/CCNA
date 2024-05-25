@@ -1,0 +1,28 @@
+﻿<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+<text><![CDATA[<b>Directives pour choisir un nom d'hôte</b>]]></text>
+</component>
+
+<component id="ID_ins_title">
+    <text><![CDATA[Les noms d'hôte :]]></text>
+  </component>
+
+<component id="ID_ins_body">
+  <text><![CDATA[<textformat blockindent='-16'><ul><LI>débutent par une lettre.</LI><LI>ne contiennent pas d'espaces.</LI><LI>se terminent par une lettre ou un chiffre.</LI><LI>ne comportent que des lettres, des chiffres et des tirets.</LI><LI>comportent moins de 64 caractères.</LI></ul></textformat>]]></text> 
+  </component>
+  <!-- End Slide 1 --><!-- Slide 2 -->
+  <component id="ID_s2_title">
+<text><![CDATA[<b>Configuration des noms de périphérique</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+  <text><![CDATA[Sw-Floor-3]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Sw-Floor-2]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Sw-Floor-1]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Grâce aux noms, il est facile d'identifier les périphériques réseau pour les configurer.]]></text> 
+  </component><!-- End Slide 2 --></textcomponents>

@@ -1,0 +1,83 @@
+﻿<textcomponents>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Personnalisé :<br>médias]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Personnalisé :<br>santé]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Personnalisé :<br>gouvernement]]></text> 
+	</component>
+	  
+	<component id="ID_txt04">
+		<text><![CDATA[Clouds]]></text> 
+	</component>
+		
+	<component id='ID_txt05'>
+		<text><![CDATA[Personnalisé :<br>et plus encore]]></text> 
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[Privé :<br>actualités de la ville de résidence]]></text> 
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Hybride]]></text> 
+	</component>
+
+	  
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<font size="17">Clouds personnalisés</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[La perte de données est le plus souvent liée à des logiciels de messagerie instantanée et aux sites de médias sociaux. Par exemple, des e-mails ou messages instantanés instantanés peuvent être capturés et révéler des données confidentielles.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<font size="17">Clouds personnalisés</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[La perte de données est le plus souvent liée à des logiciels de messagerie instantanée et aux sites de médias sociaux. Par exemple, des e-mails ou messages instantanés instantanés peuvent être capturés et révéler des données confidentielles.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<font size="17">Clouds personnalisés</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[La perte de données est le plus souvent liée à des logiciels de messagerie instantanée et aux sites de médias sociaux. Par exemple, des e-mails ou messages instantanés instantanés peuvent être capturés et révéler des données confidentielles.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<font size="17">Clouds publics</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Les applications et les services proposés par un cloud public sont accessibles par tous. Les services peuvent être gratuits ou proposés suivant un modèle de paiement à l&apos;utilisation, par exemple en fonction de la quantité de stockage utilisée. Le cloud public utilise Internet pour fournir des services.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt05">
+		<text><![CDATA[<font size="17">Clouds personnalisés</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt05">
+		<text><![CDATA[La perte de données est le plus souvent liée à des logiciels de messagerie instantanée et aux sites de médias sociaux. Par exemple, des e-mails ou messages instantanés instantanés peuvent être capturés et révéler des données confidentielles.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt06">
+		<text><![CDATA[<font size="17">Clouds privés</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt06">
+		<text><![CDATA[Les applications et les services proposés par un cloud public sont accessibles par tous. Les services peuvent être gratuits ou proposés suivant un modèle de paiement à l&apos;utilisation, par exemple en fonction de la quantité de stockage utilisée. Le cloud public utilise Internet pour fournir des services.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt07">
+		<text><![CDATA[<font size="17">Clouds hybrides</font>]]></text>
+	</component>
+	<component id="ID_bodyTxt07">
+		<text><![CDATA[Un cloud hybride comprend au moins deux clouds (par exemple, un cloud personnalisé et un cloud public). Ces clouds restent indépendants mais sont connectés au sein d&apos;une architecture unique. Les utilisateurs d&apos;un cloud hybride peuvent avoir différentes autorisations d&apos;accès aux divers services, en fonction des droits d&apos;accès utilisateur.]]></text>
+	</component>
+
+
+	  
+</textcomponents>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.2.4 Attaques par déni de service</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Attaques par déni de service</h1>
+        <div>
+          <p>Les attaques par déni de service sont les plus médiatisées, mais constituent également l'une des formes d'attaque les plus difficiles à éliminer. Dans la communauté des pirates, ce type d'attaque est par ailleurs considéré comme trivial et est peu prisé, car son exécution demande peu d'efforts. Toutefois, la facilité de mise en œuvre des attaques DoS et leurs dégâts potentiellement importants retiennent toute l'attention des administrateurs de la sécurité.</p>
+          <p>Les attaques DoS peuvent prendre de nombreuses formes. Elles empêchent l'utilisation d'un service par les personnes autorisées en épuisant les ressources du système.</p>
+          <p>Cliquez sur les boutons de la figure pour afficher des exemples d'attaques DoS et DDoS.</p>
+          <p>Afin d'aider à prévenir les attaques DoS, il est important d'installer les dernières mises à jour de sécurité des systèmes d'exploitation et des applications. Par exemple, le ping fatal ne représente plus une menace dans la mesure où les mises à jour des systèmes d'exploitation ont permis d'éliminer les points de vulnérabilité qu'il exploitait.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows different Denial of Service attacks and shows how the resource overload affects the data. Figure 2 shows an attacker sending a ping of death packet to a host.  The malformed packet overloads the host and renders the host unresponsive. Figure 3 demonstrates a syn flood attack.  In this figure the attacker is sending multiple syn packets to a web server.  The attacker does not complete the transaction and when a valid user sends a syn request, the server is unavailable. Figure 4 shows an attacker connected to many servers acting as zombies or agents for a denial of service attack.  The agents launch the attack on a single host and render it unavailable. Figure 5 shows an attacker connected to a router acting as a smurf amplifier.  The amplifier tells many zombie computers to send an ICMP reply to a single host.  This overwhelms the destination.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

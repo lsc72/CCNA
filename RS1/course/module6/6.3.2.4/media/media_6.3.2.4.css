@@ -1,0 +1,29 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+/*#ID_s7_txt01
+{
+padding-left: 2px;
+letter-spacing: -.7px;
+line-height:18px;
+overflow-y: scroll;
+height: 444px;	
+color: #393536 !important;
+}
+#ID_s7_txt01 span
+{
+color:#f26301;
+font-weight:bold;	
+}
+*/
+
+.aln{
+	color: #F68026;
+}
+
+
+#ID_op1{
+	color: "#FFFFFF";
+}

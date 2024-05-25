@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.1 ICMPv4 et ICMPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>ICMPv4 et ICMPv6</h1>
+        <div>
+          <p>Bien que le protocole IP tâche de réaliser ses promesses, la suite TCP/IP permet d'envoyer des messages si certaines erreurs se produisent. Ces messages sont envoyés via les services du protocole ICMP. Ces messages ont pour objectif de fournir des commentaires sur les problèmes liés au traitement de paquets IP dans certaines circonstances. Les messages ICMP ne sont pas obligatoires et sont souvent interdits sur les réseaux pour des raisons de sécurité.</p>
+          <p>Le protocole ICMP est disponible pour IPv4 et IPv6. ICMPv4 est le protocole de message des réseaux IPv4. ICMPv6 fournit également ces services pour l'IPv6, en ajoutant d'autres fonctionnalités. Dans ce cours, le terme ICMP fait référence à l'ICMPv4 et à l'ICMPv6.</p>
+          <p>Il existe différents types de message ICMP, et les raisons pour lesquelles ils sont envoyés sont très diverses. Nous décrirons les messages les plus courants.</p>
+          <p>Les messages ICMP communs à ICMPv4 et à ICMPv6 sont notamment les suivants :</p>
+          <p>
+            <ul>
+              <li>Host confirmation (Confirmation de l’hôte)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Destination or Service Unreachable (destination ou service inaccessible)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Time exceeded (Délai dépassé)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Route redirection (Redirection de la route)</li>
+            </ul>
+          </p>
+          <p>
+            <b>Host Confirmation (Confirmation de l’hôte)</b>
+          </p>
+          <p>Un message ICMP Echo (Écho ICMP) permet de déterminer si un hôte est fonctionnel. L’hôte local envoie un message ICMP Echo Request (Demande d’écho) à un autre hôte. Si l'hôte est disponible, l'hôte de destination répond en envoyant une réponse d'écho. Sur la figure ci-contre, cliquez sur le bouton Lecture pour lancer une animation sur les requêtes et les réponses d'écho ICMP. L’utilisation de messages ICM Echo est à la base de l’utilitaire ping. </p>
+          <p>
+            <b>Destination or Service Unreachable (destination ou service inaccessible)</b>
+          </p>
+          <p>Lorsqu'un hôte ou une passerelle ne peut pas acheminer un paquet reçu, il ou elle peut utiliser un message ICMP de destination inaccessible pour avertir la source que la destination ou le service est inaccessible. Ce message comprend un code indiquant pourquoi le paquet n'a pas pu être acheminé.</p>
+          <p>Certains des codes de destination inaccessible pour l'ICMPv4 sont :</p>
+          <p>
+            <ul>
+              <li>0 - Réseau inaccessible</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>1 - Hôte inaccessible</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2 - Protocole inaccessible</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>3 - Port inaccessible</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : les codes des messages de destination inaccessible utilisés par l'ICMPv6 diffèrent légèrement.</p>
+          <p>
+            <b>Dépassement du délai</b>
+          </p>
+          <p>Un message de dépassement de délai ICMPv4 est utilisé par un routeur pour indiquer qu'il ne peut pas transférer un paquet, car le champ TTL de durée de vie du paquet a atteint 0. Si un routeur reçoit un paquet et décrémente le champ TTL de durée de vie du paquet IPv4 jusqu'à atteindre zéro, il abandonne le paquet et envoie un message de dépassement de délai à l'hôte source.</p>
+          <p>Si le routeur ne peut pas transmettre un paquet IPv6 parce que celui-ci a expiré, le protocole ICMPv6 envoie également un message de dépassement de délai. Les paquets IPv6 n'ont pas de champ de durée de vie TTL : le champ de limite de nombre de tronçons est utilisé pour déterminer si le paquet a expiré.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an animation that shows a computer with an IPv4 address of 192.168.10.1 sending an ICMP echo request to a computer with an IPv4 address of 192.168.30.1.  The message travels from the sending computer through a switch to a router.  That router sends the request to another router, then to a switch, and finally to the destination computer.  The receiving computer sends back an ICMP echo reply.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Segmentation en sous-réseaux par emplacement</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>LAN 5 : 10.0.5.0 /24</b> (5e étage)]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<b>LAN 4 : 10.0.4.0 /24</b> (4e étage)]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[<b>LAN 3 : 10.0.3.0 /24</b> (3e étage)]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[<b>LAN 2 : 10.0.2.0 /24</b> (2e étage)]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[<b>LAN 1 : 10.0.1.0 /24</b> (1er étage)]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Communication entre les réseaux</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>Administration<br/>LAN 1 : 10.0.<font color="#941D23">1</font>.0 /24</b>]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[<b>Ressources humaines<br/>LAN 3 : 10.0.<font color="#941D23">3</font>.0 /24</b>]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[<b>Étudiants<br/>LAN 2 : 10.0.<font color="#941D23">2</font>.0 /24</b>]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[<b>Comptabilité<br/>LAN 4 : 10.0.<font color="#941D23">4</font>.0 /24</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Segmentation en sous-réseaux par type d'appareil</b>]]></text>
+	</component>
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>LAN 1 : 10.0.<font color="#941D23">1</font>.0 /24<br/>(tous les hôtes)</b>]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Internet]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[<b>LAN 3 : 10.0.<font color="#941D23">3</font>.0 /24<br/>(tous les serveurs)</b>]]></text>
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[<b>LAN 2 : 10.0.<font color="#941D23">2</font>.0 /24<br/>(toutes les imprimantes)</b>]]></text>
+	</component>
+</textcomponents>

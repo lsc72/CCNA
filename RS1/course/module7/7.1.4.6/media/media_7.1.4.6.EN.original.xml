@@ -1,0 +1,59 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Summary of Classful Addressing</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Class D & E<br/>12.5%</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Class A<br/>50%</b>]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[<b>Class B<br/>25%</b>]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Class C<br/>12.5%</b>]]></text>
+	</component>
+
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Class A</b>]]></text>
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[Total Networks: 	128]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[Total Hosts/Net:	16,777,214]]></text>
+	</component>
+
+
+
+	<component id="ID_txt08">
+		<text><![CDATA[<b>Class B</b>]]></text>
+	</component>
+
+	<component id="ID_txt09">
+		<text><![CDATA[Total Networks: 	16,384]]></text>
+	</component>
+
+	<component id="ID_txt10">
+		<text><![CDATA[Total Hosts/Net:	65,534]]></text>
+	</component>
+
+
+	<component id="ID_txt11">
+		<text><![CDATA[<b>Class C</b>]]></text>
+	</component>
+
+	<component id="ID_txt12">
+		<text><![CDATA[Total Networks: 	2,097,152]]></text>
+	</component>
+
+	<component id="ID_txt13">
+		<text><![CDATA[Total Hosts/Net:	254]]></text>
+	</component>
+
+</textcomponents>

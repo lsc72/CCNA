@@ -1,0 +1,24 @@
+﻿<textcomponents>
+
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Basic IOS Command Structure</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Prompt]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[Command]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Space]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Keyword or Argument]]></text>
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,96 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Fond de panier Cisco 1941</b>]]></text>
+    </component>
+    <component id='ID_titleTxt01'>
+        <text>
+            <![CDATA[Logements EHWIC (carte d'interface WAN haut débit avancée)]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt011'>
+        <text>
+            <![CDATA[&nbsp;]]>
+        </text>
+    </component>
+    <component id='ID_bodyTxt01'>
+        <text>
+            <![CDATA[étiquetés EHWIC 0 et EHWIC 1, qui fournissent modularité et flexibilité en permettant au routeur de prendre en charge différents types de module d'interface, y compris la connexion série, la DSL, le port de commutateur et le sans fil.]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt02'>
+        <text>
+            <![CDATA[Logements pour mémoire Compact Flash]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt012'>
+        <text>
+            <![CDATA[&nbsp;]]>
+        </text>
+    </component>
+    <component id='ID_bodyTxt02'>
+        <text>
+            <![CDATA[étiquetés CF0 et CF1 qui fournissent un espace de stockage Flash supplémentaire, pouvant accueillir jusqu'à une carte Compact Flash de 4 Go par logement. Par défaut, le logement CF0 est équipé d'une carte Compact Flash de 256 Mo et constitue l'emplacement de démarrage par défaut.]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt03'>
+        <text>
+            <![CDATA[Ports de console]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt013'>
+        <text>
+            <![CDATA[&nbsp;]]>
+        </text>
+    </component>
+    <component id='ID_bodyTxt03'>
+        <text>
+            <![CDATA[pour la configuration initiale et l'accès à l'interface en ligne de commande pour la gestion. Deux ports sont disponibles : le port RJ-45 standard couramment utilisé et un nouveau connecteur USB de type B (mini-USB B). Toutefois, l'accès à la console n'est possible que par un seul port à la fois.]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt04'>
+        <text>
+            <![CDATA[Port RJ-45 auxiliaire (AUX)]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt014'>
+        <text>
+            <![CDATA[&nbsp;]]>
+        </text>
+    </component>
+    <component id='ID_bodyTxt04'>
+        <text>
+            <![CDATA[pour la gestion à distance, similaire au port de console. Considéré aujourd'hui comme un port hérité puisqu'il servait à l'époque à prendre en charge les modems commutés.]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt05'>
+        <text>
+            <![CDATA[Interfaces Gigabit Ethernet]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt015'>
+        <text>
+            <![CDATA[&nbsp;]]>
+        </text>
+    </component>
+    <component id='ID_bodyTxt05'>
+        <text>
+            <![CDATA[étiquetées GE0/0 et GE0/1. Elles sont généralement utilisées pour fournir un accès LAN en établissant des connexions avec les commutateurs et les utilisateurs, ou pour connecter deux routeurs entre eux.]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt06'>
+        <text>
+            <![CDATA[Ports USB]]>
+        </text>
+    </component>
+    <component id='ID_titleTxt016'>
+        <text>
+            <![CDATA[&nbsp;]]>
+        </text>
+    </component>
+    <component id='ID_bodyTxt06'>
+        <text>
+            <![CDATA[étiquetés USB 0 et USB 1 permettant de fournir un espace de stockage supplémentaire, à l'instar des logements Flash.]]>
+        </text>
+    </component>
+</textcomponents>

@@ -1,0 +1,101 @@
+<textcomponents>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Communication avec un réseau distant</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[<b>Source d'origine</b>]]></text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[<b>Destination finale</b>]]></text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[00-0A]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[00-0C]]>
+        </text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[<b>Adresse IP de destination</b>]]></text>
+    </component>
+    <component id="ID_txt06">
+        <text>
+            <![CDATA[Serveur de fichiers]]>
+        </text>
+    </component>
+    <component id="ID_txt07">
+        <text>
+            <![CDATA[192.168.1.110]]>
+        </text>
+    </component>
+    <component id="ID_txt08">
+        <text>
+            <![CDATA[172.16.1.99]]>
+        </text>
+    </component>
+    <component id="ID_txt09">
+        <text>
+            <![CDATA[Les adresses MAC sont raccourcies à des fins de démonstration.]]>
+        </text>
+    </component>
+    <component id="ID_txt10">
+        <text>
+            <![CDATA[<b>Adresse MAC de destination</b>]]></text>
+    </component>
+    <component id="ID_txt14">
+        <text>
+            <![CDATA[Carte<br>réseau]]>
+        </text>
+    </component>
+    <component id="ID_txt11">
+        <text>
+            <![CDATA[Carte<br>réseau]]>
+        </text>
+    </component>
+    <component id="ID_txt12">
+        <text>
+            <![CDATA[Carte<br>réseau]]>
+        </text>
+    </component>
+    <component id="ID_txt13">
+        <text>
+            <![CDATA[Carte<br>réseau]]>
+        </text>
+    </component>
+    <!-- Slide 1-->
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[MAC de destination<br/>00-0C]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[MAC source<br/>00-0A]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[IP source<br/>192.168.1.110]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[IP de destination<br/>172.16.1.99]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[<b>En-tête Ethernet de couche 2</b>]]></text>
+    </component>
+    <component id="ID_s1_txt06">
+        <text>
+            <![CDATA[<b>Paquet IP de couche 3</b>]]></text>
+    </component>
+</textcomponents>

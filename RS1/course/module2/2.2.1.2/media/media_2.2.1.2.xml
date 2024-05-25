@@ -1,0 +1,30 @@
+<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Configurer un nom d'hôte</b>]]></text>
+	</component><!-- End Slide 1 --><!-- Slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>Configurer le nom d'hôte du commutateur</b>]]></text>
+	</component><!--Syntax Checker Button Text--><component id="ID_s2_reset">
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+	
+	<component id="ID_s2_showme">
+		<text><![CDATA[Démonstration]]></text>
+	</component>
+	
+	<component id="ID_s2_showall">
+		<text><![CDATA[Afficher tout]]></text>
+	</component><!--End Syntax Checker Button Text--><component id="ID_s2_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+	
+		<feedback id="fb"><![CDATA[<b><font face="_sans" color="#FFFFFF">***Vous devez entrer la commande exacte et complète. Les commandes qui incluent un nom ou un mot de passe sont sensibles à la casse.***</font></b>]]></feedback>
+		<existingcommands><![CDATA[<font face="_sans"><b>Passez en mode de configuration et configurez le nom d'hôte du commutateur en « Sw-Floor-1 ».</b></font>]]></existingcommands>
+		<command prompt="Switch#">
+			<correctresponse><![CDATA[ configure terminal]]></correctresponse>
+		</command>
+		<command prompt="Switch(config)#">
+			<correctresponse><![CDATA[ nom d'hôte Sw-Floor-1]]></correctresponse>
+			<deviceresponse><![CDATA[Sw-Floor-1(config)#]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Vous avez correctement configuré le nom d'hôte de commutateur.</font>]]></instruction>
+		</command>
+		
+		<command prompt=""/>
+
+	</component><!-- End Slide 2 --></textcomponents>

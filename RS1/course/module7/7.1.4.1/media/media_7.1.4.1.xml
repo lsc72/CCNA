@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Les adresses privées ne sont pas routables sur Internet</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Internet]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Réseau 1]]></text>
+</component>
+
+
+<component id="ID_txt03">
+<text><![CDATA[Réseau 2]]></text>
+</component>
+
+
+<component id="ID_txt04">
+<text><![CDATA[Réseau 3]]></text>
+</component>
+
+
+
+</textcomponents>

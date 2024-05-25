@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.1.4 Analyse de la connexion TCP en trois étapes</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Analyse de la connexion TCP en trois étapes</h1>
+        <div>
+          <p>Les hôtes suivent chaque segment de données au sein d'une session et échangent des informations sur les données reçues grâce aux informations contenues dans l'en-tête TCP. Le protocole TCP est un protocole duplex intégral, où chaque connexion représente deux flux de communication unidirectionnelle, ou sessions. Pour établir la connexion, l'hôte effectue une connexion en trois étapes. Les bits de contrôle de l'en-tête TCP indiquent la progression et l'état de la connexion. </p>
+          <p>La connexion en trois étapes :</p>
+          <p>
+            <ul>
+              <li>vérifie que le périphérique de destination est bien présent sur le réseau ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>s'assure que le périphérique de destination a un service actif et qu'il accepte les requêtes sur le numéro de port de destination que le client qui démarre la session a l'intention d'utiliser ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>informe le périphérique de destination que le client source entend établir une session de communication sur ce numéro de port.</li>
+            </ul>
+          </p>
+          <p>Une fois la communication terminée, les sessions sont fermées et il est mis fin à la connexion. Ce sont ces mécanismes de connexion et de sessions qui garantissent la fiabilité du protocole TCP.</p>
+          <p>Les six bits du champ des bits de contrôle de l'en-tête du segment TCP sont également des indicateurs. Un indicateur est un bit qui est actif ou inactif. Cliquez dans le champ des bits de contrôle de la figure pour afficher l'ensemble des six indicateurs. Nous avons discuté des indicateurs SYN, ACK et FIN. L'indicateur RST est utilisé pour réinitialiser une connexion en cas d'erreur ou d'expiration du délai d'attente. Cliquez <a href="http://packetlife.net/blog/2011/mar/2/tcp-flags-psh-and-urg/" target="_blank">ici</a> pour en savoir plus sur les indicateurs PSH et URG.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the TCP header. Clicking on the Control Bits field opens a text box listing the six different control bits.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

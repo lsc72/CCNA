@@ -1,0 +1,180 @@
+﻿<textcomponents>
+
+
+
+<!-- Slide 1 -->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Port Numbers</b>]]></text>
+	</component>
+
+	<component id="ID_s1_table01">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable" width="500">
+			<tr class="mtable_title">
+					<td colspan="2" bgcolor='#FFFFFF'><font size="5"></font></td>
+				</tr>
+
+
+				<tr class="mtable_top">
+					<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>
+
+
+			
+			<tr>
+				<td bgcolor='#666263' valign="top" class="mtitle"><font color='#ffffff'><b>Port Number Range</b></font></td>
+				<td bgcolor='#666263' valign="top" class="mtitle"><font color='#ffffff'><b>Port Group</b></font></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>0 to 1023</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>0 to 1023</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>1024 to 49151</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Registered Ports</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>49152 to 65535</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Private and/or Dynamic Ports</font></td>
+			</tr>
+
+		</table>]]></text>
+
+	</component>	
+<!-- End Slide 1 -->
+
+
+
+<!-- Slide 2 -->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Well-Known Port Numbers</b>]]></text>
+	</component>
+
+	<component id="ID_s2_table01">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+					<td colspan="4" bgcolor='#FFFFFF'><font size="5"></font></td>
+				</tr>
+
+
+				<tr class="mtable_top">
+					<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>
+
+			
+			<tr>
+				<td bgcolor='#666263' valign="top" class="mtitle"><font color='#ffffff'><b>Port Number</b></font></td>
+				<td bgcolor='#666263' valign="top" class="mtitle"><font color='#ffffff'><b>Protocol</b></font></td>
+				<td bgcolor='#666263' width='180' valign="top" class="mtitle"><font color='#ffffff'><b>Application</b></font></td>
+				<td bgcolor='#666263' valign="top" class="mtitle"><font color='#ffffff'><b>Acronym</b></font></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>20</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>File Transfer Protocol (data)</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>FTP</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>21</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>File Transfer Protocol (control)</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>FTP</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>22</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Secure Shell</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SSH</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>23</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Telnet</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'> — </font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>25</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Simple Mail Transfer Protocol</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SMTP</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>53</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>UDP, TCP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Domain Name Service</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DNS</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>67</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>UDP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Dynamic Host Configuration Protocol (server)</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>DHCP</font></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>68</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>UDP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Dynamic Host Configuration Protocol (client)</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DHCP</font></td>
+			</tr>
+			
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>69</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>UDP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Trivial File Transfer Protocol</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>TFTP</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>80</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Hypertext Transfer Protocol</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>HTTP</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>110</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Post Office Protocol version 3</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>POP3</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>143</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Internet Message Access Protocol</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>IMAP</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>161</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>UDP</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Simple Network Management Protocol</font></td>
+				<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SNMP</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>443</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>TCP</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Hypertext Transfer Protocol Secure</font></td>
+				<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>HTTPS</font></td>
+			</tr>
+	
+		</table>]]></text>
+	</component>		
+<!-- End Slide 2 -->
+
+
+
+
+ 
+</textcomponents>
+
+

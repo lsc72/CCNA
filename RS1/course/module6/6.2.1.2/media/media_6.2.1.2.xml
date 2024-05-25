@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+	<text><![CDATA[<b>Fonctions de la passerelle par défaut</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[<b>Une passerelle par défaut…</b><br/><br/><textformat blockindent='-17'><ul><li>Achemine le trafic vers d'autres réseaux</li><br/><li>Possède une adresse IP locale située dans la même plage d'adresses que les autres hôtes du réseau </li><br/><li>Peut recevoir des données et en transmettre</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

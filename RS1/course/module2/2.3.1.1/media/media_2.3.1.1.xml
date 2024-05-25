@@ -1,0 +1,14 @@
+﻿<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+<text><![CDATA[<b>Connexion des périphériques finaux</b>]]></text>
+</component>
+
+<component id="ID_ins_title">
+  <text><![CDATA[Périphériques nécessitant des adresses IP]]></text> 
+  </component>
+
+
+<component id="ID_ins_body">
+  <text><![CDATA[<textformat blockindent='-16'><ul><LI>Ordinateurs (stations de travail, ordinateurs portables, serveurs de fichiers, serveurs web)</LI><LI>Imprimantes réseau</LI><LI>Téléphones VoIP</LI><LI>Caméras de surveillance</LI><LI>Smartphones</LI><LI>Périphériques portables mobiles (par exemple, lecteurs de codes à barres sans fil)</LI></ul></textformat>]]></text> 
+  </component><!-- End Slide 1 --><!-- Slide 2 --><component id='ID_s2_title'>
+		<text><![CDATA[<b>Configuration d'une adresse IP statique sur un hôte</b>]]></text>
+	</component><!-- End Slide 2 --></textcomponents>

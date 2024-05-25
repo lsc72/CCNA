@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.6 Fonctionnement du protocole IMAP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fonctionnement du protocole IMAP</h1>
+        <div>
+          <p>Le protocole de messagerie IMAP (Internet Message Access Protocol) décrit une autre méthode de récupération des messages électroniques. Contrairement au protocole POP, lorsque l'utilisateur se connecte à un serveur IMAP, des copies des messages sont téléchargées vers l'application cliente. Les messages originaux sont conservés sur le serveur jusqu'à ce qu'ils soient supprimés manuellement. Les utilisateurs affichent des copies des messages dans leur logiciel de messagerie. </p>
+          <p>Ils peuvent créer une hiérarchie de fichiers sur le serveur afin d'organiser et de stocker leur courriel. Cette structure de fichiers est également dupliquée sur le client de messagerie. Lorsqu'un utilisateur décide de supprimer un message, le serveur synchronise cette action et supprime le message du serveur. </p>
+          <p>Cliquez <a href="http://www.cisco.com/web/about/ac123/ac147/ac174/ac196/about_cisco_ipj_archive_article09186a00800c84ea.html" target="_blank">ici</a> pour en savoir plus sur les protocoles de messagerie électronique.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows client sending email using SMTP to a server, which uses SMTP to send to another server. The second server uses IMAP to deliver the email to the recipient.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+﻿<textcomponents> 
+<component id="ID_title">
+	<text><![CDATA[<b>Combinaisons de touches d'accès rapide et raccourcis de la CLI</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[(REMARQUE : la touche « <b>Suppr</b> », qui efface le caractère à droite du curseur, n'est pas reconnue par les programmes d'émulation de terminal.)]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[REMARQUE : combinaisons avec <b>Ctrl</b> - En maintenant enfoncée la touche <Ctrl>, appuyez sur la touche de la lettre indiquée. Séquences d'<br/><b>échappement</b> - Appuyez sur la touche <Échap> puis relâchez-la, avant d'appuyer sur la touche de la lettre indiquée.]]></text>
+</component> 
+
+ <component id='ID_table01'>
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">	 
+	<tr class="mtitle">
+		<td bgcolor='#FFFFFF' colspan='2' class="mtitle"><font size='11' color='#1C3635'><b>Modification de la ligne de commande</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#0E6360' colspan='2' class="mtable_top" id="borderClass"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+	</tr>  
+
+	<tr>
+		<td bgcolor='#E9E7E8' width='130'><b>Tabulation</b></td>
+		<td bgcolor='#E9E7E8'>Complète un nom de commande entré partiellement.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Retour arrière</b></td>
+		<td bgcolor='#F2F2F2'>Efface le caractère à gauche du curseur.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Ctrl+D</b></td>
+		<td bgcolor='#E9E7E8'>Efface le caractère à l'emplacement du curseur.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Ctrl+K</b></td>
+		<td bgcolor='#F2F2F2'>Efface tous les caractères à partir du curseur jusqu'à la fin de la ligne de commande.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Échap D</b></td>
+		<td bgcolor='#E9E7E8'>Efface tous les caractères à partir du curseur jusqu'à la fin du mot.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Ctrl+U ou Ctrl+X</b></td>
+		<td bgcolor='#F2F2F2'>Efface tous les caractères à partir du curseur jusqu'au début de la ligne de commande.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Ctrl+W</b></td>
+		<td bgcolor='#E9E7E8'>Efface le mot à gauche du curseur.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Ctrl+A</b></td>
+		<td bgcolor='#F2F2F2'>Déplace le curseur vers le début de la ligne.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Flèche Gauche ou Ctrl+B</b></td>
+		<td bgcolor='#E9E7E8'>Déplace le curseur d'un caractère vers la gauche.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Échap B</b></td>
+		<td bgcolor='#F2F2F2'>Déplace le curseur d'un mot vers la gauche.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Échap F</b></td>
+		<td bgcolor='#E9E7E8'>Déplace le curseur d'un mot vers la droite.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Flèche Droite ou Ctrl+F</b></td>
+		<td bgcolor='#F2F2F2'>Déplace le curseur d'un caractère vers la droite.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Ctrl+E</b></td>
+		<td bgcolor='#E9E7E8'>Déplace le curseur vers la fin de la ligne.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Flèche Haut ou Ctrl+P</b></td>
+		<td bgcolor='#F2F2F2'>Rappelle les commandes antérieures en commençant par les plus récentes.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Ctrl+R ou Ctrl+I ou Ctrl+L</b></td>
+		<td bgcolor='#EFF8F7'>Rappelle l'invite du système et la ligne interrompue par la réception d'un message IOS.</td>
+	</tr>
+ 
+</table>]]></text>
+</component>
+<component id="ID_table02">
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	 
+	<tr class="title">
+		<td bgcolor='#FFFFFF' colspan='2' class="title"><font size='11' color='#1C3635'><b>En cas d'invite « -----More----- »</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#0E6360' colspan='2' class="mtable_top" id="borderClass1"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'  width='130'><b>Touche Entrée</b></td>
+		<td bgcolor='#E9E7E8'>Affiche la ligne suivante.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Barre d'espace</b></td>
+		<td bgcolor='#F2F2F2'>Affiche l'écran suivant.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Autres touches</b></td>
+		<td bgcolor='#E9E7E8'>Termine la chaîne d'affichage et revient au mode d'exécution privilégié.</td>
+	</tr>
+</table>]]></text>
+</component>
+
+
+
+<component id="ID_table03">
+<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>	 
+	<tr class="title">
+		<td bgcolor='#FFFFFF' colspan='2' class="title"><font size='11' color='#1C3635'><b>Touches de pause</b></font></td>
+	</tr>  
+	<tr>
+		<td bgcolor='#0E6360' colspan='2' class="mtable_top" id="borderClass1"><font size='1' color='#0E6360'><span style="color:#0E6360">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'  width='130'><b>Ctrl+C</b></td>
+		<td bgcolor='#E9E7E8'>Dans un mode de configuration, permet de quitter le mode de configuration et de retourner au mode d'exécution privilégié. à partir du mode d'exécution, l'invite reparaît.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><b>Ctrl+Z</b></td>
+		<td bgcolor='#F2F2F2'>Dans un mode de configuration, permet de quitter le mode de configuration et de retourner au mode d'exécution privilégié.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>Ctrl+Maj+6</b></td>
+		<td bgcolor='#E9E7E8'>Séquence d'interruption permettant d'abandonner les recherches DNS et les commandes traceroute et ping.</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

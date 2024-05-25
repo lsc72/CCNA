@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.8 Vérifier la configuration des adresses IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Vérifier la configuration des adresses IPv6</h1>
+        <div>
+          <p>Comme l'illustre la figure 1, la commande permettant de vérifier la configuration de l'interface IPv6 est comparable à la commande utilisée pour l'IPv4. </p>
+          <p>La commande <b>show interface</b> affiche l'adresse MAC des interfaces Ethernet. Le processus EUI-64 utilise cette adresse MAC pour générer l'ID d'interface de l'adresse link-local. En outre, la commande <b>show ipv6 interface brief</b> affiche des résultats abrégés pour chacune des interfaces. Les termes <b>[up/up]</b> sur la même ligne que l'interface indiquent l'état de l'interface de couche 1/couche 2. Ces états correspondent aux colonnes <b>Status </b>et <b>Protocol </b>de la commande IPv4 équivalente. </p>
+          <p>Notez que chaque interface possède deux adresses IPv6. La deuxième adresse de chaque interface est l'adresse de diffusion globale qui a été configurée. La première adresse, celle qui commence par FE80, est l'adresse de monodiffusion link-local de l'interface. Souvenez-vous que l'adresse link-local est automatiquement ajoutée à l'interface lorsqu'une adresse de diffusion globale est attribuée. </p>
+          <p>Notez également que l'adresse link-local de l'interface série 0/0/0 du routeur R1 est identique à celle de l'interface GigabitEthernet 0/0. Les interfaces série n'ont pas d'adresse MAC Ethernet. Cisco IOS utilise donc l'adresse MAC de la première interface Ethernet disponible. Cela est possible, car les interfaces link-local ne doivent être uniques que sur une liaison. </p>
+          <p>L'adresse link-local de l'interface du routeur est généralement l'adresse de la passerelle par défaut des périphériques sur cette liaison ou sur ce réseau.</p>
+          <p>Comme l'illustre la figure 2, la commande <b>show ipv6 route</b> peut être utilisée pour vérifier que les adresses des interfaces IPv6 spécifiques et des réseaux IPv6 ont été insérées dans la table de routage IPv6. La commande <b>show ipv6 route</b> n'affiche que les réseaux IPv6 et non les réseaux IPv4. </p>
+          <p>Dans la table de routage, la lettre <b>C </b>placée en regard d'une route indique qu'il s'agit d'un réseau connecté directement. Lorsque l'interface de routeur est configurée avec une adresse de diffusion globale et que son état est « up/up », le préfixe IPv6 et la longueur de préfixe sont ajoutés à la table de routage IPv6 en tant que route connectée. </p>
+          <p>
+            <b>Remarque</b> : <b>Le L</b> indique une route locale, l'adresse IPv6 attribuée à l'interface. Il ne s’agit pas d’une adresse locale-lien. Les adresses locales-liens ne sont pas incluses dans la table de routage du routeur car il ne s'agit pas d'adresses routables.</p>
+          <p>L'adresse de diffusion globale IPv6 configurée sur l'interface est également insérée dans la table de routage en tant que route locale. Le préfixe de la route locale est /128. Des routes locales sont utilisées par la table de routage pour traiter efficacement les paquets dont l'adresse de destination est l'adresse de l'interface du routeur. </p>
+          <p>La commande <b>ping </b>pour l'IPv6 est identique à la commande utilisée avec l'IPv4, excepté qu'une adresse IPv6 est utilisée. Comme l'illustre la figure 3, cette commande permet de vérifier la connectivité de couche 3 entre le routeur R1 et l'ordinateur PC1. Lorsqu'un utilisateur envoi une requête ping à une adresse link-local à partir d'un routeur, Cisco IOS l'invite à entrer l'interface de sortie. Comme l'adresse link-local de destination peut être sur une ou plusieurs de ses liaisons ou sur un ou plusieurs de ses réseaux, le routeur doit savoir à quelle interface envoyer la requête ping. </p>
+          <p>Utilisez le contrôleur de syntaxe de la figure 4 pour vérifier la configuration des adresses IPv6.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with one router connected to two LANs and a WAN. Below the topology the command window displays the output from the “show ipv6 interface brief” command. All three interfaces are “up” and “up”. Figure 2 shows the output from the “show ipv6 route” command with three connected networks listed along with their local network. In addition, the FE00::/8 network is listed. Figure 3 shows the command window for R1 with a successful ping to one of the computers on a LAN attached to R1. Figure 4 is a syntax checker activity in which the learner can practice enter commands to verify IPv6 address configuration.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

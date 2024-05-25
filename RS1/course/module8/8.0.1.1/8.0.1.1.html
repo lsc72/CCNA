@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.0.1.1 Chapitre 8 : Segmentation des réseaux IP en sous-réseaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.0.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 8 : Segmentation des réseaux IP en sous-réseaux</h1>
+        <div>
+          <p>L'élaboration, la mise en œuvre et la gestion d'un modèle d'adressage IP efficace garantissent le fonctionnement optimal des réseaux. Cela est d'autant plus nécessaire que le nombre de connexions d'hôtes à un réseau augmente. Lorsque vous aurez compris la structure hiérarchique de l'adresse IP et que vous saurez comment modifier cette hiérarchie pour répondre plus efficacement aux besoins de routage, vous aurez déjà accompli une part essentielle de la planification du schéma d'adressage IP.</p>
+          <p>Dans l'adresse IPv4 initiale, il existe deux niveaux hiérarchiques : un réseau et un hôte. Ces deux niveaux d'adressage permettent de réaliser des regroupements de base qui facilitent l'acheminement des paquets vers un réseau de destination. Les routeurs acheminent les paquets en fonction de la part réseau des adresses IP. Une fois que le réseau est localisé, la portion hôte de l'adresse permet l'identification du périphérique de destination. </p>
+          <p>Cependant, lorsque les réseaux s'étendent et comptent des centaines, voire des milliers d'hôtes, la hiérarchie à deux niveaux devient insuffisante. </p>
+          <p>Le fait de sous-diviser un réseau permet d'ajouter un niveau hiérarchique pour obtenir trois niveaux qui sont un réseau, un sous-réseau et un hôte. Le fait d'ajouter un niveau hiérarchique permet de créer des sous-groupes supplémentaires dans un réseau IP, qui facilitent l'acheminement rapide des paquets et le filtrage efficace en réduisant le trafic « local ». </p>
+          <p>Ce chapitre étudie en détail la création et l'attribution des adresses de réseaux et de sous-réseaux IP à l'aide du masque de sous-réseau.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

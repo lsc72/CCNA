@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.3.2 Réassemblage de datagrammes UDP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Réassemblage de datagrammes UDP</h1>
+        <div>
+          <p>Comme pour les segments envoyés au moyen du protocole TCP, lorsque des datagrammes UDP sont envoyés vers une destination, ils peuvent souvent emprunter des chemins différents et arriver dans le désordre. Le protocole UDP n'effectue pas le suivi des numéros d'ordre comme le fait le protocole TCP. Le protocole UDP ne peut pas réassembler les datagrammes dans leur ordre de transmission, comme illustré dans la figure. </p>
+          <p>Le protocole UDP se contente donc de réassembler les données dans l'ordre dans lequel elles ont été reçues, puis de les transmettre à l'application. Si l'ordre des données est important pour l'application, cette dernière doit identifier l'ordre correct et déterminer le mode de traitement des données.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows data being divided into six datagrams, which are then sent through a network of five routers that are connected with redundant links thereby allowing multiple paths for the datagrams to follow.  They do not arrive at the destination in same order they were sent.  Since these are datagrams utilizing UDP, any out of order datagrams delivered will not be reordered and any lost datagrams will not be re-sent.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+﻿<textcomponents>
+
+<!--Slide 1-->
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Extended <font face="_typewriter">traceroute</font> Options</b>]]></text>
+</component>
+
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td width="200" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Option</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Protocol [ip]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Prompts for a supported protocol. The default is IPv4.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Target IP address:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>You must enter a host name or an IPv4 address. There is no default.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Source address:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>The interface or IPv4 address of the router to use as a source address for the probes. The router normally picks the IPv4 address of the outbound interface to use.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Numeric display [n]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>The default is to have both a symbolic and numeric display; however, you can suppress the symbolic display.</font></td>
+	</tr>	
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Timeout in seconds [3]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>The number of seconds to wait for a response to a probe packet. The default is 3 seconds.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Probe count [3]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>The number of probes to be sent at each TTL level. The default count is 3.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Minimum Time to Live [1]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>The TTL value for the first probes. The default is 1, but it can be set to a higher value to suppress the display of known hops.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Maximum Time to Live [30]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>The largest TTL value that can be used. The default is 30. The traceroute command terminates when the destination is reached or when this value is reached.</font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Port Number [33434]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>The destination port used by the UDP probe messages. The default is 33434.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Loose, Strict, Record, Timestamp, Verbose [none]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>IP header options. You can specify any combination. The traceroute command issues prompts for the required fields. Note that the traceroute command will place the requested options in each probe; however, there is no guarantee that all routers (or end nodes) will process the options.</font></td>
+	</tr>
+
+</table>]]></text>
+</component>
+	
+<!--End Slide 1-->
+
+
+<!--Slide 2-->
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Windows <font face="_typewriter">tracert</font> Options</b>]]></text>
+</component>
+
+
+
+</textcomponents>

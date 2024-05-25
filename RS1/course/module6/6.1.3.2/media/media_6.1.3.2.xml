@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Exemples d'en-têtes IPv4 dans Wireshark</b>]]></text>
+	</component>
+</textcomponents>

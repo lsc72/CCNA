@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.4 Configuration dynamique - DHCPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration dynamique - DHCPv6</h1>
+        <div>
+          <p>Par défaut, le message d'annonce de routeur est l'option 1 : SLAAC uniquement. L'interface du routeur peut être configurée pour envoyer une annonce de routeur à l'aide des méthodes SLAAC et DHCPv6 sans état, ou uniquement de la méthode DHCPv6.</p>
+          <p>
+            <b>Option 2 d'annonce de routeur : SLAAC et DHCPv6 sans état</b>
+          </p>
+          <p>Avec cette option, le message d'annonce de routeur suggère aux périphériques d'utiliser :</p>
+          <p>
+            <ul>
+              <li>la SLAAC pour créer sa propre adresse de diffusion globale IPv6.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>l'adresse link-local du routeur, l'adresse IPv6 source du message d'annonce de routeur comme adresse de la passerelle par défaut.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>un serveur DHCPv6 sans état pour obtenir d'autres informations telles que l'adresse d'un serveur DNS et un nom de domaine.</li>
+            </ul>
+          </p>
+          <p>Un serveur DHCPv6 sans état distribue les adresses des serveurs DNS et les noms de domaine. Il n'attribue pas les adresses de diffusion globale. </p>
+          <p>
+            <b>Option d'annonce de routeur 3 : DHCPv6 sans état</b>
+          </p>
+          <p>DHCPv6 avec état est similaire à DHCP pour IPv4. Un périphérique peut recevoir automatiquement ses informations d'adressage, y compris une adresse de diffusion globale, la longueur du préfixe et les adresses des serveurs DNS à l'aide des services d'un serveur DHCPv6 avec état. </p>
+          <p>Avec cette option, le message d'annonce de routeur suggère aux périphériques d'utiliser :</p>
+          <p>
+            <ul>
+              <li>l'adresse link-local du routeur, l'adresse IPv6 source du message d'annonce de routeur comme adresse de la passerelle par défaut.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>un serveur DHCPv6 avec état pour obtenir une adresse de diffusion globale, l'adresse d'un serveur DNS, un nom de domaine et toutes les autres informations.</li>
+            </ul>
+          </p>
+          <p>Un serveur DHCPv6 avec état attribue les adresses IPv6 aux périphériques et tient à jour une liste de ces attributions. DHCP pour IPv4 est une méthode avec état. </p>
+          <p>
+            <b>Remarque</b> : l'adresse de la passerelle par défaut peut uniquement être obtenue de manière dynamique à partir du message d'annonce de routeur. Le serveur DHCPv6 avec ou sans état ne fournit pas l'adresse de la passerelle par défaut.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a router advertisement message being sent by a router in response to a router solicitation message.  The router advertisement in the figure is using option two and it is telling the computer the prefix, prefix-length, and the default gateway to use.  It is also using Stateless Address Auto-configuration and tells the computer that a DHCPv6 server is needed for DNS information.  The computer then sends out a DHCPv6 solicit request looking for DNS information.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.2 HTTP et HTTPS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>HTTP et HTTPS</h1>
+        <div>
+          <p>Le protocole HTTP est de type requête/réponse. Lorsqu'un client, généralement un navigateur web, envoie une requête à un serveur web, HTTP spécifie les types de messages utilisés pour cette communication. Les trois types de messages courants sont GET, POST et PUT (voir la figure) :</p>
+          <p>
+            <ul>
+              <li>
+                <b>GET</b> est une requête cliente visant à obtenir des données. Un client (navigateur web) envoie le message GET au serveur web pour demander des pages HTML.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>POST</b> télécharge des fichiers de données vers le serveur web, comme des données de formulaires.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>PUT</b> télécharge des ressources ou du contenu vers le serveur web, comme une image. </li>
+            </ul>
+          </p>
+          <p>Le protocole HTTP est certes extrêmement flexible, mais il n'est pas sécurisé. Les messages de demande transmettent au serveur des informations en texte brut pouvant être interceptées et lues. Les réponses du serveur, généralement des pages HTML, ne sont pas chiffrées. </p>
+          <p>Pour une communication sécurisée via Internet, le protocole HTTPS (HTTP Secure) est utilisé. HTTPS utilise l'authentification et le chiffrement pour sécuriser les données pendant leur transfert entre le client et le serveur. HTTPS utilise le même processus de demande client-réponse serveur que le protocole HTTP, à ceci près que le flux de données est chiffré avec le protocole SSL (Secure Socket Layer) avant d'être transporté sur le réseau.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows an HTTP GET request between a client and server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

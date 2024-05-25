@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.4.4 Ancien système d&#x0027;adressage par classe</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ancien système d&#x0027;adressage par classe</h1>
+        <div>
+          <p>En 1981, les adresses IPv4 Internet étaient attribuées à l'aide de l'<i>adressage par classe</i>, comme défini dans le document <a href="https://tools.ietf.org/html/rfc790" target="_blank">RFC 790</a>, Assigned Numbers. Les clients ont reçu une adresse réseau basée sur l'une des trois classes, A, B ou C. Le RFC a divisé les plages monodiffusion en classes spécifiques, respectivement appelées :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Classe A (0.0.0.0/8 à 127.0.0.0/8)</b> : créée pour prendre en charge les réseaux de très grande taille, comportant plus de 16 millions d'adresses d'hôte. Elle utilisait un préfixe /8 fixe avec le premier octet identifiant l'adresse réseau et les trois derniers octets identifiant les adresses d'hôte. Toutes les adresses de classe A nécessitaient que le bit de poids fort du premier octet soit un zéro, pour créer 128 réseaux de classe A au total. La figure 1 résume la classe A.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Classe B (128.0.0.0 /16 à 191.255.0.0 /16)</b> : créée pour répondre aux besoins des réseaux de taille moyenne ou de grande taille comportant jusqu'à 65 000 adresses d'hôtes environ. Elle utilisait un préfixe /16 fixe avec les deux octets d'ordre haut pour indiquer l'adresse réseau et les trois derniers octets identifiant les adresses d'hôte. Les deux bits de poids fort de l'octet d'ordre haut doivent être 10 pour créer plus de 16 000 réseaux. La figure 2 résume la classe B.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Classe C (192.0.0.0 /24 à 223.255.255.0 /24)</b> : créée pour répondre aux besoins des réseaux de petite taille comportant 254 hôtes maximum. Elle utilisait un préfixe /24 fixe avec les trois premiers octets identifiant le réseau et l'octet restant identifiant les adresses d'hôte. Les trois bits de poids fort de l'octet d'ordre haut doivent être 110 pour créer plus de 2 millions de réseaux. La figure 3 résume la classe C.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : il existe également un bloc d'adresses de multidiffusion de classe D de 224.0.0.0 à 239.0.0.0 et un bloc d'adresses expérimentales de classe E de 240.0.0.0 à 255.0.0.0. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the Class A address specifics including: address block is from 0.0.0.0 to 127.0.0.0 with the caveat that 0.0.0.0 and 127.0.0.0 are reserved and cannot be assigned; default subnet mask is /8 or 255.0.0.0; the maximum number of networks is 128; the number of host per network is 16,777,214; the value of the first high order bit in the first octet is 0. Figure 2 shows the Class B address specifics including: address block is from 128.0.0.0 to 191.255.0.0; default subnet mask is /16 or 255.255.0.0; the maximum number of networks is 16,384; the number of host per network is 65,534; the value of the first two high order bit in the first octet is 1 and 0. Figure 3 shows the Class C address specifics including: address block is from 192.0.0.0 to 223.255.255.0; default subnet mask is /24 or 255.255.255.0; the maximum number of networks is 2,097,152; the number of host per network is 254; the value of the first three high order bit in the first octet is 110.   </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

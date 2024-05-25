@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.5.3 VLSM de base</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.5.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>VLSM de base</h1>
+        <div>
+          <p>Pour mieux comprendre le processus VLSM, revenez à l'exemple précédent présenté à la figure 1. Le réseau 192.168.20.0/24 a été divisé en huit sous-réseaux de même taille. Sept des huit sous-réseaux ont été attribués. Quatre sous-réseaux ont été utilisés pour les réseaux locaux et trois pour les connexions de réseau étendu entre les routeurs. Souvenez-vous que l'espace d'adressage inutilisé appartenait aux sous-réseaux des connexions de réseau étendu, car ces sous-réseaux nécessitaient seulement deux adresses utilisables : une pour chaque interface de routeur. La méthode VLSM peut être employée pour éviter cette perte. Elle permet de créer des sous-réseaux plus petits pour les connexions de réseau étendu.</p>
+          <p>Pour créer des sous-réseaux plus petits pour les liaisons de réseau étendu, l'un des sous-réseaux est divisé. Dans cet exemple, le dernier sous-réseau, 192.168.20.224/27, est encore subdivisé.</p>
+          <p>Souvenez-vous que lorsque le nombre d'adresses d'hôte nécessaires est connu, la formule 2^n - 2 (où n représente le nombre de bits d'hôte restants) peut être appliquée. Pour obtenir deux adresses utilisables, 2 bits d'hôte doivent rester dans la partie hôte. </p>
+          <p>Étant donné que l'espace d'adresses segmenté 192.168.20.224/27 comporte 5 bits d'hôte, 3 bits supplémentaires peuvent être empruntés, ce qui laisse 2 bits dans la partie hôte, comme le montre la figure 2. Jusque-là, les calculs sont exactement les mêmes que pour la méthode classique. Il faut emprunter des bits et déterminer les plages des sous-réseaux.</p>
+          <p>Le schéma de segmentation VLSM permet de réduire suffisamment le nombre d'adresses par sous-réseau pour les liaisons WAN. Le fait de segmenter le sous-réseau 7 pour les réseaux étendus permet de conserver les sous-réseaux 4, 5, et 6 pour les futurs réseaux, mais également 5 sous-réseaux supplémentaires disponibles pour les réseaux étendus.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the binary representation of the eight subnets formed by borrowing 3 bits from a slash twenty four making slash twenty sevens. Figure 2 shows the binary representation of the eight subnets formed by borrowing 3 bits from a slash twenty seven making slash thirties.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

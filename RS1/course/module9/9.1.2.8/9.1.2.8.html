@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.8 Groupes de numéros de port</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Groupes de numéros de port</h1>
+        <div>
+          <p>L'Internet Assigned Numbers Authority (IANA) est l'organisme de normalisation responsable de l'attribution de diverses normes d'adressage et notamment des numéros de port. Il existe différents types de numéros de port, comme illustré à la figure 1 :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Ports réservés (numéros 0 à 1023)</b> : ces numéros sont réservés à des services et des applications. Ils sont généralement utilisés pour des applications de type navigateur web, client de messagerie et client d'accès à distance. En définissant ces ports réservés pour une utilisation par des applications serveur, il est possible de programmer les applications clientes de façon à ce qu'elles demandent à être connectées à un port précis et au service qui lui est associé.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Ports enregistrés (numéros 1024 à 49151)</b> : ces numéros de port sont affectés par l'IANA à une entité demandeuse pour une utilisation avec des processus ou des applications spécifiques. Ces processus sont essentiellement des applications particulières qu'un utilisateur a choisi d'installer plutôt que des applications courantes qui recevraient un port réservé. Par exemple, Cisco a enregistré le port 1985 pour son processus HSRP (Hot Standby Routing Protocol).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Ports privés ou dynamiques (numéros 49152 à 65535)</b> : également appelés ports éphémères, ces ports sont généralement affectés de façon dynamique par le système d'exploitation du client lorsqu'une connexion à un service est initiée. Le port dynamique est ensuite utilisé pour identifier l'application cliente durant la communication.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : certains systèmes d'exploitation clients peuvent utiliser des numéros de port enregistrés au lieu de numéros de port dynamiques pour l'affectation des ports sources.</p>
+          <p>La figure 2 illustre quelques-uns des numéros de port réservés courants ainsi que leurs applications associées. Certaines applications utilisent le protocole TCP et le protocole UDP. Par exemple, DNS utilise le protocole UDP lorsque des clients envoient des requêtes à un serveur DNS. Cependant, la communication entre deux serveurs DNS utilise toujours le protocole TCP.</p>
+          <p>Cliquez <a href="http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml" target="_blank">ici</a> pour afficher la liste complète des numéros de port et des applications associées sur le site web de l'IANA. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the three ranges used for port numbers.  Ports 0 through 1023 are classified as well known ports.  Numbers 1024 through 49151 are registered ports.  Ports 49152 through 65535 are considered private and slash or dynamic ports. Figure 2 lists a dozen of the more common well-known port numbers including FTP (20 and 21), SSH (22), SMTP (25), DNS (53), DHCP (67 and 68), TFTP (69), HTTP (80), POP3 (110), IMAP (143), SNMP (161), and HTTPS (443).</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.4.4 En-tête de paquet IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>En-tête de paquet IPv6</h1>
+        <div>
+          <p>Les champs d'en-tête de paquet IPv6 sont les suivants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Version : </b> : ce champ contient une valeur binaire de 4 bits définie sur 0110 indiquant qu'il s'agit d'un paquet IP version 6.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Classe de trafic : </b>ce champ de 8 bits est l'équivalent du champ de services différenciés pour l'IPv4. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Étiquetage de flux : </b>ce champ de 20 bits indique que tous les paquets portant la même étiquette de flux doivent être traités de la même manière par les routeurs.<b></b></li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Longueur des données utiles : </b>ce champ de 16 bits indique la longueur de la partie données (utiles) du paquet IPv6. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>En-tête suivant : </b>ce champ de 8 bits est l'équivalent du champ de protocole de l'IPv4. Il indique le type de données utiles transportées par le paquet, permettant ainsi à la couche réseau de transmettre les données au protocole de couche supérieure approprié. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Limite du nombre de tronçons :</b> ce champ de 8 bits remplace le champ de durée de vie (TTL) de l'IPv4. Cette valeur est réduite d'un point chaque fois qu'un routeur transmet le paquet. Lorsque le compteur atteint 0, le paquet est rejeté et un message ICMPv6 de délai dépassé est transféré à l'hôte émetteur, indiquant que le paquet n'a pas atteint sa destination en raison du dépassement du nombre limite de tronçons.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse source IPv6 : </b>ce champ de 128 bits identifie l'adresse IPv6 de l'hôte émetteur. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse IPv6 de destination : </b>ce champ de 128 bits identifie l'adresse IPv6 de l'hôte destinataire.</li>
+            </ul>
+          </p>
+          <p>Un paquet IPv6 peut également contenir des en-têtes d'extension qui fournissent des informations facultatives de couche réseau. Les en-têtes d'extension sont facultatifs et sont placés entre l'en-tête IPv6 et les données utiles. Ils sont utilisés pour la fragmentation, la sécurité, la prise en charge de la mobilité, etc.</p>
+          <p>Contrairement à IPv4, les routeurs ne fragmentent pas les paquets  IPv6 routés</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the IPv6 header with the following fields: Version, Traffic Class, Flow Label, Payload Length, Next Header, Hop Limit, Source Address and Destination Address.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

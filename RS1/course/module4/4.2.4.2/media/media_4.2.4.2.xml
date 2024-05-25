@@ -1,0 +1,29 @@
+<textcomponents>
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>Normes sans fil</b>]]></text> 
+  </component>
+ 
+  
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Wi-Fi : norme IEEE 802.11]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[La technologie LAN (WLAN) est généralement appelée Wi-Fi. Le réseau local sans fil (WLAN) fait appel à un protocole basé sur la contention appelé protocole CSMA/CA (Accès multiple avec écoute de porteuse et prévention des collisions). La carte réseau sans fil doit commencer par écouter avant d'émettre afin de déterminer si la canal radio est libre. Si un autre périphérique sans fil est en train d'émettre, la carte réseau doit alors attendre que le canal soit libre. Le protocole CSMA/CA sera traité ultérieurement dans ce chapitre.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Norme IEEE 802.15 : Bluetooth :]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[La norme de réseau personnel sans fil (PAN), couramment appelée Bluetooth, utilise un processus de jumelage de périphériques pour communiquer sur des distances de 1 à 100 mètres.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[Norme IEEE 802.16 : WiMAX :]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[La technologie d'accès couramment appelée WiMAX (Worldwide Interoperability for Microwave Access) utilise une topologie point-à-multipoint pour fournir un accès à large bande sans fil.]]></text>
+	</component>
+	
+
+</textcomponents>

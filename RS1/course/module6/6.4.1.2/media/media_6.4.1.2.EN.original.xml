@@ -1,0 +1,127 @@
+﻿<textcomponents>
+	
+	<!--Slide 1-->
+
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>Limiting Device Access</b>]]></text>
+</component>
+
+<component id="ID_s01_txt01">
+  <text><![CDATA[<textformat blockindent='-20'><ul><li><b>Configure the device name</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>hostname</b> <i>name</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure user EXEC mode</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line console 0</b></li><li id="space"><b>password</b> <i>password</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure remote Telnet / SSH access</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line vty 0 15</b></li><li id="space"><b>password</b> <i>password</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure privileged EXEC mode</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>enable secret</b> <i>password</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Secure all passwords in the config file</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>service password-encryption</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Provide legal notification</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>banner motd</b> <i>delimiter message delimiter</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Save the configuration</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>copy running-config  startup-config</b></li></ul></textformat>]]></text>
+</component>
+
+<!--End Slide 1-->
+	<component id="ID_txt01">
+		<text><![CDATA[OR]]></text>
+	</component>
+	 <component id="ID_title02">
+    <text><![CDATA[<b>Configuring Hostname</b>]]></text>
+  </component>
+     <component id="ID_title03">
+    <text><![CDATA[<b>Securing Management Access</b>]]></text>
+  </component>
+	  <component id="ID_title04">
+    <text><![CDATA[<b>Providing Legal Notification</b>]]></text>
+  </component>
+  <component id="ID_title05">
+    <text><![CDATA[<b>Saving the Configuration</b>]]></text>
+  </component>
+  
+<!--Slide 6-->
+    <component id="ID_s6_title">
+        <text><![CDATA[<b>Basic Router Configuration Tasks</b>]]></text>
+	</component>
+
+	<!--Syntax Checker Button Text-->
+	<component id="ID_s6_reset">
+		<text><![CDATA[Reset]]></text>
+	</component>
+	
+	<component id="ID_s6_showme">
+		<text><![CDATA[Show Me]]></text>
+	</component>
+	
+	<component id="ID_s6_showall">
+		<text><![CDATA[Show All]]></text>
+	</component>
+	<!--End Syntax Checker Button Text-->
+	
+	<!--Syntax Checker Body Text-->
+	<component id="ID_s6_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+		<feedback id="fb"><![CDATA[<b><font face="_sans" color="#FFFFFF">***You must enter the exact and full command. Commands that include a name or password are case-sensitive.***</font></b> ]]></feedback>
+		
+		<existingcommands><![CDATA[<font face="_sans"><b><ul>Basic Router Configuration<li>Configure the Device Name</li><li>Secure the privileged EXEC mode</li><li>Secure remote Telnet and SSH access</li><li>Secure all passwords in the config file</li><li>Provide legal notification</li><br>Enter the global configuration mode to configure the name of the router as 'R1'.</b></font>]]></existingcommands>
+		
+		<command prompt="Router>">
+			<correctresponse><![CDATA[ enable]]></correctresponse>
+		</command>
+		
+		<command prompt="Router#">
+			<correctresponse><![CDATA[ configure terminal]]></correctresponse>
+			<deviceresponse><![CDATA[Enter configuration commands, one per line.  End with CNTL/Z.]]></deviceresponse>
+		</command>
+
+		<command prompt="Router(config)#">
+			<correctresponse><![CDATA[ hostname R1]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configure 'class' as the secret password.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ enable secret class]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configure 'cisco' as the console line password and require users to login.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ line console 0]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ password cisco]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ login]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Configure 'cisco' as the vty password for lines 0 through 4 and require users to login. Then exit line configuration mode.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ line vty 0 4]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ password cisco]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ login]]></correctresponse>
+		</command>
+
+		<command prompt="R1(config-line)#">
+			<correctresponse><![CDATA[ exit]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Encrypt all clear text passwords.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ service password-encryption]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Enter the banner 'Authorized Access Only!' and use # as the delimiting character.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ banner motd #Authorized Access Only!#]]></correctresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Exit global configuration mode.</font>]]></instruction>
+		</command>
+
+		<command prompt="R1(config)#">
+			<correctresponse><![CDATA[ exit]]></correctresponse>
+			<deviceresponse><![CDATA[R1#<br>]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b>You successfully configured R1 with initial settings.</font>]]></instruction>
+		</command>
+
+		<command prompt=""/>
+
+	</component>
+	<!--End Syntax Checker Body Text-->
+	
+	<!--End Slide 6-->
+	
+</textcomponents>

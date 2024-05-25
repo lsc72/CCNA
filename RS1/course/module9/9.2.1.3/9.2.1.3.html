@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.1.3 Fermeture d&#x0027;une session TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fermeture d&#x0027;une session TCP</h1>
+        <div>
+          <p>Pour mettre fin à une connexion, l'indicateur de contrôle FIN (Finish) doit être défini dans l'en-tête de segment. Pour mettre fin à chaque session TCP unidirectionnelle, on utilise un échange en deux étapes constitué d'un segment FIN et d'un segment ACK. Pour mettre fin à une seule conversation TCP, quatre échanges sont nécessaires pour mettre fin aux deux sessions.</p>
+          <p>Dans la figure, cliquez sur les boutons 1 à 4 pour suivre l'interruption d'une connexion TCP.</p>
+          <p>
+            <b>Remarque</b> : les termes client et serveur sont utilisés ici pour simplifier l'explication, mais le processus d'interruption peut être initié par n'importe lequel des deux hôtes ayant une session ouverte :</p>
+          <p>
+            <b>Étape 1</b> : quand le client n'a plus de données à envoyer dans le flux, il envoie un segment dont l'indicateur FIN est défini.</p>
+          <p>
+            <b>Étape 2</b> : le serveur envoie un segment ACK pour indiquer la bonne réception du segment FIN afin de fermer la session du client au serveur.</p>
+          <p>
+            <b>Étape 3</b> : le serveur envoie un segment FIN au client pour mettre fin à la session du serveur au client.</p>
+          <p>
+            <b>Étape 4</b> : le client répond à l'aide d'un segment ACK pour accuser réception du segment FIN envoyé par le serveur.</p>
+          <p>Quand la réception de tous les segments a été confirmée, la session est fermée.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the four exchanges required to close a connection.  The first step shown is when client A is ready to close the connection therefore it sends a segment with the FIN flag set and it is received by client B.  Step two has client B sending an ACK to client A.  Step three is also from client B and it sends a FIN to client A to terminate the server to client session and the client receives the FIN.  The final step is when client A responds to client B by sending an ACK to client B.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

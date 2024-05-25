@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.2 Règle n° 1 - Omettre les zéros en début de segment</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Règle n° 1 - Omettre les zéros en début de segment</h1>
+        <div>
+          <p>La première règle pour réduire la notation des adresses IPv6 consiste à omettre les zéros (0) du début d'une section de 16 bits (ou hextet). Par exemple :</p>
+          <p>
+            <ul>
+              <li>01AB est équivalent à 1AB</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>09F0 est équivalent à 9F0</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>0A00 est équivalent à A00</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>00AB est équivalent à AB</li>
+            </ul>
+          </p>
+          <p>Cette règle s'applique uniquement aux zéros de début de segment et NON aux zéros de fin. L'omission de ces derniers rendrait l'adresse ambiguë. Par exemple, l'hextet « ABC » peut être « 0ABC » ou « ABC0 », mais ce sont deux valeurs différentes.</p>
+          <p>Les figures 1 à 8 contiennent plusieurs exemples où les zéros de début de segment sont omis pour réduire la taille des adresses IPv6. Pour chaque exemple, le format privilégié est indiqué. Notez que l'omission des zéros en début de segment entraîne un raccourcissement de l'adresse dans la plupart des cas.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 8 show examples Rule 1, which takes the preferred format of an IPv6 address and omitting the leading zeros. For example, the address 2001:0DB8:0000:1111:0000:0000:0000:0200 becomes 2001:DB8:0:1111:0:0:0:200.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

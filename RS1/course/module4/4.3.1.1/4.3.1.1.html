@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.1 Couche liaison de données</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Couche liaison de données</h1>
+        <div>
+          <p>La couche liaison de données du modèle OSI (couche 2), comme illustré à la figure 1, a pour rôle :</p>
+          <p>
+            <ul>
+              <li>de permettre aux couches supérieures d'accéder aux supports.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>d'accepter les paquets de couche 3 et de les encapsuler dans des trames.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>de préparer les données du réseau pour le réseau physique.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>de contrôler la manière dont les données sont placées et reçues sur le support.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>d'échanger des trames entre les nœuds via le support d'un réseau physique, comme un câble UTP ou à fibre optique.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>de recevoir et d'acheminer les paquets vers un protocole de couche supérieure.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>de détecter les erreurs.</li>
+            </ul>
+          </p>
+          <p>La notation de couche 2 des périphériques réseau connectés à un support commun est appelée un nœud. Les nœuds établissent et transmettent des trames. Comme l'illustre la figure 2, la couche liaison de données OSI est responsable de l'échange des trames Ethernet entre les nœuds source et de destination via un support réseau physique. </p>
+          <p>La couche liaison de données sépare efficacement les transitions de support qui se produisent lorsque le paquet est transféré à partir des processus de communication des couches supérieures. La couche liaison de données reçoit des paquets provenant d'un protocole de couche supérieure et les achemine également vers un protocole de couche supérieure, ici IPv4 ou IPv6. Ce protocole de couche supérieure n'a pas besoin de savoir quel support de communication sera utilisé. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a user at a computer.  Below is the OSI model with layer two highlighted.  There is a line, representing a connection, going from the user to a router connected to the Internet. Figure 2 shows a PC adding layer 2 source and destination addresses to a frame.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

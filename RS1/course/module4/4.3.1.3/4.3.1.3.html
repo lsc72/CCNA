@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.3 Contrôle de l&#x0027;accès aux supports</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Contrôle de l&#x0027;accès aux supports</h1>
+        <div>
+          <p>Les protocoles de couche 2 spécifient l'encapsulation d'un paquet en une trame et les techniques permettant de placer le paquet encapsulé sur chaque support et de le récupérer. La technique utilisée pour placer la trame sur les supports et la récupérer est appelée méthode de contrôle d'accès au support. </p>
+          <p>Lorsque les paquets voyagent de l'hôte source à l'hôte de destination, ils traversent généralement différents réseaux physiques. Ces réseaux physiques peuvent être basés sur différents types de supports physiques tels que des câbles en cuivre, des câbles à fibre optique, des supports sans fil constitués de signaux électromagnétiques, à fréquences radio ou hyperfréquences, et des liaisons par satellite. </p>
+          <p>Sans la couche liaison de données, les protocoles de couche réseau (par exemple, IP) devraient prévoir d'établir une connexion à chaque type de support pouvant figurer le long d'un chemin de livraison. En outre, le protocole IP devrait s'adapter à chaque développement d'une nouvelle technologie de réseau ou d'un nouveau support. Ce processus ferait obstacle à l'innovation et au développement de protocoles et de supports de réseau. Ceci est l'une des raisons majeures de l'approche en couches appliquée aux réseaux. </p>
+          <p>L'animation de la figure présente l'exemple d'un ordinateur situé à Paris qui se connecte à un ordinateur portable au Japon. Bien que les deux hôtes communiquent en utilisant exclusivement le protocole IP, il est probable que de nombreux protocoles de couche liaison de données soient utilisés pour transmettre les paquets IP sur différents types de réseau locaux et étendus. Chaque transition effectuée au niveau d'un routeur peut nécessiter un protocole de couche liaison de données différent en vue du transport sur un nouveau support.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is an animation that shows how a frame will travel on different media as it moves from source to destination.  The media shown includes copper wire, fiber, satellite wireless and home router wireless.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

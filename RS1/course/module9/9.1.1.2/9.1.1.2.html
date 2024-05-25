@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.1.2 Responsabilités de la couche transport</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Responsabilités de la couche transport</h1>
+        <div>
+          <p>
+            <b>Suivi des conversations individuelles</b>
+          </p>
+          <p>Au niveau de la couche transport, chaque ensemble de données transitant entre une application source et une application de destination est appelé une conversation (Figure 1). Un hôte peut héberger plusieurs applications qui communiquent sur le réseau simultanément. Chacune de ces applications communique avec une ou plusieurs applications sur un ou plusieurs hôtes distants. La couche transport est chargée de garantir ces multiples conversations et d'en effectuer le suivi.</p>
+          <p>
+            <b>Segmentation des données et reconstitution des segments</b>
+          </p>
+          <p>Les données doivent être préparées à être envoyées sur le support sous forme de blocs faciles à gérer. La plupart des réseaux limitent la quantité de données pouvant être incluses dans un paquet. Les protocoles de couche transport disposent de services qui segmentent les données d'application en blocs de taille appropriée (Figure 2). Il s'agit notamment de l'encapsulation devant s'appliquer à chaque bloc de données. Par ailleurs, un en-tête, utilisé pour la réorganisation, est ajouté à chaque bloc de données. Cet en-tête est utilisé pour suivre le flux de données.</p>
+          <p>Au niveau du destinataire, la couche transport doit pouvoir reconstituer un flux de données complet et utilisable par la couche application, à partir des blocs de données. Les protocoles intervenant au niveau de la couche transport gèrent la façon dont les informations d'en-tête de la couche transport servent à réassembler les blocs de données en flux qui seront transmis à la couche application.</p>
+          <p>
+            <b>Identification des applications </b>
+          </p>
+          <p>Pour que les flux de données atteignent les applications auxquelles ils sont destinés, la couche transport doit identifier l'application cible (Figure 3). Pour cela, la couche transport affecte un identificateur à chaque application, appelé numéro de port. Chaque processus logiciel ayant besoin d'accéder au réseau se voit affecter un numéro de port unique sur son hôte.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a single computer that has multiple web pages open along with an instant messaging window, an e-mail application, a streaming video application and a VoIP phone application running.  This represents that a computer typically has more than one process running any one time and it is the transport layer that tracks each individual conversation flowing between a source application and a destination application separately. Figure 2 shows a series of data blocks being transmitted to the computer.  The data blocks are of varying colors which correspond to different services. Figure 3 shows the computer sending the packages to the proper application, the web browser, the e-mail client, the streaming video application or the VoIP phone.  Each application has a specific data block color.  This represents the computer sorting the data based on application. Figure four shows the setup and termination of a data transfer session between a host and a server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

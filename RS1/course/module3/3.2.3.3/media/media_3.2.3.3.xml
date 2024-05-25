@@ -1,0 +1,22 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>IEEE (Institute of Electrical and Electronics Engineers - Institut des ingénieurs en équipements électriques et électroniques)</b>]]></text>
+</component>
+
+<component id="ID_title_01">
+<text><![CDATA[<b>Groupes de travail et groupes d'étude IEEE 802</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-16'><ul class="bulletIndent20"><LI>802.1 : groupe de travail sur les protocoles LAN de couche supérieure</LI><LI>802.3 : groupe de travail sur Ethernet</LI><LI>802.11 : groupe de travail sur les LAN sans fil</LI><LI>802.15 : groupe de travail sur les réseaux personnels sans fil (WPAN)</LI><LI>802.16 : groupe de travail sur les réseaux métropolitains à liaison sans fil</LI><LI>802.18 : groupe consultatif technique de contrôle radio</LI><LI>802.19 : groupe de travail sur la coexistence des réseaux sans fil</LI><LI>802.21 : groupe de travail sur les services MIH (Media Independent Handover)</LI><LI>802.22 : groupe de travail sur les réseaux régionaux sans fil</LI><LI>802.24 : groupe consultatif technique sur les réseaux intelligents</LI></ul></textformat>]]></text> 
+  </component>
+  
+<component id="ID_s2_title">
+<text><![CDATA[<b>Normes EIA/TIA</b>]]></text>
+</component>
+
+<component id="ID_bubble">
+<text><![CDATA[<font color="#FFFFFF">CAT5E TIA/EIA-568B VÉRIFIÉ</font>]]></text>
+</component>
+
+</textcomponents>

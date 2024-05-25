@@ -1,0 +1,11 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_title">
+		<text><![CDATA[<b>Négociation automatique du mode duplex intégral réussie</b>]]></text>
+	</component>
+	
+	<component id='ID_txt01'>
+		<text><![CDATA[Duplex intégral]]></text>
+	</component>
+	
+	<component id='ID_txt02'>
+		<text><![CDATA[Duplex intégral]]></text>
+	</component><!-- end slide 1 --></textcomponents>

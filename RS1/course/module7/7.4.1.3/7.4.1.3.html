@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.3 Chapitre 7 : Adressage IP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 7 : Adressage IP</h1>
+        <div>
+          <p>Les adresses IP sont hiérarchiques et comportent des parties réseau, sous-réseau et hôte. Une adresse IP peut représenter tout un réseau, un hôte particulier ou l'adresse de diffusion du réseau.</p>
+          <p>Il est important de comprendre la notation binaire pour déterminer si deux hôtes se trouvent sur le même réseau. Les bits de la partie réseau de l'adresse IP doivent être identiques pour tous les périphériques installés sur le même réseau. Le préfixe ou masque de sous-réseau sert à déterminer la partie réseau d'une adresse IP. Les adresses IP peuvent être attribuées de manière statique ou de manière dynamique. Le protocole DHCP permet l’attribution automatique des informations d’adressage, telles que l’adresse IP, le masque de sous-réseau, la passerelle par défaut et d’autres paramètres.</p>
+          <p>Les hôtes IPv4 peuvent communiquer de trois façons : monodiffusion, diffusion et multidiffusion. En outre, les blocs d'adresses utilisés dans des réseaux qui nécessitent un accès à Internet limité (ou aucun accès à Internet) sont appelés des adresses privées. Les blocs d'adresses IPv4 privées sont les suivants : 10.0.0.0/8, 172.16.0.0/12 et 192.168.0.0/16.</p>
+          <p>Le manque d'espace d'adressage IPv4 a été le facteur décisif majeur pour passer à l'IPv6. Chaque adresse IPv6 se compose de 128 bits alors que les adresses IPv4 en comptent 32. Le protocole IPv6 n'utilise pas la notation décimale à point du masque de sous-réseau. La longueur de préfixe est utilisée pour indiquer la partie réseau d'une adresse IPv6 à l'aide du format suivant : adresse IPv6/longueur de préfixe. </p>
+          <p>Il existe trois types d'adresses IPv6 : monodiffusion, multidiffusion et anycast (monodiffusion aléatoire). Une adresse link-local IPv6 permet à un périphérique de communiquer avec d'autres périphériques IPv6 sur la même liaison et uniquement sur cette liaison (sous-réseau). Les paquets associés à une adresse link-local source ou de destination ne peuvent pas être acheminés au-delà de leur liaison d'origine. Les adresses link-local IPv6 se trouvent dans la plage FE80::/10.</p>
+          <p>Le protocole ICMP est disponible pour IPv4 et IPv6. ICMPv4 est le protocole de message des réseaux IPv4. ICMPv6 fournit les mêmes services pour l'IPv6, mais offre des fonctionnalités supplémentaires.</p>
+          <p>Après sa mise en œuvre, un réseau IP doit faire l'objet de tests qui vérifient sa connectivité et ses performances.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

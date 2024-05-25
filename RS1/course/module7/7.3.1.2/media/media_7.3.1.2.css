@@ -1,0 +1,13 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_s1_bubble01,
+#ID_s1_bubble02,
+#ID_s2_bubble01,
+#ID_s2_bubble02,
+#ID_s3_bubble01,
+#ID_s3_bubble02,
+#ID_s3_bubble03,
+#ID_s3_bubble04 {
+    color: #FFFFFF !important;
+}

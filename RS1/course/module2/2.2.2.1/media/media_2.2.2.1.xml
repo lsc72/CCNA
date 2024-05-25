@@ -1,0 +1,46 @@
+﻿<textcomponents>
+    <!-- slide 1 -->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Limitation de l'accès au périphérique</b>]]></text>
+    </component>
+    <component id="ID_s1_ins_title01">
+        <text>
+            <![CDATA[Sécurisation de l'accès administratif]]>
+        </text>
+    </component>
+    <component id="ID_s1_ins_body01">
+        <text>
+            <![CDATA[<textformat blockindent='-17'><ul><li>Sécuriser l'accès au mode d'exécution privilégié avec un mot de passe</li><li>Sécuriser l'accès au mode d'exécution utilisateur avec un mot de passe</li><li>Sécuriser l'accès au mode Telnet à distance avec un mot de passe</li></ul></textformat><textformat blockindent='-17'><ul><li>Chiffrer tous les mots de passe</li><li>Fournir la notification légale</li></ul></textformat>]]>
+        </text>
+    </component>
+
+     <component id="ID_s1_ins_title02">
+        <text>
+            <![CDATA[Autres tâches]]>
+        </text>
+    </component>
+    <component id="ID_s1_ins_body02">
+        <text>
+            <![CDATA[<textformat blockindent='-17'><ul><li>Chiffrer tous les mots de passe</li><li>Fournir la notification légale</li></ul></textformat>]]>
+        </text>
+    </component>
+
+    <!-- end slide 1-->
+    <!-- slide 2 -->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Directives pour le choix de mots de passe</b>]]></text>
+    </component>
+
+    <component id="ID_s2_ins_title">
+        <text>
+            <![CDATA[Lorsque vous choisissez des mots de passe]]>
+        </text>
+    </component>
+    <component id="ID_s2_ins_body">
+        <text>
+            <![CDATA[<textformat blockindent='-17'><ul><li>Utilisez des mots de passe de plus de 8 caractères.</li><li>Utilisez une combinaison de lettres majuscules et minuscules, des chiffres, des caractères spéciaux et/ou des séquences de chiffres.</li><li>Évitez d'utiliser le même mot de passe pour tous les périphériques.</li><li>N'utilisez pas des mots courants car ils sont faciles à deviner.</li></ul></textformat>]]></text>
+    </component>
+    <!-- end slide 2-->
+</textcomponents>

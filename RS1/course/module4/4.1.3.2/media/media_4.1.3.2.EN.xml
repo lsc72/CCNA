@@ -1,0 +1,61 @@
+﻿<textcomponents>
+
+<!-- slide 1 -->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>IoT Reference Model</b>]]></text>
+	</component>
+	
+	<component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+ 
+             <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='200px'><font color='#FFFFFF'><b>Unit of Bandwidth</b></font></td>
+                <td bgcolor='#666263' width='130px'><font color='#FFFFFF'><b>Abbreviation</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Equivalence</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Bits per second</td>
+				<td bgcolor='#E9E7E8'>b/s</td>
+                <td bgcolor='#E9E7E8'>1 b/s = fundamental unit of bandwidth</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Kilobits per second</td>
+                <td bgcolor='#F2F2F2'>kb/s</td>
+                <td bgcolor='#F2F2F2'>1 kb/s = 1,000 bps = 10^3 bps</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'>Megabits per second</td>
+                <td bgcolor='#E9E7E8'>Mb/s</td>
+                <td bgcolor='#E9E7E8'>1 Mb/s = 1,000,000 bps = 10^6 bps</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Gigabits per second</td>
+                <td bgcolor='#F2F2F2'>Gb/s</td>
+                <td bgcolor='#F2F2F2'>1 Gb/s = 1,000,000,000 bps = 10^9 bps</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'>Terabits per second</td>
+                <td bgcolor='#E9E7E8'>Tb/s</td>
+                <td bgcolor='#E9E7E8'>1 Tb/s = 1,000,000,000,000 bps = 10^12 bps</td>
+            </tr>
+ 
+            
+            
+        </table>]]></text>
+    </component>
+
+<!-- end slide 1 -->
+
+	
+</textcomponents>

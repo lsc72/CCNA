@@ -1,0 +1,48 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Manchester Encoding</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[The transition occurs at the middle of each bit period.]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Connecting to the Wireless LAN with a Range Extender</b>]]></text>
+</component>
+
+
+<component id="ID_s2_txt01">
+<text><![CDATA[<b>Frequency Modulation (FM)</b>]]></text>
+</component>
+
+<component id="ID_s2_txt02">
+<text><![CDATA[Modulating Wave]]></text>
+</component>
+
+<component id="ID_s2_txt03">
+<text><![CDATA[Carrier Signal]]></text>
+</component>
+
+<component id="ID_s2_txt04">
+<text><![CDATA[FM Signal]]></text>
+</component>
+
+<component id="ID_s2_txt05">
+<text><![CDATA[<b>Amplitude Modulation (AM)</b>]]></text>
+</component>
+
+<component id="ID_s2_txt06">
+<text><![CDATA[Modulating Wave]]></text>
+</component>
+
+<component id="ID_s2_txt07">
+<text><![CDATA[Carrier Signal]]></text>
+</component>
+
+<component id="ID_s2_txt08">
+<text><![CDATA[AM Signal]]></text>
+</component>
+  
+</textcomponents>

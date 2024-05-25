@@ -1,0 +1,96 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>How Many Addresses Are Available with IPv6?</b>]]></text>
+</component> 
+ 
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+  <tr class="mtable_title">
+      <td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+    </tr>
+
+    <tr class="mtable_top">
+      <td colspan='3' bgcolor='#666263'><font size='1' color='#0E6360'>.</font></td>
+    </tr>
+  <tr>
+        <td width="160" bgcolor='#666263' width="150" valign="top"><font color='#ffffff'><b>Number Name</b></font></td>
+    <td width="260" bgcolor='#666263' valign="top" width="150" class="width"><font color='#ffffff'><b>Scientific Notation</b></font> </td>
+    <td bgcolor='#666263' valign="top"><font color='#ffffff'><b>Number of Zeros</b></font> </td>
+   </tr>
+  <tr>
+    <td bgcolor='#E9E7E8'><font color='#393536'>1 Thousand</font></td>
+    <td bgcolor='#E9E7E8'><font color='#393536'>10^3</font></td>
+    <td bgcolor='#E9E7E8' ><font color='#393536'>1,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1 Million</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>10^6</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#FACCA8'><font color='#393536'>1 Billion</font></td>
+    <td bgcolor='#FACCA8'><font color='#393536'>10^9</font></td>
+    <td bgcolor='#FACCA8' ><font color='#393536'>1,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1 Trillion</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>10^12</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E9E7E8'><font color='#393536'>1 Quadrillion</font></td>
+    <td bgcolor='#E9E7E8'><font color='#393536'>10^15</font></td>
+    <td bgcolor='#E9E7E8' ><font color='#393536'>1,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1 Quintillion</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>10^18</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1,000,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E9E7E8'><font color='#393536'>1 Sextillion</font></td>
+    <td bgcolor='#E9E7E8'><font color='#393536'>10^21</font></td>
+    <td bgcolor='#E9E7E8' ><font color='#393536'>1,000,000,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1 Septillion</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>10^24</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1,000,000,000,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E9E7E8'><font color='#393536'>1 Octillion</font></td>
+    <td bgcolor='#E9E7E8'><font color='#393536'>10^27</font></td>
+    <td bgcolor='#E9E7E8' ><font color='#393536'>1,000,000,000,000,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1 Nonillion</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>10^30</font></td>
+    <td bgcolor='#F2F2F2'><font color='#393536'>1,000,000,000,000,000,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E9E7E8'><font color='#393536'>1 Decillion</font></td>
+    <td bgcolor='#E9E7E8'><font color='#393536'>10^33</font></td>
+    <td bgcolor='#E9E7E8' ><font color='#393536'>1,000,000,000,000,000,000,000,000,000,000,000</font></td>
+  </tr>
+  <tr>
+    <td bgcolor='#E6EBA8'><font color='#393536'>1 Undecillion</font></td>
+    <td bgcolor='#E6EBA8'><font color='#393536'>10^36</font></td>
+    <td bgcolor='#E6EBA8'><font color='#393536'>1,000,000,000,000,000,000,000,000,000,000,000,000</font></td>
+  </tr>
+
+</table>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[There are 4 billion IPv4 addresses]]></text>
+</component>  
+
+<component id="ID_txt02">
+<text><![CDATA[There are 340 undecillion IPv6 addresses]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[<b>Legend</b>]]></text>
+</component>
+</textcomponents>

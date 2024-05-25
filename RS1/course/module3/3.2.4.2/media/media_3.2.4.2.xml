@@ -1,0 +1,98 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Modèle de référence OSI</b>]]></text>
+</component>
+
+
+<component id="ID_txt01">
+<text><![CDATA[Modèle OSI]]></text>
+</component>
+
+<component id="ID_s1_titleTxt07">
+<text><![CDATA[Application]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt07">
+<text><![CDATA[La couche application contient des protocoles utilisés pour les communications de processus à processus.]]></text>
+</component>
+
+<component id="ID_s1_titleTxt06">
+<text><![CDATA[Présentation]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt06">
+<text><![CDATA[La couche présentation fournit une représentation commune des données transférées entre des services de couche application.]]></text>
+</component>
+
+<component id="ID_s1_titleTxt05">
+<text><![CDATA[Session]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt05">
+<text><![CDATA[La couche session fournit des services à la couche présentation pour organiser son dialogue et gérer l'échange de données.]]></text>
+</component>
+
+<component id="ID_s1_titleTxt04">
+<text><![CDATA[Transport]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt04">
+<text><![CDATA[La couche transport définit des services pour segmenter, transférer et réassembler les données de communications individuelles entre les périphériques finaux.]]></text>
+</component>
+
+<component id="ID_s1_titleTxt03">
+<text><![CDATA[Réseau]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt03">
+<text><![CDATA[La couche réseau fournit des services pour échanger les parties de données individuelles sur le réseau entre des périphériques finaux identifiés.]]></text>
+</component>
+
+<component id="ID_s1_titleTxt02">
+<text><![CDATA[Liaison de données]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt02">
+<text><![CDATA[Les protocoles de couche liaison de données décrivent des méthodes d'échange de trames de données entre des périphériques sur un support commun.]]></text>
+</component>
+
+<component id="ID_s1_titleTxt01">
+<text><![CDATA[Physique]]></text>
+</component>
+
+<component id="ID_s1_bodyTxt01">
+<text><![CDATA[Les protocoles de la couche physique décrivent les moyens mécaniques, électriques, fonctionnels et méthodologiques permettant d'activer, de gérer et de désactiver des connexions physiques pour la transmission de bits vers et depuis un périphérique réseau.]]></text>
+</component><!--OSI Model--><component id='ID_osi_header'>
+	<text><![CDATA[<font><b>Modèle OSI</b></font>]]></text>
+</component>
+
+<component id='ID_osi_txt07'>
+	<text><![CDATA[Application]]></text>
+</component>
+
+<component id='ID_osi_txt06'>
+	<text><![CDATA[Présentation]]></text>
+</component>
+
+<component id='ID_osi_txt05'>
+	<text><![CDATA[Session]]></text>
+</component>
+
+<component id='ID_osi_txt04'>
+	<text><![CDATA[Transport]]></text>
+</component>
+
+<component id='ID_osi_txt03'>
+	<text><![CDATA[Réseau]]></text>
+</component>
+
+<component id='ID_osi_txt02'>
+	<text><![CDATA[Liaison de données]]></text>
+</component>
+
+<component id='ID_osi_txt01'>
+	<text><![CDATA[Physique]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.5 Méthode EUI-64 et génération aléatoire</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Méthode EUI-64 et génération aléatoire</h1>
+        <div>
+          <p>Lorsque le message d'annonce de routeur est la SLAAC seule ou la SLAAC avec DHCPv6 sans état, le client doit générer lui-même son ID d'interface. Le client connaît la partie préfixe de l'adresse grâce au message d'annonce, mais il doit créer son ID d'interface. Pour cela, il peut utiliser la méthode EUI-64 ou un nombre à 64 bits généré aléatoirement, comme le montre la figure 1.</p>
+          <p>
+            <b>Méthode EUI-64</b>
+          </p>
+          <p>L'IEEE a défini l'identifiant unique étendu (EUI), ou format EUI-64 modifié. Ce processus utilise l'adresse MAC Ethernet à 48 bits d'un client et insère 16 autres bits au milieu de cette adresse MAC pour créer un ID d'interface de 64 bits. </p>
+          <p>Les adresses MAC Ethernet sont généralement représentées au format hexadécimal et sont constituées de deux parties : </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'identifiant unique d'entité (OUI)</b> : un code de fournisseur de 24 bits (6 caractères hexadécimaux) attribué par l'IEEE.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'ID de périphérique</b> : une valeur unique de 24 bits (6 caractères hexadécimaux) contenue dans un OUI standard. </li>
+            </ul>
+          </p>
+          <p>Un ID d'interface EUI-64 est représenté au format binaire et comprend trois parties :</p>
+          <p>
+            <ul>
+              <li>le code OUI sur 24 bits, provenant de l'adresse MAC du client, mais dont le septième bit (universellement/localement, U/L) est inversé. Cela signifie que si le septième bit est un 0, il devient un 1, et vice versa. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>la valeur de 16 bits FFFE intégrée (au format hexadécimal).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>l'ID de périphérique de 24 bits de l'adresse MAC du client.</li>
+            </ul>
+          </p>
+          <p>Le processus EUI-64 est présenté à la figure 2, avec l'adresse MAC GigabitEthernet FC99:4775:CEE0 de R1.</p>
+          <p>
+            <b>Étape 1</b> : coupez l'adresse MAC au niveau de la séparation entre l'OUI et l'ID de périphérique.</p>
+          <p>
+            <b>Étape 2</b> : insérez la valeur hexadécimale FFFE, à savoir 1111 1111 1111 1110 en binaire. </p>
+          <p>
+            <b>Étape 3</b> : convertissez les 2 premières valeurs hexadécimales de l'OUI en binaire et inversez le bit U/L (bit 7). Dans cet exemple, le 0 du bit 7 devient un 1.</p>
+          <p>Il en résulte un ID d'interface généré à l'aide de la méthode EUI-64, FE99:47FF:FE75:CEE0. </p>
+          <p>
+            <b>Remarque</b> : l'utilisation du bit U/L et les raisons de son inversion sont expliquées dans le RFC 5342.</p>
+          <p>À la figure 3, l'adresse de diffusion globale IPv6 de PCA est créée dynamiquement à l'aide des méthodes SLAAC et EUI-64. Il est simple de savoir si une adresse a été créée via la méthode EUI-64 : il suffit d'analyser la valeur FFFE située dans l'ID d'interface (voir la figure 3).</p>
+          <p>L'avantage de la méthode EUI-64 est que l'adresse MAC Ethernet peut être utilisée pour déterminer l'ID d'interface. Elle permet également aux administrateurs réseau de suivre facilement une adresse IPv6 jusqu'à un périphérique final en utilisant une adresse MAC unique. Toutefois, cela entraîne des problèmes de confidentialité pour de nombreux utilisateurs. Ces derniers s'inquiètent du fait qu'il soit possible de remonter jusqu'à l'ordinateur physique en analysant les paquets. Pour éviter ce problème, un ID d'interface généré aléatoirement peut également être utilisé.</p>
+          <p>
+            <b>ID d'interface générés aléatoirement</b>
+          </p>
+          <p>Selon le système d'exploitation, un périphérique peut utiliser un ID d'interface généré aléatoirement plutôt que l'adresse MAC et le processus EUI-64. À partir de la version Windows Vista, Windows utilise un ID d'interface généré aléatoirement au lieu d'un ID créé avec le processus EUI-64. Windows XP et les systèmes d'exploitation précédents utilisaient la méthode EUI-64.</p>
+          <p>Une fois l'ID d'interface créé via la méthode EUI-64 ou aléatoirement, il peut être combiné avec un préfixe IPv6 dans le message d'annonce de routeur pour créer une adresse de diffusion globale, comme le montre la figure 4. </p>
+          <p>
+            <b>Remarque</b> : pour s'assurer que les adresses de monodiffusion IPv6 sont uniques, le client peut utiliser le processus de détection d'adresse dupliquée (DAD). Le principe est similaire à une requête ARP pour sa propre adresse. En l'absence de réponse, l'adresse est unique.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows an example of EUI-64. A computer uses the IPv6 global unicast of the router to construct its own global unicast  address. The computer uses the prefix from the router's address, which is 2001:DB8:ACAD:1 in the example. And then the computer uses EUI-64 to fill in the interface ID portion of the address. Figure 2 shows the E.U.I.-64 process for creating a 64 bit interface ID.  Step one begins with the example MAC address, FC:99:47:75:CE:E0.  The MAC address is split between the OUI and the device ID, and converted into binary.  In step two, the hexadecimal value FFFE is inserted between the OUI and the device ID. This makes converts the 48 bit MAC address into 64 bits.  In step three, the seventh high order bit is flipped from 0 to 1.  The modified MAC address is now the EUI-64 interface ID, FE:00:47:FF:FE:75:CE:E0. Figure 3 shows the Windows command line with the command "ipconfig" entered. The IPv6 global unicast address was generated using EUI-64. Figure 4 shows the Windows command line with the command "ipconfig" entered. The IPv6 global unicast address was created by generating a random 64-bit number for the interface ID.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

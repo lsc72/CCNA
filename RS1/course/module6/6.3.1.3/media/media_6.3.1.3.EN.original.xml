@@ -1,0 +1,58 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+	  <text><![CDATA[<b>Router Memory</b>]]></text> 
+	 </component>
+
+	<component id="ID_txt01">
+	<text><![CDATA[IOS <font face="_typewriter"><b>show</b></font> commands can provide information about the configuration, operation, and status of parts of a Cisco switch or router.]]></text>
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[Running IOS]]></text> 
+	  </component>
+	<component id="ID_txt03">
+	  <text><![CDATA[Routing Table<br/><br/>ARP Table]]></text> 
+	  </component>
+	<component id="ID_txt04">
+	  <text><![CDATA[Running Configuration File]]></text> 
+	  </component>
+	<component id="ID_txt05">
+	  <text><![CDATA[Packet Buffer]]></text> 
+	  </component>
+	<component id="ID_txt06">
+	  <text><![CDATA[Startup Configuration File]]></text> 
+	  </component>
+	<component id="ID_txt07">
+	  <text><![CDATA[IOS Files]]></text> 
+	  </component>
+	<component id="ID_txt08">
+	  <text><![CDATA[POST<br/><br/>ROM Monitor Firmware (Limited IOS)]]></text> 
+	  </component>
+	<component id="ID_txt09">
+	  <text><![CDATA[RAM]]></text> 
+	  </component>
+	<component id="ID_txt10">
+	  <text><![CDATA[NVRAM]]></text> 
+	  </component>
+	<component id="ID_txt11">
+	  <text><![CDATA[Flash]]></text> 
+	  </component> 
+	<component id="ID_txt12">
+	  <text><![CDATA[ROM]]></text> 
+	  </component> 
+
+  	<component id="ID_titleTxt01">
+		<text><![CDATA[RAM]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[RAM uses the following applications and processes:<ul><li>The IOS image and running configuration file</li><li>The routing table used to determine the best path to use to forward packets</li><li>The ARP cache used to map IPv4 addresses to MAC addresses</li><li>The Packet buffer used to temporarily store packets before forwarding to the destination</li></ul>]]></text>
+	</component>
+
+  	<component id="ID_titleTxt02">
+		<text><![CDATA[ROM]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[ROM stores the following:<ul><li>Bootup information that provides the startup instructions</li><li>Power-on self-test (POST) that tests all the hardware components</li><li>Limited IOS to provide a backup version of the IOS. It is used for loading a full feature IOS when it has been deleted or corrupted.</li></ul>]]></text>
+	</component>
+	
+</textcomponents>

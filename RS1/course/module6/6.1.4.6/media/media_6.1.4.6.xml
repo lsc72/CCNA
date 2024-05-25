@@ -1,0 +1,85 @@
+﻿<textcomponents><!--slide 1-->
+
+<component id='ID_title'>
+	<text><![CDATA[<b>Exercice – Champs d'en-tête IPv6</b>]]></text>
+</component>
+
+<component id="ID_titleTxt01">
+<text><![CDATA[Instruction]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+<text><![CDATA[Lisez les descriptions d'en-tête IPv6, puis cliquez sur les champs d'en-tête IPv6 auxquels elles correspondent.]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[<b>Descriptions d'en-tête IPv6</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[<b>Champs d'en-tête IPv6</b>]]></text>
+</component>
+
+<component id="ID_s1_field01">
+<text><![CDATA[<b>Version</b>]]></text>
+</component>
+
+<component id="ID_s1_field02">
+<text><![CDATA[<b>Longueur des données utiles</b>]]></text>
+</component>
+
+<component id="ID_s1_field03">
+<text><![CDATA[<b>Classe de trafic</b>]]></text>
+</component>
+
+<component id="ID_s1_field04">
+<text><![CDATA[<b>En-tête suivant</b>]]></text>
+</component>
+
+<component id="ID_s1_field05">
+<text><![CDATA[<b>Étiquetage de flux</b>]]></text>
+</component>
+
+<component id="ID_s1_field06">
+<text><![CDATA[<b>Limite de nombre de tronçons</b>]]></text>
+</component><!--answers--><component id="ID_s1_ans01">
+<text><![CDATA[Est toujours défini(e) à 0110]]></text>
+</component>
+
+<component id="ID_s1_ans02">
+<text><![CDATA[Indique la taille de la partie données du paquet]]></text>
+</component>
+
+<component id="ID_s1_ans03">
+<text><![CDATA[Classe les paquets pour le contrôle d'encombrement]]></text>
+</component>
+
+<component id="ID_s1_ans04">
+<text><![CDATA[Indique le type d'application au protocole de couche supérieure]]></text>
+</component>
+
+<component id="ID_s1_ans05">
+<text><![CDATA[Pour indiquer que tous les paquets doivent être traités de la même manière par les routeurs IPv6]]></text>
+</component>
+
+<component id="ID_s1_ans06">
+<text><![CDATA[Lorsque cette valeur atteint 0, l'expéditeur est averti que le paquet n'a pas été livré]]></text>
+</component><!--buttons--><component id="ID_s1_btn01">
+<text><![CDATA[Réinitialiser]]></text>
+</component><!--feedback--><component id='ID_s1_titleCorrect'>
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id='ID_s1_correctText'>
+	<text><![CDATA[Bravo ! Vous avez correctement associé les descriptions d'en-tête IPv6 aux éléments correspondants.]]></text>
+</component>
+
+<component id='ID_s1_titleIncorrect'>
+	<text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+
+<component id='ID_s1_incorrectText'>
+	<text><![CDATA[Veuillez réessayer.]]></text>
+</component>
+
+</textcomponents>

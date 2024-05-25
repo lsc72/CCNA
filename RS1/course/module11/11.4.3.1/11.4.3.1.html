@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.1 Problèmes d&#x0027;adressage IP sur périphériques IOS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problèmes d&#x0027;adressage IP sur périphériques IOS</h1>
+        <div>
+          <p>Les problèmes liés aux adresses IP empêchent généralement les périphériques réseau distants de communiquer. Les adresses IP respectant une certaine hiérarchie, toute adresse IP attribuée à un périphérique réseau doit être conforme à la plage d'adresses de ce réseau. Toute adresse IP mal attribuée génère un grand nombre de problèmes, y compris des conflits d'adressage IP et des problèmes de routage.</p>
+          <p></p>
+          <p>Parmi les causes les plus courantes d'attribution IPv4 incorrecte, notons les erreurs d'attribution manuelle ou les problèmes DHCP.</p>
+          <p></p>
+          <p>Les administrateurs réseau doivent souvent affecter manuellement des adresses IP à des périphériques tels que des serveurs et des routeurs. Si une erreur est commise au moment de l'affectation, il y a de fortes chances que cela génère des problèmes de communication avec le périphérique.</p>
+          <p></p>
+          <p>Sur un équipement Cisco IOS, utilisez les commandes <b>show ip interface</b> ou <b>show ip interface brief</b> pour vérifier que les adresses IPv4 ont été attribuées aux interfaces réseau. La figure présente le résultat de la commande <b>show ip interface</b> exécutée sur R1. Notez que le résultat affiche des données IPv4 (couche 3 OSI), tandis que la commande <b>show interfaces</b> précédemment mentionnée affiche les données physiques et de liaison de données d'une interface.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description"> Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘show ip interface gigabitethernet0/0’ with the IP address highlighted. </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.1 Limites d&#x0027;octet</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Limites d&#x0027;octet</h1>
+        <div>
+          <p>Chaque interface d'un routeur est connectée à un réseau. L'adresse IPv4 et le masque de sous-réseau configurés sur l'interface du routeur servent à identifier le domaine de diffusion. Souvenez-vous que la longueur de préfixe et le masque de sous-réseau constituent des moyens distincts d'identifier la part réseau d'une adresse.</p>
+          <p>Pour créer des sous-réseaux IPv4, on utilise un ou plusieurs bits d'hôte en tant que bits réseau. Pour cela, il faut étendre le masque de sous-réseau pour emprunter quelques bits de la portion hôte de l'adresse et créer d'autres bits réseau. Plus les bits d'hôte empruntés sont nombreux, plus le nombre de sous-réseaux qui peuvent être définis est important. </p>
+          <p>Le plus simple est de segmenter les réseaux à la limite d'octet de /8, /16 et /24. Le tableau de la figure ci-contre reprend ces longueurs de préfixe, les masques de sous-réseau équivalents, les bits de réseau et d'hôte et le nombre d'hôtes qui peuvent être connectés dans chaque sous-réseau. Notez que l'utilisation de préfixes plus longs réduit le nombre d'hôtes par sous-réseau.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table. Column one has the prefix lengths /8, /16 and /24. Column two has the subnet masks 255.0.0.0, 255.255.0.0, and 255.255.255.0. Column three shows the subnet mask in binary. Above each binary one is the letter “n” to represent that this is a network bit. About each binary zero is the letter “h” to represent that this is a host bit. Column three shows the number of hosts for each prefix length: 16,777,214, 65,534, and 254. </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

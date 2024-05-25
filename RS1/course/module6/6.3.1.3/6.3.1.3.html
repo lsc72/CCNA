@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.3.1.3 Mémoire des routeurs</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.3.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Mémoire des routeurs</h1>
+        <div>
+          <p>Un routeur accède à une mémoire volatile et à une mémoire non volatile. La mémoire volatile nécessite une alimentation continue pour conserver les informations qu'elle contient. Lorsque le routeur est mis hors tension ou redémarré, son contenu est effacé et perdu. La mémoire non volatile conserve ses informations même lorsque le périphérique est redémarré. </p>
+          <p>En fait, les routeurs Cisco utilisent quatre types de mémoire : </p>
+          <p>
+            <ul>
+              <li>
+                <b>La mémoire vive (RAM) :</b> il s'agit de la mémoire volatile utilisée sur les routeurs Cisco pour stocker les applications, les processus et les données requises par le processeur. Les routeurs Cisco utilisent une RAM rapide appelée SDRAM (mémoire vive dynamique synchrone). Cliquez sur la RAM sur la figure ci-contre pour en savoir plus à son sujet.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La mémoire morte (ROM) :</b> cette mémoire non volatile sert à stocker des instructions de fonctionnement essentielles et une version limitée d'IOS.  La mémoire morte est intégrée au micrologiel sur un circuit intégré situé dans le routeur qui ne peut être modifié que par Cisco. Cliquez sur la ROM sur la figure ci-contre pour en savoir plus à son sujet.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La mémoire vive non volatile (NVRAM) :</b> cette mémoire est utilisée comme stockage permanent du fichier de configuration initiale (startup-config). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>La mémoire Flash :</b> il s'agit d'une mémoire non volatile d'ordinateur utilisée comme stockage permanent pour IOS et d'autres fichiers relatifs au système tels que les fichiers journaux et HTML, les fichiers de configuration vocale, les configurations de sauvegarde, etc. Lors du redémarrage d'un routeur, IOS est copié de la mémoire Flash vers la mémoire vive. </li>
+            </ul>
+          </p>
+          <p>Toutes les plates-formes de routeur ont des paramètres et des composants par défaut. Par exemple, le routeur Cisco 1941 intègre 512 Mo de mémoire SDRAM, mais peut évoluer jusqu'à 2 Go. Il est également livré avec 256 Mo de mémoire Flash, mais celle-ci peut être étendue à l'aide de deux logements Compact Flash externes. Chacun peut prendre en charge des cartes de stockage haut débit qui peuvent être mises à niveau jusqu'à atteindre un maximum de 4 Go. Cliquez <a href="http://www.cisco.com/c/en/us/products/collateral/routers/1900-series-integrated-services-routers-isr/data_sheet_c78_556319.html" target="_blank">ici</a> pour en savoir plus sur le routeur à services intégrés (ISR) Cisco 1941.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is a diagram showing the four types of memory in the router. RAM holds running IOS as well as many processes that the IOS starts including routing table, ARP table, running configuration, and packet buffer. NVRAM stores the startup-config file. Flash stores the IOS files. ROM stores POST and the ROM monitor firmware, which is a limited IOS. The figure has two buttons, one for RAM and one for ROM. Clicking the buttons provides more information.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

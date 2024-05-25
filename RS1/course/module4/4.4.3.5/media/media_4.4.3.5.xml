@@ -1,0 +1,22 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>CSMA/CA</b>]]></text>
+	</component>
+	
+	
+
+	<component id="ID_bubble01">
+		<text><![CDATA[Je vois dans la trame sans fil que le canal sera indisponible pendant un certain laps de temps, donc je ne peux pas l'envoyer.]]></text>
+	</component>
+	
+	<component id="ID_bubble02">
+		<text><![CDATA[Je vois dans la trame sans fil que le canal sera indisponible pendant un certain laps de temps, donc je ne peux pas l'envoyer.]]></text>
+	</component>
+	
+	<component id="ID_bubble03">
+		<text><![CDATA[Je suis en train de recevoir cette trame sans fil.]]></text>
+	</component>
+	
+	
+
+</textcomponents>

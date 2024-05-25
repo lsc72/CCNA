@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.4 Adresses de monodiffusion link-local IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses de monodiffusion link-local IPv6</h1>
+        <div>
+          <p>Une adresse link-local IPv6 permet à un périphérique de communiquer avec d'autres périphériques IPv6 sur la même liaison et uniquement sur cette liaison (sous-réseau). Les paquets associés à une adresse link-local source ou de destination ne peuvent pas être acheminés au-delà de leur liaison d'origine.</p>
+          <p>L'adresse de diffusion globale n'est pas obligatoire. Toutefois, chaque interface réseau IPv6 doit avoir une adresse link-local. </p>
+          <p>Si une adresse link-local n'est pas configurée manuellement sur une interface, le périphérique crée automatiquement sa propre adresse sans communiquer avec un serveur DHCP. Les hôtes IPv6 créent une adresse link-local IPv6 même si aucune adresse de monodiffusion globale IPv6 n'a été attribuée aux périphériques. Cela permet aux périphériques IPv6 de communiquer avec d'autres périphériques IPv6 sur le même sous-réseau. Cela inclut la communication avec la passerelle par défaut (routeur). </p>
+          <p>Les adresses link-local IPv6 se trouvent dans la plage FE80::/10. /10 Indique que les 10 premiers bits sont 1111 1110 10xx xxxx. Le premier hextet dispose d'une plage comprise entre 1111 1110 10<b>00 0000</b> (FE80) et 1111 1110 10<b>11 1111</b> (FEBF). </p>
+          <p>La figure 1 présente un exemple de transmission à l'aide d'adresses link-local IPv6.</p>
+          <p>La figure 2 présente quelques utilisations des adresses link-local IPv6.</p>
+          <p>
+            <b>Remarque</b> : en règle générale, c'est l'adresse locale-lien du routeur et non l'adresse de diffusion globale qui est utilisée comme passerelle par défaut pour les autres périphériques sur la liaison. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router with a switch connected. The router also has two other networks attached. The router is configured with the same FE80::1/64 IPv6 link-local address on all three interfaces. On one of the LANs, there are two computers, a server, and a printer attached to the switch.  A computer is using link-local source and destination addresses to send a job to the printer. The router would not forward this job to another LAN because link-local addresses is local to the link. Figure 2 show a router connected to another router. One of the routers has a PC connected. The two routers are using the link-local address to send routing updates. The PC is using the router's link-local address as its default gateway.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

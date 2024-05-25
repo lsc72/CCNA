@@ -1,0 +1,85 @@
+﻿<textcomponents>
+    <!-- Slide 1 -->
+    <component id="ID_inst">
+        <text>
+            <![CDATA[Cliquez sur Matériel, Noyau et Interpréteur de commandes pour obtenir plus d'informations.]]>
+        </text>
+    </component>
+    <component id="ID_title">
+        <text>
+            <![CDATA[<b>Système d'exploitation</b>]]></text>
+    </component>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Interpréteur de commandes]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Noyau]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Matériel]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[Interface utilisateur]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt01">
+        <text>
+            <![CDATA[Interpréteur de commandes]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt02">
+        <text>
+            <![CDATA[Noyau]]>
+        </text>
+    </component>
+    <component id="ID_titleTxt03">
+        <text>
+            <![CDATA[Matériel]]>
+        </text>
+    </component>
+    <component id="ID_bodyTxt01">
+        <text>
+            <![CDATA[Interface utilisateur qui permet aux utilisateurs de demander des tâches spécifiques à l'ordinateur. Ces requêtes peuvent être émises soit via l'interface graphique, soit via l'interface en ligne de commande.]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[CLI]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Interface graphique utilisateur]]>
+        </text>
+    </component>
+    <component id="ID_bodyTxt02">
+        <text>
+            <![CDATA[élément qui assure la communication entre le matériel informatique et les logiciels, et gère le mode d'utilisation des ressources matérielles pour satisfaire la configuration logicielle.]]>
+        </text>
+    </component>
+    <component id="ID_bodyTxt03">
+        <text>
+            <![CDATA[partie physique d'un ordinateur qui intègre des éléments électroniques.]]>
+        </text>
+    </component>
+    <!-- End Slide 1 -->
+    <!-- Slide 2 -->
+    <component id="ID_slide2_title">
+        <text>
+            <![CDATA[<b>Interface en ligne de commande</b>]]></text>
+    </component>
+    <!-- End Slide 2 -->
+    <!-- Slide 3 -->
+    <component id="ID_slide3_title">
+        <text>
+            <![CDATA[<b>Interface graphique utilisateur</b>]]></text>
+    </component>
+    <!-- End Slide 3 -->
+</textcomponents>

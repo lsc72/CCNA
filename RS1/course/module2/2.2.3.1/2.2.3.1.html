@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.3.1 Enregistrer le fichier de configuration en cours</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Enregistrer le fichier de configuration en cours</h1>
+        <div>
+          <p>Deux fichiers système stockent la configuration des périphériques :</p>
+          <p>
+            <ul>
+              <li>
+                <b>startup-config </b>: il s'agit du fichier stocké dans la mémoire vive non volatile (NVRAM) qui contient toutes les commandes qui seront utilisées par le périphérique au démarrage ou au redémarrage. La mémoire vive non volatile ne perd pas son contenu lors de la mise hors tension du périphérique.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>running-config</b> : il s'agit du fichier stocké dans la mémoire vive (RAM) et qui reflète la configuration actuelle. Modifier une configuration en cours affecte immédiatement le fonctionnement d'un périphérique Cisco. La RAM est une mémoire volatile. Elle perd tout son contenu lorsque le périphérique est mis hors tension ou redémarré.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Comme le montre la figure, vous pouvez entrer la commande du mode d'exécution privilégié <b>show running-config</b> pour afficher le fichier de configuration en cours. Pour afficher le fichier de configuration initiale, lancez la commande <b>show startup-config</b> du mode d'exécution privilégié.</p>
+          <p></p>
+          <p>En cas de panne de courant ou de redémarrage du périphérique, toutes les modifications de la configuration que vous n'avez pas enregistrées sont perdues. Pour enregistrer les modifications apportées à la configuration en cours dans le fichier de configuration initiale, utilisez la commande <b>copy running-config startup-config</b> du mode d'exécution privilégié.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure one shows how to display the current running configuration as well as how to save the current running configuration to the startup configuration in NVRAM.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

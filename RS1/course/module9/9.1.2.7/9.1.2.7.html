@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.7 Paires d&#x0027;interfaces de connexion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Paires d&#x0027;interfaces de connexion</h1>
+        <div>
+          <p>Les ports sources et de destination sont placés à l'intérieur du segment. Les segments sont ensuite encapsulés dans un paquet IP. Le paquet IP contient l'adresse IP de la source et de la destination. La combinaison de l'adresse IP source et du numéro de port source, ou de l'adresse IP de destination et du numéro de port de destination, est appelée interface de connexion. L'interface de connexion sert à identifier le serveur et le service demandés par le client. Une interface de connexion cliente peut se présenter comme suit, 1099 représentant le numéro du port source : 192.168.1.5:1099 </p>
+          <p>L'interface de connexion d'un serveur web peut avoir la forme suivante : 192.168.1.7:80</p>
+          <p>Ensemble, ces deux interfaces de connexion constituent une paire d'interfaces de connexion : 192.168.1.5:1099 et 192.168.1.7:80</p>
+          <p>Les interfaces de connexion permettent à plusieurs processus exécutés sur un client de se différencier les uns des autres, et aux multiples connexions à un processus serveur de se distinguer les unes des autres.</p>
+          <p>Le numéro de port source fait office d'adresse de retour pour l'application envoyant la requête. La couche transport effectue le suivi du port et de l'application à l'origine de la requête afin que la réponse, quand elle sera envoyée, soit transmise à l'application appropriée.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the location of the source and destination port numbers within a segment.  The figure is showing a computer that has both an active FTP session and a web session.  When data is meant for the FTP server the computer selects a random source port value above 1023 and assigns 21 to the destination port.  In the figure the source port used is 1305.  The IP address and the port number create the socket and this allows the computer to keep track of the FTP data.  The web traffic also uses a random source port above 1023, and in the figure it is using port 1099.  The data destined for the web server is assigned a destination port of 80, which is the port used by web servers.  The IP address and the port number create the socket and this allows the computer to keep track of the web server connection.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Exercice - Identifier les types d'adresse IPv6</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Faites glisser les types d'adresse IPv6 jusqu'à leurs descriptions respectives.]]></text>
+	</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Adresse IPv6 unique routable sur Internet (dynamique ou statique)]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[FE80::1]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[2001:db8:ACAD::1/64]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Préfixe IPv6 type utilisé pour indiquer la partie réseau de l'adresse]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[Utilisé pour communiquer avec d'autres périphériques du même sous-réseau IPv6]]></text>
+</component>
+
+<!--Drag and Drop-->
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">monodiffusion globale</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">Link-local</font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536">/64</font>]]></text>
+</component>
+
+<component id='ID_s1_target_header'>
+	<text><![CDATA[Terme]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+	<text><![CDATA[Description]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé les types d'adresse IPv6 aux descriptions correspondantes.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas associé correctement les types d'adresse IPv6 aux descriptions correspondantes. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component>
+
+</textcomponents>

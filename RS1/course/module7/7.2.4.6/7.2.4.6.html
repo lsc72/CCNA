@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.6 Adresses link-local dynamiques</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses link-local dynamiques</h1>
+        <div>
+          <p>Tous les périphériques IPv6 doivent avoir une adresse link-local IPV6. Une adresse link-local peut être établie dynamiquement ou configurée manuellement comme adresse link-local statique. </p>
+          <p>La figure 1 montre que l'adresse link-local est créée dynamiquement à partir du préfixe FE80::/10 et de l'ID d'interface à l'aide de la méthode EUI-64 ou d'un nombre à 64 bits généré aléatoirement. Les systèmes d'exploitation utilisent généralement la même méthode pour une adresse de diffusion globale créée par une SLAAC et pour une adresse link-local attribuée dynamiquement, comme le montre la figure 2.</p>
+          <p>Les routeurs Cisco créent automatiquement une adresse link-local IPv6 dès qu'une adresse de diffusion globale est attribuée à l'interface. Par défaut, les routeurs Cisco IOS utilisent la méthode EUI-64 pour générer l'ID d'interface de toutes les adresses link-local sur des interfaces IPv6. Pour les interfaces série, le routeur utilise l'adresse MAC d'une interface Ethernet. Souvenez-vous qu'une adresse link-local doit être unique seulement sur sa liaison ou son réseau. Toutefois, un inconvénient de l'utilisation de l'adresse locale-lien attribuée dynamiquement est son long ID d'interface : il est en effet difficile d'identifier et de mémoriser les adresses attribuées. La figure 3 indique l'adresse MAC sur l'interface GigabitEthernet 0/0 de R1. Cette adresse est utilisée pour créer l'adresse link-local sur la même interface.</p>
+          <p>Pour simplifier l'identification et la mémorisation de ces adresses sur les routeurs, il est courant de configurer les adresses link-local IPv6 de manière statique sur les routeurs.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the format of an IPv6 link-local address.  The figure highlights the first ten binary bits set to 1111111010, which is FE80::/10 ten. The remaining 54 bits in the prefix are normally set to zero. The 64 bit interface ID can be derived either through EUI-64 or a randomly generated 64-bit number. Figure 2 shows two Windows command line windows. Both windows show the “ipconfig” command output. In the top window, the link-local address was generated using EUI-64. In the bottom window, the link-local address was created using a randomly generated 64-bit number for the interface ID. Figure 3 shows the output on a router for the “show interface gigabitethernet 0/0” command. The MAC address, fc99.4775.c3e0, is highlighted. The second command entered is “show ipv6 interface brief”. Output from this command verifies that the router is using the same link-local address on all three active IPv6 interfaces. The link-local address was generated using EUI-64.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

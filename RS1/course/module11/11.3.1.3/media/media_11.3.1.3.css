@@ -1,0 +1,13 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#ID_s1_txt01,#ID_s1_txt02{
+    height: 17px !important;
+    width: 595px !important;
+    padding-left: 8px !important;
+    padding-top: 2px !important;
+}
+
+.color {
+    color: #F68026 !important;
+}

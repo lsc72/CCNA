@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.1 Fonctions du protocole TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fonctions du protocole TCP</h1>
+        <div>
+          <p>Pour comprendre les différences entre les protocoles TCP et UDP, il est important de comprendre comment chaque protocole utilise des fonctions spécifiques de fiabilité et comment il effectue le suivi des conversations. Outre la prise en charge des fonctions de base de segmentation et de réorganisation des données, le protocole TCP, comme l'illustre la figure, fournit également d'autres services.</p>
+          <p>
+            <b>Établissement d'une session</b>
+          </p>
+          <p>Le protocole TCP est un protocole orienté connexion. Un protocole orienté connexion est un protocole qui négocie et établit une connexion permanente (ou session) entre les périphériques source et de destination avant de transmettre du trafic. Grâce à l'établissement de la session, les périphériques négocient la quantité de trafic pouvant être transmise à un moment donné et les données de communication peuvent être étroitement gérées. </p>
+          <p>
+            <b>Acheminement fiable</b>
+          </p>
+          <p>Dans le contexte des réseaux, la fiabilité consiste à veiller à ce que chaque segment envoyé par la source parvienne à destination. Bien des circonstances peuvent entraîner l'altération ou la perte d'un segment lors de sa transmission sur le réseau. </p>
+          <p>
+            <b>Livraison dans le même ordre</b>
+          </p>
+          <p>Étant donné que les réseaux peuvent fournir plusieurs routes dont les débits de transmission varient, il se peut que les données arrivent dans le désordre. En numérotant et en ordonnant les segments, le protocole TCP s'assure que ces segments sont remis dans le bon ordre. </p>
+          <p>
+            <b>Contrôle de flux</b>
+          </p>
+          <p>Les hôtes du réseau disposent de ressources limitées, par exemple en ce qui concerne la mémoire ou la puissance de traitement. Quand le protocole TCP détermine que ces ressources sont surexploitées, il peut demander à l'application qui envoie les données d'en réduire le flux. Cette opération consiste à réguler la quantité de données transmises par la source. Le contrôle du flux contribue à rendre inutile la retransmission des données lorsque les ressources de l'hôte de réception sont saturées. </p>
+          <p>Pour plus d'informations sur le protocole TCP, voir le document <a href="https://www.ietf.org/rfc/rfc793.txt" target="_blank">RFC</a>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a single computer that has multiple web pages open along with an instant messaging window and an e-mail application running.  Four core services provided by T.C.P. are establishing a session, providing reliable delivery of data, providing proper order of data sent and managing flow control.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

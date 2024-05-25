@@ -1,0 +1,11 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>An Interface Connects a Broadcast Domain</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[<b>Broadcast Domain</b>]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[Internet]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,46 @@
+﻿<textcomponents>
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+ 
+             <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+	
+
+		  	<tr class="mtable_title">
+                <td bgcolor='#666263' width='200px'><font color='#FFFFFF'><b>Unité de bande passante</b></font></td>
+                <td bgcolor='#666263' width='130px'><font color='#FFFFFF'><b>Abréviation</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Équivalence</b></font></td>
+            </tr>
+
+
+	 
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Bits par seconde</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>bit/s</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>1 bit/s = unité fondamentale de bande passante</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Kilobits par seconde</font></td>
+		<td bgcolor='#F2F2F2'>Kbit/s</font></td>
+		<td bgcolor='#F2F2F2'>1 kbit/s = 1 000 bit/s = 10^3 bit/s</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Mégabits par seconde</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Mbits/s</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>1 Mbit/s = 1 000 000 bit/s = 10^6 bit/s</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Gigabits par seconde</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Gbit/s</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>1 Gbit/s = 1 000 000 000 bit/s = 10^9 bit/s</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Térabits par seconde</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Tbit/s</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>1 Tbit/s = 1 000 000 000 000 bit/s = 10^12 bit/s</font></td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

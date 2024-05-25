@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.2.6 Adresse du tronçon suivant</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresse du tronçon suivant</h1>
+        <div>
+          <p>Lorsqu'un paquet destiné à un réseau distant arrive au niveau du routeur, ce dernier compare le réseau de destination à une route de la table de routage. S'il trouve une correspondance, le routeur transfère le paquet à l'adresse du tronçon suivant à l'aide de l'interface indiquée.</p>
+          <p>Reportez-vous à l'exemple de topologie représenté à la figure 1. Supposons que PC1 ou PC2 ait envoyé un paquet destiné aux réseaux 10.1.1.0 ou 10.1.2.0. Lorsque le paquet arrive sur l'interface Gigabit du routeur R1, le routeur compare l'adresse de destination IPv4 du paquet aux entrées de sa table de routage. La table de routage est représentée à la figure 2. D'après les informations de sa table de routage, R1 va transférer le paquet vers l'adresse du tronçon suivant 209.165.200.226 à l'aide de l'interface série 0/0/0.</p>
+          <p>Notez que les réseaux connectés directement ayant une route source <b>C</b> et <b>L</b> n'ont pas d'adresse de tronçon suivant. En effet, un routeur peut transférer des paquets directement aux hôtes sur ces réseaux via l'interface indiquée.</p>
+          <p>Il est également important de comprendre que les paquets ne peuvent pas être acheminés par le routeur s'il n'existe pas de route vers le réseau de destination dans la table de routage. Si aucune route vers le réseau de destination ne figure dans la table de routage, le paquet est abandonné (non transféré). Toutefois, tout comme un hôte peut utiliser une passerelle par défaut pour transférer un paquet vers une destination inconnue, un routeur peut également utiliser une route statique par défaut pour créer une passerelle de dernier recours. La route par défaut peut être configurée manuellement ou être obtenue de manière dynamique.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows two routers connected by a serial connection.  Each router has two LANs attached.  Figure 2 shows the output from "show ip route" command issued on router 1. The two routes learned by EIGRP have the next hop interface highlighted in orange.  The next hop is the IP address of the WAN interface on the remote router.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

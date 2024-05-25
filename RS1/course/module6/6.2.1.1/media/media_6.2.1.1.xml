@@ -1,0 +1,14 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Trois types de destinations</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Hôte local]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Un hôte distant]]></text>
+</component>
+
+</textcomponents>

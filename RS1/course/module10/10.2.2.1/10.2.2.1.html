@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.1 Domain Name Service (service de noms de domaines)</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Domain Name Service (service de noms de domaines)</h1>
+        <div>
+          <p>Dans les réseaux de données, les périphériques sont identifiés par des adresses IP numériques pour l'envoi et la réception de données sur les réseaux. Des noms de domaine ont été créés pour convertir les adresses numériques en noms simples et explicites.</p>
+          <p>Sur Internet, ces noms de domaine (par exemple, <a href="http://www.cisco.com/" target="_blank">http://www.cisco.com</a>) sont beaucoup plus faciles à mémoriser que leurs équivalents numériques (par exemple, 198.133.219.25, l'adresse numérique du serveur de Cisco). Si Cisco décide de changer l'adresse numérique de <a href="http://www.cisco.com/" target="_blank">www.cisco.com</a>, l'utilisateur n'en a pas conscience, car le nom de domaine reste le même. La nouvelle adresse est simplement reliée au nom de domaine existant et la connexion est ainsi assurée. </p>
+          <p>Le protocole DNS définit un service automatisé qui associe les noms des ressources à l'adresse réseau numérique requise. Il comprend le format des demandes, des réponses et des données. Les communications via le protocole DNS utilisent un format unique nommé message. Ce format de message est utilisé pour tous les types de demandes clientes et de réponses serveur, pour les messages d'erreur et pour le transfert des informations d'enregistrement de ressource entre les serveurs.</p>
+          <p>Les figures 1 à 5 illustrent les différentes étapes de la résolution DNS.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a client computer and a server connected to a network.  The client is attempting to reach Cisco’s website using a web browser.  The client makes a DNS query to a DNS server. Figure 2 shows an NS record matching www dot cisco dot com to an IP address Figure 3 shows the client sending the DNS request to the server. Figure 4 shows the DNS server responding to the DNS query with the IP address for www dot cisco dot com Figure 5 shows the client now has the IP address to put in the layer 3 header as the destination IP for the HTTP request.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

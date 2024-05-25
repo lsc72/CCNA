@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.5.1 Adresses de multidiffusion IPv6 attribuées</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses de multidiffusion IPv6 attribuées</h1>
+        <div>
+          <p>Les adresses de multidiffusion IPv6 sont semblables aux adresses de multidiffusion IPv4. Rappelez-vous qu'une adresse de multidiffusion est utilisée pour envoyer un même paquet à un ou plusieurs destinataires (groupe de multidiffusion). Les adresses de multidiffusion IPv6 ont le préfixe FF00::/8. </p>
+          <p>
+            <b>Remarque</b> : les adresses de multidiffusion ne peuvent être que des adresses de destination et non des adresses source.</p>
+          <p>Il existe deux types d'adresses de multidiffusion IPv6 :</p>
+          <p>
+            <ul>
+              <li>Les adresses de multidiffusion attribuées</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>les adresses de multidiffusion de nœud sollicité</li>
+            </ul>
+          </p>
+          <p>
+            <b>Adresses de multidiffusion attribuées</b>
+          </p>
+          <p>Les adresses de multidiffusion attribuées sont des adresses de multidiffusion réservées à des groupes ou périphériques prédéfinis. Une adresse de multidiffusion attribuée est une adresse unique utilisée pour joindre un groupe de périphériques exécutant un service ou un protocole commun. Les adresses de multidiffusion attribuées sont utilisées avec des protocoles spécifiques, tels que DHCPv6. </p>
+          <p>Les deux groupes suivants de multidiffusion IPv6 attribuée sont les plus courants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>groupe de multidiffusion à tous les nœuds FF02::1</b> - il s'agit d'un groupe de multidiffusion que tous les périphériques IPv6 peuvent rejoindre. Un paquet envoyé à ce groupe est reçu et traité par toutes les interfaces IPv6 situées sur la liaison ou le réseau. Cette opération a le même effet qu'une adresse de diffusion IPv4. La figure illustre un exemple de communication via l'adresse de multidiffusion à tous les nœuds. Un routeur IPv6 envoie des messages d'annonce de routeur ICMPv6 au groupe de multidiffusion à tous les nœuds. Le message d'annonce de routeur indique à tous les périphériques IPv6 du réseau les informations d'adressage telles que le préfixe, la longueur du préfixe et la passerelle par défaut. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>FF02::2 Groupe de multidiffusion à tous les routeurs</b> il s'agit d'un groupe de multidiffusion que  peuvent rejoindre tous les routeurs IPv6. Un routeur devient un membre de ce groupe lorsqu'il est activé en tant que routeur IPv6 avec la commande de configuration globale <b>ipv6 unicast-routing</b>. Un paquet envoyé à ce groupe est reçu et traité par tous les routeurs IPv6 situés sur la liaison ou le réseau. </li>
+            </ul>
+          </p>
+          <p>Les périphériques IPv6 envoient des messages de sollicitation du routeur ICMPv6 (RS) à l'adresse de multidiffusion à tous les routeurs. Le message RS demande un message d'annonce au routeur IPv6 (RA) pour faciliter la configuration de l'adresse du périphérique. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a router with a switch connected to one gigabit Ethernet port. There are 2 computers, a server, and a printer connected to the switch.  The router is sending an IPv6 all-nodes multicast message to destination address FF02::1.  The message is sent out to all the IPv6 enabled devices that are connected to the switch.  </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

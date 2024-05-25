@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.4.1 Adresses IPv4 publiques et privées</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses IPv4 publiques et privées</h1>
+        <div>
+          <p>Les adresses IPv4 publiques sont acheminées de manière globale entre les routeurs des FAI (fournisseurs d'accès à Internet). Toutefois, toutes les adresses IPv4 disponibles ne peuvent pas être utilisées sur Internet. Certains blocs d'adresses appelés <i>adresses privées</i> sont utilisés par la plupart des entreprises pour attribuer des adresses IPv4 aux hôtes internes. </p>
+          <p>Les adresses IPv4 privées ont été créées au milieu des années 1990 en raison de la pénurie d'espace d'adresses IPv4. Les adresses IPv4 privées ne sont pas uniques et peuvent être utilisées par un réseau interne.</p>
+          <p>Les blocs d'adresses privées sont les suivants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>10.0.0.0 /8</b> ou <b>10.0.0.0</b> à <b>10.255.255.</b><b>255</b></li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>172.16.0.0 /12</b> ou <b>172.16.0.0 à 172.31.255.255</b></li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>192.168.0.0 /16</b> ou <b>192.168.0.0 à 192.168.255.255</b></li>
+            </ul>
+          </p>
+          <p>Il est important de savoir que les adresses appartenant à ces blocs ne sont pas autorisées sur Internet et doivent être filtrées (rejetées) par les routeurs Internet. Par exemple, dans la figure ci-contre, les utilisateurs des réseaux 1, 2 ou 3 envoient des paquets à des destinations éloignées. Les routeurs du fournisseur d'accès à Internet (FAI) voient que les adresses IPv4 source dans les paquets sont des adresses privées et rejettent donc les paquets.</p>
+          <p>
+            <b>Remarque</b> : les adresses privées sont définies dans le document <a href="https://tools.ietf.org/html/rfc1918" target="_blank">RFC 1918</a>. </p>
+          <p>La plupart des entreprises utilisent des adresses IPv4 privées pour leurs hôtes internes. Toutefois, ces adresses RFC 1918 ne sont pas routables via Internet et doivent être traduites en adresses IPv4 publiques. La traduction d'adresses réseau (NAT) est utilisée pour convertir les adresses IPv4 privées en adresses IPv4 publiques. Généralement, cette opération s'effectue sur le routeur qui connecte le réseau interne à celui du FAI. </p>
+          <p>Les routeurs domestiques assurent la même fonction. Par exemple, la plupart des routeurs domestiques attribuent des adresses IPv4 à leurs hôtes filaires et sans fil à partir de l'adresse privée 192.168.1.0 /24. Une adresse IPv4 publique utilisée sur Internet est attribuée à l'interface du routeur domestique qui se connecte au réseau du FAI.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows three separate networks. Each is connected to its own ISP router. The ISP routers are connected to the Internet. The networks are privately addressed. In the figure, each router is sending a privately addressed packet to its ISP router. Each ISP router has a red X over the link signifying that the router will not accept the packet.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet Tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Configuring Secure Passwords and SSH]]></text>
+	</component>
+	
+</textcomponents>
+

@@ -1,0 +1,55 @@
+<textcomponents>
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>IPv6 Global Unicast Address Structure</b>]]></text> 
+  </component>
+  <component id="ID_s1_txt01">
+  <text><![CDATA[Global Routing Prefix]]></text> 
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[Subnet ID]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt03">
+  <text><![CDATA[Interface ID]]></text> 
+  </component>
+
+   <component id="ID_s1_txt04">
+  <text><![CDATA[48 bits]]></text> 
+  </component>
+
+   <component id="ID_s1_txt05">
+  <text><![CDATA[16 bits]]></text> 
+  </component>
+
+   <component id="ID_s1_txt06">
+  <text><![CDATA[64 bits]]></text> 
+  </component>
+
+   <component id="ID_s1_txt07">
+  <text><![CDATA[A/48 routing prefix + 16 bit Subnet ID = /64 prefix]]></text> 
+  </component>
+ 
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Global Routing Prefix]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[This is the prefix, or network, portion of the address that is assigned by the provider. Typically, Regional Internet Registries (RIRs) assign a /48 global routing prefix to ISPs and customers.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Subnet ID]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Used by an organization to identify subnets within its site.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[Interface ID]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[This is the equivalent to the host portion of an IPv4 address. The term Interface ID is used because a single host may have multiple interfaces, each having one or more IPv6 addresses.]]></text>
+	</component>
+	
+  
+ 
+</textcomponents>

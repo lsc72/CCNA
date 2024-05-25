@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.4.2 Applications utilisant le protocole UDP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Applications utilisant le protocole UDP</h1>
+        <div>
+          <p>Il existe trois types d'application plus adaptés au protocole UDP :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Applications multimédia et de streaming vidéo</b> : applications pouvant tolérer certaines pertes de données, mais peu ou pas de retard. La voix sur IP et le streaming vidéo en sont de bons exemples.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Simples applications de requête et de réponse </b>: applications dont les transactions sont simples et pour lesquelles un hôte envoie une requête à laquelle il recevra ou non une réponse. Exemples : DNS et DHCP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Applications gérant elles-mêmes la fiabilité</b> : communications unidirectionnelles pour lesquelles le contrôle de flux, la détection des erreurs, les accusés de réception et la reprise sur erreur ne sont pas nécessaires ou peuvent être gérés par l'application elle-même. Exemples : SNMP et TFTP.</li>
+            </ul>
+          </p>
+          <p>Bien que DNS et SNMP utilisent UDP par défaut, ces deux protocoles peuvent également utiliser TCP. Le protocole DNS utilisera TCP si la requête ou la réponse DNS dépasse 512 octets, par exemple lorsqu'une réponse DNS contient un grand nombre de résolutions de noms. De manière similaire, dans certaines situations, il se peut que l'administrateur réseau souhaite configurer SNMP de manière à utiliser TCP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows common applications that use UDP including DHCP, DNS, SNMP, TFTP, VoIP, and IPTV.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.6 Numéros de port</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Numéros de port</h1>
+        <div>
+          <p>Le numéro du port source est associé à l'application d'origine sur l'hôte local. Le numéro du port de destination est associé à l'application de destination sur l'hôte distant.</p>
+          <p>
+            <b>Port source</b>
+          </p>
+          <p>Le numéro du port source est généré de manière dynamique par le périphérique émetteur pour identifier une conversation entre deux périphériques. Ainsi, plusieurs conversations peuvent s'effectuer simultanément. Un périphérique peut ainsi envoyer plusieurs requêtes de service HTTP à un serveur web en même temps. Un suivi des différentes conversations HTTP est effectué sur la base des ports sources.</p>
+          <p>
+            <b>Port de destination</b>
+          </p>
+          <p>Le client place un numéro de port de destination dans le segment pour informer le serveur de destination du service demandé, comme le montre la figure. Par exemple, lorsque le client spécifie le port 80 comme port de destination, le serveur qui reçoit le message sait que des services web sont demandés. Un serveur peut offrir plusieurs services simultanés, comme des services web sur le port 80 et une connexion FTP sur le port 21. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a computer with three different applications open and the port number associated with each.  Below each application is the specific protocol in use and the transport layer adds the proper port number to form the segment.  POPv3 uses port 110, HTTP uses port 80 and Instant Messaging uses port 531.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

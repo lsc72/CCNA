@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.4.4 Adresse de couche 2</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresse de couche 2</h1>
+        <div>
+          <p>La couche liaison de données assure un adressage utilisé pour acheminer une trame à travers des supports locaux partagés. Au niveau de cette couche, les adresses de périphérique sont appelées adresses physiques. L'adressage de couche liaison de données est spécifié dans l'en-tête de trame et indique le nœud de destination de trame sur le réseau local. L'en-tête de trame peut également contenir l'adresse source de la trame. </p>
+          <p>Contrairement aux adresses logiques de couche 3, qui sont des adresses hiérarchiques, les adresses physiques n'indiquent pas le réseau sur lequel le périphérique se situe. Au contraire, l'adresse physique est propre au périphérique spécifique. Si le périphérique est déplacé vers un autre réseau ou sous-réseau, il opère encore avec la même adresse physique de couche 2. </p>
+          <p>Les figures 1 à 3 illustrent la fonction des adresses de couche 2 et 3. Au fil de son périple, de l'hôte au routeur, du routeur à un autre routeur, et enfin du routeur à l'hôte, le paquet IP est encapsulé dans une nouvelle trame liaison de données à chaque stade de son acheminement. Chaque trame liaison de données contient l'adresse liaison de données source de la carte réseau qui envoie la trame, et l'adresse liaison de données de destination de la carte réseau qui la reçoit.</p>
+          <p>Une adresse spécifique à un périphérique et non hiérarchique ne peut pas être utilisée pour localiser un périphérique sur des réseaux de grande envergure ou sur Internet. Cela reviendrait à chercher une maison dans le monde entier, en ne connaissant que la rue et le numéro de celle-ci. En revanche, l'adresse physique permet de localiser un périphérique dans une zone limitée. Pour cette raison, l'adresse de la couche liaison de données est utilisée uniquement pour l'acheminement local. Au niveau de cette couche, les adresses n'ont une signification que sur le réseau local. Comparons ce scénario à celui de la couche 3, où les adresses dans l'en-tête de paquet sont acheminées de l'hôte source à l'hôte de destination quel que soit le nombre de tronçons réseau figurant sur le chemin.</p>
+          <p>Si les données doivent passer sur un autre segment du réseau, alors un périphérique intermédiaire tel qu'un routeur est requis. Le routeur doit accepter la trame en fonction de son adresse physique et la désencapsuler afin d'en examiner l'adresse hiérarchique, ou adresse IP. Grâce à l'adresse IP, le routeur peut déterminer l'emplacement réseau du périphérique de destination et le meilleur chemin pour l'atteindre. Une fois qu'il sait où transférer le paquet, le routeur crée une nouvelle trame pour le paquet, laquelle est envoyée sur le segment suivant du réseau en direction de sa destination finale. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1, 2, and 3 demonstrate the concept that layer 2 address change at every hop while the layer 3 addresses stay the same. In Figure 1, the layer 2 addresses are for the original source and router 1. In Figure 2, the layer 2 addresses are for router 1 and router 2. In Figure 3, the layer 2 addresses are for router 2 and the final destination, the web server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<textcomponents>
+   <component id="ID_title">
+      <text><![CDATA[<b>Redondance dans un data center</b>]]></text>
+      </component>
+
+<component id="ID_titleTxt01">
+   <text><![CDATA[Data center]]></text>
+   </component>
+<component id="ID_bodyTxt01">
+   <text><![CDATA[En cas de défaillance d&apos;un serveur, un autre prend le relais pour traiter les requêtes des clients.]]></text>
+   </component>
+<component id="ID_titleTxt02">
+   <text><![CDATA[Liens]]></text>
+   </component>
+<component id="ID_bodyTxt02">
+   <text><![CDATA[En cas de défaillance de la liaison vers un commutateur, la liaison vers le second commutateur reste disponible.]]></text>
+   </component>
+<component id="ID_titleTxt03">
+   <text><![CDATA[Commutateurs]]></text>
+   </component>
+<component id="ID_bodyTxt03">
+   <text><![CDATA[Des commutateurs redondants sont présents pour éviter une défaillance de commutation.]]></text>
+   </component>
+<component id="ID_titleTxt04">
+   <text><![CDATA[Routeurs]]></text>
+   </component>
+<component id="ID_bodyTxt04">
+   <text><![CDATA[La redondance des routeurs permet de garantir que les transactions d&apos;applications en provenance du trafic externe puissent être traitées dans l&apos;éventualité d&apos;une défaillance de routeur ou de route.]]></text>
+   </component>
+
+<component id="ID_inst">
+   <text><![CDATA[Cliquez sur les équipements et les connexions surlignés en orange pour obtenir plus d&apos;informations.]]></text>
+   </component>  
+  
+   
+</textcomponents>

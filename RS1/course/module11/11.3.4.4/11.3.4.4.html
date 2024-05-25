@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.4.4 Commande show ip interface brief</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commande show ip interface brief</h1>
+        <div>
+          <p>De la même manière que les commandes et les utilitaires sont utilisés pour vérifier la configuration d'un hôte, les commandes peuvent être utilisées pour vérifier les interfaces des périphériques intermédiaires. Cisco IOS fournit plusieurs commandes pour vérifier le fonctionnement des interfaces de routeur et de commutateur.</p>
+          <p></p>
+          <p>
+            <b>Vérification des interfaces de routeur</b>
+          </p>
+          <p></p>
+          <p>Pour vérifier les interfaces d'un routeur, la commande <b>show ip interface brief</b> est l'une des plus utilisées. Cette commande est souvent préférée à la commande <b>show ip interface</b>, car ses résultats sont plus abrégés. Elle fournit un résumé des informations clés pour toutes les interfaces réseau d'un routeur.</p>
+          <p></p>
+          <p>La figure 1 présente la topologie utilisée dans cet exemple.</p>
+          <p></p>
+          <p>Sur la figure 2, cliquez sur le bouton R1. Le résultat de la commande <b>show ip interface brief</b> affiche toutes les interfaces du routeur, l'adresse IP attribuée à chaque interface et, le cas échéant, l'état opérationnel de l'interface.</p>
+          <p></p>
+          <p>
+            <b>Vérification des interfaces de commutateur</b>
+          </p>
+          <p></p>
+          <p>Sur la figure 2, cliquez sur le bouton S1. La commande <b>show ip interface brief</b> peut également servir à vérifier l'état des interfaces du commutateur. L'interface VLAN1 obtient l'adresse IPv4 192.168.254.250 ; elle a été activée et est opérationnelle.</p>
+          <p></p>
+          <p>Le résultat indique également que l'interface FastEthernet0/1 est désactivée. Cela signifie soit qu'aucun périphérique n'est connecté à l'interface soit que le périphérique qui est connecté possède une interface réseau qui n'est pas opérationnelle. </p>
+          <p></p>
+          <p>En revanche, les résultats affichés pour FastEthernet0/2 et FastEthernet0/3 montrent que ces interfaces sont opérationnelles. Cet état est indiqué par la mention « up » (actif) dans les deux colonnes Status (État) et Protocol (Protocole).</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a network consisting of a PC connected to a switch, which is connected to a router, which is connected to a cloud. Figure 2 shows the output of the show ip interface brief command on the router and on the switch. </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.7 Exemples de conversion de nombres décimaux en nombres binaires</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Exemples de conversion de nombres décimaux en nombres binaires</h1>
+        <div>
+          <p>Pour comprendre le processus, nous allons nous entraîner avec l'adresse IP 192.168.11.10. Comme expliqué précédemment, commencez avec la table de valeurs pondérées binaires et le premier nombre décimal 192.</p>
+          <p>La figure 1 indique comment comparer 192 au bit d'ordre haut 128 pour savoir s'il lui est égal ou supérieur. Comme 192 est supérieur à 128, ajoutez un 1 à la valeur pondérée d'ordre haut correspondant à 128. Soustrayez ensuite 128 à 192 pour obtenir 64. La figure 2 compare ensuite 64 au bit d'ordre haut suivant, 64. Comme ils sont égaux, ajoutez un 1 à la valeur pondérée d'ordre haut suivant. Indiquez le chiffre binaire 0 dans le restant des valeurs pondérées comme illustré dans la figure 3. La valeur binaire du premier octet est 11000000.</p>
+          <p>L'octet suivant est 168. La figure 4 compare 168 au bit d'ordre haut 128. Comme 168 est supérieur à 128, ajoutez un 1 à la valeur pondérée d'ordre haut. Soustrayez ensuite 128 à 168 pour obtenir 40. La figure 5 compare ensuite 40 au bit d'ordre haut suivant, 64. Comme 40 est inférieur, ajoutez un 0 à la valeur pondérée d'ordre haut suivant, 64. La figure 6 compare 40 au bit d'ordre haut suivant, 32. Comme 40 est supérieur à 32, ajoutez un 1 à la valeur pondérée et soustrayez 32 de 40 pour obtenir 8. Le chiffre 8 correspond à une valeur pondérée spécifique. En conséquence, indiquez un 0 pour la valeur pondérée 16 et ajoutez un 1 à la valeur pondérée 8, comme le montre la figure 7. Ajoutez des 0 pour toutes les valeurs pondérées restantes. Comme le montre la figure 8, la valeur binaire du troisième octet est <b>10101000</b>.</p>
+          <p>Le troisième octet est 11. Il est possible d'éviter les soustractions lorsque les nombres décimaux sont plus simples ou plus petits. Par exemple, la figure 9 montre le nombre binaire converti. Notez qu'il serait assez facile de calculer ce nombre sans effectuer les soustractions (8 + 2 + 1 = 11). La valeur binaire du deuxième octet est 00001011. </p>
+          <p>Le quatrième octet est 10 (8 + 2). Comme le montre la figure 10, la valeur binaire du quatrième octet est 00001010.</p>
+          <p>La conversion entre les valeurs binaires et décimales peut sembler compliquée au début, mais à force de pratique, elle vous paraîtra plus simple.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 10 show an example of determining the binary value for an IP address. Converting the first octet is shown in the first seven figures. Figure 8 shows the conversion of the second octet. Figure 9 shows the conversion of the third octet. Figure 10 shows the conversion of the fourth octet.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

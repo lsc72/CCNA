@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.3.1 Passerelle par défaut pour un hôte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Passerelle par défaut pour un hôte</h1>
+        <div>
+          <p>Pour qu'un périphérique final communique sur le réseau, les données relatives à l'adresse IP doivent être correctement configurées, notamment l'adresse de la passerelle par défaut. La passerelle par défaut est utilisée uniquement lorsque l'hôte veut transmettre un paquet à un périphérique situé sur un autre réseau. L'adresse de la passerelle par défaut est généralement celle de l'interface du routeur reliée au réseau local de l'hôte. L'adresse IP du périphérique hôte et l'adresse de l'interface du routeur doivent appartenir au même réseau. </p>
+          <p>Dans les Figures 1 et 2, la topologie du réseau se compose d'un routeur interconnectant deux réseaux locaux distincts. G0/0 est connectée au réseau 192.168.10.0, alors que G0/1 est connectée au réseau 192.168.11.0. Chaque périphérique hôte est configuré avec l'adresse de la passerelle par défaut appropriée. </p>
+          <p>À la figure 1, PC1 envoie un paquet à PC2. Dans cet exemple, la passerelle par défaut n'est pas utilisée. En revanche, PC1 envoie un paquet avec l'adresse IP de PC2, avant de transférer directement le paquet au PC2, par l'intermédiaire du routeur. </p>
+          <p>Dans la figure 2, PC1 envoie un paquet à PC3. Dans cet exemple, PC1 envoie un paquet avec l'adresse IP de PC3, mais transfère ensuite le paquet au routeur. Le routeur accepte le paquet, accède à sa table de routage pour déterminer l'interface de sortie adaptée à l'adresse de destination, puis transmet le paquet via l'interface appropriée pour atteindre PC3.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a router with two LANs.  Each LAN has 2 PCs.  This figure shows how a host can communicate with another host on the same LAN without the use of the gateway. Figure 2 shows a router with two LANs.  Each LAN has 2 PCs . This figure shows how a host requires the gateway to communicate with a host on another LAN.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

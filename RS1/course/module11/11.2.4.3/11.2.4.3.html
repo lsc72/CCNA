@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.4.3 Principes de sécurité de base</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Principes de sécurité de base</h1>
+        <div>
+          <p>
+            <b>Sécurité supplémentaire des mots de passe</b>
+          </p>
+          <p>Les mots de passe forts sont efficaces uniquement s'ils sont secrets. Plusieurs mesures permettent de s'assurer de leur confidentialité. Tout d'abord, la commande de configuration globale <b>service password-encryption</b> empêche les personnes non autorisées de consulter les mots de passe en clair dans le fichier de configuration, comme le montre la figure. Cette commande génère le chiffrement de tous les mots de passe en clair. </p>
+          <p>En outre, pour garantir la longueur minimale de tous les mots de passe configurés, utilisez la commande <b>security passwords min-length</b> en mode de configuration globale.</p>
+          <p>Les pirates peuvent également obtenir les mots de passe simplement par une attaque en force, en essayant plusieurs mots de passe jusqu'à ce que l'un d'eux fonctionne. Il est possible d'empêcher ce type d'attaque en bloquant les tentatives de connexion au périphérique si un nombre défini d'échecs survient sur une période donnée. </p>
+          <p>Router(config)# <b>login block-for 120 attempts 3 within 60</b></p>
+          <p>Cette commande bloque les tentatives de connexion pendant 120 secondes après trois échecs de connexion en l'espace de 60 secondes. </p>
+          <p>
+            <b>Délais d'exécution</b>
+          </p>
+          <p>Il est également recommandé de définir des délais d'exécution. Vous indiquez ainsi au périphérique Cisco de déconnecter automatiquement tout utilisateur en ligne en cas d'inactivité pendant le délai défini. Les délais d'exécution peuvent être configurés sur la console, l'interface VTY et les ports auxiliaires au moyen de la commande <b>exec-timeout</b> dans le mode de configuration de ligne. </p>
+          <p>Router (config)# <b>line vty 0 4</b></p>
+          <p>Router(config-line)# <b>exec-timeout 10 </b></p>
+          <p>Cette commande configure le périphérique de manière à déconnecter les utilisateurs inactifs au bout de 10 minutes.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows router output for configuring encrypted line passwords and setting restrictions on password length or failed attempts. Commands entered include “security password-encryption”, “security password min-length 8”, login block-for 120 attempts 3 within 60”, and “exec-timeout 10” on the VTY lines.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

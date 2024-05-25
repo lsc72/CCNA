@@ -1,0 +1,33 @@
+﻿<textcomponents>
+<component id="ID_title">
+	<text><![CDATA[<b>Modes de commande principaux</b>]]></text>
+</component>
+ 
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+
+	<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+        <td width="160" bgcolor='#666263' valign="top"><font color='#ffffff'><b>Mode de commande</b></font></td>
+		<td width="260" bgcolor='#666263' valign="top" class="width"><font color='#ffffff'><b>Description</b></font> </td>
+		<td bgcolor='#666263' valign="top"><font color='#ffffff'><b>Invite du périphérique par défaut</b></font> </td>
+	 </tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Mode d'exécution utilisateur</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-16'><ul><li>Ce mode n'autorise l'accès qu'à un nombre limité de commandes de surveillance de base.</li><li>Il est d'ailleurs souvent qualifié de mode de « visualisation seule » pour cette raison.</li></ul></textformat></font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536' face="_typewriter" color="#000000">Commutateur><br/>Routeur></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Mode d'exécution privilégié</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-16'><ul><li>Ce mode permet d'accéder à toutes les commandes et fonctionnalités.</li><li>L'utilisateur peut se servir de toutes les commandes de surveillance et exécuter des commandes de configuration et de gestion.</li></ul></textformat></font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536' face="_typewriter" color="#000000">Commutateur#<br/>Routeur#</font></td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

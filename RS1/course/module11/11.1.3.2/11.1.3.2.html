@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.1.3.2 Analyse de protocole</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.1.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Analyse de protocole</h1>
+        <div>
+          <p>Au moment de déterminer comment gérer le trafic réseau, en particulier s'il se développe, il est important de connaître le type de trafic acheminé sur le réseau, ainsi que le flux de trafic. Si les types de trafic sont inconnus, un analyseur de protocoles permet d'identifier le trafic et sa source.</p>
+          <p>Pour déterminer des modèles de flux de trafic, il est recommandé d'observer les points suivants :</p>
+          <p>
+            <ul>
+              <li>capturer le trafic pendant les périodes de pointe pour obtenir une représentation juste des différents types de trafic ;</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>effectuer la capture sur différents segments du réseau, certaines parties du trafic pouvant être locales sur un segment spécifique.</li>
+            </ul>
+          </p>
+          <p>Les informations collectées par l'analyseur de protocole sont évaluées en fonction de la source et de la destination du trafic, ainsi que du type de trafic envoyé. L'analyse peut ensuite être utilisée pour déterminer comment améliorer la gestion du trafic. Pour ce faire, il peut être nécessaire de réduire les flux de trafic superflus, voire même de modifier les modèles de flux, par exemple en déplaçant un serveur.</p>
+          <p>Parfois, le simple fait de déplacer un serveur ou un service vers un autre segment de réseau améliore les performances réseau et répond aux besoins croissants de trafic. D'autres fois en revanche, une intervention plus radicale sera nécessaire, qui peut se traduire par un remodelage du réseau.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a screen capture of Wireshark Protocol Hierarchy Statistics</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

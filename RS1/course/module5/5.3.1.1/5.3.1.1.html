@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.1.1 Destination sur le même réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Destination sur le même réseau</h1>
+        <div>
+          <p>Chaque périphérique d'un réseau LAN Ethernet possède deux adresses principales : </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse physique (adresse MAC)</b>, qui est utilisée pour les communications entre des cartes réseau d'un même réseau. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse logique (adresse IP)</b>, qui sert à envoyer le paquet de la source d'origine à la destination finale. </li>
+            </ul>
+          </p>
+          <p>Les adresses IP permettent d'identifier l'adresse de la source initiale et de la destination finale. L'adresse IP de destination peut se trouver sur le même réseau IP que la source ou sur un réseau distant.</p>
+          <p>
+            <b>Remarque</b> : la plupart des applications utilisent le système de noms de domaine (DNS) pour déterminer l'adresse IP à partir d'un nom de domaine tel que www.cisco.com. Le DNS est traité dans un chapitre ultérieur.</p>
+          <p>Comme les adresses MAC Ethernet, les adresses physiques ou de couche 2 ont une autre finalité. Elles servent à acheminer la trame liaison de données contenant le paquet IP encapsulé d'une carte réseau à une autre sur le même réseau. Si l'adresse IP de destination appartient au même réseau, l'adresse MAC de destination est celle du périphérique de destination. </p>
+          <p>La figure montre les adresses MAC Ethernet et l'adresse IP permettant à PC-A d'envoyer un paquet IP au serveur de fichiers sur le même réseau.</p>
+          <p>La trame Ethernet de couche 2 contient :</p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse MAC de destination</b>, c'est-à-dire l'adresse MAC de la carte réseau Ethernet du serveur de fichiers.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse MAC source</b>, c'est-à-dire l'adresse MAC de la carte réseau Ethernet de PC-A.</li>
+            </ul>
+          </p>
+          <p>Le paquet IP de couche 3 contient :</p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse IP source</b>, c'est-à-dire l'adresse IP de la source d'origine, PC-A.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse IP de destination</b>, c'est-à-dire l'adresse IP de la destination finale : le serveur de fichiers. </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a PC connected to a server. The PC is sending data to the server. The PC puts the Layer 3 source and destination IP addresses in the packet header and then puts the Layer 2 source and destination MAC addresses in the frame header.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

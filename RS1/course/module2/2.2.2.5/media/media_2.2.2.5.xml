@@ -1,0 +1,63 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Limiter l&apos;accès à un commutateur</b>]]></text>
+	</component><!--Syntax Checker Button Text--><component id="ID_s1_reset">
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+	
+	<component id="ID_s1_showme">
+		<text><![CDATA[Démonstration]]></text>
+	</component>
+	
+	<component id="ID_s1_showall">
+		<text><![CDATA[Afficher tout]]></text>
+	</component><!--End Syntax Checker Button Text--><component id="ID_s1_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+		<feedback id="fb"><![CDATA[<b><font face="_sans" color="#FFFFFF">***Vous devez entrer la commande exacte et complète. Les commandes qui incluent un nom ou un mot de passe sont sensibles à la casse.***</font></b> ]]></feedback>
+		
+		<existingcommands><![CDATA[<font face="_sans"><b><ul>Limitez l&apos;accès à un commutateur.<li>Chiffrez tous les mots de passe.</li><li>Sécurisez l&apos;accès au mode d&apos;exécution privilégié.</li><li>Sécurisez l&apos;accès à la console.</li><li>Sécurisez l&apos;accès VTY.</li><br>Chiffrez tous les mots de passe.</b></font>]]></existingcommands>
+		
+		<command prompt="Sw-Floor-1(config)#">
+			<correctresponse><![CDATA[ service password-encryption]]></correctresponse>
+			<deviceresponse><![CDATA[Sw-Floor-1(config)#<br>]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Sécurisez l&apos;accès au mode d&apos;exécution privilégié avec le mot de passe. Cla55.</font>]]></instruction>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config)#">
+			<correctresponse><![CDATA[ enable secret Cla55]]></correctresponse>
+			<deviceresponse><![CDATA[Sw-Floor-1(config)#<br>]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b><ul>Sécurisez la ligne de la console.<li>Utilisez le mot de passe Cisc0.</li><li>Autorisez la connexion.</li></font>]]></instruction>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config)#">
+			<correctresponse><![CDATA[ line console 0]]></correctresponse>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config-line)#">
+			<correctresponse><![CDATA[ password Cisc0]]></correctresponse>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config-line)#">
+			<correctresponse><![CDATA[ login]]></correctresponse>
+			<deviceresponse><![CDATA[SW-Floor-1(ligne de config)#<br>]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b><ul>Sécurisez les 16 premières lignes VTY.<li>Utilisez le mot de passe Cisc0.</li><li>Autorisez la connexion.</li></font>]]></instruction>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config)#">
+			<correctresponse><![CDATA[ line vty 0 15]]></correctresponse>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config-line)#">
+			<correctresponse><![CDATA[ password Cisc0]]></correctresponse>
+		</command>
+		
+		<command prompt="Sw-Floor-1(config-line)#">
+			<correctresponse><![CDATA[ login]]></correctresponse>
+			<deviceresponse><![CDATA[Sw-Floor-1(ligne de config)#<br>]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b>Vous avez correctement limité l&apos;accès à un commutateur.</font>]]></instruction>
+		</command>
+		
+		<command prompt=""/>
+	</component>
+
+</textcomponents>

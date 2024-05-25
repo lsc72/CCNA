@@ -1,0 +1,21 @@
+﻿<textcomponents>
+	
+	<!--Slide 1-->
+	<component id="ID_title">
+		<text><![CDATA[<b>Viewing and Saving the Configuration</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Lists the complete configuration currently active in RAM.]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[The active configuration can be copied to NVRAM.]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[&lt;output omitted&gt;]]></text> 
+	</component>
+	<!--End Slide 1-->
+	
+</textcomponents>

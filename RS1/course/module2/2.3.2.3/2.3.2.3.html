@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.3.2.3 Configuration de l&#x0027;interface de commutateur virtuelle</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration de l&#x0027;interface de commutateur virtuelle</h1>
+        <div>
+          <p>Pour accéder à distance au commutateur, une adresse IP et un masque de sous-réseau doivent être configurés sur l'interface SVI. Pour configurer une SVI, utilisez la commande de configuration globale <b>interface vlan 1</b>. Vlan 1 n'est pas une interface physique réelle mais une interface virtuelle. Attribuez ensuite une adresse IPv4 à l'aide de la commande de configuration d'interface <b></b><i>ip-address subnet-mask</i>. Enfin, activez l'interface virtuelle à l'aide de la commande de configuration d'interface <b>no shutdown</b>. </p>
+          <p></p>
+          <p>Une fois ces commandes configurées, le commutateur dispose de tous les éléments IPv4 adaptés pour la communication sur le réseau. </p>
+          <p></p>
+          <p>Cliquez sur le bouton Lecture dans la figure pour afficher une démonstration vidéo expliquant comment configurer une interface de commutateur virtuelle.</p>
+          <p></p>
+          <p>Cliquez <a href="../../files/2.3.2.3%20Video%20-%20Configuring%20a%20Switch%20Virtual%20Interface.pdf" target="_blank">ici</a> pour lire la transcription de cette vidéo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "Configuring a Switch Virtual Interface".</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

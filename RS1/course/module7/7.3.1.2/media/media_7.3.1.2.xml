@@ -1,0 +1,111 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Messages envoyés entre un routeur IPv6 et un périphérique IPv6</b>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[<b>Multidiffusion à tous les périphériques IPv6</b>]]></text>
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Annonce de routeur ICMPv6]]></text>
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[<b>Multidiffusion à tous les routeurs IPv6</b>]]></text>
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Sollicitation de routeur ICMPv6]]></text>
+	</component>
+	
+	<component id='ID_s1_bubble01'>
+		<text><![CDATA[Je vais envoyer l'annonce de routeur toutes les 200 secondes.]]></text>
+	</component>
+
+	<component id='ID_s1_bubble02'>
+		<text><![CDATA[Je viens de démarrer, je vais envoyer une sollicitation de routeur pour demander une annonce de routeur.]]></text>
+	</component>
+
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[]]></text>
+	</component>
+	
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[Les messages d'annonce de routeur sont envoyés par les routeurs pour fournir les informations d'adressage aux hôtes via la SLAAC. Un message d'annonce de routeur peut inclure les informations d'adressage pour l'hôte telles que le préfixe, la longueur de préfixe, l'adresse DNS et le nom de domaine. Un routeur envoie un message d'annonce de routeur régulièrement ou en réponse à un message de sollicitation. Un hôte utilisant la SLAAC utilise l'adresse link-local du routeur qui a envoyé le message d'annonce de routeur en tant que passerelle par défaut.]]></text>
+	</component>
+	
+	<component id='ID_s1_titleTxt02'>
+		<text><![CDATA[]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt02'>
+		<text><![CDATA[Lorsqu'un hôte est configuré pour obtenir ses informations d'adressage à l'aide de la configuration automatique des adresses sans état (SLAAC), celui-ci envoie un message de sollicitation au routeur pour demander une annonce de routeur.]]></text>
+	</component><!-- end slide 1--><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>Messages envoyés entre des périphériques IPv6</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[<b>Multidiffusion de nœud sollicité</b>]]></text>
+	</component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[Sollicitation de voisin ICMPv6]]></text>
+	</component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[<b>Monodiffusion à l'expéditeur de la sollicitation de voisin</b>]]></text>
+	</component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Annonce de voisin ICMPv6]]></text>
+	</component>
+	
+	<component id='ID_s2_bubble01'>
+		<text><![CDATA[Je connais votre adresse IPv6, quelle est votre adresse MAC ?]]></text>
+	</component>
+
+	<component id='ID_s2_bubble02'>
+		<text><![CDATA[C'est mon adresse IPv6. Voici mon adresse MAC.]]></text>
+	</component>
+
+	<component id='ID_s2_titleTxt01'>
+		<text><![CDATA[]]></text>
+	</component>
+	
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[Les messages de sollicitation de voisin sont envoyés lorsqu'un périphérique connaît l'adresse IPv6 d'un périphérique, mais pas son adresse MAC. Le principe est comparable à une requête ARP pour IPv4.]]></text>
+	</component>
+
+	<component id='ID_s2_titleTxt02'>
+		<text><![CDATA[]]></text>
+	</component>
+	
+	<component id='ID_s2_bodyTxt02'>
+		<text><![CDATA[Des messages d'annonce de routeur sont envoyés en réponse à un message de sollicitation de voisin. Ils correspondent à l'adresse IPv6 cible de la sollicitation de voisin. Le message d'annonce de routeur contient l'adresse MAC Ethernet du périphérique Le principe est comparable à une réponse ARP pour IPv4.]]></text>
+	</component><!-- end slide 2--><!-- slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>Détection des adresses dupliquées (DAD)</b>]]></text>
+	</component>
+	
+	<component id='ID_s3_txt01'>
+		<text><![CDATA[<b>Multidiffusion de nœud sollicité</b>]]></text>
+	</component>
+
+	<component id='ID_s3_txt02'>
+		<text><![CDATA[Sollicitation de voisin ICMPv6]]></text>
+	</component>
+
+	<component id='ID_s3_bubble01'>
+		<text><![CDATA[Pas moi]]></text>
+	</component>
+
+	<component id='ID_s3_bubble02'>
+		<text><![CDATA[Pas moi]]></text>
+	</component>
+
+	<component id='ID_s3_bubble03'>
+		<text><![CDATA[Pas moi]]></text>
+	</component>
+
+	<component id='ID_s3_bubble04'>
+		<text><![CDATA[Je vais m'assurer que mon adresse IPv6 est unique. Si quelqu'un a cette adresse IPv6, qu'il m'envoie son adresse MAC. Si je ne reçois pas d'annonce de voisin en retour, mon adresse IPv6 est unique.]]></text>
+	</component><!-- end slide 3--></textcomponents>

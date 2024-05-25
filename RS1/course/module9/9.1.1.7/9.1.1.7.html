@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.1.7 Choisir le protocole de couche transport le mieux adapté à une application donnée</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Choisir le protocole de couche transport le mieux adapté à une application donnée</h1>
+        <div>
+          <p>Pour certaines applications, les segments doivent arriver dans un ordre donné pour être traités correctement. Pour d'autres applications, toutes les données doivent être entièrement reçues pour être utilisées. Dans les deux cas, le protocole TCP est utilisé comme protocole de transport. Les développeurs d'applications doivent déterminer quel type de protocole de transport est approprié en fonction des exigences des applications. </p>
+          <p>Par exemple, les applications telles que les bases de données, les navigateurs web et les clients de messagerie ont besoin que toutes les données envoyées arrivent à destination dans leur état d'origine. Toute donnée manquante risque de corrompre la communication en la rendant incomplète ou illisible. Ces applications sont conçues pour utiliser le protocole TCP. </p>
+          <p>Dans d'autres cas, une application peut tolérer une certaine perte lors de la transmission de données sur le réseau, mais pas les retards de transmission. Le protocole UDP est alors le choix idéal pour ces applications, car il implique moins de surcharge sur le réseau. Le protocole UDP est à préférer, notamment pour la lecture audio en continu, la vidéo et la voix sur IP (VoIP). Les accusés de réception et la retransmission ralentissent la livraison. </p>
+          <p>Par exemple, si au cours d'une lecture vidéo, un ou deux segments n'arrivent pas, cela entraîne une interruption momentanée du flux. Cela peut se traduire par une distorsion de l'image ou du son, que l'utilisateur ne remarque peut-être même pas. Si par contre le périphérique de destination doit tenir compte de la perte de données, il se peut que le flux soit retardé à cause des retransmissions qu'il attend, causant ainsi une forte dégradation de la qualité de l'image ou du son. Dans ce cas, il est préférable de fournir la meilleure qualité possible en fonction des segments reçus et de renoncer à la fiabilité.</p>
+          <p>
+            <b>Remarque</b> : les applications qui diffusent du contenu audio et vidéo enregistré utilisent le protocole TCP. Par exemple, si votre réseau ne peut soudainement plus prendre en charge la bande passante nécessaire pour regarder un film à la demande, l'application interrompt la lecture. Pendant cette interruption, un message de mise en tampon peut apparaître tandis que le protocole TCP s'efforce de rétablir le flux de données. Une fois tous les segments en ordre et un niveau minimum de bande passante à nouveau atteint, votre session TCP se rétablit et la lecture du film peut reprendre. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows UDP protocol properties on the left including fast, low overhead, does not require acknowledgments, and delivers data as it arrives. On the right are the TCP properties including reliable, acknowledges data, resends lost data, and delivers data in order sent. Example UDP applications include IP telephony and streaming live video. Example TCP applications include Email and HTTP.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

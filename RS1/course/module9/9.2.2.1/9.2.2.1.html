@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.2.1 Fiabilité du protocole TCP - Livraison ordonnée</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fiabilité du protocole TCP - Livraison ordonnée</h1>
+        <div>
+          <p>Il se peut que les segments TCP parviennent à leur destination dans le désordre. Pour que le destinataire puisse comprendre le message d'origine, il faut que les données contenues dans ces segments soient réagencées dans leur ordre d'origine. Pour cela, des numéros d'ordre sont affectés à l'en-tête de chaque paquet. Le numéro d'ordre représente le premier octet de données du segment TCP.</p>
+          <p>Lors de la configuration de la session, un numéro d'ordre initial, ou ISN, est défini. Cet ISN représente la valeur de départ des octets de cette session qui est transmise à l'application destinataire. Lors de la transmission des données pendant la session, le numéro d'ordre est incrémenté du nombre d'octets ayant été transmis. Ce suivi des octets de données permet d'identifier chaque segment et d'en accuser réception individuellement. Il est ainsi possible d'identifier les segments manquants. </p>
+          <p>
+            <b>Remarque :</b> l'ISN ne commence pas à la valeur 1, mais est en fait un nombre aléatoire. Cela permet d'empêcher certains types d'attaques de programmes malveillants. Pour des raisons de simplicité, nous utiliserons un ISN égal à 1 dans les exemples de ce chapitre.</p>
+          <p>Les numéros d'ordre des segments indiquent comment réassembler et réordonnancer les segments reçus, ainsi que l'illustre la figure ci-contre. </p>
+          <p>Le processus TCP récepteur place les données d'un segment dans une mémoire tampon de réception. Les segments sont remis dans l'ordre correct et sont transmis à la couche application une fois qu'ils ont été réassemblés. Tous les segments qui arrivent en désordre sont conservés en vue d'un traitement ultérieur. Ces segments sont ensuite traités dans l'ordre lorsque les segments contenant les octets manquants sont reçus.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows data being divided into 6 segments, which are each labeled with a sequence number 1 through 6 and sent to remote host.  There are five routers connected with redundant links, thereby allowing multiple paths for the segments to follow.  The segments do not arrive at the destination in same order they were sent.  T.C.P. uses the sequence numbers to re-order the segments back to their original order.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

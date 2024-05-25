@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.6 Transmission multidiffusion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transmission multidiffusion</h1>
+        <div>
+          <p>La transmission multidiffusion réduit le volume du trafic en permettant à un hôte d'envoyer un seul paquet à un groupe d'hôtes désigné inscrits à un groupe de multidiffusion. </p>
+          <p>IPv4 a réservé les adresses 224.0.0.0 à 239.255.255.255 comme plage de multidiffusion. Les adresses de multidiffusion IPv4 du bloc 224.0.0.0 à 224.0.0.255 sont réservées à la multidiffusion sur le réseau local uniquement. Ces adresses s’appliquent aux groupes de multidiffusion d’un réseau local. Un routeur connecté au réseau local sait reconnaître que ces paquets sont adressés à un groupe de multidiffusion d'un réseau local et ne les transmet jamais. Les adresses de multidiffusion de réseau local réservées s'appliquent principalement aux protocoles de routage qui utilisent la transmission multidiffusion pour échanger des informations de routage. Par exemple, 224.0.0.9 est l'adresse de multidiffusion utilisée par le protocole RIP (Routing Information Protocol) version 2 pour communiquer avec d'autres routeurs RIPv2.</p>
+          <p>Les hôtes qui reçoivent des données multidiffusion spécifiques sont appelés des « clients multidiffusion ». Ces derniers font appel à des services demandés par un programme client pour s'abonner au groupe de multidiffusion. </p>
+          <p>Chaque groupe de multidiffusion est représenté par une seule adresse de destination multidiffusion IPv4. Lorsqu'un hôte IPv4 s'abonne à un groupe de multidiffusion, il traite les paquets envoyés à cette adresse de multidiffusion, ainsi que ceux destinés à son adresse de monodiffusion, qui a été attribuée à lui seul. </p>
+          <p>L’animation présente la façon dont les clients acceptent des paquets multidiffusion.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation of a multicast transmission.  A PC with the IP address 172.16.4.1 is sending a multicast message to the multicast address of 224.10.10.5.  Two of the devices on the network are members of this multicast group and they each receive a copy of the frame.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

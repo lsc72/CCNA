@@ -1,0 +1,99 @@
+﻿<textcomponents>
+<component id="ID_title">
+  <text><![CDATA[<b>Couche liaison de données</b>]]></text> 
+  </component>
+<component id="ID_OSInum01">
+  <text><![CDATA[<b>1</b>]]></text> 
+  </component>
+<component id="ID_OSInum02">
+  <text><![CDATA[<b>2</b>]]></text> 
+  </component>
+<component id="ID_OSInum03">
+  <text><![CDATA[<b>3</b>]]></text> 
+  </component>
+<component id="ID_OSInum04">
+  <text><![CDATA[<b>4</b>]]></text> 
+  </component>
+<component id="ID_OSInum05">
+  <text><![CDATA[<b>5</b>]]></text> 
+  </component>
+<component id="ID_OSInum06">
+  <text><![CDATA[<b>6 </b>]]></text> 
+  </component>
+<component id="ID_OSInum07">
+  <text><![CDATA[<b>7</b>]]></text> 
+  </component>
+  
+  
+<component id="ID_txt01">
+  <text><![CDATA[Application]]></text> 
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[Présentation]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Session]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Transport]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[Réseau]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[Liaison de données]]></text> 
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[Physique]]></text> 
+  </component>
+<component id="ID_txt08">
+<text><![CDATA[La couche liaison de données prépare les données du réseau pour le réseau physique]]></text>
+</component>
+<component id="ID_txt09">
+<text><![CDATA[Réseau]]></text>
+</component>
+
+<component id="ID_s2_title">
+  <text><![CDATA[<b>Couche 2 Adresses de liaison de données</b>]]></text> 
+  </component>
+<component id="ID_s2_txt01">
+  <text><![CDATA[Carte réseau de destination]]></text> 
+  </component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[Carte réseau source]]></text> 
+  </component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[IP source<br/>192.168.1.110]]></text> 
+  </component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[IP de destination<br/>192.168.1.5]]></text> 
+  </component>
+<component id="ID_s2_txt05">
+  <text><![CDATA[Carte réseau]]></text> 
+  </component>
+<component id="ID_s2_txt06">
+  <text><![CDATA[Carte réseau]]></text> 
+  </component>
+<component id="ID_s2_txt07">
+  <text><![CDATA[C2]]></text> 
+  </component>
+<component id="ID_s2_txt08">
+<text><![CDATA[C3]]></text>
+</component>
+<component id="ID_s2_txt09">
+<text><![CDATA[En-tête C2]]></text>
+</component>
+<component id="ID_s2_txt10">
+<text><![CDATA[Paquet IP C3]]></text>
+</component>
+<component id="ID_s2_txt11">
+<text><![CDATA[PC1<br/>192.168.1.110]]></text>
+</component>
+<component id="ID_s2_txt12">
+<text><![CDATA[Serveur web<br/>192.168.1.5]]></text>
+</component>
+<component id="ID_s2_txt13">
+<text><![CDATA[C2 = Couche 2<br/>C3 = Couche 3]]></text>
+</component>
+
+</textcomponents>

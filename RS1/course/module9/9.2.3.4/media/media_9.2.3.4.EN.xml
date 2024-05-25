@@ -1,0 +1,120 @@
+﻿<textcomponents>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Server]]></text> 
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[Client 1]]></text> 
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[Client 2]]></text> 
+	</component> 
+
+	<component id="ID_txt04">
+		<text><![CDATA[DNS: Port 53<br/>RADIUS: Port 1812]]></text> 
+	</component> 
+
+<!--SLIDE 1-->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Clients Sending UDP Requests</b]]></text>
+	</component>
+
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Client 1 DNS Request:<br/>Source Port 49152<br/>Destination Port 53]]></text> 
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Client 2 RADIUS User Authentication Request:<br/>Source Port 51152<br/>Destination Port 1812]]></text> 
+	</component>
+
+<!--SLIDE 2-->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Request Destination Ports</b]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Client 1 DNS Request:<br/>Source Port 49152<br><font color="#F68026"><b>Destination Port 53</b></font>]]></text> 
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Client 2 RADIUS User<br/>Authentication Request:<br/>Source Port 51152<br><font color="#F68026"><b>Destination Port 1812</b></font>]]></text> 
+	</component>
+
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Client requests the UDP server to use well known port numbers as the destination port.]]></text> 
+	</component>
+
+<!--SLIDE 3-->
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Request Source Ports</b]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Client 1 DNS Request:<br/><font color="#F68026"><b ><span class="fontColor">Source Port 49152</span></b></font><br/>Destination Port 53]]></text> 
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Client 2 RADIUS User<br>Authentication Request:<br/><font color="#F68026"><b><span class="fontColor">Source Port 51152</span></b></font><br/>Destination Port 1812]]></text> 
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Use random port numbers as the source port.]]></text> 
+	</component>
+
+<!--SLIDE 4-->
+
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Response Destination Ports</b]]></text>
+	</component>
+
+	<component id="ID_s4_txt05">
+		<text><![CDATA[Client 1 waiting for server DNS response<br/><font color="#F68026"><b>on Port 49152</b></font>]]></text> 
+	</component>
+
+	<component id="ID_s4_txt02">
+		<text><![CDATA[Client 2 waiting for server RADIUS response<br/><font color="#F68026"><b>on Port 51152</b></font>]]></text> 
+	</component>
+
+	<component id="ID_s4_txt07"> 
+	<text><![CDATA[Server response to UDP client uses the source port from the request packet<br/>as the destination port.]]></text> 
+	</component>
+
+	<component id="ID_s4_txt04">
+	<text><![CDATA[Server DNS Response:<br/>Source Port 53<br/><font color="#F68026"><b>Destination Port 49152</b></font>]]></text> 
+	</component>
+
+	<component id="ID_s4_txt03">
+	<text><![CDATA[Server RADIUS Response:<br/>Source Port 1812<br/><font color="#F68026"><b>Destination Port 51152</b></font>]]></text> 
+	</component>
+
+<!--SLIDE 5-->
+
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Response Source Ports</b>]]></text>
+	</component>   
+
+	<component id="ID_s5_txt05">
+		<text><![CDATA[Client 1 waiting for server DNS response<br/>on Port 49152]]></text> 
+	</component>
+
+	<component id="ID_s5_txt06">
+		<text><![CDATA[Client 2 waiting for server RADIUS response<br/>on Port 51152]]></text> 
+	</component>
+
+	<component id="ID_s5_txt07">
+		<text><![CDATA[Server response to UDP client uses well known <br/>port numbers as the source port.]]></text> 
+	</component>
+
+	<component id="ID_s5_txt08">
+		<text><![CDATA[Server DNS Response:<br/><font color="#F68026"><b>Source Port 53</b></font><br/>Destination Port 49152</b></font>]]></text> 
+	</component>
+
+	<component id="ID_s5_txt09">
+		<text><![CDATA[Server RADIUS Response:<br/><font color="#F68026"><b>Source Port 1812</b></font><br/>Destination Port 51152]]></text> 
+	</component>
+	
+</textcomponents>

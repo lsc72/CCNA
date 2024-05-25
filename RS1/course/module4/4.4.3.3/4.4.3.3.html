@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.3 Méthodes de contrôle d&#x0027;accès au support</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Méthodes de contrôle d&#x0027;accès au support</h1>
+        <div>
+          <p>Certaines topologies réseau partagent un support avec plusieurs nœuds. Ce sont les réseaux à accès multiple. Les réseaux locaux Ethernet filaires et sans fil constituent des exemples de réseau à accès multiple. À tout moment, des périphériques peuvent tenter d'envoyer et de recevoir des données à l'aide des mêmes supports de réseau.</p>
+          <p>Certains réseaux à accès multiple ont besoin de règles pour décider de la manière dont les périphériques partagent les supports physiques. Deux méthodes élémentaires de contrôle d'accès sont utilisées pour les supports partagés : </p>
+          <p>
+            <ul>
+              <li>
+                <b>Accès avec gestion des conflits</b> : tous les nœuds fonctionnant en mode semi-duplex sont en concurrence pour utiliser le support, mais un seul périphérique à la fois peut envoyer des données. Cependant, il existe une procédure si plusieurs périphériques transmettent des données simultanément. Les réseaux locaux Ethernet filaires qui utilisent des concentrateurs et les réseaux locaux sans fil constituent des exemples de ce type de contrôle d'accès.  La figure 1 illustre l'accès avec gestion des conflits.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Accès contrôlé</b> : les nœuds utilisent le support à tour de rôle.  Ces types de réseaux déterministes sont inefficaces dans la mesure où un périphérique doit attendre son tour pour accéder au support. Les anciens réseaux locaux Token Ring constituent un exemple de ce type de contrôle d'accès. La figure 2 illustre l'accès contrôlé. </li>
+            </ul>
+          </p>
+          <p>Par défaut, les commutateurs Ethernet fonctionnent en mode duplex intégral. Cela permet au commutateur et au périphérique connecté en mode duplex intégral d'envoyer et de recevoir simultanément des données. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows three computers connected to the same media.  Each has a call out displaying "I try to send when I am ready". Figure 2 shows four computers connected to a ring topology. One says "My turn to send". All the others say “Not my turn yet".</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

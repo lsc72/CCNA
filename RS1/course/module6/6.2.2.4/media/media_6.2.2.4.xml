@@ -1,0 +1,44 @@
+<textcomponents>
+ <component id="ID_title">
+    <text><![CDATA[<b>Comprendre les entrées de routage d'un réseau local</b>]]></text>
+  </component>
+ 
+
+	 <component id="ID_txt02">
+    <text><![CDATA[- Indique comment le réseau a été découvert par le routeur.]]></text>
+  </component>
+ 
+ 
+ 
+	<component id="ID_txt03">
+    <text><![CDATA[- Identifie le réseau de destination et la manière dont celui-ci est connecté.]]></text>
+  </component>
+	
+	<component id="ID_txt04">
+    <text><![CDATA[- Indique l'interface par laquelle les routeurs accèdent au réseau de destination.]]></text>
+  </component>
+    
+    <component id="ID_titleTxt01">
+        <text><![CDATA[Origine de la route]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt01">
+        <text><![CDATA[Indique la façon dont le réseau a été découvert par le routeur.]]></text>
+    </component>
+    
+    <component id="ID_titleTxt02">
+        <text><![CDATA[Réseau de destination]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt02">
+        <text><![CDATA[Identifie le réseau de destination et la manière dont celui-ci a été découvert.]]></text>
+    </component>
+    
+    <component id="ID_titleTxt03">
+        <text><![CDATA[Interface de sortie]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt03">
+        <text><![CDATA[Identifie l'interface de sortie à utiliser pour transférer un paquet vers la destination finale.]]></text>
+    </component>
+</textcomponents>

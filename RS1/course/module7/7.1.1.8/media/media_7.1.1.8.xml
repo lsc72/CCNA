@@ -1,0 +1,75 @@
+<textcomponents>
+
+
+<component id="ID_title">
+<text><![CDATA[<b>Exercice de conversion de nombres décimaux en nombres binaires</b>]]></text>
+</component>
+
+<component id="ID_titleTxt01">
+    <text><![CDATA[Instruction]]></text>
+  	</component>
+
+<component id="ID_bodyTxt01">
+    <text><![CDATA[Cet exercice vous permet de vous entraîner à la conversion de nombres décimaux en valeurs binaires de 8 bits. Nous vous conseillons de vous exercer jusqu'à ce que vous soyez en mesure de réaliser une conversion sans commettre d'erreur.<br><br>Convertissez le nombre décimal affiché à la ligne Valeur décimale sous forme de bits binaires.]]></text>
+</component>
+
+
+<component id="ID_btn01">
+<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id="ID_btn02">
+<text><![CDATA[Réinitialiser]]></text>
+</component>
+
+<component id="ID_btn03">
+<text><![CDATA[Nouveau nombre]]></text>
+</component>
+
+
+
+
+
+<component id="ID_txt02">
+<text><![CDATA[Valeur décimale]]></text>
+</component>
+
+
+<component id="ID_txt03">
+<text><![CDATA[Exposant]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Position]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Bit]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Base]]></text>
+</component>
+
+<component id='ID_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_CORRECT_BODY'>
+	<text><![CDATA[Les valeurs binaires saisies pour toutes les positions sont correctes. Cliquez sur Nouveau nombre pour continuer.]]></text>
+</component>
+
+<component id='ID_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_INCORRECT_BODY'>
+	<text><![CDATA[Au moins l'une des valeurs saisies est incorrecte. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+
+</textcomponents>

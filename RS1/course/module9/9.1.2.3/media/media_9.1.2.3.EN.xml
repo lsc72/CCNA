@@ -1,0 +1,22 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>UDP</b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[IP Telephony<br/>(VoIP)]]></text> 
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[Streaming Video]]></text> 
+	</component>
+
+	<component id="ID_titleTxt01">
+		<text><![CDATA[Features of UDP]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[<li>Data is reconstructed in the order that it is received.</li><li>Any segments lost are not resent. </li><li>No session establishment.</li><li>Does not inform the sender about resource availability. </li>]]></text>
+	</component>  
+
+</textcomponents>

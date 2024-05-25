@@ -1,0 +1,19 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>Topologie de conflit des paramètres duplex</b>]]></text>
+	</component>
+
+	
+	<component id='ID_txt01'>
+		<text><![CDATA[Duplex intégral]]></text>
+	</component>
+	
+	<component id='ID_txt02'>
+		<text><![CDATA[Semi-duplex]]></text>
+	</component><!-- end slide 1 --><component id='ID_s2_txt01'>
+		<text><![CDATA[&lt;résultat omis&gt;]]></text>
+	</component>
+	
+	<component id='ID_s3_txt01'>
+		<text><![CDATA[&lt;résultat ignoré&gt;]]></text>
+	</component>
+</textcomponents>

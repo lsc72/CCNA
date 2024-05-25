@@ -1,0 +1,69 @@
+﻿<textcomponents>
+	<component id='ID_title'>
+	   <text><![CDATA[Segmentation d'un réseau /24 ]]></text>
+   </component>
+
+	<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+	
+		<tr class="mtable_title">
+			<td colspan="5" bgcolor='#FFFFFF'><font size="5"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#666263' width='75' valign="middle"><font color='#FFFFFF'><p align="center"><b>Longueur<br/>du préfixe</b></p></font></td>
+			<td bgcolor='#666263' width='120' valign="middle"><font color='#FFFFFF'><p align="center"><b>Masque de sous-réseau</b></p></font></td>
+			<td bgcolor='#666263' valign="middle"><font color='#FFFFFF'><p align="center"><b>Masque de sous-réseau (binaire)<br/>(n = réseau, h = hôte)</b></p></font></td>
+			<td bgcolor='#666263' width='70' valign="middle"><font color='#FFFFFF'><p align="center"><b>Nombre de<br/> sous-réseaux</b></p></font></td>
+			<td bgcolor='#666263' width='65' valign="middle"><font color='#FFFFFF'><p align="center"><b>Nombre <br/>d'hôtes</b></p></font></td>
+		</tr> 
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/25</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.128</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b><font face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn.</font><font color='#F68026' face='_typewriter'>n</font><font face='_typewriter'>hhhhhhh<br/>11111111.11111111.11111111.</font><font color='#F68026' face='_typewriter'>1</font><font face='_typewriter'>0000000</font></b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">2</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">126</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/26</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.192</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b><font face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn.</font><font color='#F68026' face='_typewriter'>nn</font><font face='_typewriter'>hhhhhh<br/>11111111.11111111.11111111.</font><font color='#F68026' face='_typewriter'>11</font><font face='_typewriter'>000000</font></b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">4</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">62</p></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/27</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.224</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b><font face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn.</font><font color='#F68026' face='_typewriter'>nnn</font><font face='_typewriter'>hhhhh<br/>11111111.11111111.11111111.</font><font color='#F68026' face='_typewriter'>111</font><font face='_typewriter'>00000</font></b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">8</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">30</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/28</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.240</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b><font face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn.</font><font color='#F68026' face='_typewriter'>nnnn</font><font face='_typewriter'>hhhh<br/>11111111.11111111.11111111.</font><font color='#F68026' face='_typewriter'>1111</font><font face='_typewriter'>0000</font></b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">16</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">14</p></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/29</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.248</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b><font face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn.</font><font color='#F68026' face='_typewriter'>nnnnn</font><font face='_typewriter'>hhh<br/>11111111.11111111.11111111.</font><font color='#F68026' face='_typewriter'>11111</font><font face='_typewriter'>000</font></b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">32</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">6</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">/30</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">255.255.255.252</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center"><b><font face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn.</font><font color='#F68026' face='_typewriter'>nnnnnn</font><font face='_typewriter'>hh<br/>11111111.11111111.11111111.</font><font color='#F68026' face='_typewriter'>111111</font><font face='_typewriter'>00</font></b></p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">64</p></td>
+			<td bgcolor='#E9E7E8' valign="middle"><p align="center">2</p></td>
+		</tr>	 
+		
+	</table>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.3 Périphériques sur le même réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Périphériques sur le même réseau</h1>
+        <div>
+          <p>Pour comprendre comment des périphériques communiquent au sein d'un réseau, il est important de comprendre les rôles des adresses de couche réseau et des adresses de liaison de données.</p>
+          <p></p>
+          <p>
+            <b>Rôle des adresses de la couche réseau</b>
+          </p>
+          <p></p>
+          <p>Les adresses de couche réseau ou adresses IP indiquent la source d'origine et la destination finale. Une adresse IP contient deux parties :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Une partie réseau</b> : partie située à l'extrême gauche de l'adresse qui indique à quel réseau appartient l'adresse IP. Tous les périphériques du même réseau ont, dans leur adresse IP, la même partie réseau.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Une partie hôte</b> : partie restante de l'adresse qui identifie un périphérique spécifique sur le réseau. La partie hôte est unique et propre à chaque périphérique du réseau.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : le masque de sous-réseau sert à identifier la partie réseau d'une adresse de la partie hôte. Le masque de sous-réseau est traité plus en détail dans les chapitres suivants.</p>
+          <p></p>
+          <p>Dans cet exemple, nous avons un ordinateur client (PC1) communiquant avec un serveur FTP sur le même réseau IP.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse IP source</b> : adresse IP du périphérique expéditeur, l'ordinateur client PC1 : 192.168.1.110.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse IP de destination</b> : adresse IP du périphérique récepteur, le serveur FTP : 192.168.1.9.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Vous remarquerez dans la figure que la partie réseau de l'adresse IP source et de l'adresse IP de destination indique qu'elles se trouvent sur le même réseau.</p>
+          <p></p>
+          <p>
+            <b>Rôle des adresses de la couche liaison de données</b>
+          </p>
+          <p></p>
+          <p>Lorsque l'expéditeur et le récepteur du paquet IP se trouvent sur le même réseau, la trame de liaison de données est envoyée directement au périphérique récepteur. Sur un réseau Ethernet, les adresses de liaison de données sont appelées adresses (MAC) Ethernet. Les adresses MAC sont physiquement incorporées dans la carte réseau Ethernet. </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse MAC source</b> : il s'agit de l'adresse de liaison de données ou adresse MAC Ethernet du périphérique qui envoie la trame de liaison de données avec le paquet IP encapsulé. L'adresse MAC de la carte réseau Ethernet de PC1 est AA-AA-AA-AA-AA-AA, écrite en notation hexadécimale.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse MAC de destination</b> : lorsque le périphérique récepteur se trouve sur le même réseau que le périphérique expéditeur, il s'agit de l'adresse de liaison de données du périphérique récepteur. Dans cet exemple, l'adresse MAC de destination est l'adresse MAC du serveur FTP : CC-CC-CC-CC-CC-CC, écrite en notation hexadécimale.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>La trame contenant le paquet IP encapsulé peut maintenant être transmise par PC1 directement au serveur FTP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the source and destination MAC addresses being added to an Ethernet frame.  PC 1 is the source and the server is the destination.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

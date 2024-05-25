@@ -1,0 +1,44 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Services de la couche transport</b>]]></text>
+</component>
+
+
+<component id="ID_txt01">
+<text><![CDATA[À : vous@exemple.com<br>De : moi@exemple.com<br>Objet : Congé]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[E-mail]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Messagerie<br/>instantanée]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Plusieurs pages web</b>]]></text>
+</component>
+
+
+
+<component id="ID_txt06">
+<text><![CDATA[Téléphonie IP(VoIP)]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Vidéo en continu]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[La segmentation permet le <b>multiplexage</b> de conversations : plusieurs applications peuvent utiliser le réseau simultanément.]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[La <b>segmentation</b> permet le transport des données par les couches réseau inférieures.]]></text>
+</component>
+
+<component id="ID_txt11">
+<text><![CDATA[Le <b>contrôle des erreurs</b> peut être exécuté sur les données du segment pour vérifier si ce dernier a été modifié lors de la transmission.]]></text>
+</component>
+</textcomponents>

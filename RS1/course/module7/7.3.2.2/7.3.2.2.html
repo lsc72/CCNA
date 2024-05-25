@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.2.2 Ping - Tester la connectivité avec le réseau local</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ping - Tester la connectivité avec le réseau local</h1>
+        <div>
+          <p>Vous pouvez également utiliser la commande ping pour tester la capacité d'un hôte à communiquer sur le réseau local. Cela consiste généralement à envoyer une requête ping à l'adresse IP de la passerelle de l'hôte. Une requête ping à la passerelle indique si l'hôte et l'interface du routeur qui sert de passerelle sont opérationnels sur le réseau local. </p>
+          <p>Pour ce test, l'adresse de la passerelle est souvent utilisée, car le routeur est, en principe, toujours opérationnel. Si l'adresse de la passerelle ne répond pas, une requête ping peut être envoyée à l'adresse IP d'un autre hôte sur le réseau local opérationnel. </p>
+          <p>Si une réponse est obtenue, soit de la passerelle, soit d'un autre hôte, cela signifie que l'hôte local peut communiquer sans problème sur le réseau local. Si la passerelle ne répond pas, mais qu'un autre hôte répond, cela peut indiquer un problème sur l'interface du routeur qui sert de passerelle. </p>
+          <p>Il se peut qu'une adresse de passerelle incorrecte ait été configurée sur l'hôte. Peut-être que l’interface du routeur est fonctionnelle, mais qu’une règle de sécurité en vigueur l’empêche de traiter des requêtes ping ou d’y répondre. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a router with a switch connected to its FastEthernet 0/1 port and the port has an IPv4 address of 10.0.0.254.  The switch has a computer connected to it and the computer has an IPv4 address of 10.0.0.1.  The computer is testing connectivity to the router, which is the default gateway, by using ping to send an echo request to the router port.  The command used is ping 10.0.0.254.  The router responds with an echo reply.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

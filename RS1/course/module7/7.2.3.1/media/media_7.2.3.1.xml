@@ -1,0 +1,14 @@
+﻿<textcomponents> 
+
+
+<component id="ID_title">
+<text><![CDATA[Communication monodiffusion IPv6]]></text>
+</component>
+<component id="ID_txt01">
+<text><![CDATA[<b>Adresse IPv6 source</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[<b>Adresse IPv6 de destination</b>]]></text> 
+</component>
+</textcomponents>

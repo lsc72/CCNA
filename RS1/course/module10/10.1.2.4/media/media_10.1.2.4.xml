@@ -1,0 +1,29 @@
+﻿<textcomponents>
+	<component id="ID_txt01">
+		<text><![CDATA[Où se trouve mysong.mp3]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	  <text><![CDATA[Je l'ai.]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+	  <text><![CDATA[Je l'ai.]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+	  <text><![CDATA[Je l'ai.]]></text> 
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Le protocole Gnutella permet aux applications P2P de rechercher des ressources partagées sur des pairs.]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[Réseau]]></text>
+	</component>
+	
+	<component id="ID_title">
+	  <text><![CDATA[<b>Gnutella prend en charge les applications P2P.</b>]]></text> 
+	</component>
+	
+</textcomponents>

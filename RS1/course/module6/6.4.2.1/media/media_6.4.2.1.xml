@@ -1,0 +1,58 @@
+﻿<textcomponents><!--Slide 1--><component id="ID_s1_title">
+  <text><![CDATA[<b>Tâches de configuration de l'interface du routeur</b>]]></text>
+</component>
+
+<component id="ID_s01_txt01">
+  <text><![CDATA[<textformat blockindent='-20'><ul><li><b>Configurer l'interface</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>interface </b><i>type et numéro</i></li><li id="space"><b>description </b> <i>texte descriptif</i></li><li id="space"><b>ip address </b><i>adresse ipv4 masque de sous-réseau</i></li><li id="space"><b>no shutdown</b></li></ul></textformat>]]></text>
+</component><!--End Slide 1--><!--Slide 3--><component id="ID_s3_title">
+		<text><![CDATA[<b>Configuration des interfaces LAN</b>]]></text>
+	</component><!--Syntax Checker Button Text--><component id="ID_sc_reset">
+			<text><![CDATA[Réinitialiser]]></text>
+		</component>
+
+        <component id="ID_sc_showme">
+			<text><![CDATA[Démonstration]]></text>
+		</component>
+
+        <component id="ID_sc_showall">
+			<text><![CDATA[Afficher tout
+]]></text>
+		</component><!--End Syntax Checker Button Text--><component id="ID_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+                <feedback id="fb"><![CDATA[<b><font size = '11' face="_sans" color="#FFFFFF">***Vous devez entrer la commande exacte et complète. Les commandes qui incluent un nom ou un mot de passe sont sensibles à la casse.***</font></b> ]]></feedback>
+              <existingcommands><![CDATA[<font size = '11' face="_sans"><b><ul>Configurez l'interface GigabitEthernet 0/0 : <li>Configurez l'adresse IPv4 192.168.10.1 et le masque de sous-réseau 255.255.255.0.</li><li>Dans la description de la liaison, indiquez « LAN-10 ».</li><li>Activez l'interface.</li></b></font>]]></existingcommands>
+                <command prompt="R1#">
+                       <correctresponse><![CDATA[ configure terminal]]></correctresponse>
+                                <deviceresponse><![CDATA[Enter configuration commands, one per line. Terminez par CNTL/Z.]]></deviceresponse>
+              </command>
+                <command prompt="R1(config)#">
+                       <correctresponse><![CDATA[ interface gigabitethernet 0/0]]></correctresponse>
+              </command>
+                <command prompt="R1(config-if)#">
+                       <correctresponse><![CDATA[ ip address 192.168.10.1 255.255.255.0]]></correctresponse>
+              </command>
+                <command prompt="R1(config-if)#">
+                       <correctresponse><![CDATA[ description LAN-10]]></correctresponse>
+              </command>
+                <command prompt="R1(config-if)#">
+                       <correctresponse><![CDATA[ no shutdown]]></correctresponse>
+                                <deviceresponse><![CDATA[%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up<br>%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up<br>]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '11' face="_sans"><b><ul>Configurez l'interface GigabitEthernet 0/1 :<li>Configurez l'adresse IPv4 192.168.11.1 et le masque de sous-réseau 255.255.255.0.</li><li>Dans la description de la liaison, indiquez « LAN-11 ».</li><li>Activez l'interface.</li></font>]]></instruction>
+              </command>
+                <command prompt="R1(config)#">
+                       <correctresponse><![CDATA[ interface gigabitethernet 0/1]]></correctresponse>
+              </command>
+                <command prompt="R1(config-if)#">
+                       <correctresponse><![CDATA[ ip address 192.168.11.1 255.255.255.0]]></correctresponse>
+              </command>
+                <command prompt="R1(config-if)#">
+                       <correctresponse><![CDATA[ description LAN-11]]></correctresponse>
+              </command>
+                <command prompt="R1(config-if)#">
+                       <correctresponse><![CDATA[ no shutdown]]></correctresponse>
+                                <deviceresponse><![CDATA[%LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to up<br>%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up<br>R1(config-if)# ]]></deviceresponse>
+                       <instruction><![CDATA[<font size = '11' face="_sans"><b>Vous avez correctement configuré les interfaces LAN du routeur R1.</font>]]></instruction>
+              </command>
+<command prompt=""/>
+ </component>
+	
+</textcomponents>

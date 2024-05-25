@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.5.2 Masques de sous-réseau de longueur variable</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.5.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Masques de sous-réseau de longueur variable</h1>
+        <div>
+          <p>Dans tous les exemples précédents de segmentation, vous constatez que le même masque de sous-réseau a été appliqué à tous les sous-réseaux. Cela signifie que chaque sous-réseau possède le même nombre d'adresses d'hôte disponibles. </p>
+          <p>Comme le montre la figure 1, la méthode classique de segmentation crée des sous-réseaux de même taille. Chaque sous-réseau d'un schéma classique utilise le même masque de sous-réseau. Comme le montre la figure 2, la méthode VLSM permet de diviser un espace réseau en parties inégales. Avec la méthode VLSM, le masque de sous-réseau varie selon le nombre de bits empruntés pour le sous-réseau, d'où la partie « variable » de cette méthode.</p>
+          <p>La création de sous-réseaux VLSM est similaire à la création de sous-réseaux classique, car des bits sont empruntés pour créer des sous-réseaux. Les formules de calcul du nombre d'hôtes par sous-réseau et du nombre de sous-réseaux créés s'appliquent également. </p>
+          <p>La différence réside dans le fait que la segmentation nécessite plus d'une opération. Avec le VLSM, le réseau est divisé en sous-réseaux qui sont eux-mêmes divisés en sous-réseaux. Ce processus peut être répété plusieurs fois de manière à créer des sous-réseaux de différentes tailles.</p>
+          <p>
+            <b>Remarque</b> : lorsque vous utilisez la méthode VLSM, commencez toujours par répondre aux besoins en hôtes du plus grand sous-réseau. Poursuivez la segmentation jusqu'à ce que les besoins en hôtes du plus petit sous-réseau soient satisfaits.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure one shows a pie chart with equal sections representing one of the eight equal subnets. Figure two shows one of the subnets further subnetted to slash thirties, and each hold 2 valid host addresses.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

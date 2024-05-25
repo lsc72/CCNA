@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.5 Démonstration vidéo - Rôle du protocole ARP dans les communications à distance</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Démonstration vidéo - Rôle du protocole ARP dans les communications à distance</h1>
+        <div>
+          <p>Lorsque l'adresse IPv4 de destination n'appartient pas au même réseau que l'adresse IPv4 source, le périphérique source doit envoyer la trame à sa passerelle par défaut. Il s'agit de l'interface du routeur local. Dès qu'un périphérique source a un paquet dont l'adresse IPv4 se trouve sur un autre réseau, il encapsule ce paquet dans une trame à l'aide de l'adresse MAC de destination du routeur. </p>
+          <p>L'adresse IPv4 de la passerelle par défaut est stockée dans la configuration IPv4 des hôtes. Lorsqu'un hôte crée un paquet pour une destination, il compare l'adresse IPv4 de destination à sa propre adresse IPv4 pour déterminer si celles-ci se situent sur le même réseau de couche 3. Si l'hôte de destination ne se situe pas sur le même réseau, l'hôte source cherche dans sa table ARP l'adresse IPv4 de la passerelle par défaut. Si l'entrée n'existe pas, il fait appel au processus ARP pour déterminer l'adresse MAC de la passerelle par défaut. </p>
+          <p>Cliquez sur Lecture pour lancer une démonstration des processus de requête et de réponse ARP associés à la passerelle par défaut.</p>
+          <p>Cliquez <a href="../../files/5.3.2.5%20Video%20Slides%20-%20ARP%20Role%20in%20Remote%20Communication.pdf" target="_blank">ici</a> pour télécharger les extraits vidéo de la démonstration.</p>
+          <p>Cliquez <a href="../../files/5.3.2.5%20Video%20-%20ARP%20Role%20in%20Remote%20Communication.pdf" target="_blank">ici</a> pour lire la transcription de cette vidéo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "ARP Role in Remote Communication".</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

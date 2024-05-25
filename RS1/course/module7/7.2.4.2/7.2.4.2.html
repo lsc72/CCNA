@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.2 Configuration statique d&#x0027;une adresse de diffusion globale</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration statique d&#x0027;une adresse de diffusion globale</h1>
+        <div>
+          <p>
+            <b>Configuration de routeur</b>
+          </p>
+          <p>La plupart des commandes de configuration et de vérification IPv6 de Cisco IOS sont semblables à celles utilisées pour l'IPv4. Dans de nombreux cas, la seule différence est l'utilisation d'<b>ipv6</b> au lieu d'<b>ip </b>dans les commandes. </p>
+          <p>La commande permettant de configurer une adresse de monodiffusion globale IPv6 sur une interface est <b>ipv6 address</b><i> adresse IPv6/longueur du préfixe.</i></p>
+          <p>Notez qu'il n'y a aucun espace entre <i>l'adresse IPv6 </i>et la <i>longueur du préfixe</i><i>.</i></p>
+          <p>La configuration utilisée en exemple utilise la topologie de la figure 1 et les sous-réseaux IPv6 suivants : </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:ACAD:0001:/64 (<i>ou</i> 2001:DB8:ACAD:1::/64)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:ACAD:0002:/64 (<i>ou</i> 2001:DB8:ACAD:2::/64)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>2001:0DB8:ACAD:0003:/64 (<i>ou</i> 2001:DB8:ACAD:3::/64)</li>
+            </ul>
+          </p>
+          <p>La figure 1 indique également les commandes nécessaires pour configurer l'adresse de diffusion globale IPV6 sur les interfaces GigabitEthernet 0/0, GigabitEthernet 0/1 et Série 0/0/0 de R1.</p>
+          <p>
+            <b>Configuration des hôtes</b>
+          </p>
+          <p>La configuration manuelle de l'adresse IPv6 sur un hôte est similaire à celle d'une adresse IPv4.</p>
+          <p>Comme le montre la figure 2, l'adresse de la passerelle par défaut configurée pour PC1 est 2001:DB8:ACAD:1::1. Il s'agit de l'adresse de diffusion globale de l'interface GigabitEthernet de R1 sur le même réseau. L'adresse de la passerelle par défaut configurée peut également être celle de l'adresse link-local de l'interface GigabitEthernet. Ces deux configurations fonctionnent.</p>
+          <p>Utilisez le contrôleur de syntaxe de la figure 3 pour configurer l'adresse de diffusion globale IPv6.</p>
+          <p>Tout comme avec l'IPv4, la configuration des adresses statiques sur les clients ne convient pas aux environnements de grande taille. Pour cette raison, la plupart des administrateurs de réseaux IPv6 utilisent l'attribution dynamique des adresses IPv6. </p>
+          <p>Un périphérique peut obtenir automatiquement une adresse de diffusion globale IPv6 de deux façons :</p>
+          <p>
+            <ul>
+              <li>la configuration automatique des adresses sans état (SLAAC)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>DHCPv6 avec état</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : lorsque la méthode DHCPv6 ou SLAAC est utilisée, l'adresse link-local du routeur local est automatiquement définie comme étant l'adresse de la passerelle par défaut.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with a router with two LANs and a connection to a WAN.  Each network is labeled with an IPv6 network address. A command window below the topology shows the configuration of the router interfaces with IPv6 addresses: 2001:db8:acad:1::1/64, 2001:db8:acad:2::1/64, and 2001:db8:acad:3::1/64. Figure 2 shows the Windows TCP/IPv6 Properties windows. Thg IPv6 address, subnet prefix length, and default gateway are configured. Figure 3 is a Syntax Checker in which the learner can practice configuring the router with IPv6 addressing.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

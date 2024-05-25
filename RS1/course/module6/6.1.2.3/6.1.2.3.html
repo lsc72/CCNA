@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.2.3 IP - Sans connexion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>IP - Sans connexion</h1>
+        <div>
+          <p>Le protocole IP est sans connexion, ce qui signifie qu'aucune connexion de bout en bout dédiée n'est créée avant l'envoi des données. Comme le montre la figure 1, l'envoi d'une lettre sans que le destinataire en soit averti illustre bien la communication sans connexion.</p>
+          <p></p>
+          <p>Les communications de données sans connexion fonctionnent selon le même principe. Comme le montre la figure 2, le protocole IP ne requiert aucun échange initial d'informations de contrôle pour établir une connexion de bout en bout avant le transfert des paquets. Le protocole IP ne nécessite pas non plus de champs supplémentaires dans l'en-tête pour maintenir une connexion établie. Ce processus réduit sensiblement la surcharge du protocole IP. Cependant, sans connexion de bout en bout préétablie, les expéditeurs ne savent pas si les périphériques de destination sont présents et fonctionnels lors de l'envoi des paquets. Ils ne savent pas non plus si le destinataire reçoit le paquet ni s'il peut y accéder et le lire.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a standard letter being placed into a mailbox with a truck delivering the letter to a house.  This demonstrates the similarities between Internet communications and the postal service. Figure 2 shows 2 computers connected to a network and a layer 3 packet traversing the network.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

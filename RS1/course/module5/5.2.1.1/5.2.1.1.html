@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.1 Commutateurs : notions essentielles</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commutateurs : notions essentielles</h1>
+        <div>
+          <p>Un commutateur Ethernet de couche 2 utilise des adresses MAC pour prendre des décisions de transmission. Il ignore totalement le protocole transporté dans la partie données de la trame, tel qu'un paquet IPv4. Les décisions du commutateur concernant la transmission de données reposent uniquement sur les adresses MAC Ethernet de couche 2.</p>
+          <p>Contrairement à un concentrateur Ethernet qui répète les bits sur tous les ports sauf le port entrant, un commutateur Ethernet consulte une table d'adresses MAC pour décider de la transmission de chaque trame. Sur la figure, le commutateur à quatre ports vient d'être mis sous tension. Il n'a pas encore acquis les adresses MAC des quatre PC connectés.</p>
+          <p>
+            <b>Remarque</b> : la table d'adresses MAC est parfois appelée table de mémoire associative (CAM). Même si le terme de table CAM est également utilisé, nous préfèrerons parler de la table d'adresses MAC dans le cadre de ce cours.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a four port switch with four PCs attached one to each port. The PCs are named A, B, C, and D. The abbreviated MAC addresses are 00-0A, 00-0B, 00-0C, and 00-0D. The switch MAC address table is also shown. The table is empty.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.4.3 Adresses IPv4 d&#x0027;utilisateurs spéciaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses IPv4 d&#x0027;utilisateurs spéciaux</h1>
+        <div>
+          <p>Certaines adresses, telles que l'adresse réseau et l'adresse de diffusion ne peuvent pas être attribuées à des hôtes. Il existe également des adresse spéciales qui peuvent être attribuées aux hôtes, mais des restrictions s'appliquent sur les interactions de ces hôtes sur le réseau. </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresses de bouclage (127.0.0.0 /8 ou 127.0.0.1 à 127.255.255.254) :</b> couramment appelées 127.0.0.1, ces adresses spéciales sont utilisées par des hôtes pour diriger le trafic vers eux-mêmes. Par exemple, elles peuvent être utilisées sur un hôte pour vérifier si la configuration TCP/IP est opérationnelle, comme le montre la figure ci-contre. Notez que l'adresse de bouclage 127.0.0.1 répond à la commande ping. Notez également que n'importe quelle adresse de ce bloc envoie les paquets en boucle à l'hôte local, comme le montre le résultat de la deuxième commande ping sur la figure ci-contre. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresses locales-liens (169.254.0.0 /16 ou 169.254.0.1 à 169.254.255.254) : </b>plus connues sous le nom d'adresses APIPA (adressage IP privé automatique), elles sont utilisées par un client DHCP Windows pour se configurer automatiquement si aucun serveur DHCP n'est disponible.<b></b>Elles sont utiles dans une connexion peer-to-peer.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresses TEST-NET (192.0.2.0/24 ou 192.0.2.0 à 192.0.2.255)</b> : ces adresses sont réservées à des fins pédagogiques et utilisées dans la documentation et dans des exemples de réseau. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : il existe également des adresses expérimentales dans le bloc 240.0.0.0 à 255.255.255.254 qui sont réservées pour une utilisation future (<a href="https://tools.ietf.org/html/rfc3330" target="_blank">RFC 3330</a>).</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a Windows command line with the successful replies from the ping 127.0.0.1 command and the 127.1.1.1 command.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

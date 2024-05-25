@@ -1,0 +1,65 @@
+<textcomponents>
+ 
+    <component id="ID_title">
+        <text><![CDATA[<b>Comprendre les entrées de routage d'un réseau distant</b>]]></text>
+	</component>
+    
+    <component id="ID_txt01">
+		<text><![CDATA[D]]></text>
+	</component>
+  
+  	<component id="ID_titleTxt01">
+		<text><![CDATA[Origine de la route]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Indique la façon dont le réseau a été découvert par le routeur. Les routes sources sont généralement <b>S</b> (route statique), <b>D</b> (Enhanced Interior Gateway Routing Protocol ou EIGRP) ou <b>O</b> (Open Shortest Path First ou OSPF). Les autres routes sources ne sont pas abordées dans ce chapitre.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt02">
+		<text><![CDATA[Réseau de destination]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Identifie le réseau de destination.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt03">
+		<text><![CDATA[Distance administrative]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[Identifie la distance administrative (fiabilité) de la route source. Plus la valeur est faible, plus la route source est fiable.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt04">
+		<text><![CDATA[M étrique]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Indique la valeur attribuée pour atteindre le réseau distant. Les valeurs les plus faibles indiquent les routes préférées.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt05">
+		<text><![CDATA[Tronçon suivant]]></text>
+	</component>
+	<component id="ID_bodyTxt05">
+		<text><![CDATA[Indique l'adresse IP du prochain routeur à transférer le paquet.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt06">
+		<text><![CDATA[Horodatage de route]]></text>
+	</component>
+	<component id="ID_bodyTxt06">
+		<text><![CDATA[Détermine à quel moment le routeur a été entendu pour la dernière fois.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt07">
+		<text><![CDATA[Interface de sortie]]></text>
+	</component>
+	<component id="ID_bodyTxt07">
+		<text><![CDATA[Identifie l'interface de sortie à utiliser pour transférer un paquet vers la destination finale.]]></text>
+	</component>
+	
+	
+	
+	
+	
+	
+</textcomponents>

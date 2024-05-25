@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.2.1 Ping - Tester la pile locale</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Ping - Tester la pile locale</h1>
+        <div>
+          <p>La commande ping est un utilitaire de test qui utilise des messages de requête et de réponse d'écho ICMP pour tester la connectivité entre les hôtes. Le ping fonctionne avec les hôtes IPv4 et IPv6.</p>
+          <p>Pour tester la connectivité avec un autre hôte sur un réseau, une requête d'écho est envoyée à l'adresse d'hôte au moyen de la commande ping. Si l'hôte à l'adresse spécifiée reçoit une requête d'écho, il répond en envoyant une réponse d'écho. Chaque fois qu'une réponse d'écho est reçue, la commande ping vous informe du temps qui s'écoule entre l'envoi de la requête et la réception de la réponse. Cela peut être utilisé pour mesurer les performances réseau. </p>
+          <p>La commande ping intègre un délai d'attente de la réponse. Si aucune réponse n'est reçue dans ce délai, la commande ping indique dans un message que la réponse n'a pas été reçue. Cela signale généralement un problème, mais cela peut également indiquer que des fonctions de sécurité de blocage des messages ping sont activées sur le réseau.</p>
+          <p>Une fois toutes les requêtes envoyées, l'utilitaire ping affiche un résumé qui inclut le taux de réussite et la durée de transmission moyenne à destination.</p>
+          <p>
+            <b>Envoi d’une requête ping sur le bouclage local</b>
+          </p>
+          <p>La commande ping s’utilise également dans certaines activités de test et de vérification. Par exemple, dans un test de la configuration interne IPv4 ou IPv6 sur l'hôte local. Pour réaliser ce test, nous exécutons la commande ping sur l'adresse de bouclage locale 127.0.0.1 pour l'IPv4 (et ::1 pour l'IPv6). Le test de bouclage IPv4 est illustré dans la figure ci-contre.</p>
+          <p>Une réponse provenant de l'adresse 127.0.0.1 pour l'IPv4 ou ::1 pour l'IPv6 indique que le protocole IP est correctement installé sur l'hôte. Cette réponse provient de la couche réseau. Toutefois, elle n'indique pas que les adresses, les masques ou les passerelles sont correctement configurés. Par ailleurs, elle n’indique rien sur l’état de la couche la plus basse de la pile réseau. Elle teste uniquement la configuration IP via la couche réseau du protocole IP. Si un message d'erreur est généré, cela indique que la suite TCP/IP ne fonctionne pas sur l'hôte.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the command line utility to test the local TCP/IP stack on a computer running IPv4.  The command is ping 127.0.0.1.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

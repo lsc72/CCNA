@@ -1,0 +1,41 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>IPv6 Solicited-Node Multicast Address</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Ethernet]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[IPv6]]></text>
+</component>
+
+
+<component id="ID_txt03">
+<text><![CDATA[Destination MAC: Multicast]]></text>
+</component>
+
+
+<component id="ID_txt04">
+<text><![CDATA[Destination IPv6: Solicited-Node Multicast]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<font color="#FFFFFF">My Ethernet NIC determined this multicast is not for me.</font>]]></text>
+</component>
+
+
+<component id="ID_txt06">
+<text><![CDATA[<font color="#FFFFFF">My Ethernet NIC determined this multicast is not for me.</font>]]></text>
+</component>
+
+
+<component id="ID_txt07">
+<text><![CDATA[<font color="#FFFFFF">My Ethernet NIC determined this multicast is for me!</font>]]></text>
+</component>
+
+
+
+</textcomponents>

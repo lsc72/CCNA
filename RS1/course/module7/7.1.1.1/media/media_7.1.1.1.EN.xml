@@ -1,0 +1,54 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>IPv4 Addresses Expressed in Binary</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>LAN A Network Address</b><br/>11000000.10101000.00001010.00000000 /24]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>LAN B Network Address</b><br/>11000000.10101000.00001011.00000000 /24]]></text>
+	</component>
+
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>IPv4 Addresses Expressed in Dotted Decimal</b>]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[<b>LAN A Network Address</b><br/>192.168.10.0 /24]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[<b>LAN B Network Address</b><br/>192.168.11.0 /24]]></text>
+	</component>
+
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Contrasting PC1 IPv4 Dotted Decimal and Binary Address</b>]]></text>
+	</component>
+	
+	 <component id="ID_s3_btn01">
+  <text><![CDATA[Dotted Decimal Address]]></text>
+  </component>
+<component id="ID_s3_btn02">
+  <text><![CDATA[Octets]]></text>
+  </component>
+<component id="ID_s3_btn03">
+  <text><![CDATA[32-Bit Address]]></text> 
+  </component>
+  
+  <component id="ID_s3_txt01">
+  <text><![CDATA[192.168.10.10 is an IP address that is assigned to a computer.]]></text> 
+  </component>
+   <component id="ID_s3_txt02">
+  <text><![CDATA[This address is made up of four different octets.]]></text> 
+  </component>
+   <component id="ID_s3_txt03">
+  <text><![CDATA[The computer stores the address as the entire 32-bit data stream.]]></text> 
+  </component>
+	
+	
+</textcomponents>

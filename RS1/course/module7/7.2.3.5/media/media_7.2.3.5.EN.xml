@@ -1,0 +1,84 @@
+﻿<textcomponents>
+
+
+<!-- slide 1 -->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Activity – Identify Types of IPv6 Addresses</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[Drag the IPv6 address type to the most appropriate description.]]></text>
+	</component>
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+	<component id="ID_s1_CORRECT_TITLE">
+		<text><![CDATA[correct]]></text>
+	</component>
+
+	<component id="ID_s1_CORRECT_BODY">
+		<text><![CDATA[You have successfully matched the IPv6 address types to their descriptions.]]></text>
+	</component>
+
+	<component id="ID_s1_INCORRECT_TITLE">
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+	
+	<component id="ID_s1_INCORRECT_BODY">
+		<text><![CDATA[You have not successfully matched the IPv6 address types to their descriptions. Please click Reset to try again.]]></text>
+	</component>
+
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[Global unicast]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Link-local]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[/64]]></text>
+	</component>
+
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Unique, Internet-routable IPv6 address (dynamic or static).]]></text>
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[FE80::1]]></text>
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[2001:db8:ACAD::1/64]]></text>
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Typical IPv6 prefix used to indicate the network portion of the address.]]></text>
+	</component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Used to communicate with other devices on the same IPv6 subnet.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[Term]]></text>
+	</component>
+
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[Description]]></text>
+	</component>
+<!-- end slide 1 -->
+
+	
+</textcomponents>

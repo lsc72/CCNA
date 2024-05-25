@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.4.3 Utilisation de la commande show cdp neighbors</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Utilisation de la commande show cdp neighbors</h1>
+        <div>
+          <p>Il existe plusieurs autres commandes IOS utiles. Par exemple, CDP (Cisco Discovery Protocol) est un protocole propriétaire de Cisco qui s'exécute au niveau de la couche liaison de données. Puisque le protocole CDP fonctionne au niveau de la couche liaison de données, deux périphériques réseau Cisco ou plus, tels que des routeurs prenant en charge différents protocoles de couche réseau, peuvent échanger des informations même si la connectivité de couche 3 n'existe pas.</p>
+          <p></p>
+          <p>Examinez le résultat des commandes <b>show cdp neighbors</b> sur la figure 1 avec la topologie de la figure 2. Notez que R3 a collecté certaines informations détaillées sur R2 et sur le commutateur connecté à l'interface FastEthernet sur R3.</p>
+          <p></p>
+          <p>Lorsqu'un périphérique Cisco démarre, le protocole CDP démarre par défaut. Le protocole CDP détecte automatiquement les périphériques Cisco voisins qui exécutent le protocole CDP, quel que soit les suites ou le protocole de couche 3 en cours d'exécution. Le protocole CDP échange des informations sur les périphériques matériels et logiciels avec ses voisins CDP connectés directement.</p>
+          <p></p>
+          <p>Le protocole CDP fournit les informations suivantes concernant chaque périphérique CDP voisin :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Identificateurs de périphériques</b> : par exemple, le nom d'hôte configuré d'un commutateur.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Liste d'adresses</b> : jusqu'à une adresse de couche réseau pour chaque protocole pris en charge.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Identificateur de port</b> : le nom du port local et distant (sous la forme d'une chaîne de caractères ASCII, comme FastEthernet 0/0).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Liste de capacités</b> : par exemple, pour savoir si ce périphérique est un routeur ou un commutateur.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Plate-forme</b> : la plate-forme matérielle du périphérique, par exemple, un routeur Cisco série 1841.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>La commande <b>show cdp neighbors detail</b> indique l'adresse IP d'un périphérique voisin. Le protocole CDP révèle l'adresse IP du voisin, que vous puissiez lui envoyer ou non une requête ping. Cette commande est très utile lorsque deux routeurs Cisco ne peuvent pas router via leur liaison de données partagée. La commande <b>show cdp neighbors detail</b> permet de déterminer si l'un des voisins CDP présente une erreur de configuration IP.</p>
+          <p></p>
+          <p>Malgré qu'il soit utile, le protocole CDP peut également représenter un risque pour la sécurité dans la mesure où il fournit aux hackers des informations utiles sur l'infrastructure réseau. Par exemple, de nombreuses versions d'IOS envoient par défaut des annonces CDP à tous les ports activés. Cependant, selon les bonnes pratiques, CDP doit être activé uniquement sur les interfaces qui se connectent à d'autres équipements Cisco de l'infrastructure. Les annonces CDP doivent être désactivées sur les ports des utilisateurs.</p>
+          <p></p>
+          <p>Certaines versions d'IOS envoyant des annonces CDP par défaut, il est important de savoir comment désactiver le protocole CDP. Pour désactiver le protocole CDP globalement, utilisez la commande de configuration globale <b>no cdp run</b>. Pour désactiver le protocole CDP sur une interface, utilisez la commande d'interface <b>no cdp enable</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the output of the "show cdp neighbors" command and "show cdp neighbors detail" command. Figure 2 shows a topology with three routers connected with serial connections.  R1 connects to R2, and R2. connects to R3  Each Router has a LAN with a switch and a PC.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

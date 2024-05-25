@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.2 Adresses de liaison de données</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses de liaison de données</h1>
+        <div>
+          <p>Sur la couche liaison de données ou couche 2, l'adresse physique joue un rôle différent. L'objectif de l'adresse de liaison de données est de transmettre la trame liaison de données d'une interface réseau à une autre, sur un même réseau. Ce processus est illustré aux figures 1 à 3.</p>
+          <p></p>
+          <p>Pour qu'un paquet IP puisse être envoyé via un réseau câblé ou sans fil, il doit être encapsulé dans une trame de liaison de données qui peut être transmise à travers le support physique. </p>
+          <p></p>
+          <p>Au fil de son périple, de l'hôte au routeur, du routeur à un autre routeur, et enfin du routeur à l'hôte, le paquet IP est encapsulé dans une nouvelle trame liaison de données à chaque stade de son acheminement. Chaque trame liaison de données contient l'adresse liaison de données source de la carte réseau qui envoie la trame, et l'adresse liaison de données de destination de la carte réseau qui la reçoit. </p>
+          <p></p>
+          <p>La couche 2, le protocole de liaison de données, sert uniquement à remettre le paquet entre les cartes réseau d'un même réseau. Le routeur supprime les informations de couche 2 dès leur réception sur une carte réseau et ajoute de nouvelles informations de liaison de données avant de les transférer vers la destination finale.</p>
+          <p></p>
+          <p>Le paquet IP est encapsulé dans une trame de liaison de données qui contient les informations de liaison de données, notamment les adresses suivantes :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse de liaison de données source</b> : adresse physique de la carte réseau du périphérique qui envoie la trame de liaison de données. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse de liaison de données de destination</b> : adresse physique de la carte réseau qui reçoit la trame de liaison de données. Cette adresse correspond soit au routeur de tronçon suivant, soit au périphérique de destination final. </li>
+            </ul>
+          </p>
+          <p></p>
+          <p>La trame de liaison de données contient également une queue de bande qui est présentée en détail dans les chapitres suivants.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1, 2, and 3 demonstrate the concept that layer 2 address change at every hop while the layer 3 addresses stay the same. In Figure 1, the layer 2 addresses are for the original source and router 1. In Figure 2, the layer 2 addresses are for router 1 and router 2. In Figure 3, the layer 2 addresses are for router 2 and the final destination, the web server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

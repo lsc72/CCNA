@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.2.2 En-tête TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>En-tête TCP</h1>
+        <div>
+          <p>Le protocole TCP est un protocole avec état. Un protocole avec état est un protocole qui contrôle l'état de la session de communication. Pour suivre l'état d'une session, le protocole TCP enregistre les informations qu'il a envoyées et les informations qu'il a reçues. La session avec état commence avec l'établissement de la session et se termine lorsque la session est interrompue.</p>
+          <p>Comme l'illustre la figure, chaque segment TCP utilise 20 octets de surcharge dans l'en-tête pour encapsuler les données de la couche application :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Port source (16 bits) et port de destination (16 bits)</b> : utilisés pour identifier l'application.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Numéro d'ordre (32 bits)</b> : utilisé pour réorganiser les données.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Numéro d'accusé de réception (32 bits)</b> : indique les données qui ont été reçues.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Longueur d'en-tête (4 bits)</b> : connue sous le nom de « décalage de données ». Indique la longueur de l'en-tête du segment TCP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Réservé (6 bits)</b> : champ réservé pour les futures évolutions.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Bits de contrôle (6 bits)</b> : comprennent des codes de bits, ou indicateurs, indiquant l'objectif et la fonction du segment TCP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Taille de fenêtre (16 bits)</b> : indique le nombre de segments pouvant être acceptés en même temps.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Somme de contrôle (16 bits)</b> : utilisée pour le contrôle des erreurs dans l'en-tête et les données de segment.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Urgent (16 bits)</b> : indique si les données sont urgentes.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the fields of the TCP header including source and destination ports, sequence number, acknowledgment number, header length, and window size.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

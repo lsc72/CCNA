@@ -1,0 +1,90 @@
+<textcomponents>
+
+
+<component id='ID_inst'>
+	<text><![CDATA[<b>Activity – IPv4 Issues and Solutions</b>]]></text>
+</component>
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instruction]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Drag the IPv4 and IPv6 terms to the field next to the appropriate description.]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[128-bit address/340 undecillion addresses.]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[32-bit address/4.3 billion addresses.]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[Transports an IPv6 packet over IPv4 networks.]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[Uses NAT64 to convert between IPv6 and IPv4.]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[Allows IPv4 and IPv6 to coexist on the same network segment.]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[Term]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[Description]]></text>
+</component>
+
+<!--Drag and Drop-->
+<component id='ID_ip1_DS'>
+	<text><![CDATA[<font color="#393536">Dual Stack</font>]]></text>
+</component>
+
+<component id='ID_ip2_DS'>
+	<text><![CDATA[<font color="#393536">IPv4</font>]]></text>
+</component>
+
+<component id='ID_ip3_DS'>
+	<text><![CDATA[<font color="#393536">Tunneling</font>]]></text>
+</component>
+
+<component id='ID_ip4_DS'>
+	<text><![CDATA[<font color="#393536">IPv6</font>]]></text>
+</component>
+
+<component id='ID_ip5_DS'>
+	<text><![CDATA[<font color="#393536">Translation</font>]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[You have successfully matched the IPv4 and IPv6 terms to their descriptions.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[You have not successfully matched the IPv4 and IPv6 terms to their descriptions. Please click Reset to try again.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Check]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Reset]]></text>
+</component>
+
+</textcomponents>

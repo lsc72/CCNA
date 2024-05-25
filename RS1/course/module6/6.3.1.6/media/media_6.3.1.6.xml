@@ -1,0 +1,56 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Ports de gestion et interfaces</b>]]></text>
+	</component>
+	<component id='ID_s1_titleTxt01'>
+	<text><![CDATA[interfaces de routeur intrabandes]]></text>
+</component>
+<component id='ID_s1_titleTxt011'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s1_bodyTxt01'>
+	<text><![CDATA[sont les interfaces LAN (Gigabit Ethernet) et WAN (EHWIC) configurées avec l'adressage IP pour transporter le trafic utilisateur. Les interfaces Ethernet sont les connexions LAN les plus courantes, tandis que les connexions WAN les plus répandues sont les interfaces série et DSL.]]></text>
+</component>
+
+<component id='ID_s1_titleTxt02'>
+	<text><![CDATA[ports de gestion]]></text>
+</component>
+<component id='ID_s1_titleTxt012'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s1_bodyTxt02'>
+	<text><![CDATA[incluent les ports de console et auxiliaire utilisés pour configurer, gérer et dépanner le routeur. Contrairement aux interfaces LAN et WAN, les ports de gestion ne sont pas utilisés pour le transfert de paquets du trafic utilisateur.]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Interfaces de routeur intrabandes</b>]]></text>
+	</component>
+	<component id='ID_s2_titleTxt01'>
+	<text><![CDATA[Interfaces WAN série]]></text>
+</component>
+
+<component id='ID_s2_titleTxt011'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s2_bodyTxt01'>
+	<text><![CDATA[ajoutées au logement EHWIC0 et étiquetées Série 0 (S0/0/0) et Série 1 (S0/0/1). Les interfaces série sont utilisées pour connecter des routeurs à des réseaux WAN externes. Chaque interface WAN série a sa propre adresse IP et son propre masque de sous-réseau, lui permettant d'être identifiée comme faisant partie d'un réseau donné.]]></text>
+</component>
+
+<component id='ID_s2_titleTxt02'>
+	<text><![CDATA[Interfaces LAN Ethernet]]></text>
+</component>
+
+<component id='ID_s2_titleTxt012'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_s2_bodyTxt02'>
+	<text><![CDATA[Interfaces LAN Ethernet</b> étiquetées GE 0/0 (G0/0) et GE 0/1 (G0/1). Les interfaces Ethernet sont utilisées pour établir des connexions avec d'autres périphériques Ethernet, tels que les commutateurs, les routeurs, les pare-feu, etc. Chaque interface LAN a sa propre adresse IPv4 et son propre masque de sous-réseau et/ou sa propre adresse IPv6 et son propre préfixe, lui permettant d'être identifiée comme faisant partie d'un réseau donné.]]></text>
+</component>
+
+
+</textcomponents>

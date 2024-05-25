@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.3.2.2 Configuration automatique des adresses IP des périphériques finaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration automatique des adresses IP des périphériques finaux</h1>
+        <div>
+          <p>Généralement, les ordinateurs utilisent par défaut le protocole DHCP pour la configuration automatique des adresses IPv4. Le protocole DHCP est une technologie utilisée sur presque tous les réseaux. Le meilleur moyen de comprendre pourquoi le DHCP est tellement répandu est de prendre en compte tout le travail supplémentaire qui doit être effectué sans celui-ci.</p>
+          <p></p>
+          <p>Sur un réseau, le protocole DHCP permet la configuration automatique des adresses IPv4 pour chaque périphérique final utilisant DHCP. Imaginez le temps que cela prendrait si chaque fois que vous vous connectez au réseau vous deviez entrer manuellement l'adresse IPv4, le masque de sous-réseau, la passerelle par défaut et le serveur DNS. Multipliez cette opération par le nombre d'utilisateurs et de périphériques d'une entreprise : vous avez saisi le problème. La configuration manuelle augmente également les risques de mauvaise configuration en dupliquant l'adresse IPv4 d'un autre périphérique. </p>
+          <p></p>
+          <p>Comme l'illustre la figure 1, pour configurer le protocole DHCP sur un ordinateur Windows, vous devez sélectionner « Obtenir une adresse IP automatiquement » et « Obtenir les adresses des serveurs DNS automatiquement ». Votre ordinateur recherchera alors un serveur DHCP et se verra affecté les paramètres de l'adresse qui sont nécessaires pour communiquer sur le réseau.</p>
+          <p></p>
+          <p>Il est possible d'afficher les paramètres de configuration IP d'un ordinateur Windows à l'aide de la commande <b>ipconfig</b> depuis l'invite de commandes. Le résultat affiche les informations concernant l'adresse IPv4, le masque de sous-réseau et la passerelle, qui ont été reçues du serveur DHCP.</p>
+          <p></p>
+          <p>Utilisez le contrôleur de syntaxe de la figure 2 pour vous entraîner à afficher l'adresse IPv4 sur un ordinateur Windows.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the Windows TCP/IPv4 Properties window with “Obtain an IP address automatically” and “Obtain DNS server address automatically” selected. Figure 2 is a Syntax Checker allowing the learner to practice verifying Windows PC IP configuration.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

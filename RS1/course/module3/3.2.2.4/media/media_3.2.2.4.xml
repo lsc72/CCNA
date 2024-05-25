@@ -1,0 +1,265 @@
+﻿<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Fonctionnement des protocoles en matière d'envoi d'un message</b>]]></text>
+    </component>
+    <component id="ID_s1_txt02">
+        <text>
+            <![CDATA[Client web]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Serveur web]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Données]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt05">
+        <text>
+            <![CDATA[TCP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt06">
+        <text>
+            <![CDATA[IP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt07">
+        <text>
+            <![CDATA[Ethernet]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt08">
+        <text>
+            <![CDATA[Données utilisateur]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt09">
+        <text>
+            <![CDATA[Segment TCP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt10">
+        <text>
+            <![CDATA[Paquet IP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt11">
+        <text>
+            <![CDATA[Trame Ethernet]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt12">
+        <text>
+            <![CDATA[Données]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt13">
+        <text>
+            <![CDATA[TCP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt15">
+        <text>
+            <![CDATA[Termes d'encapsulation de protocole]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt14">
+        <text>
+            <![CDATA[IP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt16">
+        <text>
+            <![CDATA[Ethernet]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt18">
+        <text>
+            <![CDATA[Données]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt19">
+        <text>
+            <![CDATA[TCP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt20">
+        <text>
+            <![CDATA[IP]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt21">
+        <text>
+            <![CDATA[Ethernet]]>
+        </text>
+    </component>
+    <!-- controller -->
+    <component id="end">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+
+    <component id="end1">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward1">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause1">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play1">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind1">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start1">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Fonctionnement des protocoles en matière de réception d'un message</b>]]></text>
+        </component>
+        <component id="ID_s2_txt02">
+            <text>
+                <![CDATA[Termes d'encapsulation de protocole]]></text>
+        </component>
+        <component id="ID_s2_txt03">
+            <text>
+                <![CDATA[Données]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt04">
+            <text>
+                <![CDATA[TCP]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt05">
+            <text>
+                <![CDATA[IP]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt06">
+            <text>
+                <![CDATA[Ethernet]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt07">
+            <text>
+                <![CDATA[Données utilisateur]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt08">
+            <text>
+                <![CDATA[Segment TCP]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt09">
+            <text>
+                <![CDATA[Paquet IP]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt10">
+            <text>
+                <![CDATA[Trame Ethernet]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt12">
+            <text>
+                <![CDATA[Serveur web]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt13">
+            <text>
+                <![CDATA[Client web]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt18">
+            <text>
+                <![CDATA[Ethernet]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt19">
+            <text>
+                <![CDATA[IP]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt20">
+            <text>
+                <![CDATA[TCP]]>
+            </text>
+        </component>
+        <component id="ID_s2_txt21">
+            <text>
+                <![CDATA[Données]]>
+            </text>
+        </component>
+        <!-- controller -->
+        <!-- <component id="end">
+	<text><![CDATA[End]]></text>
+</component>
+
+<component id="fforward">
+	<text><![CDATA[Fast Forward]]></text>
+</component>
+
+<component id="pause">
+	<text><![CDATA[Pause]]></text>
+</component>
+
+<component id="play">
+	<text><![CDATA[Play]]></text>
+</component>
+
+<component id="rewind">
+	<text><![CDATA[Rewind]]></text>
+</component>
+
+<component id="start">
+	<text><![CDATA[Start]]></text>
+</component> -->
+</textcomponents>

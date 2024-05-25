@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.3.1.2 Sous-couches liaison de données</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Sous-couches liaison de données</h1>
+        <div>
+          <p>La couche liaison de données se divise en deux sous-couches : </p>
+          <p>
+            <ul>
+              <li>
+                <b>Sous-couche LLC (Logical Link Control)</b> : cette sous-couche supérieure communique avec la couche réseau. Elle place les informations dans la trame qui indique le protocole de couche réseau utilisé pour la trame. Ces informations permettent à plusieurs protocoles de couche 3 (par exemple, IPv4 et IPv6) d'utiliser la même interface réseau et les mêmes supports. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Contrôle d'accès au support (MAC)</b> : cette sous-couche inférieure définit les processus d'accès au support exécutés par le matériel. Elle fournit une couche liaison de données qui traite les différentes technologies réseau et permet d'y accéder.</li>
+            </ul>
+          </p>
+          <p>Cette figure illustre la division de la couche liaison de données en sous-couches LLC et MAC. La sous-couche LLC communique avec la couche réseau alors que la sous-couche MAC autorise différentes technologies d'accès au réseau. Par exemple, la sous-couche MAC communique avec la technologie de réseau local Ethernet pour envoyer et recevoir des trames via des câbles en cuivre ou à fibre optique. La sous-couche MAC communique également avec les technologies sans fil telles que le Wi-Fi et le Bluetooth pour envoyer et recevoir des trames sans fil.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows layers one, two and three of the OSI model.  Layer two is divided into its two sub-layers, the upper sub-layer is LLC and the lower is MAC.  The figure also shows that 802.3, 802.11 and 802.15 standards span layer 1 and the MAC sublayer of layer 2.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

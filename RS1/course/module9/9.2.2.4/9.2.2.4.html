@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.2.4 Contrôle de flux TCP - Taille de fenêtre et accusés de réception</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Contrôle de flux TCP - Taille de fenêtre et accusés de réception</h1>
+        <div>
+          <p>Le protocole TCP offre également des mécanismes relatifs au contrôle de flux, à la quantité de données que la destination peut recevoir et à la fiabilité du processus. Le contrôle de flux aide à maintenir la fiabilité des transmissions TCP en réglant le flux de données entre la source et la destination pour une session donnée. Pour cela, l'en-tête TCP inclut un champ de 16 bits appelé taille de fenêtre.</p>
+          <p></p>
+          <p>La figure illustre un exemple de taille de fenêtre et d'accusés de réception. La taille de fenêtre est le nombre d'octets que le périphérique de destination d'une session TCP peut accepter et traiter en une fois. Dans cet exemple, la taille de fenêtre initiale du PC-B pour la session TCP est définie à 10 000 octets. En commençant par le premier octet, à savoir l'octet numéro 1, le dernier octet que le PC-A peut envoyer sans recevoir d'accusé de réception est l'octet 10 000. C'est ce qu'on appelle la fenêtre d'envoi du PC-A. La taille de fenêtre est incluse dans chaque segment TCP de telle sorte que la destination peut la modifier à tout moment en fonction de la disponibilité de la mémoire tampon.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : dans la figure, la source transmet 1 460 octets de données au sein de chaque segment TCP. Il s'agit de la taille de segment maximale ou MSS (Maximum Segment Size). </p>
+          <p></p>
+          <p>La taille de fenêtre initiale est déterminée lors de l'établissement de la session TCP par l'intermédiaire de la connexion en trois étapes. Le périphérique source doit limiter le nombre d'octets envoyés au périphérique de destination en fonction de la taille de fenêtre de la destination. Une fois que le périphérique source a reçu un accusé de réception l'informant que les octets ont été reçus, il peut continuer à envoyer plus de données pour la session. D'une manière générale, la destination n'attend pas que tous les octets de sa taille de fenêtre aient été reçus avant de répondre par un accusé de réception. Une fois que tous les octets ont été reçus et traités, la destination envoie des accusés de réception afin d'informer la source qu'elle peut continuer à envoyer des octets supplémentaires. </p>
+          <p></p>
+          <p>En règle générale, le PC-B n'attendra pas d'avoir reçu la totalité des 10 000 octets avant d'envoyer un accusé de réception. Cela signifie que le PC-A peut ajuster sa fenêtre d'envoi en fonction des accusés de réception reçus du PC-B. Comme le montre la figure, quand le PC-A reçoit un accusé de réception avec le numéro 2921, la fenêtre d'envoi du PC-A se voit incrémentée de 10 000 octets supplémentaires, à savoir la taille actuelle de fenêtre du PC-B, pour atteindre 12 920 octets. Le PC-A peut maintenant continuer à envoyer jusqu'à 10.000 nouveaux octets au PC-B, pour autant qu'il ne dépasse pas sa nouvelle fenêtre d'envoi de 12.920 octets.  </p>
+          <p></p>
+          <p>Le processus d'envoi d'accusés de réception par la destination en fonction du traitement des octets reçus et d'ajustement continu de la fenêtre d'envoi de la source porte le nom de « fenêtres glissantes ». </p>
+          <p></p>
+          <p>Si l'espace libre dans la mémoire tampon de la destination diminue, cette dernière peut réduire sa taille de fenêtre afin de demander à la source de diminuer le nombre d'octets envoyés avant de recevoir un accusé de réception.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b>: Les périphériques utilisent généralement le protocole de fenêtres dynamiques. Avec les fenêtres dynamiques, le destinataire  n'attend pas la réception de tous les octets de sa taille de fenêtre avant de répondre par un accusé de réception. Le destinataire envoie généralement un accusé de réception après la réception de deux segments. Le nombre de segments reçus avant l'envoi d'un accusé de réception peut varier. L'avantage des fenêtres dynamiques est de permettre à l'expéditeur de transmettre des segments en continu, tant que le destinataire accuse réception des segments précédents. Les détails de la fonction de hachage sortent du cadre de ce cours.</p>
+          <p></p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures shows a window size example. PC B has specified that the window size is 10,000 and the maximum segment size is 1460. PC A sends the first 1460 bytes and then the send 1460 bytes. PC B sends an ACK 2921 and confirms window size is still 10,000. PC A sends another 1460 bytes. PC B send an ACK 4381 and confirms window size is still 10,000.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

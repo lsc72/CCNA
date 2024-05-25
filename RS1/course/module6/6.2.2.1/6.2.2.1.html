@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.2.1 Décisions du routeur relatives à la transmission de paquets</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Décisions du routeur relatives à la transmission de paquets</h1>
+        <div>
+          <p>Lorsqu'un hôte envoie un paquet à un autre hôte, il utilise sa table de routage pour déterminer où envoyer le paquet. Si l'hôte de destination se trouve sur un réseau distant, le paquet est transmis à la passerelle par défaut. </p>
+          <p>Que se passe-t-il lorsqu'un paquet arrive sur la passerelle par défaut qui est généralement un routeur ? Le routeur consulte sa table de routage pour déterminer où transmettre les paquets.</p>
+          <p>La table de routage d'un routeur peut stocker des informations sur :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Les routes directement connectées :</b>ces routes proviennent des interfaces actives du routeur. Les routeurs ajoutent une route connectée directement lorsqu'une interface est configurée avec une adresse IP et qu'elle est activée. Chacune des interfaces du routeur est connectée à un segment de réseau différent. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Routes distantes : </b>ces routes correspondent aux réseaux distants connectés à d'autres routeurs. Les routes vers ces réseaux peuvent être configurées manuellement sur le routeur local par l'administrateur réseau ou être configurées de manière dynamique en permettant au routeur local d'échanger des informations de routage avec d'autres routeurs à l'aide d'un protocole de routage dynamique.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Route par défaut : </b>comme les hôtes, les routeurs utilisent une route par défaut en dernier recours s'il n'existe aucune autre route jusqu'au réseau souhaité dans la table de routage.    </li>
+            </ul>
+          </p>
+          <p>La figure ci-contre identifie les réseaux connectés directement et les réseaux distants du routeur R1.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows two routers connected by a serial connection.  Each router has two LANs attached.  This figure shows that a router has its own routing table to consult should a packet be destined for a remote network.  The routing table consists of directly connected networks and remote networks.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.2.4 Entrées de la table de routage d&#x0027;un réseau connecté directement</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Entrées de la table de routage d&#x0027;un réseau connecté directement</h1>
+        <div>
+          <p>Lorsqu'une adresse IPv4 et un masque de sous-réseau sont configurés sur une interface de routeur activée, les deux entrées suivantes sont automatiquement créées dans la table de routage :</p>
+          <p>
+            <ul>
+              <li>
+                <b>C :</b> signale un réseau connecté directement. Les réseaux connectés directement sont automatiquement créés lorsqu'une interface est configurée avec une adresse IP et activée.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>L :</b> indique qu'il s'agit d'une interface locale. Cette entrée fournit l'adresse IPv4 de l'interface sur le routeur.</li>
+            </ul>
+          </p>
+          <p>La figure décrit les entrées de la table de routage sur R1 pour le réseau connecté directement 192.168.10.0. Ces entrées ont été automatiquement ajoutées à la table de routage lorsque l'interface GigabitEthernet 0/0 a été configurée et activée. Cliquez sur les signes + pour afficher plus d'informations sur les entrées de la table de routage concernant un réseau connecté directement. </p>
+          <p>
+            <b>Remarque</b> : les entrées de l'interface locale ne sont pas apparues dans les tables de routage avant la version 15 d'IOS.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a network and a small portion of the routing table from a router.  There are 3 columns highlighted.  One that identifies how the route was learned (shaded in green), one that identifies the destination network and how it is connected (shaded in pink) and one that identifies the interface which a packet will be forward out of to get to the destination network (shaded in orange).</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

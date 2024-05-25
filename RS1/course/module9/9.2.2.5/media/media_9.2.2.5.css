@@ -1,0 +1,12 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#a1{
+	color: #FFFFFF;
+}
+#ID_txt10
+{
+	color: #FFFFFF !important;
+}

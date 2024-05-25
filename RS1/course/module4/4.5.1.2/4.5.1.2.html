@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.5.1.2 Chapitre 4 : Accès réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.5.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 4 : Accès réseau</h1>
+        <div>
+          <p>La couche d'accès réseau TCP/IP correspond à la couche liaison de données OSI (couche 2) et à la couche physique (couche 1). </p>
+          <p>La couche physique OSI fournit le moyen de transporter sur le support réseau les bits constituant une trame de couche liaison de données. Les composants physiques sont les périphériques électroniques, les supports et autres connecteurs qui transportent et transmettent les signaux qui représentent les bits. Les composants matériels, tels que les cartes réseau, les interfaces et les connecteurs, les matériaux et les conceptions de câble, sont tous spécifiés dans des normes associées à la couche physique. Les normes de couche physique couvrent trois domaines fonctionnels : les composants physiques, la technique de codage de la trame et la méthode de signalisation.</p>
+          <p>Le choix du support joue un rôle essentiel dans les communications réseau. Sans la connexion physique appropriée, qu'elles soient filaires ou sans fil, les communications entre deux périphériques quelconques ne seront pas possibles. </p>
+          <p>La communication filaire se compose de supports en cuivre et de câbles à fibre optique : </p>
+          <p>
+            <ul>
+              <li>Il existe trois principaux types de supports en cuivre utilisés dans les réseaux : les câbles à paires torsadées non blindées (UTP), les câbles à paires torsadées blindées (STP) et les câbles coaxiaux. Le câblage UTP est le support réseau en cuivre le plus courant. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Les câbles à fibre optique sont devenus très populaires pour interconnecter des périphériques d'infrastructure réseau. Ils permettent de transmettre des données sur de plus longues distances et avec une bande passante (débits de données) plus large que n'importe quel autre support réseau. Contrairement aux fils de cuivre, les câbles à fibre optique peuvent transmettre des signaux avec moins d'atténuation et sont entièrement protégés des perturbations électromagnétiques et radioélectriques. </li>
+            </ul>
+          </p>
+          <p>Les supports sans fil transportent à l'aide de fréquences radio et micro-ondes des signaux électromagnétiques qui représentent les chiffres binaires des communications de données. </p>
+          <p>Le nombre de périphériques sans fil continue d'augmenter. Par conséquent, le sans fil est devenu le support de prédilection pour les réseaux domestiques et gagne rapidement du terrain dans les réseaux d'entreprise. </p>
+          <p>La couche liaison de données gère l'échange de trames entre les nœuds sur un support réseau physique. Elle permet aux couches supérieures d'accéder aux supports et elle contrôle la manière dont les données sont placées et reçues sur le support. </p>
+          <p>Parmi les différentes mises en œuvre des protocoles de couche liaison de données, il existe différentes méthodes de contrôle d'accès au support. Ces techniques de contrôle d'accès au support indiquent si et comment les nœuds partagent les supports. La méthode de contrôle d'accès au support utilisée dépend de la topologie et du partage des supports. Les topologies de réseaux locaux et étendus peuvent être physiques ou logiques. C'est la topologie logique qui influence le type de trame réseau et de contrôle d'accès au support utilisé. Les réseaux étendus sont généralement interconnectés selon la topologie physique point à point, Hub and Spoke ou maillée. Sur les réseaux locaux à supports partagés, les périphériques finaux peuvent être interconnectés selon des topologies physiques en étoile, en bus, en anneau ou en étoile étendue.</p>
+          <p>Tous les protocoles de couche liaison de données encapsulent l'unité de données de protocole de couche 3 dans le champ de données de la trame. Cependant, la structure de la trame et les champs contenus dans l'en-tête et dans la queue de bande varient selon le protocole.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Add the media transcript</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

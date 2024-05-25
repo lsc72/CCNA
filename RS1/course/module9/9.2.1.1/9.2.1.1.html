@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.1.1 Processus serveur TCP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Processus serveur TCP</h1>
+        <div>
+          <p>Chaque processus applicatif qui s'exécute sur le serveur est configuré par défaut, ou manuellement par un administrateur système, pour utiliser un numéro de port. Deux services ne peuvent pas être affectés au même numéro de port d'un serveur particulier au sein des mêmes services de la couche transport. </p>
+          <p>Par exemple, il est impossible qu'une application de serveur web et une application de transfert de fichiers s'exécutant sur un hôte soient toutes deux configurées pour utiliser le même port (par exemple le port TCP 80). Une application de serveur active affectée à un port spécifique est considérée comme étant ouverte, ce qui signifie que la couche transport accepte et traite les segments adressés à ce port. Toute demande entrante d'un client qui est adressée à l'interface de connexion correcte est acceptée et les données sont transmises à l'application de serveur. De nombreux ports peuvent être ouverts simultanément sur un serveur, chacun étant destiné à une application de serveur active. </p>
+          <p>Les figures 1 à 5 illustrent l'affectation standard des ports sources et de destination dans le cadre des opérations client-serveur TCP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a server running both an HTTP server on port 80 and SMTP server running on port 25.  The figure has two clients accessing the server.  Client 1 is sending an HTTP request from source port 49152 to destination port 80.  Client 2 is sending an SMTP request from source port 51152 to destination port 25.  This demonstrates how port numbers are used to differentiate between multiple services running on one server. Figure two highlights the use of the well-known ports for the services. Figure three highlights the use of random source ports as the source ports. Figure four highlights the response from the server to each of the two requests and the fact that the server uses the source port from the request packet as the destination. Figure five highlights the new destination port.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

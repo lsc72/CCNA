@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.5.1 Commande debug</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commande debug</h1>
+        <div>
+          <p>Les processus, protocoles, mécanismes et événements IOS génèrent des messages pour communiquer leur état. Ces messages peuvent fournir des informations utiles lors du dépannage ou de la vérification du fonctionnement du système. La commande <b>debug</b> d'IOS  permet à l'administrateur d'afficher ces messages en temps réel pour analyse. C'est un outil très utile pour surveiller les événements d'un équipement Cisco IOS.</p>
+          <p></p>
+          <p>Toutes les commandes <b>debug</b> sont entrées en mode d'exécution privilégié. Le système Cisco IOS permet d'affiner les résultats de la commande <b>debug</b> et d'inclure uniquement les fonctionnalités ou sous-fonctionnalité pertinentes. Ceci est important, car les résultats de débogage obéissent à un niveau de priorité élevé, dans le processus de CPU, et sont donc susceptibles de rendre le système inutilisable. Il est donc conseillé de n'utiliser les commandes <b>debug</b> que pour résoudre des problèmes spécifiques. Pour surveiller l'état des messages ICMP d'un routeur Cisco, utilisez la commande <b>debug ip icmp</b>, comme indiqué dans l'illustration.</p>
+          <p></p>
+          <p>Pour afficher une brève description des options de débogage, utilisez la commande <b>debug ?</b>  en mode d'exécution privilégié, dans la ligne de commande.</p>
+          <p></p>
+          <p>Pour désactiver une fonction de débogage spécifique, ajoutez le mot clé <b>no</b> devant la commande <b>debug</b> :</p>
+          <p></p>
+          <p>
+            <span class="cmd">Router# </span>
+            <span class="cmd">
+              <b>no debug ip icmp</b>
+            </span>
+          </p>
+          <p></p>
+          <p>Sinon, vous pouvez entrer la forme <b>undebug</b> de la commande en mode d'exécution privilégié :</p>
+          <p></p>
+          <p>
+            <span class="cmd">Router# </span>
+            <span class="cmd">
+              <b>undebug ip icmp</b>
+            </span>
+          </p>
+          <p></p>
+          <p>Pour désactiver toutes les commandes debug actives en une seule fois, utilisez la commande <b>undebug all</b> :</p>
+          <p></p>
+          <p>
+            <span class="cmd">Router# </span>
+            <span class="cmd">
+              <b>undebug all</b>
+            </span>
+          </p>
+          <p></p>
+          <p>Certaines commandes de débogage comme <b>debug all</b> et <b>debug ip packet</b> génèrent une importante quantité de données et utilisent une grande partie des ressources système. Dans pareil scénario, le routeur doit afficher un grand nombre de messages de débogage et n'a pas suffisamment de puissance de traitement pour exécuter ses fonctions réseau, voire pour écouter les commandes et désactiver le débogage. Il n'est donc pas recommandé d'utiliser ces options de commande.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the output of the ‘debug ip icmp’ command.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<textcomponents>
+
+<component id="ID_sender">
+<text><![CDATA[Expéditeur<br/>4085 SE Pine Street<br/>Ocala, Floride 34471]]></text>
+</component>
+<component id="ID_recipient">
+<text><![CDATA[Destinataire<br/>1400 Main Street<br>Canton, Ohio 44203]]></text>
+</component>
+<component id="ID_address1">
+<text><![CDATA[4085 SE Pine Street<br/>Ocala, Floride 34471]]></text>
+</component>
+<component id="ID_address2">
+<text><![CDATA[1400 Main Street<br>Canton, Ohio 44203]]></text>
+</component>
+<component id="ID_letter">
+<text><![CDATA[Chère Jane,<br/><br/>Je viens de revenir de voyage. J'ai pensé que tu aimerais peut-être voir mes photos.<br/><br/>John]]></text>
+</component>
+<component id="ID_dear">
+<text><![CDATA[Chère]]></text>
+</component>
+<component id="ID_jane">
+<text><![CDATA[Jane]]></text>
+</component>
+<component id="ID_bodyText">
+<text><![CDATA[Je viens de revenir de voyage. J'ai pensé que tu aimerais peut-être voir mes photos.]]></text>
+</component>
+<component id="ID_john">
+<text><![CDATA[John]]></text>
+</component>
+
+<component id="ID_envelopeAddressing">
+<text><![CDATA[Adressage de l'enveloppe]]></text>
+</component>
+<component id="ID_encapsulatedLetter">
+<text><![CDATA[Lettre encapsulée]]></text>
+</component>
+<component id="ID_salutation">
+<text><![CDATA[Salutation (indicateur de début du message)]]></text>
+</component>
+<component id="ID_senderID">
+<text><![CDATA[Identificateur de l'expéditeur (source)]]></text>
+</component>
+
+
+<component id="ID_box1">
+<text><![CDATA[Adresse de l'emplacement du destinataire (destination)]]></text>
+</component>
+
+<component id="ID_box2">
+<text><![CDATA[Adresse de l'emplacement de l'expéditeur (source)]]></text>
+</component>
+
+<component id="ID_box3">
+<text><![CDATA[Salutation (indicateur de début du message)]]></text>
+</component>
+
+<component id="ID_box4">
+<text><![CDATA[Identificateur du destinataire (destination)]]></text>
+</component>
+
+<component id="ID_box5">
+<text><![CDATA[Contenu de la lettre (données encapsulées)]]></text>
+</component>
+
+<component id="ID_box6">
+<text><![CDATA[Identificateur de l'expéditeur (source)]]></text>
+</component>
+
+<component id="ID_box7">
+<text><![CDATA[Fin de la trame (indicateur de fin du message)]]></text>
+</component>
+
+<component id="ID_box8">
+<text><![CDATA[Adressage de l'enveloppe]]></text>
+</component>
+
+<component id="ID_box9">
+<text><![CDATA[Lettre encapsulée]]></text>
+</component><!-- controller --><component id="end">
+<text><![CDATA[Fin]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Avance rapide]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Pause]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Lecture]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Rembobiner]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Début]]></text>
+</component>
+
+
+
+
+<component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#ffffff' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='2'>
+	
+	<tr>
+		<td bgcolor='#067EB2' valign="top" width='50'><font  color='#ffffff'>Destination (adresse matérielle/physique)</font></td>
+		<td bgcolor='#067EB2' valign="top" width='50'><font  color='#ffffff'>Source (adresse matérielle/physique)</font></td>
+        <td bgcolor='#067EB2' valign="top" width='62'><font  color='#ffffff'>Indicateur de début (indicateur de début du message)</font></td>
+        <td bgcolor='#067EB2' valign="top" width='71'><font  color='#ffffff'>Destinataire (identificateur de la destination)</font></td>
+        <td bgcolor='#067EB2' valign="top" width='58'><font  color='#ffffff'>Expéditeur (identificateur de la source)</font></td>
+        <td bgcolor='#067EB2' valign="top" width='79'><font  color='#ffffff'>Données encapsulées (bits)</font></td>
+        <td bgcolor='#067EB2' valign="top" width='71'><font  color='#ffffff'>Fin de la trame (indicateur de fin du message)</font></td>
+	</tr>
+   	<tr>
+		<td bgcolor='#666263' valign="top" colspan = "2"><font color='#ffffff'>Adressage de la trame</font></td>
+		<td bgcolor='#652C8A' valign="top" colspan = "4"><font color='#ffffff'>Message encapsulé</font></td>
+        <td bgcolor='#666263' valign="top" colspan = "1"><font color='#ffffff'></font></td>
+	</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

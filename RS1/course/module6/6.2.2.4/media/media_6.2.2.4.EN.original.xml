@@ -1,0 +1,44 @@
+<textcomponents>
+ <component id="ID_title">
+    <text><![CDATA[<b>Understanding Local Route Entries</b>]]></text>
+  </component>
+ 
+
+	 <component id="ID_txt02">
+    <text><![CDATA[- Identifies how the network was learned by the router.]]></text>
+  </component>
+ 
+ 
+ 
+	<component id="ID_txt03">
+    <text><![CDATA[- Identifies the destination network and how it is connected.]]></text>
+  </component>
+	
+	<component id="ID_txt04">
+    <text><![CDATA[- Identifies the interface through which the routers reaches the destination network.]]></text>
+  </component>
+    
+    <component id="ID_titleTxt01">
+        <text><![CDATA[Route source]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt01">
+        <text><![CDATA[Identifies how the network was learned by the router.]]></text>
+    </component>
+    
+    <component id="ID_titleTxt02">
+        <text><![CDATA[Destination network]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt02">
+        <text><![CDATA[Identifies the destination network and how it was learned.]]></text>
+    </component>
+    
+    <component id="ID_titleTxt03">
+        <text><![CDATA[Outgoing interface]]></text>
+    </component>
+    
+    <component id="ID_bodyTxt03">
+        <text><![CDATA[Identifies the exit interface to use to forward a packet toward the final destination.]]></text>
+    </component>
+</textcomponents>

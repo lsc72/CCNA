@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.2 Acquérir les adresses MAC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Acquérir les adresses MAC</h1>
+        <div>
+          <p>Le commutateur crée la table d'adresses MAC de manière dynamique en examinant l'adresse MAC source des trames reçues sur un port. Pour transmettre les trames, le commutateur recherche une correspondance entre l'adresse MAC de destination qui figure dans la trame et une entrée de la table d'adresses MAC. </p>
+          <p>Le processus suivant se déroule sur chaque trame Ethernet entrant dans un commutateur.</p>
+          <p>
+            <b>Découverte - Examen de l'adresse MAC source</b>
+          </p>
+          <p>Le commutateur vérifie si de nouvelles informations sont disponibles sur chacune des trames entrantes. Pour cela, il examine l'adresse MAC source de la trame et le numéro du port par lequel la trame est entrée dans le commutateur.</p>
+          <p>
+            <ul>
+              <li>Si l'adresse MAC source n'existe pas, elle est ajoutée à la table , tout comme le numéro du port d'entrée. Sur la figure 1, PC-A envoie une trame Ethernet à PC-D. Le commutateur ajoute l'adresse MAC de PC-A à la table.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Si l'adresse MAC source existe, le commutateur réinitialise le compteur d'obsolescence de cette entrée. Par défaut, la plupart des commutateurs Ethernet conservent les entrées dans la table pendant 5 minutes. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : si l'adresse MAC source existe dans la table, mais sur un autre port, le commutateur la traite comme une nouvelle entrée. L'ancienne entrée est alors remplacée par la même adresse MAC associée au numéro de port actuel. </p>
+          <p>
+            <b>Transfert - Examen de l'adresse MAC de destination</b>
+          </p>
+          <p>Ensuite, si l'adresse MAC de destination est une adresse de monodiffusion, le commutateur recherche une correspondance entre l'adresse MAC de destination qui figure dans la trame et une entrée de sa table d'adresses MAC. </p>
+          <p>
+            <ul>
+              <li>Si l'adresse MAC de destination se trouve dans la table, le commutateur transfère la trame par le port spécifié.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Si l'adresse MAC de destination ne se trouve pas dans la table, le commutateur transfère la trame sur tous les ports sauf celui d'entrée. C'est ce qu'on appelle la monodiffusion inconnue. Comme le montre la figure 2, la table d'adresses du commutateur ne contient pas l'adresse MAC de destination de PC-D, donc il envoie la trame sur tous les ports sauf le port 1. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : si l'adresse MAC de destination est une adresse de diffusion ou de multidiffusion, la trame est également envoyée par tous les ports sauf celui d'entrée. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a four port switch with four PCs attached one to each port. The PCs are named A, B, C, and D. The abbreviated MAC addresses are 00-0A, 00-0B, 00-0C, and 00-0D. The switch MAC address table is also shown. A is sending a frame to D. The switch enters the source MAC address for A in the MAC address table. In Figure 2, the switch doesn’t have the MAC address for D in the MAC address table, so it forwards the frame from A out all other ports (2, 3, and 4).</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

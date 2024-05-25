@@ -1,0 +1,8 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+		<text><![CDATA[<b>Résultats de la commande <font face="_typewriter">debug ip icmp</font></b>]]></text>
+</component>
+	
+
+</textcomponents>

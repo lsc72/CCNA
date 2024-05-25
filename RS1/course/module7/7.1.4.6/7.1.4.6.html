@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.4.6 Adressage sans classe</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.4.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adressage sans classe</h1>
+        <div>
+          <p>Comme le montre la figure, le système sans classe a attribué 50 % des adresses IPv4 disponibles aux 128 réseaux de classe A, 25 % des adresses aux réseaux de classe B, et la classe C a ensuite partagé les 25 % restants avec les classes D et E. Malheureusement, cette distribution a gaspillé de nombreuses adresses et épuisé les adresses IPv4 disponibles. Les besoins de certaines entreprises n'étaient pas toujours couverts par l'une de ces trois classes. Par exemple, une entreprise dont le réseau comptait 260 hôtes devait obtenir une adresse de classe B avec plus de 65 000 adresses, gaspillant ainsi 64 740 adresses. </p>
+          <p>L'adressage par classe a été abandonné à la fin des années 1990 au profit du système d'adressage sans classe plus récent et toujours d'actualité. L'adressage par classe a pourtant laissé quelques vestiges dans les réseaux actuels. Par exemple, lorsque vous attribuez une adresse IPv4 à un ordinateur, le système d'exploitation examine l'adresse pour déterminer si elle appartient à la classe A, B ou C. Le système d'exploitation devine ensuite le préfixe utilisé par cette classe et attribue le masque de sous-réseau par défaut. </p>
+          <p>Le système utilisé aujourd'hui porte le nom d'<i>adressage sans classe</i>. Son nom formel est le routage CIDR (Classless Inter-Domain Routing, routage interdomaine sans classe). En 1993, l'IETF a créé un nouvel ensemble de normes permettant aux fournisseurs de services d'attribuer des adresses IPv4 sur n'importe quelle limite binaire (longueur de préfixe) au lieu d'utiliser uniquement les classes A, B ou C. L'objectif était de retarder la pénurie voire l'épuisement des adresses IPv4.</p>
+          <p>L'IETF savait que le CIDR était uniquement une solution temporaire et qu'un nouveau protocole IP devait être développé pour s'adapter à la croissance rapide du nombre d'utilisateurs d'Internet. En 1994, l'IETF a commencé à chercher un successeur à l'IPv4, à savoir le futur protocole IPv6.</p>
+          <p>Mais qui gère et attribue ces adresses IP ?</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a pie chart. Class A addresses are 50%. Class B addresses are 25%. Class C addresses are 12.5%. And Class D and E make up the remaining 12.5%.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

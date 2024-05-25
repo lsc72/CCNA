@@ -1,0 +1,58 @@
+﻿<textcomponents><!-- SLIDE 1 --><component id="ID_s1_title">
+<text><![CDATA[<b>Communication sans connexion</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+  <text><![CDATA[Lettre]]></text> 
+  </component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[Boîte aux lettres]]></text> 
+  </component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[Lettre]]></text> 
+  </component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[Envoi d'une lettre.]]></text> 
+  </component>
+<component id="ID_s1_title_01">
+	<text><![CDATA[<b>L'expéditeur ignore :</b>]]></text>
+</component>
+<component id="ID_s1_body01">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li id="s1body1li">si le destinataire est présent.</li><li id="s1body1li1">si la lettre est arrivée.</li><li id="s1body1li2">si le destinataire peut lire la lettre.</li></ul></textformat>]]></text> 
+</component>
+<component id="ID_s1_title_02">
+<text><![CDATA[<b>Le destinataire ignore :</b>]]></text>
+</component>
+<component id="ID_s1_body02">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>quand elle va arriver.</li></ul></textformat>]]></text> 
+  </component><!-- SLIDE 2 --><component id="ID_s2_title">
+<text><![CDATA[<b>Communication sans connexion</b>]]></text>
+</component>
+<component id="ID_s2_txt01">
+  <text><![CDATA[En-tête IP]]></text> 
+  </component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[Segment]]></text> 
+  </component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[En-tête IP]]></text> 
+  </component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[Segment]]></text> 
+  </component>
+<component id="ID_s2_txt05">
+  <text><![CDATA[Un paquet est envoyé.]]></text> 
+  </component>
+<component id="ID_s2_title_01">
+	<text><![CDATA[<b>L'expéditeur ignore :</b>]]></text>
+</component>
+<component id="ID_s2_body01">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>si le destinataire est présent. </li><li>si le paquet est arrivé. </li><li>si le destinataire peut lire le paquet.</li></ul></textformat>]]></text> 
+</component>
+<component id="ID_s2_title_02">
+<text><![CDATA[<b>Le destinataire ignore :</b>]]></text>
+</component>
+<component id="ID_s2_body02">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>quand il va arriver.</li></ul></textformat>]]></text> 
+  </component>
+
+</textcomponents>

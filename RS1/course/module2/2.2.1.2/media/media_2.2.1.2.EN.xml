@@ -1,0 +1,52 @@
+<textcomponents>
+
+<!-- Slide 1 -->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Configure a Hostname</b>]]></text>
+	</component>
+	
+<!-- End Slide 1 -->
+
+
+<!-- Slide 2 -->
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Configure the Switch Hostname</b>]]></text>
+	</component>
+	
+<!--Syntax Checker Button Text-->
+	<component id="ID_s2_reset">
+		<text><![CDATA[Reset]]></text>
+	</component>
+	
+	<component id="ID_s2_showme">
+		<text><![CDATA[Show Me]]></text>
+	</component>
+	
+	<component id="ID_s2_showall">
+		<text><![CDATA[Show All]]></text>
+	</component>
+<!--End Syntax Checker Button Text-->
+	
+	<component id="ID_s2_SC" fontSize="12" fontFace='_typewriter'  fontColor="#ffffff">
+	
+		<feedback id="fb"><![CDATA[<b><font face="_sans" color="#FFFFFF">***You must enter the exact and full command. Commands that include a name or password are case-sensitive.***</font></b>]]></feedback>
+		<existingcommands><![CDATA[<font face="_sans"><b>Enter the configuration mode and configure the switch hostname to be 'Sw-Floor-1'.</b></font>]]></existingcommands>
+		<command prompt="Switch#">
+			<correctresponse><![CDATA[ configure terminal]]></correctresponse>
+		</command>
+		<command prompt="Switch(config)#">
+			<correctresponse><![CDATA[ hostname Sw-Floor-1]]></correctresponse>
+			<deviceresponse><![CDATA[Sw-Floor-1(config)#]]></deviceresponse>
+			<instruction><![CDATA[<font face="_sans"><b>You have successfully configured the switch hostname.</font>]]></instruction>
+		</command>
+		
+		<command prompt=""/>
+
+	</component>	
+	
+<!-- End Slide 2 -->
+
+
+</textcomponents>

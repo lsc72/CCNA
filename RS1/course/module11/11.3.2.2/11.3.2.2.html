@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.2.2 Commande extended traceroute</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commande extended traceroute</h1>
+        <div>
+          <p>Conçue comme une variante de la commande <b>traceroute</b>, la commande <b>extended traceroute</b> permet à l'administrateur de modifier les paramètres associés à l'exécution de la commande. Elle permet de résoudre les boucles de routage, d'identifier le routeur du tronçon suivant ou encore de déterminer à quel niveau les paquets sont perdus par un routeur ou refusés par un pare-feu. Bien que la commande<b> ping</b> étendue permette de déterminer le type de problème de connectivité, la commande<b> traceroute </b>étendue permet de localiser le problème.</p>
+          <p></p>
+          <p>Un message d'erreur ICMP de délai dépassé indique qu'un routeur situé sur le chemin a vu et rejeté le paquet. Un message d'erreur ICMP de destination inaccessible indique qu'un routeur a reçu le paquet, mais l'a rejeté car il n'a pas pu être envoyé. Tout comme la commande ping, traceroute utilise des requêtes et des réponses d'écho ICMP. Si le délai ICMP expire avant qu'une réponse d'écho ICMP ne soit reçue, la commande <b>traceroute</b>affiche un astérisque (*).</p>
+          <p></p>
+          <p>Dans IOS, la commande extended traceroute prend fin lorsque l'une des conditions suivantes est remplie :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>La destination répond avec une réponse d’écho ICMP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>L'utilisateur interrompt le suivi avec la séquence d'échappement.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : sous IOS, vous pouvez appeler cette séquence d'échappement en appuyant sur <b>Ctrl+Maj+6</b>. Sous Windows, utilisez <b>Ctrl+C</b> pour appeler la séquence d'échappement.</p>
+          <p></p>
+          <p>Pour utiliser la commande <b>extended</b> traceroute, entrez simplement <b>traceroute</b>, sans définir aucun paramètre, puis appuyez sur <b>ENTRÉE</b>. IOS vous guide à travers les options de commande en proposant un certain nombre d'invites associées au réglage des différents paramètres. La figure 1 illustre et décrit chacune des options de la commande <b>extended traceroute</b> d'IOS.</p>
+          <p></p>
+          <p>Bien que la commande <b>tracert</b> de Windows permette la saisie de plusieurs paramètres, celle-ci n'est pas guidée et doit être exécutée par le biais d'options dans la ligne de commande. La figure 2 montre les options disponibles pour la commande <b>tracert</b> dans Windows.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is a table describing each of IOS traceroute options. Figure 2 shows the tracert options on a Windows machine </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

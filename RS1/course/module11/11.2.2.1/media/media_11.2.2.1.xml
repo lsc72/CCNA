@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Types de programmes malveillants</b>]]></text>
+</component>
+
+<component id="ID_txt01">		
+<text><![CDATA[Les stations de travail des utilisateurs finaux sont principalement vulnérables aux attaques de vers, de virus et de chevaux de Troie.</font>]]></text>
+</component>
+<component id="ID_txt02">
+<text><![CDATA[Un ver exécute un code arbitraire et installe des copies de lui-même dans la mémoire de l'ordinateur infecté. Le rôle principal d'un ver est de se répliquer automatiquement et de se diffuser sur le réseau d'un système à l'autre.</font>]]></text>
+</component>
+<component id="ID_txt03">		
+<text><![CDATA[Un virus est un logiciel malveillant qui exécute une fonction spécifique non souhaitée et souvent néfaste sur un ordinateur.</font>]]></text>
+</component>
+<component id="ID_txt04">
+<text><![CDATA[Un cheval de Troie est un type de programme malveillant qui ne se réplique pas automatiquement. Il contient souvent du code malveillant conçu pour prendre l'apparence d'autre chose, notamment d'une application ou d'un fichier légitime. Le cheval de Troie peut attaquer le périphérique terminal de l'intérieur lors du téléchargement et de l'ouverture d'une application ou d'un fichier infecté.</font>]]></text>
+</component><!--ANIMATION CONTROLLER--><component id="end">
+		<text><![CDATA[Fin]]></text>
+	</component>
+	
+	<component id="fforward">
+		<text><![CDATA[Avance rapide]]></text>
+	</component>
+	
+	<component id="pause">
+		<text><![CDATA[Pause]]></text>
+	</component>
+	
+	<component id="play">
+		<text><![CDATA[Lecture]]></text>
+	</component>
+	
+	<component id="rewind">
+		<text><![CDATA[Rembobiner]]></text>
+	</component>
+	
+	<component id="start">
+		<text><![CDATA[Début]]></text>
+	</component>
+<component id="transcript">
+<text><![CDATA[Texte]]></text>
+</component>
+</textcomponents>

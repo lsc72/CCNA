@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.2.1 Fonctionnement en duplex</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fonctionnement en duplex</h1>
+        <div>
+          <p>En termes de communication de données, le duplex fait référence au sens de transmission des données entre deux périphériques. Si les communications sont limitées à l'échange de données dans un seul sens à la fois, on parle de connexion en semi-duplex. Le duplex intégral, quant à lui, permet l'envoi et la réception simultanés de données.</p>
+          <p></p>
+          <p>Pour des performances de transmission optimales, deux interfaces réseau Ethernet connectées doivent utiliser le même mode duplex. Cela permet d'éliminer toute inefficacité et latence de liaison.</p>
+          <p></p>
+          <p>La négociation Ethernet automatique a été conçue pour faciliter la configuration, limiter les problèmes et optimiser les performances de liaison. Les périphériques connectés annoncent d'abord les fonctionnalités qu'ils prennent en charge, puis choisissent le mode de performances le plus élevé pris en charge par les deux extrémités. Par exemple, le commutateur et le routeur de la figure ont procédé à une négociation automatique du mode duplex intégral.</p>
+          <p></p>
+          <p>Si l'un des deux périphériques connectés fonctionne en duplex intégral et l'autre en mode semi-duplex, nous avons un conflit des paramètres duplex. Si la communication de données s'effectue malgré le conflit des paramètres duplex, les performances de liaison sont très faibles. Le conflit des paramètres duplex peut être dû à une configuration manuelle incorrecte et au fait que les deux périphériques connectés soient définis sur des modes duplex différents. Un confit des paramètres duplex peut également survenir si vous connectez un périphérique utilisant la négociation automatique à un autre périphérique manuellement défini sur un mode duplex intégral. Bien que cela soit rare, l'échec d'une négociation automatique peut aussi générer un conflit des paramètres duplex.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a switch connected to a router. The devices have autonegotiated full-duplex.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

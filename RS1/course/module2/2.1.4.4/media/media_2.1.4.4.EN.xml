@@ -1,0 +1,139 @@
+﻿<textcomponents> 
+<component id="ID_title">
+	<text><![CDATA[<b>CLI Hot Keys and Shortcuts</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[NOTE: "<b>Delete</b>", the key to erase to the right of the cursor, is not recognized by terminal emulation programs.]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[NOTE: <b>Control</b> keys - Press and hold the &lt;Ctrl&gt; key and then press the specified letter key.<br/><b>Escape</b> sequences - Press and release the &lt;Esc&gt; key, and then press the letter key.]]></text>
+</component> 
+
+ <component id='ID_table01'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">	
+
+	<tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="12"><b>CLI Line Editing</b></font></td>
+	</tr>
+
+	<tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>     
+
+	<tr>
+		<td bgcolor='#E9E7E8' width='135'>Tab</td>
+		<td bgcolor='#E9E7E8'>Completes a partial command name entry.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Backspace</td>
+		<td bgcolor='#F2F2F2'>Erases the character to the left of the cursor.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Ctrl-D</td>
+		<td bgcolor='#E9E7E8'>Erases the character at the cursor.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Ctrl-K</td>
+		<td bgcolor='#F2F2F2'>Erases all characters from the cursor to the end of the command line.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Esc D</td>
+		<td bgcolor='#E9E7E8'>Erases all characters from the cursor to the end of the word.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Ctrl-U or Ctrl-X</td>
+		<td bgcolor='#F2F2F2'>Erases all characters from the cursor back to the beginning of the command line.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Ctrl-W</td>
+		<td bgcolor='#E9E7E8'>Erases the word to the left of the cursor.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Ctrl-A</td>
+		<td bgcolor='#F2F2F2'>Moves the cursor to the beginning of the line.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Left Arrow or Ctrl-B</td>
+		<td bgcolor='#E9E7E8'>Moves the cursor one character to the left.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Esc B</td>
+		<td bgcolor='#F2F2F2'>Moves the cursor back one word to the left.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Esc F</td>
+		<td bgcolor='#E9E7E8'>Moves the cursor forward one word to the right.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Right Arrow or Ctrl-F</td>
+		<td bgcolor='#F2F2F2'>Moves the cursor one character to the right.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Ctrl-E</td>
+		<td bgcolor='#E9E7E8'>Moves the cursor to the end of command line.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Up Arrow or Ctrl-P</td>
+		<td bgcolor='#F2F2F2'>Recalls command in the history buffer, beginning with the most recent commands.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Ctrl-R or Ctrl-I or Ctrl-L</td>
+		<td bgcolor='#E9E7E8'>Redisplays the system prompt and command line after a console message is received.</td>
+	</tr>
+ 
+</table>]]></text>
+</component>
+<component id="ID_table02">
+<text><![CDATA[<table width="600" header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">	 
+	<tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="12"><b>At the "-----More-----" prompt</b></font></td>
+	</tr>
+
+	<tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'  width='135'>Enter Key</td>
+		<td bgcolor='#E9E7E8'>Displays the next line.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Space Bar</td>
+		<td bgcolor='#F2F2F2'>Displays the next screen.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Any Key</td>
+		<td bgcolor='#E9E7E8'>Ends the display string, returning to privileged EXEC mode.</td>
+	</tr>
+</table>]]></text>
+</component>
+
+
+
+<component id="ID_table03">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable"> 
+	<tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="12"><b>Break Keys</b></font></td>
+	</tr>
+
+	<tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'  width='135'>Ctrl-C</td>
+		<td bgcolor='#E9E7E8'>When in any configuration mode, ends the configuration mode and returns to privileged EXEC mode. When in setup mode, aborts back to the command prompt.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Ctrl-Z</td>
+		<td bgcolor='#F2F2F2'>When in any configuration mode, ends the configuration mode and returns to privileged EXEC mode.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Ctrl-Shift-6</td>
+		<td bgcolor='#E9E7E8'>All-purpose break sequence. Use to abort DNS lookups, traceroutes, pings.</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

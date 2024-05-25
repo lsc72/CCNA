@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+	<text><![CDATA[<b>IPv4 Routing Table for PC1</b>]]></text>
+	</component>
+
+	<component id="ID_txt05">
+	<text><![CDATA[&lt;output omitted&gt;]]></text> 
+	</component>
+
+	<component id="ID_txt06">
+	<text><![CDATA[&lt;output omitted&gt;]]></text> 
+	</component>
+
+</textcomponents>

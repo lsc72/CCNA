@@ -1,0 +1,75 @@
+<textcomponents>
+
+    <component id="ID_title">
+        <text><![CDATA[<b>Communicating on a Local Network</b>]]></text>
+    </component>
+    
+    <component id="ID_txt01">
+        <text><![CDATA[<b>Original Source</b>]]></text>
+    </component>
+    
+    <component id="ID_txt02">
+        <text><![CDATA[<b>Final Destination</b>]]></text>
+    </component>
+
+     <component id="ID_txt03">
+        <text><![CDATA[00-0A]]></text>
+    </component>
+
+     <component id="ID_txt04">
+        <text><![CDATA[00-0B]]></text>
+    </component>
+
+    <component id="ID_txt05">
+        <text><![CDATA[<b>Destination IP Address</b>]]></text>
+    </component>
+
+     <component id="ID_txt06">
+        <text><![CDATA[File Server]]></text>
+    </component>
+
+     <component id="ID_txt07">
+        <text><![CDATA[192.168.1.110]]></text>
+    </component>
+
+     <component id="ID_txt08">
+        <text><![CDATA[192.168.1.50]]></text>
+    </component>
+     
+
+     <component id="ID_txt09">
+        <text><![CDATA[MAC addresses are shortened for demonstration purposes.]]></text>
+    </component>
+
+     <component id="ID_txt10">
+        <text><![CDATA[<b>Destination MAC Address</b>]]></text>
+    </component>
+
+    <!-- Slide 1-->
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Destination MAC<br/>00-0B]]></text>
+    </component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Source MAC<br/>00-0A]]></text>
+    </component>
+
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Source IP<br/>192.168.1.110]]></text>
+    </component>
+
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Destination IP<br/>192.168.1.50]]></text>
+    </component>
+
+    <component id="ID_s1_txt05">
+        <text><![CDATA[L2 Ethernet Header]]></text>
+    </component>
+
+    <component id="ID_s1_txt06">
+        <text><![CDATA[L3 IP Packet]]></text>
+    </component>
+    
+  
+
+</textcomponents>

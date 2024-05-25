@@ -1,0 +1,73 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>Options de la commande extended <font face="_typewriter">traceroute</font></b>]]></text>
+</component>
+
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td width="200" bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Option</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Protocol [ip]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Invite à entrer un protocole pris en charge. Le protocole par défaut est IPv4.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Target IP address:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Entrez un nom d&apos;hôte ou une adresse IPv4. Il n&apos;y a pas de valeur par défaut.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Source address:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Interface ou adresse IPv4 du routeur à utiliser comme adresse source pour les sondes. Le routeur sélectionne normalement l&apos;adresse IPv4 de l&apos;interface de sortie à utiliser.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Numeric display [n]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Par défaut, il y a un affichage symbolique et un affichage numérique ; cependant, vous pouvez supprimer l&apos;affichage symbolique.</font></td>
+	</tr>	
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Timeout in seconds [3]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Délai, en secondes, avant l&apos;envoi d&apos;une réponse à un paquet d&apos;analyse. La valeur par défaut est 3 secondes.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Probe count [3]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Nombre de sondes à envoyer à chaque niveau de durée de vie. Le nombre par défaut est 3.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Minimum Time to Live [1]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Valeur de durée de vie des premières sondes. La valeur par défaut est 1, mais il est possible de définir une valeur supérieure pour supprimer l&apos;affichage des sauts connus.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Maximum Time to Live [30]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Valeur de durée de vie la plus grande pouvant être utilisée. La valeur par défaut est 30. La commande traceroute se termine lorsque la destination ou la valeur est atteinte.</font></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'><font face="_typewriter" color='#000000'>Port Number [33434]:</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Port de destination utilisé par les messages de sonde UDP. La valeur par défaut est 33434.</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font face="_typewriter" color='#000000'>Loose, Strict, Record, Timestamp, Verbose [none]:</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Options d&apos;en-tête IP. Vous pouvez spécifier toute combinaison. La commande traceroute émet des invites pour les champs obligatoires. Notez que la commande traceroute ajoute les options requises à chaque sonde ; toutefois, rien ne garantit que tous les routeurs (ou nœuds d&apos;extrémité) traitent les options.</font></td>
+	</tr>
+
+</table>]]></text>
+</component><!--End Slide 1--><!--Slide 2--><component id='ID_s2_title'>
+	<text><![CDATA[<b>Options de la commande <font face="_typewriter">tracert</font> de Windows</b>]]></text>
+</component>
+
+
+
+</textcomponents>

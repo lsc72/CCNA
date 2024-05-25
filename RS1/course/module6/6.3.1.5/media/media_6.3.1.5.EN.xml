@@ -1,0 +1,75 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Cisco 1941 Backplane</b>]]></text>
+	</component>
+	<component id='ID_titleTxt01'>
+	<text><![CDATA[Enhanced High-speed WAN Interface Card (eHWIC) Slots]]></text>
+</component>
+<component id='ID_titleTxt011'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_bodyTxt01'>
+	<text><![CDATA[Labeled as eHWIC 0 and eHWIC 1 to provide modularity and flexibility by enabling the router to support different types of interface modules, including serial, digital subscriber line (DSL), switch port, and wireless.]]></text>
+</component>
+
+<component id='ID_titleTxt02'>
+	<text><![CDATA[Compact Flash Slots]]></text>
+</component>
+<component id='ID_titleTxt012'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_bodyTxt02'>
+	<text><![CDATA[Labeled as CF0 and CF1 to provide increased storage flash space upgradable to 4 GB compact flash card per slot. By default, CF0 is populated with a 256 MB compact flash card and is the default boot location. 
+]]></text>
+</component>
+
+<component id='ID_titleTxt03'>
+	<text><![CDATA[Console Ports]]></text>
+</component>
+<component id='ID_titleTxt013'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_bodyTxt03'>
+	<text><![CDATA[For the initial configuration and command-line interface (CLI) management access. Two ports are available; the commonly used regular RJ-45 port and a new USB Type-B (mini-B USB) connector. However, the console can only be accessed by one port at a time.
+]]></text>
+</component>
+
+<component id='ID_titleTxt04'>
+	<text><![CDATA[Auxiliary (AUX)]]></text>
+</component>
+<component id='ID_titleTxt014'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_bodyTxt04'>
+	<text><![CDATA[RJ-45 port for remote management access similar to the Console port. Now considered a legacy port as it was used to provide support for dial-up modems.]]></text>
+</component>
+
+<component id='ID_titleTxt05'>
+	<text><![CDATA[Gigabit Ethernet]]></text>
+</component>
+
+<component id='ID_titleTxt015'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_bodyTxt05'>
+	<text><![CDATA[Interfaces labeled as GE0/0 and GE0/1. Typically used to provide LAN access by connecting to switches and users, or to interconnect to another router.]]></text>
+</component>
+
+<component id='ID_titleTxt06'>
+	<text><![CDATA[USB]]></text>
+</component>
+
+<component id='ID_titleTxt016'>
+	<text><![CDATA[&nbsp;]]></text>
+</component>
+
+<component id='ID_bodyTxt06'>
+	<text><![CDATA[Ports labeled as USB 0 and USB 1 to provide additional storage space similar to flash.]]></text>
+</component>
+
+</textcomponents>

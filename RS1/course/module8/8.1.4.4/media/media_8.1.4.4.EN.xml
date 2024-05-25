@@ -1,0 +1,58 @@
+	<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Activity – Calculate the Subnet Mask (Basic)</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+		<text><![CDATA[In this activity, you are given a subnet mask in decimal format.Enter the binary representation of the subnet mask in the octet fields provided.Additionally, convert the mask to prefix notation (/x) format in the Prefix Notation field.]]></text>
+	</component>
+	
+	<component id="txt_correct">
+		<text><![CDATA[Correct]]></text>
+	</component>
+	
+	<component id="txt_incorrect">
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+	
+	<component id="txt_body_correct">
+		<text><![CDATA[You have correctly converted the subnet mask to binary and prefix notation formats. Please click New Number to continue.]]></text>
+	</component>
+	
+	<component id="txt_body_incorrect">
+		<text><![CDATA[You have not correctly converted the subnet mask to binary and/or prefix notation formats. Please click Reset to try again.]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[Subnet Mask]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+	<text><![CDATA[Subnet Mask in binary]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[Prefix notation]]></text>
+	</component>
+	
+	<component id="txt_check">
+	<text><![CDATA[Check]]></text>
+	</component>
+	
+	<component id="txt_reset">
+	<text><![CDATA[Reset]]></text>
+	</component>
+	
+	<component id="txt_newnumber">
+	<text><![CDATA[New Number]]></text>
+	</component>
+
+	<component id="mask">
+	<text><![CDATA[<b>Calculate Subnet Mask</b>]]></text>
+	</component>
+
+</textcomponents>

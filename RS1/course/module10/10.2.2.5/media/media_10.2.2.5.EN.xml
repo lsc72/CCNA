@@ -1,0 +1,57 @@
+﻿<textcomponents>
+<component id="ID_s1_txt01">
+<text><![CDATA[<b>Internet</b>]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[ISP 1]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[ISP 2]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[ISP 3]]></text> 
+</component>
+
+<component id="ID_s1_txt05">
+<text><![CDATA[<b>ISP DHCP Server</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+<text><![CDATA[<b>Router DHCP Server</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+<text><![CDATA[DHCP Client]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+<text><![CDATA[DHCP Clients]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+<text><![CDATA[DHCP Clients]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+<text><![CDATA[<b>DHCP Server</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt11">
+<text><![CDATA[<b>Local DHCP Server</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt12">
+<text><![CDATA[<b>Corporate Network</b>]]></text> 
+</component>
+
+<component id="ID_s1_txt13">
+<text><![CDATA[Home and Small Business Network]]></text> 
+</component>
+
+<component id="ID_s1_txt14">
+<text><![CDATA[<b>Mobile Worker</b>]]></text> 
+</component>
+</textcomponents>

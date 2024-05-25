@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Travaux pratiques]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Test de connectivité réseau à l'aide des commandes Ping et Traceroute]]></text>
+	</component>
+	
+</textcomponents>

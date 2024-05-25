@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.1.3 Vérification et surveillance de la solution</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Vérification et surveillance de la solution</h1>
+        <div>
+          <p>Cisco IOS inclut des outils puissants de vérification et de dépannage. Lorsqu'un problème a été résolu et une solution mise en œuvre, il est important de vérifier le fonctionnement du système. Les outils de vérification incluent les commandes <b>ping</b>,<b> traceroute</b> et<b> show</b>. La commande <b>ping</b> sert à tester la connectivité réseau.</p>
+          <p></p>
+          <p>Si une commande <b>ping</b> aboutit, comme illustré dans la figure 1, on peut aisément conclure que les paquets sont acheminés de la source à la destination.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : lorsqu'une commande <b>ping</b> échoue, elle ne fournit généralement pas suffisamment d'informations pour tirer des conclusions. Cela peut être dû au blocage des paquets ICMP par une liste de contrôle d'accès ou un pare-feu ; il est aussi possible que le périphérique de destination ne soit pas configuré pour répondre aux requêtes ping. L'échec d'une commande ping est généralement le signe qu'une investigation plus approfondie est nécessaire.</p>
+          <p></p>
+          <p>La commande <b>traceroute</b>, comme le montre la figure 2, permet d'afficher le chemin emprunté par les paquets pour atteindre une destination. Tandis que le résultat d'une commande <b>ping </b>indique si un paquet est arrivé à destination, celui d'une commande <b>traceroute</b> indique le chemin emprunté pour arriver à cette destination ou l'endroit exact où le paquet a été bloqué.</p>
+          <p></p>
+          <p>Les commandes <b>show</b> comptent parmi les outils de dépannage et de vérification les plus utiles du système Cisco IOS. Tirant parti d'une grande variété d'options et de sous-options, la commande <b>show</b> peut être utilisée pour filtrer ou afficher des informations concernant la quasi-totalité des aspects d'IOS.</p>
+          <p></p>
+          <p>La figure 3 illustre le résultat de la commande <b>show ip interface brief</b>. Notez que les deux interfaces configurées avec des adresses IPv4 sont « up » et « up ». Ces interfaces peuvent envoyer et recevoir du trafic. Les trois autres interfaces n'ont pas d'adressage IPv4 et sont administrativement désactivées.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1, 2, and 3 show a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Figure 1 shows ping command output. Figure 2 shows traceroute output. Figure 3 shows output for the ‘show ip interface brief’ command.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

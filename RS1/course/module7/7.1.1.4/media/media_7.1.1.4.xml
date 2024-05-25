@@ -1,0 +1,263 @@
+﻿<textcomponents><!-- slide 1 --><component id='ID_s1_title'>
+		<text><![CDATA[<b>Conversion du premier octet en nombre décimal</b>]]></text>
+	</component>
+
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Notation en décimale à point]]></text>
+	</component>
+	
+	<component id='ID_s1_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr>
+				<td bgcolor='#FFFFFF' colspan='9' class="mtitle"><font size='12' color="#1C3635"><b ></b></font></td>
+			</tr>
+			<tr>
+				<td colspan='9' bgcolor='#4E4C4D' class="mtable_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+			</tr>  
+			<tr>
+				<td bgcolor='#666263' width="220"><p><font color="#FFFFFF"><b>Valeur pondérée</b></font></p></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>128</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>64</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>32</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>16</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>8</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>4</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>2</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>1</b></p></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Nombre binaire</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Calcul</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 128</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 64</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 32</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 16</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 8</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 4</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 2</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 1</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Produit</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>128</p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 64   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Le résultat</b></font></p></td>
+				<td bgcolor='#E9E7E8' colspan="8"><font color='#46A040'><p align='center'><b>192
+
+</b></p></font></td>
+			</tr>
+		</table>]]></text>
+	</component><!-- end slide 1 --><!-- slide 2 --><component id='ID_s2_title'>
+		<text><![CDATA[<b>Conversion du deuxième octet en nombre décimal</b>]]></text>
+	</component>
+
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[Notation en décimale à point]]></text>
+	</component>
+	
+	<component id='ID_s2_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr>
+				<td bgcolor='#FFFFFF' colspan='9' class="mtitle"><font size='12' color="#1C3635"><b ></b></font></td>
+			</tr>
+			<tr>
+				<td colspan='9' bgcolor='#4E4C4D' class="mtable_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+			</tr>  
+			<tr>
+				<td bgcolor='#666263' width="220"><p><font color="#FFFFFF"><b>Valeur pondérée</b></font></p></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>128</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>64</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>32</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>16</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>8</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>4</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>2</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>1</b></p></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Nombre binaire</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Calcul</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 128</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 64</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 32</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 16</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 8</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 4</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 2</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 1</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Produit</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>128</p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 32   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 8   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Le résultat</b></font></p></td>
+				<td bgcolor='#E9E7E8' colspan="8"><font color='#46A040'><p align='center'><b>168</b></p></font></td>
+			</tr>
+		</table>]]></text>
+	</component><!-- end slide 2 --><!-- slide 3 --><component id='ID_s3_title'>
+		<text><![CDATA[<b>Numération pondérée binaire</b>]]></text>
+	</component>
+
+	<component id='ID_s3_txt01'>
+		<text><![CDATA[Notation en décimale à point]]></text>
+	</component>
+	
+	<component id='ID_s3_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr>
+				<td bgcolor='#FFFFFF' colspan='9' class="mtitle"><font size='12' color="#1C3635"><b ></b></font></td>
+			</tr>
+			<tr>
+				<td colspan='9' bgcolor='#4E4C4D' class="mtable_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+			</tr>  
+			<tr>
+				<td bgcolor='#666263' width="220"><p><font color="#FFFFFF"><b>Valeur pondérée</b></font></p></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>128</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>64</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>32</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>16</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>8</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>4</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>2</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>1</b></p></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Nombre binaire</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Calcul</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 128</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 64</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 32</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 16</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 8</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 4</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 2</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 1</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Produit</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>0</p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 8   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 2   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 1   </p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Le résultat</b></font></p></td>
+				<td bgcolor='#E9E7E8' colspan="8"><font color='#46A040'><p align='center'><b>11</b></p></font></td>
+			</tr>
+		</table>]]></text>
+	</component><!-- end slide 3 --><!-- slide 4 --><component id='ID_s4_title'>
+		<text><![CDATA[<b>Application de la numération pondérée binaire</b>]]></text>
+	</component>
+
+	<component id='ID_s4_txt01'>
+		<text><![CDATA[Notation en décimale à point]]></text>
+	</component>
+	
+	<component id='ID_s4_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr>
+				<td bgcolor='#FFFFFF' colspan='9' class="mtitle"><font size='12' color="#1C3635"><b ></b></font></td>
+			</tr>
+			<tr>
+				<td colspan='9' bgcolor='#4E4C4D' class="mtable_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+			</tr>  
+			<tr>
+				<td bgcolor='#666263' width="220"><p><font color="#FFFFFF"><b>Valeur pondérée</b></font></p></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>128,0</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>64</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>32</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>16</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>8</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>4</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>2</b></p></font></td>
+				<td bgcolor='#E9E7E8'><font color='#46A040'><p align='center'><b>1</b></p></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Nombre binaire</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>1</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'><font color='#F68026'><b>0</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Calcul</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 128</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 64</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 32</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 16</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 8</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 4</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>1</b></font> x<font color='#46A040'><b> 2</b></font></p></td>
+				<td bgcolor='#E9E7E8'><p align='center'><font color='#F68026'><b>0</b></font> x<font color='#46A040'><b> 1</b></font></p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Produit</b></font></p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>0</p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 8   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 2   </p></td>
+				<td bgcolor='#F2F2F2'><p align='center'>+ 0   </p></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263'><p><font color="#FFFFFF"><b>Le résultat</b></font></p></td>
+				<td bgcolor='#E9E7E8' colspan="8"><font color='#46A040'><p align='center'><b>10</b></p></font></td>
+			</tr>
+		</table>]]></text>
+	</component><!-- end slide 4 --></textcomponents>

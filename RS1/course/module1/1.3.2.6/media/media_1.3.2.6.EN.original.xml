@@ -1,0 +1,146 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Activity – Network Architecture Requirements</b>]]></text>
+</component>
+
+<!-- instructions -->
+<component id="ID_instr_title">
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id="ID_instr_body">
+	<text><![CDATA[Select the appropriate column to identify the network architecture requirement to which each characteristic or feature belongs.]]></text>
+</component>
+
+<!-- buttons -->
+<component id="ID_s1_CHECK">
+	<text><![CDATA[<b>Check</b>]]></text>
+</component>
+
+<component id="ID_s1_RESET">
+	<text><![CDATA[<b>Reset</b>]]></text>
+</component>
+
+<!--Number of rows in the table-->
+<component id="txt_numrows">
+	<text><![CDATA[8]]></text>
+</component>
+
+<!--Number of columns for the answers in the table. Do not count the question column-->
+<component id="txt_numcols">
+	<text><![CDATA[4]]></text>
+</component>
+
+<!--Answer column headers-->
+<component id="MCTable_title">
+    <text><![CDATA[ ]]></text>
+</component>
+
+<component id="txt_col1">
+	<text><![CDATA[<b>Fault <br/>Tolerance</b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>Scalability</b>]]></text>
+</component>
+
+<component id="txt_col3">
+	<text><![CDATA[<b>Quality <br/>of Service</b>]]></text>
+</component>
+
+<component id="txt_col4">
+	<text><![CDATA[<b>Security</b>]]></text>
+</component>
+
+
+
+
+<!--Question text - blockindent code moves the text away from the left edge a bit-->
+<!--Question text - If questions are numbered, use blockindent for hanging indents-->
+<component id="txt_q1">
+	<text><![CDATA[1. <textformat blockindent='12'>Networks should always be available.</textformat>]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[2. <textformat blockindent='12'>Priority queues are implemented when demand for network <span class="spaceLeft">bandwidth exceeds supply.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[3. <textformat blockindent='12'>Business and personal network equipment must be<br/><span class="spaceLeft">protected.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[4. <textformat blockindent='12'>Developing a plan for priority queuing is a strategy for<br/><span class="spaceLeft">quality delivery of information.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q5">
+	<text><![CDATA[5. <textformat blockindent='12'>Business and personal data must be protected.</textformat>]]></text>
+</component>
+
+<component id="txt_q6">
+	<text><![CDATA[6. <textformat blockindent='12'>Networks can grow or expand with minimal impact on<br/><span class="spaceLeft">performance.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q7">
+	<text><![CDATA[7. <textformat blockindent='12'>Data can travel through more than one route for delivery<br/><span class="spaceLeft">from a remote source.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q8">
+	<text><![CDATA[8. <textformat blockindent='12'>Common network standards allow hardware and software<br/><span class="spaceLeft">vendors to focus on product improvements and services.</span></textformat>]]></text>
+</component>
+
+
+<!--Answers - Give the column number(s), column numbering start with 1 not 0-->
+<!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+<component id="txt_a1">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[3]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[4]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[3]]></text>
+</component>
+
+<component id="txt_a5">
+	<text><![CDATA[4]]></text>
+</component>
+
+<component id="txt_a6">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a7">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a8">
+	<text><![CDATA[2]]></text>
+</component>
+
+<!-- Correct Feedback -->
+<component id="ID_titleCorrect">
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[You have successfully matched each characteristic to its network architecture requirement.]]></text>
+</component>
+
+<!-- Incorrect Feedback -->
+<component id="ID_titleIncorrect">
+	<text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[You have not successfully matched each characteristic to its network architecture requirement. Please click Reset and try again.]]></text>
+</component>
+
+</textcomponents>

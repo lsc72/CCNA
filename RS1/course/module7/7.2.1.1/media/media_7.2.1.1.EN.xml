@@ -1,0 +1,26 @@
+<textcomponents>
+
+  <component id="ID_title">
+     <text><![CDATA[<b>RIR IPv4 Exhaustion Dates</b>]]></text>
+  </component>
+  <component id="transcript">
+     <text><![CDATA[transcript goes here</b>]]></text> 
+  </component>
+
+  <component id="ID_txt01">
+  	<text><![CDATA[IPv4 exhaustion date July 2015]]></text>
+  </component>
+  <component id="ID_txt02">
+  	<text><![CDATA[IPv4 exhaustion date September 2012]]></text>
+  </component>
+  <component id="ID_txt03">
+  	<text><![CDATA[IPv4 exhaustion date April 2011]]></text>
+  </component>
+  <component id="ID_txt04">
+  	<text><![CDATA[Projected IPv4 exhaustion date 2019]]></text>
+  </component>
+  <component id="ID_txt05">
+  	<text><![CDATA[IPv4 exhaustion date June 2014]]></text>
+  </component>
+  
+</textcomponents>

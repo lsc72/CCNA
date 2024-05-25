@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.3 Hiérarchie DNS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Hiérarchie DNS</h1>
+        <div>
+          <p>Le protocole DNS utilise un système hiérarchique pour créer une base de données assurant la résolution des noms. La hiérarchie ressemble à une arborescence inversée dont la racine se situe au sommet et les branches en dessous (voir la figure). DNS utilise des noms de domaines pour élaborer sa hiérarchie.</p>
+          <p>La structure d'attribution de noms est divisée en petites zones gérables. Chaque serveur DNS tient à jour un fichier de base de données spécifique et se charge uniquement des mappages entre noms et adresses IP dans cette petite partie de la structure DNS globale. Lorsqu'un serveur DNS reçoit une demande de traduction de nom qui n'appartient pas à cette zone DNS, le serveur DNS transfère la requête à un autre serveur DNS se trouvant dans la zone de traduction correcte. </p>
+          <p>
+            <b>Remarque</b> : le système de noms de domaine est évolutif, car la conversion des noms d'hôte s'étend à plusieurs serveurs.</p>
+          <p>Les différents domaines de premier niveau représentent le type d'organisation ou le pays d'origine. Voici des exemples de domaines de premier niveau :</p>
+          <p>
+            <ul>
+              <li>
+                <b>.com</b> : entreprise ou industrie</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.org</b> : organisme à but non lucratif</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.au</b> : Australie</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>.co</b> : Colombie</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the DNS hierarchy.  A client communicates with a local DNS server.  That server can communicate with Top-level domain servers for records it does not have in its DNS database.  The Top-Level servers can communicate with the Root servers for any records they do not have.  The Root servers have All DNS records.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

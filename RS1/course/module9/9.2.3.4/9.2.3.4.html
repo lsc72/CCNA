@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.3.4 Processus des clients UDP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Processus des clients UDP</h1>
+        <div>
+          <p>Comme c'est le cas avec le protocole TCP, la communication entre le client et le serveur est initiée par une application cliente qui demande des données à un processus serveur. Le processus client UDP sélectionne dynamiquement un numéro de port dans une plage de numéros de ports et il l'utilise en tant que port source pour la conversation. Le port de destination est généralement le numéro de port réservé affecté au processus serveur. </p>
+          <p>Une fois qu'un client a choisi le port source et le port de destination, la même paire de ports est utilisée dans l'en-tête de tous les datagrammes employés dans la transaction. Quand des données sont renvoyées du serveur vers le client, les numéros de port source et de port de destination sont inversés dans l'en-tête du datagramme.</p>
+          <p>Parcourez les figures 1 à 5 pour voir les détails des processus client UDP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a server running a DNS server on port 53 and a RADIUS server on port 1812.  The figure has two clients accessing the server.  Client 1 is sending a DNS request from source port 49152 to destination port 53.  Client 2 is sending a RADIUS request from source port 51152 to destination port 1812.  This demonstrates how port numbers are used to differentiate between multiple services running on one server. Figure 2 highlights the use of the well-known ports for the services. Figure 3 highlights the use of random port numbers as the source ports. Figure 4 highlights the response from the server to each of the two requests and the fact that the server uses the source port from the request packet as the destination. Figure 5 highlights the new destination port.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

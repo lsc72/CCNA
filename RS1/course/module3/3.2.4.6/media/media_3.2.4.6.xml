@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Analyse des modèles OSI et TCP/IP en action]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,193 @@
+<textcomponents>
+    <!--Slide 1-->
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<b>Attaque par déni de service (DoS)</b>]]></text>
+    </component>
+    <component id="ID_s2__title">
+        <text>
+            <![CDATA[<b>Exploitation de la confiance</b>]]></text>
+    </component>
+    <component id='ID_s1_table'>
+        <text>
+            <![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+<tr class="mtable_top">
+<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+</tr>				
+<tr>
+<td bgcolor='#666263' width='300' valign="top"><font size='11' color='#ffffff'><b>Surcharge des ressourcess</b></font></td>
+<td bgcolor='#666263' width='300' valign="top"><font size='11' color='#ffffff'><b>Données mal formées</b></font></td>
+</tr>
+<tr>
+<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Espace disque, bande passante, tampons</font></td>
+<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Paquets surdimensionnés (ping fatal)</font></td>
+</tr>
+<tr>
+<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Inondation de paquets ping (Smurf)</font></td>
+<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Chevauchement de paquets (Winuke)</font></td>
+</tr>
+<tr>
+<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Inondations de paquets (bombes UDP, attaques Fraggle)</font></td>
+<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Unhandled data such as teardrop</font></td>
+</tr>				
+</table>]]>
+        </text>
+    </component>
+    <component id="ID_s1_txt01">
+        <text>
+            <![CDATA[Les attaques par déni de service empêchent l'utilisation d'un service par les personnes autorisées en épuisant les ressources du système.]]>
+        </text>
+    </component>
+    <!--Slide 2-->
+    <component id="ID_s2_title">
+        <text>
+            <![CDATA[<b>Ping fatal</b>]]></text>
+    </component>
+    <component id="ID_s2_txt01">
+        <text>
+            <![CDATA[Internet]]>
+        </text>
+    </component>
+    <component id="ID_s2_txt02">
+        <text>
+            <![CDATA[Ordinateur attaquant]]>
+        </text>
+    </component>
+    <component id='ID_s2_txt03'>
+        <text>
+            <![CDATA[Le pirate envoie un paquet ping mal formé ou de très grande taille.]]>
+        </text>
+    </component>
+    <!--Slide 3-->
+    <component id="ID_s3_title">
+        <text>
+            <![CDATA[<b>Attaque par inondation SYN</b>]]></text>
+    </component>
+    <component id="ID_s3_txt01">
+        <text>
+            <![CDATA[L'attaquant envoie un grand nombre de requêtes SYN au serveur Web]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt02">
+        <text>
+            <![CDATA[Le serveur Web envoie des réponses SYN-ACK]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt03">
+        <text>
+            <![CDATA[Le serveur Web attend pour terminer la connexion en trois étapes]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt04">
+        <text>
+            <![CDATA[Un utilisateur autorisé envoie une requête SYN]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt05">
+        <text>
+            <![CDATA[Le serveur Web n'est plus disponible]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt06">
+        <text>
+            <![CDATA[Serveur Web]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt07">
+        <text>
+            <![CDATA[Serveur Web]]>
+        </text>
+    </component>
+    <component id="ID_s3_txt08">
+        <text>
+            <![CDATA[Serveur Web]]>
+        </text>
+    </component>
+    <!--Slide 4-->
+    <component id="ID_s4_title">
+        <text>
+            <![CDATA[<b>DDoS</b>]]></text>
+    </component>
+    <component id="ID_s4_txt01">
+        <text>
+            <![CDATA[Client / pirate]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt02">
+        <text>
+            <![CDATA[Gestionnaires]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt03">
+        <text>
+            <![CDATA[Agents /<br/>zombies]]>
+        </text>
+    </component>
+    <component id="ID_s4_txt04">
+        <text>
+            <![CDATA[Victime]]>
+        </text>
+    </component>
+    <component id='ID_s4_txt05'>
+        <text>
+            <![CDATA[Le pirate utilise plusieurs hôtes intermédiaires, appelés zombies, pour lancer l'attaque.]]>
+        </text>
+    </component>
+    <!--Slide 5-->
+    <component id="ID_s5_title">
+        <text>
+            <![CDATA[<b>Attaque Smurf</b>]]></text>
+    </component>
+    <component id="ID_s5_txt01">
+        <text>
+            <![CDATA[Zombies]]>
+        </text>
+    </component>
+    <component id="ID_s5_txt02">
+        <text>
+            <![CDATA[Victime]]>
+        </text>
+    </component>
+    <component id="ID_s5_txt03">
+        <text>
+            <![CDATA[Amplificateur Smurf]]>
+        </text>
+    </component>
+    <component id="ID_s5_txt04">
+        <text>
+            <![CDATA[Tentative de saturation de la liaison de réseau étendu vers la destination]]>
+        </text>
+    </component>
+    <!--ANIMATION CONTROLLER-->
+    <component id="end">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+</textcomponents>

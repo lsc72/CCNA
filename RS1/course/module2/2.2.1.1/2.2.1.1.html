@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>2.2.1.1 Noms de périphérique</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_2.2.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Noms de périphérique</h1>
+        <div>
+          <p>Lors de la configuration d'un périphérique réseau, l'une des premières étapes est la configuration d'un nom de périphérique ou d'hôte unique. Les noms d'hôte qui apparaissent dans les invites de la CLI peuvent être utilisés dans différents processus d'authentification entre les périphériques et doivent être utilisés dans les bases de données topologiques.</p>
+          <p></p>
+          <p>Si le nom du périphérique n'est pas explicitement configuré, un nom par défaut est utilisé par Cisco IOS. Le nom par défaut d'un commutateur Cisco IOS est « Switch » (Commutateur). Si tous les périphériques réseau ont conservé leurs noms par défaut, il sera difficile d'identifier un périphérique spécifique. Par exemple, en accédant à un périphérique distant avec une connexion SSH, il est important de vous assurer que vous êtes connecté au périphérique approprié.</p>
+          <p></p>
+          <p>En revanche, si vous les choisissez intelligemment, vous n'aurez aucune peine à mémoriser, décrire et utiliser les noms des périphériques réseau. Les directives pour la configuration des noms d'hôte sont répertoriées dans la figure 1.</p>
+          <p></p>
+          <p>IOS distingue les majuscules des minuscules dans les noms d'hôte utilisés pour les périphériques. Vous pouvez donc utiliser des majuscules comme vous le feriez normalement pour un nom. Contrairement à IOS, la plupart des systèmes d'attribution de noms Internet ne font aucune distinction entre majuscules et minuscules. </p>
+          <p></p>
+          <p>Par exemple, dans la figure 2, trois commutateurs couvrant trois étages différents sont interconnectés sur un réseau. La convention d'attribution de noms utilisée a pris en compte l'emplacement et le rôle que joue chaque périphérique. La documentation réseau doit expliquer comment ces noms ont été choisis afin que des périphériques supplémentaires puissent être nommés en conséquence.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the guidelines for choosing a hostname. Hostnames should: start with a letter; contain no spaces; end with a letter or digit; use only letters, digits, and dashes; and be less than 64 characters in length. Figure 2 a technician connected to a switch that is part of a network of three switches. Each switch is named with a descriptive name so it is easy to know which device you are configuring.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

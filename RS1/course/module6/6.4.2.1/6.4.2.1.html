@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.2.1 Configurer les interfaces du routeur</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configurer les interfaces du routeur</h1>
+        <div>
+          <p>Pour que les routeurs soient accessibles, les interfaces de routeur intrabandes doivent être configurées. Il existe différents types d'interfaces disponibles sur les routeurs Cisco. Dans cet exemple, le routeur Cisco 1941 est équipé de :</p>
+          <p>
+            <ul>
+              <li>
+                <b>deux interfaces Gigabit Ethernet</b> - GigabitEthernet 0/0 (G0/0) et GigabitEthernet 0/1 (G0/1)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>une carte d'interface WAN série (WIC) composée de deux interfaces</b> - série 0/0/0 (S0/0/0) et série 0/0/1 (S0/0/1)</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : cliquez <a href="http://www.cisco.com/c/en/us/td/docs/routers/access/2900/hardware/installation/guide/Hardware_Installation_Guide/Overview.html" target="_blank">ici</a> pour en savoir plus sur les abréviations et la numérotation des interfaces.</p>
+          <p>Les tâches de configuration d'une interface de routeur sont énumérées à la figure 1. Notez qu'elles sont très similaires aux tâches de configuration d'une interface SVI sur un commutateur. </p>
+          <p>Bien que facultative, la configuration d'une description sur chaque interface est recommandée pour mieux documenter les informations réseau. Le texte de description est limité à 240 caractères. Sur les réseaux de production, une description peut être utile en matière de dépannage, puisqu'elle fournit des informations sur le type de réseau auquel l'interface se connecte et indique la présence éventuelle d'autres routeurs sur ce réseau. Si l'interface se connecte à un FAI ou à un fournisseur de services, il est utile de saisir les informations de connexion et de contact de ce fournisseur.</p>
+          <p>La commande <b>no shutdown</b> active l'interface, ce qui est comparable à la mise sous tension de l'interface. L'interface doit également être connectée à un autre périphérique (concentrateur, commutateur ou autre routeur) pour que la couche physique soit active.</p>
+          <p>La figure 2 présente la configuration des interfaces LAN connectées au routeur R1. </p>
+          <p>Utilisez le contrôleur de syntaxe de la figure 3 pour vous entraîner à configurer une interface LAN.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the commands to configure a router interface including: interface type and number; ip address; description; and the no shutdown command. Figure 2 show an example of configuring these commands. Figure 3 is a Syntax Checker allowing the learner to practice configuring router interfaces.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

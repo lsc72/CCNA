@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.1.1.6 Protocole UDP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.1.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Protocole UDP</h1>
+        <div>
+          <p>Si les fonctionnalités de fiabilité TCP permettent d'améliorer la qualité des communications entre les applications, elles engendrent également une surcharge supplémentaire et d'éventuels retards de transmission. Un compromis doit donc être établi entre la valeur accordée à la fiabilité et la charge qu'elle représente sur le réseau. Ajouter une surcharge pour garantir la fiabilité de certaines applications peut diminuer l'utilité de l'application et même lui porter préjudice. Dans ce cas, le protocole UDP représente un meilleur protocole de transport. </p>
+          <p>Le protocole UDP fournit des fonctions de base permettant d'acheminer des segments de données entre les applications appropriées tout en ne nécessitant que très peu de surcharge et de vérification des données. Le protocole UDP est un protocole d'acheminement au mieux. Dans le contexte des réseaux, l'acheminement au mieux est considéré comme n'étant pas fiable, car aucun accusé de réception ne confirme que les données sont arrivées à destination. Avec le protocole UDP, aucun processus de couche transport ne signale à l'expéditeur si la livraison a réussi.</p>
+          <p>Le protocole UDP revient à poster une lettre normale, sans accusé de réception. L'expéditeur de la lettre ne sait pas si le destinataire pourra la recevoir. En outre, le bureau de poste n'est pas responsable du suivi de la lettre et ne doit pas non plus informer l'expéditeur si elle n'atteint pas sa destination finale. </p>
+          <p>Cliquez sur le bouton Lecture dans la figure pour voir une animation montrant le cheminement des segments UDP transmis par l'expéditeur au destinataire. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation that shows a computer sending a file to a server using the TFTP application, which utilizes the UDP at the transport layer.  The data is segmented into six segments and all packets leave the computer and are sent to a router and then directed to the TFTP server on a remote server farm network.  The server receives all the packets, but since it is using UDP no acknowledgment packet is sent from the server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

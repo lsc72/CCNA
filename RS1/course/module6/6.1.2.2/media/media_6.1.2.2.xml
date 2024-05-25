@@ -1,0 +1,60 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+        <text><![CDATA[<b>Caractéristiques du protocole IP</b>]]></text>
+    </component>
+    
+    <component id="ID_txt01">
+        <text><![CDATA[Trame]]></text>
+    </component>
+    
+    <component id="ID_txt02">
+        <text><![CDATA[En-tête IP]]></text>
+    </component>
+
+	<component id="ID_txt03">
+        <text><![CDATA[Données]]></text>
+    </component>
+	
+     <component id="ID_txt04">
+        <text><![CDATA[Adresse IP source]]></text>
+    </component>
+
+     <component id="ID_txt05">
+        <text><![CDATA[Adresse IP de destination]]></text>
+    </component>
+
+    <component id="ID_txt06">
+        <text><![CDATA[Sans connexion]]></text>
+    </component>
+
+     <component id="ID_txt07">
+        <text><![CDATA[Acheminement au mieux]]></text>
+    </component>
+
+     <component id="ID_txt08">
+        <text><![CDATA[Indépendant du support]]></text>
+    </component>
+
+	<component id="ID_s1_titleTxt01">
+        <text><![CDATA[Sans connexion]]></text>
+    </component>
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[Aucune connexion avec la destination n'est établie avant l'envoi des paquets de données.]]></text>
+    </component>
+
+	<component id="ID_s1_titleTxt02">
+        <text><![CDATA[Acheminement au mieux]]></text>
+    </component>
+	<component id="ID_s1_bodyTxt02">
+        <text><![CDATA[IP n'est pas fiable par nature, car la livraison des paquets n'est pas garantie.]]></text>
+    </component>
+	
+	<component id="ID_s1_titleTxt03">
+        <text><![CDATA[Indépendant du support]]></text>
+    </component>
+	<component id="ID_s1_bodyTxt03">
+        <text><![CDATA[Le fonctionnement est indépendant du support (cuivre, fibre optique ou sans fil) qui transporte les données.]]></text>
+    </component>
+	
+</textcomponents>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.1 Parties réseau et hôte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Parties réseau et hôte</h1>
+        <div>
+          <p>Il est important de comprendre la notation binaire pour déterminer si deux hôtes se trouvent sur le même réseau. Rappelez-vous qu'une adresse IPv4 est une adresse hiérarchique qui se compose d'une partie réseau et d'une partie hôte. Lorsque vous déterminez la partie réseau et la partie hôte, il est nécessaire d'examiner le flux de 32 bits. Dans le flux de 32 bits, une partie des bits constitue la partie réseau et une autre partie des bits compose la partie hôte, comme le montre la figure ci-contre.</p>
+          <p>Les bits de la partie réseau de l'adresse doivent être identiques pour tous les périphériques installés sur le même réseau. Les bits de la partie hôte de l'adresse doivent être uniques, pour identifier un hôte spécifique dans un réseau. Si la partie réseau du flux de 32 bits est la même sur deux hôtes, ces deux hôtes résident sur le même réseau. </p>
+          <p>Mais comment les hôtes repèrent-ils la portion du flux de 32 bits qui représente la partie réseau par rapport à celle qui représente la partie hôte ? C'est le rôle du <i>masque de sous-réseau</i>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the dotted decimal IPv4 address 192.168.10.10 and the binary values for the octets below it. The IP addresses is divided into the network portion and the host portion with the first three octets in the network and the fourth octet in the host.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

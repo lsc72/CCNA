@@ -1,0 +1,99 @@
+<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+        <text><![CDATA[<b>Méthode EUI-64</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Annonce de routeur ICMPv6]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Dans le message d'annonce de routeur (RA)]]></text>
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Créé par le périphérique client]]></text>
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Prefix]]></text>
+    </component>
+    
+    <component id="ID_s1_txt05">
+        <text><![CDATA[ID d'interface]]></text>
+    </component>
+    
+    <component id="ID_s1_txt06">
+        <text><![CDATA[<b>EUI-64 ou nombre à 64 bits aléatoire</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_txt07">
+        <text><![CDATA[/64]]></text>
+    </component>
+    
+    <component id="ID_bubble01">
+        <text><![CDATA[<font color="#ffffff">Personne n'enregistre l'adresse IPv6 que j'utilise.</font>]]></text>
+    </component><!-- Slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>Méthode EUI-64</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[OUI<br>24 bits]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Identificateur de périphérique<br>24 bits]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Méthode EUI-64]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[Binaire]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Binaire]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[Binaire]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[Binaire]]></text>
+	</component>
+		
+	<component id="ID_s2_txt08">
+		<text><![CDATA[<b>Étape 1 : diviser l'adresse MAC</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt09">
+		<text><![CDATA[<b>Étape 2 : insérer le FFFE</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt10">
+		<text><![CDATA[<b>Étape 3 : inverser le bit U/L</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt11">
+		<text><![CDATA[ID d'interface EUI-64 modifié en notation hexadécimale]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+        <text><![CDATA[<b>Dans le message d'annonce de routeur (RA)</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+        <text><![CDATA[<b>Méthode EUI-64</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt01">
+        <text><![CDATA[<b>Dans le message d'annonce de routeur (RA)</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+        <text><![CDATA[<b>Nombre à 64 bits aléatoire</b>]]></text>
+	</component>
+    
+</textcomponents>

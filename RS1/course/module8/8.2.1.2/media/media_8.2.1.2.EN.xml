@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Primary Considerations when Planning Address Allocations</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Prevent Duplication of Addresses]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Provide and Control Access]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Monitor Security and Performance]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Planning Address Allocation</b>]]></text>
+	</component>
+	
+</textcomponents>

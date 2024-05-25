@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.4.3 Configuration dynamique - SLAAC</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration dynamique - SLAAC</h1>
+        <div>
+          <p>La configuration automatique des adresses sans état (SLAAC) est une méthode permettant à un périphérique d'obtenir son préfixe, la longueur de préfixe, l'adresse de la passerelle par défaut et d'autres informations auprès d'un <i>routeur IPv6</i>, sans l'intervention d'un serveur DHCPv6. Lorsque la SLAAC est utilisée, les périphériques se basent sur les messages d'annonce de routeur ICMPv6 du routeur local pour obtenir les informations nécessaires.</p>
+          <p>Les routeurs IPv6 envoient des messages d'annonce de routeur ICMPv6 toutes les 200 secondes à tous les périphériques IPv6 du réseau. Un message d'annonce de routeur est également envoyé en réponse à un hôte qui envoie un message de sollicitation de routeur ICMPv6.</p>
+          <p>Le routage IPv6 n'est pas activé par défaut. Pour sélectionner l'IPv6 sur un routeur, la commande de configuration globale <b>ipv6 unicast-routing</b> doit être utilisée. </p>
+          <p>
+            <b>Remarque</b> : des adresses IPv6 peuvent être configurées sur un routeur qui n'est pas un routeur IPV6.</p>
+          <p>Le message d'annonce de routeur ICMPv6 indique à un périphérique comment obtenir une adresse de diffusion globale IPv6. La décision finale revient au système d'exploitation de l'appareil. Le message d'annonce de routeur contient les éléments suivants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>le préfixe de réseau et la longueur de préfixe</b>, qui indiquent au périphérique le réseau auquel il appartient.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse de la passerelle par défaut</b>, qui est une adresse link-local et l'adresse IPv6 source du message d'annonce de routeur.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>les adresses DNS et le nom de domaine</b>, c'est-à-dire les adresses des serveurs DNS et un nom de domaine.</li>
+            </ul>
+          </p>
+          <p>Comme l'illustre la figure 1, il existe trois options de messages d'annonce de routeur :</p>
+          <p>
+            <ul>
+              <li>Option 1 : SLAAC</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Option 2 : SLAAC avec un serveur DHCPv6 sans état</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Option 3 : DHCPv6 avec état (pas de SLAAC)</li>
+            </ul>
+          </p>
+          <p>
+            <b>Option d'annonce de routeur 1 : SLAAC</b>
+          </p>
+          <p>Par défaut, le message d'annonce de routeur suggère au périphérique récepteur d'utiliser les informations qu'il contient pour créer sa propre adresse de diffusion globale IPv6 et à d'autres fins. Les services d'un serveur DHCPv6 ne sont pas nécessaires. </p>
+          <p>La SLAAC étant sans état, aucun serveur central (par exemple un serveur DHCPv6 avec état) n'assure l'attribution des adresses de diffusion globale et la tenue à jour d'une liste des périphériques et de leurs adresses. Avec la SLAAC, le périphérique client utilise les informations du message d'annonce de routeur pour créer sa propre adresse de diffusion globale. Comme le montre la figure 2, les deux parties de l'adresse sont créées comme suit :</p>
+          <p>
+            <ul>
+              <li>
+                <b>le préfixe</b>, reçu dans le message d'annonce de routeur</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'ID d'interface</b>, qui utilise la méthode EUI-64 ou est obtenu par la génération d'un nombre à 64 bits aléatoire</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the router solicitation process by displaying a computer sending a request for IPv6 addressing information from all IPv6 routers.  The figure also shows a router advertisement message being sent by a router.  This message can have one of three options configured, option one gives all the necessary addressing information, option two sets some addressing options but relies on a DHCPv6 server for some settings, and option three relies solely on a DHCPv6 server for all addressing information.  The router advertisement in the figure is using option one and it is telling the computer the prefix, prefix-length, and default gateway to use. Figure 2 shows an example of SLAAC. A computer uses the IPv6 global unicast of the router to construct its own global unicast  address. The computer uses the prefix from the router's address, which is 2001:DB8:ACAD:1 in the example. And then the computer either uses EUI-64 or generates a random 64-bit number to fill in the interface ID portion of the address.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

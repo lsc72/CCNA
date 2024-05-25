@@ -1,0 +1,48 @@
+﻿<textcomponents>
+
+<component id="ID_txt02">
+<text><![CDATA[Tension]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Heure]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Tension]]></text>
+</component>
+
+<component id="ID_txt06">
+<text><![CDATA[Heure]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Tension]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Heure]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Signal numérique pur]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[<b>Signal d'interférence]]></text>
+</component>
+
+
+<component id="ID_txt07">
+<text><![CDATA[<b>Signal numérique avec interférence]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<b>Ce que l'ordinateur lit]]></text>
+</component>
+
+<component id="ID_txt12">
+<text><![CDATA[<b>Signal modifié]]></text>
+</component>
+
+</textcomponents>

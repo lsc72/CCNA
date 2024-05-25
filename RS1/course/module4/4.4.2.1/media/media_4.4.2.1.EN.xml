@@ -1,0 +1,14 @@
+﻿<textcomponents>
+<component id="ID_txt01">
+<text><![CDATA[Point-to-Point Topology]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Hub and Spoke Topology]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Full Mesh Topology]]></text>
+</component>
+
+</textcomponents>

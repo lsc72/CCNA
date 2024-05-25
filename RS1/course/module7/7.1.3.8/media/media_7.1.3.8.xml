@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet Tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Analyser du trafic de monodiffusion, de diffusion et de multidiffusion]]></text>
+	</component>
+	
+</textcomponents>

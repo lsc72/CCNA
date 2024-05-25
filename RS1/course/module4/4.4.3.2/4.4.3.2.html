@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.3.2 Modes duplex intégral et semi-duplex</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Modes duplex intégral et semi-duplex</h1>
+        <div>
+          <p>Le terme « communications en mode duplex » désigne la direction de la transmission des données entre deux périphériques. Les communications en mode semi-duplex limitent l'échange de données dans un sens à un instant donné, tandis que les communications en mode duplex intégral permettent d'envoyer et de recevoir simultanément des données.</p>
+          <p>
+            <ul>
+              <li>
+                <b>Communication en mode semi-duplex</b> : les deux périphériques peuvent transmettre et recevoir des données sur les supports, mais pas de façon simultanée. Le mode semi-duplex est utilisé dans les anciennes topologies en bus et avec les concentrateurs Ethernet. Les réseaux locaux sans fil fonctionnent eux aussi en mode semi-duplex. Ce mode permet à un seul périphérique à la fois d'envoyer ou de recevoir des données sur le support partagé et est utilisé avec des méthodes d'accès avec gestion des conflits. La figure 1 illustre la communication en mode semi-duplex.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Communication en mode duplex intégral</b> : les deux périphériques peuvent simultanément transmettre et recevoir des données sur les supports. La couche liaison de données considère que les supports sont à tout moment disponibles pour les deux nœuds en vue d'une transmission de données. Par défaut, les commutateurs Ethernet fonctionnent en mode duplex intégral, mais ils peuvent adopter le mode semi-duplex s'ils se connectent à un périphérique comme un concentrateur Ethernet. La figure 2 illustre la communication en mode duplex intégral.</li>
+            </ul>
+          </p>
+          <p>Il est important que deux interfaces interconnectées, comme la carte réseau d'un hôte et une interface d'un commutateur Ethernet, fonctionnent sur le même mode duplex. Si cette condition n'est pas respectée, il pourrait se produire une mauvaise mise en correspondance duplex provoquant une perte d'efficacité et une latence sur la liaison. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is a video that shows a switch and server connected.  This video demonstrates half duplex connections where data can only flow in one direction at a time. Figure 2 is a video that shows a switch and server connected.  This video demonstrates full duplex connections where data can flow in both directions at the same time.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

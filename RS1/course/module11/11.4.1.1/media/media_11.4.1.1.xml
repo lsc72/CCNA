@@ -1,0 +1,56 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+		<text><![CDATA[<b>Les six étapes de la procédure de dépannage</b>]]></text>
+	</component>
+
+
+<component id="ID_table">
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="50"><font color='#FFFFFF' ><b>Étape</b></font></td>
+			<td bgcolor='#666263'  valign="top" width="170"><font color='#FFFFFF' ><b>Titre</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>1</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Identification du problème</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>La première étape de la procédure de dépannage consiste à identifier le problème. Si des outils peuvent être utilisés à cette étape, une conversation avec l&apos;utilisateur est souvent très utile.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font color='#393536'>2</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Élaboration d&apos;une théorie des causes probables</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Après avoir discuté avec l&apos;utilisateur et identifié le problème, vous pouvez établir une théorie des causes probables. Cette étape fait généralement naître plusieurs causes probables.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>3</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Test de la théorie en vue de déterminer la cause</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>En fonction des causes probables, testez vos théories afin de dégager la véritable cause du problème. Un technicien peut alors appliquer une rapide procédure et voir si cela permet de résoudre le problème. Sinon, vous devrez peut-être effectuer des recherches complémentaires en vue de déterminer la cause exacte.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font color='#393536'>4</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Élaboration d&apos;un plan d&apos;action visant à résoudre le problème et à implémenter la solution</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Après avoir déterminé la cause exacte du problème, établissez un plan d&apos;action en vue de le résoudre en implémentant la solution.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><font color='#393536'>5</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Vérification du fonctionnement de l&apos;ensemble du système et implémentation des mesures préventives</font></td>
+		<td bgcolor='#E9E7E8'><font color='#393536'>Après avoir résolu le problème, vous devez vérifier le fonctionnement de l&apos;ensemble du système et s&apos;il y a lieu, implémenter des mesures préventives.</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'><font color='#393536'>6</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Documentation des résultats des recherches et des actions entreprises</font></td>
+		<td bgcolor='#F2F2F2'><font color='#393536'>Au cours de la dernière étape du processus de dépannage, vous devez documenter les résultats de vos recherches ainsi que les actions entreprises. Cette étape est très importante pour référence ultérieure.</font></td>
+	</tr>
+
+</table>]]></text>
+</component>
+</textcomponents>

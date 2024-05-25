@@ -1,0 +1,113 @@
+﻿<textcomponents>
+    <component id="ID_s1_title">
+        <text>
+            <![CDATA[<font color='#FFFFFF'><b>Exercice – Terminologie relative à la sécurité du réseau</b></font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instructions]]></text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Faites glisser les termes relatifs à la sécurité vers les définitions correspondantes.]]>
+        </text>
+    </component>
+    <component id='ID_drag_header'>
+        <text>
+            <![CDATA[Termes relatifs à la sécurité]]></text>
+    </component>
+    <component id='ID_txt01'>
+        <text>
+            <![CDATA[Attaque qui ralentit le matériel et les programmes ou entraîne des défaillances.]]>
+        </text>
+    </component>
+    <component id='ID_txt02'>
+        <text>
+            <![CDATA[Crée une connexion sécurisée pour les travailleurs distants.]]>
+        </text>
+    </component>
+    <component id='ID_txt03'>
+        <text>
+            <![CDATA[Bloque les accès non autorisés à votre réseau.]]>
+        </text>
+    </component>
+    <component id='ID_txt04'>
+        <text>
+            <![CDATA[Attaque réseau qui se produit le premier jour où une vulnérabilité est détectée.]]>
+        </text>
+    </component>
+    <component id='ID_txt05'>
+        <text>
+            <![CDATA[Code arbitraire s&apos;exécutant sur les périphériques des utilisateurs.]]>
+        </text>
+    </component>
+    <component id='ID_txt06'>
+        <text>
+            <![CDATA[Terminologie]]></text>
+    </component>
+    <component id='ID_txt07'>
+        <text>
+            <![CDATA[Définition]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id='ID_ip1_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Réseau privé<br>virtuel (VPN)</font>]]>
+        </text>
+    </component>
+    <component id='ID_ip2_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Zero day (ou zero-hour)</font>]]>
+        </text>
+    </component>
+    <component id='ID_ip3_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Déni de service (DoS)</font>]]>
+        </text>
+    </component>
+    <component id='ID_ip4_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Pare-feu</font>]]>
+        </text>
+    </component>
+    <component id='ID_ip5_DS'>
+        <text>
+            <![CDATA[<font color="#393536">Virus, ver ou <br/>cheval de Troie</font>]]>
+        </text>
+    </component>
+    <component id='ID_s1_text_header'>
+        <text>
+            <![CDATA[Définition]]></text>
+    </component>
+    <component id='ID_s1_target_header'>
+        <text>
+            <![CDATA[Terminologie]]></text>
+    </component>
+    <component id='ID_s1_CORRECT_TITLE'>
+        <text>
+            <![CDATA[Correct]]></text>
+    </component>
+    <component id='ID_s1_CORRECT_BODY'>
+        <text>
+            <![CDATA[Vous avez correctement relié les termes aux menaces et composants de sécurité correspondants.]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[Incorrect]]></text>
+    </component>
+    <component id='ID_s1_INCORRECT_BODY'>
+        <text>
+            <![CDATA[Vous n&apos;avez pas correctement relié les termes aux menaces et composants de sécurité correspondants. Cliquez sur Réinitialiser pour réessayer.]]>
+        </text>
+    </component>
+    <component id='ID_CHECK'>
+        <text>
+            <![CDATA[Vérifier]]></text>
+    </component>
+    <component id='ID_RESET'>
+        <text>
+            <![CDATA[Réinitialiser]]></text>
+    </component>
+</textcomponents>

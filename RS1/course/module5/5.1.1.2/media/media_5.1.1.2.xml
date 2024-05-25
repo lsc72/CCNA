@@ -1,0 +1,49 @@
+﻿<textcomponents>
+<component id="ID_textbox">
+<text><![CDATA[<b>Encapsulation de données</b><textformat blockindent='-16'><LI>Délimitation des trames</LI><LI>Adressage</LI><LI>Détection des erreurs</LI></textformat><br/><b>Contrôle de l'accès aux supports</b><textformat blockindent='-16'><LI>Contrôle du positionnement des trames sur les supports et en dehors</LI><LI>Récupération à partir des supports</LI></textformat>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[<b>Couche physique</b>]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[Sous-couche de contrôle de liaison logique (LLC)]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[Contrôle de l'accès aux supports 802.3 ]]></text> 
+  </component>
+<component id="ID_txt04">
+  <text><![CDATA[Sous-couche de signalisation physique]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[Support physique]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[10BASE-5 (500 m) 50 ohms<br/>Coax Type N]]></text> 
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[10BASE-2 (185 m) 50 ohms<br/>Coax BNC]]></text> 
+  </component>
+<component id="ID_txt08">
+  <text><![CDATA[10BASE-T (100 m) 100 ohms<br/>UTP RJ-45]]></text> 
+  </component>
+<component id="ID_txt09">
+  <text><![CDATA[100BASE-TX (100 m) 100 ohms<br/>UTP RJ-45]]></text> 
+  </component>
+<component id="ID_txt10">
+  <text><![CDATA[1000BASE-CX (25 m) 150 ohms<br/>STP mini-DB-9]]></text>
+  </component>
+<component id="ID_txt11">
+  <text><![CDATA[1000BASE-T (100 m) 100 ohms<br/>UTP RJ-45]]></text>
+  </component>
+<component id="ID_txt12">
+  <text><![CDATA[1000BASE-ST (220-550 m)<br/>MM Fiber SC]]></text>
+  </component>
+<component id="ID_txt13">
+  <text><![CDATA[1000BASE-LX (550-5000 m)<br/>MM ou SM Fiber SC]]></text>
+  </component>
+
+  <component id="ID_txt14">
+     <text><![CDATA[<b>Couche liaison de données</b>]]></text>
+     </component>
+</textcomponents>

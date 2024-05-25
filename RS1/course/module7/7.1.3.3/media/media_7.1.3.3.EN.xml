@@ -1,0 +1,40 @@
+<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Unicast Communication</b>]]></text>
+</component>
+
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Broadcast Communication</b>]]></text>
+</component>
+
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Multicast Communication</b>]]></text>
+</component>
+
+<!-- controller -->
+
+<component id="end">
+<text><![CDATA[End]]></text>
+</component>
+
+<component id="fforward">
+<text><![CDATA[Fast Forward]]></text>
+</component>
+
+<component id="pause">
+<text><![CDATA[Pause]]></text>
+</component>
+
+<component id="play">
+<text><![CDATA[Play]]></text>
+</component>
+
+<component id="rewind">
+<text><![CDATA[Rewind]]></text>
+</component>
+
+<component id="start">
+<text><![CDATA[Start]]></text>
+</component>
+
+</textcomponents>

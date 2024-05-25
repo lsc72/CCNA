@@ -1,0 +1,175 @@
+<textcomponents>
+    <component id="ID_txt01">
+        <text>
+            <![CDATA[Requêtes Internet]]>
+        </text>
+    </component>
+    <component id="ID_txt02">
+        <text>
+            <![CDATA[Balayages ping]]>
+        </text>
+    </component>
+    <component id="ID_txt03">
+        <text>
+            <![CDATA[Balayages de ports]]>
+        </text>
+    </component>
+    <component id="ID_txt04">
+        <text>
+            <![CDATA[Analyseurs de paquets]]>
+        </text>
+    </component>
+    <component id="ID_txt05">
+        <text>
+            <![CDATA[Pirate]]>
+        </text>
+    </component>
+    <component id="ID_txt06">
+        <text>
+            <![CDATA[Wireshark]]>
+        </text>
+    </component>
+    <component id="ID_txt07">
+        <text>
+            <![CDATA[Balayage de ports NMAP]]>
+        </text>
+    </component>
+    <component id="ID_txt08">
+        <text>
+            <![CDATA[Démarrage de nmap V. 3.00 (www.insecure.org/nmap)<br/><br/>L'hôte aus1.cinko.com (10.10.10.2) semble être actif.<br/>L'hôte aus2.cinko.com (10.10.10.3) semble être actif.<br/>L'hôte aus3.cinko.com (10.10.10.4) semble être actif.<br/>L'hôte aus4.cinko.com (10.10.10.5) semble être actif.]]>
+        </text>
+    </component>
+    <component id="title">
+        <text>
+            <![CDATA[<b>Attaques de reconnaissance</b>]]></text>
+    </component>
+    <component id="inst">
+        <text>
+            <![CDATA[Cliquez sur chaque outil pour voir une attaque de réseau.]]>
+        </text>
+    </component>
+    <!--ANIMATION CONTROLLER-->
+    <component id="end">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+
+    <component id="end2">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward2">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause2">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play2">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind2">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start2">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+
+    <component id="end3">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward3">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause3">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play3">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind3">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start3">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+
+    <component id="end4">
+        <text>
+            <![CDATA[Fin]]>
+        </text>
+    </component>
+    <component id="fforward4">
+        <text>
+            <![CDATA[Avance rapide]]>
+        </text>
+    </component>
+    <component id="pause4">
+        <text>
+            <![CDATA[Pause]]>
+        </text>
+    </component>
+    <component id="play4">
+        <text>
+            <![CDATA[Lecture]]>
+        </text>
+    </component>
+    <component id="rewind4">
+        <text>
+            <![CDATA[Rembobiner]]>
+        </text>
+    </component>
+    <component id="start4">
+        <text>
+            <![CDATA[Début]]>
+        </text>
+    </component>
+</textcomponents>

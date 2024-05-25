@@ -1,0 +1,23 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Suite de protocoles</b>]]></text>
+</component> 
+<component id="ID_s1_txt01">
+	<text><![CDATA[Les suites de protocoles sont des ensembles de règles qui fonctionnent conjointement pour aider à résoudre un problème.]]></text>
+</component> 
+<component id="ID_s1_txt02">
+	<text><![CDATA[Couche contenu]]></text>
+</component> 
+<component id="ID_s1_txt03">
+	<text><![CDATA[Couche règles]]></text>
+</component> 
+<component id="ID_s1_txt04">
+	<text><![CDATA[Couche physique]]></text>
+</component> 
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>Suite des protocoles de conversation</b><br/>1. Utiliser une langue commune<br/>2. Attendre son tour<br/>3. Signaler la fin du message]]></text>
+</component> 
+<component id="ID_bubble">
+	<text><![CDATA[Où est le café ?]]></text>
+</component> 
+</textcomponents>

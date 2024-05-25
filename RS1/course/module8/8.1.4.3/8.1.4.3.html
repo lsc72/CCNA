@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.4.3 Exemple de besoins d&#x0027;un réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Exemple de besoins d&#x0027;un réseau</h1>
+        <div>
+          <p>Les administrateurs réseau doivent développer un schéma d'adressage réseau de façon à pouvoir accueillir le nombre maximal d'hôtes pour chaque réseau et le nombre maximal de sous-réseaux. Le schéma d'adressage doit permettre des évolutions du nombre d'adresses d'hôte par sous-réseau et du nombre total de sous-réseaux.</p>
+          <p>Dans cet exemple, le siège social a attribué l'adresse réseau privée 172.16.0.0/22 (10 bits d'hôte) à une filiale. Comme l'illustre la figure 1, 1 022 adresses d'hôte seront ainsi disponibles.</p>
+          <p>La topologie des filiales présentée dans la figure 2, se compose de 5 segments LAN et de 4 connexions interréseau entre les routeurs. De ce fait, 9 sous-réseaux sont nécessaires. Le plus grand sous-réseau requiert 40 hôtes. </p>
+          <p>L'adresse réseau 172.16.0.0/22 comporte 10 bits d'hôte, comme le montre la figure 3. Le plus grand sous-réseau nécessite 40 hôtes, aussi il faut au moins 6 bits d'hôte pour fournir l'adressage de 40 hôtes. Ce chiffre découle de la formule suivante : 2^6 - 2 = 62 hôtes. </p>
+          <p>En appliquant la formule de calcul du nombre de sous-réseaux, on obtient 16 sous-réseaux : 2^4 = 16. Comme l'interréseau en exemple requiert 9 sous-réseaux, cela répond à la demande et permet une certaine évolution. </p>
+          <p>Donc, les 4 premiers bits d'hôte peuvent être utilisés pour attribuer les sous-réseaux, comme le montre la figure 4. Lorsque 4 bits sont empruntés, la nouvelle longueur de préfixe est /26 avec le masque de sous-réseau 255.255.255.192.</p>
+          <p>Comme l'illustre la figure 5, les sous-réseaux peuvent être attribués aux segments de réseau local et aux connexions de routeur à routeur.</p>
+          <p>Pour clore le sujet, nous vous proposons quatre exercices pratiques sur la segmentation en sous-réseaux. Des exercices pratiques supplémentaires sont inclus dans le chapitre Annexe.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows how a slash 22 has ten host bits which allows for 1022 valid hosts. Figure 2 shows a corporate network divided by department. The host requirements for each department are listed. Figure 3 shows the 172.16.0.0/22 address in binary. The network portion is highlighted in green and the host portion is highlighted in orange. Figure 4 shows the 16 subnets that are formed when creating borrowing four bits from 172.16.0.0/22.  You can see that by alternating bits 23, 24, 25, and 26 in a logical order, you can easily determine the network IDs for all sixteen subnets. Figure 5 shows how these subnets might be assigned to the departments in a corporate network.  Each subnet is the same size.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

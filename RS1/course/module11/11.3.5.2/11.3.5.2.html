@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.5.2 Commande terminal monitor</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.5.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commande terminal monitor</h1>
+        <div>
+          <p>Les connexions octroyant l'accès à l'interface de ligne de commande IOS peuvent être établies localement ou à distance.</p>
+          <p></p>
+          <p>Les connexions locales requièrent un accès physique au routeur ou au commutateur ; une connexion par câble est donc requise. Ce genre de connexion s'établit généralement en connectant un ordinateur au routeur ou au port de console du commutateur à l'aide d'un câble de renversement. Dans ce cours, lorsque nous parlons de connexion de console, nous faisons référence à une connexion locale.</p>
+          <p></p>
+          <p>Les connexions à distance sont établies sur le réseau et, par conséquent, nécessitent un protocole réseau tel que le protocole IP. Aucun accès physique direct n'est requis pour les sessions distantes. SSH et Telnet sont deux protocoles de connexion couramment utilisés pour les sessions à distance. Dans ce cours, lorsque nous parlons de connexion à distance, nous faisons référence aux protocoles Telnet ou SSH.</p>
+          <p></p>
+          <p>Si les messages de journal IOS sont envoyés par défaut à la console, ils ne sont pas envoyés aux lignes virtuelles. Étant donné que les messages de débogage sont des messages de journal, ce comportement empêche l'affichage des messages de débogage sur les lignes VTY.</p>
+          <p></p>
+          <p>Pour afficher les messages de journal sur un terminal (console virtuelle), utilisez la commande d'exécution privilégiée <b>terminal monitor</b>.</p>
+          <p></p>
+          <p>Pour désactiver la journalisation des messages sur un terminal, utilisez la commande d'exécution privilégiée <b>terminal no monitor</b>.</p>
+          <p></p>
+          <p>Utilisez le contrôleur de syntaxe pour vous entraîner à exécuter les commandes <b>terminal monito</b>r et <b>debug</b> lors des activités de dépannage.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 is output from the ‘debug ip icmp’ command. Figure 2 is a syntax checker activity.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+<text><![CDATA[<b>Rôle des protocoles</b>]]></text> 
+</component>
+<component id="ID_s1_txt01">
+  <text><![CDATA[IP]]></text>
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[Données]]></text>
+  </component>
+ <component id="ID_s1_txt03">
+  <text><![CDATA[Le format ou la structure des parties de communication]]></text>
+  </component>
+
+<component id="ID_s1_bubble01">
+<text><![CDATA[<p id="ID_s1_bubble01" class="ID_s1_bubble01 top"><font color="#FFFFFF">J'envoie ce message sur le réseau en utilisant un en-tête IPv4.</font></p>]]></text>
+</component>
+<component id="ID_s1_bubble02">
+<text><![CDATA[<p id="ID_s1_bubble02" class="ID_s1_bubble02 top"><font color="#FFFFFF">Je peux transférer ce message, car je comprends l'en-tête IPv4.</font></p>]]></text>
+</component>
+<component id="ID_s1_bubble03">
+<text><![CDATA[<p id="ID_s1_bubble03" class="ID_s1_bubble03 top"><font color="#FFFFFF">Je peux accepter ce message, car je comprends IPv4.</font></p>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Rôle des protocoles</b>]]></text> 
+</component>
+<component id="ID_s2_bubble01">
+<text><![CDATA[<p id="ID_s2_bubble01" class="ID_s2_bubble01"><font color="#FFFFFF">Décidons tous que si l'un de nos chemins ne fonctionne pas, nous avertissons tous les périphériques connectés.</font></p>]]></text>
+</component>
+<component id="ID_s2_bubble02">
+<text><![CDATA[<p id="ID_s2_bubble02" class="ID_s2_bubble02 left"><font color="#FFFFFF">ok</font></p>]]></text>
+</component>
+<component id="ID_s2_bubble03">
+<text><![CDATA[<p id="ID_s2_bubble03" class="ID_s2_bubble03 top"><font color="#FFFFFF">Le chemin A ne fonctionne pas.</font></p>]]></text>
+</component>
+<component id="ID_s2_bubble04">
+<text><![CDATA[<p id="ID_s2_bubble04" class="ID_s2_bubble04 top"><font color="#FFFFFF">ok</font></p>]]></text>
+</component>
+<component id="ID_s2_bubble05">
+<text><![CDATA[<p id="ID_s2_bubble05" class="ID_s2_bubble05"><font color="#FFFFFF">ok</font></p>]]></text>
+</component>
+
+
+<component id="ID_s2_txt01">
+  <text><![CDATA[A]]></text>
+  </component>
+  
+  <component id="ID_s2_txt02">
+  <text><![CDATA[B]]></text>
+  </component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[Le processus selon lequel des périphériques réseau partagent des informations sur des chemins vers d'autres réseaux]]></text> 
+  </component>
+  
+<component id="ID_s3_title">
+<text><![CDATA[<b>Rôle des protocoles</b>]]></text> 
+</component>
+<component id="ID_s3_bubble01">
+<text><![CDATA[<p id="ID_s3_bubble01" class="ID_s3_bubble01"><font color="#FFFFFF">Décidons tous que les messages d'erreur doivent posséder un numéro d'ID unique.</font></p>]]></text>
+</component>
+<component id="ID_s3_bubble02">
+<text><![CDATA[<p id="ID_s3_bubble02" class="ID_s3_bubble02"><font color="#FFFFFF">Erreur 1002 : le chemin B est lent.</font></p>]]></text>
+</component>
+<component id="ID_s3_bubble03">
+<text><![CDATA[<p id="ID_s3_bubble03" class="ID_s3_bubble03 top"><font color="#FFFFFF">Erreur 1001 : le chemin A ne fonctionne pas.</font></p>]]></text>
+</component>
+
+<component id="ID_s3_txt01">
+  <text><![CDATA[A]]></text>
+  </component>
+  
+  <component id="ID_s3_txt02">
+  <text><![CDATA[B]]></text>
+  </component>
+<component id="ID_s3_txt04">
+  <text><![CDATA[comment et à quel moment des messages d'erreur et système sont transférés entre des périphériques ;]]></text> 
+  </component>
+<component id="ID_s4_title">
+<text><![CDATA[<b>Rôle des protocoles</b>]]></text> 
+</component>
+<component id="ID_s4_bubble01">
+<text><![CDATA[<p id="ID_s4_bubble01" class="ID_s4_bubble01 top"><font color="#FFFFFF">C'est vrai. Nous pouvons désormais envoyer et recevoir des informations entre nous.</font></p>]]></text>
+</component>
+<component id="ID_s4_bubble02">
+<text><![CDATA[<p id="ID_s4_bubble02" class="ID_s4_bubble02 top"><font color="#FFFFFF">Je souhaiterais établir une connexion virtuelle avec vous afin d'échanger des informations.</font></p>]]></text>
+</component>
+
+<component id="ID_s4_txt01">
+  <text><![CDATA[La configuration et l'arrêt des sessions de transfert de données]]></text>
+  </component> 
+
+</textcomponents>

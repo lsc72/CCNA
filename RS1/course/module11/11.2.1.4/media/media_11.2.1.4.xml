@@ -1,0 +1,201 @@
+﻿<textcomponents>
+    <!--slide01-->
+    <component id='ID_s1_title'>
+        <text>
+            <![CDATA[<b>Exercice - Partie 1 : Menaces et failles de sécurité</b>]]></text>
+    </component>
+    <component id='ID_s1_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s1_instr_body'>
+        <text>
+            <![CDATA[Lisez les scénarios de menace et de faille de sécurité. Faites glisser chaque cas jusqu'au type de menace de sécurité auquel il correspond.]]>
+        </text>
+    </component>
+    <component id='ID_s1_txt01'>
+        <text>
+            <![CDATA[Vol d'informations]]></text>
+    </component>
+    <component id='ID_s1_txt02'>
+        <text>
+            <![CDATA[Usurpation d'identité]]></text>
+    </component>
+    <component id="ID_s1_txt03">
+        <text>
+            <![CDATA[Perte / manipulation de données]]></text>
+    </component>
+    <component id="ID_s1_txt04">
+        <text>
+            <![CDATA[Interruption de service]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id='ID_s1_drag01'>
+        <text>
+            <![CDATA[Vol de la base de données utilisateur <br/>d'une entreprise]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag02'>
+        <text>
+            <![CDATA[Vol de rapports de <br/>recherche scientifique]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag03'>
+        <text>
+            <![CDATA[Usurpation d'identité en vue <br/>d'obtenir un crédit bancaire]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag04'>
+        <text>
+            <![CDATA[Achats en ligne illégaux]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag05'>
+        <text>
+            <![CDATA[Modification de données]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag06'>
+        <text>
+            <![CDATA[Envoi de virus pour reformater <br/>un disque dur]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag07'>
+        <text>
+            <![CDATA[Surcharge de réseau afin d'empêcher les utilisateurs d'y accéder]]>
+        </text>
+    </component>
+    <component id='ID_s1_drag08'>
+        <text>
+            <![CDATA[Obstacle pour empêcher l'accès des utilisateurs autorisés aux services de données]]>
+        </text>
+    </component>
+    <component id='ID_s1_CORRECT_TITLE'>
+        <text>
+            <![CDATA[Correct]]>
+        </text>
+    </component>
+    <component id='ID_s1_CORRECT_BODY'>
+        <text>
+            <![CDATA[Vous avez correctement associé chaque cas au type de menace de sécurité correspondant.]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[Incorrect]]>
+        </text>
+    </component>
+    <component id='ID_s1_INCORRECT_BODY'>
+        <text>
+            <![CDATA[Vous n'avez pas associé correctement chaque cas au type de menace de sécurité correspondant. Cliquez sur Réinitialiser pour réessayer.]]>
+        </text>
+    </component>
+    <component id='ID_s1_CHECK'>
+        <text>
+            <![CDATA[Contrôler]]>
+        </text>
+    </component>
+    <component id='ID_s1_RESET'>
+        <text>
+            <![CDATA[Réinitialiser]]>
+        </text>
+    </component>
+    <!--slide02-->
+    <component id='ID_s2_title'>
+        <text>
+            <![CDATA[<b>Exercice - Partie 2 : Menaces et failles de sécurité</b>]]></text>
+    </component>
+    <component id='ID_s2_instr_title'>
+        <text>
+            <![CDATA[Instructions]]>
+        </text>
+    </component>
+    <component id='ID_s2_instr_body'>
+        <text>
+            <![CDATA[Lisez les pratiques relatives à la gestion de la sécurité. Faites glisser chaque pratique jusqu'au type de gestion de la sécurité correspondant.]]></text>
+    </component>
+    <component id='ID_s2_txt01'>
+        <text>
+            <![CDATA[Matériel]]></text>
+    </component>
+    <component id='ID_s2_txt02'>
+        <text>
+            <![CDATA[Environnement]]></text>
+    </component>
+    <component id="ID_s2_txt03">
+        <text>
+            <![CDATA[Électricité]]></text>
+    </component>
+    <component id="ID_s2_txt04">
+        <text>
+            <![CDATA[Maintenance]]></text>
+    </component>
+    <!--Drag and Drop-->
+    <component id='ID_s2_drag01'>
+        <text>
+            <![CDATA[Verrouiller les périphériques / empêcher l'accès non autorisé]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag02'>
+        <text>
+            <![CDATA[Utiliser des caméras de sécurité]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag03'>
+        <text>
+            <![CDATA[Contrôler la température et l'humidité]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag04'>
+        <text>
+            <![CDATA[Créer un flux d'air]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag05'>
+        <text>
+            <![CDATA[Installer des onduleurs]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag06'>
+        <text>
+            <![CDATA[Installer des alimentations redondantes]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag07'>
+        <text>
+            <![CDATA[Contrôler l'accès aux ports de console]]>
+        </text>
+    </component>
+    <component id='ID_s2_drag08'>
+        <text>
+            <![CDATA[Étiqueter les câbles et les composants critiques]]>
+        </text>
+    </component>
+    <component id='ID_s2_CORRECT_TITLE'>
+        <text>
+            <![CDATA[Correct]]></text>
+    </component>
+    <component id='ID_s2_CORRECT_BODY'>
+        <text>
+            <![CDATA[Vous avez correctement associé chaque pratique de sécurité au type de gestion correspondant.]]>
+        </text>
+    </component>
+    <component id='ID_s2_INCORRECT_TITLE'>
+        <text>
+            <![CDATA[Incorrect]]></text>
+    </component>
+    <component id='ID_s2_INCORRECT_BODY'>
+        <text>
+            <![CDATA[Vous n'avez pas correctement associé chaque pratique de sécurité au type de gestion correspondant. Cliquez sur Réinitialiser pour réessayer.]]>
+        </text>
+    </component>
+    <component id='ID_s2_CHECK'>
+        <text>
+            <![CDATA[Contrôler]]></text>
+    </component>
+    <component id='ID_s2_RESET'>
+        <text>
+            <![CDATA[Réinitialiser]]></text>
+    </component>
+</textcomponents>

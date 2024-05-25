@@ -1,0 +1,91 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[Duplex and Speed Settings]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Duplex]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Duplex]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Speed]]></text>
+	</component>
+
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Speed]]></text>
+	</component>
+
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Full]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Half]]></text>
+	</component>
+
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Full]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[Half]]></text>
+	</component>
+
+	<component id="ID_s1_txt09">
+		<text><![CDATA[100 Mb/s]]></text>
+	</component>
+
+	<component id="ID_s1_txt10">
+		<text><![CDATA[10 Mb/s]]></text>
+	</component>
+
+	<component id="ID_s1_txt11">
+		<text><![CDATA[1000 Mb/s]]></text>
+	</component>
+
+	<component id="ID_s1_txt12">
+		<text><![CDATA[100 Mb/s]]></text>
+	</component>
+
+	<component id="ID_s1_txt13">
+		<text><![CDATA[10 Mb/s]]></text>
+	</component>
+
+	<component id="ID_s1_txt14">
+		<text><![CDATA[Port 1]]></text>
+	</component>
+
+	<component id="ID_s1_txt15">
+		<text><![CDATA[Autonegotiation]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[Duplex Mismatch]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Full-duplex]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Half-duplex]]></text>
+	</component>
+
+	<component id="ID_s2_txt03">
+		<text><![CDATA[S2 will continually experience collisions because S1 keeps sending frames any time it has something to send.]]></text>
+	</component>
+
+	<component id="ID_s2_bubbletxt01">
+		<text><![CDATA[I’m full-duplex so I can send whenever I want.]]></text>
+	</component>
+
+	<component id="ID_s2_bubbletxt02">
+		<text><![CDATA[I’m half-duplex so I can only send when the link is clear but I am also getting a lot of collisions!]]></text>
+	</component>
+	
+</textcomponents>

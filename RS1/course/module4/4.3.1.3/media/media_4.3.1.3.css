@@ -1,0 +1,9 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+/*#ID_txt03, #ID_txt04,#ID_txt06,#ID_txt01
+{
+	z-index:0 !important;
+}*/
+

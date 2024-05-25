@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.1.1 Adresse de monodiffusion globale IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.1.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresse de monodiffusion globale IPv6</h1>
+        <div>
+          <p>La segmentation en sous-réseaux IPv6 exige une approche différente de celle des sous-réseaux IPv4. Les mêmes raisons de segmentation en sous-réseaux de l'espace d'adressage IPv4 , visant à gérer le trafic réseau, s'appliquent également à IPv6. Cependant, en raison du grand nombre d'adresses IPv6, le problème du maintien des adresses ne se pose plus. Le schéma d'adresse IPv6 peut se concentrer sur la meilleure approche hiérarchique afin de gérer et d'attribuer les sous-réseaux IPv6. Observez la figure ci-contre qui passe en revue la structure d'une adresse de monodiffusion globale IPv6.</p>
+          <p>La segmentation en sous-réseaux IPv4 n'a pas pour seul but de limiter les domaines de diffusion, mais également de gérer la pénurie d'adresses. Le masque de sous-réseau et les VLSM sont utilisés pour préserver les adresses IPv4. La segmentation en sous-réseaux IPv6 n'a rien à voir avec la préservation de l'espace d'adresses. L'ID de sous-réseau comprend plus de sous-réseaux que nécessaire. La segmentation en sous-réseaux IPv6 consiste à créer une hiérarchie d'adressage reposant sur le nombre de sous-réseaux requis. </p>
+          <p>Souvenez-vous qu'il existe deux types d'adresses IPv6 attribuables. Les adresses link-local IPv6 ne sont jamais segmentées en sous-réseaux, car elles n'existent que sur la liaison locale. En revanche, les adresses de monodiffusion globale IPv6 peuvent être segmentées en sous-réseau. </p>
+          <p>L'adresse de monodiffusion globale IPv6 comporte généralement un préfixe de routage global /48, un ID de sous-réseau de 16 bits et un ID d'interface de 64 bits. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the structure of an IPv6 global unicast address with the first 48 bits as the global routing prefix, the next 16 bits as the subnet ID, and the last 64 bits as the interface ID. Click on each opens a textbox with more information.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

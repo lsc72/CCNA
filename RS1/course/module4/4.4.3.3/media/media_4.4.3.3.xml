@@ -1,0 +1,72 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Accès avec gestion des conflits</b>]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Supports partagés]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Trame]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Trame]]></text>
+	</component>
+
+	<component id="ID_bubble01">
+		<text><![CDATA[<p id="ID_s1_bubble01" class="ID_s1_bubble01">J'essaie d'envoyer mes données dès que je suis prêt.</p>]]></text>
+	</component>
+	
+	<component id="ID_bubble02">
+		<text><![CDATA[<p id="ID_s1_bubble02" class="ID_s1_bubble02">J'essaie d'envoyer mes données dès que je suis prêt.</p>]]></text>
+	</component>
+	
+	<component id="ID_bubble03">
+		<text><![CDATA[<p id="ID_s1_bubble03" class="ID_s1_bubble03">J'essaie d'envoyer mes données dès que je suis prêt.</p>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Accès contrôlé</b>]]></text>
+	</component>
+	
+	<component id="ID_txt06">
+		<text><![CDATA[Supports partagés]]></text>
+	</component>
+	
+	<component id="ID_txt08">
+		<text><![CDATA[Trame]]></text>
+	</component>
+
+	<component id="ID_txt09">
+		<text><![CDATA[<b>Concentrateur Ethernet</b>]]></text>
+	</component>
+
+	<component id="ID_txt10">
+		<text><![CDATA[<b>Réseau Token Ring</b>]]></text>
+	</component>
+	
+	<component id="cross">
+		<text><![CDATA[<p class="ID_s1_bubble07"></p>]]></text>
+	</component>
+	
+
+	<component id="ID_bubble04">
+		<text><![CDATA[Ce n'est pas encore mon tour.]]></text>
+	</component>
+
+	<component id="ID_bubble05">
+		<text><![CDATA[Ce n'est pas encore mon tour.]]></text>
+	</component>
+
+	<component id="ID_bubble06">
+		<text><![CDATA[Ce n'est pas encore mon tour.]]></text>
+	</component>
+
+	<component id="ID_bubble07">
+		<text><![CDATA[C'est à mon tour d'envoyer mes données.]]></text>
+	</component>
+
+
+</textcomponents>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.3.1 Types d’adresses IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Types d’adresses IPv6</h1>
+        <div>
+          <p>Il existe trois types d'adresses IPv6 :</p>
+          <p>
+            <ul>
+              <li>
+                <b>monodiffusion</b> : une adresse de monodiffusion IPv6 identifie une interface sur un périphérique IPv6 de façon unique. Comme le montre la figure ci-contre, une adresse IPv6 source doit être une adresse de monodiffusion. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>multidiffusion</b> : une adresse de multidiffusion IPv6 est utilisée pour envoyer un seul paquet IPv6 vers plusieurs destinations. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>anycast</b> : une adresse anycast IPv6 est une adresse de monodiffusion IPv6 qui peut être attribuée à plusieurs périphériques. Un paquet envoyé à une adresse anycast est acheminé vers le périphérique le plus proche ayant cette adresse. Les adresses anycast sortent du cadre de ce cours.</li>
+            </ul>
+          </p>
+          <p>Contrairement à l'IPv4, l'IPv6 n'a pas d'adresse de diffusion. Cependant, il existe une adresse de multidiffusion destinée à tous les nœuds IPv6 et qui offre globalement les mêmes résultats.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows a router with a switch connected. There are two computers, a server, and a network printer attached to the switch.  One computer is sending an IPv6 unicast message to the server.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

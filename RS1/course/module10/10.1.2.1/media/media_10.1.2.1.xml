@@ -1,0 +1,47 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Modèle client/serveur</b>]]></text> 
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Modèle client/serveur</b>]]></text> 
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Réseau]]></text> 
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[<b>Serveur</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Les ressources sont stockées sur le serveur.]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Client</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[Un client est une combinaison entre matériel et logiciel à laquelle les utilisateurs font directement appel.]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Les fichiers sont téléchargés du serveur vers le client.]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Les fichiers sont téléchargés à partir du client pour être stockés sur le serveur.]]></text> 
+	</component>	
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Téléchargement descendant]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Téléchargement ascendant]]></text> 
+	</component>
+	
+</textcomponents>

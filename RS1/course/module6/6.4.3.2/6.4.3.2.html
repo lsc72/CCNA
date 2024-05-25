@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.4.3.2 Passerelle par défaut pour un commutateur</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Passerelle par défaut pour un commutateur</h1>
+        <div>
+          <p>Généralement, un commutateur de groupe de travail qui connecte entre eux des ordinateurs client est un périphérique de couche 2. En soi, un commutateur de couche 2 n'a pas besoin d'une adresse IP pour fonctionner correctement. Toutefois, si vous souhaitez vous connecter au commutateur et le gérer administrativement sur plusieurs réseaux, vous devez configurer une adresse IPv4, un masque de sous-réseau et l'adresse de la passerelle par défaut sur l'interface SVI. </p>
+          <p>L'adresse de la passerelle par défaut est généralement configurée sur tous les périphériques qui souhaitent communiquer au-delà de leur réseau local En d'autres termes, pour accéder au commutateur à distance à partir d'un autre réseau utilisant une connexion SSH ou Telnet, le commutateur doit être doté d'une interface SVI sur laquelle sont configurés une adresse IPv4, un masque de sous-réseau et l'adresse de la passerelle par défaut. Si c'est un hôte du réseau local qui accède au commutateur, alors l'adresse IPv4 de la passerelle par défaut n'est pas nécessaire.</p>
+          <p>Pour configurer une passerelle par défaut sur un commutateur, utilisez la commande de configuration globale <b>ip default-gateway</b>. L'adresse IP configurée est celle de l'interface de routeur du commutateur connecté.</p>
+          <p>La Figure 1 présente un administrateur établissant une connexion à distance avec le commutateur S1 sur un autre réseau. S1 doit être configuré avec une passerelle par défaut pour pouvoir répondre et établir une connexion SSH avec l'hôte administratif.</p>
+          <p>On pense souvent à tort que le commutateur utilise son adresse de passerelle par défaut pour savoir où transmettre des paquets provenant des hôtes connectés au commutateur et destinés aux hôtes sur des réseaux distants. En fait, l'adresse IP et les informations relatives à la passerelle par défaut ne sont utilisées que pour les paquets provenant du commutateur. Pour les paquets provenant des ordinateurs hôtes connectés au commutateur, l'adresse de la passerelle par défaut doit déjà avoir été configurée sur les systèmes d'exploitation des ordinateurs hôtes. </p>
+          <p>Utilisez le contrôleur de syntaxe de la figure 2 pour vous entraîner à configurer une passerelle par défaut sur le commutateur.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a network with a worker connected to a LAN.  The figure demonstrates how to configure a switch with a management interface (VLAN 1) and a default gateway so a network administrator can manage the switch remotely.  Without these configured, you cannot connect to a switch remotely. Figure 2 is a Syntax Checker activity allowing the learner to practice configuring a management interface and default gateway on a switch.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+﻿<textcomponents>
+	
+	<component id="ID_title">
+		<text><![CDATA[<b>TCP Window Size Example</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[<b>MSS = Maximum Segment Size</b>]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[During three-way handshake Window size 10,000, MSS 1,460]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[1,460 bytes]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[1,460 bytes]]></text>
+	</component>
+
+	<component id="ID_txt05">
+		<text><![CDATA[ACK 2,921<br/>Window size 10,000]]></text>
+	</component>
+
+	<component id="ID_txt06">
+		<text><![CDATA[1,460 bytes]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[ACK 4,381<br/>Window size 10,000]]></text>
+	</component> 
+
+	<component id="ID_txt08">
+		<text><![CDATA[Send window 10,000]]></text>
+	</component>
+
+	<component id="ID_txt09">
+		<text><![CDATA[Sequence number 1]]></text>
+	</component>
+
+	<component id="ID_txt10">
+		<text><![CDATA[Sequence number 1,461]]></text>
+	</component>
+
+	<component id="ID_txt11">
+		<text><![CDATA[Receive acknowledgement <br/>Send window 12,920]]></text>
+	</component>
+
+	<component id="ID_txt12">
+		<text><![CDATA[Sequence number 2,921]]></text>
+	</component>
+
+	<component id="ID_txt13">
+		<text><![CDATA[Receive acknowledgement<br/>Send window 14,380]]></text>
+	</component>
+
+	<component id="ID_txt14">
+		<text><![CDATA[Receive 1 – 1,460]]></text>
+	</component>
+
+	<component id="ID_txt15">
+		<text><![CDATA[Receive 1,461 – 2,920]]></text>
+	</component>
+
+	<component id="ID_txt16">
+		<text><![CDATA[Receive 2,921 – 4,380]]></text>
+	</component>
+
+	
+ 
+	  <component id="ID_s1_instr_body">
+		<text><![CDATA[The <b>window size</b> determines the number of bytes that can be sent before expecting an acknowledgment.<br/>The <b>acknowledgement</b> number is the number of the next expected byte.]]></text> 
+	  </component>
+
+	  <component id="ID_txt21">
+		<text><![CDATA[]]></text> 
+	  </component>
+	  
+</textcomponents>

@@ -1,0 +1,84 @@
+<textcomponents>
+<component id="ID_public">
+<text><![CDATA[<b>Public</b>]]></text>
+</component>
+
+<component id="ID_private">
+<text><![CDATA[<b>Private</b>]]></text>
+</component>
+
+<component id="ID_ip">
+<text><![CDATA[<b>IP Address</b>]]></text>
+</component>
+
+<component id="ID_inst">
+<text><![CDATA[<b>Activity – Public or Private IPv4 Address</b>]]></text>
+</component>
+
+<component id="ID_titleTxt01">
+    <text><![CDATA[Instructions]]></text>
+  </component>
+
+  <component id="ID_bodyTxt01">
+    <text><![CDATA[Drag each IP address to the correct category: Public or Private.]]></text>
+  </component>
+
+<component id="ID_s1_reset">
+<text><![CDATA[Reset]]></text>
+</component>
+
+<component id="ID_s1_check">
+<text><![CDATA[Check]]></text>
+</component>
+
+<component id="ID_s1_drag01">
+<text><![CDATA[172.16.35.2]]></text>
+</component>
+
+<component id="ID_s1_drag02">
+<text><![CDATA[192.168.3.5]]></text>
+</component>
+
+<component id="ID_s1_drag03">
+<text><![CDATA[192.0.3.15]]></text>
+</component>
+
+<component id="ID_s1_drag04">
+<text><![CDATA[64.104.0.22]]></text>
+</component>
+
+<component id="ID_s1_drag05">
+<text><![CDATA[209.165.201.30]]></text>
+</component>
+
+<component id="ID_s1_drag06">
+<text><![CDATA[192.168.11.5]]></text>
+</component>
+
+<component id="ID_s1_drag07">
+<text><![CDATA[172.16.30.30]]></text>
+</component>
+
+<component id="ID_s1_drag08">
+<text><![CDATA[10.55.3.168]]></text>
+</component>
+
+
+<component id="ID_s1_CORRECT_TITLE">
+<text><![CDATA[Correct]]></text> 
+</component>
+
+<component id="ID_s1_CORRECT_BODY">
+<text><![CDATA[You have correctly identified all the IP addresses.]]></text> 
+</component>
+
+
+<component id="ID_s1_INCORRECT_TITLE">
+<text><![CDATA[Incorrect]]></text> 
+</component>
+
+<component id="ID_s1_INCORRECT_BODY">
+<text><![CDATA[You have not correctly identified all the IP addresses.]]></text> 
+</component>
+
+</textcomponents>

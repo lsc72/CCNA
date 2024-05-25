@@ -1,0 +1,106 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Activity - Access Methods</b>]]></text>
+	</component>
+
+<!-- instructions -->
+	<component id="id_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="id_instr_body">
+		<text><![CDATA[Select the most appropriate access method for each scenario.]]></text>
+	</component>
+
+	<component id="MCTable_title">
+	    <text><![CDATA[ ]]></text>
+	</component>
+	 
+<!-- buttons -->
+	<component id="ID_Button01">
+		<text><![CDATA[Check]]></text>
+	</component>
+
+	<component id="ID_Button02">
+		<text><![CDATA[Reset]]></text>
+	</component>
+
+<!--Number of rows in the table-->
+	<component id="txt_numrows">
+		<text><![CDATA[4]]></text>
+	</component>
+
+<!--Number of columns for the answers in the table. Do not count the question column-->
+	<component id="txt_numcols">
+		<text><![CDATA[3]]></text>
+	</component>
+
+<!--Answer column headers-->
+	<component id="txt_col1">
+		<text><![CDATA[<b>Console</b>]]></text>
+	</component>
+
+	<component id="txt_col2">
+		<text><![CDATA[<b>Telnet/SSH</b>]]></text>
+	</component>
+
+	<component id="txt_col3">
+		<text><![CDATA[<b>AUX</b>]]></text>
+	</component>
+
+<!--Question text - blockindent code moves the text away from the left edge a bit-->
+<!--Question text - If questions are numbered, use blockindent for hanging indents-->
+	<component id="txt_q1">
+		<text><![CDATA[1. <textformat blockindent='13'>You are in the equipment room with a new switch that needs to be configured.</textformat>]]></text>
+	</component>
+
+	<component id="txt_q2">
+		<text><![CDATA[2. <textformat blockindent='13'>Your manager gives you a special cable and tells you to use it to configure the <br/><span class="aligning">switch.</span></textformat>]]></text>
+	</component>
+
+	<component id="txt_q3">
+		<text><![CDATA[3. <textformat blockindent='13'>You access the IOS by using another intermediary device over a network <br/><span class="aligning">connection.</span></textformat>]]></text>
+	</component>
+
+	<component id="txt_q4">
+		<text><![CDATA[4. <textformat blockindent='13'>You call your manager to tell him you cannot access your router in another city <br/><span class="aligning">over the Internet. He provides you with the information to access the switch </span><br/><span class="aligning">through a telephone connection.</span></textformat>]]></text>
+	</component>
+
+<!--Answers - Give the column number(s), column numbering start with 1 not 0-->
+<!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] -->
+	<component id="txt_a1">
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id="txt_a2">
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id="txt_a3">
+		<text><![CDATA[2]]></text>
+	</component>
+
+	<component id="txt_a4">
+		<text><![CDATA[3]]></text>
+	</component>
+
+<!-- Correct Feedback -->
+	<component id="ID_titleCorrect">
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id="ID_correctText">
+		<text><![CDATA[You successfully matched the most appropriate access method to each scenario.]]></text>
+	</component>
+
+<!-- Incorrect Feedback -->
+	<component id="ID_titleIncorrect">
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id="ID_IncorrectText">
+		<text><![CDATA[You have not successfully matched the most appropriate access method to each scenario. Please click Reset to try again.]]></text>
+	</component>
+
+</textcomponents>

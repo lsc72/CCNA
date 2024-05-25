@@ -1,0 +1,39 @@
+<textcomponents>
+   <component id="ID_title">
+      <text><![CDATA[<b>Redundancy to a Data Center</b>]]></text>
+      </component>
+<component id="ID_titleTxt01">
+   <text><![CDATA[Data Center]]></text>
+</component>
+<component id="ID_bodyTxt01">
+   <text><![CDATA[If one server fails, another is there to handle customer requests.]]></text>
+</component>
+
+<component id="ID_titleTxt02">
+   <text><![CDATA[Links]]></text>
+</component>
+<component id="ID_bodyTxt02">
+   <text><![CDATA[If the link to one switch fails, the link to the second switch is still available.]]></text>
+</component>
+
+<component id="ID_titleTxt03">
+   <text><![CDATA[Switches]]></text>
+</component>
+<component id="ID_bodyTxt03">
+   <text><![CDATA[Redundant switches are present to avoid a switching failure.]]></text>
+</component>
+
+
+<component id="ID_titleTxt04">
+   <text><![CDATA[Routers]]></text>
+</component>
+<component id="ID_bodyTxt04">
+   <text><![CDATA[Router redundancy can help to ensure that application transactions received from external traffic can be handled in the event of a router or route failure.]]></text>
+</component>
+
+<component id="ID_inst">
+      <text><![CDATA[Click the orange highlighted devices and connections for more information.]]></text>
+</component>  
+  
+   
+</textcomponents>

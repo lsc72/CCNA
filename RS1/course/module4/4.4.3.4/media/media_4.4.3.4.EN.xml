@@ -1,0 +1,51 @@
+<textcomponents>
+
+    <component id="ID_title">
+        <text><![CDATA[<b>CSMA/CD</b>]]></text>
+    </component>
+    
+    <component id="ID_txt01">
+        <text><![CDATA[Hub]]></text>
+    </component>
+
+    <!-- Slide 1-->
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Frame]]></text>
+    </component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[<font color="#FFFFFF">The medium is available so I will send the Ethernet frame to PC3.</font>]]></text>
+    </component>
+    
+    <!-- Slide 2-->
+    <component id="ID_s2_txt01">
+        <text><![CDATA[Frame]]></text>
+    </component>
+    
+    <component id="ID_s2_txt02">
+        <text><![CDATA[Frame]]></text>
+    </component>
+    
+    <component id="ID_s2_txt03">
+        <text><![CDATA[<font color="#FFFFFF">I have a frame to send but I have to wait because I am receiving a frame.</font>]]></text>
+    </component>
+    
+    
+    <!-- Slide 3 -->
+     <component id="ID_s3_txt01">
+        <text><![CDATA[Frame]]></text>
+    </component>
+    
+    <component id="ID_s3_txt02">
+        <text><![CDATA[Frame]]></text>
+    </component>
+    
+    <component id="ID_s3_txt03">
+        <text><![CDATA[<font color="#FFFFFF">This frame is not for me, so I will ignore it.</font>]]></text>
+    </component>
+    
+    <component id="ID_s3_txt04">
+        <text><![CDATA[<font color="#FFFFFF">This frame is for me, so I will copy in the entire frame.</font>]]></text>
+    </component>
+    
+</textcomponents>

@@ -1,0 +1,15 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+#ID_s2_txt12{
+	margin-left: -93px !important;
+}
+
+#ID_s2_txt19{
+
+ 
+ line-height: 8px !important;
+}

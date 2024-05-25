@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.3 Sous-réseaux sans classe</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Sous-réseaux sans classe</h1>
+        <div>
+          <p>Dans les exemples que nous avons vus jusqu'à présent, des bits d'hôte étaient empruntés aux préfixes de réseau courants /8, /16 et /24. Toutefois, les sous-réseaux peuvent emprunter des bits d'hôte de <i>n'importe quelle</i> position pour créer d'autres masques.</p>
+          <p>Par exemple, la segmentation d'une adresse réseau /24 implique souvent l'utilisation de préfixes plus longs qui empruntent des bits au quatrième octet. L'administrateur dispose ainsi d'une plus grande flexibilité lorsqu'il attribue les adresses réseau à un nombre réduit de périphériques finaux.  </p>
+          <p>Comme indiqué dans la figure : </p>
+          <p>
+            <ul>
+              <li>ligne /25 - L'emprunt de 1 bit au quatrième octet crée 2 sous-réseaux qui prennent en charge 126 hôtes chacun.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ligne /26 - L'emprunt de 2 bits crée 4 sous-réseaux qui prennent en charge 62 hôtes chacun.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ligne /27 - L'emprunt de 3 bits crée 8 sous-réseaux qui prennent en charge 30 hôtes chacun. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ligne /28 - L'emprunt de 4 bits crée 16 sous-réseaux qui prennent en charge 14 hôtes chacun. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ligne /29 - L'emprunt de 5 bits crée 32 sous-réseaux qui prennent en charge 6 hôtes chacun. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>ligne /30 - L'emprunt de 6 bits crée 64 sous-réseaux qui prennent en charge 2 hôtes chacun. </li>
+            </ul>
+          </p>
+          <p>Pour chaque bit emprunté au quatrième octet, le nombre de sous-réseaux disponibles est doublé et le nombre d'adresses d'hôte par sous-réseau est réduit.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a table. The first column lists the six prefix lengths from /25 to /30. The second column lists the six subnet masks from 255.255.255.128 to 255.255.255.252. The third column shows the subnet mask in binary with the letter “n” above one bits and the letter “h” above zero bits. The effect is to show the borrowing of bits into the fourth octet from borrowing one bit in the first row (/25) to borrowing six bits in the last row (/30). The fourth and fifth columns show the number of subnets and hosts respectively. For example, borrowing 3 bits gets you 8 subnets with 30 hosts per subnet.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

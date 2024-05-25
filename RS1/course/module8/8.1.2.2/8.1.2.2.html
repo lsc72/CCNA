@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.2 Création de sous-réseaux au niveau de la limite d&#x0027;octet</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Création de sous-réseaux au niveau de la limite d&#x0027;octet</h1>
+        <div>
+          <p>Pour comprendre l'intérêt de créer des sous-réseaux à la limite d'octet, prenons l'exemple qui suit. Supposons qu'une entreprise ait choisi comme adresse réseau interne l'adresse privée 10.0.0.0/8. Cette adresse réseau permet de connecter 16 777 214 hôtes dans un seul domaine de diffusion. Évidemment, ce n'est pas idéal. </p>
+          <p>L'entreprise pourrait à nouveau segmenter l'adresse 10.0.0.0/8 en sous-réseaux à la limite d'octet /16, comme le montre la figure 1. Elle aurait ainsi la possibilité de définir jusqu'à 256 sous-réseaux (10.0.0.0/16 à 10.255.0.0/16), chacun d'eux pouvant connecter 65 534 hôtes. Notez que les deux premiers octets identifient la part réseau de l'adresse tandis que les deux derniers correspondent aux adresses IP des hôtes.</p>
+          <p>Une autre solution consiste à segmenter le réseau à la limite d'octet /24, comme illustré à la figure 2. Cela lui permettrait de définir 65 536 sous-réseaux capables chacun de connecter 254 hôtes. La limite /24 est la plus utilisée pour la segmentation en sous-réseaux, car elle est pratique et permet de définir un nombre raisonnable d'hôtes.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a table with all the possible subnets for 10.x.0.0/16. The first column is the subnet address. Although there are 256 possibilities, only the first seven and the last subnet are shown. The second column shows the host range for each subnet. Each subnet can support 65,534 hosts. The third column shows the broadcast address for each subnet. Figure 2 shows a table with all the possible subnets for 10.x.x.0/24. Although there are 65,536 possibilities, only nine are shown. The second column shows the host range for each subnet. Each subnet can support 254 hosts. The third column shows the broadcast address for each subnet.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

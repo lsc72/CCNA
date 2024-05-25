@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.3.4 Transmission monodiffusion</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Transmission monodiffusion</h1>
+        <div>
+          <p>La monodiffusion est utilisée dans les communications normales d'hôte à hôte tant entre client et serveur que dans un réseau peer-to-peer. Les paquets de type monodiffusion utilisent l'adresse du périphérique de destination comme adresse de destination et peuvent être acheminés sur un interréseau. </p>
+          <p>Lancez l’animation pour visualiser un exemple de monodiffusion.</p>
+          <p>Dans un réseau IPv4, l’adresse monodiffusion appliquée à un périphérique final est désignée sous le nom d’adresse d’hôte. Dans une monodiffusion, les adresses attribuées aux deux périphériques finaux sont utilisées comme adresses IPv4 source et de destination. Durant l'encapsulation, l'hôte source utilise son adresse IPv4 comme adresse source et l'adresse IPv4 de l'hôte de destination comme adresse de destination. Même si la destination est spécifiée dans un paquet comme une monodiffusion, une diffusion ou une multidiffusion, l'adresse source d'un paquet est toujours l'adresse de monodiffusion de l'hôte d'origine. </p>
+          <p>
+            <b>Remarque</b> : dans ce cours, sauf indication contraire, toutes les communications entre les périphériques sont de type monodiffusion.</p>
+          <p>Les adresses d'hôte IPv4 se situent dans la plage d'adresses 0.0.0.0 à 223.255.255.255. Toutefois, dans cette plage, de nombreuses adresses sont réservées à un usage spécifique. Elles seront abordées dans la suite de ce chapitre.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation showing a unicast transmission.  A PC with the IP address 172.16.4.1 needs to send a packet to a network printer at 172.16.4.253.  The packet is sent to a switch and then the packet is forwarded only to the printer.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

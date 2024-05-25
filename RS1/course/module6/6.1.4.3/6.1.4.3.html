@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.4.3 Encapsulation IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.4.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Encapsulation IPv6</h1>
+        <div>
+          <p>L'une des principales améliorations de conception de l'IPv6 par rapport à l'IPv4 est l'en-tête simplifié. </p>
+          <p>Par exemple, l'en-tête IPv4 représenté à la figure 1 contient 20 octets (jusqu'à 60 octets si le champ Options est utilisé) et 12 champs d'en-tête de base, sans compter le champ Options et le champ Remplissage. Comme l'indique la figure, pour l'IPv6, certains champs ont été conservés, d'autres ont changé de nom ou de position, et d'autres champs d'IPv4 ne sont plus nécessaires. </p>
+          <p>Plus simple, l'en-tête IPv6 représenté à la figure 2 est, quant à lui, constitué de 40 octets (principalement en raison de la longueur des adresses IPv6 source et de destination) et de 8 champs d'en-tête (3 champs d'en-tête IPv4 de base et 5 champs d'en-tête supplémentaires).  Comme l'indique cette figure, certains champs ont été conservés de l'IPv4, d'autres ont changé de nom ou de position, et de nouveaux champs ont été ajoutés. </p>
+          <p>Par rapport à IPv4, l'en-tête IPv6 offre plusieurs avantages énumérés sur la figure 3. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 and 2 compare the IPv4 and IPv6 headers. In the IPv4 header, there are fields shaded in yellow (version, source I.P. address and destination I.P. address) that were kept in IPv 6.  There are fields shaded in green (type of service, total length, time to live and protocol) that were renamed or repositioned in IPv6 and the fields shaded in gray were dropped in IPv6. The IPv6 header has a new field called flow label. The advantages of IPv6 are listed in Figure 3. These advantages include: better routing efficiency for performance and forwarding-rate scalability; no requirement for processing checksums; simplified and more efficient extension header mechanisms (as opposed to the IPv4 Options field); and a Flow Label field for per-flow processing with no need to open the transport inner packet to identify the various traffic flows.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

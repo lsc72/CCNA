@@ -1,0 +1,38 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Subnetting Networks on the Octet Boundary</b>]]></text>
+	</component>
+	<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#98D3D1' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	
+		<tr>
+			<td colspan='4' bgcolor='#0E6360' class="mtable_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#077A77' width='70' valign="middle"><font color='#FFFFFF'><p align="center"><b>Prefix<br/>Length</b></p></font></td>
+			<td bgcolor='#077A77' width='120' valign="middle"><font color='#FFFFFF'><p align="center"><b>Subnet Mask</b></p></font></td>
+			<td bgcolor='#077A77' valign="middle"><font color='#FFFFFF'><p align="center"><b>Subnet Mask in Binary<br/>(n = network, h = host)</b></p></font></td>
+			<td bgcolor='#077A77' width='120' valign="middle"><font color='#FFFFFF'><p align="center"><b># of hosts</b></p></font></td>
+		</tr> 
+		<tr>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">/8</p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">255.0.0.0</p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center"><b><font color='#0000CC' face='_typewriter'>nnnnnnnn</font><font face='_typewriter'>.hhhhhhhh.hhhhhhhh.hhhhhhhh</font><br/><font color='#0000CC' face='_typewriter'>11111111</font><font face='_typewriter'>.00000000.00000000.00000000</font></b></p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">16,777,214</p></td>
+		</tr>		 
+		<tr>
+			<td bgcolor='#FFFFFF' valign="middle"><p align="center">/16</p></td>
+			<td bgcolor='#FFFFFF' valign="middle"><p align="center">255.255.0.0</p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center"><b><font color='#0000CC' face='_typewriter'>nnnnnnnn.nnnnnnnn.</font><font face='_typewriter'>hhhhhhhh.hhhhhhhh</font><br/><font color='#0000CC' face='_typewriter'>11111111.11111111</font><font face='_typewriter'>.00000000.00000000</font></b></p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">65,534</p></td>
+		</tr>
+		<tr>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">/24</p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">255.255.255.0</p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center"><b><font color='#0000CC' face='_typewriter'>nnnnnnnn.nnnnnnnn.nnnnnnnn</font><font face='_typewriter'>.hhhhhhhh</font><br/><font color='#0000CC' face='_typewriter'>11111111.11111111.11111111</font><font face='_typewriter'>.00000000</font></b></p></td>
+			<td bgcolor='#EFF8F7' valign="middle"><p align="center">254</p></td>
+		</tr>	 
+		
+	</table>]]></text>
+	</component>
+</textcomponents>

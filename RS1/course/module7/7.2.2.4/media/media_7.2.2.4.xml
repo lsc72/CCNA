@@ -1,0 +1,119 @@
+<textcomponents>
+
+	<component id='ID_inst'>
+		<text><![CDATA[<b>Exercice - Entraînement sur les représentations d'adresses IPv6</b>]]></text>
+	</component>
+
+	<component id='ID_s1_instr_title'>
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id='ID_s1_instr_body'>
+		<text><![CDATA[Convertissez les adresses IPv6 (ignorez les zéros de début de segment) sous formes raccourcies et compressées. Cliquez sur les chiffres au bas de la page pour continuer l'exercice.]]></text>
+	</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Conversion IPv6]]></text> 
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Format privilégié]]></text> 
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Sans les zéros de début de segment]]></text> 
+</component>
+
+<component id="ID_txt004">
+<text><![CDATA[Format compressé]]></text> 
+</component>
+
+<component id="ID_s1_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s2_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s3_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s4_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s5_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s6_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s7_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s8_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s9_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+<component id="ID_s10_reset">
+<text><![CDATA[<b>Réinitialiser</b>]]></text> 
+</component>
+
+
+
+<component id="ID_s1_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s2_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s3_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s4_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s5_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s6_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s7_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s8_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s9_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component>
+
+<component id="ID_s10_check">
+<text><![CDATA[<b>Contrôler</b>]]></text> 
+</component><!--feedback--><component id='ID_correctTitle'>
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id='ID_correctBody'>
+	<text><![CDATA[Félicitations, vous avez bien répondu à toutes les questions.]]></text>
+</component>
+
+</textcomponents>

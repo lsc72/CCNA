@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.3.2.1 Adresses réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adresses réseau</h1>
+        <div>
+          <p>Les couches réseau et liaison de données sont chargées de transmettre les données du périphérique source au périphérique de destination. Comme illustré à la figure 1, les protocoles de ces deux couches contiennent les adresses source et de destination, mais ils ne les utilisent pas aux mêmes fins.</p>
+          <p>
+            <ul>
+              <li>
+                Les <b>adresses de couche réseau source et de destination</b> remettent le paquet IP de la source d'origine à la destination finale, sur le même réseau ou sur un réseau distant.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                Les <b>adresses de liaison de données source et de destination</b> transmettent la trame liaison de données d'une carte réseau à une autre, sur un même réseau.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>L'adresse IP est la couche réseau (ou couche 3), c'est-à-dire l'adresse logique utilisée pour acheminer le paquet IP de la source d'origine à la destination finale, comme illustré à la figure 2. </p>
+          <p></p>
+          <p>Le paquet IP contient deux adresses IP :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse IP source</b> : adresse IP du périphérique expéditeur, la source d'origine du paquet.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse IP de destination</b> : adresse IP du périphérique récepteur, la destination finale du paquet.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the network address and the data link address contained in a message.  The physical layer contains the timing and synchronization bits.  The data link layer contains the destination and source physical addresses.  The network layer contains the destination and source logical network addresses.  The transport layer contains the destination and source port numbers and the upper layers contain the encoded application data. Figure 2 shows an IP packet traversing several routers. The source and destination IP address are inserted into the packet header.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

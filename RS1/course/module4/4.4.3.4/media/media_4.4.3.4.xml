@@ -1,0 +1,41 @@
+<textcomponents>
+
+    <component id="ID_title">
+        <text><![CDATA[<b>CSMA/CD</b>]]></text>
+    </component>
+    
+    <component id="ID_txt01">
+        <text><![CDATA[Concentrateur]]></text>
+    </component><!-- Slide 1--><component id="ID_s1_txt01">
+        <text><![CDATA[Trame]]></text>
+    </component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Le support est disponible donc j'envoie la trame Ethernet au PC3.]]></text>
+    </component><!-- Slide 2--><component id="ID_s2_txt01">
+        <text><![CDATA[Trame]]></text>
+    </component>
+    
+    <component id="ID_s2_txt02">
+        <text><![CDATA[Trame]]></text>
+    </component>
+    
+    <component id="ID_s2_txt03">
+        <text><![CDATA[J'ai une trame à envoyer mais je dois attendre, car je suis en train d'en recevoir une.]]></text>
+    </component><!-- Slide 3 --><component id="ID_s3_txt01">
+        <text><![CDATA[Trame]]></text>
+    </component>
+    
+    <component id="ID_s3_txt02">
+        <text><![CDATA[Trame]]></text>
+    </component>
+    
+    <component id="ID_s3_txt03">
+        <text><![CDATA[Cette trame n'est pas pour moi, donc je l'ignore.]]></text>
+    </component>
+    
+    <component id="ID_s3_txt04">
+        <text><![CDATA[Cette trame est pour moi, donc je la copie entièrement.]]></text>
+    </component>
+    
+</textcomponents>

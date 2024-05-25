@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.5.5 Le VLSM dans la pratique</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.5.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Le VLSM dans la pratique</h1>
+        <div>
+          <p>Avec les sous-réseaux VLSM, les segments LAN et WAN peuvent être adressés sans perte inutile.</p>
+          <p>Comme le montre la figure 1, les hôtes de chaque réseau local obtiennent une adresse d'hôte valide avec la plage de ce sous-réseau et le masque /27. L'interface de réseau local de chacun des quatre routeurs obtient un sous-réseau /27 et une ou plusieurs interfaces série obtiennent un sous-réseau /30.</p>
+          <p>Conformément au schéma d'adressage commun, la première adresse d'hôte IPv4 de chaque sous-réseau est attribuée à l'interface de réseau local du routeur. Les interfaces de réseau étendu des routeurs obtiennent les adresses IP et le masque des sous-réseaux /30.</p>
+          <p>Les figures 2 à 5 présentent la configuration d'interface de chacun des routeurs.</p>
+          <p>Les hôtes de chaque sous-réseau obtiennent une adresse d'hôte IPv4 appartenant à la plage d'adresses d'hôte du sous-réseau et un masque approprié. Les hôtes utilisent l'adresse de l'interface de réseau local du routeur connecté comme adresse de passerelle par défaut. </p>
+          <p>
+            <ul>
+              <li>La passerelle par défaut pour les hôtes du bâtiment A (192.168.20.0/27) sera 192.168.20.1.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La passerelle par défaut pour les hôtes du bâtiment B (192.168.20.32/27) sera 192.168.20.33.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La passerelle par défaut pour les hôtes du bâtiment C (192.168.20.64/27) sera 192.168.20.65.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La passerelle par défaut pour les hôtes du bâtiment D (192.168.20.96/27) sera 192.168.20.97.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a four router topology. R1 is connected to R2. R2 is connected to R3. R3 is connected to R4. Each router has a LAN. The LANs are assign /27 subnets and the WAN links between the routers are assigned /30 subnets. Figure 2 shows the configuration commands to configure the interfaces on R1 for building A. Figure 3 shows the configuration commands to configure the interfaces on R2 for building B. Figure 4 shows the configuration commands to configure the interfaces on R3 for building C. Figure 5 shows the configuration commands to configure the interfaces on R4 for building D.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

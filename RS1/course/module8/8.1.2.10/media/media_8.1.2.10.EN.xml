@@ -1,0 +1,185 @@
+<textcomponents>
+<!--Slide-1-->
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>/26 Subnetting Topology</b>]]></text>
+	</component>
+
+<!--Slide-2-->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Borrowing 2 Bits</b>]]></text>
+	</component>
+
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Original]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+		<text><![CDATA[ Mask]]></text>
+	</component>
+
+	<component id="ID_s2_txt11">
+		<text><![CDATA[Borrowing 2 Bits]]></text>
+	</component>
+
+	
+
+<!--Slide-3-->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Borrowing 2 Bits</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+		<text><![CDATA[Original]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Mask]]></text>
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[Borrowing 2 bits creates 4 subnets]]></text>
+	</component>
+
+	<component id="ID_s3_txt04">
+		<text><![CDATA[All 4 subnets use the same mask:]]></text>
+	</component>
+
+
+	<component id="ID_s3_txt05">
+		<text><![CDATA[Net 0]]></text>
+	</component>
+
+	<component id="ID_s3_txt06">
+		<text><![CDATA[Net 1]]></text>
+	</component>
+
+	<component id="ID_s3_txt07">
+		<text><![CDATA[Net 2]]></text>
+	</component>
+
+	<component id="ID_s3_txt08">
+		<text><![CDATA[Net 3]]></text>
+	</component>
+
+	<component id="ID_s3_txt09">
+		<text><![CDATA[Mask]]></text>
+	</component>
+
+	<component id="ID_s3_txt10">
+		<text><![CDATA[Mask: 255.255.255.<b>192</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt11">
+		<text><![CDATA[Borrowing 2 Bits]]></text>
+	</component>
+
+
+<!--Slide-4-->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Calculate Number of Hosts</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[6 bits remain in host field]]></text>
+	</component>
+
+	<component id="ID_s4_txt03">
+		<text><![CDATA[2^<font color="#f26200"><b>6</b></font> = 64 hosts per subnet<br>2^<font color="#f26200"><b>6</b></font> - 2 = 62 valid hosts per subnet]]></text>
+	</component>
+
+		
+<!--Slide-5-->	
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Address Range for 192.168.1.0/26 Subnet</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_txt01">
+		<text><![CDATA[ Network Address]]></text>
+	</component>
+
+	<component id="ID_s5_txt02">
+		<text><![CDATA[First Host Address]]></text>
+	</component>
+
+	<component id="ID_s5_txt03">
+		<text><![CDATA[Last Host Address]]></text>
+	</component>
+
+	<component id="ID_s5_txt04">
+		<text><![CDATA[Broadcast Address]]></text>
+	</component>
+	
+	
+<!--Slide 6-->	
+	<component id="ID_s6_title">
+		<text><![CDATA[<b>Address Ranges Nets 0 - 2</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_txt01">
+		<text><![CDATA[Network]]></text>
+	</component>
+
+	<component id="ID_s6_txt02">
+		<text><![CDATA[First]]></text>
+	</component>
+
+	<component id="ID_s6_txt03">
+		<text><![CDATA[Last]]></text>
+	</component>
+
+	<component id="ID_s6_txt04">
+		<text><![CDATA[Broadcast]]></text>
+	</component>
+
+	<component id="ID_s6_txt05">
+		<text><![CDATA[Network]]></text>
+	</component>
+
+	<component id="ID_s6_txt06">
+		<text><![CDATA[First]]></text>
+	</component>
+
+	<component id="ID_s6_txt07">
+		<text><![CDATA[Last]]></text>
+	</component>
+
+	<component id="ID_s6_txt08">
+		<text><![CDATA[Broadcast]]></text>
+	</component>
+
+	<component id="ID_s6_txt09">
+		<text><![CDATA[Network]]></text>
+	</component>
+
+	<component id="ID_s6_txt10">
+		<text><![CDATA[First]]></text>
+	</component>
+
+	<component id="ID_s6_txt11">
+		<text><![CDATA[Last]]></text>
+	</component>
+
+	<component id="ID_s6_txt12">
+		<text><![CDATA[Broadcast]]></text>
+	</component>
+
+	<component id="ID_s6_txt13">
+		<text><![CDATA[Net 0]]></text>
+	</component>
+	
+	<component id="ID_s6_txt14">
+		<text><![CDATA[Net 1]]></text>
+	</component>
+	
+	<component id="ID_s6_txt15">
+		<text><![CDATA[Net 2]]></text>
+	</component>
+	
+<!--Slide 7-->	
+	<component id="ID_s7_title">
+		<text><![CDATA[<b>Configuring the Interfaces with /26 Addresses</b>]]></text>
+	</component>
+
+
+</textcomponents>

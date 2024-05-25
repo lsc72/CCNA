@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.1.2 Segmentation du réseau en sous-réseaux à l&#x0027;aide d&#x0027;ID de sous-réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Segmentation du réseau en sous-réseaux à l&#x0027;aide d&#x0027;ID de sous-réseau</h1>
+        <div>
+          <p>Les entreprises peuvent utiliser la partie ID de sous-réseau de 16 bits de l'adresse de monodiffusion globale IPv6 pour créer des sous-réseaux internes. </p>
+          <p>L'ID de sous-réseau fournit plus de sous-réseaux et prend en charge plus d'hôtes que nécessaire. Par exemple, la partie de 16 bits permet de :</p>
+          <p>
+            <ul>
+              <li>créer jusqu'à 65 536 sous-réseaux /64, sans même avoir à emprunter des bits à l'ID d'interface de l'adresse. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>prendre en charge jusqu'à 18 quintillions d'adresses IPv6 d'hôte par sous-réseau (soit 18 000 000 000 000 000 000). </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : la segmentation en sous-réseaux dans l'ID d'interface à 64 bits (ou partie hôte) est également possible, mais rarement nécessaire.</p>
+          <p>La mise en œuvre des sous-réseaux IPv6 est également plus simple que celle des sous-réseaux IPV4, puisqu'aucune conversion en binaire n'est requise. Pour déterminer le sous-réseau disponible suivant, il suffit de compter en hexadécimal. </p>
+          <p>Par exemple, supposons que le préfixe de routage global 2001:0DB8:ACAD::/48 avec un ID de sous-réseau de 16 bits a été attribué à une entreprise. Elle peut alors créer des sous-réseaux /64, comme le montre la figure. Notez que le préfixe global de routage est identique pour tous les sous-réseaux. Seul l'« hextet » (segment de 16 bits) représentant l'ID de sous-réseau est incrémenté en hexadécimal pour chaque sous-réseau. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows that the 16 bits of the subnet ID, represented in hexadecimal, can make 65,536 subnets.  These subnets are 0 0 0 0 through F F F F.  </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

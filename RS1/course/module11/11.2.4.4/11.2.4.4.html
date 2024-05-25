@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.2.4.4 Activer SSH</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Activer SSH</h1>
+        <div>
+          <p>Le protocole Telnet n'est pas sécurisé. Les données contenues dans un paquet Telnet sont transmises en clair. Par conséquent, il est vivement recommandé d'activer SSH sur les périphériques pour assurer la sécurité des accès à distance. Il est possible de configurer un périphérique Cisco de sorte qu'il prenne en charge le protocole SSH, à l'aide du processus en quatre étapes indiqué dans la figure.</p>
+          <p>
+            <b>Étape 1.</b> Assurez-vous que le routeur dispose d'un nom d'hôte unique, puis spécifiez le nom de domaine IP du réseau à l'aide de la commande <b>ip domain-name</b> en mode de configuration globale.</p>
+          <p>
+            <b>Étape 2.</b> Des clés secrètes unidirectionnelles doivent être générées pour qu'un routeur chiffre le trafic SSH. Pour générer la clé SSH, utilisez la commande <b>crypto key generate rsa general-keys</b> en mode de configuration globale. Cette commande est complexe et l'explication de ses différents éléments dépasse le cadre de ce cours. Notez simplement que le module détermine la taille de la clé et qu'il peut être configuré à partir de 360 bits jusqu'à 2048 bits. Plus le module est grand, plus la clé est sécurisée, mais plus le chiffrement et le déchiffrage des informations sont longs. Il est recommandé d'utiliser un module d'au moins 1 024 bits. </p>
+          <p>
+            <b>Étape 3.</b> Créez une entrée de nom d'utilisateur dans la base de données locale à l'aide de la commande de configuration globale <b>username</b>.</p>
+          <p>
+            <b>Étape 4.</b> Activez les sessions SSH entrantes à l'aide des commandes de ligne VTY <b>login local</b> et <b>transport input ssh</b>.</p>
+          <p>Le routeur est désormais accessible à distance uniquement au moyen de SSH.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the commands to configure SSH. The steps are listed in a text box.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

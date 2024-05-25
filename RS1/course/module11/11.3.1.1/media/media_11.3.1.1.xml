@@ -1,0 +1,13 @@
+﻿<textcomponents>
+
+	<component id='ID_s1_title'>
+		<text><![CDATA[<b>Indicateurs IOS de la commande ping</b>]]></text>
+	</component>
+
+	<component id='ID_s2_title'>
+		<text><![CDATA[<b>Test de la boucle</b>]]></text>
+	</component><!-- for HTML media only --><component id="ID_s1_txt01"><text><![CDATA[<pre>R1# <b>ping 209.165.200.226</b> Type escape sequence to abort. Sending 5, 100-byte ICMP Echos to 209.165.200.226, timeout is 2 seconds: !!!!! Success rate is 100 percent (5/5), round-trip min/avg/max = 3/3/4 ms R1#</pre>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01"><text><![CDATA[<pre>C:\> <b>ping 127.0.0.1</b> Pinging 127.0.0.1 with 32 bytes of data: Reply from 127.0.0.1: bytes=32 time=0ms TTL=128 Reply from 127.0.0.1: bytes=32 time=4ms TTL=128 Reply from 127.0.0.1: bytes=32 time=3ms TTL=128 Reply from 127.0.0.1: bytes=32 time=3ms TTL=128 Ping statistics for 127.0.0.1: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss), Approximate round trip times in milli-seconds: Minimum = 0ms, Maximum = 4ms, Average = 2ms</pre>]]></text>
+	</component><!-- end for HTML media only--></textcomponents>

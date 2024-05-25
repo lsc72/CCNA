@@ -1,0 +1,59 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Attaque en force</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Mots de passe faibles et forts</b>]]></text> 
+	</component>
+	<component id="ID_s2_table01">
+		<text><![CDATA[
+			<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+				<tr class="mtable_top">
+					<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>					
+				<tr>
+					<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#ffffff'><b>Mot de passe faible</b></font></td>
+					<td bgcolor='#666263' width='420' valign="top"><font size='11' color='#ffffff'><b>Raison de sa faiblesse</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>secret</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Mot de passe simple tiré du dictionnaire</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Dupont</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Nom de jeune fille de la mère de l'utilisateur</font></td>
+				</tr>	
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>toyota</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Marque d'une voiture</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>bob1967</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Nom et année de naissance de l'utilisateur</font></td>
+				</tr>			
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>Blueleaf23</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Mots et chiffres simples</font></td>
+				</tr>		
+			</table>]]></text> 
+	</component>
+	<component id="ID_s2_table02">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+				<tr class="mtable_top">
+					<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#666263' width='180' valign="top"><font size='11' color='#ffffff'><b>Mot de passe fort</b></font></td>
+					<td bgcolor='#666263' width='420' valign="top"><font size='11' color='#ffffff'><b>Raison de sa force</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11'color='#393536'>b67n42d39c</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='11' color='#393536'>Il combine des caractères alphanumériques.</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>12^h u4@1p7</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='11' color='#393536'>Il combine des caractères alphanumériques, des symboles et comprend un espace.</font></td>
+				</tr>	
+			</table>]]></text> 
+	</component>
+</textcomponents>

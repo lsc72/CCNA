@@ -1,0 +1,72 @@
+﻿<textcomponents>
+
+<!-- Slide 1 -->
+
+	<component id="ID_title">
+	<text><![CDATA[<b>Operating System</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+	<text><![CDATA[CLI]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+	<text><![CDATA[GUI]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[Shell]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Kernel]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Hardware]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[User<br/>Interface]]></text>
+	</component>
+	
+	<component id="ID_titleTxt01">
+		<text><![CDATA[Shell]]></text>
+	</component>
+
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[The user interface that allows users to request specific tasks from the computer. These requests can be made either through the CLI or GUI interfaces.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt02">
+		<text><![CDATA[Kernel]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Communicates between the hardware and software of a computer and manages how hardware resources are used to meet software requirements. ]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[Hardware]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[The physical part of a computer including underlying electronics.]]></text>
+	</component>
+
+	
+<!-- End Slide 1 -->
+<!-- Slide 2 -->
+
+	<component id="ID_slide2_title">
+	<text><![CDATA[<b>Command-Line Interface</b>]]></text>
+	</component>
+
+<!-- End Slide 2 -->
+<!-- Slide 3 -->
+
+	<component id="ID_slide3_title">
+	<text><![CDATA[<b>Graphical User Interface</b>]]></text>
+	</component>
+	
+<!-- End Slide 3 -->
+
+</textcomponents>

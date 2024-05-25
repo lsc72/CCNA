@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.6 Conversion de nombres décimaux en nombres binaires</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Conversion de nombres décimaux en nombres binaires</h1>
+        <div>
+          <p>Il est également important de comprendre comment convertir une adresse IPv4 décimale à point en son équivalent binaire. La table des valeurs pondérées binaires peut vous y aider. L'utilisation de la table pour convertir une adresse décimale en adresse binaire est illustrée ci-dessous :</p>
+          <p>
+            <ul>
+              <li>La figure 1 pose la question suivante : la valeur décimale de l'octet (<i>n</i>) est-elle égale ou supérieure au bit de poids fort (128) ? Si la réponse est non, indiquez la valeur binaire 0 dans la valeur pondérée 128. Si la réponse est oui, indiquez la valeur binaire 1 dans la valeur pondérée 128 et soustrayez 128 au nombre décimal. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La figure 2 pose la question suivante : la valeur restante (<i>n</i>) est-elle égale ou supérieure au bit de poids fort suivant (64) ? Si la réponse est non, ajoutez la valeur binaire 0 dans la valeur pondérée 64. Sinon, ajoutez la valeur binaire 1 et soustrayez 64 au nombre décimal. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>La figure 3 pose la question suivante : la valeur restante (<i>n</i>) est-elle égale ou supérieure au bit de poids fort suivant (32) ? Si la réponse est non, ajoutez la valeur binaire 0 dans la valeur pondérée 32. Sinon, ajoutez la valeur binaire 1 et soustrayez 32 au nombre décimal. </li>
+            </ul>
+          </p>
+          <p>Les figures 4 à 8 poursuivent l'examen de la valeur décimale jusqu'à ce que toutes les valeurs pondérées aient été indiquées et que la valeur binaire équivalente ait été obtenue.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 8 are a series of graphics highlighting the positional value of an octet starting with the highest order 128 bit in Figure 1 and ending with the lowest order 1 bit in Figure 8.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

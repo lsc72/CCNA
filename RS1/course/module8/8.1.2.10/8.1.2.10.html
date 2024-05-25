@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.10 Création de 4 sous-réseaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Création de 4 sous-réseaux</h1>
+        <div>
+          <p>Observez maintenant la topologie du réseau illustrée à la figure 1. L'entreprise utilise la plage d'adresses réseau privées 192.168.1.0/24 et a besoin de trois sous-réseaux. L'emprunt d'un seul bit n'a fourni que 2 sous-réseaux. Il faut donc emprunter un autre bit d'hôte, comme le montre la figure 2. En appliquant la formule <b>2^n</b> pour deux bits empruntés, on obtient <b>2^2 = 4</b> sous-réseaux. Les détails de ces quatre sous-réseaux sont indiqués à la figure 3. Le masque de sous-réseau ainsi obtenu, /26 ou 255.255.255.192, est utilisé par les quatre sous-réseaux. </p>
+          <p>Pour calculer le nombre d'hôtes, observez le dernier octet, comme indiqué dans la figure 4. Après l'emprunt de 2 bits pour ce sous-réseau, il reste 6 bits d'hôte. Appliquez la formule de calcul des hôtes <b>2^n - 2</b> comme indiqué, pour confirmer que chaque sous-réseau peut prendre en charge 62 adresses d'hôte. Les adresses importantes du premier sous-réseau (Net 0) sont indiquées dans la figure 5.</p>
+          <p>Seuls les trois premiers sous-réseaux sont nécessaires, puisqu'il n'existe que trois interfaces. La figure 6 présente les détails des trois premiers sous-réseaux qui seront utilisés pour reproduire la topologie de la figure 1.  </p>
+          <p>Enfin, à la figure 7, la première adresse d'hôte valide de chaque sous-réseau est appliquée à l'interface LAN correspondante de R1.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows a topology with router 1 connected to two switches to create two LANs. Router 1 is then connected to router 2 to create a WAN. The subnets 192.168.1.0/26 and 192.168.1.64/25 are assigned to the two LANs. The subnet 192.168.1.128/26 is assigned to the WAN. Figure 2 shows borrowing the first two bits in the fourth octet. Figure 3 shows the four subnets two bits borrowed would create. Figure 4 shows the formula to calculate the number of hosts which is 2 to the 6 power minus two for 62 valid hosts. Figure 5 shows the network address, first host address, last host address, and broadcast address for the 192.168.1.0/26 subnet. The last octet is in binary to show that a network address is all zeros in the host portion. The first host address is all zeros except the least significant bit in the host portion. The last host address is all ones except for the least significant bit in the host portion. And the broadcast address is all ones in the host portion. Figure 6 is a table showing the three subnets that will be used in the topology with the network address, first host address, last host address, and broadcast address for each listed. Figure 7 shows the topology from Figure 1 with IP addresses assigned to the devices from the appropriate subnets. </div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

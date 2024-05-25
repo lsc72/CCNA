@@ -1,0 +1,56 @@
+<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[]]></text>
+</component>
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='2' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+						<tr>
+							<td colspan='3' bgcolor='#4E4C4D' class="liner"><font size='1' color='#4E4C4D'><span style="color:#4E4C4D">.</span></font></td>
+						</tr>					  
+					  <tr class="liner_top">
+						<td width="200" bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Problèmes de mise en œuvre</b></font></td>
+						<td width="170" bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Câblage à paires torsadées non blindées (UTP)</b></font></td>
+						<td width="200" bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Câblage à fibre optique</b></font></td>
+					  </tr>
+					  <tr>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Bande passante</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>10 Mbit/s – 10 Gbit/s</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>10 Mbit/s – 100 Gbit/s</font></td>
+					  </tr>
+					  <tr >
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Distance</font></td>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Relativement courte <br /> (1 à 100 mètres)</font></td>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Relativement longue<br /> (1 à 100 000 mètres)</font></td>
+					  </tr>
+					  <tr>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Résistance aux perturbations électromagnétiques et radioélectriques</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Faible</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Haute<br /> (résistance totale)</font></td>
+					  </tr>
+					  <tr>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Résistance aux risques électriques</font></td>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Faible</font></td>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Haute<br /> (résistance totale)</font></td>
+					  </tr>
+					  <tr>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Coûts des supports et des connecteurs</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Moins élevé</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Plus élevé</font></td>
+					  </tr>
+					  <tr>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Compétences requises pour l'installation</font></td>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Moins élevé</font></td>
+						<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Plus élevé</font></td>
+					  </tr>
+					  <tr>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Précautions à prendre concernant la sécurité</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Moins élevé</font></td>
+						<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Plus élevé</font></td>
+					  </tr>
+					</table>
+				]]>
+	</text>
+</component>
+
+
+</textcomponents>

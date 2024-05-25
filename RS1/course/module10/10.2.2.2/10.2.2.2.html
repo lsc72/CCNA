@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.2.2 Format du message DNS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Format du message DNS</h1>
+        <div>
+          <p>Le serveur DNS stocke différents types d'enregistrements de ressource utilisés pour résoudre des noms. Ces enregistrements contiennent le nom, l'adresse et le type d'enregistrement. Certains de ces types d'enregistrements sont les suivants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>A</b> - une adresse IPv4 de périphérique terminal</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NS</b> - un serveur de noms autorisé</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>AAAA</b> - une adresse IPv6 de périphérique terminal (prononcer « quadruple A »)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>MX</b> - un enregistrement d'échange de courrier électronique</li>
+            </ul>
+          </p>
+          <p>Lorsqu'un client envoie une requête, le processus DNS du serveur cherche d'abord dans ses propres enregistrements pour résoudre le nom. S'il ne peut pas résoudre le nom à l'aide de ses enregistrements stockés, il contacte d'autres serveurs pour résoudre le nom. Lorsqu'une correspondance est trouvée et retournée au serveur demandeur d'origine, le serveur stocke provisoirement l'adresse numérotée pour le cas où le même nom serait à nouveau demandé. </p>
+          <p>Le service client DNS sur les PC Windows stocke également en mémoire les noms déjà résolus. La commande <b>ipconfig /displaydns</b> affiche toutes les entrées DNS mises en cache.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the DNS message format.  It includes the header, question, answer, authority, and additional information.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

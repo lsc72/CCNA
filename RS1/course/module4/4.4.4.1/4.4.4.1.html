@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>4.4.4.1 Trame</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_4.4.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Trame</h1>
+        <div>
+          <p>La couche liaison de données prépare un paquet pour le transport à travers les supports locaux en l'encapsulant avec un en-tête et une queue de bande pour créer une trame. La description d'une trame est un élément clé de chaque protocole de couche liaison de données. Même si de nombreux protocoles de couche liaison de données différents décrivent les trames de couche liaison de données, chaque type de trame comprend trois éléments de base :</p>
+          <p>
+            <ul>
+              <li>En-tête</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Données</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Queue de bande</li>
+            </ul>
+          </p>
+          <p>Tous les protocoles de couche liaison de données encapsulent l'unité de données de protocole de couche 3 dans le champ de données de la trame. Cependant, la structure de la trame et les champs contenus dans l'en-tête et dans la queue de bande varient selon le protocole. </p>
+          <p>Il n'existe pas de structure de trame unique qui réponde aux besoins de tous les types de transport de données sur tous les types de supports. En fonction de l'environnement, la quantité d'informations de contrôle requises dans la trame varie pour répondre aux exigences du contrôle d'accès du support et de la topologie logique. </p>
+          <p>Comme l'illustre la figure, un environnement fragile nécessite plus de contrôle. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows two routers connected by a satellite network connection.  This figure demonstrates the need for more controls over a fragile environment.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

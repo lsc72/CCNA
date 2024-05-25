@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+	     <text><![CDATA[<b>Vérification de la passerelle par défaut sur un PC Windows</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+	    <text><![CDATA[<b>Vérification de la route par défaut du routeur</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+	    <text><![CDATA[<b>Route par défaut</b>]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+	    <text><![CDATA[&lt;résultat omis&gt;]]></text>
+	</component>
+</textcomponents>

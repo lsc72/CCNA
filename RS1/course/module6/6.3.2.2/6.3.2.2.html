@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.3.2.2 Processus de démarrage d&#x0027;un routeur</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Processus de démarrage d&#x0027;un routeur</h1>
+        <div>
+          <p>Le processus de démarrage comporte trois phases principales : Elles sont illustrées sur la figure 1 :</p>
+          <p>1. Exécution du test POST et chargement du programme de démarrage</p>
+          <p>2. Localisation et chargement du logiciel Cisco IOS</p>
+          <p>3. Recherche et chargement du fichier de configuration initiale ou passage en mode configuration</p>
+          <p>
+            <b>1. Exécution du test POST et chargement du programme de démarrage (figure 2)</b>
+          </p>
+          <p>Au cours du test automatique de mise sous tension (POST), le routeur exécute des diagnostics à partir de la mémoire morte sur plusieurs composants matériels, notamment le processeur, la mémoire vive et la mémoire vive non volatile. Après le POST, le programme d’amorçage est copié de la mémoire morte à la mémoire vive. Le rôle principal du programme d’amorçage est de localiser Cisco IOS et de le charger dans la mémoire vive.</p>
+          <p>
+            <b>Remarque</b> : à ce stade, si vous disposez d'une connexion console au routeur, les résultats commencent à s'afficher sur l'écran.</p>
+          <p>
+            <b>2. Localisation et chargement de Cisco IOS (figure 3)</b>
+          </p>
+          <p>IOS est généralement stocké dans la mémoire Flash et copié dans la mémoire vive par le processeur pour être exécuté. Si l'image IOS ne se trouve pas dans la mémoire Flash, le routeur peut la rechercher à l'aide d'un serveur TFTP (Trivial File Transfer Protocol). Si l'image IOS complète est introuvable, une version limitée d'IOS est copiée dans la mémoire vive afin de diagnostiquer les problèmes et de transférer une version complète d'IOS dans la mémoire Flash.</p>
+          <p>
+            <b>3. Localisation et chargement du fichier de configuration (figure 4)</b>
+          </p>
+          <p>Le programme de démarrage (bootstrap) copie ensuite le fichier de configuration de démarrage de la NVRAM sur la RAM. Cette configuration devient alors la configuration en cours. Si le fichier de configuration initiale n'existe pas dans la mémoire vive non volatile, le routeur peut être configuré pour rechercher un serveur TFTP. S'il n'en trouve aucun, le routeur affiche l'invite du mode configuration. </p>
+          <p>
+            <b>Remarque</b> : dans ce cours, le mode configuration n'est pas utilisé pour configurer le routeur. Lorsque vous êtes invité à passer en mode Configuration, répondez toujours <b>no</b>. Si vous répondez « yes » et que vous passez en mode configuration, vous pouvez appuyer à tout moment sur <b>Ctrl</b>+<b>C</b> pour mettre fin au processus de configuration.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the boot up process.  First the router performs a POST and loads the bootstrap.  Both are found in ROM.  Secondly the router loads the IOS found in flash or by TFTP. Finally the router loads the startup configuration, found in NVRAM or by TFTP or console. Figure 2 highlights the POST section. Figure 3 highlights the loading of the IOS section. Figure 4 highlights the loading of the startup configuration section.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

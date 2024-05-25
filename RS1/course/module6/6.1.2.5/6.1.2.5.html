@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.2.5 IP indépendant vis-à-vis des supports</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>IP indépendant vis-à-vis des supports</h1>
+        <div>
+          <p>Le protocole IP fonctionne indépendamment des supports acheminant les données dans les couches inférieures de la pile de protocoles. Comme l'illustre la figure, les paquets IP peuvent être communiqués sous forme de signaux électriques sur un câble en cuivre, sous forme de signaux optiques sur un câble à fibre optique ou sous forme de signaux radio par la technologie sans fil.</p>
+          <p>Il incombe à la couche de liaison de données OSI de prendre un paquet IP et de le préparer en vue de sa transmission sur le support de communication. Cela signifie que le transport des paquets IP ne se limite pas à un support particulier.</p>
+          <p>Toutefois le support présente une caractéristique essentielle prise en compte par la couche réseau : il s'agit de la taille maximale de la PDU que chaque support peut transporter. Cette caractéristique est appelée unité de transmission maximale (MTU). Une partie de la communication de contrôle entre la couche liaison de données et la couche réseau consiste à établir la taille maximale pour le paquet. La couche liaison de données transmet la MTU à la couche réseau. La couche réseau détermine alors la taille maximale des paquets. </p>
+          <p>Dans certains cas, un périphérique intermédiaire, généralement un routeur, doit scinder un paquet lors de sa transmission d'un support à un autre support de MTU inférieure. On appelle ce processus la fragmentation du paquet ou simplement fragmentation.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a network with different media at each hop.  An IP packet has no trouble with this because IP is media independent.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

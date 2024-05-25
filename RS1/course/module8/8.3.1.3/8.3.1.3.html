@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.1.3 Attribution de sous-réseaux IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Attribution de sous-réseaux IPv6</h1>
+        <div>
+          <p>Avec plus de 65 000 sous-réseaux disponibles, la mission de l'administrateur réseau revient à concevoir un schéma logique pour répondre aux besoins du réseau.</p>
+          <p>Comme le montre la figure 1, cet exemple de topologie exige des sous-réseaux pour chaque réseau local ainsi que pour la liaison de réseau étendu entre R1 et R2. À la différence de l'exemple d'adressage IPv4, avec IPv6, le sous-réseau de la liaison WAN n'est pas divisé une nouvelle fois en sous-réseaux. Bien que cela entraîne un « gaspillage » d'adresses, ce n'est pas un problème avec l'approche IPv6.</p>
+          <p>Comme indiqué à la figure 2, nous allons attribuer cinq sous-réseaux IPv6 avec le champ d'ID de sous-réseau 0001 à 0005 dans cet exemple. Chaque sous-réseau /64 propose plus d'adresses qu'il ne sera jamais nécessaire.</p>
+          <p>Comme l'illustre la figure 3, un sous-réseau /64 est attribué à chaque segment LAN et à la liaison WAN.</p>
+          <p>Comme pour la configuration IPv4, la figure 4 montre que chacune des interfaces du routeur a été configurée pour utiliser un sous-réseau IPv6 différent. </p>
+         </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows two routers connected by a serial link. Each router has 2 LANs attached. Figure 2 shows several IPv6 subnet IDs and 5 of them will be used for the networks previously displayed. Figure 3 shows the previous network topology with the IPv6 subnets assigned to the networks. Figure 4 shows a router with the commands to configure each interface with an IPv6 address.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

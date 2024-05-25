@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.2.2 Masque de sous-réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Masque de sous-réseau</h1>
+        <div>
+          <p>Comme le montre la figure 1, la configuration IPv4 d'un hôte comprend trois adresses IPv4 décimales à point :</p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse IPv4</b>, qui est l'adresse IPv4 unique de l'hôte, </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>le masque de sous-réseau</b>, qui sert à identifier la partie réseau et la partie hôte d'une adresse IPv4,</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>la passerelle par défaut</b>, qui indique la passerelle locale (c'est-à-dire l'adresse IPv4 de l'interface du routeur local) permettant d'atteindre les réseaux distants. </li>
+            </ul>
+          </p>
+          <p>Lorsqu'une adresse IPv4 est attribuée à un périphérique, le masque de sous-réseau est utilisé pour déterminer l'adresse du réseau auquel le périphérique appartient. L'adresse réseau représente tous les périphériques du même réseau. </p>
+          <p>La figure 2 indique l'adresse au format décimal à point et le masque de sous-réseau 32 bits. Notez que le masque de sous-réseau est en fait une séquence de bits 1 suivie d'une séquence de bits 0. </p>
+          <p>Pour identifier les parties réseau et hôte d'une adresse IPv4, chaque bit du masque de sous-réseau est comparé à l'adresse IPv4, de gauche à droite, comme le montre la figure 3. Les 1 dans le masque de sous-réseau représentent la partie réseau, et les 0 représentent la partie hôte. Notez que le masque de sous-réseau ne contient pas réellement la partie réseau ou hôte d'une adresse IPv4 : il indique uniquement à l'ordinateur où rechercher ces parties dans une adresse IPv4 donnée.</p>
+          <p>En réalité, le processus utilisé pour identifier la partie réseau et la partie hôte est appelé l'opération AND.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the Windows IPv4 Properties window with the IP address, subnet mask, and default gateway address statically configured. Figure 2 shows the dotted decimal format for the subnet mask 255.255.255.0 and the binary format below it. The octets are divided between the third and fourth octet. Figure 3 adds the IP address 192.168.10.10 above the subnet mask from Figure 2. The subnet mask is what determines which bits are network and which bits are host.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

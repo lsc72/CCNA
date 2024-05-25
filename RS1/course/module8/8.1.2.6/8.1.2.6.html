@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.6 Exemple de sous-réseaux sans classe</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Exemple de sous-réseaux sans classe</h1>
+        <div>
+          <p>Pour comprendre l'intérêt de créer des sous-réseaux au niveau sans classe, prenons les exemples suivants : </p>
+          <p>Observez l'adresse réseau privée 192.168.1.0/24 indiquée à la figure 1. Les trois premiers octets sont au format décimal, alors que le dernier octet est au format binaire. En effet, nous allons emprunter des bits au dernier octet pour créer des sous-réseaux du réseau 192.168.1.0/24.</p>
+          <p>Le masque de sous-réseau est 255.255.255.0 comme l'indique la longueur de préfixe /24. Les trois premiers octets correspondent à la partie réseau et les 8 bits restants dans le dernier octet correspondent à la partie hôte. Sans segmentation, ce réseau prend en charge une seule interface LAN offrant 254 adresses IPv4 d'hôte. Si un réseau local supplémentaire est nécessaire, le réseau doit être segmenté en sous-réseaux.</p>
+          <p>Sur la figure 2, 1 bit est emprunté au bit le plus important (bit le plus à gauche) de la partie hôte, ce qui fait passer la partie réseau à 25 bits ou /25. Cela permet de créer deux sous-réseaux.</p>
+          <p>La figure 3 indique les deux sous-réseaux : 192.168.1.0/25 et 192.168.1.128/25. Ils ont été obtenus en modifiant la valeur du bit emprunté pour qu'elle devienne un 0 ou un 1. Comme le bit emprunté est le bit 128, la valeur décimale du quatrième octet du deuxième sous-réseau est 128. </p>
+          <p>La figure 4 indique le masque de sous-réseau obtenu pour les deux réseaux. Notez qu'il utilise un 1 à la position du bit emprunté pour indiquer que ce bit se trouve désormais dans la partie réseau.</p>
+          <p>La figure 5 indique la représentation décimale à point des deux adresses de sous-réseau et de leur masque de sous-réseau commun. Étant donné qu'un bit a été emprunté, le masque de sous-réseau de chaque sous-réseau est 255.255.255.128 ou /25.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows the network address 192.168.1.0/24 with the first three octets of the address in decimal and the last octet in binary. The address is over the subnet mask. The first three octets of the subnet mask are in decimal and the last octet is in binary. The host portion of both is all zeros. Figure 2 shows borrowing the first bit in the fourth octet. Figure 3 shows the two subnets one bit borrowed would create. Figure 4 shows that the borrowed bit becomes a one bit in the subnet mask. Figure 5 shows that the two subnets are 192.168.1.0/25 and 192.168.1.128/25 with the new subnet mask of 255.255.255.128.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

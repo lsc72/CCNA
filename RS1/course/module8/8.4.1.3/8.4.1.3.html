@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.4.1.3 Chapitre 8 : Segmentation des réseaux IP en sous-réseaux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 8 : Segmentation des réseaux IP en sous-réseaux</h1>
+        <div>
+          <p>Les petits espaces réseau obtenus lors de la segmentation du réseau sont appelés sous-réseaux. </p>
+          <p>Chaque adresse réseau dispose d'une plage valide d'adresses d'hôte. Tous les équipements reliés au même réseau disposeront d'une adresse IPv4 d'hôte de ce réseau et d'un masque de sous-réseau ou d'un préfixe de réseau commun. Le trafic peut être transféré directement entre les hôtes s'ils se trouvent sur le même sous-réseau. Le trafic ne peut pas être transféré entre les sous-réseaux sans l'intervention d'un routeur. Pour déterminer si le trafic est local ou distant, le routeur utilise le masque de sous-réseau. Le préfixe et le masque de sous-réseau constituent des moyens distincts de représenter la même chose : la partie réseau d’une adresse.</p>
+          <p>Pour créer des sous-réseaux IPv4, on utilise un ou plusieurs bits d'hôte en tant que bits réseau. Le nombre de sous-réseaux nécessaires et le nombre maximal d'hôtes requis par sous-réseau sont deux facteurs très importants qui détermineront le choix du bloc d'adresses IP avec le masque de sous-réseau. Il existe une relation inverse entre le nombre de sous-réseaux et le nombre d'hôtes. Plus les bits empruntés pour créer des sous-réseaux sont nombreux, moins il y a de bits d'hôte disponibles et donc moins il y a d'hôtes par sous-réseau.</p>
+          <p>La formule 2^n (où n est le nombre de bits d'hôte restant) permet de calculer le nombre d'adresses disponibles sur chaque sous-réseau. Toutefois, l'adresse réseau et l'adresse de diffusion d'une plage ne peuvent pas être utilisées. Ainsi, pour calculer le nombre d'adresses utilisables, on utilise la formule 2^n - 2. </p>
+          <p>La segmentation des sous-réseaux, qui revient à utiliser le masquage de sous-réseau de longueur variable (VLSM) permet d'optimiser l'efficacité de l'adressage.</p>
+          <p>La segmentation en sous-réseaux IPv6 exige une approche différente de celle des sous-réseaux IPv4. Un espace d'adressage IPv6 n'est pas divisé en sous-réseaux pour conserver des adresses, mais pour prendre en charge la conception hiérarchique et logique du réseau. Ainsi, l'approche IPv4 consiste à gérer la pénurie d'adresses, mais la segmentation IPv6 consiste à créer une hiérarchie d'adressage en fonction du nombre de routeurs et de réseaux pris en charge. </p>
+          <p>Une planification scrupuleuse est nécessaire pour optimiser l'utilisation de l'espace d'adressage disponible. La taille, l’emplacement, l’utilisation et l’accès sont autant de facteurs déterminants lors de la planification de l’adressage.</p>
+          <p>Après sa mise en œuvre, un réseau IP doit faire l'objet de tests qui vérifient sa connectivité et ses performances.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

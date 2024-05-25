@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>9.2.2.3 Démonstration vidéo - Perte de données et retransmission</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_9.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Démonstration vidéo - Perte de données et retransmission</h1>
+        <div>
+          <p>Qu'un réseau soit bien conçu ou non, il arrive que des données se perdent. Par conséquent, le protocole TCP fournit des méthodes de gestion des pertes de segments. Parmi elles se trouve un mécanisme de retransmission des segments pour les données sans accusé de réception.</p>
+          <p>Dans la figure, lisez la vidéo et cliquez sur le lien pour télécharger le fichier PDF. La vidéo et le fichier PDF traitent de la perte de données et de la retransmission TCP.</p>
+          <p>Cliquez sur Lecture dans la figure pour afficher une présentation sur la retransmission TCP. </p>
+          <p>Cliquez <a href="../../files/9.2.2.3%20Video%20Notes%20-%20Data%20Loss%20and%20Retransmission.pdf" target="_blank">ici</a> pour télécharger la documentation afférente à la vidéo.</p>
+          <p>Cliquez <a href="../../files/9.2.2.3%20Video%20-%20TCP%20Reliability%20-%20Data%20Loss%20and%20Retransmission.pdf" target="_blank">ici</a> pour lire la transcription de cette vidéo.</p>
+          <p>
+            <b>Remarque</b> : aujourd'hui, les hôtes peuvent également utiliser une fonction facultative appelée « accusés de réception sélectifs » (SACK). Si les deux hôtes prennent en charge les accusés de réception sélectifs, la destination peut accuser réception des octets de segments ne se suivant pas et l'hôte ne retransmettra que les données manquantes. P</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "TCP Reliability - Data Loss and Retransmission".</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

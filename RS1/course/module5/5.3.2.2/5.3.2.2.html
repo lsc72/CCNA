@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.2 Fonctions du protocole ARP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fonctions du protocole ARP</h1>
+        <div>
+          <p>
+            <b>Résolution des adresses IPv4 en adresses MAC</b>
+          </p>
+          <p>Quand un paquet est envoyé à la couche liaison de données pour être encapsulé dans une trame Ethernet, le périphérique consulte une table stockée dans sa mémoire pour connaître l'adresse MAC qui est mappée à l'adresse IPv4. Cette table est appelée table ARP ou cache ARP. Le tableau ARP est stocké dans la mémoire vive (RAM) du périphérique. </p>
+          <p>Le périphérique expéditeur recherche dans sa table ARP une adresse IPv4 de destination et une adresse MAC correspondante. </p>
+          <p>
+            <ul>
+              <li>Si l'adresse IPv4 de destination du paquet appartient au même réseau que l'adresse IPv4 source, le périphérique recherche l'adresse IPv4 de destination dans sa table ARP. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Si l'adresse IPv4 de destination du paquet appartient à un autre réseau que l'adresse IPv4 source, le périphérique recherche l'adresse IPv4 de la passerelle par défaut dans sa table ARP. </li>
+            </ul>
+          </p>
+          <p>Dans les deux cas, il recherche une adresse IPv4 et l'adresse MAC correspondante du périphérique. </p>
+          <p>Chaque entrée, ou ligne, de la table ARP relie une adresse IPv4 à une adresse MAC. La relation entre les deux valeurs s'appelle un mappage. Autrement dit, si vous choisissez une adresse IPv4 dans la table, vous trouverez l'adresse MAC correspondante. La table ARP stocke temporairement (dans la mémoire cache) le mappage des périphériques du réseau local. </p>
+          <p>Si le périphérique localise l'adresse IPv4, l'adresse MAC correspondante est utilisée comme adresse MAC de destination dans la trame. Si l'entrée n'existe pas, le périphérique envoie une requête ARP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">This animation shows how a host makes a broadcast on the LAN when it needs to find the MAC address for the destination.  The destination host will respond to the broadcast but the other hosts will not.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

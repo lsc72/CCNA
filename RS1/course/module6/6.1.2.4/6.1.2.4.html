@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.2.4 IP - Acheminement au mieux</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>IP - Acheminement au mieux</h1>
+        <div>
+          <p>La figure illustre l'acheminement non fiable ou « au mieux » qui caractérise le protocole IP. Ce dernier ne garantit pas que tous les paquets acheminés soient effectivement reçus. </p>
+          <p>Le terme « non fiable » signifie que le protocole IP n'a pas la capacité de gérer, ni de récupérer, les paquets endommagés ou non remis. En effet, si les paquets IP sont envoyés avec des informations sur leur destination, ils ne contiennent aucune donnée exploitable pour informer l'expéditeur que les paquets ont bien été reçus. Les paquets peuvent arriver endommagés ou dans le désordre à destination, voire ne pas arriver du tout. Le protocole IP n'est pas en mesure de renvoyer les paquets en cas d'erreur. </p>
+          <p>Si des paquets sont remis dans le désordre ou s'ils sont manquants, ces incidents doivent être résolus par les applications qui utilisent les données ou par les services de couche supérieure. Cela permet au protocole IP d'être très efficace. Dans la suite de protocoles TCP/IP, c'est la couche réseau qui est responsable de la fiabilité.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows 2 computers connected to a cloud.  The sender is placing 3 packets on the wire, however, only 2 packets arrive at the destination.  This demonstrates that some packets may get lost in the process.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

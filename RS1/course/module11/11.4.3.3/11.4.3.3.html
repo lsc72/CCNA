@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.4.3.3 Problèmes de passerelle par défaut</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.4.3.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Problèmes de passerelle par défaut</h1>
+        <div>
+          <p>La passerelle par défaut pour un périphérique final est le périphérique réseau le plus proche capable d'acheminer le trafic vers d'autres réseaux. Si un périphérique possède une adresse de passerelle par défaut incorrecte ou inexistante, il ne pourra pas communiquer avec les périphériques de réseaux distants. Comme la passerelle par défaut est le chemin d'accès aux réseaux distants, son adresse doit appartenir au même réseau que le périphérique final.</p>
+          <p></p>
+          <p>L'adresse de la passerelle par défaut peut être configurée manuellement ou obtenue auprès d'un serveur DHCP. Tout comme les problèmes IPv4, les problèmes de passerelle par défaut peuvent être liés à une mauvaise configuration (en cas d'attribution manuelle) ou à des problèmes DHCP (en cas d'attribution automatique).</p>
+          <p></p>
+          <p>Pour résoudre les problèmes de passerelle par défaut mal configurée, assurez-vous d'abord que la passerelle par défaut du périphérique est correctement configurée. Si l'adresse par défaut a été manuellement définie mais n'est pas valide, remplacez-la tout simplement par l'adresse appropriée. Si l'adresse de la passerelle par défaut a été définie automatiquement, assurez-vous que le périphérique communique correctement avec le serveur DHCP. Il est également important de vérifier que l'adresse IPv4 et le masque de sous-réseau appropriés ont été configurés sur l'interface du routeur et que l'interface est active.</p>
+          <p></p>
+          <p>Pour vérifier la passerelle par défaut sur un ordinateur Windows, utilisez la commande <b>ipconfig</b>, comme indiqué dans l'illustration 1.</p>
+          <p></p>
+          <p>Sur un routeur, utilisez la commande <b>show ip route</b> pour afficher la table de routage et vérifier que la passerelle par défaut, appelée « route par défaut », a été définie. Cette route est utilisée lorsque l'adresse de destination du paquet ne correspond à aucune autre route dans sa table de routage. La figure 2 indique que R2 est la route par défaut pour R1, et le résultat de la commande <b>show ip route</b> montre que la passerelle par défaut a été définie avec la route par défaut 10.1.0.2.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows a topology with a PC, a switch, and three routers. The PC is connected to the switch, which is connected to router R1, which is connected to router R2, which is connected to router R3. Below the topology is the command output for ‘ipconfig’ with the default gateway highlighted.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

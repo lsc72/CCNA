@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.3.2.1 Interprétation des messages trace</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Interprétation des messages trace</h1>
+        <div>
+          <p>Cette commande renvoie une liste des sauts effectués par un paquet acheminé à travers un réseau. La forme de cette commande dépend de l'endroit où elle est soumise. Avec un ordinateur Windows, utilisez <b>tracert</b>. À partir de l'interface en ligne de commande d'un routeur, utilisez <b>traceroute</b>, comme le montre la figure 1.</p>
+          <p>La figure 2 illustre un exemple de résultat de la commande <b>tracert</b> exécutée sur l'hôte 1 afin de suivre l'itinéraire du trafic vers l'hôte 2. La seule réponse reçue provient de la passerelle située sur le routeur A. Les requêtes trace vers le tronçon suivant ont dépassé le délai d'attente, ce qui signifie que le routeur de tronçon suivant n'a pas répondu. Les résultats indiquent soit une défaillance dans l'inter-réseau situé au-delà du réseau local soit que ces routeurs n'ont pas été configurés de manière à répondre aux requêtes d'écho utilisées dans la commande trace.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure 1 shows four routers connected one after the other via WAN links. Router A and Router D each have a switch and two PCs connected. Router A is entering the “traceroute 10.1.0.2” command to trace the route to Host 2 connected to Router D. Host 1 is entering the “tracert 10.1.0.2” command to also trace the same route. Figure 2 shows the command output for Host 1’s command. The trace failed after Router A.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+﻿<textcomponents>
+
+	<component id="ID_s0_txt01">
+		<text><![CDATA[MAC addresses are shortened for demonstration purposes.]]></text>
+	</component>
+	<component id="ID_s0_txt02">
+		<text><![CDATA[Type]]></text>
+	</component>	
+	<component id="ID_s0_txt03">
+		<text><![CDATA[Data]]></text>
+	</component>
+	<component id="ID_s0_txt04">
+		<text><![CDATA[FCS]]></text>
+	</component>
+
+	<component id="ID_txt01">
+		<text><![CDATA[MAC<br/>00-0A]]></text>
+	</component>
+
+	<component id="ID_txt02">
+		<text><![CDATA[MAC<br/>00-0B]]></text>
+	</component>
+
+	<component id="ID_txt03">
+		<text><![CDATA[MAC<br/>00-0C]]></text>
+	</component>
+
+	<component id="ID_txt04">
+		<text><![CDATA[MAC<br/>00-0D]]></text>
+	</component>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Learn: Examine Source MAC Address</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Destination MAC<br/>00-0A]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Source MAC<br/>00-0D]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Port and Source MAC address added]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<font color="#FFFFFF">I don’t have this source MAC address and the incoming port in my table, so I will add it.</font>]]></text>
+	</component>
+	<component id="ID_s1_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="12"><b>MAC Address Table</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF" align="center"><b>Port</b></font></td>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF"><b>MAC Address</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>1</td>
+				<td bgcolor='#E9E7E8'>00-0A</td>	
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'>4</td>
+				<td bgcolor='#F2F2F2'>00-0D</td>	
+			</tr>
+			
+		</table>]]></text> 
+	</component>
+	
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Forward: Examine Destination MAC Address</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Destination MAC<br/>00-0A]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Source MAC<br/>00-0D]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[<font color="#FFFFFF">I know the destination MAC address, so I will only forward the frame out port 1.</font>]]></text>
+	</component>
+	<component id="ID_s2_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#4E4C4D'><font size="14" color='#FFFFFF'><b>MAC Address Table</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#0E6360'><font size='1' color='#434321'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF" align="center"><b>Port</b></font></td>
+                <td bgcolor='#666263' width="140px"><font color="#FFFFFF"><b>MAC Address</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'><b>1</b></td>
+				<td bgcolor='#E9E7E8'><b>00-0A</b></td>	
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'><b>4</b></td>
+				<td bgcolor='#F2F2F2'><b>00-0D</b></td>	
+			</tr>
+			
+		</table>]]></text> 
+	</component>
+	
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Learn: Examine Source MAC Address</b>]]></text>
+	</component>
+		<component id="ID_s3_txt01">
+		<text><![CDATA[Destination MAC<br/>00-0D]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[Source MAC<br/>00-0A]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[]]></text>
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[]]></text>
+	</component>
+	<component id="ID_s3_table">
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' class="mtable">
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#4E4C4D'><font size="14" color='#FFFFFF'><b>MAC Address Table</b></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#0E6360'><font size='1' color='#434321'>.</font></td>
+			</tr>
+			<tr>
+                <td bgcolor='#666263' width="140"><font color="#FFFFFF" align="center"><b>Port</b></font></td>
+                <td bgcolor='#666263' width="140"><font color="#FFFFFF"><b>MAC Address</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'><b>1</b></td>
+				<td bgcolor='#E9E7E8'><b>00-0A</b></td>	
+			</tr>
+
+			<tr>
+				<td bgcolor='#F2F2F2'><b>4</b></td>
+				<td bgcolor='#F2F2F2'><b>00-0D</b></td>	
+			</tr>
+			
+		</table>]]></text> 
+	</component>
+	
+	
+</textcomponents>

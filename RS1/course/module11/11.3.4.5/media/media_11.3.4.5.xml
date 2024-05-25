@@ -1,0 +1,94 @@
+<textcomponents>
+
+<component id='ID_title'>
+		<text><![CDATA[<b>Exercice - Commandes <font face="_typewriter">show</font></b></b>]]></text>
+	</component>
+
+	<component id='ID_s1_instr_title'>
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id='ID_s1_instr_body'>
+		<text><![CDATA[Lisez les scénarios des commandes <b><font face="_typewriter">show</font></b>. Faites glisser chaque commande <b><font face="_typewriter">show</font></b> jusqu&apos;à la zone située à côté du scénario correspondant.]]></text>
+	</component>
+	
+	<component id='ID_txt01'>
+		<text><![CDATA[<b>Scénarios des commandes <font face="_typewriter">show</font></b>]]></text>
+	</component>
+
+	<component id='ID_txt02'>
+		<text><![CDATA[<b>Commande <font face="_typewriter">show</font></b>]]></text>
+	</component>
+
+	<component id='ID_txt03'>
+		<text><![CDATA[Vous suspectez un problème de configuration du commutateur. Vous voulez afficher la configuration enregistrée pour la comparer à celle qui est en cours d&apos;exécution.]]></text>
+	</component>
+
+	<component id='ID_txt04'>
+		<text><![CDATA[Vous êtes au téléphone avec des techniciens du service d&apos;assistance Cisco. Ils vous demandent le nom du commutateur IOS, ainsi que la quantité de mémoire RAM, NVRAM et Flash disponible. Ils ont également besoin de l&apos;emplacement de démarrage au format hexadécimal.]]></text>
+	</component>
+	
+	<component id='ID_txt05'>
+		<text><![CDATA[Vous exécutez le protocole de routage EIGRP et devez connaître les intervalles de mise à jour ainsi que les interfaces et réseaux actifs en cours d&apos;annonce par votre routeur.]]></text>
+	</component>
+	
+	<component id='ID_txt06'>
+		<text><![CDATA[Vous ne pouvez pas accéder à Internet. Vous devez déterminer si votre routeur dispose d&apos;un chemin d&apos;accès à Internet et identifier les protocoles utilisés pour fournir les chemins.]]></text>
+	</component>
+	
+	<component id='ID_txt07'>
+		<text><![CDATA[Votre documentation réseau doit réellement être à jour. Une liste rapide des adresses IP de vos routeurs et des adresses MAC correspondantes permettrait de terminer la tâche à des fins d&apos;enregistrement.]]></text>
+	</component>
+	
+	<component id='ID_txt08'>
+		<text><![CDATA[Le périphérique intermédiaire le plus proche de vous est un commutateur. Il est équipé de 24 ports. Vous souhaitez consulter la liste indiquant simplement les ports utilisés, leur état et l&apos;adresse IP VLAN du commutateur.]]></text>
+	</component><!--Drag and Drop--><component id='ID_drag01'>
+		<text><![CDATA[<b><font face="_typewriter" color="#393536">show version</font></b>]]></text>
+	</component>
+	<component id='ID_drag02'>
+		<text><![CDATA[<b><font face="_typewriter" color="#393536">show <br>startup-config</font></b>]]></text>
+	</component>
+
+	<component id='ID_drag03'>
+		<text><![CDATA[<b><font face="_typewriter" color="#393536">show ip <br>protocols</font></b>]]></text>
+	</component>
+
+	<component id='ID_drag04'>
+		<text><![CDATA[<b><font face="_typewriter" color="#393536">show ip route</font></b>]]></text>
+	</component>
+
+	<component id='ID_drag05'>
+		<text><![CDATA[<b><font face="_typewriter" color="#393536">show arp</font></b>]]></text>
+	</component>
+
+	<component id='ID_drag06'>
+		<text><![CDATA[<b><font face="_typewriter" color="#393536">show ip int <br>brief</font></b>]]></text>
+	</component>
+
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque commande <b><font face="_typewriter">show</font></b> à son scénario.]]></text>
+	</component>
+
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n&apos;avez pas associé correctement chaque commande <b><font face="_typewriter">show</font></b> à son scénario. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+
+	<component id='ID_CHECK'>
+		<text><![CDATA[Vérifier]]></text>
+	</component>
+
+	<component id='ID_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+</textcomponents>

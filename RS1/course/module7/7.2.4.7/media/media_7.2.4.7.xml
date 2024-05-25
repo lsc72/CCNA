@@ -1,0 +1,16 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Configuration des adresses link-local sur R1</b>]]></text>
+	</component>
+	
+	<component id='ID_txt01'>
+	<text><![CDATA[Router(config-if)#]]></text>
+	</component>
+	
+	<component id='ID_txt02'>
+	<text><![CDATA[<b>ipv6 address</b> <i>adresse link-local</i> link-local]]></text>
+	</component>
+
+	
+</textcomponents>

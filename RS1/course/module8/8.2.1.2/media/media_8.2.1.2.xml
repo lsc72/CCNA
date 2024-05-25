@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Critères principaux à prendre en compte lors de la planification de l'attribution des adresses</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Éviter les doublons d'adresse]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Fournir et contrôler l'accès]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Surveiller la sécurité et les performances]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[<b>Planifier l'attribution des adresses</b>]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,72 @@
+﻿<textcomponents>
+
+  <component id="ID_btn01">
+    <text><![CDATA[Passe]]></text>
+  </component>
+
+  <component id="ID_btn02">
+    <text><![CDATA[Bloqué]]></text>
+  </component>
+
+  <component id="ID_btn03">
+    <text><![CDATA[Démarrer]]></text>
+  </component>
+
+  <component id="ID_btn04">
+    <text><![CDATA[Réinitialiser]]></text>
+  </component>
+  
+  <component id='ID_s1_instr_title'>
+    <text><![CDATA[Instructions]]></text>
+  </component>
+
+  <component id='ID_s1_instr_body'>
+    <text><![CDATA[Choisissez de laisser passer ou de bloquer chaque adresse IP selon qu'elle est publique (Internet) ou privée (petit réseau local). Cliquez sur Démarrer, puis sur Passer ou Bloquer.]]></text>
+  </component>
+
+<component id="ID_title">
+  <text><![CDATA[<b>Exercice - Autoriser ou bloquer les adresses IPv4<b>]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Points]]></text>
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[FAI]]></text>
+</component>
+<component id="ID_txt04">
+  <text><![CDATA[Internet]]></text>
+</component>
+
+  
+  
+  
+  
+  
+  <component id="ID_Start">
+  <text><![CDATA[Démarrer]]></text>
+</component>
+<component id="ID_Reset">
+  <text><![CDATA[Réinitialiser]]></text>
+</component>
+<component id="ID_Pass">
+  <text><![CDATA[Pass]]></text>
+</component>
+<component id="ID_Block">
+  <text><![CDATA[Blocage]]></text>
+</component>
+<component id="ID_MsgBadBody">
+  <text><![CDATA[Vous n'avez pas correctement identifié les adresses IP publiques et privées.]]></text>
+</component>
+<component id="ID_MsgBadTitle">
+  <text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+<component id="ID_MsgGoodBody">
+  <text><![CDATA[Vous avez correctement identifié les adresses IP publiques et privées.]]></text>
+</component>
+<component id="ID_MsgGoodTitle">
+  <text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+</textcomponents>

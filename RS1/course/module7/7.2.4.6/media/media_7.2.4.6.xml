@@ -1,0 +1,47 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[Adresse link-local IPv6]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+<text><![CDATA[ID d'interface]]></text> 
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[64 bits]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[Méthode EUI-64]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[Nombre généré de façon aléatoire]]></text> 
+</component>
+
+    <component id="ID_s2_title">
+        <text><![CDATA[Adresses link-local créées dynamiquement]]></text>
+    </component>
+    
+    <component id="ID_s2_txt01">
+        <text><![CDATA[<b>ID d'interface généré par la méthode EUI-64</b>]]></text>
+    </component>
+    
+    <component id="ID_s2_txt02">
+        <text><![CDATA[<b>ID d'interface généré par le nombre à 64 bits aléatoire</b>]]></text>
+    </component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[Adresse link-local générée par l'EUI-64 du routeur]]></text>
+    </component>
+    
+    <component id="ID_s3_txt01">
+		<text><![CDATA[Adresses link-local utilisant l'EUI-64]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<résultat omis>]]></text>
+	</component>
+    
+</textcomponents>

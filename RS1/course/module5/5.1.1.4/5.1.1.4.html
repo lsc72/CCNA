@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.1.1.4 Champs de trame Ethernet</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.1.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Champs de trame Ethernet</h1>
+        <div>
+          <p>La taille minimale des trames Ethernet est de 64 octets et la taille maximale de 1 518 octets. Cela comprenait tous les octets du champ Adresse MAC de destination jusqu’au champ Séquence de contrôle de trame. Le champ Préambule n'est pas inclus dans la description de la taille d'une trame. </p>
+          <p>Toute trame inférieure à 64 octets est interprétée comme un « fragment de collision » ou une « trame incomplète » et est automatiquement rejetée par les périphériques récepteurs. Les trames de plus de 1 500 octets de données sont considérées comme des trames « jumbo » (géantes) ou « baby giant frames » (légèrement géantes).</p>
+          <p>Si la taille d’une trame transmise est inférieure à la taille minimale ou supérieure à la taille maximale, le périphérique récepteur abandonne la trame. Les trames abandonnées sont souvent le résultat de collisions ou d’autres signaux rejetés et donc traités comme étant non valides.</p>
+          <p>Sur la figure ci-contre, cliquez sur chaque champ de la trame Ethernet pour en savoir plus sur sa fonction.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows the Ethernet frame format. Clicking on each field opens a text box for more information.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

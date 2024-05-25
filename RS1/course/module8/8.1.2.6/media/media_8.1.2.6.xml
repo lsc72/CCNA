@@ -1,0 +1,135 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+		<text><![CDATA[<b>Réseau 192.168.1.0/24</b>]]></text>
+	</component>
+	<component id="ID_s1_txt01">
+		<text><![CDATA[<b>Adresse</b>]]></text> 
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Partie réseau]]></text> 
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Partie hôte]]></text> 
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[Sans emprunt de bits d'hôte, la partie hôte de l'adresse réseau et du masque ne contient que des bits 0.]]></text> 
+	</component><!--Slide 2--><component id="ID_s2_title">
+		<text><![CDATA[<b>Réseau 192.168.1.0/25</b>]]></text>
+	</component>
+	
+<component id="ID_s2_txt01">
+		<text><![CDATA[Empruntez 1 bit à la partie hôte de l'adresse.]]></text> 
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[<b>Origine</b>]]></text> 
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[1 réseau]]></text> 
+	</component><!--Slide 3--><component id="ID_s3_title">
+		<text><![CDATA[<b>Réseau 192.168.1.0/25</b>]]></text>
+	</component>
+	
+<component id="ID_s3_txt01">
+		<text><![CDATA[Empruntez 1 bit à la partie hôte de l'adresse.]]></text> 
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<b>Origine</b>]]></text> 
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[1 réseau]]></text> 
+	</component>
+	<component id="ID_s3_txt05">
+		<text><![CDATA[La valeur du bit emprunté est <b>0</b> pour l'adresse Net 0.]]></text> 
+	</component>
+	<component id="ID_s3_txt06">
+		<text><![CDATA[<b>Net 0</b>]]></text> 
+	</component>
+	<component id="ID_s3_txt07">
+		<text><![CDATA[La valeur du bit emprunté est <b>1</b> pour l'adresse Net 1.]]></text> 
+	</component>
+	<component id="ID_s3_txt08">
+		<text><![CDATA[<b>Net 1</b>]]></text> 
+	</component>
+	<component id="ID_s3_txt09">
+		<text><![CDATA[2 sous-réseaux]]></text> 
+	</component><!--Slide 4--><component id="ID_s4_title">
+		<text><![CDATA[<b>Réseau 192.168.1.0/25</b>]]></text>
+	</component>
+	
+<component id="ID_s4_txt01">
+		<text><![CDATA[Empruntez 1 bit à la partie hôte de l'adresse.]]></text> 
+	</component>
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>Origine</b>]]></text> 
+	</component>
+	<component id="ID_s4_txt03">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component>
+	<component id="ID_s4_txt04">
+		<text><![CDATA[1 réseau]]></text> 
+	</component>
+	<component id="ID_s4_txt05">
+		<text><![CDATA[La valeur du bit emprunté est <b>0</b> pour l'adresse Net 0.]]></text> 
+	</component>
+	<component id="ID_s4_txt06">
+		<text><![CDATA[<b>Net 0</b>]]></text> 
+	</component>
+	<component id="ID_s4_txt07">
+		<text><![CDATA[La valeur du bit emprunté est <b>1</b> pour l'adresse Net 1.]]></text> 
+	</component>
+	<component id="ID_s4_txt08">
+		<text><![CDATA[<b>Net 1</b>]]></text> 
+	</component>
+	<component id="ID_s4_txt09">
+		<text><![CDATA[2 sous-réseaux]]></text> 
+	</component>
+	<component id="ID_s4_txt10">
+		<text><![CDATA[Les nouveaux sous-réseaux ont le <b>MÊME</b> masque de sous-réseau.]]></text> 
+	</component>
+	<component id="ID_s4_txt11">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component><!--Slide 5--><component id="ID_s5_title">
+		<text><![CDATA[<b>Adresses décimales à point</b>]]></text>
+	</component>
+	
+<component id="ID_s5_txt01">
+		<text><![CDATA[Empruntez 1 bit à la partie hôte de l'adresse.]]></text> 
+	</component>
+	<component id="ID_s5_txt02">
+		<text><![CDATA[<b>Origine</b>]]></text> 
+	</component>
+	<component id="ID_s5_txt03">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component>
+	<component id="ID_s5_txt04">
+		<text><![CDATA[1 réseau]]></text> 
+	</component>
+	
+	<component id="ID_s5_txt06">
+		<text><![CDATA[<b>Net 0</b>]]></text> 
+	</component>
+	
+	<component id="ID_s5_txt08">
+		<text><![CDATA[<b>Net 1</b>]]></text> 
+	</component>
+	<component id="ID_s5_txt09">
+		<text><![CDATA[2 sous-réseaux]]></text> 
+	</component>
+	
+	<component id="ID_s5_txt11">
+		<text><![CDATA[<b>Masque</b>]]></text> 
+	</component>
+
+
+
+</textcomponents>

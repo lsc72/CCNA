@@ -1,0 +1,88 @@
+﻿<textcomponents>
+
+<component id='ID_s1_inst'>
+	<text><![CDATA[<b>Exercice : Terminologie relative à la couche physique</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id='ID_s1_instr_body'>
+		<text><![CDATA[Les descriptions de la couche physique sont fournies dans le tableau. Faites glisser chaque terme relatif à la couche physique jusqu'à sa description.]]></text>
+	</component>
+
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Périphériques matériels, supports et connecteurs de transmission et de transport des signaux binaires]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[La représentation des 1 et des 0 sur les supports dépend du modèle de codage]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Intervalle régulier pour les signaux]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Méthode de conversion des flux de bits de données en groupements de bits (prédéfinie)]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[Intervalle arbitraire pour les signaux]]></text>
+</component>
+
+<component id='ID_s1_txt06'>
+	<text><![CDATA[Terme]]></text>
+</component>
+
+<component id='ID_s1_txt07'>
+	<text><![CDATA[Description de la couche physique]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_traget01'>
+	<text><![CDATA[<font color="#393536">Synchrone</font>]]></text>
+</component>
+
+<component id='ID_s1_traget02'>
+	<text><![CDATA[<font color="#393536">Méthode de signalisation</font>]]></text>
+</component>
+
+<component id='ID_s1_traget03'>
+	<text><![CDATA[<font color="#393536">Codage de trame</font>]]></text>
+</component>
+
+<component id='ID_s1_traget04'>
+	<text><![CDATA[<font color="#393536">Asynchrone</font>]]></text>
+</component>
+
+<component id='ID_s1_traget05'>
+	<text><![CDATA[<font color="#393536">Composants physiques</font>]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque terme relatif à la couche physique à sa description.]]></text>
+</component>
+
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas correctement associé chaque terme relatif à la couche physique à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Contrôler</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Réinitialiser</b>]]></text>
+</component>
+
+</textcomponents>

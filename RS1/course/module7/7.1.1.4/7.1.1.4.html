@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.1.1.4 Conversion du format binaire au format décimal</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.1.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Conversion du format binaire au format décimal</h1>
+        <div>
+          <p>Pour convertir une adresse IPv4 binaire en équivalent décimal à point, divisez l'adresse IPv4 en quatre octets de 8 bits. Appliquez ensuite la valeur pondérée binaire au premier octet binaire et calculez. </p>
+          <p>Par exemple, supposons que 11000000.10101000.00001011.00001010 est l'adresse IPv4 binaire d'un hôte. Pour convertir l'adresse binaire au format décimal, commencez par le premier octet, comme le montre la figure 1. Saisissez la valeur binaire à 8 bits sous la valeur pondérée de la première ligne, puis effectuez le calcul pour obtenir le nombre décimal 192. Ce résultat correspond au premier octet de la notation en décimale à point. </p>
+          <p>Convertissez ensuite le deuxième octet, comme illustré à la figure 2. Vous obtenez la valeur décimale 168, qui correspond au deuxième octet.</p>
+          <p>Convertissez les troisième et quatrième octets comme illustré dans les figures 4 et 5 pour compléter l'adresse IP. Vous obtenez <b>192.168.11.10</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figures 1 through 4show an example of using the binary positional notation table to convert a binary IP address to the dotted decimal address, 192.168.11.10. Each figure shows one of the four octets being converted to decimal.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

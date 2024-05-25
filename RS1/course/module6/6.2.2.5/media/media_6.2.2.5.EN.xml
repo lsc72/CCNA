@@ -1,0 +1,66 @@
+<textcomponents>
+ 
+    <component id="ID_title">
+        <text><![CDATA[<b>Understanding Remote Route Entries</b>]]></text>
+	</component>
+    
+    <component id="ID_txt01">
+		<text><![CDATA[D]]></text>
+	</component>
+  
+  	<component id="ID_titleTxt01">
+		<text><![CDATA[Route Source]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Identifies how the network was learned by the router. Common route sources include <b>S</b> (static route), <b>D</b> (Enhanced Interior Gateway Routing Protocol or EIGRP), and <b>O</b> (Open Shortest Path First or OSPF). Other route sources are beyond the scope of this chapter.
+]]></text>
+	</component>
+
+  	<component id="ID_titleTxt02">
+		<text><![CDATA[Destination Network]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Identifies the destination network.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt03">
+		<text><![CDATA[Administrative Distance]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[Identifies the administrative distance (i.e., trustworthiness) of the route source. Lower values indicate increased trustworthiness of the route source.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt04">
+		<text><![CDATA[Metric]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Identifies the value assigned to reach the remote network. Lower values indicate preferred routes.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt05">
+		<text><![CDATA[Next-hop]]></text>
+	</component>
+	<component id="ID_bodyTxt05">
+		<text><![CDATA[Identifies the IP address of the next router to forward the packet.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt06">
+		<text><![CDATA[Route Timestamp]]></text>
+	</component>
+	<component id="ID_bodyTxt06">
+		<text><![CDATA[Identifies when the router was last heard from.]]></text>
+	</component>
+
+  	<component id="ID_titleTxt07">
+		<text><![CDATA[Outgoing Interface]]></text>
+	</component>
+	<component id="ID_bodyTxt07">
+		<text><![CDATA[Identifies the exit interface to use to forward a packet toward the final destination.]]></text>
+	</component>
+	
+	
+	
+	
+	
+	
+</textcomponents>

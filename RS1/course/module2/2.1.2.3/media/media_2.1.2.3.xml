@@ -1,0 +1,77 @@
+﻿<textcomponents><!-- instructions --><component id="ID_title">
+	<text><![CDATA[<b>Exercice – Méthode d'accès</b><br><br>]]></text>
+</component>
+
+<component id="id_instr_title">
+		<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id="id_instr_body">
+		<text><![CDATA[Sélectionnez la méthode d'accès la plus appropriée pour chaque scénario.]]></text>
+	</component>
+
+<component id="MCTable_title">
+    <text><![CDATA[ ]]></text>
+</component><!-- buttons --><component id="ID_Button01">
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id="ID_Button02">
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Number of rows in the table--><component id="txt_numrows">
+	<text><![CDATA[4]]></text>
+</component><!--Number of columns for the answers in the table. Do not count the question column--><component id="txt_numcols">
+	<text><![CDATA[3]]></text>
+</component><!--Answer column headers--><component id="txt_col1">
+	<text><![CDATA[<b>Console</b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>Telnet/SSH</b>]]></text>
+</component>
+
+<component id="txt_col3">
+	<text><![CDATA[<b>AUX</b>]]></text>
+</component><!--Question text - blockindent code moves the text away from the left edge a bit--><!--Question text - If questions are numbered, use blockindent for hanging indents--><component id="txt_q1">
+	<text><![CDATA[1. <textformat blockindent='13'>Vous êtes dans le local technique et un nouveau commutateur doit être configuré.</textformat>]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[2. <textformat blockindent='13'>Votre responsable vous donne un câble spécial et vous demande de l'utiliser pour <span class="aligning">configurer le commutateur.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[3. <textformat blockindent='13'>Vous accédez à l'IOS à l'aide d'un autre périphérique intermédiaire via une <br/><span class="aligning">connexion réseau.</span></textformat>]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[4. <textformat blockindent='13'>Vous appelez votre responsable pour lui indiquer que vous ne pouvez pas accéder au <span class="aligning">routeur via Internet depuis une autre ville. Il vous fournit des informations pour <br/></span><span class="aligning">accéder au commutateur par une connexion téléphonique.</span></textformat>]]></text>
+</component><!--Answers - Give the column number(s), column numbering start with 1 not 0--><!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] --><component id="txt_a1">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[3]]></text>
+</component><!-- Correct Feedback --><component id="ID_titleCorrect">
+	<text><![CDATA[<b>Correct</b>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[Vous avez correctement associé les méthodes d'accès les plus appropriées aux scénarios correspondants.]]></text>
+</component><!-- Incorrect Feedback --><component id="ID_titleIncorrect">
+	<text><![CDATA[<b>Incorrect</b>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[Vous n'avez pas correctement associé les méthodes d'accès les plus appropriées aux scénarios correspondants. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+</textcomponents>

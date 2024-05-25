@@ -1,0 +1,58 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+	  <text><![CDATA[<b>Mémoire des routeurs</b>]]></text> 
+	 </component>
+
+	<component id="ID_txt01">
+	<text><![CDATA[Les commandes IOS <font face="_typewriter"><b>show</b></font> peuvent fournir des informations sur la configuration, l&apos;utilisation et l&apos;état des composants d&apos;un commutateur ou d&apos;un routeur Cisco.]]></text>
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[IOS en cours d&apos;exécution]]></text> 
+	  </component>
+	<component id="ID_txt03">
+	  <text><![CDATA[Table de routage<br/><br/>Table ARP]]></text> 
+	  </component>
+	<component id="ID_txt04">
+	  <text><![CDATA[Fichier de configuration en cours]]></text> 
+	  </component>
+	<component id="ID_txt05">
+	  <text><![CDATA[Mémoire tampon de paquets]]></text> 
+	  </component>
+	<component id="ID_txt06">
+	  <text><![CDATA[Fichier de configuration initiale]]></text> 
+	  </component>
+	<component id="ID_txt07">
+	  <text><![CDATA[Fichiers IOS]]></text> 
+	  </component>
+	<component id="ID_txt08">
+	  <text><![CDATA[POST<br/><br/>Micrologiciel de contrôle de la mémoire morte (IOS limité)]]></text> 
+	  </component>
+	<component id="ID_txt09">
+	  <text><![CDATA[Mémoire vive (RAM)]]></text> 
+	  </component>
+	<component id="ID_txt10">
+	  <text><![CDATA[NVRAM]]></text> 
+	  </component>
+	<component id="ID_txt11">
+	  <text><![CDATA[Flash]]></text> 
+	  </component> 
+	<component id="ID_txt12">
+	  <text><![CDATA[ROM]]></text> 
+	  </component> 
+
+  	<component id="ID_titleTxt01">
+		<text><![CDATA[Mémoire vive (RAM)]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[La RAM utilise les applications et processus suivants :<ul><li>L&apos;image IOS et le fichier de configuration en cours</li><li>La table de routage permettant de déterminer le meilleur chemin à utiliser pour transférer des paquets</li><li>Le cache ARP permettant de mapper des adresses IPv4 à des adresses MAC</li><li>La mémoire tampon servant à stocker temporairement les paquets avant leur envoi vers la destination</li></ul>]]></text>
+	</component>
+
+  	<component id="ID_titleTxt02">
+		<text><![CDATA[ROM]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[La mémoire morte stocke les éléments suivants :<ul><li>Les informations de démarrage qui contiennent les instructions pour démarrer</li><li>Le POST (test automatique de mise sous tension) qui teste tous les composants matériels</li><li>Une version limitée d&apos;IOS fournissant une version de secours de l&apos;IOS. Elle permet de charger une version complète de l&apos;IOS si le logiciel a été supprimé ou endommagé.</li></ul>]]></text>
+	</component>
+	
+</textcomponents>

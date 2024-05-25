@@ -1,0 +1,9 @@
+<textcomponents>
+	
+	<component id="ID_txt01">
+	  <text><![CDATA[Étape 1 : configurez le nom de domaine IP.<br/>Étape 2 : générez des clés secrètes unidirectionnelles.<br/>Étape 3 : vérifiez ou créez l'entrée dans la base de données locale.<br/>Étape 4 : activez les sessions SSH entrantes à l'aide des commandes VTY.]]></text> 
+	</component>	  
+	<component id="ID_txt02">
+		<text><![CDATA[DCE]]></text>
+	</component>	
+</textcomponents>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.5.1.4 Chapitre 6 : Couche réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.5.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Chapitre 6 : Couche réseau</h1>
+        <div>
+          <p>La couche réseau, ou couche 3 du modèle OSI, fournit des services permettant aux périphériques finaux d'échanger des données sur le réseau. Pour effectuer ce transport de bout en bout, la couche réseau utilise quatre fonctions de base : l'adressage IP pour les périphériques finaux, l'encapsulation, le routage et la désencapsulation.</p>
+          <p>Internet repose essentiellement sur l'IPv4, qui est toujours le protocole de couche réseau le plus répandu. Un paquet IPv4 contient l'en-tête IP et les données utiles. Cependant, l'IPv4 a un nombre limité d'adresses IP publiques uniques. Cela a conduit au développement de la version 6 du protocole IP (IPv6). L'en-tête simplifié IPv6 offre plusieurs avantages par rapport à l'IPv4, notamment une meilleure efficacité du routage, des en-têtes d'extension simplifiés et le traitement par flux. En outre, les adresses IPv6 sont basées sur un adressage hiérarchique 128 bits (32 bits pour l'IPv4). Cela augmente considérablement le nombre d'adresses IP disponibles.</p>
+          <p>En plus de gérer l'adressage hiérarchique, la couche réseau est également responsable du routage.</p>
+          <p>Les hôtes ont besoin d'une table de routage locale pour s'assurer que les paquets sont dirigés vers le bon réseau de destination. La table locale d'un hôte contient généralement la connexion directe, la route de réseau local et la route locale par défaut. La route locale par défaut est la route vers la passerelle par défaut.</p>
+          <p>La passerelle par défaut est l'adresse IP d'une interface de routeur connectée au réseau local. Lorsqu'un hôte doit transmettre un paquet vers une adresse de destination qui n'est pas sur le même réseau que l'hôte, le paquet est envoyé à la passerelle par défaut. </p>
+          <p>Lorsqu'un routeur, tel que la passerelle par défaut, reçoit un paquet, il examine l'adresse IP de destination pour déterminer le réseau de destination. La table de routage d'un routeur stocke des informations sur les routes connectées directement et les routes distantes vers les réseaux IP. S'il existe une entrée correspondant au réseau de destination dans la table de routage du routeur, celui-ci transfère le paquet. S'il n'existe aucune entrée de routage, le routeur peut transférer le paquet vers sa propre route par défaut, si elle est configurée, ou il abandonne le paquet.</p>
+          <p>Les entrées de la table de routage peuvent être configurées manuellement sur chaque routeur pour fournir le routage statique, ou les routeurs peuvent se transmettre les informations concernant les routes de manière dynamique à l'aide d'un protocole de routage.</p>
+          <p>Pour que les routeurs soient accessibles, l'interface de routeur doit être configurée. Pour activer une interface spécifique, passez en mode de configuration d'interface via la commande de configuration globale <b>interface </b><i>type-et-numéro</i>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a standard graphic for the introduction and conclusion pages.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

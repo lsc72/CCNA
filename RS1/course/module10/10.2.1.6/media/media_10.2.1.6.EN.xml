@@ -1,0 +1,60 @@
+﻿<textcomponents> 
+
+<component id="ID_title">
+<text><![CDATA[<b>IMAP</b>]]></text> 
+</component>
+
+<component id="ID_txt01REMOVED">
+<text><![CDATA[<b>Mail User Agent<br>(MUA)</b>]]></text>
+</component> 
+<component id="ID_txt03">
+  <text><![CDATA[<b>Recipient</b>]]></text> 
+  </component>
+
+<component id="ID_txt04">
+  <text><![CDATA[Deliver Email<br><font color="#652C8A"><b>IMAP</b></font>]]></text> 
+  </component>
+  <component id="ID_txt06REMOVED">
+  <text><![CDATA[<b>Mail Transfer Agent<br>(MTA)</b>]]></text> 
+  </component>
+
+
+<component id="ID_txt07">
+<text><![CDATA[Forward Email]]></text> 
+</component>
+<component id="ID_txt08">
+<text><![CDATA[<b>SMTP</b>]]></text> 
+</component> 
+ 
+
+<component id="ID_txt09REMOVED">
+<text><![CDATA[<b>Mail Transfer Agent<br>(MTA)</b>]]></text>
+</component> 
+<component id="ID_txt10">
+  <text><![CDATA[<b>SMTP</b>]]></text> 
+  </component>
+<component id="ID_txt11">
+  <text><![CDATA[Send Email]]></text> 
+  </component> 
+<component id="ID_txt12">
+  <text><![CDATA[<b>Sender</b>]]></text> 
+  </component>
+
+<component id="ID_txt14REMOVED">
+<text><![CDATA[<b>Mail User Agent<br>(MUA)</b>]]></text>
+</component> 
+<component id="ID_txt15REMOVED">
+<text><![CDATA[SMTP is used to send emails from clients to server, and to forward emails between email servers.]]></text>
+</component> 
+<component id="ID_txt16REMOVED">
+<text><![CDATA[POP is used to deliver email.]]></text>
+</component>
+
+<component id="ID_txt17REMOVED">
+<text><![CDATA[<b>Mail Delivery Agent<br>(MDA)</b>]]></text>
+</component> 
+
+<component id="ID_bubble1">
+  <text><![CDATA[]]></text> 
+</component> 
+</textcomponents>

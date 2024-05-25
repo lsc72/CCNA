@@ -1,0 +1,44 @@
+<textcomponents>
+    <component id="ID_title">
+		<text><![CDATA[<b>Fields in the IPv6 Packet Header</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Byte 1]]></text>
+	</component>
+	<component id="ID_txt02">
+	  	<text><![CDATA[Byte 2]]></text> 
+	</component>
+	<component id="ID_txt03">
+	 	<text><![CDATA[Byte 3]]></text> 
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[Byte 4]]></text>
+	</component>
+	<component id="ID_txt05">
+	  	<text><![CDATA[Version]]></text> 
+	</component>
+	<component id="ID_txt06">
+	 	<text><![CDATA[Traffic Class]]></text> 
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Flow Label]]></text>
+	</component>
+	<component id="ID_txt08">
+	  	<text><![CDATA[Payload Length]]></text> 
+	</component>
+	<component id="ID_txt09">
+	 	<text><![CDATA[Next Header]]></text> 
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[Hop Limit]]></text>
+	</component>
+	<component id="ID_txt11">
+	  	<text><![CDATA[Source IP Address]]></text> 
+	</component>
+	<component id="ID_txt12">
+	 	<text><![CDATA[Destination IP Address]]></text> 
+	</component>
+ <component id="ID_txt13">
+  <text><![CDATA[40 Bytes]]></text> 
+  </component>
+</textcomponents>

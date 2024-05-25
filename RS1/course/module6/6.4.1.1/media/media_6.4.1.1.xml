@@ -1,0 +1,11 @@
+﻿<textcomponents>
+  <component id="ID_s1_title">
+    <text><![CDATA[<b>Tâches de configuration du commutateur</b>]]></text>
+  </component>
+  <component id="ID_s1_txt01">
+  <text><![CDATA[<textformat blockindent='-20'><ul><li><b>Configurer le nom du périphérique</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>hostname</b> <i>nom</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Sécuriser le mode d'exécution utilisateur</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line console 0</b></li><li id="space"><b>password</b> <i>mot de passe</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Sécuriser l'accès SSH / Telnet à distance</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>line vty 0 15</b></li><li id="space"><b>password</b> <i>mot de passe</i></li><li id="space"><b>login</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Sécuriser le mode d'exécution privilégié</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>enable secret</b> <i>mot de passe</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Sécuriser tous les mots de passe dans le fichier de configuration</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>service password-encryption</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Fournir un avertissement juridique</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>banner motd</b> <i>délimiteur message délimiteur</i></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Configurer l'interface SVI de gestion</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>interface vlan 1</b></li><li id="space"><b>ip address </b><i>adresse ip masque de sous-réseau</i></li><li id="space"><b>no shutdown</b></li></ul></textformat><br><textformat blockindent='-20'><ul><li><b>Enregistrez la configuration</b></textformat></li></ul><textformat blockindent='1'><ul><li id="space"><b>copy running-config startup-config</b></li></ul></textformat>]]></text>
+</component>
+    <component id="ID_s2_title">
+    <text><![CDATA[<b>Exemple de configuration du commutateur</b>]]></text>
+  </component>
+</textcomponents>

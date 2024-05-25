@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.5 Fonctionnement du protocole POP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Fonctionnement du protocole POP</h1>
+        <div>
+          <p>Le protocole POP (Post Office Protocol) est utilisé par une application pour récupérer le courrier électronique à partir d'un serveur de messagerie. Avec POP, le courriel est téléchargé du serveur au client, puis supprimé du serveur. Le protocole POP fonctionne par défaut de cette façon.</p>
+          <p>Le serveur démarre le service POP en écoutant passivement les éventuelles requêtes de connexion client sur le port TCP 110. Lorsqu'un client souhaite utiliser le service, il envoie une requête d'établissement de connexion TCP au serveur. Une fois la connexion établie, le serveur POP envoie un message de bienvenue. Le client et le serveur POP échangent alors des commandes et des réponses jusqu'à ce que la connexion soit fermée ou abandonnée. </p>
+          <p>Avec POP, les messages électroniques sont téléchargés chez le client et supprimés du serveur ; il n'existe pas d'emplacement centralisé de conservation des messages. Comme le protocole POP ne stocke pas les messages, il est inadapté dans une petite entreprise qui a besoin d'une solution de sauvegarde centralisée.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure shows the interaction between all devices involved with an email transmission.  The client sends the message to the server. The server forwards the message to another server, which will deliver the message to the recipient. using POP3.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>
