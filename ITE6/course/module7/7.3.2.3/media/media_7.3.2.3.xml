@@ -1,0 +1,77 @@
+﻿<textcomponents>
+  <component id="ID_s1_title">
+    <text><![CDATA[<b></b>]]></text>
+  </component>
+  
+   <component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Types de câbles à paires torsadées</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b></b></font></td>
+			<td bgcolor='#666263'  valign="top" width="150"><font color='#FFFFFF' ><b>Vitesse</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Fonctionnalités</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>UTP Catégorie 3</td>
+			<td bgcolor='#E9E7E8'>10 Mbit/s à 16 MHz</td>
+			<td bgcolor='#E9E7E8'><ul><textformat blockindent="-18"><li>Adapté aux réseaux locaux Ethernet.</li><li>Souvent utilisé pour les lignes téléphoniques.</li></textformat></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>UTP Catégorie 5</td>
+			<td bgcolor='#F2F2F2'>100 Mbit/s à 100 MHz</td>
+			<td bgcolor='#F2F2F2'>Fabriqué selon des normes plus rigoureuses que les câbles de catégorie 3 pour permettre des débits de transfert des données plus élevés.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UTP Catégorie 5e</td>
+			<td bgcolor='#E9E7E8'>1000 Mbit/s à 100 MHz</td>
+			<td bgcolor='#E9E7E8'><ul><textformat blockindent="-18"><li>Fabriqué selon des normes plus rigoureuses que les câbles de catégorie 5 pour permettre des débits de transfert des données plus élevés.</li><li>Nombre de torsades par mètre plus élevé que sur les câbles de catégorie 5 pour éviter les perturbations électromagnétiques et radioélectriques provenant de l'extérieur.</li></textformat></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>UTP Catégorie 6</td>
+			<td bgcolor='#F2F2F2'>1000 Mbit/s à 250 MHz</td>
+			<td rowspan='10' bgcolor='#F2F2F2'><ul><textformat blockindent="-18"><li>Fabriqué selon des normes plus rigoureuses que les câbles de catégorie 5e.</li><li>Nombre de torsades par mètre plus élevé que sur les câbles de catégorie 5e pour éviter les perturbations électromagnétiques et radioélectriques provenant de l'extérieur.</li><li>Les câbles de catégorie 6a sont mieux isolés et offrent de meilleures performances que les câbles de catégorie 6.</li><li>Peut contenir un diviseur en plastique pour séparer les paires de fils à l'intérieur du câble et éviter ainsi les perturbations électromagnétiques et radioélectriques.</li><li>Idéal pour les clients utilisant des applications qui nécessitent une bande passante importante (par exemple la vidéoconférence ou les jeux vidéo).</li><li>Les câbles à paires torsadées blindées (ScTP) sont très chers et sont moins flexibles que les câbles UTP.</li></textformat></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UTP Catégorie 6a</td>
+			<td bgcolor='#E9E7E8'>1000 Mbit/s à 500 MHz</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' rowspan="8">ScTP Catégorie 7</td>
+			<td bgcolor='#F2F2F2' rowspan="8">10 Gbit/s à 600 MHz</td>
+		</tr>
+		<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+		
+		
+
+</table>]]></text>
+</component>
+
+  
+    <component id="ID_s2_title">
+    <text><![CDATA[<b>Connecteurs RJ-11 et RJ-45</b>]]></text>
+  </component>
+  
+  
+</textcomponents>

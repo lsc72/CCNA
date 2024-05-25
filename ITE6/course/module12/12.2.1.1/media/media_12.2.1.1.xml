@@ -1,0 +1,101 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+	<text><![CDATA[<b>Créer une stratégie de sécurité réseau</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01"> 
+	<text><![CDATA[<font color="#FFFFFF">Le prochain élément de la stratégie de sécurité que nous devons aborder concerne les règles d'accès au réseau.</font>]]></text> 
+</component>
+
+<component id="ID_s1_bubble02"> 
+	<text><![CDATA[<font color="#FFFFFF">Nous devons garder à l'esprit que nous avons des travailleurs distants. Les règles d'accès qu'ils utilisent sont différentes de celles qui s'appliquent aux employés sur site.</font>]]></text> 
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<b>Questions sur les stratégies de sécurité</b>]]></text>
+</component>
+
+<component id='ID_s2_txtTitle01'>
+	<text><![CDATA[La stratégie de sécurité identifie...]]></text>
+</component>
+
+<component id='ID_s2_txtBody01'>
+	<text><![CDATA[<ul><li>Quelles ressources doivent être protégées </li><li>Quelles sont les menaces possibles </li><li>Que faire si une faille est détectée </li><li>Quelle formation est proposée aux utilisateurs </li></ul>]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>Stratégie de sécurité</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>Stratégie de sécurité</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<font size="+2"><b>Stratégie de sécurité</b></font>]]></text>
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[1. <textformat blockindent='-18'>Stratégies d’identification et d’authentification</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt04">
+		<text><![CDATA[2. <textformat blockindent='-18'>Stratégies de mot de passe</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt05">
+		<text><![CDATA[3. <textformat blockindent='-18'>Règles de bon usage</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt06">
+		<text><![CDATA[4. <textformat blockindent='-18'>Stratégies de l’accès à distance</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt07">
+		<text><![CDATA[5. <textformat blockindent='-18'>Politiques de maintenance du réseau</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt08">
+		<text><![CDATA[6. <textformat blockindent='-18'>Politiques de gestion des incidents</textformat>]]></text>
+	</component><!-- slide 3 textboxes --><component id="ID_s3_txtTitle01">
+		<text><![CDATA[Stratégies d’identification et d’authentification]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody01">
+		<text><![CDATA[Elles spécifient les personnes autorisées à accéder aux ressources réseau et décrivent les procédures de vérification.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle02">
+		<text><![CDATA[Stratégies de mot de passe]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody02">
+		<text><![CDATA[Elles garantissent que les mots de passe remplissent les conditions minimales requises et sont changés régulièrement.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle03">
+		<text><![CDATA[Règles de bon usage]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody03">
+		<text><![CDATA[Elles identifient les ressources réseau et les utilisations acceptables pour l'entreprise. Elles peuvent également permettre d'identifier les responsables d'une infraction.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle04">
+		<text><![CDATA[Stratégies de l’accès à distance]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody04">
+		<text><![CDATA[Elles définissent comment les utilisateurs distants peuvent accéder à un réseau et les éléments qui sont accessibles via une connectivité à distance.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle05">
+		<text><![CDATA[Politiques de maintenance du réseau]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody05">
+		<text><![CDATA[Elles spécifient les procédures de mise à jour des systèmes d'exploitation des périphériques réseau et des applications.]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle06">
+		<text><![CDATA[Politiques de gestion des incidents]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody06">
+		<text><![CDATA[Elles décrivent comment les incidents de sécurité doivent être gérés.]]></text>
+	</component><!-- end slide 3 textboxes --><!-- end slide 3 --></textcomponents>

@@ -1,0 +1,116 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Types de chevaux de Troie</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Types de programmes malveillants</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+        <text><![CDATA[Les virus peuvent…]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+        <text><![CDATA[<ul><li>Modifier, endommager, supprimer les fichiers, voire effacer tout le contenu d'un disque dur sur l'ordinateur.</li><li>Empêcher l'ordinateur de démarrer, faire que les applications ne se chargent pas ou ne fonctionnent pas correctement.</li><li>Utiliser le compte de messagerie des utilisateurs pour répandre le virus sur d'autres ordinateurs.</li><li>Rester inactifs jusqu'à ce qu'ils soient appelés par le pirate.</li><li>Enregistrer la frappe et capturer des informations sensibles, comme des mots de passe et/ou des numéros de carte de crédit et envoyer ces données au pirate.</li></ul>]]></text>
+	</component>
+ 
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="200" valign="top"><font color='#FFFFFF' ><b>Type de cheval de Troie</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>accès distant</td>
+			<td bgcolor='#E9E7E8'>Le cheval de Troie permet un accès distant non autorisé.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Envoi de données</td>
+			<td bgcolor='#F2F2F2'>Le cheval de Troie fournit au pirate des données sensibles, comme les mots de passe.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Destructeur</td>
+			<td bgcolor='#E9E7E8'>Le cheval de Troie endommage ou supprime des fichiers.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Procuration</td>
+			<td bgcolor='#F2F2F2'>Le cheval de Troie utilise l'ordinateur de la victime pour lancer des attaques et pratiquer d'autres activités illégales.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FTP</td>
+			<td bgcolor='#E9E7E8'>Le cheval de Troie permet le transfert non autorisé de fichiers sur les périphériques finaux.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Désactivation des logiciels de sécurité</td>
+			<td bgcolor='#F2F2F2'>Le Cheval de Troie empêche les logiciels antivirus ou les pare-feu de fonctionner.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Déni de service (DoS)</td>
+			<td bgcolor='#E9E7E8'>Le cheval de Troie ralentit ou interrompt l'activité réseau.</td>
+			
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s3_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="150" valign="top"><font color='#FFFFFF' ><b>Modes de sécurité</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Vers</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Un ver est un programme dangereux pour les réseaux, car il se reproduit dans le but de ralentir ou de perturber les opérations réseau.</li><li>Les vers se propagent généralement automatiquement en exploitant les vulnérabilités connues des logiciels légitimes.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Logiciel publicitaire</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Généralement distribué lors du téléchargement de logiciels en ligne.</li><li>Il affiche de la publicité sur votre ordinateur, le plus souvent dans une fenêtre contextuelle.</li><li>Ces fenêtres sont parfois difficiles à contrôler et ouvrent de nouvelles fenêtres plus rapidement que l'utilisateur ne peut les fermer.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Logiciel espion</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Similaire au logiciel publicitaire, mais utilisé pour collecter des informations sur l'utilisateur et les envoyer vers une autre entité, sans le consentement de l'utilisateur.</li><li>Le logiciel espion peut présenter un niveau de menace faible, et se limiter à la collecte des données de navigation, ou il peut être plus problématique s'il collecte des informations personnelles ou à caractère financier.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Faux logiciels de protection (ransomware)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Similaire au logiciel publicitaire, mais il bloque l'accès au système infecté.</li><li>Il exige le paiement d'une rançon pour que cette restriction soit levée.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Rootkits</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Programme utilisé par les hackers pour obtenir un accès de niveau administrateur à un ordinateur.</li><li>Très difficile à détecter, car il peut gérer les programmes de sécurité pour rester masqué.</li><li>Un logiciel spécial de suppression des rootkits peut être utilisé, mais parfois, la réinstallation du système d'exploitation est nécessaire pour garantir la suppression totale du rootkit.</li></ul></textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

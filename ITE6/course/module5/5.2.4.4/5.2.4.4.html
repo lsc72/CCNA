@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.4 Mappage de lecteurs ou affectation de lettres aux lecteurs</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Mappage de lecteurs ou affectation de lettres aux lecteurs</h1>
+        <div>
+          <p>Sous Windows, les lettres servent à désigner les lecteurs logiques et physiques. Ce procédé est appelé mappage de lecteurs ou affectation de lettres aux lecteurs. Un ordinateur Windows peut avoir jusqu'à 26 lecteurs physiques et logiques, car il y a 26 lettres dans l'alphabet. Le lecteur C est réservé à la partition active principale. Sous Windows Vista et Windows 7, vous pouvez attribuer les lettres A ou B à des lecteurs si vous n'avez pas de lecteur de disquettes. Si des périphériques de stockage supplémentaires sont ajoutés au système, Windows tente de les mapper automatiquement à la lettre libre suivante. Ainsi, un lecteur optique, des disques durs internes supplémentaires ou des périphériques de stockage externes se voient généralement attribuer les lettres D, E, F, etc. Le nombre maximal de lecteurs supplémentaires dépend du matériel de l'ordinateur.</p>
+          <p></p>
+          <p>Vous pouvez modifier, ajouter et supprimer les lettres et chemins d'accès des lecteurs. Par défaut, Windows attribue une lettre à une partition ou un lecteur après sa création ou son ajout. Vous pouvez modifier cette désignation pour choisir la lettre de votre choix, tant que celle-ci n'est pas déjà utilisée.</p>
+          <p></p>
+          <p>Pour modifier la lettre d'un lecteur sous Windows à partir de l'utilitaire Gestion des disques, cliquez avec le bouton droit sur le lecteur et sélectionnez <b>Modifier la lettre de lecteur et les chemins d'accès</b>.</p>
+          <p></p>
+          <p>
+            <b>Ajout de disques</b>
+          </p>
+          <p></p>
+          <p>Pour augmenter la quantité d'espace de stockage disponible sur un ordinateur ou mettre en place une configuration RAID, vous pouvez ajouter des disques à cet ordinateur. Si le disque dur supplémentaire a été installé correctement, le BIOS le reconnaît automatiquement. Après l'installation du disque, vous pouvez vérifier s'il a été reconnu correctement à l'aide de l'utilitaire Gestion des disques. Si le disque est disponible, il doit probablement être un formaté avant d'être utilisé. Si le disque n'apparaît pas, résolvez le problème.</p>
+          <p></p>
+          <p>
+            <b>Ajout de baies</b>
+          </p>
+          <p></p>
+          <p>Pour mettre en place une configuration RAID, au moins deux disques doivent être installés dans l'ordinateur. Vous pouvez ajouter une baie avec l'utilitaire Gestion des disques. Les options suivantes sont disponibles :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Nouveau volume fractionné</b> : crée une partition de disque constituée d'espace réparti sur plusieurs disques physiques. Les données d'un volume fractionné ne permettent pas la tolérance aux pannes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nouveau volume agrégé par bandes</b> : partition dynamique qui stocke les données en bandes sur plusieurs disques physiques. Également appelé RAID 0, ce type de volume permet d'atteindre des vitesses de lecture/écriture élevées. Les données sont réparties sur plusieurs disques physiques et permettent un accès simultané aux différentes parties de celles-ci. Étant donné que les données d'un volume agrégé par bandes ne permettent pas la tolérance aux pannes, ce type de volume ne doit pas être utilisé pour le stockage de données importantes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nouveau volume en miroir</b> : nécessite deux disques physiques. Avec cette technologie également appelée RAID 1, toutes les données inscrites sur le volume le sont aussi sur les deux disques simultanément. Grâce à cette opération, les données stockées sur un volume en miroir permettant la tolérance aux pannes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nouveau volume RAID-5</b> : partition dynamique qui stocke les données en bandes sur plusieurs disques physiques, tout en stockant des informations de récupération sur chaque bande. Ces informations de récupération, appelées données de parité, peuvent être utilisées pour reconstituer les données d'un disque défectueux. La création d'informations de parité rend les données d'un volume RAID-5 tolérantes aux pannes.</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>Pour ajouter une baie dans l'utilitaire Gestion des disques, cliquez avec le bouton droit sur le disque et sélectionnez l'option de votre choix.</p>
+          <p></p>
+          <p>Outre les options de l'utilitaire Gestion des disques décrites ci-dessus, un autre type de RAID couramment utilisé est le RAID 10, aussi appelé RAID 1+0. Le RAID 10 est un volume composé d'un mélange de RAID 0 et de RAID 1. Le RAID 10 stocke les données en bandes sur plusieurs disques physiques tout en mettant en miroir ces données sur un autre ensemble de disques. Le RAID 10 est rapide et assure la tolérance aux pannes.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : les options d'ajout de baie disponibles dépendent des limitations du système. Toutes les options ne sont pas forcément disponibles.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

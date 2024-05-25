@@ -1,0 +1,36 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Tester la théorie pour déterminer la cause</b>]]></text>
+	</component>
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 3. Tester la théorie pour déterminer la cause</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='200'>Étapes courantes permettant de déterminer la cause des problèmes de système d'exploitation sur les appareils mobiles</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Forcer la fermeture d'une application en cours.</li>
+				<li>Reconfigurer les comptes de messagerie électronique.</li>
+				<li>Redémarrer l'appareil mobile.</li>
+				<li>Restaurer les données d'un appareil mobile à partir d'une sauvegarde.</li>
+				<li>Connecter un appareil iOS à iTunes.</li>
+				<li>Mettre à jour le système d'exploitation.</li>
+				<li>Restaurer l'appareil mobile à ses paramètres d'usine.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Étapes courantes permettant de déterminer la cause des problèmes sur Linux ou OS X</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Forcer la fermeture d'un programme en cours.</li>
+				<li>Reconfigurer les comptes de messagerie électronique.</li>
+				<li>Redémarrez l'ordinateur.</li>
+				<li>Effectuer une installation complète du système d'exploitation pour restaurer les paramètres d'usine de l'ordinateur.</li>
+				<li>Restaurer les données de l'ordinateur à partir d'une sauvegarde.</li>
+				<li>Mettre à jour le système d'exploitation de l'ordinateur.</li></ul></textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

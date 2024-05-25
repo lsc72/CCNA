@@ -1,0 +1,21 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Alerte de mises à jour logicielles sur OS X</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Vérification et installation des mises à jour sur Ubuntu Linux</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Vérification et installation des mises à jour sur OS X</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Service d'informations d'identification de sécurité sur Ubuntu</b>]]></text>
+	</component>
+    
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Service d'informations d'identification de sécurité sur OS X</b>]]></text>
+	</component>
+</textcomponents>

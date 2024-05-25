@@ -1,0 +1,184 @@
+﻿<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Partie 1 : Identifier le processus d'impression laser</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez le nom de chaque étape à sa description.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Transfert]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Exposition]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Nettoyage]]></text>
+	</component>
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Développement]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Fixation]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Traitement]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Charge]]></text>
+	</component>
+
+	
+	<component id='ID_drag_header'>
+		<text><![CDATA[<b>Étapes</b>]]></text>
+	</component> 
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque étape à sa description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque étape à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Nom de l'étape</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[Pour transmettre l'image, le tambour photosensible est balayé par un faisceau laser. Pendant que le tambour tourne, une image latente invisible se crée dessus.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Le toner est appliqué sur l'image latente présente sur le tambour.]]></text> <!--Do Not--></component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[L'imprimante convertit les données de différents langages, comme PS ou PCL, en image bitmap, puis stocke cette image dans sa mémoire.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Le toner est fixé de façon définitive sur le papier. C'est pendant son passage entre les rouleaux que le toner encore sous forme de poudre est fondu dans les fibres du papier. La page imprimée est ensuite envoyée dans le bac de sortie.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Le toner qui a été déposé sur l'image latente est transféré sur le papier.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Lorsque l'image est déposée sur le papier et que le tambour est séparé du papier, tout le toner restant doit être éliminé du tambour par une lampe ou un fil de décharge.]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[L'image latente précédente est effacée et le tambour est préparé à la nouvelle image latente par le fil corona.]]></text><!--Do--></component><!-- Slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Partie 2 : Remettre dans l'ordre le processus d'impression laser</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[Associez chaque chiffre à son ordre dans le processus d'impression laser.]]></text>
+	</component><!--Drag and Drop--><component id='ID_s2_drag_header'>
+		<text><![CDATA[<b>Étapes</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_drag01'>
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[2]]></text>
+	</component>
+	<component id='ID_s2_drag03'>
+		<text><![CDATA[3]]></text>
+	</component>
+	<component id='ID_s2_drag04'>
+		<text><![CDATA[4]]></text>
+	</component>
+	<component id='ID_s2_drag05'>
+		<text><![CDATA[5]]></text>
+	</component>
+	<component id='ID_s2_drag06'>
+		<text><![CDATA[6]]></text>
+	</component>
+	<component id='ID_s2_drag07'>
+		<text><![CDATA[7]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement ordonné les étapes du processus d'impression laser.]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement ordonné les étapes du processus d'impression laser. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>Nom de l'étape</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>Numéro de l'étape</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[Charge]]></text>
+	</component>
+	<component id='ID_s2_txt02'>
+	<text><![CDATA[Exposition]]></text>
+	</component>
+	<component id='ID_s2_txt03'>
+	<text><![CDATA[Nettoyage]]></text>
+	</component>
+	<component id='ID_s2_txt04'>
+	<text><![CDATA[Traitement]]></text>
+	</component>
+	<component id='ID_s2_txt05'>
+	<text><![CDATA[Transfert]]></text>
+	</component>
+	<component id='ID_s2_txt06'>
+	<text><![CDATA[Fixation]]></text>
+	</component>
+	<component id='ID_s2_txt07'>
+	<text><![CDATA[Développement]]></text>
+	</component>
+
+	
+</textcomponents>

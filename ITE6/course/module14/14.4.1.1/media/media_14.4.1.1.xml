@@ -1,0 +1,179 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Problèmes avancés et solutions : systèmes d'exploitation</b>]]></text>
+	</component>
+
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : programmes malveillants</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Un message apparaît pendant la séquence d'amorçage pour signaler que l'enregistrement d'amorçage maître (MBR, Master Boot Record) a été modifié.</td>
+			<td bgcolor='#E9E7E8'>Un virus de secteur d'amorçage a modifié l'enregistrement d'amorçage maître (ou MBR, Master Boot Record).</td>
+			<td bgcolor='#E9E7E8'>Démarrer l'ordinateur à l'aide d'un support démarrable et exécuter le logiciel antivirus pour supprimer le virus du secteur de démarrage.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'ordinateur Windows 7 ou Windows Vista démarre et affiche le message d'erreur « Erreur du chargement du système d'exploitation ».</td>
+			<td bgcolor='#F2F2F2'>Un virus a endommagé l'enregistrement d'amorçage maître (ou MBR, Master Boot Record).</td>
+			<td bgcolor='#F2F2F2'>Démarrer l'ordinateur à partir du support d'installation. Sur l'écran d'installation de Windows, sélectionner <b>Réparer l'ordinateur</b>. À l'invite de commandes, taper <font face="_typewriter"><b><i>bootrec.exe /fixmbr</i></b></font>.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur Windows 7 ou Windows Vista démarre avec le message d'erreur « Attention : ce disque dur est peut-être infecté par un virus ! ».</td>
+			<td bgcolor='#E9E7E8'>Un virus a endommagé le secteur d'amorçage.</td>
+			<td bgcolor='#E9E7E8'>Démarrer l'ordinateur à partir du support d'installation. Sur l'écran d'installation de Windows, sélectionner <b>Réparer l'ordinateur</b>. À l'invite de commandes, taper <font face="_typewriter"><b><i>bootrec.exe /fixboot</i></b></font>.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Le démarrage de l'ordinateur sous Windows 7 échoue.</td>
+			<td bgcolor='#F2F2F2'>Un virus a endommagé les fichiers système de Windows.</td>
+			<td bgcolor='#F2F2F2'>Démarrer l'ordinateur à partir du support d'installation de Windows PE. Accéder à l'outil de réparation du démarrage Windows pour récupérer les fichiers système endommagés.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Vos contacts reçoivent du courrier indésirable provenant de votre adresse e-mail.</td>
+			<td bgcolor='#E9E7E8'>Votre compte de messagerie a été piraté par un virus ou un logiciel espion.</td>
+			<td bgcolor='#E9E7E8'>Exécuter le logiciel antivirus, et réparer, supprimer ou mettre en quarantaine les fichiers contaminés. Exécuter le logiciel anti-espion et supprimer les logiciels espions. Une fois l'ordinateur nettoyé, modifier le mot de passe du compte de messagerie.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Problèmes avancés et solutions : systèmes d'exploitation</b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : autorisations utilisateur</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>L'utilisateur peut ouvrir sa session, mais un message « accès refusé » s'affiche lorsqu'il tente d'ouvrir des fichiers ou des dossiers.</td>
+			<td bgcolor='#E9E7E8'>L'utilisateur n'appartient pas au groupe habilité à accéder aux dossiers et fichiers.</td>
+			<td bgcolor='#E9E7E8'>Ajouter l'utilisateur au groupe approprié. Ajouter les autorisations utilisateur appropriées pour l'accès aux dossiers et aux fichiers.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'utilisateur peut localiser un fichier sur le serveur, mais il ne peut pas le télécharger.</td>
+			<td bgcolor='#F2F2F2'>Les autorisations de l'utilisateur sont incorrectes.</td>
+			<td bgcolor='#F2F2F2'>Modifier les autorisations de l'utilisateur afin d'autoriser la lecture et l'exécution.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>L'utilisateur a accès à un sous-dossier qui devrait être inaccessible.</td>
+			<td bgcolor='#E9E7E8'>Le sous-dossier a hérité des autorisations du dossier de niveau supérieur.</td>
+			<td bgcolor='#E9E7E8'>Modifier les paramètres d'autorisation de ce sous-dossier afin qu'il n'hérite pas des autorisations du dossier parent. Définir les autorisations appropriées du sous-dossier.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Les utilisateurs d'un groupe ne peuvent pas voir un dossier auquel ils sont censés accéder.</td>
+			<td bgcolor='#F2F2F2'>Les autorisations pour ce dossier sont définies sur la valeur Refuser.</td>
+			<td bgcolor='#F2F2F2'>Modifier les autorisations pour ce dossier sur la valeur Autoriser.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Les fichiers chiffrés qui sont déplacés par le biais du réseau vers un nouvel ordinateur ne sont plus chiffrés.</td>
+			<td bgcolor='#E9E7E8'>Le nouvel ordinateur ne dispose pas d'une partition NTFS.</td>
+			<td bgcolor='#E9E7E8'>Convertir la partition de cet ordinateur en une partition NTFS et rechiffrer les fichiers.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Problèmes avancés et solutions : systèmes d'exploitation</b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : paramètres de sécurité de l'ordinateur</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur fonctionne lentement au même moment chaque jour.</td>
+			<td bgcolor='#E9E7E8'>Le logiciel antivirus est configuré pour analyser l'ordinateur au même moment chaque jour.</td>
+			<td bgcolor='#E9E7E8'>Configurer le logiciel antivirus pour analyser l'ordinateur lorsque celui-ci n'est pas utilisé.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'utilisateur se plaint que les paramètres du BIOS de l'ordinateur changent constamment.</td>
+			<td bgcolor='#F2F2F2'>Le mot de passe du BIOS n'est pas défini, ce qui permet aux autres utilisateurs de modifier les paramètres du BIOS.</td>
+			<td bgcolor='#F2F2F2'>Définir un mot de passe pour protéger l'accès aux paramètres du BIOS.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Le TPM n'apparaît pas dans le Gestionnaire de périphériques.</td>
+			<td bgcolor='#E9E7E8'>Le TPM est désactivé.</td>
+			<td bgcolor='#E9E7E8'>Activer le TPM dans le BIOS.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Problèmes avancés et solutions : systèmes d'exploitation</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : paramètres de proxy et de pare-feu</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur n'arrive pas à envoyer une requête ping à un autre ordinateur du réseau.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le pare-feu de Windows bloque les requêtes ping.</li><li>Un routeur bloque les requêtes ping.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Configurer le pare-feu Windows afin d'autoriser les requêtes ping.</li><li>Configurer le routeur afin d'autoriser les requêtes ping.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Les exceptions du pare-feu de l'ordinateur portable autorisent les connexions non autorisées par la politique de sécurité de l'entreprise.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Les paramètres du pare-feu Windows sont incorrects.</li><li>Le Pare-feu Windows est désactivé.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Définir le Pare-feu Windows sur la valeur Ne pas autoriser les exceptions lors de l'utilisation d'un réseau public.</li><li>Activer le Pare-feu de Windows.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Le programme de messagerie électronique est correctement configuré, mais il ne parvient pas à se connecter au serveur de messagerie électronique.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le serveur de messagerie est en panne.</li><li>Le Pare-feu Windows bloque le logiciel de messagerie électronique.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Vérifier que le serveur de messagerie est opérationnel.</li><li>Créer une exception dans le Pare-feu Windows pour le logiciel de messagerie électronique.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'ordinateur peut envoyer des requêtes ping au serveur proxy, mais ne peut pas se connecter à Internet.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Les paramètres du serveur proxy sont incorrects.</li><li>Le serveur proxy est indisponible (hors connexion).</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Réintroduire les paramètres du serveur proxy, y compris l'adresse IP et le port du serveur proxy, ainsi que toutes les exceptions qui doivent être définies.</li><li>Redémarrer le serveur proxy.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

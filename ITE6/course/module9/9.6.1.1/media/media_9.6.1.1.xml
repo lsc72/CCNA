@@ -1,0 +1,40 @@
+<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 1: Identifier le problème</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+			<td colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Identifier le problème de l'ordinateur portable</b></font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' width='145'>Questions ouvertes</td>
+  <td bgcolor='#E9E7E8'><ul><li>Quels problèmes rencontrez-vous avec votre ordinateur portable ?</li><li>Quel logiciel a été installé récemment ?</li><li>Que faisiez-vous lorsque le problème a été détecté ?</li><li>Quels messages d'erreur avez-vous reçus ?</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Questions fermées</td>
+  <td bgcolor='#F2F2F2'><ul><li>L'ordinateur portable est-il sous garantie ?</li><li>L'ordinateur portable utilise-t-il actuellement la batterie  ? L'ordinateur portable fonctionne-t-il avec l'adaptateur secteur ? L'ordinateur portable démarre-t-il et affiche-t-il le bureau du système d'exploitation  ?</li></ul></td>		
+	</tr>	
+
+    <tr>
+			<td colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Identifier le problème de l'appareil mobile</b></font></td>
+		</tr>
+    <tr>
+		<td bgcolor='#E9E7E8' width='145'>Questions ouvertes</td>
+  <td bgcolor='#E9E7E8'><ul><li>Quel est le problème que vous rencontrez ?</li><li>Quels sont la marque et le modèle de votre appareil mobile ?</li><li>Quel est votre opérateur télécoms ?</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Questions fermées</td>
+  <td bgcolor='#F2F2F2'><ul><li>Ce problème s'est-il déjà produit auparavant ?</li><li>Une tierce personne a-t-elle utilisé l'appareil mobile ?</li><li>L'appareil mobile est-il toujours sous garantie ? </li></ul></td>		
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

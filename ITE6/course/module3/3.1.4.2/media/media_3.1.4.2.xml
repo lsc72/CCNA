@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Retirer le cache métallique</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Insérer la carte réseau sans fil dans le slot PCI</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Sécuriser la carte réseau sans fil</b>]]></text>
+	</component>
+	
+</textcomponents>

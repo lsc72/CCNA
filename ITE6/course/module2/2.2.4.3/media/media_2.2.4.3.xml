@@ -1,0 +1,146 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>Dans le sens des aiguilles d'une montre</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>Dans le sens inverse des aiguilles d'une montre</b>]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 3--><component id='ID_s3_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 4--><component id='ID_s4_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 5--><component id='ID_s5_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s5_inst'>
+	<text><![CDATA[<p>Pour découvrir les différentes fonctions du multimètre, cliquez sur les boutons, le cadran et les câbles.</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt'>
+	<text><![CDATA[<b>Multimètre Fluke Networks 110</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt'>
+	<text><![CDATA[<p>Le multimètre Fluke Networks 110 est un exemple d'équipement utilisé pour tester la tension. Pour découvrir les différentes fonctions du multimètre, cliquez sur les boutons et sur les positions du commutateur.</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt01'>
+	<text><![CDATA[<b>Affichage</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt01'>
+	<text><![CDATA[Pour consulter les informations affichées.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt02'>
+	<text><![CDATA[<b>En attente</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt02'>
+	<text><![CDATA[L'affichage est maintenu (HOLD). Les données actuelles restent affichées à l'écran. En mode MIN MAX AVG, l'enregistrement MIN MAX AVG est interrompu.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt03'>
+	<text><![CDATA[<b>MIN MAX AVG</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt03'>
+	<text><![CDATA[Le mode MIN MAX AVG est activé. Les valeurs minimales, maximales ou moyennes sont affichées.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt04'>
+	<text><![CDATA[<b>Portée</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt04'>
+	<text><![CDATA[Le multimètre sélectionne le calibre avec la meilleure résolution. En mode manuel, c'est l'utilisateur qui sélectionne lui-même la portée.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt05'>
+	<text><![CDATA[<b>Hz</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt05'>
+	<text><![CDATA[Fréquence de 50 Hz à 5 kHz. Remarques : tension CA et courant couplé CA, valeur efficace réelle (RMS), jusqu'à 500 Hz.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt06'>
+	<text><![CDATA[<b>COM</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt06'>
+	<text><![CDATA[Borne (retour) habituelle pour toutes les mesures. Pour la mesure des tensions, c'est ce qu'on appelle souvent la masse ou la terre.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt07'>
+	<text><![CDATA[<b>Borne d'entrée</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt07'>
+	<text><![CDATA[Borne d'entrée pour les mesures de tension, continuité, résistance, test de diode, capacitance et fréquence de tension.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt08'>
+	<text><![CDATA[<b>Désactiver</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt08'>
+	<text><![CDATA[Mise hors tension.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt09'>
+	<text><![CDATA[<b>CA</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt09'>
+	<text><![CDATA[Courant alternatif, de 300 mV à 600 V.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt10'>
+	<text><![CDATA[<b>CC</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt10'>
+	<text><![CDATA[Courant continu, de 1 mV à 600 V.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt11'>
+	<text><![CDATA[<b>Signal sonore</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt11'>
+	<text><![CDATA[Le signal sonore se déclenche à moins de 20 Ohms et s'éteint à plus de 250 Ohms.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt12'>
+	<text><![CDATA[<b>Ohms</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt12'>
+	<text><![CDATA[Ohms de 0,1 Ohm à 40 Méga Ohms.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt13'>
+	<text><![CDATA[<b>Diodes</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt13'>
+	<text><![CDATA[Teste les diodes. Le résultat OL indique la présence d'une diode ouverte.]]></text>
+</component>
+
+<component id='ID_s5_titleTxt14'>
+	<text><![CDATA[<b>Capacitance</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt14'>
+	<text><![CDATA[Capacitance, de 1 nF à 9 999 µF.]]></text>
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,51 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Navigation InPrivate</b>]]></text> 
+    </component>
+
+	<component id="ID_s1_tbox_header">
+        <text><![CDATA[La navigation InPrivate interdit au navigateur de stocker les informations suivantes :]]></text> 
+    </component>
+	
+	<component id="ID_s1_tbox_body">
+        <text><![CDATA[<textformat blockindent='-16'><li>Noms d'utilisateur</li><li>Mots de passe</li><li>Cookies</li><li>Historique de navigation</li><li>Fichiers Internet temporaires</li><li>Données de formulaires</li></textformat>]]></text> 
+    </component>
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="1" bgcolor='#FFFFFF'><font size="16">La navigation InPrivate interdit au navigateur de stocker les informations suivantes :</font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan="1" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr><td><ul><textformat blockindent='-18'><li>Noms d'utilisateur</li></textformat>
+			<textformat blockindent='-18'><li>Mots de passe</li></textformat>
+            <textformat blockindent='-18'><li>Cookies</li></textformat>
+            <textformat blockindent='-18'><li>Historique de navigation</li></textformat>
+            <textformat blockindent='-18'><li>Fichiers Internet temporaires</li></textformat>
+            <tr><td bgcolor='#F2F2F2'><ul><li>Données de formulaires</li></textformat></ul></td> </tr>
+           
+        </table>]]></text>
+    </component>
+    
+    
+    
+  
+    
+    
+
+      <component id="ID_s2_title">
+        <text><![CDATA[<b>Démarrage de la navigation InPrivate dans Windows</b>]]></text> 
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>Page Web de navigation InPrivate</b>]]></text> 
+    </component>
+
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Démarrage de la navigation InPrivate dans Internet Explorer 11</b>]]></text> 
+    </component>
+</textcomponents>

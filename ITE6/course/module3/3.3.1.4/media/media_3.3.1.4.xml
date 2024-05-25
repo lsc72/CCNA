@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Conditions requises pour le processeur</b>]]></text>
+	</component><!-- Textbox --><component id='ID_bodyTxt'>
+	<text><![CDATA[<textformat blockindent='-16'><ul><li>Le nouveau processeur doit être compatible avec le socket de processeur existant.</li><li>Le nouveau processeur doit être compatible avec le chipset de la carte mère.</li><li>Le nouveau processeur doit fonctionner avec la carte mère et l'alimentation existantes.</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_titleTxt'>
+	<text><![CDATA[<b>Conditions requises</b>]]></text>
+</component><!-- EndTextbox --></textcomponents>

@@ -1,0 +1,30 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 1: Identifier le problème</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="240" valign="top"><font  color='#393536'>Questions ouvertes</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>Quels problèmes rencontrez-vous avec votre imprimante ou votre scanner ?</li><li>Quels composants logiciels ou matériels ont été modifiés récemment sur votre ordinateur ?</li><li>Que faisiez-vous lorsque le problème a été détecté ?</li><li>Quels messages d'erreur avez-vous reçus ?</li></ul></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Questions fermées</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>L'imprimante est-elle sous garantie ?</li><li>Pouvez-vous imprimer une page de test ?</li><li>S'agit-il d'une nouvelle imprimante ?</li><li>L'imprimante est-elle sous tension ?</li></ul></textformat></font></td>
+	</tr>
+	
+
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

@@ -1,0 +1,10 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Désactivation de la lecture automatique</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Analyse des empreintes digitales</b>]]></text>
+</component> 
+
+</textcomponents>

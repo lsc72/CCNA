@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Utilisation des commandes de la CLI</b>]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,85 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>POST</b>]]></text>
+</component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>Codes de bip courants</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+		<text><![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>			
+				<tr>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Code de bip</b></font></td>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>Signification</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='12' color='#ffffff'><b>Cause</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>1 bip (pas de vidéo)</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Erreur de rafraîchissement de la mémoire</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Mémoire défectueuse</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>2 bips</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Erreur de parité de mémoire</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Mémoire défectueuse</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>3 bips</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Erreur de mémoire dans les 64 premiers Ko</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Mémoire défectueuse</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>4 bips</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Timer non opérationnel</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Carte mère défectueuse</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>5 bips</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Erreur du processeur</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processeur défectueux</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>6 bips</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Erreur 8042 Gate A20</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Processeur défectueux ou carte mère défectueuse</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>7 bips</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Exception de processeur</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processeur défectueux</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8 bips</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Erreur de mémoire vidéo</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Carte vidéo ou mémoire défectueuse</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>9 bips</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Erreur de somme de contrôle ROM</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>BIOS défectueux</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10 bips</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Erreur de somme de contrôle CMOS</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Carte mère défectueuse</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>11 bips</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Mémoire cache défectueuse</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Processeur défectueux ou carte mère défectueuse</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+
+</textcomponents>

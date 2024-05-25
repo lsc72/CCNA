@@ -1,0 +1,53 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Recommandations relatives aux mots de passe forts</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Configuration des exigences relatives aux mots de passe</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Configuration de la Stratégie de verrouillage de compte</b>]]></text>
+	</component>
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Caractéristique du mot de passe</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Directive</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Longueur minimale</td>
+                <td bgcolor='#E9E7E8'>Utiliser au moins 8 caractères.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Complexité</td>
+                <td bgcolor='#F2F2F2'>Utiliser une combinaison de lettres, de chiffres, de caractères spéciaux et de signes de ponctuation. Il est important d'utiliser des caractères variés et pas uniquement des lettres ou des chiffres.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>Variété</td>
+                <td bgcolor='#F2F2F2'>Utilisez un mot de passe différent pour chaque site et chaque ordinateur.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>Date</td>
+				<td bgcolor='#E9E7E8'>Les mots de passe doivent être configurés de manière à expirer dans un délai raisonnable. Plus ce délai est court, plus l'ordinateur est sécurisé. Paramétrez également des rappels de modification du mot de passe de la messagerie, du compte bancaire et des sites sur lesquels vous utilisez votre carte bancaire en moyenne tous les trois ou quatre mois.</td>
+            </tr>
+ 
+
+        </table>]]></text>
+    </component>
+</textcomponents>

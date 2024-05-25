@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.3 Configurations de la sécurité du BIOS</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configurations de la sécurité du BIOS</h1>
+        <div>
+          <p>Le BIOS prend souvent en charge de nombreuses fonctions de sécurité qui protègent les paramètres du BIOS, les données sur le disque dur et les options de récupération, permettant ainsi de sécuriser l'ensemble des informations stockées si l'ordinateur venait à être volé. </p>
+          <p></p>
+          <p>Il existe certaines fonctions de sécurité courantes dans le BIOS :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Mots de passe du BIOS :</b> les mots de passe offrent différents niveaux d'accès aux paramètres du BIOS, voir illustration 1. Notez que vous pouvez modifier deux paramètres de mot de passe : Supervisor Password (Mot de passe superviseur), qui permet d'accéder à tous les mots de passe d'accès utilisateur et à tous les écrans et paramètres du BIOS. User Password (Mot de passe utilisateur), qui permet d'accéder au BIOS sur la base d'un niveau défini. Le tableau de l'illustration 2 présente les niveaux courants d'accès utilisateur au BIOS Le mot de passe utilisateur ne peut être configuré que si le mot de passe superviseur a été défini au préalable.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Chiffrement du disque dur :</b> il est possible de chiffrer un disque dur pour empêcher le vol de données. Le chiffrement remplace par du code les données enregistrées sur le disque dur. Sans le mot de passe correct, l'ordinateur ne peut pas démarrer et les données du disque dur ne peuvent pas être lues. Même si le disque dur est placé sur un autre ordinateur, les données restent chiffrées. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>LoJack :</b> il s'agit d'une fonction de sécurité consistant en deux programmes, le Persistence Module, qui est intégré dans le BIOS, et l'Application Agent, installé par l'utilisateur. Lorsqu'il est installé, le Persistence Module dans le BIOS est activé et ne peut pas être désactivé. L'Application Agent contacte régulièrement un centre de surveillance via Internet pour spécifier l'emplacement et les informations du périphérique. Le propriétaire peut effectuer les fonctions décrites à l'illustration 3.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Module de plate-forme sécurisée (TPM) :</b> il s'agit d'une puce conçue pour la sécurisation matérielle qui stocke les clés de chiffrement, les certificats numériques, les mots de passe et les données. Le module TPM est utilisé par Windows pour prendre en charge le chiffrement intégral de disque BitLocker.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Démarrage sécurisé :</b> le démarrage sécurisé est une norme de sécurité UEFI qui garantit qu'un ordinateur démarre uniquement un système d'exploitation approuvé par le fabricant de la carte mère. Le démarrage sécurisé empêche un système d'exploitation « non autorisé » de se charger au démarrage.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

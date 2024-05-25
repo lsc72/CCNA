@@ -1,0 +1,84 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s1_trans01'>
+		<text><![CDATA[Il est facile de devenir un professionnel IT certifié CompTIA]]></text>
+	</component>
+
+	<component id='ID_s1_trans02'>
+	<text><![CDATA[C'est également le meilleur moyen d'élargir des opportunités de développement et d'obtenir des récompenses professionnelles.]]></text>
+	</component>
+
+	<component id='ID_s1_trans03'>
+		<text><![CDATA[Pourquoi obtenir une certification CompTIA ?]]></text>
+	</component>
+
+	<component id='ID_s1_trans04'>
+		<text><![CDATA[Demande croissante]]></text>
+	</component>
+
+	<component id='ID_s1_trans05'>
+		<text><![CDATA[Les estimations de travail prévoient que, d'ici 2020, certains pôles de technologie vont se développer pour augmenter de plus de 20 %.* La certification CompTIA permet de garantir les compétences requises pour rejoindre les effectifs.]]></text>
+	</component>
+
+	<component id='ID_s1_trans06'>
+		<text><![CDATA[Augmentation des salaires]]></text>
+	</component>
+
+	<component id='ID_s1_trans07'>
+		<text><![CDATA[Les professionnels de l'informatique qui disposent de certifications trouvent des emplois plus attractifs, perçoivent des salaires plus élevés et disposent de nouvelles opportunités interprofessionnelles. ]]></text>
+	</component>
+
+	<component id='ID_s1_trans08'>
+		<text><![CDATA[Renforcements vérifiés]]></text>
+	</component>
+
+	<component id='ID_s1_trans09'>
+		<text><![CDATA[91 % des responsables du recrutement déclarent que les certifications CompTIA permettent effectivement de valider l'expertise informatique, estimant la certification comme le meilleur moyen de démontrer vos compétences et vos connaissances aux employeurs. **]]></text>
+	</component>
+
+	<component id='ID_s1_trans10'>
+		<text><![CDATA[Compétences transversales]]></text>
+	</component>
+
+	<component id='ID_s1_trans11'>
+		<text><![CDATA[Les certifications CompTIA ne sont liées à aucun fournisseur, ce qui signifie non seulement que les professionnels certifiés font preuve d'une grande expertise, mais aussi qu'ils maîtrisent la grande majorité des composants matériels et logiciels utilisés dans la plupart des entreprises.]]></text>
+	</component>
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s2_trans01'>
+		<text><![CDATA[Apprentissage]]></text>
+	</component>
+
+	<component id='ID_s2_trans02'>
+		<text><![CDATA[Découvrez les éléments sur lesquels porte l'examen, en examinant les éléments suivants :<ul><li>Objectifs de l'examen pour les points clés de l'étude.<li>Exemples de questions relatives à la présentation générale de l'examen, ainsi qu'au format de ces questions.</li><li>Visitez les forums en ligne, tels que LinkedIn, pour découvrir ce que les autres professionnels IT pensent des examens CompTIA.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans03'>
+		<text><![CDATA[Certification]]></text>
+	</component>
+
+	<component id='ID_s2_trans04'>
+		<text><![CDATA[Procurez-vous un bon de réduction dans un centre de test Pearson VUE, ou sur CompTIAstore.com. <ul><li>Inscrivez-vous à l'examen dans un centre de test Pearson VUE.</li><li>Visitez Pearsonvue.com ou le site de CompTIA pour trouver le centre de test le plus proche de chez vous.</li><li>Planifiez votre examen en ligne. Lors de l'inscription, il vous sera demandé de renseigner le numéro de votre bon de réduction ou de fournir vos informations de paiement.</li><li>Passez votre examen de certification.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans05'>
+		<text><![CDATA[Passage à l'action]]></text>
+	</component>
+
+	<component id='ID_s2_trans06'>
+		<text><![CDATA[Félicitations pour votre certification CompTIA ! <ul><li>N'oubliez pas de mentionner votre certification dans votre CV.</li><li>Vérifiez le calendrier des certifications CompTIA pour planifier votre prochain changement de carrière.</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans07'>
+		<text><![CDATA[Pour en savoir plus : Certification.CompTIA.org/aplus]]></text>
+	</component>
+
+</textcomponents>

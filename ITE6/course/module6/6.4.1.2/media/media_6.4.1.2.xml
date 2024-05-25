@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 2 : Établir une théorie sur les causes probables</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Causes courantes des problèmes de système d'exploitation</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Paramètres incorrects dans le BIOS</li>
+			<li>La touche de verrouillage des majuscules est activée</li>
+			<li>Support non démarrable lors du démarrage de l'ordinateur</li>
+			<li>Le mot de passe a été modifié</li>
+			<li>Paramètres de l'écran incorrects dans le Panneau de configuration</li>
+			<li>Échec de la mise à jour du système d'exploitation</li>
+			<li>Échec de la mise à jour du pilote</li>
+			<li>Contamination par un programme malveillant</li>
+			<li>Défaillance du disque dur</li>
+			<li>Fichiers du système d'exploitation endommagés</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

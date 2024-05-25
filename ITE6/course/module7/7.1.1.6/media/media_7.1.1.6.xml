@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[La bande passante est comparable au nombre de voies.]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Les périphériques réseau sont comparables aux voies d'insertion, aux feux de circulation, aux panneaux et aux cartes.]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Les données en mouvement sont comparables aux véhicules.]]></text>
+	</component>
+
+</textcomponents>

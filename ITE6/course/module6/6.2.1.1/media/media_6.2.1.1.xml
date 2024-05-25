@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Diagramme de l'ordinateur virtuel logique</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Applications sur OS invité]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[Applications sur OS invité]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[Applications sur OS invité]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[OS invité]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[OS invité]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[OS invité]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[Logiciel de virtualisation<br/>(Hyper-V, Virtual PC, VirtualBox, etc.)]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[OS hôte]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[<b>Machine physique</b>]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<b>Machine virtuelle</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[<b>Machine virtuelle</b>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[<b>Machine virtuelle</b>]]></text>
+	</component>
+	
+</textcomponents>

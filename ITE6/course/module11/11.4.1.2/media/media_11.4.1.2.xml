@@ -1,0 +1,21 @@
+<textcomponents>
+    <component id='ID_title'>
+        <text><![CDATA[<b>Estimation du niveau d'encre des cartouches</b>]]></text>
+    </component>
+
+    <component id='ID_txt01'>
+        <text><![CDATA[<b>Niveaux d'encre estimés</b>]]></text>
+    </component>
+
+    <component id='ID_txt02'>
+        <text><![CDATA[<b>Services du périphérique</b>]]></text>
+    </component>
+
+    <component id='ID_txt03'>
+        <text><![CDATA[<b>Informations sur le périphérique</b>]]></text>
+    </component>
+
+    <component id='ID_txt04'>
+        <text><![CDATA[Niveaux d'encre estimés. Le volume d'encre réel peut varier.]]></text>
+    </component>
+</textcomponents>

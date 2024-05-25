@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.5 Configuration réseau de base</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration réseau de base</h1>
+        <div>
+          <p>Lorsque vous êtes identifié, un écran de configuration s'ouvre, comme indiqué à l'illustration 1. L'écran de configuration est composé de plusieurs onglets ou menus permettant d'accéder à diverses tâches de configuration du routeur. Il est souvent nécessaire de sauvegarder les paramètres modifiés dans une fenêtre avant de passer à une autre. </p>
+          <p></p>
+          <p>À ce stade, il est conseillé de modifier les paramètres par défaut.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Autorisations d'accès aux périphériques réseau</b> - Modifiez le nom d'utilisateur et mot de passe par défaut. Sur certains périphériques, il est seulement possible de réinitialiser le mot de passe, comme indiqué à l'illustration 2. Une fois le mot de passe modifié, le routeur sans fil demande à nouveau l'autorisation, comme indiqué à l'illustration 3. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse IP du routeur</b> - Modifiez l'adresse IP par défaut du routeur. Il est conseillé d'utiliser un adressage IP privé à l'intérieur du réseau. L'adresse IP 10.10.10.1 est utilisée à titre d'exemple sur l'illustration 4. Vous pouvez choisir la vôtre. Lors de l'enregistrement, vous perdez temporairement l'accès au routeur sans fil. Pour que l'accès soit rétabli, renouvelez les paramètres IP, comme indiqué à l'illustration 5. Entrez ensuite la nouvelle adresse IP du routeur dans le navigateur Web et procédez à l'authentification avec le nouveau mot de passe (voir l'illustration 6).  </li>
+            </ul>
+          </p>
+          <p>Bien que certains paramètres par défaut doivent être modifiés, d'autres doivent être conservés. La plupart des réseaux de bureaux à domicile ou de petites entreprises utilisent une seule connexion Internet, fournie par un FAI. Les routeurs utilisés sur ce type de réseaux reçoivent des adresses publiques provenant du FAI. Ils peuvent ainsi envoyer et recevoir des paquets Internet. Les routeurs fournissent des adresses privées aux hôtes du réseau local. Ces adresses privées ne pouvant pas être utilisées sur Internet, un processus de conversion des adresses privées en adresses publiques uniques est appliqué. Il permet aux hôtes locaux de communiquer sur Internet.</p>
+          <p></p>
+          <p>Le processus utilisé pour convertir les adresses privées en adresses routables sur Internet est appelé la traduction d'adresses réseau (NAT). La NAT permet de convertir une adresse IP source (locale) privée en adresse publique (globale). Le processus est inversé pour les paquets entrants. Grâce à la fonction NAT, un routeur est capable de traduire plusieurs adresses IP internes en adresses publiques. </p>
+          <p></p>
+          <p>Seuls les paquets destinés à d'autres réseaux ont besoin d'être convertis. Ils doivent passer par la passerelle, où un routeur remplace les adresses IP privées des hôtes sources par des adresses IP publiques. </p>
+          <p></p>
+          <p>Bien que chaque hôte d'un réseau interne ait une adresse IP privée unique, les hôtes partagent les adresses Internet routables attribuées par le FAI au routeur.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

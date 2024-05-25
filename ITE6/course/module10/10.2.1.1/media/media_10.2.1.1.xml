@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Types de verrouillage par code secret sur Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Types de verrouillage Smart Lock sur Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Verrouillage par code secret sur iPhone</b>]]></text>
+	</component>
+
+</textcomponents>

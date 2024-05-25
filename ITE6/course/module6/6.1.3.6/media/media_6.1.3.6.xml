@@ -1,0 +1,9 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Services de composants</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Source de données (ODBC)</b>]]></text>
+	</component>
+</textcomponents>

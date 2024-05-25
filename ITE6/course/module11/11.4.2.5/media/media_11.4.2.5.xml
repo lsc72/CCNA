@@ -1,0 +1,25 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 5 : vérifier l'intégralité des fonctionnalités du système et, le cas échéant, implémenter des mesures préventives</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="240" valign="top"><font  color='#393536'>Vérifier le fonctionnement du système complet</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>Redémarrez l'ordinateur.</li><li>Redémarrer l'imprimante.</li><li>Imprimer une page de test à partir du panneau de commande de l'imprimante.</li><li>Imprimer un document à partir d'une application.</li><li>Réimprimer le document problématique du client.</li></ul></textformat></font></td>
+	</tr>
+	
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

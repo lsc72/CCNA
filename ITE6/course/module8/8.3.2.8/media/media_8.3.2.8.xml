@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+	   <text><![CDATA[<b>Le concept AAA est similaire à l'utilisation d'une carte de crédit</b>]]></text> 
+	</component>
+
+	<component id="ID_txt01">
+	   <text><![CDATA[<b>Authentification</b><br/>Qui êtes-vous ?]]></text> 
+	</component>
+
+	<component id="ID_txt02">
+	   <text><![CDATA[<b>Autorisation</b><br/>Combien pouvez-vous dépenser ?]]></text> 
+	</component>
+
+	<component id="ID_txt03">
+	   <text><![CDATA[<b>Gestion des comptes</b><br/>Qu'avez-vous acheté ?]]></text> 
+	</component>
+
+</textcomponents>

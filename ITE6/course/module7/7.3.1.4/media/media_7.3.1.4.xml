@@ -1,0 +1,41 @@
+<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Pare-feu matériel</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+	<text><![CDATA[Routeur intégré]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>Réseau interne</b>]]></text>
+</component>
+<component id="ID_s1_txt03">
+	<text><![CDATA[<b>Réseau externe</b>]]></text>
+</component>
+<component id="ID_s1_txt04">
+	<text><![CDATA[<b>H1</b>]]></text>
+</component>
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>H2</b>]]></text>
+</component>
+<component id="ID_s1_txt06">
+	<text><![CDATA[<b>H3</b>]]></text>
+</component>
+<component id="ID_s1_txt07">
+	<text><![CDATA[Serveur web]]></text>
+</component>
+<component id="ID_s1_txt08">
+	<text><![CDATA[<b>Commutateur Ethernet</b><br>(connecte tous les hôtes reliés par câble)]]></text>
+</component>
+<component id="ID_s1_txt09">
+	<text><![CDATA[<b>Pare-feu interne</b><br>(protège les hôtes H1 et H2)]]></text>
+</component>
+<component id="ID_s1_txt10">
+	<text><![CDATA[<b>Routeur interne</b><br>(achemine les paquets pour tous les hôtes)]]></text>
+</component>
+<component id="ID_s1_txt11">
+	<text><![CDATA[Internet]]></text>
+</component>
+<component id="ID_s1_txt12">
+	<text><![CDATA[<b>Composants internes</b>]]></text>
+</component>
+</textcomponents>

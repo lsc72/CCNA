@@ -1,0 +1,114 @@
+<textcomponents>
+	<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions : imprimantes</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identification du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Le document d'une application ne s'imprime pas.</td>
+		<td bgcolor='#E9E7E8'>Il y a une erreur de document dans la file d'attente d'impression.</td>
+		<td bgcolor='#E9E7E8'>Gérer les travaux d'impression en supprimant le document de la file d'attente et recommencer l'impression.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Impossible d'ajouter une imprimante, ou erreur du spooler d'impression.</td>
+		<td bgcolor='#F2F2F2'>Le service d'impression est arrêté ou ne fonctionne pas correctement.</td>		
+		<td bgcolor='#F2F2F2'>Démarrez le spooler d'impression et redémarrez l'ordinateur si nécessaire.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Les travaux d'impression sont envoyés dans la file d'attente d'impression, mais ils ne sont pas imprimés.</td>
+		<td bgcolor='#E9E7E8'>L'imprimante a été installée sur le mauvais port.</td>
+		<td bgcolor='#E9E7E8'>Utiliser les propriétés et les paramètres d'impression pour configurer le port de l'imprimante.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>La file d'attente d'impression fonctionne correctement, mais l'imprimante n'imprime pas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Un câble n'est pas connecté au bon endroit.</li><li>L'imprimante est en veille.</li><li>L'imprimante rencontre une erreur : plus de papier, plus de toner ou bourrage papier.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Vérifier qu'aucune broche du câble de l'imprimante n'est pliée et contrôler les raccordements de ce câble avec l'imprimante et l'ordinateur.</li><li>Rallumer manuellement l'imprimante, ou la mettre hors tension puis à nouveau sous tension.</li><li>Vérifier l'état de l'imprimante et corriger les éventuelles erreurs.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'imprimante imprime des caractères inconnus ou n'imprime pas de page de test.</td>
+		<td bgcolor='#E9E7E8'>Un pilote d'imprimante erroné ou obsolète a été installé.</td>
+		<td bgcolor='#E9E7E8'>Désinstaller le pilote d'imprimante incorrect et installer le pilote approprié.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'imprimante imprime des caractères inconnus ou n'imprime rien.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>L'imprimante est peut-être connectée à un système d'alimentation sans coupure (UPS).</li><li>Un pilote d'imprimante incorrect est installé.</li><li>Les câbles de l'imprimante sont mal branchés.</li><li>Il n'y a pas de papier dans l'imprimante.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Raccorder directement l'imprimante à une prise murale ou à un parasurtenseur.</li><li>Désinstaller le pilote d'impression incorrect et installer le bon pilote.</li><li>Rebrancher correctement les câbles de l'imprimante</li><li>Mettre du papier dans l'imprimante.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Des bourrages papier se produisent lors de l'impression.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>L'imprimante est sale.</li><li>Le type de papier utilisé est incorrect.</li><li>L'humidité provoque l'adhérence des feuilles entre elles.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Nettoyer l'imprimante.</li><li>Remplacez le papier par le type de papier recommandé par le fabricant.</li><li>Mettre du papier neuf dans le bac d'alimentation</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>La qualité d'impression est médiocre : les couleurs sont ternes.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le niveau de toner est bas.</li><li>La cartouche de toner est défectueuse.</li><li>Le papier utilisé n'est pas compatible avec l'imprimante.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Remplacer la cartouche de toner.</li><li>Changer de papier.</li></ul></textformat></td>
+	</tr>
+ 
+    <tr>
+		<td bgcolor='#E9E7E8'>Le toner ne se fixe pas sur le papier.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>La cartouche de toner est vide.</li><li>La cartouche de toner est défectueuse.</li><li>Le papier utilisé n'est pas compatible avec l'imprimante.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Remplacer la cartouche de toner.</li><li>Changer de papier.</li></ul></textformat></td>
+	</tr>
+
+    <tr>
+		<td bgcolor='#F2F2F2'>Le papier sort froissé de l'imprimante.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le papier utilisé n'est pas conforme.</li><li>Le papier n'est pas chargé correctement.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Retirer le papier de l'imprimante, vérifier que tout est en ordre et replacer le papier.</li><li>Retirer le papier, le tasser de manière à ce qu'il soit bien aligné et le replacer dans le bac.</li></ul></textformat></td>
+	</tr>
+ 
+    <tr>
+		<td bgcolor='#E9E7E8'>L'alimentation en papier ne fonctionne pas.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Le papier est froissé.</li><li>L'imprimante est paramétrée pour un autre format de papier.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Retirer les pages froissées du bac.</li><li>Changer les paramètres de format du papier.</li></ul></textformat></td>
+	</tr>
+
+    <tr>
+		<td bgcolor='#F2F2F2'>Le message « Ce document n'a pas pu être imprimé » s'affiche.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Un câble est mal connecté ou déconnecté.</li><li>L'imprimante utilisée n'est plus partagée.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Vérifier le câble d'alimentation et le câble de données (USB ou parallèle).</li><li>Configurer le partage d'imprimantes.</li></ul></textformat></td>
+	</tr>
+ 
+    <tr>
+		<td bgcolor='#E9E7E8'>Le message « Accès refusé » s'affiche lorsque l'utilisateur essaie d'installer une imprimante.</td>
+		<td bgcolor='#E9E7E8'>L'utilisateur ne dispose pas des droits d'administrateur ou d'utilisateur avec pouvoir.</td>
+		<td bgcolor='#E9E7E8'>L'utilisateur doit fermer sa session puis se connecter en tant qu'administrateur ou qu'utilisateur avec pouvoir.</td>
+	</tr>
+
+    <tr>
+		<td bgcolor='#F2F2F2'>Les couleurs imprimées sont incorrectes.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>La cartouche est vide.</li><li>La cartouche est défectueuse.</li><li>Une cartouche incompatible est installée.</li><li>Les têtes d'impression doivent être nettoyées et étalonnées.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Remplacer la cartouche.</li><li>Nettoyer et étalonner l'imprimante à l'aide du logiciel fourni.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'imprimante imprime des pages vierges</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>L'imprimante n'a plus d'encre ou de toner</li><li>La tête d'impression est bouchée</li><li>Le fil corona est en panne</li><li>L'alimentation électrique haute tension est en panne</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Remplacer l'encre ou la cartouche de toner</li><li>Remplacer la cartouche d'encre</li><li>Remplacer le fil corona</li><li>Remplacer l'alimentation haute tension</li></ul></textformat></td>
+	</tr>
+
+    <tr>
+		<td bgcolor='#F2F2F2'>L'affichage de l'imprimante ne comporte aucune image</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>L'imprimante n'est pas allumée</li><li>Le contraste de l'écran est trop faible</li><li>L'écran est endommagé</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Allumer l'imprimante</li><li>Augmenter le contraste de l'écran</li><li>Remplacer l'écran</li></ul></textformat></td>
+	</tr>
+	
+	
+</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,42 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b>États ACPI</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='100'><font color='#F2F2F2'><b>Etat</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S0</td>
+        <td bgcolor='#E9E7E8'>L'ordinateur est sous tension et le processeur fonctionne.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>S1</td>
+        <td bgcolor='#F2F2F2'>Le processeur et la mémoire vive sont toujours alimentés, mais les périphériques inutilisés sont mis hors tension.</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S2</td>
+		<td bgcolor='#E9E7E8'>le processeur est hors tension, mais la mémoire vive est actualisée. Le système se trouve dans un mode inférieur à S1.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>S3</td>
+		<td bgcolor='#F2F2F2'>le processeur est hors tension et la mémoire vive est définie sur une fréquence d'actualisation faible. Ce mode est souvent appelé « Save to RAM » (enregistrer sur la mémoire vive). Cet état est connu sous le nom de mode Veille.</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S4</td>
+		<td bgcolor='#E9E7E8'>Le processeur et la mémoire vive sont hors tension. Le contenu de la mémoire vive a été enregistré dans un fichier temporaire sur le disque dur. C'est en quelque sorte une « sauvegarde sur disque ». Ce mode est connu sous le nom de mode veille prolongée.</td>
+	</tr>	
+    <tr>
+		<td bgcolor='#F2F2F2'>S5</td>
+		<td bgcolor='#F2F2F2'>L'ordinateur est hors tension.</td>		
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

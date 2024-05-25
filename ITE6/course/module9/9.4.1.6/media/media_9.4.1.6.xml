@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Identification des types de connexion</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Choisissez le type de connexion qui convient à chaque description.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Infrarouge]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Bluetooth]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Attache]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Micro/Mini-USB ]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Lightning]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[NFC]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque type de connexion à sa description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque type de connexion à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Type de connexion</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Les appareils mobiles communiquent entre eux lorsqu'ils se touchent.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Cette technologie utilise votre téléphone portable comme un modem pour un autre appareil, par exemple une tablette ou un ordinateur portable. La connexion est effectuée sur un câble USB ou via Bluetooth.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Les appareils se chargent et transfèrent les données via cette connexion câblée.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Cette connexion sans fil permet un échange de données sur une distance maximale de 10 mètres.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Cette connexion câblée permet aux appareils Apple de se connecter aux ordinateurs et autres périphériques.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Cette connexion permet aux appareils mobiles de gérer à distance des appareils comme un téléviseur ou un équipement audio.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

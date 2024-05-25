@@ -1,0 +1,165 @@
+﻿<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Partie 1 : Mettre un client en attente</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Faites glisser les vignettes<b> À faire </b>et<b> À éviter </b>à gauche des propositions correspondantes.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[À faire]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[À éviter]]></text>
+	</component>
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>Contrôler</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>Réinitialiser</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correct</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Cette réponse est correcte. Cliquez sur le bouton 2 pour continuer.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrect</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Cette réponse est incorrecte. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Identificateur</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Sortie</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[Expliquer pourquoi vous devez mettre le client en attente.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Mettre le client en attente sans lui expliquer pourquoi.]]></text> <!--Do Not--></component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Demander au client s'il est d'accord pour patienter.]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Parler en même temps que le client.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Commencer à répondre avant que le client ait fini de poser la question.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Donner au client une estimation du temps d'attente.]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Expliquer que vous devez mettre le client en attente.]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Mettre le client en attente sans lui demander son avis.]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Laisser le client finir de parler.]]></text><!--Do--></component><!-- Slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Partie 2 : Transférer un appel</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[Faites glisser les vignettes<b> À faire </b>et<b> À éviter </b>à gauche des propositions correspondantes.]]></text>
+	</component><!--Drag and Drop--><component id='ID_s2_drag01'>
+		<text><![CDATA[À faire]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[À éviter]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[<b>Contrôler</b>]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[<b>Réinitialiser</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correct</b>]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[Cette réponse est correcte.]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrect</b>]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[Cette réponse est incorrecte.]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>Identificateur</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>Sortie</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[Obtenir l'autorisation du client avant de transférer l'appel.]]></text> <!--Do--></component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[Expliquer que vous devez transférer l'appel et pourquoi.]]></text> <!--Do Not--></component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[Commencer à répondre avant que le client ait fini de poser la question.]]></text> <!--Do--></component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Donner au technicien vers qui vous transférez l'appel le nom du client et le numéro de dossier.]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Transférer l'appel sans demander l'avis du client.]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[Transférer l'appel sans expliquer pourquoi au client.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[Parler en même temps que le client.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[Donner au client le numéro de téléphone ou de poste de la personne vers qui vous transférez l'appel.]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[Donner au client le nom de la personne vers qui vous transférez l'appel.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[Transférer l'appel sans demander son avis au technicien qui va recevoir l'appel.]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[Laisser le client finir de parler.]]></text><!--Do--></component>
+	
+	
+</textcomponents>

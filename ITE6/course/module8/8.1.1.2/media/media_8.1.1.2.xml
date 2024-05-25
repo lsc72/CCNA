@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Types de carte réseau</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Choix de la carte réseau</b>]]></text>
+	</component>
+	
+	    
+    <component id="ID_s2_titleTxt">
+        <text><![CDATA[<b>Questions relatives au choix d'une nouvelle carte réseau</b>]]></text>
+    </component>
+
+    <component id="ID_s2_bodyTxt">
+        <text><![CDATA[Type de carte réseau :<br/><ul><li>Filaire (Fast ou Gigabit Ethernet) ?</li><li>Sans fil 802.11n / 802.11ac ?</li></ul>Type de connexion :<br/><ul><li>Slot d'extension (PCI / PCIe) ?</li><li>USB ?</li></ul>Fonctions de carte réseau avancées :<br/><ul><li>Wake on LAN (WOL) ?</li><li>Qualité de service (QoS) ?</li></ul>Coût ?]]></text>
+    </component>
+</textcomponents>

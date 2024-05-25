@@ -1,0 +1,39 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>Format d'adresse IPv4</b>]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[32 bits en notation en décimale à point]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[<b>Format d'adresse IPv6</b>]]></text> 
+</component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[128 bits en format hexadécimal]]></text> 
+</component>
+<component id="ID_s1_txt05">
+  <text><![CDATA[128 bits en format compressé]]></text> 
+</component>
+
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Adresses de l'ordinateur portable avant le déplacement <br/>MAC</b> : 00-50-56-BE-D7-87<br/><b>IPv4 :</b> 192.168.200.8<br/><b>IPv6 :</b> 2001:db8:cafe:200::8]]></text>
+</component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[<b>Adresses de l'ordinateur portable après le déplacement <br/>MAC :</b> 00-50-56-BE-D7-87<br/><b>IPv4 :</b> 192.168.300.8<br/><b>IPv6 :</b> 2001:db8:cafe:300::8]]></text> 
+</component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[<b>LAN 1</b>]]></text> 
+</component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[<b>LAN 2</b>]]></text> 
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Informations d'adressage de l'ordinateur portable</b>]]></text>
+</component>
+<component id="ID_s3_txt01">
+  <text><![CDATA[&lt;résultat omis&gt;]]></text> 
+</component>
+</textcomponents>

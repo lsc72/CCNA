@@ -1,0 +1,52 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[1. Traitement]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[2. Charge]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[3. Exposition]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[4. Développement]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[5. Transfert]]></text>
+	</component>
+	
+	<component id="ID_s1_txt06">
+		<text><![CDATA[6. Fixation]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[7. Nettoyage]]></text>
+	</component>
+	
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<font><b>Mémoire RAM de l'imprimante</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt09">
+		<text><![CDATA[<font><b>Laser</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt10">
+		<text><![CDATA[<font><b>Papier</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt11">
+		<text><![CDATA[<font><b>Dispositif d'élimination de l'électricité statique</b></font>]]></text>
+	</component>
+	
+
+</textcomponents>

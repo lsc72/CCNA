@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.6 Formats d&#x0027;adresses IPv6</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Formats d&#x0027;adresses IPv6</h1>
+        <div>
+          <p>Les adresses IPv6 ont une longueur de 128 bits et sont notées sous forme de chaînes de valeurs hexadécimales. Tous les groupes de 4 bits sont représentés par un caractère hexadécimal unique, pour un total de 32 valeurs hexadécimales. Les exemples de l'illustration 1 sont des adresses IPv6 entièrement développées. Deux règles permettent de réduire le nombre de chiffres requis pour représenter une adresse IPv6.</p>
+          <p>
+            <b>Règle n° 1 - Omettre les zéros en début de segment</b>
+          </p>
+          <p>La première règle pour réduire la notation des adresses IPv6 consiste à omettre les zéros (0) du début d'une section de 16 bits. Par exemple :</p>
+          <p>
+            <ul>
+              <li>01AB est équivalent à 1AB</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>09F0 est équivalent à 9F0</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>0A00 est équivalent à A00</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>00AB est équivalent à AB</li>
+            </ul>
+          </p>
+          <p>
+            <b>Règle n° 2 - Omettre les séquences composées uniquement de zéros</b>
+          </p>
+          <p>La deuxième règle permettant d'abréger la notation des adresses IPv6 est qu'une suite de deux fois deux-points (::) peut remplacer tout groupe consécutif de zéros. Une suite de deux fois deux points (::) peut être utilisée une seule fois par adresse : sinon, il serait possible d'aboutir sur plusieurs adresses différentes.</p>
+          <p>Les illustrations 2 et 4 indiquent comment utiliser les deux règles de compression des adresses IPv6 de l'illustration 1. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

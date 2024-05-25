@@ -1,0 +1,24 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>Le serveur proxy met en cache des pages Web</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[Serveur HTTP]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Réseau]]></text>
+</component>
+<component id="ID_txt03">
+<text><![CDATA[Client]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Page Web]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[Serveur proxy]]></text> 
+</component>
+</textcomponents>

@@ -1,0 +1,51 @@
+﻿<textcomponents><!--Buttons--><component id='ID_s1_btn01'>
+	<text><![CDATA[client bavard]]></text>
+</component>
+
+<component id='ID_s1_btn02'>
+	<text><![CDATA[client impoli]]></text>
+</component>
+
+<component id='ID_s1_btn03'>
+	<text><![CDATA[client mécontent]]></text>
+</component>
+
+<component id='ID_s1_btn04'>
+	<text><![CDATA[Client expérimenté]]></text>
+</component>
+
+<component id='ID_s1_btn05'>
+	<text><![CDATA[client inexpérimenté]]></text>
+</component><!--Textbox 1--><component id='ID_s1_title_txt01'>
+	<text><![CDATA[<b>client bavard</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>À faire : </b><br /><textformat blockindent='-18'><ul><li>laissez le client parler pendant une minute.</li><li>Obtenez autant d'informations que possible sur le problème.</li><li>intervenez poliment pour recentrer le client. Il s'agit là de l'exception à la règle de ne jamais interrompre un client.</li><li>Posez autant de questions fermées que nécessaire, une fois que vous contrôlez à nouveau l'appel.</li></ul></textformat><br /><b>À éviter :</b><br />Encourager une conversation sans rapport avec le problème, en posant des questions telles que « Comment allez-vous aujourd'hui ? ».]]></text>
+</component><!--Textbox 2--><component id='ID_s1_title_txt02'>
+	<text><![CDATA[<b>client impoli</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>À faire :</b><br /><textformat blockindent='-18'><ul><li>écoutez très attentivement, car vous devez éviter de demander au client de répéter des informations.</li><li>utilisez une approche étape par étape pour déterminer et résoudre le problème.</li><li>si le client a un technicien préféré, essayez de contacter celui-ci pour savoir s'il peut prendre l'appel. Par exemple, dire au client : « Je peux vous aider tout de suite ou voir si (le technicien souhaité) est disponible. Il sera disponible dans deux heures. Est-ce que cela vous convient ? » Si le client souhaite attendre l'autre technicien, notez ce fait dans le rapport.</li><li>Présentez vos excuses pour le temps d'attente et le dérangement subi, même en l'absence de temps d'attente.</li><li>répétez que vous voulez résoudre son problème aussi rapidement que possible.</li></ul></textformat><br /><b>À éviter :</b><br /><textformat blockindent='-18'><ul><li>demander au client d'effectuer une étape évidente si vous pouvez déterminer le problème sans cela.</li><li>être impoli envers le client, même s'il est impoli envers vous.</li></ul></textformat>]]></text>
+</component><!--Textbox 3--><component id='ID_s1_title_txt03'>
+	<text><![CDATA[<b>client mécontent</b>]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[<b>À faire :</b><br /><textformat blockindent='-18'><ul><li>laissez le client vous décrire son problème sans l'interrompre, même s'il est en colère. Cela lui permet, dans une certaine mesure, de se calmer avant que vous puissiez continuer.</li><li>Faites preuve de compréhension pour le problème du client.</li><li>Présentez vos excuses pour le temps d'attente ou le dérangement subi.</li></ul></textformat><br /><b>À éviter :</b><br /><textformat blockindent='-18'><ul><li>dans la mesure du possible, essayer de ne pas mettre ce client en attente ni de transférer l'appel.</li><li>passer du temps à discuter de la cause du problème (diriger plutôt la conversation sur la résolution du problème).</li></ul></textformat>]]></text>
+</component><!--Textbox 4--><component id='ID_s1_title_txt04'>
+	<text><![CDATA[<b>Client expérimenté</b>]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[<b>À faire :</b><br /><textformat blockindent='-18'><ul><li>si vous êtes un technicien de niveau un, vous pouvez essayer d'établir une téléconférence avec un technicien de niveau deux.</li><li>présentez au client l'approche globale de ce que vous tentez de vérifier.</li></ul></textformat><br /><b>À éviter :</b><br /><textformat blockindent='-18'><ul><li>suivre une procédure étape par étape avec ce client.</li><li>demander de vérifier les points évidents, tels que le cordon ou l'interrupteur d'alimentation. Par exemple, suggérez plutôt de réamorcer le système.</li></ul></textformat>]]></text>
+</component><!--Textbox 5--><component id='ID_s1_title_txt05'>
+	<text><![CDATA[<b>client inexpérimenté</b>]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[<font><b>À faire :</b></font><br /><textformat blockindent='-18'><ul><li>Utilisez une procédure d'instructions simple, étape par étape.</li><li>Parlez en termes simples.</li></ul></textformat><br /><font><b>À éviter :</b></font><br /><textformat blockindent='-18'><ul><li>utiliser un jargon professionnel.</li><li>être condescendant ou rabaisser le client.</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

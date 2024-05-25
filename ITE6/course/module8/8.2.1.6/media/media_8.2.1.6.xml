@@ -1,0 +1,61 @@
+﻿<textcomponents>
+
+<component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="4" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Détails des connexions des FAI</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>Type</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Avantages</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Inconvénients</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Vitesse</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>POTS</td>
+			<td bgcolor='#E9E7E8'>Très répandu</td>
+			<td bgcolor='#E9E7E8'>Débits très lents<br/>Impossible de recevoir des appels téléphoniques durant la connexion</td>
+			<td bgcolor='#E9E7E8'>56 kbit/s MAX</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>RNIS</td>
+			<td bgcolor='#F2F2F2'>Débits plus élevés que POTS</td>
+			<td bgcolor='#F2F2F2'>Toujours beaucoup plus lent que les autres technologies à large bande</td>
+			<td bgcolor='#F2F2F2'>BRI : jusqu'à128 kbit/s<br/>PRI : jusqu'à 2 048 Mbit/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DSL</td>
+			<td bgcolor='#E9E7E8'>Coût peu élevé</td>
+			<td bgcolor='#E9E7E8'>Débit différent en fonction de la distance du central</td>
+			<td bgcolor='#E9E7E8'>24 kbit/s - 100 Mbit/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Câble</td>
+			<td bgcolor='#F2F2F2'>Très haut débit</td>
+			<td bgcolor='#F2F2F2'>Vitesses de chargement (upload) lentes</td>
+			<td bgcolor='#F2F2F2'>27 kbit/s - 160 Mbit/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Satellite</td>
+			<td bgcolor='#E9E7E8'>Disponible en l'absence de la DSL et du câble</td>
+			<td bgcolor='#E9E7E8'>Plus cher que les autres technologies à large bande, et sensible aux conditions météo</td>
+			<td bgcolor='#E9E7E8'>Jusqu'à 10 Mbit/s ou plus</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Cellulaire</td>
+			<td bgcolor='#F2F2F2'>Disponible pour les utilisateurs mobiles</td>
+			<td bgcolor='#F2F2F2'>Pas disponible partout</td>
+			<td bgcolor='#F2F2F2'>20 kbit/s et plus, selon la technologie utilisée</td>
+		</tr>
+				
+	</table>]]></text> 
+</component>
+
+</textcomponents>

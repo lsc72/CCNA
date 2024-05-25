@@ -1,0 +1,49 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>SPI Firewall Protection (Protection par pare-feu SPI)</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Comparaison des pare-feu matériels et des pare-feu logiciels</b>]]></text>
+</component> 
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Pare-feu matériel</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Pare-feu logiciel</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">Équipement matériel dédié.</td>
+		<td bgcolor='#E9E7E8' valign="top">Logiciels tiers disponibles : le coût varie.</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">Le coût initial des mises à jour matérielles et logicielles peut être élevé.</td>
+		<td bgcolor='#F2F2F2' valign="top">Version gratuite incluse dans le système d'exploitation Windows.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">Plusieurs ordinateurs peuvent être protégés.</td>
+		<td bgcolor='#E9E7E8' valign="top">Protège en général uniquement l'ordinateur sur lequel il est installé.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">Peu d'impact sur les performances informatiques.</td>
+		<td bgcolor='#F2F2F2' valign="top">Utilise des ressources de l'ordinateur, impact possible sur les performances.</td>
+		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+</textcomponents>

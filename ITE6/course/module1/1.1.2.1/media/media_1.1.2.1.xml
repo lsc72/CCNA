@@ -1,0 +1,115 @@
+﻿<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+		<text><![CDATA[<b>Circuit imprimé de la carte mère</b>]]></text>
+	</component><!--SLIDE 2--><component id="ID_s2_title">
+		<text><![CDATA[<b>Connexions de la carte mère</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Mémoire vive (RAM)]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Chipset]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[Puce du BIOS/UEFI<br/>]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[Slots d'extension]]></text>
+	</component><!--SLIDE 3--><component id="ID_s3_title">
+		<text><![CDATA[<b>Carte mère avec composants installés</b>]]></text>
+	</component><!--SLIDE 4--><component id="ID_s4_title">
+		<text><![CDATA[<b>Connexions des composants de la carte mère</b>]]></text>
+	</component>
+  
+	<component id="ID_s4_txt01">
+        <text><![CDATA[Slot de carte graphique PCI Express]]></text>
+	</component>  
+	
+	<component id="ID_s4_txt02">
+        <text><![CDATA[Disques durs]]></text>
+	</component>
+	
+	<component id="ID_s4_txt03">
+        <text><![CDATA[Southbridge]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+        <text><![CDATA[Slot PCI 32 bits]]></text>
+	</component>	
+	<component id="ID_s4_txt05">
+        <text><![CDATA[Slot PCI 32 bits]]></text>
+	</component>	
+	<component id="ID_s4_txt06">
+        <text><![CDATA[Slot PCI 64 bits]]></text>
+	</component>	
+	<component id="ID_s4_txt07">
+        <text><![CDATA[Slot PCI 64 bits]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt08">
+        <text><![CDATA[Ports USB pour clavier et souris]]></text>
+	</component>
+	
+	<component id="ID_s4_txt09">
+        <text><![CDATA[BIOS UEFI]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt10">
+        <text><![CDATA[Mémoire vive (RAM)]]></text>
+	</component>
+	<component id="ID_s4_txt11">
+        <text><![CDATA[Mémoire vive (RAM)]]></text>
+	</component>
+	<component id="ID_s4_txt12">
+        <text><![CDATA[Mémoire vive (RAM)]]></text>
+	</component>
+	<component id="ID_s4_txt13">
+        <text><![CDATA[Mémoire vive (RAM)]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt14">
+        <text><![CDATA[Northbridge]]></text>
+	</component>	
+	<component id="ID_s4_txt15">
+        <text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s4_txt16">
+        <text><![CDATA[Slots d'extension PCI]]></text>
+	</component><!--SLIDE 5--><component id="ID_s5_title">
+		<text><![CDATA[<b>Formats de la carte mère</b>]]></text>
+	</component>
+      
+    <component id="ID_s5_table"><text><![CDATA[
+		<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Format</b></font></td>
+				<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#E9E7E8'>ATX</td>
+				<td bgcolor='#E9E7E8'><ul><li>Advanced Technology eXtended</li><li>Format le plus courant</li><li>12 pouces x 9,6 pouces (30,5 cm x 24,4 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>Micro-ATX</td>
+				<td bgcolor='#F2F2F2'><ul><li>Version plus petite que l'ATX</li><li>Format courant dans les ordinateurs de bureau et les ordinateurs compacts</li><li>9,6 pouces x 9,6 pouces (24,4 cm x 24,4 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>Mini-ITX</td>
+				<td bgcolor='#E9E7E8'><ul><li>Format conçu pour les appareils de petite taille tels que les clients légers et les décodeurs numériques</li><li>6,7 pouces x 6,7 pouces (17 cm x 17 cm)</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>ITX</td>
+				<td bgcolor='#F2F2F2'><ul><li>Format comparable à celui du Micro-ATX</li><li>8,5 pouces x 7,5 pouces (21,5 cm x 19,1 cm)</li></ul></td>
+			</tr>	
+		</table>]]></text> 
+	</component>
+</textcomponents>

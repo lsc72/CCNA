@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.1.5 Paramètres avancés de la carte réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Paramètres avancés de la carte réseau</h1>
+        <div>
+          <p>Certaines cartes réseau proposent des fonctionnalités avancées. Dans la plupart des environnements réseau, le seul paramètre de carte réseau que vous devez configurer est l'adresse IP. Vous pouvez laisser les paramètres avancés de la carte réseau sur leurs valeurs par défaut. Cependant, lorsqu'un ordinateur se connecte à un réseau ne prenant pas en charge certains des paramètres par défaut, vous devez effectuer certaines modifications au niveau des paramètres avancés. Ces modifications peuvent être nécessaires pour connecter l'ordinateur au réseau, activer certaines fonctionnalités requises par le réseau ou améliorer la connexion réseau. </p>
+          <p></p>
+          <p>
+            <b>Remarque </b>: des paramètres avancés incorrects peuvent entraîner des problèmes de connexion ou des dégradations des performances. </p>
+          <p></p>
+          <p>Les fonctionnalités avancées sont accessibles dans l'onglet <b>Avancé</b> de la fenêtre de configuration de la carte réseau. Cet onglet<b></b> contient tous les paramètres mis à disposition par le fabricant de la carte réseau. </p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : les fonctionnalités avancées disponibles et l'organisation de l'onglet dépendent du système d'exploitation utilisé, du type de carte réseau et du pilote installé.</p>
+          <p></p>
+          <p>Voici certaines des fonctionnalités de l'onglet Avancé :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Vitesse & Duplex</b> – Ces paramètres doivent correspondre avec le périphérique auquel la carte réseau est connectée. Par défaut, les paramètres sont automatiquement négociés. Tout conflit de vitesse et de mode bidirectionnel (duplex) peut réduire le débit de transfert de données. Dans ce cas, vous devrez peut-être modifier le mode bidirectionnel, la vitesse ou les deux (voir l'illustration 1). </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wake On LAN</b> - Les paramètres WOL (Wake on LAN) sont utilisés pour redémarrer un ordinateur du réseau se trouvant en mode de faible consommation. Dans ce mode, l'ordinateur est éteint, mais toujours connecté à une source d'alimentation. Pour prendre en charge la fonction WOL, l'ordinateur doit être équipé d'une alimentation compatible ATX et d'une carte réseau compatible WOL. Un message de « réveil », appelé « magic packet », est alors envoyé à la carte réseau de l'ordinateur. Le « magic packet » contient l'adresse MAC de la carte réseau connectée à l'ordinateur. Lorsque la carte réseau reçoit le « magic packet », l'ordinateur redémarre. La fonction WOL est configurable depuis le BIOS de la carte mère ou dans le micrologiciel de la carte réseau. L'illustration 2 montre la configuration dans le micrologiciel.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Qualité de service</b> - La QoS (qualité de service), également appelée 802.1q QoS, est un ensemble de techniques de contrôle du flux de trafic réseau qui améliore le débit de transmission et le trafic des communications en temps réel. La QoS doit être activée à la fois sur l'ordinateur en réseau et le périphérique réseau pour fonctionner. Lorsque la QoS est installée et activée sur un ordinateur, Windows peut limiter la bande passante disponible pour donner la priorité au trafic le plus important. Lorsque la QoS est désactivée, tout le trafic est traité de la même manière. La QoS est activée par défaut, comme indiqué à l'illustration 3.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

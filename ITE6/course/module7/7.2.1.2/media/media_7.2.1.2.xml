@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Fonctions du protocole</b>]]></text>
+</component>
+<component id='ID_s1_bodyTxt'>
+	<text><![CDATA[<textformat blockindent='-16'><li>Détection et traitement des erreurs</li><li>Compression des données</li><li>Détermination de la méthode de division des données et de création de paquets de données</li><li>Adressage des paquets de données</li><li>Détermination de la méthode de communication de l'envoi et de la réception des paquets de données</li></textformat>]]></text>
+</component>
+
+<component id='ID_s1_titleTxt'>
+	<text><![CDATA[<b>Fonctions du protocole</b>]]></text>
+</component>
+</textcomponents>

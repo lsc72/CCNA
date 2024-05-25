@@ -1,0 +1,46 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b>Configuration du système</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b> </b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='125'><font color='#F2F2F2'><b>Tabulation</b></font></td>
+		<td bgcolor='#666263' ><font color='#F2F2F2'><b>Description</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Généralités</td>
+		<td bgcolor='#E9E7E8'>Affiche la liste des options de démarrage :<br/><b>Démarrage normal </b>– Démarre normalement.<br/><b>Démarrage en mode diagnostic </b>– Démarre avec les services et pilotes de base uniquement.<br/><b>Démarrage sélectif </b>– Démarre avec les services et pilotes de base, ainsi que les programmes sélectionnés par l'utilisateur.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Début</td>
+		<td bgcolor='#F2F2F2'>Affiche la liste des systèmes d'exploitation Windows disponibles, ainsi que les options de démarrage.</td>		
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Services</td>
+		<td bgcolor='#E9E7E8'>Affiche la liste des services démarrés avec le système d'exploitation. Permet de désactiver les services à des fins de dépannage.</td>
+		
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Startup</td>
+		<td bgcolor='#F2F2F2'>Affiche la liste des applications exécutées au démarrage de l'ordinateur. Cette liste inclut les applications et le nom du fabricant, l'emplacement du fichier exécutable et l'emplacement du registre.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Outils</td>
+		<td bgcolor='#E9E7E8'>Affiche la liste des outils de diagnostic que vous pouvez lancer.</td>
+		
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

@@ -1,0 +1,11 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_caption'>
+	<text><![CDATA[Les coupe-fils servent à couper les fils électriques.]]></text>
+</component><!--Slide 2--><component id='ID_s2_caption'>
+	<text><![CDATA[Une pince à dénuder permet de retirer l'isolant du fil afin de le tordre avec d'autres fils ou de le sertir sur les connecteurs pour créer un câble.]]></text>
+</component><!--Slide 3--><component id='ID_s3_caption'>
+	<text><![CDATA[Une pince à sertir permet de fixer des connecteurs sur des fils.]]></text>
+</component><!--Slide 4--><component id='ID_s4_caption'>
+	<text><![CDATA[Un outil d'insertion sert à terminer le fil dans des blocs de terminaison.]]></text>
+</component>
+
+</textcomponents>

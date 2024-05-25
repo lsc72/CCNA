@@ -1,0 +1,63 @@
+<textcomponents>
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+    <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color="#FFFFFF"><b>Type de câble</b></font></td>
+		<td bgcolor='#666263'><font color="#FFFFFF"><b>Standard</b></font></td>
+		<td bgcolor='#666263'><font color="#FFFFFF"><b>Application</b></font></td>
+	</tr>
+	<tr>
+		<td width='125' bgcolor='#E9E7E8' valign="top">Ethernet droit</td>
+		<td width='125' bgcolor='#E9E7E8' valign="top">T568A aux deux extrémités ou T568B aux deux extrémités</td>
+		<td bgcolor='#E9E7E8' valign="top">Connecte un hôte réseau à un périphérique réseau tel qu'un commutateur ou un concentrateur.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">Ethernet croisé</td>
+		<td bgcolor='#F2F2F2' valign="top">Une extrémité T568A,<br/> l'autre T568B</td>
+		<td bgcolor='#F2F2F2' valign="top"><textformat blockindent='-18'><ul><span class="alignment"><li>Connecte deux hôtes réseau.</li><li>Connecte deux périphériques réseau <span class="align">intermédiaires (commutateur </span><span class="align">à commutateur ou routeur à routeur).</span></li></span></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--first cable--><component id="ID_txt01">
+<text><![CDATA[Paire 2]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Paire 3]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Paire 1]]></text>
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[Paire 4]]></text>
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[<b>T568A</b>]]></text>
+</component><!--second cable--><component id="ID_txt06">
+<text><![CDATA[Paire 3]]></text>
+</component>
+
+<component id="ID_txt07">
+<text><![CDATA[Paire 2]]></text>
+</component>
+
+<component id="ID_txt08">
+<text><![CDATA[Paire 1]]></text>
+</component>
+
+<component id="ID_txt09">
+<text><![CDATA[Paire 4]]></text>
+</component>
+
+<component id="ID_txt10">
+<text><![CDATA[<b>T568B<b>]]></text>
+</component>
+</textcomponents>

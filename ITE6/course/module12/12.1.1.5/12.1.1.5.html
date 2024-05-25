@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.1.1.5 Attaques TCP/IP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Attaques TCP/IP</h1>
+        <div>
+          <p>Pour contrôler la communication sur Internet, votre ordinateur utilise la suite de protocoles TCP/IP. Malheureusement, certaines fonctionnalités des protocoles TCP/IP peuvent être détournées et créer des failles sur le réseau.</p>
+          <p></p>
+          <p>Comme le montre l'illustration 1, TCP/IP est vulnérable aux types d'attaques suivantes :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Déni de service (DoS)</b> : ce type d'attaque crée un nombre anormalement élevé de demandes envers les serveurs du réseau, comme les serveurs Web ou les serveurs de messagerie (illustration 2). L'objectif de l'attaque est de submerger complètement le serveur par de fausses demandes, créant un déni de service pour les utilisateurs légitimes.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Déni de service distribué (DDoS)</b> : l'attaque par déni de service distribué (DDoS) fonctionne comme une attaque DoS, mais elle utilise davantage d'ordinateurs, parfois des milliers, pour lancer son attaque (illustration 3). Les ordinateurs sont d'abord infectés par des programmes malveillants DDoS, puis deviennent des zombies, une armée de zombies ou des botnets. Une fois les ordinateurs infectés, ils restent inactifs jusqu'à ce qu'ils soient appelés pour créer une attaque DDoS. Il est difficile de repérer l'origine de l'attaque car les ordinateurs zombies sont situés à des emplacements géographiques différents.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Inondation SYN</b> : la requête SYN est la communication initiale envoyée pour établir une connexion TCP (illustration 4). Une attaque par inondation SYN consiste à ouvrir des ports TCP au hasard et à inonder de fausses requêtes SYN les périphériques réseau ou l'ordinateur ciblé. Les sessions sont alors refusées aux autres. Une attaque par inondation SYN est un type d'attaque par déni de service.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mystification</b> : dans le cadre d'une attaque par mystification, un ordinateur usurpe l'identité d'un ordinateur autorisé pour accéder à certaines ressources. Il utilise une fausse adresse MAC ou IP pour se faire passer pour un ordinateur autorisé sur le réseau. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                L'attaque <b>Man-in-the-Middle</b> ou attaque de l'homme du milieu est une attaque dans laquelle le pirate intercepte les communications entre plusieurs ordinateurs pour voler les informations en transit sur le réseau (illustration 5). Ce type d'attaque peut également être utilisé pour manipuler les messages et relayer de fausses informations entre les hôtes, car ceux-ci ne savent pas que les messages ont été modifiés. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Rejeu</b> : lors d'une attaque par « rejeu », ou « replay attack » en anglais, les transmissions de données sont interceptées et enregistrées par le pirate. Ces transmissions sont ensuite envoyées à l'ordinateur de destination. Ce dernier agit comme si ces transmissions étaient authentiques et envoyées par la source d'origine. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Empoisonnement DNS</b> : les enregistrements DNS d'un système sont modifiés pour qu'ils pointent vers des serveurs malveillants. L'utilisateur tente d'accéder à un site légitime, mais le trafic est redirigé vers un site malveillant. Ce site est utilisé pour enregistrer des informations confidentielles telles que des noms d'utilisateur et des mots de passe. Un pirate peut ensuite récupérer ces informations.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

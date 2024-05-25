@@ -1,0 +1,34 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 3 : Tester la théorie pour déterminer la cause</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Étapes courantes pour déterminer la cause</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<ul><li>Ouvrir une session avec un nom d'utilisateur différent</li>
+			<li>Utiliser un logiciel de diagnostic tiers</li>
+			<li>Déterminer si de nouveaux logiciels ou de nouvelles mises à jour logicielles viennent juste d'être installés</li>
+			<li>Désinstaller les applications récemment installées</li>
+			<li>Démarrer en mode sans échec pour déterminer si le problème est lié aux pilotes</li>
+			<li>Revenir à la version précédente des pilotes récemment mis à jour</li>
+			<li>Examiner le Gestionnaire de périphériques à la recherche de conflits de périphériques</li>
+			<li>Examiner les journaux des événements à la recherche d'avertissements ou d'erreurs</li>
+			<li>Examiner le disque dur à la recherche d'erreurs et corriger les erreurs du système de fichiers</li>
+			<li>Utiliser le Vérificateur des fichiers système pour récupérer les fichiers système endommagés</li>
+			<li>Utiliser la restauration du système si une mise à jour du système ou un Service Pack a été installé</li></ul></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[<b>Ventilateur du boîtier</b>]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[<b>Carte mère</b>]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[<b>Ventilateur du processeur</b>]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[<b>Alimentation</b>]]></text>
+</component>
+
+<component id='ID_s2_txt05'>
+	<text><![CDATA[<b>Mémoire vive (RAM)</b>]]></text>
+</component>
+
+<component id='ID_s2_txt06'>
+	<text><![CDATA[<b>Disque dur</b>]]></text>
+</component>
+
+<component id='ID_s2_txt07'>
+	<text><![CDATA[<b>Carte réseau</b>]]></text>
+</component>
+
+<component id='ID_s2_txt08'>
+	<text><![CDATA[<b>Carte son</b>]]></text>
+</component>
+
+<component id='ID_s2_txt09'>
+	<text><![CDATA[<b>Carte vidéo</b>]]></text>
+</component>
+
+<component id='ID_s2_txt10'>
+	<text><![CDATA[<b>SSD</b>]]></text>
+</component>
+
+
+</textcomponents>

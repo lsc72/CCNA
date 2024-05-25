@@ -1,0 +1,30 @@
+<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Les périphériques « écoutent » le câble</b>]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Supports partagés]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Trame]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Trame]]></text>
+	</component>
+
+	<component id="ID_bubble01">
+		<text><![CDATA[<font color="#FFFFFF"><p id="ID_s1_bubble01" class="ID_s1_bubble01">J’enverrai des données quand le câble sera libre.</p></font>]]></text>
+	</component>
+	
+	<component id="ID_bubble02">
+		<text><![CDATA[<font color="#FFFFFF"><p id="ID_s1_bubble02" class="ID_s1_bubble02">J’enverrai des données quand le câble sera libre.</font></p>]]></text>
+	</component>
+	
+	<component id="ID_bubble03">
+		<text><![CDATA[<font color="#FFFFFF"><p id="ID_s1_bubble03" class="ID_s1_bubble03">J’enverrai des données quand le câble sera libre.</font></p>]]></text>
+	</component>
+
+</textcomponents>

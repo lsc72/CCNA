@@ -1,0 +1,124 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[Remarque : cette liste n'est pas exhaustive.]]></text> 
+  </component>
+
+<component id="ID_s1_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Résolutions d'affichage</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr class="mtable_title">
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Norme d'affichage</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Pixels linéaires</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>Format de l'image</b></font></td>
+				
+			</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>VGA</td>
+			<td bgcolor='#E9E7E8'>640x480</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>SVGA</td>
+			<td bgcolor='#F2F2F2'>800 x 600</td>
+			<td bgcolor='#F2F2F2'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>HD</td>
+			<td bgcolor='#E9E7E8'>1 280 x 720</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WXGA</td>
+			<td bgcolor='#F2F2F2'>1 280 x 800</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>SXGA</td>
+			<td bgcolor='#E9E7E8'>1 280 x 1 024</td>
+			<td bgcolor='#E9E7E8'>5:4</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QHD</td>
+			<td bgcolor='#F2F2F2'>1440x2560</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UXGA</td>
+			<td bgcolor='#E9E7E8'>1600x1200</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>FHD</td>
+			<td bgcolor='#F2F2F2'>1 920 x 1 080</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UHD</td>
+			<td bgcolor='#E9E7E8'>3840x2160</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WQUXGA</td>
+			<td bgcolor='#F2F2F2'>3840x2400</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FUHD</td>
+			<td bgcolor='#E9E7E8'>7680x4320</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QUHD</td>
+			<td bgcolor='#F2F2F2'>15360x8640</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_title">
+  <text><![CDATA[<b>Raccordement de plusieurs écrans à un même ordinateur</b>]]></text> 
+  </component>
+  
+ <component id="ID_s2_btn01">
+  <text><![CDATA[Matériel requis]]></text>
+  </component>
+<component id="ID_s2_btn02">
+  <text><![CDATA[Configuration logicielle]]></text> 
+  </component>
+<component id="ID_s2_btn03">
+  <text><![CDATA[Avantages]]></text> 
+  </component>
+  
+  <component id="ID_s2_title01">
+  <text><![CDATA[<b>Matériel requis</b>]]></text>
+  </component>
+<component id="ID_s2_title02">
+  <text><![CDATA[<b>Configuration logicielle</b>]]></text> 
+  </component>
+<component id="ID_s2_title03">
+  <text><![CDATA[<b>Avantages</b>]]></text> 
+  </component>
+  
+ <component id="ID_s2_txt01">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>Deux ports vidéo ou plus</li><li>Écran(s) supplémentaire(s)</li></ul></textformat>]]></text>
+  </component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[1. <textformat blockindent='14'>Cliquez sur <b>Début > Panneau de configuration > Affichage</b>.</textformat><BR/><BR/>2. <textformat blockindent='14'>Cliquez sur <b>Modifier les paramètres d'affichage</b>. (La <span class="alignment">fenêtre Résolution d'écran doit afficher</span> <br/><span class="alignment">deux icônes d'écran. Si vous ne voyez pas</span> plusieurs moniteurs <br/><span class="alignment">à l'écran, il se peut que le moniteur</span> <br/><span class="alignment">ne soit pas pris en charge.)</span></textformat><BR/><BR/>3. <textformat blockindent='14'>Cliquez sur l'icône d'écran qui représente <br/><span class="alignment">votre écran principal. Si cet écran n'est pas</span> <br/><span class="alignment">actuellement l'affichage principal, activez la case à cocher</span> <br/><span class="alignment"> <b>Faire de cet affichage votre affichage principal</b>.</span></textformat><BR/><BR/>4. <textformat blockindent='14'>Choisissez <b>Étendre ces affichages</b> dans la liste déroulante <br/><span class="alignment"><b>Plusieurs affichages</b>.</span></textformat><BR/><BR/>5. <textformat blockindent='14'>Cliquez sur<b> Identifier</b>. Windows 7 affiche <br/><span class="alignment">de grands chiffres permettant d'identifier les deux écrans.</span> <br/><span class="alignment">Faites glisser les icônes des écrans</span> <br/><span class="alignment">selon la disposition réelle de vos écrans.</span></textformat><BR/><BR/>6. <textformat blockindent='14'>Choisissez la <b>Résolution</b> et<br/><span class="alignment"><b> l'Orientation</b> souhaitées dans les listes déroulantes.</span></textformat><br/><br/>7. <textformat blockindent='14'>Cliquez sur <b>OK</b>.</textformat>]]></text> 
+  </component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>L'extension du bureau Windows à deux écrans est un moyen économique d'améliorer un ordinateur.</li><li>La fonction Dualview peut également être utilisée pour ajouter un deuxième écran à un ordinateur portable.</li><li>Cela permet d'accroître la productivité. Par exemple, il est possible d'utiliser un écran pour assister à une vidéoconférence tout en prenant des notes dans une application affichée sur l'autre écran.</li></ul></textformat>]]></text> 
+  </component>
+    
+<component id="transcript">
+  <text><![CDATA[<b>transcription ici</b>]]></text> 
+  </component>
+</textcomponents>

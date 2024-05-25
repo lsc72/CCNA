@@ -1,0 +1,17 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Google Now répondant à « OK Google »</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Google Now répondant à des commandes vocales</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Siri répondant à « Dis Siri »</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Siri répondant à des commandes vocales</b>]]></text>
+	</component>
+</textcomponents>

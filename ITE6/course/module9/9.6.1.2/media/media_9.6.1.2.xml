@@ -1,0 +1,41 @@
+<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 2 : Établir une théorie sur les causes probables</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+		  
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Causes courantes des problèmes d'ordinateur portable</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>La batterie ne tient pas la charge.</li>
+					<li>La batterie ne se recharge pas.</li>
+					<li>Les câbles sont mal branchés.</li>
+					<li>Le clavier ne fonctionne pas.</li>
+					<li>La touche Verr. Num. est activée.</li>
+					<li>Le module de mémoire vive n'est pas fixé.</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Causes courantes des problèmes rencontrés sur les appareils mobiles</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Le bouton d'alimentation est cassé</li>
+					<li>La batterie ne tient plus la charge</li>
+					<li>De la poussière s'est accumulée dans le haut-parleur, le microphone ou le port de charge</li>
+					<li>L'appareil mobile est tombé</li>
+					<li>L'appareil mobile est tombé dans l'eau</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

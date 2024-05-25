@@ -1,0 +1,119 @@
+<textcomponents>	
+	
+<component id="ID_s2_title">
+<text><![CDATA[<b>Choix d'un boîtier d'ordinateur</b>]]></text>
+</component>
+
+<component id="ID_s2_header01">
+<text><![CDATA[<b>Facteur</b>]]></text>
+</component>
+<component id="ID_s2_header02">
+<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_s2_btn01">
+<text><![CDATA[Type de modèle]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[Taille]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[Alimentation]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[Apparence]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[Voyants]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[Ventilation]]></text>
+</component>
+
+<component id="ID_s2_title_txt01">
+<text><![CDATA[Type de modèle]]></text>
+</component>
+<component id="ID_s2_title_txt02">
+<text><![CDATA[Taille]]></text>
+</component>
+<component id="ID_s2_title_txt03">
+<text><![CDATA[Alimentation]]></text>
+</component>
+<component id="ID_s2_title_txt04">
+<text><![CDATA[Apparence]]></text>
+</component>
+<component id="ID_s2_title_txt05">
+<text><![CDATA[Voyants]]></text>
+</component>
+<component id="ID_s2_title_txt06">
+<text><![CDATA[Ventilation]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[Le type de carte mère que vous choisissez détermine le type du boîtier. La taille et la forme doivent correspondre exactement.]]></text>
+</component>
+<component id="ID_s2_txt02">
+<text><![CDATA[Lorsqu'un ordinateur comporte de nombreux composants, il faut davantage d'espace pour la circulation de l'air afin que le système ne chauffe pas.]]></text>
+</component>
+<component id="ID_s2_txt03">
+<text><![CDATA[Vous devez adapter la puissance nominale et le type de connexion de l'alimentation au type de carte mère que vous avez choisi.]]></text>
+</component>
+<component id="ID_s2_txt04">
+<text><![CDATA[Pour certaines personnes, l'aspect du boîtier n'a aucune importance. Pour d'autres, il est essentiel. Si l'esthétique compte aussi, cela n'est pas un problème, le choix est très large.]]></text>
+</component>
+<component id="ID_s2_txt05">
+<text><![CDATA[Ce qu'il se passe à l'intérieur du boîtier peut être très important. Des indicateurs LED, placés sur l'extérieur du boîtier, vous indiquent si le système est alimenté, si le disque dur est en cours d'utilisation et si l'ordinateur est en veille ou en veille prolongée.]]></text>
+</component>
+<component id="ID_s2_txt06">
+<text><![CDATA[Tous les boîtiers comportent une aération sur l'alimentation ; certains en ont une autre à l'arrière, pour faciliter les échanges d'air avec l'extérieur. Certains boîtiers sont équipés d'aérations supplémentaires, au cas où le système devrait évacuer une quantité inhabituelle de chaleur. Cela peut se produire si vous installez de nombreux composants à proximité les uns des autres dans le boîtier.]]></text>
+</component>
+
+
+    
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Choix d'un ventilateur de boîtier</b>]]></text>
+	</component>
+    
+    <component id="ID_s1_table"><text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Facteurs</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Arguments à prendre en compte</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Taille du boîtier</td>
+			<td bgcolor='#E9E7E8'>Un grand boîtier requiert souvent des ventilateurs plus volumineux, car les petits ne peuvent pas produire une circulation de l'air suffisante.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Vitesse du ventilateur</td>
+			<td bgcolor='#F2F2F2'>Les grands ventilateurs tournent moins vite que les plus petits et ils font donc moins de bruit.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Nombre de composants</td>
+			<td bgcolor='#E9E7E8'>Plus le boîtier contient de composants, plus la chaleur générée est importante, ce qui nécessite l'ajout de ventilateurs plus grands ou plus rapides.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Environnement matériel</td>
+			<td bgcolor='#F2F2F2'>Les ventilateurs des boîtiers doivent pouvoir disperser suffisamment la chaleur afin de maintenir une température peu élevée à l'intérieur.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Nombre d'emplacements disponibles</td>
+			<td bgcolor='#E9E7E8'>Les boîtiers peuvent avoir un nombre d'emplacements différents pour les ventilateurs.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Endroits disponibles</td>
+			<td bgcolor='#F2F2F2'>Les boîtiers peuvent avoir un nombre d'emplacements différents pour les ventilateurs.</td>
+		</tr>	
+		<tr>
+			<td bgcolor='#E9E7E8'>Raccordements électriques</td>
+			<td bgcolor='#E9E7E8'>Certains ventilateurs sont raccordés directement à la carte mère, tandis que d'autres sont branchés directement sur l'alimentation.</td>
+		</tr>
+	
+	</table>]]></text> 
+</component>
+</textcomponents>

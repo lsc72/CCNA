@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.3 Installation réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Installation réseau</h1>
+        <div>
+          <p>
+            <b>Installation réseau distante</b>
+          </p>
+          <p></p>
+          <p>L'installation réseau distante est une méthode couramment utilisée pour dans les environnements comprenant de nombreux ordinateurs. Avec cette méthode, les fichiers d'installation du système d'exploitation sont stockés sur un serveur, de telle sorte qu'un ordinateur client peut accéder aux fichiers à distance pour commencer l'installation. Un logiciel tel que les services d'installation à distance (RIS) est utilisé pour communiquer avec le client, stocker les fichiers de configuration et fournir les instructions nécessaires au client pour accéder aux fichiers de configuration, les télécharger et commencer l'installation du système d'exploitation.</p>
+          <p></p>
+          <p>Étant donné qu'aucun système d'exploitation n'est installé sur l'ordinateur client, un environnement spécial doit être utilisé pour démarrer l'ordinateur, le connecter au réseau et communiquer avec le serveur afin de démarrer l'installation du système d'exploitation. Cet environnement spécial est appelé PXE (Preboot eXecution Environment, PXE). Pour que le PXE fonctionne, la carte réseau doit être compatible. Cette fonctionnalité peut être présente dans le BIOS ou le micrologiciel de la carte réseau. Lors du démarrage de l'ordinateur, la carte réseau est à l'écoute d'instructions spéciales sur le réseau pour démarrer PXE, comme indiqué à l'illustration 1.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : si la carte réseau n'est pas compatible PXE, il est possible d'utiliser un logiciel tiers pour charger cet environnement à partir du support de stockage.</p>
+          <p></p>
+          <p>
+            <b>Installation sans surveillance</b>
+          </p>
+          <p></p>
+          <p>Une installation sans assistance, qui est un autre type d'installation réseau, permet l'installation ou la mise à niveau d'un système Windows avec une intervention limitée de l'utilisateur. Une installation sans assistance de Windows repose sur l'utilisation d'un <i>fichier de réponses</i>. Ce fichier contient du texte simple qui indique au programme d'installation de Windows comment configurer et installer le système d'exploitation.</p>
+          <p></p>
+          <p>Pour effectuer une installation sans assistance de Windows, le programme setup.exe doit être exécuté avec les options utilisateur détectées dans le fichier de réponses. Le processus d'installation commence comme d'habitude, mais au lieu de poser des questions à l'utilisateur, le programme d'installation utilise les informations qui se trouvent dans le fichier de réponses.</p>
+          <p></p>
+          <p>Pour personnaliser une installation standard de Windows 7 ou de Windows Vista, l'Assistant Gestion d'installation permet de créer le fichier de réponses d'installation. Vous pouvez également ajouter aux fichiers de réponses des packages, tels que des applications ou des pilotes.</p>
+          <p></p>
+          <p>L'illustration 2 montre un exemple de fichier de réponses. Une fois que vous avez répondu à toutes les questions, le fichier est copié dans le dossier partagé de distribution, sur un serveur. À ce stade, deux options sont possibles :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Exécuter le fichier unattended.bat sur l'ordinateur client pour préparer le disque dur et installer le système d'exploitation à partir du serveur réseau.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Créer un disque de démarrage, qui démarre l'ordinateur et le connecte au dossier partagé de distribution sur le serveur. Vous pouvez alors exécuter le fichier de commandes contenant un ensemble d'instructions permettant d'installer le système d'exploitation via le réseau.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : l'Assistant Gestion d'installation fait partie du kit d'installation automatisée Windows AIK et peut être téléchargé depuis le site Web de Microsoft.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

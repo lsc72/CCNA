@@ -1,0 +1,121 @@
+<textcomponents>
+<component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problèmes courants et solutions</b></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263' valign="top" width="160"><font color='#F2F2F2'><b>Identifier le problème</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Les voyants (LED) de la carte réseau ne s'allument pas.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Le câble réseau est débranché ou endommagé.</li>
+					<li>La carte réseau est endommagée.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Reconnecter ou remplacer le câble réseau connecté à l'ordinateur</li>
+					<li>Remplacer la carte réseau</li></ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>L'utilisateur ne peut pas envoyer de commande SSH à un ordinateur distant.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Le périphérique distant n'est pas configuré pour l'accès SSH.</li>
+					<li>L'accès SSH n'est pas autorisé à partir de l'utilisateur ou d'un réseau particulier.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Configurer le périphérique distant pour l'accès SSH.</li>
+					<li>Autoriser l'accès SSH à partir de l'utilisateur ou du réseau.</li></ul></font>
+			</td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Un ordinateur portable ne peut pas détecter le routeur sans fil.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Le routeur sans fil / point d'accès est configuré avec un protocole 802.11 différent.</li>
+					<li>Le SSID n'est pas diffusé.</li>
+					<li>La carte réseau sans fil de l'ordinateur portable est désactivée.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Configurer le routeur sans fil à l'aide d'un protocole compatible avec l'ordinateur portable</li>
+					<li>Configurer le routeur sans fil de telle sorte qu'il active la diffusion SSID</li>
+					<li>Activer la carte réseau sans fil dans l'ordinateur portable</li></ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' valign="top">L'ordinateur possède une adresse IP de type 169.254.x.x.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Le câble réseau est débranché.</li>
+					<li>Le routeur est hors tension ou la connexion est défectueuse.</li>
+					<li>La carte réseau est endommagée.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Reconnecter le câble réseau</li>
+					<li>S'assurer que le routeur est sous tension et qu'il est correctement connecté au réseau</li>
+					<li>Libérer et renouveler l'adresse IP sur l'ordinateur</li>
+					<li>Remplacer la carte réseau</li></ul></font>
+			</td>
+		</tr>	
+	
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Un périphérique distant ne répond pas à une requête ping.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Le pare-feu de Windows désactive la commande ping par défaut.</li>
+					<li>Le périphérique distant est configuré de manière à ne pas répondre aux requêtes ping.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Configurer le pare-feu de telle sorte qu'il autorise le protocole ping</li>
+					<li>Configurer le périphérique distant de telle sorte qu'il réponde aux requêtes ping</li></ul></font>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Un utilisateur peut accéder au réseau local, mais il ne peut pas accéder à Internet.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>L'adresse de passerelle est incorrecte ou n'est pas configurée.</li>
+					<li>Le FAI rencontre une panne.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>S'assurer que l'adresse de passerelle affectée à la carte réseau est correcte.</li>
+					<li>Appeler le FAI pour lui faire part de la panne</li></ul></font>
+			</td>
+		</tr>	
+		
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Le réseau fonctionne normalement, mais l’appareil sans fil ne peut pas se connecter au réseau.</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><ul><li>La fonctionnalité sans fil du périphérique est désactivée.</li>
+					<li>Le périphérique se situe en dehors de la portée de la connexion sans fil.</li>
+					<li>Il existe des interférences provenant d'autres périphériques sans fil utilisant la même plage de fréquences.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Activer la capacité sans fil du périphérique</li>
+					<li>La rapprocher du routeur sans fil / point d'accès</li>
+					<li>Changer le canal utilisé par le routeur sans fil</li></ul></font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Un ordinateur exécutant Windows qui vient d'être connecté à un réseau constitué uniquement d'ordinateurs sous Windows n'a pas accès aux ressources partagées.</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Le nom du groupe de travail est incorrect.</li>
+					<li>L'emplacement réseau est incorrect.</li>
+					<li>La fonction Découverte de réseau et partage de fichiers est désactivée.</li></ul></font>
+			</td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Le nom du groupe de travail est correct.</li>
+					<li>Corriger l'emplacement du réseau</li>
+					<li>Activer la fonction Découverte réseau et partage de fichiers</li></ul></font>
+			</td>
+		</tr>
+			
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Un utilisateur ne peut pas mapper un lecteur réseau</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>L'utilisateur n'a pas les autorisations appropriées</li>
+					<li>Groupe de travail incorrect.</li>
+					<li>La fonction Découverte de réseau et partage de fichiers est désactivée.</li></ul></font>
+			</td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Configurer les autorisations appropriées pour cet utilisateur</li>
+					<li>Modifier le nom du groupe de travail</li>
+					<li>Activer la fonction Découverte réseau et partage de fichiers</li></ul></font>
+			</td>
+		</tr>	
+</table>]]>
+</text>
+</component>
+</textcomponents>

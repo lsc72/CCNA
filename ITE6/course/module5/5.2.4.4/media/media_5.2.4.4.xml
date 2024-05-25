@@ -1,0 +1,165 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Baies de disques</b>]]></text>
+	</component><!-- Group A - Spanned Volume --><component id="ID_s1_caption_A">
+		<text><![CDATA[<b>Volume fractionné :</b> les données sont écrites de manière séquentielle. Chaque volume s'étend sur plusieurs disques si un espace de stockage plus important est nécessaire.]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_A01">
+        <text><![CDATA[<b>Disque 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A02">
+		<text><![CDATA[<b>Volume 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A03">
+		<text><![CDATA[<b>Volume 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A04">
+		<text><![CDATA[<b>Volume 3</b>]]></text>
+	</component>
+
+
+
+	<component id="ID_s1_txt_A05">
+        <text><![CDATA[<b>Disque 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A06">
+		<text><![CDATA[<b>Volume 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A07">
+		<text><![CDATA[<b>Volume 3</b>]]></text>
+	</component>
+	
+	
+	
+	<component id="ID_s1_txt_A08">
+        <text><![CDATA[<b>Disque 3</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A09">
+		<text><![CDATA[<b>Volume 3</b>]]></text>
+	</component><!-- Group B - Striped Volume --><component id="ID_s1_caption_B">
+		<text><![CDATA[<b>Volume agrégé par bandes :</b> les données sont divisées et stockées sur plusieurs disques pour un accès plus rapide en lecture et en écriture.]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_B01">
+        <text><![CDATA[<b>Disque 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B02">
+		<text><![CDATA[<b>Volume 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B03">
+		<text><![CDATA[<b>Volume 2</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_B04">
+        <text><![CDATA[<b>Disque 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B05">
+		<text><![CDATA[<b>Volume 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B06">
+		<text><![CDATA[<b>Volume 2</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s1_txt_B07">
+        <text><![CDATA[<b>Disque 3</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B08">
+		<text><![CDATA[<b>Volume 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B09">
+		<text><![CDATA[<b>Volume 2</b>]]></text>
+	</component><!-- Group C - Mirrored Volume --><component id="ID_s1_caption_C">
+		<text><![CDATA[<b>Volume en miroir :</b> les données sont écrites simultanément sur plusieurs disques afin de garantir la tolérance aux pannes.]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_C01">
+        <text><![CDATA[<b>Disque 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_C02">
+		<text><![CDATA[<b>Volume 1</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_C03">
+        <text><![CDATA[<b>Disque 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_C04">
+		<text><![CDATA[<b>Volume 1<br>(copie)</b>]]></text>
+	</component><!-- Group D - Raid 5 Volume --><component id="ID_s1_caption_D">
+		<text><![CDATA[<b>Volume Raid 5 :</b> les données sont divisées et stockées sur plusieurs disques avec parité afin de garantir la tolérance aux pannes.]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_D01">
+        <text><![CDATA[<b>Disque 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D02">
+		<text><![CDATA[<b>Parité</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D03">
+		<text><![CDATA[<b>Données</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D04">
+		<text><![CDATA[<b>Données</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_D05">
+        <text><![CDATA[<b>Disque 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D06">
+		<text><![CDATA[<b>Parité</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D07">
+		<text><![CDATA[<b>Données</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D08">
+		<text><![CDATA[<b>Données</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_D09">
+        <text><![CDATA[<b>Disque 3</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D10">
+		<text><![CDATA[<b>Parité</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D11">
+		<text><![CDATA[<b>Données</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D12">
+		<text><![CDATA[<b>Données</b>]]></text>
+	</component>
+
+
+</textcomponents>

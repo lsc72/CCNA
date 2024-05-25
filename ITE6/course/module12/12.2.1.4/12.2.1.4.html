@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.1.4 Paramètres de sécurité des stratégies de compte</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Paramètres de sécurité des stratégies de compte</h1>
+        <div>
+          <p>Lorsque vous attribuez des mots de passe, le niveau de contrôle doit correspondre au niveau de protection requis. Affectez autant que possible des mots de passe forts. L'illustration 1 présente des recommandations pour la création de mots de passe forts.</p>
+          <p></p>
+          <p>Utilisez <b>Stratégie de mot de passe</b> dans <b>Stratégies de comptes</b> pour appliquer les exigences relatives aux mots de passe. Les configurations de l'illustration 2 respectent les exigences suivantes :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Appliquer l'historique des mots de passe</b> : l'utilisateur peut réutiliser un mot de passe après avoir utilisé 24 mots de passe uniques.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Antériorité maximale du mot de passe</b> : l'utilisateur doit changer de mot de passe après 90 jours.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Antériorité minimale du mot de passe</b> : l'utilisateur doit attendre un jour avant de changer de mot de passe. Ceci empêche les utilisateurs d'entrer un mot de passe différent 24 fois pour utiliser à nouveau le mot de passe précédent.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Longueur minimale du mot de passe</b> : le mot de passe doit contenir au moins 8 caractères.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Le mot de passe doit respecter des exigences de complexité</b> : le mot de passe ne doit pas contenir le nom du compte de l'utilisateur ni deux caractères consécutifs de son nom complet. Le mot de passe doit contenir trois des quatre catégories suivantes : lettres majuscules, lettres minuscules, chiffres et symboles.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Enregistrer les mots de passe en utilisant un chiffrement réversible</b> : le fait d'enregistrer les mots de passe en utilisant un chiffrement réversible est pratiquement identique à l'enregistrement des mots de passe en clair. Pour cette raison, cette stratégie ne doit jamais être activée à moins que les besoins des applications soient plus importants que la nécessité de protéger les informations.</li>
+            </ul>
+          </p>
+          <p>Utilisez <b>Stratégie de verrouillage de compte</b> dans <b>Stratégies de compte</b> pour empêcher toute tentative de connexion par force brute. Par exemple, la configuration de l'illustration 3 permet à l'utilisateur d'entrer cinq fois un mauvais nom d'utilisateur ou mot de passe. Après cinq tentatives, le compte est verrouillé pendant 30 minutes. Au bout de ces 30 minutes, le nombre de tentatives est remis à zéro et l'utilisateur peut à nouveau essayer d'ouvrir une session. Cette règle peut aussi protéger contre les attaques par dictionnaire, où chaque mot du dictionnaire est testé pour tenter d'accéder à l'ordinateur.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

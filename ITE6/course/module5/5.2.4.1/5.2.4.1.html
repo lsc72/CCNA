@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.1 Procédures de démarrage multiple</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Procédures de démarrage multiple</h1>
+        <div>
+          <p>Vous pouvez faire cohabiter plusieurs systèmes d'exploitation sur un seul ordinateur. Certaines applications exigent la version la plus récente d'un système d'exploitation, alors que d'autres ont besoin d'une version antérieure. Le double démarrage permet de disposer de plusieurs systèmes d'exploitation sur un ordinateur. Lors du processus de démarrage, si le Gestionnaire de démarrage Windows (BOOTMGR) détecte plusieurs systèmes d'exploitation, l'utilisateur est invité à choisir le système d'exploitation à charger. L'illustration 1 montre le BOOTMGR de Windows 8.x. L'illustration 2 montre le BOOTMGR de Windows 7 et Windows Vista.</p>
+          <p></p>
+          <p>Pour que vous puissiez créer un système à double démarrage dans Microsoft Windows, le disque dur doit contenir plusieurs partitions.</p>
+          <p></p>
+          <p>Le système d'exploitation le plus ancien doit être installé sur la partition principale ou sur le disque dur marqué comme partition active. Le deuxième système d'exploitation doit être installé sur la deuxième partition ou le deuxième disque dur. Les fichiers de démarrage sont installés automatiquement dans la partition active.</p>
+          <p></p>
+          <p>
+            <b>Fichier BOOTMGR</b>
+          </p>
+          <p>Pendant l'installation, le fichier BOOTMGR est créé sur la partition active, afin de permettre la sélection du système d'exploitation à démarrer. Vous pouvez modifier le fichier BOOTMGR afin d'inverser l'ordre des systèmes d'exploitation. Le délai dont dispose l'utilisateur pour choisir le système d'exploitation au démarrage peut également être modifié. La durée par défaut est de 30 secondes. Ce délai s'ajoute au délai de démarrage de l'ordinateur, sauf si l'utilisateur intervient pour sélectionner lui-même un système d'exploitation. Si un seul système d'exploitation est présent sur le disque, paramétrez ce délai sur 5 ou 10 secondes pour accélérer le démarrage de l'ordinateur.</p>
+          <p></p>
+          <p>Pour modifier le délai d'affichage de la liste des systèmes d'exploitation, procédez comme suit :</p>
+          <p></p>
+          <p>Sélectionnez <b>Démarrer > Panneau de configuration > Système et sécurité > Système > Paramètres système avancés ></b> cliquez sur <b> l'onglet </b>Avancé <b>> </b>dans la zone <b>Démarrage et </b>récupération, sélectionnez <b>Paramètres</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

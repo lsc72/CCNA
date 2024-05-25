@@ -1,0 +1,29 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Établir un plan d'action</b>]]></text>
+	</component>
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 4 : Planifier une résolution et appliquer la solution</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='225'>Si aucune solution n'a été trouvée à l'étape précédente, des recherches complémentaires sont nécessaires pour implémenter la solution.</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+				<li>Journaux des réparations du centre d'assistance</li>
+				<li>Autres techniciens</li>
+				<li>FAQ du fabricant</li>
+				<li>Sites Web techniques</li>
+				<li>Guide d'utilisation de l'appareil mobile</li>
+				<li>Forums en ligne</li>
+				<li>Recherche sur Internet	</li>
+			</textformat></td>
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

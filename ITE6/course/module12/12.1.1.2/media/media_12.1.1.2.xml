@@ -1,0 +1,96 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Identifier les types de programmes malveillants </b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez chaque type de programme malveillant à sa description.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Rootkit]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Logiciel espion]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Ver]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Faux logiciels de protection (ransomware)]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Logiciel publicitaire]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque type de programme malveillant à sa description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque type de programme malveillant à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Type de programme malveillant</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description des programmes malveillants</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Généralement distribué lors du téléchargement de logiciels en ligne, il affiche de la publicité sur votre ordinateur, le plus souvent dans des fenêtres contextuelles difficiles à contrôler.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Utilisé pour collecter des informations sur l'utilisateur et les envoyer vers une autre entité, sans le consentement de l'utilisateur.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Programme utilisé par les hackers pour obtenir un accès de niveau administrateur à un ordinateur. Il est très difficile à détecter.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Il bloque tout accès au système infecté et exige le paiement d'une rançon pour que la restriction soit supprimée.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Ce programme malveillant est un programme qui se reproduit et qui se propage automatiquement. Il ralentit ou interrompt les activités sur le réseau.]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

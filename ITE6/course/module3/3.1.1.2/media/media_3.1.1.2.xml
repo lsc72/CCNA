@@ -1,0 +1,8 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Alimentation</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Câbles d'alimentation modulaire</b>]]></text>
+	</component>
+</textcomponents>

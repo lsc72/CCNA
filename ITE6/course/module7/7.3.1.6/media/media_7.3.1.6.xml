@@ -1,0 +1,119 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Identification des périphériques réseau</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez chaque périphérique à sa description.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Routeur]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Modem]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Pare-feu]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Panneau de brassage]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Commutateur]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Point d'accès sans fil]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Répéteur]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[Concentrateur]]></text>
+	</component>
+	<component id='ID_s1_drag09'>
+		<text><![CDATA[Commutateur PoE]]></text>
+	</component>
+
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque périphérique à sa description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque périphérique à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Périphérique</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Régénère les signaux faibles pour augmenter la distance qu'un signal peut parcourir.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Réside entre deux réseaux ou plus et protège les données et les équipements sur un réseau des accès non autorisés. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Utilise les adresses IP pour transférer du trafic vers d'autres réseaux.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Convertit les données numériques d'un ordinateur dans un format qui peut être transmis via le réseau d'un FAI.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Transfère de petites quantités de courant continu via un câble Ethernet, parallèlement aux données, pour alimenter des périphériques spéciaux.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Filtre et segmente le trafic réseau en envoyant les données uniquement aux périphériques destinataires.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Reçoit des données sur un port, puis les renvoie à tous les autres ports.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Fournit l'accès réseau aux périphériques utilisant des ondes radio pour communiquer avec d'autres périphériques.]]></text>
+	</component> 
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Lieu rassemblant les câbles entrants qui proviennent de plusieurs périphériques en réseau.]]></text>
+	</component> 
+
+
+
+</textcomponents>

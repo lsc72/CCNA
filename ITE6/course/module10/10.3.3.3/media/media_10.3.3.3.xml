@@ -1,0 +1,9 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Configuration de la messagerie sur Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Configuration de la messagerie sur Android - Type de compte de messagerie</b>]]></text>
+	</component>
+</textcomponents>

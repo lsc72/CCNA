@@ -1,0 +1,95 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Identification des termes</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez le terme à sa description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque numéro d'étape à sa description.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas correctement associé chaque numéro d'étape à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF" size="15">Type de réseau</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">CMOS</font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536">UEFI</font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536">TPM</font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536">BIOS</font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">POST</font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536">LoJack</font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font size="15">Terme</font>]]></text>
+</component>
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<font size="15">Description</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Stocke les paramètres du BIOS.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Offre une interface logicielle compatible avec l'utilisation de la souris au lieu des écrans traditionnels du BIOS.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Petit programme qui lit les paramètres configurés et stockés dans le CMOS afin de déterminer comment configurer le matériel.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Fonctionnalité de sécurité indiquant l'emplacement et les informations des périphériques.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Vérification matérielle des principaux composants de l'ordinateur.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Puce conçue pour la sécurisation du matériel grâce au stockage de clés de chiffrement, de certificats numériques, de mots de passe et de données.]]></text> 
+</component>
+
+</textcomponents>

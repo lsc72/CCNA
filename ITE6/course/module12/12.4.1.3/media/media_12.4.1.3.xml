@@ -1,0 +1,33 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Tester la théorie pour déterminer la cause</b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 3. Tester la théorie pour déterminer la cause</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+     
+            <tr>
+                <td bgcolor='#E9E7E8' width='150'>Étapes classiques pour déterminer la cause</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Se déconnecter du réseau.</li>
+                       <li>Mettre à jour les signatures de l'antivirus et du logiciel anti-espion.</li>
+                       <li>Analyser l'ordinateur avec un logiciel de protection.</li>
+                       <li>Rechercher les derniers correctifs et les dernières mises à jour pour le système d'exploitation de l'ordinateur.</li>
+                       <li>Redémarrer l'ordinateur ou le périphérique réseau.</li>
+                       <li>Ouvrez une session en tant qu'utilisateur administratif afin de modifier le mot de passe de l'utilisateur.</li>
+                       <li>Sécuriser les salles d'équipements.</li>
+                       <li>Sécuriser l'environnement de travail.</li>
+                       <li>Mettre en place une stratégie de sécurité.</li></ul></textformat></td> 
+            </tr>
+        </table>]]></text>
+    </component>
+    
+
+</textcomponents>

@@ -1,0 +1,66 @@
+<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+    <text><![CDATA[<b>Configuration minimale pour Windows Hyper-V sous Windows 8</b>]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">OS hôte</td>
+			<td bgcolor='#E9E7E8'>Système d'exploitation Windows 8 Professionnel ou Entreprise 64 bits</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Processeur</td>
+			<td bgcolor='#E9E7E8'>Processeur 64 bits avec traduction d'adresse de second niveau</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>BIOS</td>
+			<td bgcolor='#F2F2F2'>Prise en charge de la virtualisation du matériel au niveau du BIOS</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Mémoire</td>
+			<td bgcolor='#E9E7E8'>Au moins 4 Go de mémoire vive</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Espace disque dur</td>
+			<td bgcolor='#F2F2F2'>Au moins 15 Go par système d'exploitation virtuel</td>
+		</tr>
+	</table>]]></text> 
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+    <text><![CDATA[<b>Configuration minimale pour Windows Virtual PC sous Windows 7</b>]]></text>
+</component>
+    
+    <component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">Processeur</td>
+            <td bgcolor='#E9E7E8'>Processeur 1 GHz 32 bits ou 64 bits</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Mémoire</td>
+			<td bgcolor='#F2F2F2'>2GB</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Espace disque dur</td>
+			<td bgcolor='#E9E7E8'>15 Go par système d'exploitation virtuel</td>
+		</tr>
+
+	</table>]]></text> 
+</component>
+
+</textcomponents>

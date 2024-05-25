@@ -1,0 +1,105 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Modes réseau type</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Modes de sécurité sans fil</b>]]></text>
+	</component>
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>Mode réseau</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Mixte</td>
+			<td bgcolor='#E9E7E8'><ul><li>Mode par défaut.</li><li>À sélectionner si vous avez des périphériques 802.11n (2,4 GHz), 802.11g et 802.11b.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Wireless-B/G Only</td>
+			<td bgcolor='#F2F2F2'>À sélectionner si vous avez des périphériques 802.11b et 802.11g (2,4 GHz).</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Wireless-B Only</td>
+			<td bgcolor='#E9E7E8'>À sélectionner si vous avez des périphériques 802.11b uniquement.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Wireless-G Only</td>
+			<td bgcolor='#F2F2F2'>À sélectionner si vous avez des périphériques 802.11g uniquement.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Sans fil N</td>
+			<td bgcolor='#E9E7E8'>À sélectionner si vous avez des périphériques 802.11n uniquement.</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Désactivée</td>
+			<td bgcolor='#F2F2F2'>À sélectionner pour désactiver la radio sans fil.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s4_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>Modes de sécurité</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>WEP <br/>(Wired Equivalent Privacy)</td>
+			<td bgcolor='#E9E7E8'>Chiffre les données de diffusion entre le point d'accès sans fil et le client, à l'aide d'une clé de chiffrement de 64 ou 128 bits.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>TKIP <br/>(Temporal Key Integrity Protocol)</td>
+			<td bgcolor='#F2F2F2'><ul><li>Correctif de WEP qui négocie automatiquement une nouvelle clé à intervalles réguliers (quelques minutes).</li><li>Le mode TKIP permet d'empêcher des pirates de recueillir suffisamment de données pour décrypter la clé de chiffrement.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Standard de cryptage avancé <br/>(AES)</td>
+			<td bgcolor='#E9E7E8'><ul><li>Système de chiffrement plus sécurisé que le mode TKIP.</li><li>Le mode AES requiert également plus de ressources informatiques pour effectuer ce chiffrement plus sécurisé.</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Protocole WPA <br/>(Wi-Fi Protected Access)</td>
+			<td bgcolor='#F2F2F2'><ul><li>Version améliorée du mode WEP, créée comme solution temporaire jusqu'à ce que la norme 802.11i soit ratifiée.</li><li>Comme la norme 802.11i est désormais ratifiée, la version WPA2 a été publiée. Elle couvre l'intégralité de la norme 802.11i.</li><li>WPA utilise un chiffrement plus complexe que celui de WEP.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>WPA2<br/>(Wi-Fi Protected Access 2)</td>
+			<td bgcolor='#E9E7E8'><ul><li>Version améliorée du mode WPA qui prend en charge le chiffrement fort pour une sécurité de très haut niveau.</li><li>Le mode WPA2 peut être activé avec une authentification par mot de passe (utilisation personnelle) ou serveur (entreprise).</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

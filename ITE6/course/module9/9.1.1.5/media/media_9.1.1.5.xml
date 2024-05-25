@@ -1,0 +1,182 @@
+﻿<textcomponents>
+
+
+
+<component id="ID_inst">
+  <text><![CDATA[<b>Cliquez sur la zone en évidence pour obtenir des informations importantes. Cliquez à nouveau sur cette zone pour fermer la fenêtre d'informations. </b>]]></text> 
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>Vue du dessus d'une station d'accueil</b>]]></text>
+</component>
+
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[Bouton d'alimentation]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[Le bouton d'alimentation met l'ordinateur portable sous tension et hors tension lorsque celui-ci est connecté à la station d'accueil.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[Bouton d'éjection]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[Le bouton d'éjection est un levier qui libère l'ordinateur portable de la station d'accueil, afin que l'ordinateur puisse en être retiré.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[Connecteur de station d'accueil]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[Le connecteur d'amarrage permet de brancher l'ordinateur portable sur une station d'accueil.]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>Vue de la face arrière d'une station d'accueil</b>]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Grille de ventilation]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[La grille de ventilation est une sortie qui expulse l'air chaud de l'intérieur de la station d'accueil. ]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[Connecteur d'alimentation secteur (CA)]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[Le connecteur d'alimentation secteur permet de connecter l'adaptateur secteur à la station d'accueil.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[Slot d'extension combiné pour cartes PC]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[Le slot d'extension combiné de cartes PC prend en charge les cartes d'extension ExpressCard dans le slot supérieur et les cartes PC Card dans le slot inférieur.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt04'>
+	<text><![CDATA[Port VGA]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt04">
+<text><![CDATA[Le port VGA est un socket à 15 broches qui permet d'utiliser des écrans et des projecteurs externes.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt05'>
+	<text><![CDATA[Port DVI]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt05">
+<text><![CDATA[Le port DVI est utilisé pour connecter un moniteur vidéo numérique.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt06'>
+	<text><![CDATA[Connecteur d'entrée de ligne]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt06">
+<text><![CDATA[Le connecteur d'entrée Line-In permet de raccorder une source audio.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt07'>
+	<text><![CDATA[Connecteur de casque]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt07">
+<text><![CDATA[Le connecteur de casque est une interface de connexion utilisée pour connecter un périphérique de sortie audio.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt08'>
+	<text><![CDATA[Bus série universel (USB)]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt08">
+<text><![CDATA[Le port USB (Universal Serial Bus) est utilisé pour connecter un ou plusieurs périphériques.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt09'>
+	<text><![CDATA[Port de souris]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt09">
+<text><![CDATA[Le port souris est un connecteur PS/2 utilisé pour brancher une souris externe.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt10'>
+	<text><![CDATA[Port de clavier]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt10">
+<text><![CDATA[Le port du clavier est un connecteur PS/2 utilisé pour brancher un clavier externe.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt11'>
+	<text><![CDATA[Connecteur de lecteur de disquettes externe]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt11">
+<text><![CDATA[Le connecteur de lecteur de disquettes externe permet de brancher un lecteur de disque externe.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt12'>
+	<text><![CDATA[Port parallèle]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt12">
+<text><![CDATA[Le port parallèle est utilisé pour connecter un périphérique, par exemple une imprimante ou un scanner.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt13'>
+	<text><![CDATA[Port série]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt13">
+<text><![CDATA[Le port série est utilisé pour brancher un périphérique, par exemple une souris ou une boule de commande.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt14'>
+	<text><![CDATA[Port de modem RJ-11]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt14">
+<text><![CDATA[Le port modem RJ-11 est utilisé pour raccorder l'ordinateur portable à une ligne téléphonique standard.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt15'>
+	<text><![CDATA[Port Ethernet]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt15">
+<text><![CDATA[Le port Ethernet est un connecteur RJ-45 utilisé pour connecter l'ordinateur portable à un réseau local câblé. ]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s03_title">
+<text><![CDATA[<b>Vue du côté droit d'une station d'accueil</b>]]></text>
+</component>
+
+<component id='ID_s03_titleTxt01'>
+	<text><![CDATA[Serrure]]></text>
+</component>
+
+<component id="ID_s03_bodyTxt01">
+<text><![CDATA[La serrure permet d'insérer une clé pour verrouiller l'ordinateur portable sur la station d'accueil.]]></text>
+</component><!-- end slide 3 --></textcomponents>

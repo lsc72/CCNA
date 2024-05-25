@@ -1,0 +1,185 @@
+﻿<textcomponents>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : connexions réseau</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Un ordinateur peut se connecter à un périphérique réseau à l'aide d'une adresse IP et non pas en utilisant le nom d'hôte.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Nom d'hôte incorrect.</li><li>Paramètres DNS incorrects.</li><li>Le serveur DNS n'est pas opérationnel.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Retaper le nom d'hôte.</li><li>Retaper l'adresse IP du serveur DNS.</li><li>Redémarrer le serveur DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'ordinateur n'obtient pas ou ne renouvelle pas l'adresse IP sur le réseau.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>L'ordinateur utilise une adresse IP statique d'un autre réseau.</li><li>Le pare-feu bloque le DHCP.</li><li>Le serveur DHCP n'est pas opérationnel.</li><li>La carte réseau sans fil est désactivée.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Configurer l'ordinateur afin qu'il obtienne une adresse IP automatiquement.</li><li>Modifier la configuration du pare-feu afin d'autoriser le trafic DHCP.</li><li>Redémarrer le serveur DHCP.</li><li>Activer la carte réseau sans fil.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Un message indiquant un conflit d'adresses IP s'affiche lors de la connexion d'un nouvel ordinateur au réseau.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>La même adresse IP est attribuée à deux périphériques sur le réseau.</li><li>Un autre ordinateur a reçu une adresse IP statique qui avait déjà été attribuée par le serveur DHCP.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Configurer chaque périphérique avec une adresse IP unique.</li><li>Configurez chaque périphérique à l'aide des commandes <font face="_typewriter"><b><i>ipconfig /release</i></b></font> et <font face="_typewriter"><b><i>ipconfig /renew</i></b></font>.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Un ordinateur dispose d'un accès réseau, mais il n'a pas accès à Internet.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>L'adresse IP de la passerelle est incorrecte.</li><li>Le routeur n'est pas correctement configuré.</li><li>Le serveur DNS n'est pas opérationnel.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Redémarrer le modem.</li><li>Redémarrer le routeur</li><li>Reconfigurer les paramètres du routeur.</li><li>Redémarrer le serveur DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur a obtenu automatiquement l'adresse IP 169.254.x.x, mais il ne parvient pas à se connecter au réseau.</td>
+			<td bgcolor='#E9E7E8'>Le serveur DHCP n'est pas opérationnel.</td>
+			<td bgcolor='#E9E7E8'>Redémarrer le serveur DHCP.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Des utilisateurs font état de débits de transmission très faibles, de signal faible et de connexion intermittente sur le réseau sans fil.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Les mesures de sécurisation du réseau sans fil n'ont pas été mises en place et des utilisateurs non autorisés exploitent le réseau.</li><li>Trop d'utilisateurs sont connectés au point d'accès.</li><li>Les utilisateurs sont trop éloignés du point d'accès.</li><li>Le signal sans fil subit des interférences provenant de sources externes.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Mettre en place un plan de sécurité du réseau sans fil.</li><li>Vérifier que le point d'accès est situé au centre de la zone à couvrir.</li><li>Redémarrer le point d'accès.</li><li>Déplacer le point d'accès.</li><li>Désactiver les périphériques inutiles qui sont connectés.</li><li>Ajouter un autre point d'accès ou un répéteur pour renforcer le signal.</li><li>Mettre à niveau le point d'accès.</li><li>Modifier les canaux sur le point d'accès sans fil.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : messagerie</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur ne peut ni envoyer ni recevoir d'e-mails.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Les paramètres du client de messagerie électronique de l'ordinateur sont incorrects.</li><li>Le serveur de messagerie est en panne.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Reconfigurer les paramètres du client de messagerie.</li><li>Redémarrer le serveur de messagerie électronique ou avertir le fournisseur du service de messagerie.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'ordinateur peut envoyer des e-mails, mais il n'en reçoit aucun.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La boîte de réception est pleine.</li><li>Les paramètres du client de messagerie électronique de l'ordinateur sont incorrects.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Archiver ou supprimer des e-mails afin de libérer de l'espace.</li><li>Reconfigurer les paramètres du client de messagerie.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur ne peut pas recevoir un certain e-mail avec pièce jointe.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>La pièce jointe de l'e-mail est trop volumineuse.</li><li>La pièce jointe contient un virus et a été bloquée par l'antivirus.</li><li>Le type de fichier de la pièce jointe n'est pas autorisé (par exemple un fichier exécutable) et est bloqué.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Demander à l'expéditeur de scinder la pièce jointe en plusieurs parties plus petites et de les renvoyer en plusieurs e-mails.</li><li>Demander à l'expéditeur d'analyser la pièce jointe avant de l'envoyer.</li><li>Demander à l'expéditeur de compresser la pièce jointe et de renvoyer le message.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : connexions sécurisées à Internet et FTP.</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Un utilisateur ne peut pas accéder au serveur FTP.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le protocole FTP est bloqué par le pare-feu au niveau du routeur.</li><li>Le protocole FTP est bloqué par le pare-feu Windows.</li><li>Le nombre maximum d'utilisateurs est atteint.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Vérifiez que les ports 20 et 21 sont autorisés à transiter par le pare-feu sortant du routeur.</li><li>Vérifiez que les ports 20 et 21 sont autorisés à transiter par le pare-feu sortant de Windows.</li><li>Augmenter le nombre maximum d'utilisateurs FTP simultanés sur le serveur FTP.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Le logiciel client FTP ne peut pas trouver le serveur FTP.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Le client FTP a un nom de domaine/serveur incorrect ou une configuration de port incorrecte.</li><li>Le serveur FTP n'est pas opérationnel ou est déconnecté.</li><li>Le serveur DNS n'est pas opérationnel et ne résout pas les noms.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Entrer le nom de domaine/nom de serveur approprié et les paramètres de port corrects sur le client FTP.</li><li>Redémarrer le serveur FTP.</li><li>Redémarrer le serveur DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Un ordinateur ne peut pas accéder à un site HTTPS spécifique.</td>
+			<td bgcolor='#E9E7E8'>Le site ne figure pas dans la liste des sites de confiance du navigateur de cet ordinateur.</td>
+			<td bgcolor='#E9E7E8'>Décider si vous souhaitez ajouter le certificat de sécurité à la liste des sites de confiance du navigateur.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : outils de dépannage réseau</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>L'ordinateur peut envoyer une requête ping à une adresse IP mais non pas à un nom d'hôte.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le nom d'hôte est incorrect.</li><li>Les paramètres DNS de l'ordinateur sont incorrects.</li><li>Le serveur DNS n'est pas opérationnel.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Entrer le nom d'hôte correct.</li><li>Entrer les paramètres DNS corrects.</li><li>Redémarrer le serveur DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Un ordinateur d'un réseau n'arrive pas à envoyer une requête ping à un ordinateur d'un autre réseau.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Il existe un lien rompu entre les deux réseaux.</li><li>ICMP est bloqué au niveau du routeur.</li><li>ICMP est bloqué au niveau du pare-feu Windows.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Utiliser la commande tracert pour localiser et réparer la liaison défectueuse.</li><li>Configurer le routeur pour autoriser le ping ICMP.</li><li>Configurer le pare-feu Windows pour autoriser le ping ICMP.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>La commande Nslookup envoie le rapport « Can't find server name for address 127.0.0.0: timed out ».</td>
+			<td bgcolor='#E9E7E8'>Le serveur DNS ne répond pas.</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Redémarrer le serveur DNS.</li><li>Modifier les paramètres du serveur DNS.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Un ordinateur ne peut pas se connecter à un dossier réseau partagé avec la commande <font face="_typewriter"><b><i>net use</i></b></font>.</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Le dossier n'est pas partagé.</li><li>L'ordinateur n'est pas dans le même groupe de travail.</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Vérifier que le dossier réseau est partagé à l'aide de la commande net share.</li><li>Placer l'ordinateur dans le même groupe de travail que l'ordinateur où se trouve le dossier réseau partagé.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Lors de l'exécution de la commande <font face="_typewriter"><b><i>ipconfig /release</i></b></font> ou <font face="_typewriter"><b><i>ipconfig /renew</i></b></font>, vous recevez le message suivant : « No operation can be performed on the adapter while its media is disconnected ».</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le câble réseau est débranché.</li><li>L'ordinateur est configuré avec une adresse IP statique.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Reconnecter le câble réseau</li><li>Reconfigurer la carte réseau afin qu'elle obtienne l'adresse IP automatiquement.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>L'ordinateur ne peut pas envoyer de commande Telnet à un ordinateur distant.</td>
+			<td bgcolor='#F2F2F2'>L'ordinateur distant n'est pas configuré pour accepter les connexions Telnet ou le service Telnet n'a pas été démarré.</td>
+			<td bgcolor='#F2F2F2'>Démarrer le service Telnet sur l'ordinateur distant et configurer cet ordinateur pour qu'il accepte les connexions Telnet.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>L'icône de réseau dans la zone de notification affiche un point d'exclamation jaune. Lors de l'exécution de la commande <font face="_typewriter"><b><i>ipconfig /release</i></b></font> ou <font face="_typewriter"><b><i>ipconfig /renew</i></b></font>, vous recevez le message suivant : « The operation failed as no adapter is in the state permissible for this operation ».</td>
+			<td bgcolor='#E9E7E8'>Une adresse IP statique a été attribuée à l'interface.</td>
+			<td bgcolor='#E9E7E8'>Reconfigurer la carte réseau afin qu'elle obtienne l'adresse IP automatiquement.</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

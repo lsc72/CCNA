@@ -1,0 +1,14 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>Nétiquette de base</b>]]></text> 
+    </component>
+	
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[<textformat blockindent='-18'><li>Soyez aimable et poli.</li><li>Commencez chaque e-mail, même dans un fil de discussion, par la salutation appropriée.</li><li>N'envoyez jamais de chaîne de lettres par e-mail.</li><li>N'envoyez jamais de messages « incendiaires » et n'y répondez pas.</li><li>N'utilisez pas uniquement des majuscules. LES MAJUSCULES DONNENT L'IMPRESSION QUE VOUS CRIEZ.</li><li>Vérifiez la grammaire et l'orthographe avant de publier.</li><li>Soyez éthique.</li><li>N'envoyez jamais ou ne publiez jamais quoi que ce soit que vous ne diriez pas à quelqu'un en face.</li></textformat>]]></text> 
+    </component>
+	
+</textcomponents>

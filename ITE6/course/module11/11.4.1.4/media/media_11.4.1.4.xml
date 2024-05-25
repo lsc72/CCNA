@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title_01">
+<text><![CDATA[<b>Directives sur les conditions d'utilisation</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-18'><ul><li>Conserver le papier au sec.</li><li>Conserver l’imprimante dans un endroit frais, à l’abri de la poussière.</li><li>Stocker le toner dans un endroit propre et sec.</li><li>Nettoyer le verre des scanners.</li></ul></textformat>]]></text> 
+  </component>
+
+</textcomponents>

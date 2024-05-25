@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.1 CSMA/CD</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>CSMA/CD</h1>
+        <div>
+          <p>Les protocoles Ethernet décrivent les règles qui régissent les communications sur un réseau Ethernet. Pour garantir que tous les périphériques Ethernet sont compatibles entre eux, l'IEEE a mis au point des normes que les fabricants et les développeurs doivent respecter lors de la conception de périphériques Ethernet.</p>
+          <p>L'architecture Ethernet est basée sur la norme IEEE 802.3. Celle-ci spécifie qu'un réseau doit utiliser la méthode de contrôle d'accès CSMA/CD (Carrier Sense Multiple Access with Collision Detection, accès multiple avec écoute de porteuse et détection des collisions) :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Carrier</b> (porteuse) - Fil utilisé pour transmettre des données.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Sense</b> (écoute) - Chaque périphérique « écoute » le câble pour déterminer s'il est libre pour l'envoi de données, comme illustré ci-contre.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Multiple Access</b> (accès multiple) - Plusieurs périphériques peuvent accéder au réseau en même temps.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Collision Detection</b> (détection des collisions) - Une collision cause le doublement de la tension sur le fil, ce qui est détecté par les cartes réseau des périphériques.</li>
+            </ul>
+          </p>
+          <p>Avec cette méthode, tous les périphériques « écoutent » le câble réseau pour savoir quand elles sont autorisées à envoyer des données. Ce processus est similaire au fait d'attendre la tonalité sur une ligne téléphonique avant de composer le numéro. Lorsque le périphérique détecte qu'aucun autre périphérique n'est en cours de transmission, il tente d'envoyer ses données. Si aucun autre périphérique n'envoie de données en même temps, la transmission arrive à destination sans problème. Si deux périphériques transmettent en même temps, il se produit une collision. </p>
+          <p></p>
+          <p>La première station qui détecte la collision envoie un signal de bourrage qui indique à toutes les stations d'arrêter de transmettre et d'exécuter un algorithme de réémission temporisée. Cet algorithme calcule des délais aléatoires au bout desquels la station d'extrémité tente d'émettre à nouveau. Ces délais sont généralement d'une ou deux millisecondes. Cette séquence a lieu chaque fois qu'une collision se produit sur le réseau et peut réduire les transmissions Ethernet jusqu'à 40 %.</p>
+          <p></p>
+          <p>
+            <b>Remarque </b>: la plupart des réseaux Ethernet actuels sont de type bidirectionnel simultané. Dans les réseaux Ethernet bidirectionnels simultanés, les collisions sont rares, car les périphériques peuvent transmettre et recevoir en même temps.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

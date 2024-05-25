@@ -1,0 +1,127 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Exercice - Identification des termes relatifs aux disques</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez chaque terme à sa description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque terme à sa définition.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas correctement associé chaque terme à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_headerX'>
+	<text><![CDATA[<b>Étapes</b>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Lecteur logique]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Partition étendue]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Partition principale]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[Formatage]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[SSD]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[Partition active]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[Disque de base]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[Disque dynamique]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[Mémoire Flash]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[SSHD]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<b>Termes</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Elle contient les fichiers du système d'exploitation. Il peut y en avoir jusqu'à quatre par disque dur, mais elles ne peuvent pas être divisées en sections plus petites.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Une section d'une partition étendue.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Il utilise la technologie à la fois du disque dur classique et du disque SSD.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Il peut créer des volumes répartis sur plusieurs disques. La taille des volumes peut être modifiée après leur création.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Cette opération prépare un système de fichiers d'une partition pour le stockage des fichiers.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Elle est utilisée pour le démarrage de l'ordinateur et contient les fichiers de démarrage et les fichiers système. Il ne peut y en avoir qu'une seule par disque.]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[Il utilise une mémoire Flash à hautes performances pour assurer le stockage rapide des données sans les pièces mobiles des disques durs.]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[Il ne peut y en avoir qu'une seule par disque dur et elle peut être divisée en sections plus petites.]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[Support de stockage de données pouvant être effacé et réinscrit électriquement.]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[Il contient les partitions principales et étendues, ainsi que les lecteurs logiques. Il contient quatre partitions au maximum.]]></text> 
+</component>
+</textcomponents>

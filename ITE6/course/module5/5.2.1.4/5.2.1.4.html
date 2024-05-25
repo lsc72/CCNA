@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.4 Systèmes de fichiers</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Systèmes de fichiers</h1>
+        <div>
+          <p>Une nouvelle installation d'un système d'exploitation se déroule comme si le disque était neuf. Aucune information présente sur la partition cible n'est conservée. La première étape de la procédure d'installation consiste à partitionner et à formater le disque dur. Cette procédure prépare le disque à accepter le nouveau système de fichiers. Le système de fichiers fournit la structure des répertoires qui organise le système d'exploitation, les applications, la configuration et les fichiers de données de l'utilisateur. Il existe de nombreux types de systèmes de fichiers différents, chacun d'entre eux possédant sa propre structure et sa propre logique. Ces systèmes de fichiers diffèrent également en termes de vitesse, de flexibilité, de sécurité, de taille, etc. Les cinq systèmes de fichiers les plus courants sont les suivants :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Table d'allocation de fichiers 32 bits (FAT32)</b> : prend en charge des partitions dont la taille peut atteindre 2 To ou 2 048 Go. Le système de fichiers FAT32 est utilisé par Windows XP et les systèmes d'exploitation antérieurs.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NTFS (New Technology File System)</b> : peut théoriquement prendre en charge des tailles de partition allant jusqu'à 16 exaoctets. NTFS intègre des fonctions de sécurité du système de fichiers ainsi que des attributs étendus. Windows 8.1, Windows 7 et Windows Vista créent automatiquement une partition exploitant l'intégralité du disque dur. Si l'utilisateur ne crée pas de partitions personnalisées à l'aide de l'option <b>Nouveau</b>, comme le montre l'illustration ci-contre, le système formate la partition et commence l'installation de Windows. Si l'utilisateur crée une partition, il peut déterminer sa taille.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>exFAT (FAT 64)</b> : créé pour pallier certaines limitations des systèmes de fichiers FAT, FAT32 et NTFS en matière de formatage de clés USB (par exemple, la taille des fichiers et des répertoires). L'un des principaux avantages du système de fichiers exFAT est qu'il peut prendre en charge des fichiers dont la taille est supérieure à 4 Go.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>CDFS (Compact Disc File System)</b> : créé spécifiquement pour les disques optiques.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NFS (Network File System)</b> : le système de fichiers NFS est un système de fichiers réseau, qui permet d'accéder à des fichiers par l'intermédiaire d'un réseau. Du point de vue de l'utilisateur, il n'y a pas de différence entre le fait d'accéder à un fichier stocké en local ou sur un autre ordinateur du réseau. La norme NFS est une norme ouverte qui permet à quiconque de la mettre en œuvre.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Formatage rapide et formatage complet</b>
+          </p>
+          <p></p>
+          <p>Le formatage rapide supprime les fichiers de la partition, mais n'analyse pas le disque en vue d'y détecter d'éventuels secteurs défectueux. Cette analyse peut protéger l'intégrité des données par la suite. Pour cette raison, n'utilisez pas le formatage rapide pour des disques ayant déjà été formatés. Bien qu'il soit possible d'effectuer le formatage rapide d'une partition ou d'un disque une fois le système d'exploitation installé, l'option de formatage rapide n'est pas disponible lors de l'installation de Windows 8.1, Windows 7 ni Windows Vista.</p>
+          <p></p>
+          <p>Le formatage complet supprime les fichiers de la partition et analyse le disque pour détecter les secteurs défectueux. Cette analyse est nécessaire pour tous les nouveaux disques durs. Le formatage complet est cependant plus lent.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 5 : vérifier l'intégralité des fonctionnalités du système et, le cas échéant, implémenter des mesures préventives</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable">
+                <td bgcolor='#E9E7E8' width="150">Vérifier le fonctionnement du système complet</td>
+				
+                <td bgcolor='#E9E7E8'>
+					<textformat blockindent='-18'><ul><li>Relancer l'analyse de l'ordinateur afin de vérifier qu'il ne reste pas de virus</li>
+					<li>Relancer l'analyse de l'ordinateur afin de vérifier qu'il ne reste plus de logiciel espion</li>
+					<li>Consulter les journaux du logiciel de sécurité afin de s'assurer qu'aucun problème ne subsiste</li>
+					<li>Rechercher les derniers correctifs et les dernières mises à jour pour le système d'exploitation de l'ordinateur</li>
+					<li>Tester la connectivité réseau et Internet</li>
+					<li>S'assurer que toutes les applications fonctionnent</li>
+					<li>Vérifier l'accès aux ressources autorisées comme les imprimantes partagées et les bases de données</li>
+					<li>S'assurer que les entrées sont sécurisées</li>
+					<li>S'assurer que la stratégie de sécurité est appliquée</li></ul></textformat>
+				</td>
+            </tr>
+ 
+            
+        </table>]]></text>
+    </component>
+	
+</textcomponents>

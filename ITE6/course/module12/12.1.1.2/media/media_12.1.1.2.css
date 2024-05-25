@@ -1,0 +1,22 @@
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+#htmlMedia {
+	width: 600px;
+	height: 400px;
+}
+#dnd_1_drag_2_0>div,#dnd_1_drag_0_0>div,#dnd_1_drag_1_0>div,#dnd_1_drag_3_0>div,#dnd_1_drag_4_0>div,#dnd_2_drag_0_0>div,#dnd_2_drag_1_0>div,#dnd_2_drag_2_0>div,#dnd_2_drag_3_0>div{
+	margin-left:3px!important;
+}
+
+
+
+
+
+@media only screen and (device-width: 768px) {
+#ID_s1_target_header{
+letter-spacing:-0.8px !important;
+line-height: 11px !important;
+margin-top: 5px !important;
+}
+}

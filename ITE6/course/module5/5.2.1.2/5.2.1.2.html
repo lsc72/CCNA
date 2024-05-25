@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.2 Partitionnement du disque dur</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Partitionnement du disque dur</h1>
+        <div>
+          <p>Un disque dur est divisé en zones appelées partitions. Une partition est une unité de stockage logique, qui peut être formatée pour stocker des informations telles que des fichiers de données ou des applications. Si vous comparez un disque dur à une armoire en bois, les partitions en sont les étagères. Pendant la phase d'installation, la plupart des systèmes d'exploitation partitionnent et formatent automatiquement l'espace disque.</p>
+          <p></p>
+          <p>Le partitionnement d'un disque est un processus simple, mais pour garantir un démarrage réussi, le micrologiciel doit savoir exactement sur quel disque et quelle partition de ce disque un système d'exploitation est installé.</p>
+          <p></p>
+          <p>Les technologies BIOS (Basic Input/Output System) et UEFI (Unified Extensible Firmware Interface) sont deux types de micrologiciels utilisés dans les ordinateurs personnels ; BIOS est une technologie ancienne tandis qu'UEFI en est le remplaçant moderne. L'UEFI apporte une solution à de nombreux défauts du BIOS. Un micrologiciel UEFI effectue les mêmes fonctions que le BIOS, et bien d'autres. Depuis 2015, les cartes mères des ordinateurs personnels modernes sont livrées exclusivement avec l'UEFI.</p>
+          <p></p>
+          <p>Lorsqu'un ordinateur est mis sous tension, il exécute le micrologiciel. Ce dernier exécute tout d'abord un certain nombre de tests afin de vérifier que les composants importants de l'ordinateur, comme la carte vidéo ou la mémoire vive, sont présents et fonctionnels. Une fois ces tests terminés, le micrologiciel localise et charge le système d'exploitation en mémoire vive à partir du disque en vue de l'exécuter.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : les différences de fonctionnement entre le BIOS et l'UEFI durant le test automatique (POST) sortent du cadre de ce cours.</p>
+          <p></p>
+          <p>Pour détecter un système d'exploitation, un micrologiciel basé sur le BIOS inspecte le tout début du premier disque installé. Cette zone, appelée secteur de démarrage, est spécifiquement conçue pour permettre au BIOS d'obtenir des informations sur les partitions et sur l'emplacement du système d'exploitation. Le BIOS recherche en fait dans le secteur de démarrage un petit programme appelé chargeur de démarrage. Le chargeur de démarrage est un programme qui connaît l'emplacement du système d'exploitation sur le disque et qui sait comment le démarrer. Notez qu'un micrologiciel de type BIOS ne possède aucune information sur les partitions ni sur le système d'exploitation lui-même ; le BIOS tente simplement de trouver un chargeur de démarrage valide au début du premier disque et de l'exécuter.</p>
+          <p></p>
+          <p>Le micrologiciel UEFI est beaucoup plus intelligent que le BIOS. En effet, l'UEFI sait tout des disques et des systèmes d'exploitation installés. Conçu comme une norme par Intel et géré par diverses entreprises telles qu'Intel, Microsoft, Apple et AMD, la technologie UEFI est capable de comprendre des partitions simples et d'exécuter le code du chargeur de démarrage qu'elles contiennent. Cela peut sembler être un détail, mais augmente en fait considérablement la fiabilité du processus de démarrage par rapport au BIOS. Autre amélioration clé de l'UEFI par rapport au BIOS : l'UEFI sait quels systèmes d'exploitation sont installés et connaît leur emplacement sur le disque. Avec l'UEFI, les systèmes d'exploitation peuvent s'ajouter eux-mêmes à la séquence de démarrage. </p>
+          <p></p>
+          <p>Comme mentionné plus haut, un système d'exploitation est stocké dans une partition de disque et un disque divisé en plusieurs partitions peut contenir plusieurs systèmes d'exploitation. Le schéma de partitionnement influence directement l'emplacement des systèmes d'exploitation sur le disque. La recherche et le démarrage du système d'exploitation constituent l'une des tâches du micrologiciel d'un ordinateur. Le schéma de partitionnement est très important pour le micrologiciel. MBR et GPT sont deux normes de partitionnement populaires.</p>
+          <p></p>
+          <p>
+            <b>Enregistrement de démarrage principal (MBR)</b>
+          </p>
+          <p>Introduit publiquement en 1983, l'enregistrement de démarrage principal (MBR) contient des informations sur l'organisation des partitions du disque dur. D'une longueur de 512 octets, le MBR contient le chargeur de démarrage, un programme exécutable permettant à l'utilisateur de choisir parmi plusieurs systèmes d'exploitation. La technologie MBR est devenue la norme de facto, mais elle présente des limites qui se devaient d'être éliminées. La norme MBR est couramment utilisée dans les ordinateurs équipés d'un micrologiciel basé sur le BIOS.</p>
+          <p></p>
+          <p>
+            <b>Table de partition GUID</b>
+          </p>
+          <p>Également conçue comme une norme de schéma de table de partition pour les disques durs, la table de partition d'identificateur global unique (GUID) ou GPT utilise un certain nombre de techniques modernes visant à améliorer l'ancien schéma de partitionnement MBR. La norme GPT est couramment utilisée dans les ordinateurs équipés d'un micrologiciel basé sur l'UEFI. La plupart des systèmes d'exploitation modernes prennent aujourd'hui en charge la norme GPT. </p>
+          <p></p>
+          <p>L'illustration ci-contre compare les normes MBR et GPT.</p>
+          <p></p>
+          <p>Un technicien doit comprendre la procédure de configuration d'un disque dur et les termes s'y rapportant.</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Partition principale</b> : la partition principale contient les fichiers du système d'exploitation et il s'agit généralement de la première partition. La partition principale ne peut pas être divisée en sections plus petites. Sur un disque partitionné GPT, toutes les partitions sont des partitions principales. Sur un disque partitionné MBR, il peut y avoir un maximum de quatre partitions.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Partition active</b> : dans le cas des disques MBR, la partition active est la partition utilisée pour stocker et démarrer le système d'exploitation. Notez que seules les partitions principales peuvent être marquées comme étant actives dans les disques MBR. Autre limite : une seule partition principale à la fois par disque peut être marquée comme étant active. Dans la plupart des cas, le lecteur C: est la partition active et elle contient les fichiers de démarrage et les fichiers système. Certains utilisateurs créent des partitions supplémentaires pour organiser les fichiers ou pour pouvoir démarrer l'ordinateur depuis une autre partition. Les partitions actives ne sont présentes que sur les disques disposant de tables de partition MBR.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Partition étendue</b> : si plus de 4 partitions sont nécessaires sur un disque partitionné MBR, l'une de ces partitions principales peut être désignée comme étant une partition étendue. Après la création de la partition étendue, un maximum de 23 lecteurs (ou partitions) logiques peut être créé au sein de la partition étendue. Il est courant de créer une partition principale pour le système d'exploitation (lecteur C:) et de permettre à une partition étendue d'occuper l'espace libre restant sur le disque dur. Des partitions supplémentaires peuvent également être créées au sein de la partition étendue (lecteurs D:, E:, etc.). Les lecteurs logiques ne peuvent pas être utilisés pour démarrer un système d'exploitation, mais ils conviennent parfaitement au stockage des données utilisateur. Notez qu'il ne peut y avoir qu'une seule partition étendue par disque dur MBR et que les partitions étendues n'existent que sur les lecteurs disposant de tables de partition MBR.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Lecteur logique</b> : section d'une partition étendue. Un lecteur logique peut être utilisé pour séparer des informations à des fins d'administration. Étant donné que les lecteurs partitionnés GPT ne peuvent pas posséder de partitions étendues, ils ne possèdent pas non plus de lecteurs logiques.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Disque de base</b> : un disque de base (statut par défaut) contient des partitions telles que les partitions principales et étendues, ainsi que les lecteurs logiques formatés pour le stockage des données. Il est possible d'ajouter de l'espace à une partition en lui intégrant un espace adjacent non alloué, pour autant que cet espace lui soit contigu. Il est possible d'utiliser le partitionnement MBR ou GPT comme schéma de partition sous-jacent des disques de base.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Disque dynamique</b> : un disque dynamique offre des fonctionnalités non prises en charge par un disque de base. Un disque dynamique peut créer des volumes répartis sur plusieurs disques. La taille des partitions peut être modifiée après leur création, même si l'espace non alloué n'est pas contigu. De l'espace libre peut être ajouté à partir du même ou d'un autre disque, ce qui permet à l'utilisateur de stocker efficacement des fichiers volumineux. Une fois étendue, la partition ne peut pas être réduite. Il faut la supprimer entièrement. Il est possible d'utiliser le partitionnement MBR ou GPT comme schéma de partition des disques dynamiques.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Formatage</b> : cette opération crée un système de fichiers dans une partition pour le stockage des fichiers.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' ><font color='#FFFFFF'><b>Identifier le problème</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Le système d'exploitation est bloqué.</td>
+  <td bgcolor='#E9E7E8'><ul><li>L'ordinateur est en surchauffe.</li><li>Certains fichiers du système d'exploitation sont peut-être endommagés.</li><li>L'alimentation, la mémoire vive, le disque dur ou la carte mère sont peut-être défectueux.</li><li>Les paramètres du BIOS sont peut-être incorrects.</li><li>Un événement non identifié cause le blocage du système d'exploitation.</li><li>Un pilote incorrect a été installé.</li></ul></td>
+  <td bgcolor='#E9E7E8'><ul><li>Nettoyer les composants internes.</li><li>Vérifier les connexions des ventilateurs et s'assurer que ces derniers fonctionnent correctement.</li><li>Exécuter le Vérificateur des fichiers système pour remplacer les fichiers du système d'exploitation endommagés.</li><li>Tester l'alimentation, la mémoire vive, le disque dur ou la carte mère à l'aide d'un logiciel de diagnostic tiers et les remplacer si nécessaire.</li><li>Examiner et ajuster les paramètres du BIOS.</li><li>Consulter et gérer les événements répertoriés dans le journal des événements.</li><li>Installer les pilotes mis à jour, ou rétablir la version précédente.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Le clavier ou la souris ne répond pas.</td>
+  <td bgcolor='#F2F2F2'><ul><li>Le pilote de l'ordinateur est incompatible ou trop ancien.</li><li>Le câble est endommagé ou déconnecté.</li><li>Le périphérique est défectueux.</li><li>L'ordinateur actif ne s'affiche pas alors qu'un commutateur KVM est utilisé.</li><li>Le clavier sans fil ou la souris ne répond pas.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Redémarrer l'ordinateur.</li><li>Installer les pilotes mis à jour, ou rétablir la version précédente.</li><li>Remplacer ou reconnecter le câble.</li><li>Remplacer le périphérique.</li><li>Modifier l'entrée sur le commutateur KVM.</li><li>Remplacer la batterie.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Le système d'exploitation ne démarre pas.</td>
+		<td bgcolor='#E9E7E8'><ul><li>L'initialisation d'un équipement a échoué.</li><li>Certains fichiers du système d'exploitation sont peut-être endommagés.</li><li>Le secteur de démarrage est corrompu.</li><li>L'alimentation, la mémoire vive, le disque dur ou la carte mère sont peut-être défectueux.</li><li>Les nouveaux pilotes du matériel ne sont pas correctement installés.</li><li>Des mises à jour Windows ont endommagé le système d'exploitation.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Redémarrer l'ordinateur.</li><li>Restaurer Windows à l'aide de l'outil Restauration du système</li><li>Récupérer le disque système à l'aide de l'outil Récupération de l'image système.</li><li>Effectuer une réparation de l'installation du système d'exploitation.</li><li>Utiliser l'environnement de récupération pour réparer le secteur de démarrage.</li><li>Remplacer l'alimentation, la mémoire vive, le disque dur ou la carte mère.</li><li>Déconnecter les derniers périphériques connectés et utiliser la dernière configuration correcte connue pour redémarrer le système d'exploitation.</li><li>Démarrer l'ordinateur en mode sans échec et consulter et gérer tous les événements consignés dans le journal des événements.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur affiche une erreur indiquant que le disque de démarrage n'est pas valide après le test POST.</td>
+		<td bgcolor='#F2F2F2'><ul><li>L'ordre de démarrage n'est pas défini correctement dans le BIOS.</li><li>Le disque dur n'est pas détecté.</li><li>Aucun système d'exploitation n'est installé sur le disque dur.</li><li>Le MBR (Master Boot Record) est endommagé.</li><li>Le GPT est endommagé.</li><li>Il y a un virus dans le secteur de démarrage.</li><li>Le disque dur est hors service.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Modifier l'ordre de démarrage dans le BIOS afin de démarrer à partir du disque de démarrage.</li><li>Reconnecter les câbles du disque dur.</li><li>Installer un système d'exploitation.</li><li>À partir d'un disque de réparation système, exécuter bootrec /FixMbr pour réparer le MBR.</li><li>À partir d'un disque de réparation système, exécuter DISKPART pour réparer le GPT (ou le MBR).</li><li>Exécuter le logiciel antivirus.</li><li>Remplacer le disque dur.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur affiche l'erreur « BOOTMGR manquant » après le test POST.</td>
+		<td bgcolor='#E9E7E8'><ul><li>BOOTMGR est manquant ou endommagé.</li><li>Les données de configuration de démarrage sont manquantes ou endommagées.</li><li>L'ordre de démarrage n'est pas défini correctement dans le BIOS.</li><li>Le MBR (Master Boot Record) est endommagé.</li><li>Le disque dur est hors service.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Restaurer BOOTMGR à partir du support d'installation.</li><li>Restaurer les données de configuration de démarrage à partir du support d'installation.</li><li>Modifier l'ordre de démarrage dans le BIOS afin de démarrer à partir du disque de démarrage.</li><li>Exécuter bootrec /FixMbr à partir de l'environnement de récupération.</li><li>Exécuter chkdsk /F /R à partir de l'environnement de récupération.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Un service n'a pas pu démarrer lors du démarrage de l'ordinateur.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Le service n'est pas activé.</li><li>Le service est défini sur la valeur Manuel.</li><li>Le service défaillant requiert l'activation d'un autre service.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Activer le service.</li><li>Mettre le service en mode Automatique.</li><li>Réactiver le service requis.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Un périphérique n'a pas pu démarrer lors du démarrage de l'ordinateur.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Le périphérique externe n'est pas sous tension.</li><li>Le câble de données ou le câble d'alimentation n'est pas connecté au périphérique.</li><li>Le périphérique a été désactivé dans le BIOS.</li><li>Le périphérique est défectueux.</li><li>Le périphérique est en conflit avec un nouveau périphérique installé.</li><li>Le pilote est endommagé.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Mettre le périphérique externe sous tension.</li><li>Connecter le câble de données et le câble d'alimentation au périphérique.</li><li>Activer le périphérique dans le BIOS.</li><li>Remplacer le périphérique.</li><li>Supprimer le nouveau périphérique installé.</li><li>Réinstaller le pilote ou la version précédente du pilote.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur redémarre continuellement sans afficher le Bureau.</td>
+		<td bgcolor='#F2F2F2'><ul><li>L'ordinateur est configuré pour redémarrer en cas de défaillance.</li><li>Un fichier de démarrage est endommagé.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Appuyer sur F8 pour ouvrir le menu des options avancées, et choisir Désactiver le redémarrage automatique en cas d'échec du système.</li><li>Exécuter chkdsk /F /R à partir de l'environnement de récupération.</li><li>Utiliser l'environnement de récupération pour effectuer une réparation automatique ou une restauration du système.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur affiche un écran noir ou bleu.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Un pilote n'est pas compatible avec le matériel.</li><li>La mémoire vive présente des défaillances.</li><li>L'alimentation est défectueuse.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Rechercher l'erreur STOP et le nom du module qui a généré l'erreur.</li><li>Remplacer les appareils défectueux par des appareils qui fonctionnent.</li><li>Effectuer une vérification de la mémoire.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur se bloque sans afficher de message d'erreur.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Les paramètres du processeur ou du FSB sont incorrects sur la carte mère ou dans le BIOS.</li><li>L'ordinateur est en surchauffe.</li><li>Une mise à jour a corrompu le système d'exploitation.</li><li>La mémoire vive présente des défaillances.</li><li>L'alimentation est défectueuse.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Réinitialiser les paramètres du processeur et du FSB.</li><li>Vérifier et remplacer les dispositifs de refroidissement si nécessaire.</li><li>Désinstaller la mise à jour du logiciel, ou effectuer une restauration du système.</li><li>Exécuter chkdsk /F /R à partir de l'environnement de récupération.</li><li>Remplacer les appareils défectueux par des appareils qui fonctionnent.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Une application ne s'installe pas.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Le programme d'installation de l'application téléchargée contient un virus, et son installation a été interrompue par un logiciel antivirus.</li><li>Le disque ou le fichier d'installation est endommagé.</li><li>Le programme d'installation n'est pas compatible avec le système d'exploitation.</li><li>Le matériel ne correspond pas à la configuration minimale requise.</li><li>Le logiciel sur lequel l'application repose n'est pas installé.</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>Obtenir un nouveau disque d'installation, ou supprimer le fichier et retélécharger le fichier d'installation.</li><li>Exécuter le programme d'installation en mode de compatibilité.</li><li>Installer les composants matériels nécessaires pour respecter la configuration minimale.</li><li>Installer le logiciel sur lequel l'application repose.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Un ordinateur équipé de Windows 7 n'exécute pas Aero.</td>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne respecte pas la configuration matérielle minimale requise pour exécuter Aero.</td>		
+		<td bgcolor='#F2F2F2'>Mettre à niveau le processeur, la mémoire vive et la carte vidéo pour atteindre la configuration minimale requise par Microsoft pour l'exécution d'Aero.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Le contrôle de compte d'utilisateur (UAC) n'interroge plus l'utilisateur concernant les autorisations.</td>
+		<td bgcolor='#E9E7E8'>Le contrôle de compte d'utilisateur (UAC) est désactivé.</td>
+		<td bgcolor='#E9E7E8'>Activer le contrôle de compte d'utilisateur (UAC) dans l'applet Compte d'utilisateur, dans le Panneau de configuration.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Aucun gadget n'apparaît sur le Bureau.</td>
+		<td bgcolor='#F2F2F2'><ul><li>Les gadgets n'ont jamais été installés ou ont été désinstallés.</li><li>Le code XML nécessaire au rendu du gadget est brisé, endommagé ou n'est pas installé.</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>Cliquer avec le bouton droit sur le Bureau > Gadgets > Cliquer avec le bouton droit sur un gadget > Ajouter.</li><li>Enregistrer le fichier msxml3.dll en saisissant regsvr32 msxml3.dll à l'invite de commandes, puis en appuyant sur Entrée.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur fonctionne au ralenti et met du temps à répondre.</td>
+		<td bgcolor='#E9E7E8'>Un processus en cours utilise la plupart des ressources du processeur.</td>
+		<td bgcolor='#E9E7E8'><ul><li>Redémarrer le processus à l'aide de la console des services (services.msc).</li><li>Si le processus n'est pas nécessaire, y mettre fin à l'aide du Gestionnaire des tâches.</li><li>Redémarrer l'ordinateur.</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Après une mise à niveau vers Windows 7 ou Windows Vista, l'ordinateur fonctionne très lentement.</td>
+		<td bgcolor='#F2F2F2'>Aero ralentit l'ordinateur.</td>		
+		<td bgcolor='#F2F2F2'>Désactiver l'option Aero</td>
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

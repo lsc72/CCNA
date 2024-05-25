@@ -1,0 +1,31 @@
+﻿<textcomponents>
+
+
+
+ <component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable"><!--<tr>
+		<td bgcolor='#98D3D1' valign="top"><font color='#1C3635'><b>Bit Value</b></font></td>
+	</tr>--><tr>
+		<td  bgcolor='#FFFFFF' valign="top"><font size='16' class="mtitle"><b>Étape 5 : vérifier l'intégralité des fonctionnalités du système et, le cas échéant, implémenter des mesures préventives</b></font></td>
+			
+	</tr>
+	<tr class="mtable_top">
+		<td bgcolor='#4E4C4D' class="mtable_top" ><font size='2' color='#4E4C4D'><span style="color:#ffffff">.</span></font></td>
+	</tr>
+	
+	<tr>  
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'><textformat blockindent='-18'><li>Redémarrer l'ordinateur</li>
+			<li>S'assurer que les diverses applications fonctionnent correctement</li>
+			<li>Vérifier les connexions réseau et Internet</li>
+			<li>Imprimer un document à partir d'une application</li>
+			<li>S'assurer que tous les périphériques reliés fonctionnent correctement</li>
+			<li>S'assurer qu'aucun message d'erreur n'a été reçu</li></textformat></font></td>		 
+	</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

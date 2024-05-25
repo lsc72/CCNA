@@ -1,0 +1,49 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+	<component id="ID_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Processeurs multicœurs</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="160"><font color='#FFFFFF' ><b>Nombre de cœurs</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Processeur monocœur</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Un seul cœur à l'intérieur d'un processeur unique pour gérer tout le traitement. Une de carte mère peut comporter des sockets pour plusieurs processeurs, ce qui permet de créer un ordinateur multiprocesseur puissant.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Processeur à double cœur</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Deux cœurs dans le même processeur, où ils peuvent traiter les informations simultanément.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Processeur à triple cœur</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Trois cœurs dans le même processeur. Il s'agit en fait d'un processeur à quatre cœurs dont l'un des cœurs a été désactivé.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Processeur à quatre cœurs</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Quatre cœurs dans le même processeur.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Processeur à six cœurs</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >Six cœurs dans le même processeur.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Processeur à huit cœurs</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >Huit cœurs dans le même processeur.</font></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+
+</textcomponents>

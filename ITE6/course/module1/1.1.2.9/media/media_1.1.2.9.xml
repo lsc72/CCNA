@@ -1,0 +1,86 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Périphériques de stockage</b>]]></text>
+	</component>
+    
+	<component id="ID_s1_txt01">
+        <text><![CDATA[Disque dur]]></text>
+	</component>
+    
+	<component id="ID_s1_txt02">
+        <text><![CDATA[Lecteur optique]]></text>
+	</component>
+    
+	<component id="ID_s1_txt03">
+        <text><![CDATA[Disque SSD]]></text>
+	</component>
+    
+	<component id="ID_s1_txt04">
+        <text><![CDATA[Lecteur Flash externe]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Types de support optique</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="70" valign="top"><font color='#FFFFFF' ><b>Support optique</b></font></td>
+			<td bgcolor='#666263' width="380" valign="top"><font color='#FFFFFF' ><b>Description</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Capacité de stockage</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>CD-ROM</td>
+			<td bgcolor='#E9E7E8'>CD à mémoire morte et en lecture seule sur lequel des données ont été préenregistrées</td>
+			<td bgcolor='#E9E7E8' rowspan="3">700 Mo</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>CD-R</td>
+			<td bgcolor='#F2F2F2'>CD enregistrable pouvant être enregistré une seule fois</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>CD-RW</td>
+			<td bgcolor='#E9E7E8'>CD réinscriptible pouvant être enregistré, effacé et réenregistré</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>DVD-ROM</td>
+			<td bgcolor='#F2F2F2'>DVD à mémoire morte et en lecture seule sur lequel des données ont été préenregistrées</td>
+			<td bgcolor='#F2F2F2' rowspan="4">4,7 Go (monocouche) 8,5 Go (double couche)</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DVD-RAM</td>
+			<td bgcolor='#E9E7E8'>DVD réinscriptible pouvant être enregistré, effacé et réenregistré</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>DVD+/-R</td>
+			<td bgcolor='#F2F2F2'>DVD enregistrable pouvant être enregistré une seule fois</td>
+		</tr>	
+		<tr>
+			<td bgcolor='#E9E7E8'>DVD+/-RW</td>
+			<td bgcolor='#E9E7E8'>DVD réinscriptible pouvant être enregistré, effacé et réenregistré</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>BD-ROM</td>
+			<td bgcolor='#F2F2F2'>Disque Blu-ray en lecture seule, sur lequel ont été préenregistrés des films, des jeux ou des logiciels</td>
+			<td bgcolor='#E9E7E8' rowspan="3">25 Go (monocouche) 50 Go (double couche)</td>
+		</tr>
+        <tr>
+			<td bgcolor='#E9E7E8'>BD-R</td>
+			<td bgcolor='#E9E7E8'>Blu-ray enregistrable pouvant être enregistré une seule fois</td>
+		</tr>
+        <tr>
+			<td bgcolor='#F2F2F2'>BD-RE</td>
+			<td bgcolor='#F2F2F2'>Blu-ray réinscriptible pouvant être enregistré, effacé et réenregistré</td>
+		</tr>	
+	</table>]]></text> 
+</component>
+</textcomponents>

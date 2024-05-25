@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.3.2 Commandes d&#x0027;administration</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commandes d&#x0027;administration</h1>
+        <div>
+          <p>Afin d'organiser le système et de renforcer les limites dans le système, UNIX utilise des autorisations de fichier. Les autorisations de fichier sont intégrées à la structure du système de fichiers et offrent un mécanisme permettant de définir des autorisations pour chaque fichier. Chaque fichier sur les systèmes UNIX contient ses propres autorisations, qui limitent les actions que le propriétaire, le groupe et les autres utilisateurs peuvent effectuer sur le fichier. Les autorisations possibles sont Lecture, Écriture et Exécution. La commande <b>ls</b> et le paramètre <b>–l</b> permettant d'obtenir plus d'informations sur le fichier, examinez le résultat de la commande <b>ls –l</b> qui suit :</p>
+          <p></p>
+          <p>
+            <b>rod@machine: $ ls –l my_awesome_file</b>
+          </p>
+          <p></p>
+          <p>
+            <b>-rwxrw-r-- 1 rod staff 1108485 Aug 14 7:34 My_Awesome_File </b>
+          </p>
+          <p></p>
+          <p>
+            <b>rod@machine: $</b>
+          </p>
+          <p></p>
+          <p>Le résultat ci-dessus fournit de nombreuses informations sur le fichier <b>My_Awesome_File</b>.</p>
+          <p></p>
+          <p>La première partie du résultat affiche les autorisations associées à <b>My_Awesome_File</b>. Les autorisations de fichiers sont toujours affichées dans l'ordre utilisateur, groupe et autre, ce qui nous amène à la conclusion suivante pour <b>My_Awesome_File</b> :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>L'utilisateur propriétaire du fichier peut lire (r) le fichier, écrire (w) dedans et l'exécuter (x), c'est ce qu'indique « rwx ».</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Le groupe propriétaire du fichier peut lire (r) le fichier et écrire (w) dedans, c'est ce qu'indique « rw- ».</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Tout autre utilisateur ou groupe du système peut uniquement lire le fichier, c'est ce qu'indique « r-- ».</li>
+            </ul>
+          </p>
+          <p>La deuxième partie correspond au nombre de liens fixes vers le fichier, dans le cas présent, 1. Cette partie n'est pas abordée dans ce cours.</p>
+          <p></p>
+          <p>La troisième partie contient le nom d'utilisateur du propriétaire du fichier. La quatrième partie contient le nom du groupe propriétaire du fichier. Dans le cas présent, l'utilisateur <b>rod</b> et le groupe <b>staff</b> disposent tous les deux d'un certain niveau de propriété sur le fichier.</p>
+          <p></p>
+          <p>La cinquième partie contient la taille du fichier en octets. Le fichier <b>My_Awesome_File</b> utilise 1108485 octets, soit environ 1,1 Mo.</p>
+          <p></p>
+          <p>La sixième partie contient la date et l'heure de la dernière modification. </p>
+          <p></p>
+          <p>La septième partie contient le nom du fichier.</p>
+          <p></p>
+          <p>L'illustration 1 présente le détail des autorisations de fichier UNIX.</p>
+          <p></p>
+          <p>Le seul utilisateur capable de contourner les autorisations d'accès aux fichiers dans UNIX est l'utilisateur racine. Puisqu'il est en mesure de contourner les autorisations sur les fichiers, l'utilisateur racine peut écrire dans n'importe quel fichier. Et comme tout est traité sous forme de fichiers, l'utilisateur racine dispose d'un contrôle total sur le système d'exploitation UNIX. L'accès à la racine est souvent nécessaire avant d'effectuer les tâches de maintenance et d'administration.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : comme Linux et OS X sont basés sur UNIX, ces deux systèmes d'exploitation sont totalement conformes au système UNIX d'autorisation sur les fichiers.</p>
+          <p></p>
+          <p>L'illustration 2 présente quelques outils administratifs de ligne de commande. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

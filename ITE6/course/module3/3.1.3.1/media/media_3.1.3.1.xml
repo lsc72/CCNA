@@ -1,0 +1,55 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Types de baies de lecteur/disque</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Insérer le disque dur dans la baie</b>]]></text>
+	</component>	
+	
+	<component id="ID_txt01">
+	<text><![CDATA[Trou de vis dans le boîtier]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[Trou de vis sur le disque dur]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Fixer le disque dur</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Largeur de la baie de lecteur/disque</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>5,25 pouces<br/>(13,34 cm)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Format couramment utilisé pour les lecteurs optiques.</li><li>La plupart des boîtiers tours standard possèdent deux baies ou plus.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>3,5 pouces<br/>(8,9 cm)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Format couramment utilisé pour les disques durs de 3,5 pouces.</li><li>Offre des ports USB supplémentaires ou des lecteurs de carte à puce.</li><li>La plupart des boîtiers tours standard possèdent deux baies internes ou plus.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>2,5 pouces<br/>(6,35 cm)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Destiné aux disques durs et disques SSD de 2,5 pouces.</li><li>La plus petite largeur de baie.</li><li>De plus en plus utilisé dans les nouveaux boîtiers.</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+</textcomponents>

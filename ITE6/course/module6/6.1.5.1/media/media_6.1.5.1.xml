@@ -1,0 +1,134 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Commandes usuelles de l'interface en ligne de commande</b>]]></text>
+</component>
+<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="160" valign="top"><font color='#FFFFFF' ><b>Commande</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>Fonction</b></font></td>
+		</tr>
+
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Help [nom de commande]</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Fournit des informations spécifiques pour la commande de l'interface en ligne de commande indiquée. Vous pouvez également utiliser [nom de commande] / ?.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Taskkill</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Arrête une application en cours.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Bootrec</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Répare l'enregistrement de démarrage principal (MBR).</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Arrêter</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Éteint un ordinateur (en local ou à distance).</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Tasklist</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Affiche les applications en cours d'exécution.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>MD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Crée un nouveau répertoire.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>RD</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Supprime un répertoire.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>CD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Accède à un répertoire différent.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DEL</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Supprime un fichier.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>FORMAT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Formate un disque dur, un point de montage ou un volume avec un système de fichiers.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>COPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copie les fichiers d'un emplacement à un autre.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>XCOPY</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>Copie les fichiers, les répertoires ou les disques entiers d'un emplacement à un autre.</li>
+          <li>Copie un répertoire et son contenu d'un emplacement à un autre sauf si le répertoire est vide.</li>
+          <li>Copie uniquement les fichiers dont l'attribut d'archivage est défini.    </li>
+          <li>Copie et vérifie que chaque nouveau fichier est identique au fichier source.</li>
+           <li>Copie sans demander confirmation du remplacement des fichiers existants.</li></ul> </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>ROBOCOPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Copie un fichier.</font></td>
+        </tr>
+
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SFC</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Vérifie et remplace tous les fichiers système protégés par des versions correctes et appropriées s'ils ont été endommagés ou supprimés.</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>CHKDSK</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>Crée un rapport concernant le disque.</li><li> Répare les entrées de la table d'allocation de fichiers.</li>
+          <li>Essaie de récupérer les données des secteurs défectueux du disque.</li></ul></font></td>
+        </tr>
+		
+		
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RUNAS</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Permet à un utilisateur d'exécuter des outils et programmes spécifiques avec des autorisations différentes de celles fournies par la connexion actuelle.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>GPUPDATE</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Actualise les paramètres de stratégie de groupe, comme les paramètres de sécurité.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>GPRESULT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Affiche les paramètres de stratégie de groupe et le jeu de stratégie résultant (RSOP) d'un utilisateur ou d'un ordinateur.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DIR</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Affiche la liste des fichiers et des sous-répertoires d'un répertoire.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>QUITTER</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Quitte l'invite de commandes.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DÉVELOPPER</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Décompresse un ou plusieurs fichiers depuis les fichiers CAB.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RSTRUI</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Démarre l'utilitaire de restauration du système.</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>BOOTREC</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Répare les problèmes du secteur de démarrage empêchant Windows de démarrer. Cet outil n'est disponible que dans l'environnement de récupération. Pour en savoir plus, reportez-vous à l'aide relative à BOOTREC.</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>DEFRAG</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Optimise les fichiers sur les disques et améliore les performances du système.</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DISKPART</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Crée, supprime et redimensionne les partitions du disque dur. DISKPART peut également affecter ou réaffecter des lettres des lecteurs. Procédez avec la plus grande prudence lorsque vous travaillez avec DISKPART.</font></td>
+        </tr>
+    </table>
+]]>
+</text>
+</component>
+
+</textcomponents>

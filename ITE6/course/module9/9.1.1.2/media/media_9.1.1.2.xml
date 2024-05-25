@@ -1,0 +1,125 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+  <text><![CDATA[<b>Cliquez sur la zone en évidence pour obtenir des informations importantes. Cliquez à nouveau sur cette zone pour fermer la fenêtre d'informations. </b>]]></text> 
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>Ordinateur portable ouvert (vue de dessus)</b>]]></text>
+</component>
+
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[Clavier]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[Le clavier est un périphérique d'entrée compact disposant de touches multifonctions.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[Périphériques d'entrée]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[Les périphériques d'entrée sont le pavé tactile, qui est constitué des boutons clic droit et clic gauche, et un contrôleur de curseur. Pour un ordinateur portable, le pavé tactile et le contrôleur de curseur peuvent être utilisés à la place d'une souris.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[Lecteur d'empreintes digitales]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[Le lecteur d'empreintes digitales est un périphérique d'entrée utilisé pour l'authentification de sécurité.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt04'>
+	<text><![CDATA[Commandes de volume]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt04">
+<text><![CDATA[Les commandes de réglage du volume contrôlent la sortie audio.]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt05'>
+	<text><![CDATA[Bouton d'alimentation]]></text>
+
+</component>
+<component id="ID_s01_bodyTxt05">
+<text><![CDATA[Le bouton d'alimentation permet d'allumer et d'éteindre l'ordinateur portable.]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>Symboles de l'ordinateur portable</b>]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Voyant sans fil]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[La LED de la connexion sans fil signale l'activité de la connexion au réseau sans fil.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[LED d'état Bluetooth]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[La LED d'état Bluetooth indique si l'émetteur-récepteur Bluetooth est activé.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[LED de verrouillage du pavé numérique]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[La LED de verrouillage du pavé numérique indique l'état (verrouillé ou non) du pavé numérique à 10 touches.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt04'>
+	<text><![CDATA[LED de verrouillage des majuscules]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt04">
+<text><![CDATA[La LED de verrouillage des majuscules indique l'état (activé ou non) du verrouillage des majuscules.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt05'>
+	<text><![CDATA[LED d'activité du disque dur]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt05">
+<text><![CDATA[La LED d'activité du disque dur signale l'activité du disque dur.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt06'>
+	<text><![CDATA[LED de mise sous/hors tension]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt06">
+<text><![CDATA[La LED d'alimentation indique si l'ordinateur portable est allumé ou éteint.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt07'>
+	<text><![CDATA[LED d'état de la batterie]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt07">
+<text><![CDATA[La LED d'état de la batterie indique le niveau de charge de la batterie de l'ordinateur portable.]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt08'>
+	<text><![CDATA[LED de mise en veille prolongée ou de veille]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt08">
+<text><![CDATA[La LED de veille ou de veille prolongée indique si l'ordinateur est en veille ou s'il entre ou quitte le mode de veille prolongée.]]></text>
+</component><!-- end slide 2 --></textcomponents>

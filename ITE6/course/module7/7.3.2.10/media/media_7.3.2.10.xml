@@ -1,0 +1,53 @@
+<textcomponents>
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>Connecteurs à fibre optique</b>]]></text> 
+  </component>
+  <component id="ID_s1_txt01">
+  <text><![CDATA[Connecteurs ST]]></text> 
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[Connecteurs SC]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt03">
+  <text><![CDATA[Connecteur LC]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt04">
+  <text><![CDATA[Connecteurs LC bidirectionnels multimodes]]></text> 
+  </component>
+  
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[Connecteurs ST (Straight-Tip)]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[L'un des premiers types de connecteur utilisés. Ce connecteur offre un verrouillage sécurisé grâce à un mécanisme de type baïonnette à tourner.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[Connecteurs SC (Subscriber Connector)]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[Parfois appelé connecteur carré ou connecteur standard. Il s'agit d'un connecteur largement utilisé dans les réseaux locaux et étendus qui fait appel à un mécanisme d'encliquetage permettant de vérifier l'insertion. Ce type de connecteur est utilisé avec la fibre optique multimode et monomode.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[Connecteurs LC (Lucent Connector) unidirectionnels]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[Version réduite du connecteur à fibre optique SC. Il est parfois appelé petit connecteur ou connecteur local, il est de plus en plus répandu en raison de sa petite taille.]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[Connecteurs LC bidirectionnels multimodes]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[Similaire au connecteur LC unidirectionnel, mais avec un connecteur bidirectionnel.]]></text>
+	</component>
+  
+  	<component id="ID_s1_inst">
+		<text><![CDATA[Cliquez sur le bouton de chaque type de connecteur pour obtenir plus d'informations.]]></text>
+	</component>
+  
+ 
+</textcomponents>

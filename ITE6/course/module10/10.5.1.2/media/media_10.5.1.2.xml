@@ -1,0 +1,38 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Établir une théorie sur les causes probables</b>]]></text>
+	</component>
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 2. Établir une théorie sur les causes probables</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>Causes courantes des problèmes de système d'exploitation des appareils mobiles</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+				<li>L'appareil mobile ne peut pas envoyer ou recevoir d'e-mails.</li>
+				<li>Une application ne fonctionne plus.</li>
+				<li>Une application malveillante a été installée sur l'appareil (par sideloading).</li>
+				<li>L'appareil mobile ne répond plus.</li>
+				<li>Les applications ou les logiciels de l'appareil mobile ne sont pas à jour.</li>
+				<li>Un utilisateur a oublié son code secret.</li>
+			</textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Causes courantes des problèmes Linux ou OS X</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+				<li>L'ordinateur ne peut ni envoyer ni recevoir d'e-mails.</li>
+				<li>Une application ne fonctionne plus.</li>
+				<li>Une application malveillante a été installée.</li>
+				<li>L'ordinateur ne répond plus.</li>
+				<li>Le système d'exploitation n'est pas à jour.</li>
+				<li>L'utilisateur a oublié ses informations d'identification.</li>
+			</textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

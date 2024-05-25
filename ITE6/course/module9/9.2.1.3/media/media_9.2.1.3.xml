@@ -1,0 +1,97 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Exercice - Correspondance des normes ACPI</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Associez le terme à sa description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque norme ACPI à l'état de gestion de l'alimentation correspondant.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas correctement associé chaque norme ACPI à l'état de gestion de l'alimentation correspondant. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Norme ACPI</b></font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">S3</font>]]></text>
+</component>
+
+<component id='ID_drag06'>
+	<text><![CDATA[<font color="#393536">S5</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">S1</font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">S0</font>]]></text>
+</component>
+
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">S4</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">S2</font>]]></text>
+</component><!--Questions--><component id='ID_target_header'>
+	<text><![CDATA[<b>Norme ACPI</b>]]></text>
+</component>
+<component id='ID_text_header'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[Le processeur est hors tension, mais la mémoire vive est actualisée pour conserver le contenu.]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Le processeur et la mémoire vive sont hors tension. Le contenu de la mémoire vive a été enregistré dans un fichier temporaire sur le disque dur.]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[Le processeur n'exécute pas d'instructions ; néanmoins, le processeur et la mémoire vive sont toujours sous tension.]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[le processeur est hors tension et la mémoire vive est définie sur une fréquence d'actualisation faible.]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[L'ordinateur est éteint et le contenu qui n'a pas été enregistré est perdu.]]></text> 
+</component>
+
+<component id="ID_txt06">
+  <text><![CDATA[L'ordinateur est sous tension et le processeur fonctionne à pleine puissance.]]></text> 
+</component>
+
+   
+</textcomponents>

@@ -1,0 +1,82 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>Exemple d'attaque par manipulation psychologique</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01">
+<text><![CDATA[<font color="#FFFFFF">Bonjour, c’est Amy, du centre d’assistance. Nous devons mettre à niveau un logiciel sur votre ordinateur ce soir. Quel est votre ID d'utilisateur et votre mot de passe ? Vous pourrez changer votre mot de passe demain lorsque vous vous connecterez.</font>]]></text>
+</component>
+
+<component id="ID_s1_bubble02">
+<text><![CDATA[<font color="#FFFFFF">D'accord, voici mon ID d'utilisateur et mon mot de passe :</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[Pirate]]></text>
+</component>
+    
+<component id="ID_s1_txt02">
+  <text><![CDATA[Employé de l'entreprise XYZ peu méfiant.]]></text> 
+</component>
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>Techniques de manipulation psychologique</b>]]></text>
+	</component>
+	
+	    <component id="ID_s2_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Techniques</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Usurpation</td>
+                <td bgcolor='#E9E7E8'>Un pirate prétend avoir besoin de données personnelles ou financières pour confirmer l'identité du destinataire.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Hameçonnage</td>
+                <td bgcolor='#F2F2F2'>Le pirate envoie un e-mail frauduleux, mais qui a l'air de provenir d'une source légitime, digne de confiance. L'intention est d'amener le destinataire à installer des logiciels malveillants sur son appareil ou à partager des informations personnelles ou financières.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Hameçonnage ciblé</td>
+                <td bgcolor='#E9E7E8'>Le pirate crée une attaque d'hameçonnage ciblée, adaptée à une personne ou à une entité en particulier.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Spam</td>
+                <td bgcolor='#F2F2F2'>Le pirate utilise le spam pour amener l'utilisateur à cliquer sur un lien infecté ou à télécharger un fichier infecté.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Accès non autorisé</td>
+                <td bgcolor='#E9E7E8'>Un pirate pénètre rapidement derrière une personne autorisée dans un emplacement sécurisé. Le hacker a alors accès à une zone sécurisée.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#F2F2F2'>Échange de bons procédés (quid pro quo)</td>
+                <td bgcolor='#F2F2F2'>Un hacker exige des informations personnelles en échange d'un cadeau par exemple.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Appâtage</td>
+                <td bgcolor='#E9E7E8'>Le pirate laisse un équipement physique infecté, par exemple un lecteur Flash USB dans un lieu public, comme les sanitaires d'une entreprise. La personne qui le trouve le prend et le charge sur son ordinateur, installant ainsi des logiciels malveillants à son insu.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+
+</textcomponents>

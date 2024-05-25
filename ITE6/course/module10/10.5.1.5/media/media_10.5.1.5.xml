@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Vérifier le fonctionnement de l'ensemble du système</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 5. Vérifier le fonctionnement de l'ensemble du système et implémenter des mesures préventives s'il y a lieu</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>Vérifier la solution et le fonctionnement du système pour les systèmes d'exploitation d'appareils mobiles.</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Redémarrer l'appareil mobile.</li>
+				<li>Aller sur Internet via une connexion Wi-Fi.</li>
+				<li>Aller sur Internet via une connexion 4G, 3G ou un autre type de réseau de l'opérateur.</li>
+				<li>Passer un appel téléphonique.</li><li>Envoyer un SMS.</li>
+				<li>Ouvrir différentes applications.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Vérifier la solution et le fonctionnement du système pour Linux et OS X.</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Redémarrez l'ordinateur.</li>
+				<li>Aller sur Internet via une connexion Wi-Fi.</li>
+				<li>Aller sur Internet via une connexion filaire.</li>
+				<li>Envoyer un e-mail de test.</li>
+				<li>Ouvrir différents programmes.</li></ul></textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,12 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Mise en veille prolongée activée dans l'utilitaire Options d'alimentation</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Paramètres d'alimentation avancés</b>]]></text>
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Modification des paramètres d'un mode de gestion de l'alimentation sous Windows</b>]]></text>
+</component>
+</textcomponents>

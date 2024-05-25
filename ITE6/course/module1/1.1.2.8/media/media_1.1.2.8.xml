@@ -1,0 +1,73 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+<text><![CDATA[<b>Cartes d'extension</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Carte son]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[Carte réseau]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Carte RAID]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Carte vidéo]]></text>
+</component><!--Slide 2--><component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#918F90'><tr><td>test</td></tr></table>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Slots d'extension</b>]]></text>
+</component>
+
+<component id='ID_s2_btn01'>
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+
+<component id='ID_s2_header01'>
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+<component id='ID_s2_header02'>
+	<text><![CDATA[<b>Mini-PCI</b>]]></text>
+</component>
+<component id='ID_s2_header03'>
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+<component id='ID_s2_header04'>
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+<component id='ID_s2_btn04'>
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+
+<component id='ID_s2_btn03'>
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+
+<component id='ID_s2_btn02'>
+	<text><![CDATA[<b>Mini-PCI</b>]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[Le PCI (Peripheral Component Interconnect) est un slot d'extension 32 bits ou 64 bits. On le trouve fréquemment sur de nombreux ordinateurs. Ainsi que sur la plupart des cartes mères.]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[Le PCI Express utilise un bus série qui présente un débit supérieur ainsi que de nombreuses améliorations par rapport aux slots d'extension plus anciens. Le PCIe possède des slots x1, x4, x8 et x16 qui varient en longueur, respectivement de la plus faible à la plus importante. Les deux tailles les plus courantes sont représentées ici, à savoir x1 en haut et x16 en bas.]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[Le PCI eXtended est une version mise à jour du PCI standard. Il utilise un bus 32 bits offrant plus de bande passante que le bus PCI. Le PCI-X peut fonctionner jusqu'à quatre fois plus rapidement que le PCI.]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[Il s'agit de la version plus petite du PCI pour les ordinateurs portables. Le Mini-PCI existe en trois facteurs de forme différents : Type I, Type II et Type III.]]></text>
+</component>
+
+
+
+</textcomponents>

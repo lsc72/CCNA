@@ -1,0 +1,23 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Ouvrir les languettes de verrouillage</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[Languettes de verrouillage]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Aligner les encoches</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Détrompeur des slots de mémoire vive (RAM)]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[Encoche de la mémoire vive (RAM)]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Mémoire vive (RAM) installée</b>]]></text>
+	</component>
+	
+</textcomponents>

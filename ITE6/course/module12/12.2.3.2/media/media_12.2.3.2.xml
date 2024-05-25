@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Lecteur d'empreintes digitales pour ordinateur portable</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Cartes à puce</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Jeton d'authentification</b>]]></text>
+	</component>
+</textcomponents>

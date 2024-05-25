@@ -1,0 +1,64 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Vérification de la compatibilité des sockets</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Architectures des sockets du processeur</b>]]></text>
+</component>
+
+
+ <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Architectures du processeur</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>Notes d'installation</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>SEC (Single-Edge Connector)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>Alignez les encoches du processeur sur les détrompeurs du socket SEC.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>LIF (Low-Insertion Force)</b></td>
+			<td bgcolor='#E9E7E8' rowspan="3"><textformat blockindent='-14'>Placez le processeur de telle sorte que l'indicateur de la connexion 1 soit aligné avec la broche 1 du socket du processeur.</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>ZIF (Zero-Insertion Force)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>PGA (Pin Grid Array)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>LGA (Land Grid Array)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>Placez le processeur de telle sorte que les deux encoches du processeur s'enfichent dans les deux extensions du socket.</textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Installation du processeur</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Fermer la plaque de verrouillage</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Fermer le levier de charge</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Fixer le levier de charge sous la languette de rétention</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Appliquer de la pâte thermique</b>]]></text>
+</component><!-- Slide 8 --><component id='ID_s8_title'>
+	<text><![CDATA[<b>Installer l'ensemble dissipateur thermique/ventilateur</b>]]></text>
+</component>
+
+</textcomponents>

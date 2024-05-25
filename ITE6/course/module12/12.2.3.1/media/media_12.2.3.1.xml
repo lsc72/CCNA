@@ -1,0 +1,12 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Pare-feu Windows</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Configuration des règles du pare-feu</b>]]></text>
+	</component>
+ 
+	
+
+</textcomponents>

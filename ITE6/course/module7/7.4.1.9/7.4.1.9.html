@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.9 Adressage dynamique</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adressage dynamique</h1>
+        <div>
+          <p>Si le réseau local comporte beaucoup d'ordinateurs, la configuration manuelle des adresses IP des hôtes peut devenir fastidieuse et entraîner des erreurs. Un serveur DHCP permet d'attribuer automatiquement des adresses IP afin de simplifier le processus. La configuration automatique de certains paramètres TCP/IP réduit également les risques d'adresses IP non valides ou en double.</p>
+          <p></p>
+          <p>Pour qu'un ordinateur du réseau puisse bénéficier des services du serveur DHCP, il doit être paramétré pour communiquer avec celui-ci sur le réseau local. Pour réaliser le paramétrage, vous devez sélectionner l'option <b>Obtenir une adresse IP automatiquement</b> dans la fenêtre de configuration de la carte réseau, voir l'illustration. Lorsqu'un ordinateur est configuré pour recevoir une adresse IP automatiquement, toutes les autres options de la fenêtre sont indisponibles. Les paramètres DHCP sont configurés de la même manière, que vous utilisiez une carte réseau filaire ou sans fil.</p>
+          <p></p>
+          <p>Après leur démarrage, les ordinateurs demandent continuellement une adresse IP à un serveur DHCP jusqu'à ce qu'ils la reçoivent. Si votre ordinateur n'arrive pas à communiquer avec le serveur DHCP pour obtenir une adresse IP, le système d'exploitation Windows lui attribue automatiquement un adressage IP privé automatique (APIPA, Automatic Private IP Addressing). Cette adresse local-link est comprise entre 169.254.0.0 et 169.254.255.255. « Local-link » signifie que l'ordinateur ne peut communiquer qu'avec les ordinateurs connectés au même réseau au sein de cette plage d'adresses IP.</p>
+          <p></p>
+          <p>Un serveur DHCP peut attribuer automatiquement les informations de configuration d'adresse IP suivantes à un hôte : </p>
+          <p>
+            <ul>
+              <li>Adresse IP </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Masque de sous-réseau </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Passerelle par défaut </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Valeurs facultatives, par exemple adresse de serveur DNS</li>
+            </ul>
+          </p>
+          <p>Sous Windows 7, procédez comme suit :</p>
+          <p></p>
+          <p>
+            <b>Démarrer > Panneau de configuration > Centre Réseau et partage > Modifier les paramètres de la carte</b>. Cliquez avec le bouton droit sur <b>Connexion au réseau local > Propriétés > TCP/IPv4 </b>ou <b>TCP/IPv6 > Propriétés. </b>Activez le bouton radio <b>Obtenir une adresse IP automatiquement > OK > OK</b>.</p>
+          <p></p>
+          <p>Dans Windows 8.0 et 8.1, utilisez le chemin d'accès suivant :</p>
+          <p></p>
+          <p>
+            <b>Paramètres du PC > Panneau de configuration > Centre Réseau et partage > Modifier les paramètres de la carte</b>. Cliquez avec le bouton droit sur <b>Ethernet > Propriétés > TCP/IPv4</b> ou <b>TCP/IPv6 > Propriétés</b>. Activez le bouton radio <b>Obtenir une adresse IP automatiquement > OK > OK</b>.</p>
+          <p></p>
+          <p>
+            <b>DNS</b>
+          </p>
+          <p></p>
+          <p>Pour accéder à un serveur DNS, un ordinateur utilise l'adresse IP configurée dans les paramètres DNS de sa carte réseau. Le DNS résout ou mappe des noms d'hôte et des URL aux adresses IP.</p>
+          <p></p>
+          <p>Un ordinateur Windows contient un cache DNS qui stocke les noms d'hôte ayant été résolus récemment. Le cache est le premier endroit que le client DNS interroge pour résoudre un nom d'hôte. Le cache étant dans la mémoire, il récupère les adresses IP résolues plus rapidement qu'en utilisant un serveur DNS. De plus, il n'engendre aucun trafic sur le réseau.</p>
+          <p></p>
+          <p>
+            <b>Configuration de paramètres IP alternatifs</b>
+          </p>
+          <p></p>
+          <p>Le paramétrage d'une configuration IP alternative sous Windows simplifie le passage d'un réseau nécessitant l'utilisation d'un serveur DHCP à un réseau utilisant des paramètres IP statiques. Si un ordinateur ne peut pas communiquer avec le serveur DHCP du réseau, Windows utilise la configuration IP alternative de la carte réseau. La configuration IP alternative remplace également l'adresse APIPA attribuée par Windows lorsque le serveur DHCP est inaccessible.</p>
+          <p></p>
+          <p>Pour créer la configuration IP alternative de l'illustration 2, cliquez sur l'onglet Configuration alternative de la fenêtre des propriétés de la carte réseau. L'onglet Configuration alternative ne s'affiche que lorsque <b>Obtenir une adresse IP automatiquement</b> est coché. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

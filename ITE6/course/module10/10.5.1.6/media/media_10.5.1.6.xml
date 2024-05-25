@@ -1,0 +1,28 @@
+﻿<textcomponents>
+
+
+<component id='ID_title'>
+	<text><![CDATA[<b>Documenter les observations, les actions et les résultats</b>]]></text>
+</component>
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 6. Documenter les observations, les actions et les résultats</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>Documenter les observations, les actions et les résultats</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Discuter de la solution mise en œuvre avec le client</li>
+				<li>Faire vérifier par le client que le problème a été résolu</li>
+				<li>Fournir tous les documents au client</li>
+				<li>Dans l'ordre de travail et dans le journal du technicien, décrire les mesures mises en place pour résoudre le problème</li>
+				<li>Décrire tous les composants utilisés pour la réparation</li><li>Indiquer le temps passé pour résoudre le problème</li></ul></textformat></td>
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

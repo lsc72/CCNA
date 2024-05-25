@@ -1,0 +1,68 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>L'iPhone est temporairement désactivé après la saisie de plusieurs codes secrets incorrects</b>]]></text>
+	</component>	
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Désactivation temporaire de l'iPhone après la saisie de codes secrets incorrects</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_table01'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16">iOS : nombre de tentatives infructueuses</font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Tentatives infructueuses</b></font></td>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Durée supplémentaire d'indisponibilité de l'appareil</b></font></td>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Durée totale d'indisponibilité de l'appareil</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8' width='110'>De 1 à 5</td>
+				<td bgcolor='#E9E7E8'>0</td>
+				<td bgcolor='#E9E7E8'>0</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>6</td>
+				<td bgcolor='#F2F2F2'>1 minute</td>	
+				<td bgcolor='#F2F2F2'>1 minute</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>7</td>
+				<td bgcolor='#E9E7E8'>5 minutes</td>
+				<td bgcolor='#E9E7E8'>6 minutes</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>8</td>
+				<td bgcolor='#F2F2F2'>15 minutes</td>	
+				<td bgcolor='#F2F2F2'>21 minutes</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>9</td>
+				<td bgcolor='#E9E7E8'>60 minutes</td>
+				<td bgcolor='#E9E7E8'>81 minutes</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>10</td>
+				<td bgcolor='#F2F2F2'>60 minutes</td>	
+				<td bgcolor='#F2F2F2'>141 minutes</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>11</td>
+				<td colspan='2' bgcolor='#E9E7E8'><i>Suppression des données de l'appareil</i></td>
+			</tr>
+	</table>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Effacer les données après 10 codes secrets incorrects sur iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_txt01">
+        <text><![CDATA[Effacer toutes les données]]></text>
+	</component>
+   
+</textcomponents>

@@ -1,0 +1,78 @@
+﻿<textcomponents>
+	<component id='ID_s1_title'>
+	<text><![CDATA[<b>Mots de passe du BIOS</b>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>Niveau d'accès</b>]]></text>
+</component>
+
+	<component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="145"><font color='#FFFFFF' ><b>Niveau d'accès</b></font></td>
+			<td bgcolor='#666263'  valign="top"  ><font color='#FFFFFF' ><b>Description du niveau</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Accès complet</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Tous les écrans et paramètres sont disponibles, à l'exception de la configuration du mot de passe superviseur.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Accès limité</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Des modifications peuvent être apportées à certains paramètres uniquement (par exemple, la date et l'heure).</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Accès en lecture seule</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Tous les écrans sont disponibles, mais aucun paramètre ne peut être modifié.</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Aucun accès</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>L'accès à l'utilitaire de configuration du BIOS n'est pas autorisé.</li></ul></textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>Fonctions LoJack</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[<b>Localiser</b>]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[<b>Verrouiller</b>]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[<b>Supprimer</b>]]></text>
+</component>
+
+<component id='ID_s3_txt04'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>Localisez le périphérique au moyen du Wi-Fi ou de la géolocalisation IP afin de connaître le dernier emplacement.</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_s3_txt05'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>Verrouillez le périphérique à distance afin d'empêcher tout accès à vos informations personnelles.</li><li>Un message personnalisé peut également s'afficher à l'écran.</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_s3_txt06'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>Supprimez tous les fichiers présents sur le périphérique afin de protéger vos informations personnelles et d'empêcher le vol d'identité.</li></ul></textformat>]]></text>
+</component>
+</textcomponents>

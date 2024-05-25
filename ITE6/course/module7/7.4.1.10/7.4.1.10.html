@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.10 ICMP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>ICMP</h1>
+        <div>
+          <p>Le protocole ICMP (Internet Control Message Protocol) est utilisé par les périphériques d'un réseau pour envoyer des messages d'erreur et de contrôle aux ordinateurs et aux serveurs. Ce protocole peut avoir différentes fonctions, telles que l'annonce des erreurs de réseau, l'annonce des encombrements du réseau et la résolution des problèmes.</p>
+          <p></p>
+          <p>La commande ping est couramment utilisée pour tester les connexions entre les ordinateurs. Il s'agit d'un utilitaire en ligne de commande simple, mais très utile, qui permet de déterminer si une adresse IP spécifique est accessible. Pour afficher la liste des options que vous pouvez utiliser avec la commande ping, tapez <b>ping /?</b> dans la fenêtre Invite de commandes, voir l'illustration 1.</p>
+          <p></p>
+          <p>La commande ping envoie une demande de renvoi (echo) ICMP à l'ordinateur de destination ou tout autre périphérique réseau. Le périphérique cible renvoie alors un message de réponse « echo » ICMP pour confirmer la connectivité. Les demandes et les réponses « echo » sont des messages de test permettant de déterminer si des périphériques peuvent s'échanger des paquets. Sous Windows, quatre demandes « echo » ICMP (ping) sont envoyées à l'ordinateur de destination, voir l'illustration 2. S'il est joignable, cet ordinateur envoie en retour quatre réponses « echo » ICMP. Le pourcentage de réponses reçues peut vous aider à déterminer la fiabilité et l'accessibilité de l'ordinateur de destination. Les autres messages ICMP signalent les paquets non transmis et indiquent si un périphérique est trop occupé pour pouvoir gérer le paquet. </p>
+          <p></p>
+          <p>Vous pouvez également utiliser la commande ping pour rechercher l'adresse IP d'un hôte si vous ne connaissez que son nom. Si vous envoyez une requête ping à un site Web sur la base de son nom, par exemple cisco.com, voir l'illustration 2, l'adresse IP du serveur s'affiche.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

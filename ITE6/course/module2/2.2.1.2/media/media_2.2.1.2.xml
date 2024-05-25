@@ -1,0 +1,8 @@
+﻿<textcomponents>
+	<component id="ID_s1_caption">
+		<text><![CDATA[Le bracelet antistatique permet d'éviter tout dommage causé par des décharges électrostatiques sur l'équipement informatique.]]></text>
+	</component>
+	<component id="ID_s2_caption">
+		<text><![CDATA[Le tapis antistatique permet de s'appuyer dessus ou d'y poser du matériel en évitant la formation d'électricité statique.]]></text>
+	</component>
+</textcomponents>

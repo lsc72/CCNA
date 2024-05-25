@@ -1,0 +1,24 @@
+﻿<textcomponents>
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 5 : Vérifier l'intégralité des fonctionnalités du système et, le cas échéant, implémenter des mesures préventives</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td width="200" bgcolor='#F2F2F2'>Vérifier le fonctionnement du système complet</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Utiliser la commande ipconfig /all pour afficher les adresses IP de toutes les cartes réseau.</li>
+				<li>Utiliser la commande ping pour vérifier la connectivité du réseau. Cette commande envoie un paquet à l'adresse indiquée et affiche les informations relatives à la réponse.</li>
+				<li>Utiliser la commande NSLookup pour envoyer une requête à un serveur de noms de domaine Internet. Cette commande renvoie une liste d'hôtes présents dans un domaine ou les informations relatives à un hôte.</li>
+				<li>Utiliser la commande Tracert pour déterminer la route empruntée par les paquets lorsqu'ils sont acheminés sur le réseau. Cette commande montre où les communications entre votre ordinateur et un autre ordinateur rencontrent des difficultés.</li>
+				<li>Utiliser la commande Net View pour afficher la liste des ordinateurs d'un groupe de travail. Cette commande montre les ressources partagées disponibles sur un réseau.</li></ul></textformat>
+			</td> 
+		</tr>	
+	</table>]]></text>
+	</component>
+	
+</textcomponents>

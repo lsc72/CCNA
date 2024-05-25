@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.6.1 Méthodes de protection du matériel</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.6.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Méthodes de protection du matériel</h1>
+        <div>
+          <p>La sécurité physique est aussi importante que la sécurité des données. Lorsqu'un ordinateur est volé, son contenu l'est également. Il est donc important de restreindre l'accès aux périphériques, qui doivent être séparés de l'extérieur par des barrières de sécurité ou des portes verrouillées, par exemple. Par exemple, un sas est souvent utilisé pour empêcher toute intrusion non autorisée. Il s'agit d'un petit espace fermé muni de deux portes, l'une d'entre elles devant être fermée avant que l'autre puisse être ouverte. Protégez l'infrastructure du réseau, comme les câbles, l'équipement de télécommunication et les périphériques réseau à l'aide des éléments suivants :</p>
+          <p>
+            <ul>
+              <li>Salles de télécommunications sécurisées, armoires fermées pour les équipements</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Câbles antivol et vis de sécurité pour les équipements</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Système de détection des points d'accès sans fil non autorisés</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Pare-feu matériels</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Système de gestion du réseau qui détecte les changements dans le câblage et les tableaux de connexion</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Appareils sans fil pour éviter les réinitialisations physiques</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>
+            <b>Mots de passe du BIOS ou de l'UEFI</b>
+          </p>
+          <p></p>
+          <p>L'utilisation d'un mot de passe utilisateur Windows, Linux ou Mac pour vous connecter à votre ordinateur n'empêche pas une autre personne de démarrer l'ordinateur à partir d'un CD ou d'un lecteur Flash avec un autre système d'exploitation. Une fois l'ordinateur démarré, un utilisateur malveillant peut accéder à vos fichiers ou les supprimer. Vous pouvez éviter que quelqu'un démarre votre PC ou votre ordinateur portable en spécifiant un mot de passe dans le BIOS ou l'UEFI. Bien que le chiffrement de votre disque dur soit une meilleure solution, vous pouvez envisager de configurer un mot de passe BIOS ou UEFI dans certaines situations. Par exemple, les ordinateurs qui sont régulièrement utilisés par le public ou qui se trouvent dans un espace public peuvent bénéficier d'un mot de passe BIOS ou UEFI. Une fois configuré, le mot de passe du BIOS ou de l'UEFI est relativement difficile à réinitialiser. Par conséquent, assurez-vous de pouvoir vous en souvenir.</p>
+          <p></p>
+          <p>
+            <b>Exécution automatique et Lecture automatique</b>
+          </p>
+          <p></p>
+          <p>L'Exécution automatique est une fonctionnalité de Windows qui suit automatiquement les instructions contenues dans un fichier spécial appelé <b>autorun.inf</b> lorsqu'un nouveau support tel qu'un CD, un DVD ou un lecteur Flash est inséré dans l'ordinateur. Il ne faut pas confondre l'exécution automatique et la lecture automatique. Cette dernière est une fonction pratique pour identifier automatiquement la connexion ou l'insertion d'un nouveau support (par exemple un disque optique, un disque dur externe ou une clé USB). La lecture automatique demande à l'utilisateur de choisir une action en fonction du contenu de ce nouveau support : par exemple, exécuter un programme, lire de la musique ou parcourir le support. </p>
+          <p></p>
+          <p>Dans Windows, l'exécution automatique a lieu en premier (à moins d'avoir été désactivée). Si elle n'a pas été désactivée, l'ordinateur exécute les instructions contenues dans le fichier autorun.inf. Depuis Windows Vista, l'exécution automatique n'a jamais la priorité sur la lecture automatique. Cependant, en un seul clic, un programme malveillant peut s'exécuter à votre insu via la boîte de dialogue Lecture automatique. Par conséquent, il est recommandé, pour des raisons de sécurité, de choisir les programmes qui utilisent la Lecture automatique. La solution la plus sûre consiste à désactiver l'Exécution automatique, voir l'illustration 1.  L'Exécution automatique se trouve dans <b>Panneau de configuration > Exécution automatique</b> dans toutes les versions de Windows depuis Windows Vista.</p>
+          <p></p>
+          <p>
+            <b>Authentification multifacteur</b>
+          </p>
+          <p></p>
+          <p>Nous avons déjà abordé l'authentification à deux facteurs à l'aide d'un jeton d'authentification. Les deux facteurs sont des éléments que vous connaissez, par exemple un mot de passe, et un autre élément en votre possession, comme un jeton d'authentification. L'authentification multifacteur ajoute un élément qui vous est propre, comme vos empreintes digitales (voir l'illustration 2). Lorsque vous envisagez d'utiliser un programme de sécurité, vous devez comparer le coût de son implémentation à la valeur des données ou de l'équipement à protéger.</p>
+          <p></p>
+          <p>
+            <b>BYOD</b>
+          </p>
+          <p></p>
+          <p>Les appareils mobiles personnels et ceux appartenant à l'entreprise doivent également être protégés. Auparavant, les seuls appareils autorisés sur l'infrastructure de l'entreprise étaient ceux de l'entreprise. Avec l'explosion du nombre d'appareils personnels, pratiquement toutes les entreprises doivent maintenant mettre en place et suivre une politique BYOD. L'un des plus grands problèmes de l'entreprise est le degré de contrôle dont elle dispose sur les appareils. Les informations sensibles, confidentielles ou réservées à certaines personnes doivent être protégées, quel que soit le propriétaire de l'appareil. Une politique BYOD peut faire économiser beaucoup d'argent à l'entreprise, mais l'utilisateur doit accepter et respecter cette politique. Cette approche pose également un problème de confidentialité. Lorsque l'employé abandonne une partie du contrôle de son appareil, il risque également d'abandonner une partie de sa confidentialité.</p>
+          <p></p>
+          <p>
+            <b>Exigences relatives aux profils de sécurité</b>
+          </p>
+          <p></p>
+          <p>Il est recommandé de créer et d'appliquer des profils de sécurité aux appareils mobiles. Un profil de sécurité est généralement un fichier texte qui définit les paramètres de sécurité et spécifie les paramètres de configuration de l'appareil. Ces paramètres peuvent être directement appliqués à l'appareil, à un utilisateur ou à un groupe d'utilisateurs. Plusieurs profils peuvent être appliqués simultanément. Il existe souvent des profils de sécurité différents pour les appareils BYOD et les appareils appartenant à l'entreprise. Les exigences de ces profils de sécurité varient en fonction du rôle de la personne ou du groupe, du type d'appareil ou du système d'exploitation, mais également en fonction des politiques de l'entreprise.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

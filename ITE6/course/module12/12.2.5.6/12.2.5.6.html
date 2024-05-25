@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.6 Pare-feu</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Pare-feu</h1>
+        <div>
+          <p>Un pare-feu matériel est un dispositif de filtrage matériel qui inspecte les paquets de données en provenance du réseau avant que ceux-ci n'atteignent les ordinateurs et les autres périphériques connectés. C'est un équipement autonome qui n'utilise pas les ressources des ordinateurs qu'il protège ; les performances ne sont donc pas affectées. Il peut être configuré pour bloquer plusieurs ports distincts, une plage de ports ou même le trafic spécifique d'une application. La plupart des routeurs sans fil comportent également un pare-feu matériel intégré.</p>
+          <p></p>
+          <p>Un pare-feu matériel transmet deux types de trafic différents dans votre réseau :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Les réponses au trafic provenant de votre réseau.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Le trafic destiné à un port que vous avez intentionnellement laissé ouvert.</li>
+            </ul>
+          </p>
+          <p>Plusieurs types de configurations sont possibles :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Filtrage des paquets</b> : seuls les paquets respectant les règles définies et configurées dans le pare-feu peuvent le traverser. Le trafic peut être filtré en fonction de différents attributs tels que l'adresse IP et le port source ou l'adresse IP et le port de destination. Le trafic peut également être filtré selon les services ou protocoles de destination (par exemple, WWW ou FTP).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Inspection dynamique de paquets</b> : le pare-feu conserve une trace de l'état des connexions réseau qui le traversent. Les paquets qui n'appartiennent pas à une connexion connue sont rejetés. À l'illustration 1, le pare-feu avec inspection dynamique de paquets est activé.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Couche application</b> : tous les paquets ayant comme source ou destination une application sont interceptés. Tout le trafic externe indésirable est bloqué et ne peut pas atteindre les périphériques protégés.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Proxy</b> : pare-feu installé sur un serveur proxy, vérifiant tout le trafic et autorisant ou interdisant les paquets selon des règles configurées. Un serveur proxy fait office d'intermédiaire entre un client et un serveur de destination sur Internet.</li>
+            </ul>
+          </p>
+          <p>Les pare-feu matériels et logiciels protègent les données et les équipements du réseau contre les accès non autorisés. Un pare-feu doit être utilisé en plus des logiciels de sécurité. L'illustration 2 compare les pare-feu logiciels et matériels.</p>
+          <p></p>
+          <p>
+            <b>Zone démilitarisée</b>
+          </p>
+          <p></p>
+          <p>Une zone démilitarisée (DMZ) est un sous-réseau qui fournit des services à un réseau non fiable. Souvent, un serveur FTP, Web ou de messagerie est placé dans la zone DMZ de façon à ce que son trafic n'entre pas dans le réseau local. Cela permet de protéger le réseau interne des attaques provenant de ce trafic. Toutefois, les serveurs situés dans la zone DMZ ne sont pas du tout protégés. Souvent, le pare-feu ou le proxy gère le trafic en provenance ou à destination de la zone DMZ.</p>
+          <p></p>
+          <p>Sur un routeur sans fil, vous pouvez créer une zone DMZ pour un périphérique en redirigeant tous les ports dont le trafic Internet est envoyé vers une adresse MAC ou une adresse IP spécifique. Un serveur, une console de jeu ou une webcam peuvent être placés dans une zone DMZ pour être accessibles par n'importe quel utilisateur. Cependant, le périphérique situé dans cette zone est exposé aux attaques des pirates informatiques.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

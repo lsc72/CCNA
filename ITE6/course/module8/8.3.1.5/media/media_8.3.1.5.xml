@@ -1,0 +1,87 @@
+﻿<textcomponents><!-- slide 2 --><component id="ID_txt01">
+	<text><![CDATA[Communauté :<br>Soins de santé]]></text>
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[Communauté :<br>Gouvernement]]></text> 
+	  </component>
+	<component id="ID_txt03">
+	  <text><![CDATA[Clouds]]></text> 
+	  </component>
+		
+	<component id='ID_txt04'>
+		<text><![CDATA[Communauté :<br>Et plus encore]]></text> 
+	</component>
+
+	<component id='ID_txt04b'>
+		<text><![CDATA[Communauté :<br>Et plus encore]]></text> 
+	</component>
+
+	<component id="ID_txt05">
+	  <text><![CDATA[Privé :<br>actualités de la ville de résidence]]></text> 
+	  </component>
+	<component id="ID_txt06">
+	  <text><![CDATA[Communauté :<br>Médias]]></text> 
+	  </component>
+	<component id="ID_txt07">
+	  <text><![CDATA[Hybride]]></text> 
+	  </component>
+
+	  <component id="ID_titleTxt01">
+	  <text><![CDATA[Clouds de type Communauté]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt01">
+	  <text><![CDATA[Ces clouds sont conçus pour répondre aux besoins d'un secteur spécifique, tels que la santé ou les médias. Les clouds de type Communauté peuvent être privés ou publics.]]></text> 
+	  </component>
+
+	    <component id="ID_titleTxt02">
+	  <text><![CDATA[Clouds de type Communauté]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt02">
+	  <text><![CDATA[Ces clouds sont conçus pour répondre aux besoins d'un secteur spécifique, tels que la santé ou les médias. Les clouds de type Communauté peuvent être privés ou publics.]]></text> 
+	  </component>
+
+	    <component id="ID_titleTxt03">
+	  <text><![CDATA[Clouds de type Communauté]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt03">
+	  <text><![CDATA[Ces clouds sont conçus pour répondre aux besoins d'un secteur spécifique, tels que la santé ou les médias. Les clouds de type Communauté peuvent être privés ou publics.]]></text> 
+	  </component>
+	  
+	  <component id="ID_titleTxt04">
+	  <text><![CDATA[Clouds de type Communauté]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt04">
+	  <text><![CDATA[Ces clouds sont conçus pour répondre aux besoins d'un secteur spécifique, tels que la santé ou les médias. Les clouds de type Communauté peuvent être privés ou publics.]]></text> 
+	  </component>
+
+	  <component id="ID_titleTxt05">
+	  <text><![CDATA[Clouds privés]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt05">
+	  <text><![CDATA[Les applications et les services proposés par un cloud privé sont destinés à une entreprise ou une entité spécifique, comme un gouvernement. Un cloud privé peut être configuré via le réseau privé d'une entreprise, mais sa mise en place et sa maintenance peuvent être coûteuses. Un cloud privé peut également être géré par une entreprise externe par le biais d'une stratégie de sécurité d'accès très stricte.]]></text> 
+	  </component>
+	  
+	  <component id="ID_titleTxt06">
+	  <text><![CDATA[Clouds hybrides]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt06">
+	  <text><![CDATA[Un cloud hybride comprend au moins deux clouds (par exemple, un cloud de type Communauté et un cloud public). Ces clouds restent indépendants mais sont connectés dans une même architecture. Les utilisateurs d'un cloud hybride peuvent avoir différentes autorisations d'accès aux divers services, en fonction des droits d'accès utilisateur.]]></text> 
+	  </component>
+
+
+	  <component id="ID_titleTxt07">
+	  <text><![CDATA[Clouds publics]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt07">
+	  <text><![CDATA[Les applications et les services proposés par un cloud public sont accessibles par tous. Les services peuvent être gratuits ou proposés suivant un modèle de paiement à l'utilisation, par exemple en fonction de la quantité de stockage utilisée. Le cloud public utilise Internet pour fournir des services.]]></text> 
+	  </component>
+
+	  
+</textcomponents>

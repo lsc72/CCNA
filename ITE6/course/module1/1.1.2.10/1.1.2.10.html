@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>1.1.2.10 Interfaces des périphériques de stockage et RAID</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_1.1.2.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Interfaces des périphériques de stockage et RAID</h1>
+        <div>
+          <p>Les disques durs, les disques SSD et les lecteurs optiques internes sont souvent reliés à la carte mère par des connexions SATA (Serial AT Attachment). Les lecteurs et disques durs SATA sont reliés à la carte mère à l'aide d'un connecteur de données SATA à 7 broches. </p>
+          <p></p>
+          <p>À une extrémité du câble, le connecteur est conçu pour être relié au lecteur ou au disque dur et à l'autre extrémité, au contrôleur.  La première illustration montre un câble SATA. </p>
+          <p></p>
+          <p>Il existe 3 versions principales de câble SATA : SATA 1, SATA 2 et SATA 3. Les câbles et les connecteurs sont identiques, mais les vitesses de transfert des données sont différentes. SATA 1 offre un débit de transfert de données maximum de 1,5 Gbit/s, alors que SATA 2 peut atteindre jusqu'à 3 Gbit/s. SATA 3 est le plus rapide, pouvant atteindre 6 Gbit/s.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : avant la création de la norme SATA, les normes de raccordement IDE (Integrated Drive Electronics), EIDE (Enhanced Integrated Drive Electronics) et Parallel ATA étaient utilisées.</p>
+          <p></p>
+          <p>Les périphériques de stockage peuvent également être reliés de manière externe à l'ordinateur. La deuxième illustration représente un disque dur amovible connecté à un ordinateur portable par un câble USB. Les ports USB sont en effet devenus le type de raccordement des périphériques externes le plus courant. Le câble SATA externe (eSATA) permet également de connecter des périphériques de stockage externes. Les câbles et les connecteurs eSATA ont une forme différente de celle des câbles et connecteurs SATA.</p>
+          <p></p>
+          <p>Les ports USB 3.0 et USB 3.1 sont de couleur bleue et ils sont très fréquemment utilisés pour connecter des périphériques de stockage externes en raison de leurs débits de transmission élevés. Les périphériques USB sont également remplaçables à chaud, ce qui signifie qu'il n'est pas nécessaire de redémarrer l'ordinateur avant d'ajouter ou de retirer un périphérique. Un seul port USB sur un ordinateur peut théoriquement prendre en charge jusqu'à 127 périphériques distincts, à condition d'utiliser des concentrateurs USB. Un concentrateur USB permet de connecter plusieurs périphériques USB. De nombreux périphériques peuvent également être alimentés par un port USB, si bien qu'une alimentation externe devient alors inutile.</p>
+          <p></p>
+          <p>Il existe plusieurs types de connecteurs USB. La troisième illustration montre le modèle le plus courant, à savoir le connecteur USB de type A, ainsi que trois autres connecteurs USB fréquemment utilisés. La quatrième illustration montre un connecteur USB-C (ou USB de type C), qui est la version la plus récente.</p>
+          <p></p>
+          <p>La cinquième illustration montre les méthodes de raccordement des périphériques de stockage externes. L'illustration suivante compare les bandes passantes de ces différentes méthodes.</p>
+          <p></p>
+          <p>Les périphériques de stockage peuvent également être regroupés et gérés de manière à créer de vastes espaces de stockage bénéficiant d'une redondance. Pour cela, les ordinateurs peuvent implémenter une technologie RAID (Redundant Array of Independent Disks). La technologie RAID permet de stocker des données sur plusieurs disques durs en vue d'assurer leur redondance et/ou d'améliorer les performances. Le système d'exploitation perçoit un système RAID comme un seul disque dur. </p>
+          <p></p>
+          <p>Les termes suivants expliquent comment le système RAID stocke les données sur les différents disques :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Parité </b>: détecte les erreurs de données.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Entrelacement :</b> écrit les données sur plusieurs disques.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mise en miroir :</b> duplique les données sur un second disque.</li>
+            </ul>
+          </p>
+          <p>Il existe plusieurs niveaux RAID et vous les retrouverez dans la dernière illustration.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

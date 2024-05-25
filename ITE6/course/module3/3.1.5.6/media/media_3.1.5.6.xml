@@ -1,0 +1,67 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Connecteurs du panneau avant</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Connecteur du panneau système</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Indicateur flèche Broche 1</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Indicateur Broche 1 du connecteur de panneau système</b>]]></text>
+</component>
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[Broche 1]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Connecteurs USB de carte mère</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Connecteur USB interne</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Détails des connexions par câble du panneau avant</b>]]></text>
+</component>
+
+<component id="ID_s7_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Panneau avant</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Détails des connexions</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Bouton d'alimentation</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alignez la broche 1 du câble à deux broches du bouton d'alimentation du panneau avant avec les broches du bouton d'alimentation de la carte mère.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Bouton de réinitialisation</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Alignez la broche 1 du câble à deux broches du bouton de réinitialisation du panneau avant avec les broches du bouton de réinitialisation de la carte mère.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>LED d'alimentation</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alignez la broche 1 du câble LED d'alimentation du panneau avant avec les broches LED d'alimentation de la carte mère.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>LED d'activité du disque dur</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Alignez la broche 1 du câble d'activité du disque dur sur le panneau avant avec les broches d'activité du disque dur de la carte mère.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Haut-parleur système</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alignez la broche 1 du câble de haut-parleur système du panneau avant avec les broches de haut-parleur système de la carte mère.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>Câbles audio</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>En raison du caractère spécialisé de ces dispositifs et de la variété du matériel disponible, consultez la documentation relative à la carte mère, au boîtier et au panneau audio pour obtenir des instructions spécifiques.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Alignez la broche 1 du câble USB avec les broches USB de la carte mère.</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+
+</textcomponents>

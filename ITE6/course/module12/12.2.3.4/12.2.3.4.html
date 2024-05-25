@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.4 Autorisations d&#x0027;accès aux fichiers et aux dossiers</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Autorisations d&#x0027;accès aux fichiers et aux dossiers</h1>
+        <div>
+          <p>Les autorisations sont des règles que vous configurez pour limiter l'accès à un dossier ou à un fichier pour un utilisateur ou un groupe d'utilisateurs. L'illustration ci-contre présente les autorisations possibles pour les fichiers et les dossiers. Pour configurer les autorisations au niveau des fichiers ou des dossiers dans les différentes versions de Windows, procédez comme suit :</p>
+          <p></p>
+          <p>Cliquez avec le bouton droit sur le fichier ou le dossier de votre choix et sélectionnez <b>Propriétés > Sécurité > Modifier</b>.</p>
+          <p></p>
+          <p>
+            <b>Principe du privilège minimum</b>
+          </p>
+          <p></p>
+          <p>Les utilisateurs ne doivent avoir accès qu'aux ressources dont ils ont besoin, que ce soit sur un ordinateur ou sur un réseau. Par exemple, ils ne doivent pas pouvoir accéder à tous les fichiers d'un serveur s'ils n'ont besoin d'accéder qu'à un seul dossier. Il peut être plus facile d'autoriser l'accès à un lecteur complet, mais il est plus sûr de restreindre l'accès aux seules ressources nécessaires. Cette théorie est appelée « principe des privilèges minimum ». Limiter l'accès aux ressources permet également de bloquer l'accès aux programmes malveillants, au cas où un ordinateur serait contaminé.</p>
+          <p></p>
+          <p>
+            <b>Restriction des autorisations attribuées aux utilisateurs</b>
+          </p>
+          <p></p>
+          <p>Les autorisations de partage réseau et de partage des fichiers peuvent être accordées à des utilisateurs individuels ou aux membres d'un groupe. Ces autorisations de partage sont très différentes des autorisations de niveau NTFS sur les fichiers et les dossiers. Lorsqu'un utilisateur ou un groupe n'est pas autorisé à accéder à un partage réseau, cela remplace toute autre autorisation concédée. Par exemple, si vous refusez d'accorder une autorisation d'accès à un partage réseau, l'utilisateur ne peut pas accéder à ce partage, même s'il est l'administrateur ou membre du groupe des administrateurs. La stratégie de sécurité doit indiquer quelles ressources et quels types d'accès choisir pour chaque utilisateur et chaque groupe.</p>
+          <p></p>
+          <p>Lorsque les autorisations d'un dossier sont modifiées, vous pouvez les appliquer aussi à tous les sous-dossiers. Ce procédé s'appelle la propagation des autorisations. Il permet d'appliquer les mêmes autorisations à plusieurs fichiers et dossiers rapidement et facilement. Une fois les autorisations paramétrées pour un dossier, les dossiers et fichiers créés à l'intérieur de ce dossier héritent des autorisations du dossier parent. </p>
+          <p></p>
+          <p>En outre, l'emplacement des données et l'action exécutée sur les données déterminent comment les autorisations sont propagées :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Les données sont déplacées sur le même volume</b> : elles conservent les autorisations initiales</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Les données sont copiées sur le même volume</b> : elles héritent des autorisations initiales</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Les données sont déplacées sur un autre volume</b> : elles héritent de nouvelles autorisations</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Les données sont copiées sur un autre volume</b> : elles héritent de nouvelles autorisations</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+﻿<textcomponents>
+	<component id='ID_s1_title'>
+		<text><![CDATA[<b>Codage par hachage</b>]]></text>
+	</component>
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[« Voici le devis que vous avez demandé... »]]></text>
+	</component>
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Si l’algorithme MD n’est pas identique, le message a été modifié ou altéré]]></text>
+	</component>
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[L'expéditeur entre le message à coder]]></text>
+	</component>
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[L'algorithme de hachage produit une synthèse du message]]></text>
+	</component>	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Le message est transmis sur le réseau (sécurisé ou non)]]></text>
+	</component>
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[L’expéditeur envoie un algorithme MD avec un message]]></text>
+	</component>
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[L'algorithme de hachage (SHA ou MD5) produit une synthèse du message]]></text>
+	</component>
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[Le destinataire récupère le message envoyé]]></text>
+	</component>
+	<component id='ID_s1_txt10'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>	
+	<component id='ID_s1_txt11'>
+		<text><![CDATA[« Voici le devis que vous avez demandé... »]]></text>
+	</component>
+	
+	<component id='ID_s2_title'>
+		<text><![CDATA[<b>Chiffrement symétrique</b>]]></text>
+	</component>	
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[« Voici le devis que vous avez demandé... »]]></text>
+	</component>
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[L'expéditeur entre le message à chiffrer]]></text>
+	</component>
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[Le destinataire saisit une clé secrète identique pour décoder le message chiffré]]></text>
+	</component>
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[Réseau non sécurisé]]></text>
+	</component>
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[L'expéditeur entre la clé de chiffrement secrète pour coder le message]]></text>
+	</component>
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[Le destinataire récupère le message décrypté]]></text>
+	</component>
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[A7DE89DCA00ACB...]]></text>
+	</component>
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[« Voici le devis que vous avez demandé... »]]></text>
+	</component>
+	
+	<component id='ID_s3_title'>
+		<text><![CDATA[<b>Chiffrement asymétrique</b>]]></text>
+	</component>	
+	<component id='ID_s3_txt01'>
+		<text><![CDATA[« Voici le devis que vous avez demandé... »]]></text>
+	</component>	
+	<component id='ID_s3_txt02'>
+		<text><![CDATA[1BAF55D000EF795...]]></text>
+	</component>	
+	<component id='ID_s3_txt03'>
+		<text><![CDATA[L'expéditeur entre le message à chiffrer]]></text>
+	</component>	
+	<component id='ID_s3_txt04'>
+		<text><![CDATA[Le destinataire utilise la clé privée sécurisée pour décoder le message]]></text>
+	</component>	
+	<component id='ID_s3_txt05'>
+		<text><![CDATA[Réseau non sécurisé]]></text>
+	</component>	
+	<component id='ID_s3_txt06'>
+		<text><![CDATA[L'expéditeur saisit la clé publique du destinataire pour coder le message]]></text>
+	</component>	
+	<component id='ID_s3_txt07'>
+		<text><![CDATA[Le destinataire récupère le message]]></text>
+	</component>	
+	<component id='ID_s3_txt08'>
+		<text><![CDATA[1AG65B00BDE735...]]></text>
+	</component>	
+	<component id='ID_s3_txt09'>
+		<text><![CDATA[« Voici le devis que vous avez demandé... »]]></text>
+	</component>
+		
+</textcomponents>

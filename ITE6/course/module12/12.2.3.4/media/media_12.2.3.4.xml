@@ -1,0 +1,51 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>Types d'autorisations</b>]]></text>
+	</component>
+<component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+	        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Niveau d'autorisation</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>Description</b></font></td>
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8' width="150">Contrôle total</td>
+			<td bgcolor='#E9E7E8'>Les utilisateurs peuvent voir le contenu d'un fichier ou dossier, modifier, supprimer et créer des fichiers et des dossiers, et exécuter des programmes dans un dossier.</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#F2F2F2'>Modifier</td>
+			<td bgcolor='#F2F2F2'>Les utilisateurs peuvent modifier et supprimer des fichiers ou des dossiers existants, mais ils ne peuvent pas en créer.</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8'>Lire et Exécuter</td>
+			<td bgcolor='#E9E7E8'>Les utilisateurs peuvent voir le contenu des fichiers et des dossiers, et exécuter des programmes dans un dossier.</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#F2F2F2'>Lecture</td>
+			<td bgcolor='#F2F2F2'>Les utilisateurs peuvent voir le contenu des dossiers et ouvrir les fichiers et les dossiers.</td> 
+		</tr>
+
+        <tr>
+			<td bgcolor='#E9E7E8'>Écriture</td>
+			<td bgcolor='#E9E7E8'>Les utilisateurs peuvent créer des fichiers et des dossiers et modifier les fichiers et les dossiers existants.</td> 
+		</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

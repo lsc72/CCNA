@@ -1,0 +1,263 @@
+﻿<textcomponents>
+
+<!-- Slide 1 -->
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Types d'attaques TCP/IP</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[Déni de service (DoS)]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Déni de service distribué]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[Inondation SYN ]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[Mystification]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[L'homme du milieu (Man in the Middle)]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[Rejeu]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[Empoi-<br/>sonnement<br/>DNS]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>Attaques TCP/IP</b>]]></text>
+	</component>
+
+<!-- Slide 2 -->
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Attaque par déni de service (DoS)</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[Internet]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>WWW.XYZSARL.COM</b><br/>Serveur Web]]></text>
+	</component>
+
+	<component id="ID_s2_txt03">
+	<text><![CDATA[Auteur de l'attaque DoS]]></text>
+	</component>
+
+	<component id="ID_s2_txt04">
+	<text><![CDATA[<font color="#FFFFFF">Ce site Web est très lent aujourd'hui !</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt05">
+	<text><![CDATA[<font color="#FFFFFF">Je vais envoyer tellement de requêtes ping que le serveur ne pourra répondre à personne d'autre.</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt06">
+	<text><![CDATA[<font color="#FFFFFF">Au secours, je n'arrive pas à travailler !</font>]]></text>
+	</component>
+	
+	<!-- controller -->
+		<component id="end02">
+		<text><![CDATA[Fin]]></text>
+		</component>
+		
+		<component id="fforward02">
+		<text><![CDATA[Avance rapide]]></text>
+		</component>
+		
+		<component id="pause02">
+		<text><![CDATA[Pause]]></text>
+		</component>
+		
+		<component id="play02">
+		<text><![CDATA[Lecture]]></text>
+		</component>
+		
+		<component id="rewind02">
+		<text><![CDATA[Rembobiner]]></text>
+		</component>
+		
+		<component id="start02">
+		<text><![CDATA[Début]]></text>
+		</component>
+		
+<!-- Slide 3 -->
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Attaque DDoS</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[Code DDoS activé.]]></text> 
+	</component>
+
+	<component id="ID_s3_txt03">
+	<text><![CDATA[<b>WWW.ABCBANQUE.COM</b><br/>Code DDoS activé.]]></text> 
+	</component>
+
+	<component id="ID_s3_txt04">
+	<text><![CDATA[Auteur de l'attaque DDoS]]></text> 
+	</component>
+
+	<component id="ID_s3_txt05">
+	<text><![CDATA[Internet]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt06">
+	<text><![CDATA[<font color="#FFFFFF">J’ai transmis aux ordinateurs le code DDoS via Internet. Je vais maintenant tous les activer.</font>]]></text> 
+
+	</component>
+	<component id="ID_s3_txt07">
+	<text><![CDATA[<font color="#FFFFFF">Je suis surchargé, le trafic est trop important.</font>]]></text> 
+	</component>
+
+	<component id="ID_s3_txt08">
+	<text><![CDATA[<font color="#393536">Code DDoS activé.</font>]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt09">
+	<text><![CDATA[<font color="#393536">Code DDoS activé.</font>]]></text> 
+	</component><!-- controller --><component id="end03">
+		<text><![CDATA[Fin]]></text>
+		</component>
+		
+		<component id="fforward03">
+		<text><![CDATA[Avance rapide]]></text>
+		</component>
+		
+		<component id="pause03">
+		<text><![CDATA[Pause]]></text>
+		</component>
+		
+		<component id="play03">
+		<text><![CDATA[Lecture]]></text>
+		</component>
+		
+		<component id="rewind03">
+		<text><![CDATA[Rembobiner]]></text>
+		</component>
+		
+		<component id="start03">
+		<text><![CDATA[Début]]></text>
+		</component>
+		
+<!-- Slide 4 -->
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Exemple d'attaque par inondation SYN sur TCP</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>Le pirate envoie de nombreuses requêtes SYN au serveur Web.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>Un utilisateur légitime envoie une requête SYN.</b>]]></text>
+	</component>
+	
+		<component id="ID_s4_txt03">
+		<text><![CDATA[Serveur Web]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+		<text><![CDATA[<b>Le serveur Web envoie des réponses SYN-ACK.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt05">
+		<text><![CDATA[<b>Le serveur Web attend pour effectuer la connexion en trois étapes.</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt06">
+		<text><![CDATA[<b>Le serveur Web n'est plus disponible.</b>]]></text>
+	</component>
+
+	<component id="ID_s4_txt07">
+		<text><![CDATA[Serveur Web]]></text>
+	</component>
+	<component id="ID_s4_txt08">
+		<text><![CDATA[Serveur Web]]></text>
+	</component>
+
+<!-- Slide 5 -->
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>Exemple d'attaque Man-in-the-Middle (homme du milieu)</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_txt01">
+		<text><![CDATA[Victime]]></text>
+	</component>
+	
+	<component id="ID_s5_txt02">
+		<text><![CDATA[Serveur Web]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>Étape 1</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt02">
+		<text><![CDATA[<b>Étape 2</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt03">
+		<text><![CDATA[<b>Étape 3</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt04">
+		<text><![CDATA[<b>Étape 4</b>]]></text>
+	</component>
+
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[Lorsque la victime souhaite afficher une page Web, sa requête est redirigée vers l'ordinateur du pirate.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt02">
+		<text><![CDATA[L'ordinateur du pirate reçoit la requête et récupère la page demandée sur le site légitime.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt03">
+		<text><![CDATA[Le pirate peut modifier la page Web du site légitime et les données qu'elle contient.]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt04">
+		<text><![CDATA[Le pirate envoie la page demandée à la victime.]]></text>
+	</component>
+	
+	<component id="ID_inst">
+		<text><![CDATA[Cliquez sur les numéros pour plus d'informations.]]></text>
+	</component>
+	
+
+	<component id="end">
+		<text><![CDATA[Fin]]></text>
+		</component>
+		
+		<component id="fforward">
+		<text><![CDATA[Avance rapide]]></text>
+		</component>
+		
+		<component id="pause">
+		<text><![CDATA[Pause]]></text>
+		</component>
+		
+		<component id="play">
+		<text><![CDATA[Lecture]]></text>
+		</component>
+		
+		<component id="rewind">
+		<text><![CDATA[Rembobiner]]></text>
+		</component>
+		
+		<component id="start">
+		<text><![CDATA[Début]]></text>
+		</component>
+	
+
+</textcomponents>

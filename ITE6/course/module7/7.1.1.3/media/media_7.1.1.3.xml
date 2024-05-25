@@ -1,0 +1,25 @@
+﻿<textcomponents>
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>Icône Périphérique intermédiaire</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[Commutateur]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[Routeur]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[Point d’accès]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[Routeur sans fil]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[Modem]]></text>
+</component>
+</textcomponents>

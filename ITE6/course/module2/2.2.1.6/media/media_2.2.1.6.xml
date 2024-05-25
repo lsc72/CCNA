@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+<component id="ID_s1_caption">
+<text><![CDATA[Un multimètre numérique permet de tester l'intégrité des circuits et la qualité électrique des composants informatiques.]]></text>
+</component>
+
+<component id="ID_s2_caption">
+<text><![CDATA[Une carte de bouclage permet de tester le fonctionnement de base des ports de l'ordinateur.]]></text>
+</component>
+
+<component id="ID_s3_caption">
+<text><![CDATA[Un générateur de tonalités avec sonde permet de repérer l'emplacement des câbles.]]></text>
+</component>
+
+<component id="ID_s5_caption">
+<text><![CDATA[Un boîtier externe héberge un disque dur qui peut être utilisé pour diagnostiquer le disque dur d'un client ou un ordinateur qui ne démarre pas. Le boîtier externe permet également de créer des sauvegardes du disque dur d'un client.]]></text>
+</component>
+
+</textcomponents>

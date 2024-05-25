@@ -1,0 +1,8 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+  <text><![CDATA[<b>Gestion de disque</b>]]></text> 
+</component>
+
+
+</textcomponents>

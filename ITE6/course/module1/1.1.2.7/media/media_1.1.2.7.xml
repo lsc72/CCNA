@@ -1,0 +1,202 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+  <text><![CDATA[<b>Modules de mémoire</b>]]></text> 
+  </component>
+  
+ <component id="ID_s1_btn01">
+  <text><![CDATA[DIP]]></text>
+  </component>
+<component id="ID_s1_btn02">
+  <text><![CDATA[SIMM]]></text> 
+  </component>
+<component id="ID_s1_btn03">
+  <text><![CDATA[Mémoire DIMM]]></text> 
+  </component>
+<component id="ID_s1_btn04">
+  <text><![CDATA[SODIMM]]></text> 
+  </component>
+  
+ <component id="ID_s1_txt01">
+  <text><![CDATA[La puce DIP (Dual Inline Package) est une puce mémoire individuelle. Elle comporte deux rangées de broches servant à la fixer à la carte mère. ]]></text>
+  </component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[Le module de mémoire à connexion simple (Single Inline Memory Module, SIMM) est une petite carte contenant plusieurs puces mémoire. Il existe deux types de SIMM : à 30 broches ou à 72 broches.]]></text> 
+  </component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[Le module de mémoire à connexion double (Dual Inline Memory Module, DIMM) est une carte contenant des puces SDRAM, DDR SDRAM, DDR2 SDRAM et DDR3 SDRAM. Il existe des DIMM SDRAM à 168 broches, des DIMM DDR à 184 broches, des DIMM DDR2 et des DIMM DDR3 à 240 broches.]]></text> 
+  </component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[Une puce SODIMM (Small Outline DIMM) existe en deux types, 72 broches et 100 broches pour la prise en charge des transferts à 32 bits, ou 144 broches, 200 broches et 204 broches pour la prise en charge des transferts à 64 bits. Cette version plus petite et plus condensée des modules DIMM offre un stockage de données à accès aléatoire et convient parfaitement aux ordinateurs portables, aux imprimantes et aux autres périphériques pour lesquels un gain d'espace est souhaitable.]]></text> 
+  </component> 
+ 
+
+ <component id="ID_s1_title_txt01">
+  <text><![CDATA[<b>DIP</b>]]></text>
+  </component>
+<component id="ID_s1_title_txt02">
+  <text><![CDATA[<b>SIMM</b>]]></text> 
+  </component>
+<component id="ID_s1_title_txt03">
+  <text><![CDATA[<b>Mémoire DIMM</b>]]></text> 
+  </component>
+<component id="ID_s1_title_txt04">
+  <text><![CDATA[<b>SODIMM</b>]]></text> 
+  </component> 
+  
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+			<td colspan='4' bgcolor='#DAE17A' class="title"><font color='#393536'><b>Types et caractéristiques des mémoires courantes</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='4' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23'  valign="top" width="107"><font color='#ffffff '><b>Type de mémoire</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100" ><font color='#ffffff '><b>Nom de secteur</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100"><font color='#ffffff '><b>Débit de transfert maximum</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100"><font color='#ffffff '><b>Bus frontal</b></font></td>
+	</tr>
+	
+	<tr>
+		<td height="30" bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC100 SDRAM</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC-100</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>800 Mbit/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>100 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PC133 SDRAM</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PC-133</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1 060 Mo/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>133 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR-333</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC-2700</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>2 700 Mo/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>166 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR-400</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC-3200</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>3 200 Mo/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>200 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR2-667</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC2-5300</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>5 333 Mo/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>667 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-1600</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-12800</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>12 800 Mo/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1600 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR2-800</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC2-6400</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>6 400 Mo/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>400 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-1333</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-10600</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>10 667 Mo/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1333 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR3-1866</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC3-14900</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>14 933 Mo/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1867 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-2133</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-17000</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>17 066 Mo/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>2133 MHz</font></td>
+	</tr>
+</table>]]></text>
+</component>  
+  
+  
+<component id="ID_s3_title">
+  <text><![CDATA[<b>Mémoire cache</b>]]></text> 
+  </component>
+  
+ <component id="ID_s3_btn01">
+  <text><![CDATA[L1]]></text>
+  </component>
+<component id="ID_s3_btn02">
+  <text><![CDATA[C2]]></text> 
+  </component>
+<component id="ID_s3_btn03">
+  <text><![CDATA[C3]]></text> 
+  </component>
+  
+ <component id="ID_s3_txt01">
+  <text><![CDATA[Le cache L1 est la mémoire cache interne, intégrée au processeur.]]></text>
+  </component>
+<component id="ID_s3_txt02">
+  <text><![CDATA[Le cache L2 est la mémoire cache externe, qui était montée à l'origine sur la carte mère, près du processeur. Aujourd'hui, le cache L2 est intégré au processeur.]]></text> 
+  </component>
+<component id="ID_s3_txt03">
+  <text><![CDATA[Le cache L3 est utilisé sur certains processeurs de stations de travail et de serveurs haut de gamme.]]></text> 
+  </component>
+
+   
+ <component id="ID_s3_title_txt01">
+  <text><![CDATA[<b>L1</b>]]></text>
+  </component>
+<component id="ID_s3_title_txt02">
+  <text><![CDATA[<b>C2</b>]]></text> 
+  </component>
+<component id="ID_s3_title_txt03">
+  <text><![CDATA[<b>C3</b>]]></text> 
+  </component>
+  
+  
+<component id="ID_s4_title">
+  <text><![CDATA[<b>Erreurs liées à la mémoire</b>]]></text> 
+  </component>
+  
+ <component id="ID_s4_btn01">
+  <text><![CDATA[Sans parité]]></text>
+  </component>
+<component id="ID_s4_btn02">
+  <text><![CDATA[Parité]]></text> 
+  </component>
+<component id="ID_s4_btn03">
+  <text><![CDATA[ECC]]></text> 
+  </component>
+  
+ <component id="ID_s4_txt01">
+  <text><![CDATA[Il n'y a pas de contrôle des erreurs pour la mémoire sans parité.]]></text>
+  </component>
+<component id="ID_s4_txt02">
+  <text><![CDATA[La mémoire à parité contient huit bits pour les données et un bit pour le contrôle des erreurs. Le bit de contrôle des erreurs est appelé bit de parité.]]></text> 
+  </component>
+<component id="ID_s4_txt03">
+  <text><![CDATA[La mémoire à code de correction d'erreur (Error Correction Code, ECC) peut détecter les erreurs portant sur plusieurs bits et corriger les erreurs portant sur un seul bit dans la mémoire.]]></text> 
+  </component>
+   
+    
+ <component id="ID_s4_title_txt01">
+  <text><![CDATA[<b>Sans parité</b>]]></text>
+  </component>
+<component id="ID_s4_title_txt02">
+  <text><![CDATA[<b>Parité</b>]]></text> 
+  </component>
+<component id="ID_s4_title_txt03">
+  <text><![CDATA[<b>ECC</b>]]></text> 
+  </component> 
+  
+<component id="transcript">
+  <text><![CDATA[<b>transcription ici</b>]]></text> 
+  </component>
+</textcomponents>

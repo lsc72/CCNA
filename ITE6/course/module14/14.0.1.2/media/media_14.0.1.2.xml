@@ -1,0 +1,49 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étapes du dépannage</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'  width="120">Étape 1</td>
+                <td bgcolor='#E9E7E8'>Identifier le problème</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Étape 2</td>
+                <td bgcolor='#F2F2F2'>Établir une théorie sur les causes probables</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Étape 3</td>
+                <td bgcolor='#E9E7E8'>Tester vos théories pour déterminer la cause du problème</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Étape 4</td>
+                <td bgcolor='#F2F2F2'>Établir un plan d'action visant à résoudre le problème et à implémenter la solution</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Étape 5</td>
+                <td bgcolor='#E9E7E8'>Vérifier le fonctionnement complet et implémenter s'il y a lieu des mesures préventives</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>Étape 6</td>
+                <td bgcolor='#F2F2F2'>Documenter les observations, les actions et les résultats</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

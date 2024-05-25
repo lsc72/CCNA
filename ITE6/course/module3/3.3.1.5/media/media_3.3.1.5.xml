@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Questions relatives à la mise à niveau de la mémoire vive</b>]]></text>
+	</component><!-- Textbox --><component id='ID_titleTxt'>
+		<text><![CDATA[<b>Questions relatives à la nouvelle mémoire vive</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<textformat blockindent='-16'><ul><li>Quel type de mémoire vive la carte mère utilise-t-elle actuellement ?</li><li>Des slots de mémoire vive sont-ils libres ?</li><li>La mémoire vive peut-elle être installée module par module ou les modules doivent-ils être regroupés en blocs de mémoire ?</li><li>La nouvelle mémoire vive présente-t-elle les mêmes caractéristiques de vitesse, latence et tension que la mémoire vive existante, et est-elle du même type ?</li></ul></textformat>]]></text>
+	</component><!-- End Textbox --></textcomponents>

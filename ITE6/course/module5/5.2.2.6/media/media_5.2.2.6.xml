@@ -1,0 +1,100 @@
+<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Identification de la terminologie relative à l'installation du système d'exploitation</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>Instructions</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez chaque terme à sa définition.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[RIS]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Actualisation de votre PC]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Options de démarrage avancées]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[Image]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[PXE]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Partition de récupération]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Sysprep]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>Contrôler</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>Réinitialiser</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>Correct</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque terme à sa définition.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>Incorrect</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque terme à sa définition. Cliquez sur <b>Réinitialiser</b> pour réessayer.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Définition</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Termes</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Ensemble d'outils permettant aux utilisateurs de dépanner, de récupérer ou de restaurer un système d'exploitation incapable de démarrer.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Environnement spécial utilisé pour démarrer l'ordinateur, se connecter à un réseau et communiquer avec le serveur afin de démarrer l'installation du système d'exploitation.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Elle contient une image pouvant être utilisée pour restaurer la configuration initiale de l'ordinateur.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Programme utilisé pour préparer le système d'exploitation à des configurations matérielles différentes afin d'installer et de configurer le même système d'exploitation sur plusieurs ordinateurs.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Outil qui rétablit le logiciel système de l'ordinateur à sa configuration d'usine sans supprimer les fichiers et les applications de l'utilisateur.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Fichier contenant toutes les données d'une partition.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Logiciel servant à communiquer avec un client et fournissant les instructions nécessaires à celui-ci pour télécharger les fichiers de configuration du système d'exploitation et démarrer l'installation.]]></text>
+	</component>
+</textcomponents>

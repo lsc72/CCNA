@@ -1,0 +1,23 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Jailbreaking sur les appareils iOS - Terminal sur iPhone</b>]]></text>
+	</component>
+
+	<component id="ID_s1_text">
+        <text><![CDATA[L'image présente un iPhone ayant subi un jailbreaking qui exécute une application de terminal pour accéder à l'interface en ligne de commande de l'appareil. Notez que l'utilisateur mobile est devenu l'utilisateur racine et a pu afficher la liste du contenu du répertoire /. Ensuite, l'utilisateur racine a lancé via la ligne de commande un analyseur de paquets (tcpdump) sur la carte sans fil du téléphone. Aucune de ces tâches n'est possible sans « jailbreaking ».]]></text>
+	</component>
+    
+		<component id="ID_s1_header">
+        <text><![CDATA[ ]]></text>
+	</component>
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Jailbreaking sur les appareils iOS - iPhone en tant que serveur SSH</b>]]></text>
+	</component>
+
+	<component id="ID_s2_text">
+        <text><![CDATA[Cette image présente une connexion SSH à un iPhone ayant subi un jailbreaking qui exécute un serveur SSH. Notez que l'utilisateur racine affiche des informations sur le noyau en service (Darwin) et indique la connexion SSH en cours (port TCP 22). Aucune de ces tâches n'est possible sans « jailbreaking ».]]></text>
+	</component>
+   
+
+</textcomponents>

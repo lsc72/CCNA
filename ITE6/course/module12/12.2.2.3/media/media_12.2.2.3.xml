@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+    <component id="ID_s1_title">
+		<text><![CDATA[<b>Activation du bloqueur de fenêtres contextuelles</b>]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Modification des paramètres du bloqueur de fenêtres contextuelles</b>]]></text>
+	</component>
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Fenêtre des paramètres du bloqueur de fenêtres contextuelles</b>]]></text>
+	</component>
+	
+</textcomponents>

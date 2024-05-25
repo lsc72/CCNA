@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Actualisation de votre PC sous Windows 8.x</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Actualisation de votre PC sous Windows 8.x</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Options avancées de Windows 8.x</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Options de récupération de Windows 7</b>]]></text>
+	</component>
+	
+</textcomponents>

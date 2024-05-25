@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.8 Test de connectivité avec l&#x0027;interface en ligne de commande Windows</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Test de connectivité avec l&#x0027;interface en ligne de commande Windows</h1>
+        <div>
+          <p>Vous pouvez utiliser plusieurs commandes dans l'interface en ligne de commande pour tester la connectivité réseau. L'interface en ligne de commande peut être exécutée à partir de la fenêtre d'invite de commandes. </p>
+          <p></p>
+          <p>Pour ouvrir la fenêtre Invite de commandes, sous Windows 8.x, allez dans l'écran de démarrage, tapez <b>commande</b> et sélectionnez <b>Invite de commandes</b>.</p>
+          <p></p>
+          <p>Pour ouvrir la fenêtre Invite de commandes, sous Windows 7 et Windows Vista, sélectionnez <b>Démarrer</b> et tapez <b>Invite de commandes</b>. </p>
+          <p></p>
+          <p>En tant que technicien, vous devez bien connaître les commandes suivantes :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>ipconfig</b> - Cette commande affiche les informations de configuration de base de toutes les cartes réseau. Le tableau ci-contre récapitule les options de commandes disponibles. Pour utiliser une option de commande, entrez <b>ipconfig /</b><i>option</i> (exemple : ipconfig /all).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>ping</b> – Cette commande permet de tester la connectivité de base entre des périphériques. Lors du dépannage d'un problème de connectivité, envoyez une requête ping à votre ordinateur, à la passerelle par défaut et à une adresse IP Internet. Vous pouvez également tester la connexion Internet et le DNS en envoyant une requête ping à un site public. Dans l'invite de commandes, tapez <b>ping </b><i>nom_de_destination</i> (exemple : ping www.cisco.com). Pour exécuter d'autres tâches spécifiques, vous pouvez ajouter des options à la commande ping.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>net</b> – Cette commande permet de gérer les ordinateurs du réseau, les serveurs et certaines ressources comme les lecteurs et les imprimantes. Les commandes net utilisent le protocole NetBIOS de Windows. Ces commandes permettent de démarrer, d'arrêter et de configurer les services réseau.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>netdom</b> – Cette commande permet de gérer les comptes d'ordinateur, d'associer des ordinateurs à un domaine et de réaliser d'autres tâches spécifiques aux domaines.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>nbtstat</b> – Cette commande permet d'afficher les statistiques, les connexions actives et les services exécutés sur les ordinateurs locaux et distants.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>tracert</b> – Cette commande permet de suivre le trajet emprunté par les paquets pour aller de votre ordinateur jusqu'à l'hôte de destination. À l'invite, entrez <b>tracert </b><i>nom_d'hôte</i>. En premier lieu, vous voyez les informations relatives à votre passerelle par défaut. Les sections suivantes concernent le routeur par lequel les paquets transitent pour atteindre leur destination. La commande tracert vous indique où les paquets s'arrêtent, ce qui vous permet de déterminer exactement où se situe le problème. Si certaines sections révèlent des problèmes après la passerelle par défaut, cela peut indiquer qu'ils se trouvent au niveau du fournisseur de services Internet (FAI), d'Internet ou du serveur de destination.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>nslookup</b> – Cette commande permet de tester et de dépanner les serveurs DNS. Elle interroge le serveur DNS pour connaître les adresses IP ou les noms d'hôtes. Dans l'invite de commandes, tapez <b>nslookup </b><i>nom_d'hôte</i>. Nslookup renvoie l'adresse IP correspondant au nom d'hôte entré. Une commande nslookup inverse, <b>nslookup </b><i>adresse_IP</i> renvoie le nom d'hôte correspondant à l'adresse IP entrée. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque </b>: chacune de ces commandes dispose de plusieurs options de commandes. N'oubliez pas d'utiliser l'option aide ( /?) pour afficher les options de commandes.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

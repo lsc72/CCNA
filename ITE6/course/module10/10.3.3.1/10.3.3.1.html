@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.3.3.1 E-mails : introduction</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.3.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>E-mails : introduction</h1>
+        <div>
+          <p>La structure du système de messagerie repose sur des serveurs et des clients. Les serveurs de messagerie transmettent les e-mails envoyés par leurs utilisateurs. Les utilisateurs se servent des clients de messagerie pour composer, lire et consulter leurs e-mails. Il peut s'agir d'applications Web ou d'applications autonomes. Les clients de messagerie autonomes dépendent de chaque plate-forme. Cette section traite des clients de messagerie des appareils mobiles.</p>
+          <p></p>
+          <p>Les informations suivantes sont nécessaires pour configurer un compte de messagerie :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Nom complet</b> : vous pouvez utiliser votre nom réel, votre pseudonyme ou un autre nom. Il s'agit du nom que verront les personnes que vous contactez.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Adresse e-mail</b> : adresse à laquelle vous recevrez vos e-mails. Une adresse e-mail est constituée d'un nom d'utilisateur suivi du symbole @ et du domaine du serveur de messagerie (nom@exemple.net).</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Protocole utilisé par le serveur de messagerie pour courrier entrant</b> : les différents protocoles offrent des services de messagerie différents.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nom des serveurs pour courrier entrant et courrier sortant</b> : ces noms sont fournis par l'administrateur réseau ou le FAI.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Nom d'utilisateur</b> : nom utilisé pour se connecter aux serveurs de messagerie.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Mot de passe du compte</b> : ce mot de passe doit être complexe, car les comptes de messagerie sont souvent utilisés sur différents sites Web.</li>
+            </ul>
+          </p>
+          <p>Les protocoles de messagerie utilisés comprennent :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Protocole POP3 (Post Office Protocol version 3)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>IMAP (Internet Message Access Protocol)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>SMTP (Simple Mail Transfer Protocol)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>MIME (Multipurpose Internet Mail Extensions)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>SSL (Secure Socket Layer)</li>
+            </ul>
+          </p>
+          <p>Vous devez savoir comment configurer un appareil pour qu'il accepte le format correct de courrier entrant. Vous pouvez configurer le logiciel client de messagerie à l'aide d'un assistant.</p>
+          <p></p>
+          <p>
+            <b>POP3</b>
+          </p>
+          <p></p>
+          <p>Le protocole Post Office Protocol 3 (POP3) récupère les e-mails auprès d'un serveur distant, via TCP/IP. POP3 ne laisse aucune copie des e-mails sur le serveur. Toutefois, certaines implémentations permettent aux utilisateurs de conserver les e-mails pendant un certain temps. Le protocole POP3 prend en charge les utilisateurs disposant d'une connexion intermittente, par exemple par ligne commutée. Avec le protocole POP3, l'utilisateur peut se connecter, télécharger les e-mails à partir du serveur, puis se déconnecter. Le protocole POP3 utilise généralement le port 110.</p>
+          <p></p>
+          <p>
+            <b>IMAP</b>
+          </p>
+          <p></p>
+          <p>Le protocole Internet Mail Access Protocol (IMAP) permet aux clients de messagerie locaux de récupérer les e-mails sur un serveur. Tout comme le protocole POP3, l'IMAP vous permet de télécharger les e-mails à partir d'un serveur de messagerie à l'aide d'un client de messagerie. La différence est que le protocole IMAP permet à l'utilisateur d'organiser ses e-mails sur le serveur de messagerie du réseau, ainsi que d'en télécharger des copies. Les originaux sont conservés sur le serveur de messagerie du réseau. Contrairement au protocole POP3, le protocole IMAP laisse généralement les e-mails originaux sur le serveur jusqu'à ce que l'utilisateur les mette dans un dossier personnel au sein de l'application de messagerie. Le protocole IMAP synchronise les dossiers d'e-mails entre le serveur et le client. IMAP est plus rapide que le protocole POP3, mais nécessite plus d'espace disque sur le serveur et plus de ressources processeur. La version la plus récente du protocole IMAP est IMAP4. Le protocole IMAP4 est souvent utilisé dans les réseaux de grande taille, par exemple sur les campus. Le protocole IMAP utilise généralement le port 143.</p>
+          <p></p>
+          <p>
+            <b>SMTP</b>
+          </p>
+          <p></p>
+          <p>Le protocole SMTP (Simple Mail Transfer Protocol) est un protocole texte qui transmet les messages sur un réseau TCP/IP. Il s'agit d'un format de messagerie texte utilisant uniquement le codage ASCII. Le protocole SMTP doit être implémenté pour envoyer des e-mails. Les e-mails sont envoyés depuis un client de messagerie vers un serveur de messagerie, ou d'un serveur de messagerie à un autre. Il est à noter que les e-mails sont envoyés uniquement lorsque les destinataires sont identifiés et vérifiés. Ce protocole utilise généralement le port 25.</p>
+          <p></p>
+          <p>
+            <b>MIME</b>
+          </p>
+          <p></p>
+          <p>Le protocole Multipurpose Internet Mail Extensions (MIME) étend le format des e-mails afin d'inclure le texte ASCII, ainsi que d'autres formats tels que des images et des documents de traitement de texte. La norme MIME est généralement utilisée conjointement avec le protocole SMTP.</p>
+          <p></p>
+          <p>
+            <b>SSL</b>
+          </p>
+          <p></p>
+          <p>Le protocole SSL (Secure Socket Layer) a été développé pour transmettre des fichiers en toute sécurité. Toutes les données échangées entre le client de messagerie et le serveur de messagerie sont en effet chiffrées. Pour configurer un client de messagerie devant utiliser le protocole SSL, il est nécessaire de sélectionner le bon port du serveur de messagerie.</p>
+          <p></p>
+          <p>
+            <b>Exchange </b>
+          </p>
+          <p></p>
+          <p>Exchange est un logiciel de serveur de messagerie, de gestion des contacts et de calendrier créé par Microsoft. Il utilise une interface de messagerie propriétaire appelée MAPI (Messaging Application Programming Interface). L'interface MAPI est utilisée par Microsoft Office Outlook pour se connecter aux serveurs Exchange et exploiter les services de messagerie et de gestion des calendriers et des contacts.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

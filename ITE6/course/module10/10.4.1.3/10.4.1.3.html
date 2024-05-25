@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.3 Présentation de la CLI de Linux et d&#x0027;OS X</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Présentation de la CLI de Linux et d&#x0027;OS X</h1>
+        <div>
+          <p>Dans Linux et OS X, l'utilisateur peut communiquer avec le système d'exploitation par l'intermédiaire de l'interface en ligne de commande (CLI). Pour plus de flexibilité, les commandes (ou outils) pouvant accepter des paramètres, des options et des commutateurs sont généralement précédées d'un tiret (« - »). Les options et les commutateurs de chaque commande sont également fournis par l'utilisateur, en même temps que la commande.</p>
+          <p></p>
+          <p>Un programme appelé interpréteur de commandes interprète les commandes et les transmet au système d'exploitation. Lorsque l'utilisateur se connecte au système, le programme d'ouverture de session vérifie le nom d'utilisateur et le mot de passe. Si les informations d'identification sont correctes, il lance l'interpréteur de commandes. À ce stade, l'utilisateur autorisé peut commencer à communiquer avec le système d'exploitation avec ces commandes texte.</p>
+          <p></p>
+          <p>Comme le montre l'illustration 1, les utilisateurs communiquent avec le noyau par l'intermédiaire d'un interpréteur de commandes. En d'autres termes, l'interpréteur de commandes sert de couche d'interface entre l'utilisateur et le noyau. Le noyau est responsable de la gestion du temps du processeur et de l'affectation de la mémoire aux processus. Il assure également la gestion du système de fichiers et des communications en réponse aux appels système.</p>
+          <p></p>
+          <p>La plupart des systèmes d'exploitation comportent une interface graphique. Bien que l'interface en ligne de commande reste présente, le système d'exploitation démarre souvent avec l'interface graphique utilisateur par défaut, masquant la ligne de commande pour l'utilisateur. Les émulateurs de terminal permettent d'accéder à l'interface en ligne de commande dans un système d'exploitation basé sur une interface graphique. Ces applications portent souvent un nom proche de « terminal ». Sur Linux, les émulateurs de terminal les plus utilisés sont Terminator, eterm, xterm, konsole et gnome-terminal. OS X comprend un émulateur de terminal appelé Terminal, mais d'autres émulateurs tiers sont aussi disponibles.</p>
+          <p></p>
+          <p>L'illustration 2 montre gnome-terminal, un émulateur répandu sur Linux.</p>
+          <p></p>
+          <p>L'illustration 3 présente Terminal, un émulateur de terminal souvent utilisé sur OS X.</p>
+          <p></p>
+          <p>
+            <b>Remarque :</b> les mêmes commandes ont été émises dans les deux terminaux afin d'illustrer la similitude des interfaces en ligne de commande dans ces systèmes de type Unix.</p>
+          <p>
+            <b>Remarque :</b> pour utiliser une interface en ligne de commande Linux dans votre navigateur Web, revenez au cours et consultez le module supplémentaire NDG Linux CompTIA A+.</p>
+          <p></p>
+          <p>
+            <b>Systèmes de fichiers Linux et OS X </b>
+          </p>
+          <p></p>
+          <p>Linux et OS X utilisent des systèmes de fichiers uniques.</p>
+          <p></p>
+          <p>Les plus répandus sur Linux sont ext3 et ext4 (troisième et quatrième systèmes de fichiers étendus). Il s'agit de systèmes de fichiers avec journalisation, qui tiennent un journal, ou log, de toutes les modifications à apporter au système de fichiers. Ces journaux permettent de réduire les risques d'endommager le système de fichiers en cas de coupure de courant, car ils peuvent être utilisés pour appliquer les modifications une fois le courant rétabli. Ces deux systèmes de fichiers peuvent accueillir des fichiers volumineux, jusqu'à 32 To (téraoctets) pour ext4.</p>
+          <p></p>
+          <p>HFS+ (Hierarchical File System Plus) est le système de fichiers de base utilisé par OS X. Comme ext3 et ext4, HFS+ prend également en charge les volumes avec journalisation. Les volumes HFS+ peuvent accueillir des fichiers volumineux, jusqu'à près de 8 Eo (exaoctets) dans OS X 10.4 et versions ultérieures.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

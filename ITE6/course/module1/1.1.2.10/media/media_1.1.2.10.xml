@@ -1,0 +1,260 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Câble SATA</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Connexion d'un disque dur USB portable</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Types de connecteurs USB</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[Connecteur USB de type A]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[Connecteur USB de type B]]></text>
+</component>
+
+<component id='ID_s3_txt04'>
+	<text><![CDATA[Connecteur mini-USB]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[Connecteur micro-USB]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Connecteur USB-C</b>]]></text>
+</component>
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[<b>Conception entièrement nouvelle</b><br/>Pour les nouveaux produits]]></text>
+</component>
+<component id='ID_s4_txt02'>
+	<text><![CDATA[<b>Prise en charge de la charge évolutive</b>]]></text>
+</component>
+<component id='ID_s4_txt03'>
+	<text><![CDATA[<b>Évolutivité future</b><br/>Pour les besoins futurs en matière de ports USB]]></text>
+</component>
+<component id='ID_s4_txt04'>
+	<text><![CDATA[<b>Améliorations de la convivialité</b><br/>Orientation des prises et direction des câbles réversibles]]></text>
+</component>
+<component id='ID_s4_txt05'>
+	<text><![CDATA[<b>Nouvelle taille réduite</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Types de connexion externe</b>]]></text>
+</component>
+
+ <component id="ID_s5_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="4" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="110"><font color='#FFFFFF' ><b>Type de connexion</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="200"><font color='#FFFFFF' ><b>Description</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="140"><font color='#FFFFFF' ><b>Bande passante maximale</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Longueur maximale des câbles</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>FireWire 400<br/>(IEEE 1394a)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Prend en charge les disques remplaçables à chaud.</li><li>Port prenant en charge jusqu'à 63 périphériques avec des concentrateurs.</li><li>Fournit une alimentation.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>400 Mbit/s</td>
+			<td bgcolor='#E9E7E8'>4,5 mètres</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>FireWire 800<br/>(IEEE 1394b)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Rétrocompatible avec FireWire 400.</li><li>Connexion possible avec un câble Ethernet.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>800 Mbit/s</td>
+			<td bgcolor='#E9E7E8'>4,5 mètres<br/>100 mètres</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>eSATA</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Connexion à des lecteurs ou disques durs SATA externes.</li><li>Les lecteurs ou disques durs externes requièrent un câble d'alimentation.</li><li>Non compatible SATA.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>3 Gbit/s</td>
+			<td bgcolor='#E9E7E8'>2 mètres</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB 2.0</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Prend en charge les disques remplaçables à chaud.</li><li>Port prenant en charge jusqu'à 127 périphériques avec des concentrateurs.</li><li>Fournit une alimentation.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>480 Mbit/s</td>
+			<td bgcolor='#E9E7E8'>5 mètres</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB 3.0</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Rétrocompatible avec USB 2.0.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>5 Gbit/s</td>
+			<td bgcolor='#E9E7E8'>3 mètres</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB 3.1</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Rétrocompatible avec USB 2.0 et USB 3.0.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>10 Gbit/s</td>
+			<td bgcolor='#E9E7E8'>3 mètres</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Thunderbolt</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>Prend en charge jusqu'à 6 périphériques connectés en série.</li><li>Fournit une alimentation.</li><li>Le Thunderbolt 3 utilise un connecteur USB-C.</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>10 Gbit/s<br/>20 Gbit/s (Thunderbolt 2)<br/>40 Gbit/s (Thunderbolt 3)</td>
+			<td bgcolor='#E9E7E8'>3 mètres</td>
+		</tr>
+		
+	</table>]]></text> 
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Bande passante maximale de connexion externe</b>]]></text>
+</component>
+
+<component id='ID_s6_txt01'>
+	<text><![CDATA[FireWire 400]]></text>
+</component>
+
+<component id='ID_s6_txt02'>
+	<text><![CDATA[USB 2.0]]></text>
+</component>
+
+<component id='ID_s6_txt03'>
+	<text><![CDATA[FireWire 800]]></text>
+</component>
+
+<component id='ID_s6_txt04'>
+	<text><![CDATA[eSATA]]></text>
+</component>
+
+<component id='ID_s6_txt05'>
+	<text><![CDATA[USB 3.0]]></text>
+</component>
+
+<component id='ID_s6_txt06'>
+	<text><![CDATA[USB 3.1]]></text>
+</component>
+
+<component id='ID_s6_txt07'>
+	<text><![CDATA[Thunderbolt 2]]></text>
+</component>
+
+<component id='ID_s6_txt08'>
+	<text><![CDATA[Gigabits/seconde (Gbit/s)]]></text>
+</component>
+
+<component id='ID_s6_txt09'>
+	<text><![CDATA[Canal 1]]></text>
+</component>
+
+<component id='ID_s6_txt10'>
+	<text><![CDATA[Canal 2]]></text>
+</component>
+
+<component id='ID_s6_txt11'>
+	<text><![CDATA[400 Mbit/s]]></text>
+</component>
+
+<component id='ID_s6_txt12'>
+	<text><![CDATA[480 Mbit/s]]></text>
+</component>
+
+<component id='ID_s6_txt13'>
+	<text><![CDATA[800 Mbit/s]]></text>
+</component>
+
+<component id='ID_s6_txt14'>
+	<text><![CDATA[3 Gbit/s<br/>(3000 Mbit/s)]]></text>
+</component>
+
+<component id='ID_s6_txt15'>
+	<text><![CDATA[5 Gbit/s<br/>(5000 Mbit/s)]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Comparaison des niveaux RAID</b>]]></text>
+</component>
+
+<component id="ID_s7_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="5" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>Comparaison des niveaux RAID</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="70"><font color='#FFFFFF' ><b>Niveau RAID</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="70"><font color='#FFFFFF' ><b>Nb min. de disques</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="110"><font color='#FFFFFF' ><b>Description</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Avantages</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>Inconvénients</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>0</b></td>
+			<td bgcolor='#E9E7E8'>2</td>
+			<td bgcolor='#E9E7E8'>Entrelacement des données sans redondance</td>
+			<td bgcolor='#E9E7E8'>Performances maximales</td>
+			<td bgcolor='#E9E7E8'>Aucune protection des données, une panne d'un disque entraîne la perte de toutes les données</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>1</b></td>
+			<td bgcolor='#E9E7E8'>2</td>
+			<td bgcolor='#E9E7E8'>Mise en miroir de disques</td>
+			<td bgcolor='#E9E7E8'>Hautes performances, haute protection des données, car toutes les données sont dupliquées</td>
+			<td bgcolor='#E9E7E8'>Coût de mise en œuvre élevé, car un disque supplémentaire d'une capacité équivalente ou supérieure est requis</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>2</b></td>
+			<td bgcolor='#E9E7E8'>2</td>
+			<td bgcolor='#E9E7E8'>Code de correction d'erreurs</td>
+			<td bgcolor='#E9E7E8'>Ce niveau n'est plus utilisé</td>
+			<td bgcolor='#E9E7E8'>Les mêmes performances peuvent être obtenues à un coût plus faible à l'aide du RAID 3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>3</b></td>
+			<td bgcolor='#E9E7E8'>3</td>
+			<td bgcolor='#E9E7E8'>Entrelacement des données au niveau des octets avec parité dédiée</td>
+			<td bgcolor='#E9E7E8'>Pour des requêtes de données séquentielles volumineuses</td>
+			<td bgcolor='#E9E7E8'>Ne prend pas en charge plusieurs requêtes de lecture et d'écriture simultanées</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>4</b></td>
+			<td bgcolor='#E9E7E8'>3</td>
+			<td bgcolor='#E9E7E8'>Entrelacement des données en blocs avec parité dédiée</td>
+			<td bgcolor='#E9E7E8'>Prend en charge plusieurs requêtes de lecture ; en cas de défaillance d'un disque, le disque de parité dédié est utilisé pour créer un disque de remplacement</td>
+			<td bgcolor='#E9E7E8'>Les requêtes d'écriture sont dans un goulot d'étranglement en raison du lecteur de parité dédié</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>5</b></td>
+			<td bgcolor='#E9E7E8'>3</td>
+			<td bgcolor='#E9E7E8'>Combinaison de l'entrelacement des données et de la parité</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li style="font-size:10px">Prend en charge plusieurs requêtes de lecture et d'écriture simultanées</li><li style="font-size:10px">Données écrites sur les lecteurs avec parité</li><li style="font-size:10px">Possibilité de régénérer des données avec des informations issues des autres disques</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>Les performances d'écriture sont plus lentes qu'en RAID 0 et 1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>6</b></td>
+			<td bgcolor='#E9E7E8'>4</td>
+			<td bgcolor='#E9E7E8'>Disques de données indépendants avec parité double</td>
+			<td bgcolor='#E9E7E8'>La répartition des données en blocs avec les données de parité distribuées sur l'ensemble des disques permet de gérer deux pannes de disque simultanées</td>
+			<td bgcolor='#E9E7E8'>Performances inférieures au RAID 5, non pris en charge sur tous les contrôleurs de disque</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>RAID 0+1</b></td>
+			<td bgcolor='#E9E7E8'>4</td>
+			<td bgcolor='#E9E7E8'>Combinaison de l'entrelacement des données et de la mise en miroir</td>
+			<td bgcolor='#E9E7E8'>Hautes performances, niveau de protection des données le plus élevé</td>
+			<td bgcolor='#E9E7E8'>Surcoût élevé, car la duplication des données nécessite deux fois plus de capacité de stockage</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>10</b></td>
+			<td bgcolor='#E9E7E8'>4 (doit être un nombre pair)</td>
+			<td bgcolor='#E9E7E8'>Ensemble en miroir dans un ensemble avec données entrelacées</td>
+			<td bgcolor='#E9E7E8'>Offre une tolérance aux pannes et des performances améliorées</td>
+			<td bgcolor='#E9E7E8'>Surcoût élevé, car la duplication des données nécessite deux fois plus de capacité de stockage</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+</textcomponents>

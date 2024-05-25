@@ -1,0 +1,55 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Modèle OSI</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='105'><font color='#F2F2F2'><b>Modèle OSI</b></font></td>
+		<td bgcolor='#666263' width='65'><font color='#F2F2F2'><b>Couche</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Application</td>
+		<td bgcolor='#E9E7E8'>7</td>
+		<td bgcolor='#E9E7E8'>Responsable des services réseau pour les applications</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Présentation</td>
+		<td bgcolor='#F2F2F2'>6</td>		
+		<td bgcolor='#F2F2F2'>Transforme les formats de données pour fournir une interface standard à la couche Application</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Session</td>
+		<td bgcolor='#E9E7E8'>5</td>
+		<td bgcolor='#E9E7E8'>Établit, gère et interrompt les connexions entre l'application locale et distante</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Transport</td>
+		<td bgcolor='#F2F2F2'>4</td>
+		<td bgcolor='#F2F2F2'>Propose un transport fiable et un contrôle de flux sur tout un réseau</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Réseau</td>
+		<td bgcolor='#E9E7E8'>3</td>
+		<td bgcolor='#E9E7E8'>Responsable de l'adressage logique et du domaine de routage</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Liaison de données</td>
+		<td bgcolor='#F2F2F2'>2</td>
+		<td bgcolor='#F2F2F2'>Propose des procédures d'adressage physique et d'accès au support</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Physique</td>
+		<td bgcolor='#E9E7E8'>1</td>
+		<td bgcolor='#E9E7E8'>Définit toutes les spécifications électriques et physiques des équipements</td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

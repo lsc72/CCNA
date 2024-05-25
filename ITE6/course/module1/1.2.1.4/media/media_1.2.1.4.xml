@@ -1,0 +1,49 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Choix d'une alimentation</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Facteurs</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Arguments à prendre en compte</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Type de carte mère</td>
+                <td bgcolor='#E9E7E8'>L'alimentation doit être compatible avec la carte mère.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Puissance requise</td>
+                <td bgcolor='#F2F2F2'>Additionnez la puissance en watts de chaque composant. Si la puissance en watts n'est pas indiquée sur un composant, calculez-la en multipliant sa tension par son intensité. Lorsqu'un composant n'utilise pas toujours la même puissance, basez-vous sur la valeur la plus élevée. </td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Nombre de composants</td>
+                <td bgcolor='#E9E7E8'>Assurez-vous que l'alimentation délivre une puissance suffisante en watts afin de pouvoir prendre en charge le nombre et les types de composants plus 25 % de marge au minimum.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Type de composants</td>
+                <td bgcolor='#F2F2F2'>Assurez-vous que l'alimentation possède les types de connecteurs appropriés.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Type de boîtier</td>
+                <td bgcolor='#E9E7E8'>Assurez-vous que l'alimentation peut être installée dans le boîtier souhaité.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

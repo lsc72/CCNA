@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Slots d'extension PCI</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Slots d'extension PCIe x1</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Slots d'extension PCIe x16</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>Cartes d'extension</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt01">
+		<text><![CDATA[Slot PCI de la carte réseau sans fil]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[Carte vidéo PCIe x16]]></text>
+	</component>
+	
+</textcomponents>

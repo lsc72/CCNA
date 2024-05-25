@@ -1,0 +1,256 @@
+﻿<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions : ordinateurs portables</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identification du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur portable ne s'allume pas.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>L'ordinateur portable n'est pas branché.</li><li>La batterie n'est pas chargée.</li><li>La batterie ne tient pas la charge.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Raccorder l'ordinateur portable à une prise électrique.</li><li>Retirer et réinstaller la batterie.</li><li>Remplacer la batterie si elle ne se recharge plus.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batterie de l'ordinateur portable n'alimente le système que pendant un laps de temps réduit.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Les directives de chargement et de déchargement de la batterie n'ont pas été suivies.</li><li>La présence de périphériques supplémentaires décharge la batterie.</li><li>Le mode de gestion de l'alimentation n'est pas configuré correctement.</li><li>La batterie ne tient pas la charge très longtemps.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Suivre les procédures de chargement de la batterie décrites dans le manuel.</li><li>Retirer les périphériques non indispensables et, si possible, désactiver la carte réseau sans fil.</li><li>Modifier le mode de gestion de l'alimentation afin de diminuer l'utilisation de la batterie.</li><li>Remplacer la batterie.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'écran externe s'allume mais n'affiche aucune image.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le câble vidéo est mal branché ou endommagé.</li><li>L'ordinateur portable n'envoie pas de signal vidéo à l'écran externe. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Reconnecter ou remplacer le câble vidéo.</li><li>Utiliser la touche de fonction (touche Fn) avec la touche multifonction correspondante pour que l'écran externe soit utilisé. </li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur portable est sous tension, mais rien ne s'affiche sur l'écran lorsque l'ordinateur portable est ouvert une seconde fois.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>L'interrupteur de l'écran est sale ou endommagé.</li><li>L'ordinateur portable est passé en mode veille. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Rechercher dans le manuel de réparation de l'ordinateur portable les instructions relatives au nettoyage ou au remplacement de l'interrupteur de l'écran LCD.</li><li>Appuyer sur une touche du clavier pour faire sortir l'ordinateur du mode veille. </li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'image présente sur l'écran de l'ordinateur portable est pâle et terne.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le rétroéclairage de l'écran LCD n'est pas correctement réglé.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Rechercher dans le manuel de réparation de l'ordinateur portable les instructions relatives au calibrage du rétroéclairage de l'écran LCD.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>L'image affichée sur l'écran de l'ordinateur portable est pixélisée.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Les propriétés de l'écran sont incorrectes.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Régler l'écran sur la résolution native.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'image de l'écran de l'ordinateur portable tremble.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La fréquence de rafraîchissement de l'écran n'est pas assez élevée.</li>
+<li>L'onduleur est endommagé ou défaillant. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Modifier la fréquence de rafraîchissement de l'écran.</li><li>Démonter l'écran et remplacer l'onduleur. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Le curseur bouge tout seul.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Le pavé tactile est sale.</li>
+<li>Un pavé tactile et une souris sont utilisés en même temps.</li><li>La main ou le doigt de l'utilisateur a frôlé le pavé tactile alors qu'il utilisait le clavier. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Nettoyer le pavé tactile.</li><li>Débrancher la souris.</li><li>Essayer de ne pas toucher le pavé tactile pendant la saisie. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Certains pixels de l'écran n'affichent aucune couleur ou sont morts.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Les pixels en question ne reçoivent aucune alimentation.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Contacter le fabricant.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Certaines lignes de l'image à l'écran clignotent ou des formes de diverses couleurs et tailles apparaissent (artefacts).</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>L'écran n'est pas branché correctement.</li><li>La carte graphique est en surchauffe.</li><li>La carte graphique est défaillante. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Démonter l'ordinateur portable pour vérifier les connexions de l'écran.</li><li>Démonter et nettoyer l'ordinateur pour éliminer la poussière et les débris.</li><li>Remplacer la carte graphique. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Les couleurs affichées à l'écran sont incorrectes.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>L'écran n'est pas branché correctement.</li><li>La carte graphique est en surchauffe.</li><li>La carte graphique est défaillante. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Démonter l'ordinateur portable pour vérifier les connexions de l'écran.</li><li>Démonter et nettoyer l'ordinateur pour éliminer la poussière et les débris.</li><li>Remplacer la carte graphique. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Les images à l'écran sont déformées.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Les paramètres d'affichage ont été modifiés.</li><li>L'écran n'est pas branché correctement.</li><li>La carte graphique est en surchauffe.</li><li>La carte graphique est défaillante. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Restaurer les paramètres d'usine de l'écran.</li><li>Démonter l'ordinateur pour vérifier les connexions de l'écran.</li><li>Démonter et nettoyer l'ordinateur pour éliminer la poussière et les débris.</li><li>Remplacer la carte graphique. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Le réseau fonctionne normalement et la connexion sans fil est activée, mais l'ordinateur portable ne peut pas se connecter au réseau.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le Wi-Fi est désactivé.</li><li>L'ordinateur portable est hors de portée du réseau sans fil. </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Activer la fonction Wi-Fi à l'aide des propriétés de la carte réseau sans fil ou de la touche Fn associée à la touche de fonction appropriée.</li><li>Rapprocher l'ordinateur du point d'accès sans fil. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Les périphériques d'entrée connectés par Bluetooth ne fonctionnent pas correctement.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La fonction Bluetooth est désactivée.</li><li>Les piles du périphérique d'entrée sont hors d'usage.</li><li>Le périphérique d'entrée est hors de portée. </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Activer la fonction Bluetooth à l'aide des paramètres Bluetooth ou de la touche Fn associée à la touche de fonction appropriée.</li><li>Remplacer la batterie.</li><li>Rapprocher le périphérique d'entrée du capteur Bluetooth de l'ordinateur portable.</li><li>Vérifier que la fonction Bluetooth est activée. </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Le clavier produit des chiffres au lieu de lettres.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le verrouillage numérique est activé.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Désactiver la fonction Verr. Num. en appuyant sur la touche Verr. Num. ou en utilisant la touche Fn associée à la touche de fonction appropriée.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batterie est gonflée.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La batterie a été trop chargée.</li><li>Un chargeur incompatible a été utilisé.</li><li>La batterie est défectueuse.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'>Remplacer la batterie par une batterie neuve fournie par le fabricant.</td>
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions : appareils mobiles</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identification du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'appareil mobile ne peut pas se connecter à Internet.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le réseau Wi-Fi n'est pas disponible.</li><li>Aucun réseau de données n'est à portée.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Se déplacer de façon à recevoir un réseau Wi-Fi.</li>
+<li>Se déplacer de façon à recevoir un réseau de données.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>L'appareil mobile ne s'allume pas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La batterie est déchargée.</li><li>Le bouton d'alimentation est cassé.</li><li>Le périphérique est défectueux.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Charger l'appareil mobile ou utiliser une batterie chargée.</li><li>Contacter le support client pour déterminer les actions à entreprendre.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Une tablette ne se charge pas ou se charge très lentement lorsqu'elle est branchée à une prise de courant.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La tablette est utilisée pendant que la batterie se recharge.</li><li>L'adaptateur secteur n'est pas assez puissant.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Mettre la tablette hors tension pendant la charge.</li><li>Utiliser l'adaptateur secteur fourni avec la tablette.</li><li>Utiliser un adaptateur secteur dont l'intensité est correcte.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Un smartphone ne parvient pas à se connecter au réseau de l'opérateur.</td>
+		<td bgcolor='#F2F2F2'>La carte SIM n'est pas insérée.</td>
+		<td bgcolor='#F2F2F2'>Installer la carte SIM.</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor='#E9E7E8'>L'appareil mobile ne s'allume pas.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batterie n'est pas chargée.</li>
+<li>La batterie ne tient pas la charge.</li><li>Le bouton d'alimentation est cassé.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Brancher l'appareil à l'alimentation secteur pour charger la batterie.</li>
+<li>Remplacer la batterie.</li><li>Contacter le support client pour déterminer les actions à entreprendre.</li>
+<li>Utiliser un adaptateur secteur avec l'intensité correspondante.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batterie de l'appareil mobile n'alimente le système que pendant un laps de temps réduit.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Les paramètres de l'appareil sont incorrects.</li><li>La batterie ne tient pas la charge.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Modifier le mode de gestion de l'alimentation afin de diminuer l'utilisation de la batterie.</li><li>Remplacer la batterie.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'appareil mobile ne peut pas se connecter à Internet.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le réseau Wi-Fi n'est pas disponible.</li><li>Le Wi-Fi est désactivé.</li><li>Les paramètres Wi-Fi sont incorrects.</li><li>Aucun réseau de données de l'opérateur n'est à portée.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Activer le Wi-Fi.</li><li>Désactiver le mode Avion.</li>
+<li>Configurer les paramètres Wi-Fi appropriés.</li><li>Se déplacer de façon à recevoir un réseau Wi-Fi.</li><li>Se déplacer de façon à recevoir un réseau de données.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'appareil mobile ne peut pas se connecter via Bluetooth.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La fonction Bluetooth est désactivée.</li><li>Les périphériques ne sont pas jumelés.</li><li>L'appareil n'est pas à portée.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Activer le Bluetooth.</li><li>Jumeler l'appareil.</li><li>Placer l'appareil à portée.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>La batterie est gonflée.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batterie a été trop chargée.</li><li>Un chargeur incompatible a été utilisé.</li><li>La batterie est défectueuse.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'>Remplacer la batterie par une batterie neuve fournie par le fabricant.</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'écran tactile ne réagit pas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>L'écran tactile est sale.</li><li>L'écran tactile a subi un court-circuit à cause d'un dommage ou de la présence d'eau.</li><li>L'écran tactile est défectueux.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Nettoyer l'écran tactile.</li><li>Remplacer l'écran tactile.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>La batterie de l'appareil ne tient pas longtemps.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batterie a été chargée tellement souvent qu'elle ne tient pas beaucoup de charge.</li><li>La batterie est défectueuse.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'>Remplacer la batterie</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'appareil est en surchauffe.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Une application gourmande en énergie fonctionne lorsque l'appareil se charge.</li><li>De nombreuses radios sont activées lorsque l'appareil se charge.</li><li>La batterie est défectueuse.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Fermer toutes les applications inutiles ou débrancher l'appareil du chargeur.</li><li>Désactiver toutes les radios inutiles ou débrancher l'appareil du chargeur.</li><li>Remplacer la batterie</li></ul></textformat></td>
+	</tr>
+	
+	
+</table>]]></text>
+</component><!--end slide 2--><!--slide 3--><component id="ID_s3_title">
+<text><![CDATA[<b>Problèmes courants et solutions relatifs aux appareils mobiles</b>]]></text>
+</component>
+    
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'><!--<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Mobile Devices</b></font></td>
+		</tr>--><tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identification du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'appareil mobile ne s'allume pas.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>La batterie n'est pas chargée.</li>
+<li>La batterie ne tient pas la charge.</li><li>Le bouton d'alimentation est cassé.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Brancher l'appareil à l'alimentation secteur pour charger la batterie.</li>
+<li>Remplacer la batterie.</li><li>Contacter le support client pour déterminer les actions à entreprendre.</li>
+<li>Utiliser un adaptateur secteur avec l'intensité correspondante.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>La batterie de l'appareil mobile n'alimente le système que pendant un laps de temps réduit.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Les paramètres de l'appareil sont incorrects.</li><li>La batterie ne tient pas la charge.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Modifier le mode de gestion de l'alimentation afin de diminuer l'utilisation de la batterie.</li><li>Remplacer la batterie.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'appareil mobile ne peut pas se connecter à Internet.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le réseau Wi-Fi n'est pas disponible.</li><li>Le Wi-Fi est désactivé.</li><li>Les paramètres Wi-Fi sont incorrects.</li><li>Aucun réseau de données de l'opérateur n'est à portée.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Activer le Wi-Fi.</li><li>Désactiver le mode Avion.</li>
+<li>Configurer les paramètres Wi-Fi appropriés.</li><li>Se déplacer de façon à recevoir un réseau Wi-Fi.</li><li>Se déplacer de façon à recevoir un réseau de données.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'appareil mobile ne peut pas se connecter via Bluetooth.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La fonction Bluetooth est désactivée.</li><li>Les périphériques ne sont pas jumelés.</li><li>L'appareil n'est pas à portée.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Activer le Bluetooth.</li><li>Jumeler l'appareil.</li><li>Placer l'appareil à portée.</li></ul></textformat></td>
+	</tr>	
+	
+</table>]]></text>
+</component><!--end slide 3--></textcomponents>

@@ -1,0 +1,75 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte d'extension</b>]]></text>
+</component>
+
+<component id="ID_s1_titleTxt01">
+		<text><![CDATA[<b>Questions relatives à la nouvelle carte d'extension</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Existe-t-il un slot d'extension libre ?</li><li>La carte d'extension est-elle compatible avec le slot libre ?</li><li>Quels sont les besoins actuels et futurs du client ?</li><li>Quelles sont les possibilités en matière de configuration ?</li></ul></textformat>]]></text>
+	</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte graphique</b>]]></text>
+</component>
+
+<component id="ID_s2_titleTxt01">
+		<text><![CDATA[<b>Facteurs relatifs à la nouvelle carte graphique</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Type de slot</li><li>Type de port</li><li>Capacité et vitesse de la mémoire vidéo (VRAM)</li><li>Processeur graphique (GPU)</li><li>Résolution maximale</li></textformat>]]></text>
+	</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte son</b>]]></text>
+</component>
+
+<component id="ID_s3_titleTxt01">
+		<text><![CDATA[<b>Facteurs relatifs à la nouvelle carte son</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Type de slot</li><li>Processeur de signal numérique (DSP)</li><li>Fréquence d'échantillonnage</li><li>Types de ports et de connexions</li><li>Décodeur matériel</li><li>Rapport signal/bruit</li></textformat>]]></text>
+	</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte de stockage</b>]]></text>
+</component>
+
+<component id="ID_s4_titleTxt01">
+		<text><![CDATA[<b>Facteurs relatifs à la nouvelle carte de stockage</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Type de slot</li><li>Nombre de connecteurs</li><li>Connecteurs internes ou externes</li><li>Dimensions de la carte</li><li>RAM de la carte contrôleur</li><li>Processeur de la carte contrôleur</li><li>Type de RAID utilisé</li></textformat>]]></text>
+	</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte d'entrée/sortie</b>]]></text>
+</component>
+
+<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>Facteurs relatifs à la nouvelle carte d'entrée/sortie</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Type de slot</li><li>Type de port d'E/S</li><li>Nombre de ports d'E/S</li><li>Exigences supplémentaires en matière d'alimentation</li></textformat>]]></text>
+	</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte réseau</b>]]></text>
+</component>
+
+<component id="ID_s6_titleTxt01">
+		<text><![CDATA[<b>Facteurs relatifs à la nouvelle carte réseau</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Type de slot</li><li>Vitesse</li><li>Type de connecteur</li><li>Connexion filaire ou sans fil</li><li>Respect des normes</li></textformat>]]></text>
+	</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Achat d'une nouvelle carte d'acquisition</b>]]></text>
+</component>
+
+<component id="ID_s7_titleTxt01">
+		<text><![CDATA[<b>Facteurs relatifs à la nouvelle carte d'acquisition</b>]]></text>
+	</component>
+	
+	<component id="ID_s7_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>Type de slot</li><li>Résolution et fréquence d'images</li><li>Port d'E/S</li><li>Normes relatives au format</li></textformat>]]></text>
+	</component>
+
+
+
+</textcomponents>

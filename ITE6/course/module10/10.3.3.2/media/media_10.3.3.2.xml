@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice - Protocoles de messagerie électronique</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez chaque terme à sa définition.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[SMTP]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[MIME]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Exchange]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[SSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[POP3]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[IMAP]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque terme à sa définition.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque terme à sa définition. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Terme</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Créé pour transmettre des fichiers en toute sécurité. Toutes les données échangées entre le client de messagerie et le serveur de messagerie sont en effet chiffrées.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Permet à l'utilisateur d'organiser ses e-mails sur le serveur de messagerie du réseau, ainsi que d'en télécharger des copies. Les originaux sont conservés sur le serveur de messagerie du réseau. Le port par défaut est 143.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Serveur de messagerie, gestionnaire de contacts et logiciel de calendrier créé par Microsoft.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Les e-mails sont récupérés sur un serveur distant avec une connexion TCP/IP. Laisse normalement un exemplaire du message sur le serveur. Le port par défaut est 110.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Protocole texte qui transmet les messages sur un réseau TCP/IP. Le port par défaut est 25.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Permet d'étendre le format de messagerie électronique afin d'inclure du texte ASCII, mais aussi d'autres formats comme des images ou des documents de traitement de texte.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

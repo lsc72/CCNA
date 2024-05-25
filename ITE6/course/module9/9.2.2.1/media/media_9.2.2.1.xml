@@ -1,0 +1,130 @@
+﻿<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+   <text><![CDATA[<b>Caractéristiques de la technologie Bluetooth</b>]]></text>
+</component>
+
+<component id="ID_s1_tbox_header">
+   <text><![CDATA[Caractéristiques de la technologie Bluetooth]]></text>
+</component>
+<component id="ID_s1_tbox_body">
+   <text><![CDATA[<textformat blockindent='-16'><ul><li>Technologie sans fil à courte portée, conçue pour éliminer les câbles entre des périphériques portables ou fixes.</li><li>Fonctionne entre 2,4 et 2,485 GHz dans la bande ISM (Industriel, Scientifique et Médical) sans licence.</li><li>Faible puissance, faible coût et encombrement réduit.</li><li>Utilise la technologie AFH (Adaptive Frequency Hopping).</li><li>La version 1.2 offre un débit de transmission pouvant atteindre 1,2 Mbit/s.</li><li>La version 2.0 + EDR offre un débit de transmission pouvant atteindre 3 Mbit/s.</li><li>La version 3.0 + HS offre un débit de transmission pouvant atteindre 24 Mbit/s.</li><li>La version 4.0 + LE, aussi appelée Bluetooth Smart, fonctionne jusqu'à 24 Mbit/s.</li><li>La version 4.0 ajoute des technologies permettant la prise en charge des produits qui utilisent très peu d'énergie (Bluetooth low energy (BLE)).</li><li>La version 4.1 est une mise à jour améliorant certains aspects, comme la coexistence avec le service sans fil mobile.</li><li>La version 4.2 ajoute la prise en charge de la technologie nécessaire à l'Internet des objets (IoT).</li></li></textformat>]]></text>
+</component>
+
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="1" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='1' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+	
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'></font></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'></font></td>
+	</tr>	
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'></font></td>
+	</tr>	
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'></font></td>
+	</tr>
+	
+</table>]]>
+</text>
+</component><!--SLIDE 2--><component id="ID_s2_title">
+   <text><![CDATA[<b>Classifications Bluetooth</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Classe</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Puissance max. autorisée (en mW)</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Distance approximative</b></font></td>
+		</tr>
+	
+	
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Classe 1</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>100 mW</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>~ 100 m</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Catégorie 2</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>2,5 mW</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>~ 10 m</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Catégorie 3</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>1 mW</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>~ 1 m</font></td>
+	</tr>
+</table>]]>
+</text>
+</component><!--SLIDE 3--><component id="ID_s3_title">
+   <text><![CDATA[<b>Versions de la technologie Bluetooth</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="200"><font color='#FFFFFF' ><b>Spécification</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Version</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Débit de transmission</b></font></td>
+		</tr>
+	
+	
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>1.0</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>v1.2</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>1 Mbit/s</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>2.0</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>v2.0 + EDR</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>3 Mbit/s</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>3.0</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>v3.0 + HS</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font color='#393536'>24 Mbit/s</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>4.0</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>v4.0 + LE</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>24 Mbit/s</font></td>
+	</tr>
+</table>]]>
+</text>
+</component>
+
+
+</textcomponents>

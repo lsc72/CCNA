@@ -1,0 +1,85 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Exercice - Identification des connecteurs d'alimentation</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Reliez le type de connecteur à son illustration.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque connecteur d'alimentation à son illustration.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas correctement associé chaque connecteur d'alimentation à son illustration. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<b>Type de connecteur</b>]]></text>
+</component>
+
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[Connecteur ATX carte mère]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[Connecteur ATX auxiliaire]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Molex]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[SATA]]></text>
+</component><!--Questions--><component id='ID_s1_text_header'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Installez les entretoises dans le boîtier de l'ordinateur, en les alignant sur les emplacements des orifices de fixation de la carte mère.]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[Alignez les orifices des vis de la carte mère avec les entretoises.]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[Installez la plaque de connecteurs d'E/S au fond du boîtier de l'ordinateur.]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[Insérez toutes les vis de la carte mère et serrez-les à la main avant d'utiliser un tournevis.]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[Choisissez les entretoises de la carte mère adaptées au boîtier.]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[Alignez les connecteurs d'E/S situés à l'arrière de la carte mère avec les ouvertures de la plaque.]]></text> 
+</component>
+
+</textcomponents>

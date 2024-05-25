@@ -1,0 +1,15 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_caption'>
+	<text><![CDATA[Un tournevis plat permet de serrer ou de desserrer les vis à tête fendue.]]></text>
+</component><!--Slide 2--><component id='ID_s2_caption'>
+	<text><![CDATA[Un tournevis cruciforme permet de serrer ou de desserrer les vis à tête cruciforme.]]></text>
+</component><!--Slide 3--><component id='ID_s3_caption'>
+	<text><![CDATA[Un tournevis Torx permet de serrer ou desserrer les vis dont la tête présente une découpe en étoile, type de vis principalement utilisé sur les ordinateurs portables.]]></text>
+</component><!--Slide 4--><component id='ID_s4_caption'>
+	<text><![CDATA[Aussi appelé tournevis à douille, le tournevis hexagonal permet de serrer les boulons de la même manière que les vis.]]></text>
+</component><!--Slide 5--><component id='ID_s5_caption'>
+	<text><![CDATA[Un extracteur de pièces permet d'attraper les pièces difficiles à atteindre avec la main.]]></text>
+</component><!--Slide 6--><component id='ID_s6_caption'>
+	<text><![CDATA[Une lampe torche permet d'éclairer les zones sombres.]]></text>
+</component>
+
+</textcomponents>

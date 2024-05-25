@@ -1,0 +1,13 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>Formatage de périphériques de stockage</b>]]></text>
+</component>
+
+<component id='ID_titleTxt01'>
+	<text><![CDATA[<b>Partitions multiples lors de l'installation de Windows 8.1</b>]]></text>
+</component>
+
+<component id='ID_bodyTxt01'>
+	<text><![CDATA[Dans l'illustration ci-dessus, deux partitions ont été créées en sélectionnant « Espace non alloué sur le disque 0 » et en cliquant sur « Nouveau ». Le programme d'installation permet également à l'utilisateur de spécifier la taille de la nouvelle partition.]]></text>
+</component>
+
+</textcomponents>

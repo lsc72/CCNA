@@ -1,0 +1,125 @@
+﻿<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : matériel</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identification du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Le contrôleur RAID est introuvable.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le contrôleur RAID externe n'est pas alimenté.</li><li>Les paramètres du BIOS sont incorrects.</li><li>Le contrôleur RAID est défaillant.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Vérifier le câble d'alimentation du contrôleur RAID.</li><li>Reconfigurer les paramètres du BIOS relatifs au contrôleur RAID.</li><li>Remplacer le contrôleur RAID.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Le RAID ne fonctionne plus.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Le contrôleur RAID externe n'est pas alimenté.</li><li>Le contrôleur RAID est défaillant.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Vérifier le câble d'alimentation du contrôleur RAID.</li><li>Remplacer le contrôleur RAID.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Les performances d'un ordinateur sont mauvaises.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>L'ordinateur n'a pas assez de mémoire vive (RAM).</li><li>L'ordinateur chauffe trop.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Installer de la mémoire vive (RAM) supplémentaire.</li><li>Nettoyer les ventilateurs ou installer des ventilateurs supplémentaires.</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne reconnaît pas un lecteur externe amovible.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Le système d'exploitation ne dispose pas des pilotes appropriés pour le lecteur externe amovible.</li><li>Trop de périphériques sont reliés au port USB et celui-ci ne peut plus alimenter correctement le périphérique.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Télécharger les pilotes appropriés pour le lecteur.</li><li>Connecter le périphérique à une source d'alimentation extérieure ou retirer certains des périphériques USB.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur ne démarre pas après la mise à jour du firmware du CMOS.</td>
+		<td bgcolor='#E9E7E8'>La mise à jour du micrologiciel du CMOS n'a pas été installée correctement.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Restaurer le micrologiciel d'origine à partir de la sauvegarde interne, si possible.</li><li>Si la carte mère a deux puces CMOS, la deuxième peut être utilisée.</li><li>Contacter le fabricant de la carte mère pour obtenir une nouvelle puce CMOS.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur redémarre sans avertissement, se bloque ou affiche des messages d'erreur ou un écran bleu.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Défaillance de la RAM.</li><li>La vitesse du bus frontal est trop élevée.</li><li>Le multiplicateur du processeur est défini sur une valeur trop élevée.</li><li>La tension du processeur est définie sur une valeur trop élevée</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Tester chaque module de mémoire vive pour déterminer s'il fonctionne correctement.</li><li>Rétablir les paramètres d'usine par défaut sur la carte mère.</li><li>Diminuer les valeurs des paramètres du bus frontal (FSB).</li><li>Diminuer les valeurs des paramètres du multiplicateur.</li><li>Diminuer les valeurs des paramètres de tension du processeur.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Après la mise à niveau d'un processeur monocœur vers un processeur multicœur, l'ordinateur fonctionne plus lentement et affiche un seul graphique de processeur dans le Gestionnaire des tâches.</td>
+		<td bgcolor='#E9E7E8'>Le BIOS ne reconnaît pas le processeur multicœur.</td>
+		<td bgcolor='#E9E7E8'>Mettre à jour le firmware du CMOS pour la prise en charge du processeur multicœur.</td>
+	</tr>
+		
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : imprimantes</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Identification du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'imprimante imprime des caractères inconnus.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Un pilote d'impression incorrect est installé.</li><li>Les câbles de l'imprimante sont desserrés.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Désinstaller le pilote d'imprimante incorrect et installer le pilote approprié.</li><li>Fixer les câbles d'imprimante.</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>L'imprimante n'imprime pas les images complexes ou de grande taille.</td>
+		<td bgcolor='#F2F2F2'>L'imprimante n'a pas assez de mémoire.</td>		
+		<td bgcolor='#F2F2F2'>Ajouter de la mémoire à l'imprimante.</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'imprimante laser imprime des lignes verticales ou des bandes sur chaque page.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Le tambour est endommagé.</li><li>Le toner n'est pas bien réparti dans la cartouche.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Remplacer le tambour ou la cartouche de toner qui contient le tambour</li><li>Retirer et secouer la cartouche de toner</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Les pages imprimées affichent des images fantômes.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Le tambour est rayé ou sale.</li><li>La lame d'essuyage du tambour est usée.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'>Remplacer le tambour ou la cartouche de toner qui contient le tambour</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor='#E9E7E8'>Le toner ne se fixe pas sur le papier.</td>
+		<td bgcolor='#E9E7E8'>Le module de fusion est défectueux.</td>
+		<td bgcolor='#E9E7E8'>Remplacer le module de fusion</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Le papier sort froissé de l'imprimante.</td>
+		<td bgcolor='#F2F2F2'>Les rouleaux d'entraînement sont bloqués, endommagés ou sales.</td>		
+		<td bgcolor='#F2F2F2'>Nettoyer ou remplacer les rouleaux d'entraînement</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>L'alimentation en papier ne fonctionne pas.</td>
+		<td bgcolor='#E9E7E8'>Les rouleaux d'entraînement sont bloqués, endommagés ou sales.</td>
+		<td bgcolor='#E9E7E8'>Nettoyer ou remplacer les rouleaux d'entraînement</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>Chaque fois qu'une imprimante réseau redémarre, le message « Ce document n'a pas pu être imprimé » s'affiche.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>La configuration de l'adresse IP de l'imprimante est définie pour utiliser le protocole DHCP.</li><li>Un périphérique du réseau a la même adresse IP que l'imprimante.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>Attribuer une adresse IP statique à l'imprimante</li><li>Attribuer une adresse IP statique différente à l'imprimante</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 2--></textcomponents>

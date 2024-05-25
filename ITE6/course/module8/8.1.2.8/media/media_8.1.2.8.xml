@@ -1,0 +1,275 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+<text><![CDATA[<b>Options de commande ipconfig</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>Options de commande ipconfig</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Objectif</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">/all</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>Affiche toutes les informations de configuration de toutes les cartes réseau.</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">/release</td>
+		<td bgcolor='#F2F2F2' valign="top">Libère l'adresse IP d'une carte réseau.</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">/renew</td>
+		<td bgcolor='#E9E7E8' valign="top">Renouvelle l'adresse IP d'une carte réseau.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">/flushdns</td>
+		<td bgcolor='#F2F2F2' valign="top">Vide le cache contenant les informations DNS.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">/registerdns</td>
+		<td bgcolor='#E9E7E8' valign="top">Actualise les baux DHCP et réinscrit les noms DNS.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">/displaydns</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche les informations DNS contenues dans le cache.</td>		 
+	</tr>
+</table>]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>Options de la commande Ping</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>Options de la commande Ping</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Objectif</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-t</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>Envoie une requête ping à l'hôte spécifié jusqu'à ce que l'arrêt soit demandé</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-a</td>
+		<td bgcolor='#F2F2F2' valign="top">Résout l'adresse en un nom d'hôte</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-n count</td>
+		<td bgcolor='#E9E7E8' valign="top">Nombre de requêtes echo à envoyer</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-l size</td>
+		<td bgcolor='#F2F2F2' valign="top">Envoie la taille de la mémoire tampon</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-f</td>
+		<td bgcolor='#E9E7E8' valign="top">Définit l'indicateur Ne pas fragmenter dans le paquet</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-i TTL</td>
+		<td bgcolor='#F2F2F2' valign="top">Durée de vie</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-v TOS</td>
+		<td bgcolor='#E9E7E8' valign="top">Type Of Service (ToS, Type de service)</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-r count</td>
+		<td bgcolor='#F2F2F2' valign="top">Enregistre la route pour le nombre de sauts</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-s count</td>
+		<td bgcolor='#E9E7E8' valign="top">Horodatage du nombre de sauts</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-j host-list</td>
+		<td bgcolor='#F2F2F2' valign="top">Itinéraire source libre parmi la liste d'hôtes</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-k host-list</td>
+		<td bgcolor='#E9E7E8' valign="top">Itinéraire source strict parmi la liste d'hôtes</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-w time out</td>
+		<td bgcolor='#F2F2F2' valign="top">Délai d'attente de chaque réponse en millisecondes</td>		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>Commandes net</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>Commande net</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Objectif</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net/? ou net help</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>Affiche les commandes net.</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">nbtstat</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche les statistiques sur le protocole et les connexions TCP/IP en cours utilisant la méthode NetBIOS over TCP/IP (NBT).</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">netstat</td>
+		<td bgcolor='#E9E7E8' valign="top">Affiche les connexions TCP actives.</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net accounts</td>
+		<td bgcolor='#F2F2F2' valign="top">Met à jour la base de données des comptes d'utilisateurs, et modifie les exigences de mot de passe et de connexion</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net computer</td>
+		<td bgcolor='#E9E7E8' valign="top">Ajoute ou supprime des ordinateurs</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net config [poste de travail | serveur ]</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche les informations de configuration</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net continue</td>
+		<td bgcolor='#E9E7E8' valign="top">Reprend un service qui a été suspendu par une commande net pause</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net file</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche les noms de tous les fichiers partagés ouverts sur un serveur</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net group</td>
+		<td bgcolor='#E9E7E8' valign="top">Ajoute, affiche ou modifie les groupes globaux</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net help [commande]</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche des informations sur une commande net spécifique</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net helpmsg</td>
+		<td bgcolor='#E9E7E8' valign="top">Fournit des informations sur la résolution des problèmes et des erreurs </td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net localgroup</td>
+		<td bgcolor='#F2F2F2' valign="top">Ajoute, affiche ou modifie les groupes locaux</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net name</td>
+		<td bgcolor='#E9E7E8' valign="top">Ajoute ou supprime un nom de messagerie</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net pause</td>
+		<td bgcolor='#F2F2F2' valign="top">Suspend les services en cours d'exécution</td>		 
+	</tr>
+ 
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net print</td>
+		<td bgcolor='#E9E7E8' valign="top">Affiche des informations sur la file d'attente d'impression ou la tâche d'impression, ou contrôle une tâche d'impression spécifiée</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net send</td>
+		<td bgcolor='#F2F2F2' valign="top">Envoie des messages</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net session</td>
+		<td bgcolor='#E9E7E8' valign="top">Affiche ou déconnecte les sessions entre les ordinateurs</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net share</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche ou gère les imprimantes et les répertoires partagés</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net start</td>
+		<td bgcolor='#E9E7E8' valign="top">Affiche les services démarrés</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">statistiques net [poste de travail | serveur ] </td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche des statistiques sur le poste de travail et le serveur</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net stop [service]</td>
+		<td bgcolor='#E9E7E8' valign="top">Arrête le service réseau spécifié</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net time</td>
+		<td bgcolor='#F2F2F2' valign="top">Affiche ou synchronise l'heure du réseau</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net use</td>
+		<td bgcolor='#E9E7E8' valign="top">Affiche ou gère les connexions à distance</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net user</td>
+		<td bgcolor='#F2F2F2' valign="top">Crée, modifie ou répertorie les comptes d'utilisateurs.</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net view</td>
+		<td bgcolor='#E9E7E8' valign="top">Affiche les ressources ou les ordinateurs du réseau</td>
+		 
+	</tr>
+
+</table>]]></text>
+</component>
+
+    
+
+</textcomponents>

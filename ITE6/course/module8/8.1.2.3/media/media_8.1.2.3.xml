@@ -1,0 +1,11 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Fenêtre Définir un emplacement réseau</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Options de partage par défaut</b>]]></text>
+</component> 
+
+
+</textcomponents>

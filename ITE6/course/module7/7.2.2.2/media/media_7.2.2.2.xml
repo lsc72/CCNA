@@ -1,0 +1,38 @@
+<textcomponents> 
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3"><font size="16"><b>Normes Ethernet</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Normes Ethernet</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Supports</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>Débits de transfert</b></font></td>	
+	</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' width="150px" valign="top"><font size='12'color='#393536'>10BASE-T</font></td>
+					<td bgcolor='#E9E7E8' width="150px"><font size='12' color='#393536' >Catégorie 3</font></td> 
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Transfert de données à un débit de 10 Mbit/s</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>100BASE-TX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Catégorie 5</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Débit de 100 Mbit/s soit dix fois plus élevé que pour les câbles 10BASE-T</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>1000BASE-T</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Catégories 5 et 6</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Prend en charge des débits de transfert de données de 1 Gbit/s</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10GBASE-T</font></td>			
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Catégories 6a et 7</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Prend en charge des débits de transfert de données de 10 Gbit/s</font></td>
+				</tr>	 
+			</table>]]>
+		</text>
+	</component> 
+</textcomponents>

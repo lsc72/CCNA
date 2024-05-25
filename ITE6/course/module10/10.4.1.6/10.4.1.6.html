@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.6 Brève description des utilitaires de disque</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Brève description des utilitaires de disque</h1>
+        <div>
+          <p>La plupart des systèmes d'exploitation sont assez fiables, mais certains problèmes peuvent survenir et endommager le système. Un disque endommagé ou comportant des secteurs endommagés peut perdre des données ou créer des dysfonctionnements du système d'exploitation. La plupart des problèmes de disque sont identiques, quel que soit le système d'exploitation utilisé. Pour vous aider à diagnostiquer et à résoudre les problèmes de disque, la plupart des systèmes d'exploitation modernes sont équipés d'utilitaires de disque. Voici quelques tâches de maintenance courantes qui peuvent être réalisées à l'aide d'un utilitaire de disque :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Gestion de partition</b> : lorsque vous travaillez sur les disques de l'ordinateur, vous pouvez créer, supprimer ou redimensionner les partitions. Si le système d'exploitation se trouve dans une partition qui nécessite votre attention, l'ordinateur doit être démarré à partir d'un disque externe avant tout travail sur la partition système. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Monter et démonter des partitions de disque</b> : dans les systèmes de type Unix, monter une partition consiste à lier une partition d'un disque ou un fichier d'image du disque (généralement un fichier .iso) à un dossier. C'est une tâche courante dans les systèmes de type Unix. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Formater le disque</b> : avant qu'une partition puisse être utilisée par l'utilisateur ou le système, elle doit être formatée.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Contrôle des secteurs défectueux</b> : les disques modernes peuvent détecter et signaler les secteurs défectueux. Lorsqu'un secteur du disque est marqué comme défectueux, il devient inoffensif pour le système d'exploitation, car il n'est plus utilisé pour stocker des données. Il est courant d'avoir quelques secteurs défectueux sur les disques, mais s'ils sont nombreux, cela peut être le signe d'un disque défaillant. Les utilitaires de disque permettent non seulement de rechercher, de détecter et de marquer les secteurs défectueux, mais ils peuvent aussi essayer de récupérer les données stockées dans les secteurs défectueux en les déplaçant vers les secteurs sains du disque. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Attributs S.M.A.R.T.</b> : abréviation de Self-Monitoring, Analysis and Reporting Technology, S.M.A.R.T. est un outil important pour les disques modernes. Intégré directement au contrôleur de disque, S.M.A.R.T. peut détecter et signaler plusieurs attributs concernant l'intégrité du disque. L'objectif de S.M.A.R.T. est d'anticiper les défaillances du disque pour permettre à l'utilisateur de transférer les données vers un disque sain avant que le disque défaillant soit définitivement inaccessible. Les utilitaires de disque modernes peuvent rechercher des attributs S.M.A.R.T., alerter l'utilisateur et recommander des actions de réparation.</li>
+            </ul>
+          </p>
+          <p>Ubuntu Linux est fourni avec Disks, voir l'illustration 1. Avec Disks, les utilisateurs peuvent effectuer les tâches de disque les plus courantes, dont la gestion des partitions, leur montage ou leur démontage, le formatage des disques et les requêtes S.M.A.R.T.</p>
+          <p></p>
+          <p>Pour accéder à Disks, procédez comme suit :</p>
+          <p></p>
+          <p>Cliquez sur le bouton Ubuntu en haut du lanceur <b>></b> tapez <b>Disks ></b>, cliquez sur l'icône Disks</p>
+          <p></p>
+          <p>OS X est fourni avec Disk Utility, voir l'illustration 2. Outre les tâches de maintenance du disque, Disk Utility assure également les autorisations de vérification et de réparation des disques. L'autorisation de réparation des disques est une étape classique de dépannage dans OS X. Disk Utility peut également être utilisé pour sauvegarder des disques dans des fichiers d'image et effectuer la récupération d'images sur le disque. Ces fichiers reprennent tout le contenu d'un disque.</p>
+          <p></p>
+          <p>Pour lancer Disk Utility sur OS X, procédez comme suit :</p>
+          <p></p>
+          <p>
+            <b>Applications > Utilitaires > Disk Utility</b>
+          </p>
+          <p></p>
+          <p>
+            <b>Démarrage multiple</b>
+          </p>
+          <p></p>
+          <p>Il est parfois nécessaire de disposer de plusieurs systèmes d'exploitation sur un même ordinateur. Dans ce cas, l'utilisateur doit effectuer l'installation d'un système d'exploitation, installer un gestionnaire de démarrage, puis installer le deuxième système d'exploitation. Le gestionnaire de démarrage est un programme qui se trouve dans le secteur de démarrage et permet à l'utilisateur de choisir le système d'exploitation à utiliser lors du démarrage. En surveillant la partition dans laquelle le système d'exploitation a été installé, le gestionnaire de démarrage peut indiquer au BIOS quelle partition utiliser, lui permettant ainsi de charger le système d'exploitation souhaité. </p>
+          <p></p>
+          <p>Un des gestionnaires de démarrage les plus utilisés sur Linux est <b>grub</b>.<b> </b>Pour OS X, <b>boot camp</b> est l'un des plus courants.</p>
+          <p></p>
+          <p>Le nombre maximal de systèmes d'exploitation autorisés dépend de la taille du disque, mais même si la technologie du gestionnaire de démarrage permet l'installation de plusieurs systèmes d'exploitation sur un même ordinateur, un seul de ces systèmes d'exploitation peut être utilisé à la fois. Pour passer d'un système d'exploitation à l'autre, un redémarrage est nécessaire.</p>
+          <p></p>
+          <p>
+            <b>Remarque :</b> avant de manipuler des disques contenant des données importantes, il est recommandé d'effectuer une sauvegarde complète.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

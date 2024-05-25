@@ -1,0 +1,71 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>Commandes de base de la CLI</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='115'><font color='#FFFFFF'><b>Commande</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>man</b></font></td>
+                <td bgcolor='#E9E7E8'>Affiche la documentation d'une commande spécifique.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>ls</b></font></td>
+                <td bgcolor='#F2F2F2'>Affiche les fichiers d'un répertoire.</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>cd</b></font></td>
+                <td bgcolor='#E9E7E8'>Change de répertoire actif.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>mkdir</b></font></td>
+                <td bgcolor='#F2F2F2'>Crée un répertoire dans le répertoire actif.</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>cp</b></font></td>
+                <td bgcolor='#E9E7E8'>Copie les fichiers de la source vers la destination.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>mv</b></font></td>
+                <td bgcolor='#F2F2F2'>Déplace le fichier dans un autre dossier.</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>rm</b></font></td>
+                <td bgcolor='#E9E7E8'>Supprime les fichiers.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>grep</b></font></td>
+                <td bgcolor='#F2F2F2'>Recherche les chaînes ou les caractères spécifiés dans un fichier ou dans le résultat d'autres commandes.</td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>cat</b></font></td>
+                <td bgcolor='#E9E7E8'>Répertorie le contenu d'un fichier et attend le nom de fichier en tant que paramètre.</td>
+            </tr>
+ 
+           
+        </table>]]></text>
+    </component>
+</textcomponents>

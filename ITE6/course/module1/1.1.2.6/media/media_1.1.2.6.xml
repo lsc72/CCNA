@@ -1,0 +1,75 @@
+﻿<textcomponents>
+<component id="ID_title">
+  <text><![CDATA[<b>Types de RAM</b>]]></text>
+  </component>
+  
+ <component id="ID_title01">
+  <text><![CDATA[DRAM]]></text>
+  </component>
+<component id="ID_title02">
+  <text><![CDATA[SRAM]]></text> 
+  </component>
+<component id="ID_title03">
+  <text><![CDATA[DDR4]]></text> 
+  </component><!--<component id="ID_title04">
+  <text><![CDATA[EDO Memory]]></text>
+  </component>--><component id="ID_title04">
+  <text><![CDATA[SDRAM]]></text> 
+  </component>
+<component id="ID_title05">
+  <text><![CDATA[DDR]]></text> 
+  </component>  
+<component id="ID_title06">
+  <text><![CDATA[DDR2]]></text>
+  </component>
+<component id="ID_title07">
+  <text><![CDATA[DDR3]]></text> 
+  </component><!--<component id="ID_title09">
+  <text><![CDATA[RDRAM]]></text> 
+  </component>   --><component id="ID_btn01">
+  <text><![CDATA[DRAM]]></text>
+  </component>
+<component id="ID_btn02">
+  <text><![CDATA[SRAM]]></text> 
+  </component>
+<component id="ID_btn03">
+  <text><![CDATA[DDR4]]></text> 
+  </component><!--<component id="ID_btn04">
+  <text><![CDATA[EDO Memory]]></text>
+  </component>--><component id="ID_btn04">
+  <text><![CDATA[SDRAM]]></text> 
+  </component>
+<component id="ID_btn05">
+  <text><![CDATA[DDR]]></text> 
+  </component>  
+<component id="ID_btn06">
+  <text><![CDATA[DDR2]]></text>
+  </component>
+<component id="ID_btn07">
+  <text><![CDATA[DDR3]]></text> 
+  </component><!--<component id="ID_btn09">
+  <text><![CDATA[RDRAM]]></text> 
+  </component>--><component id="ID_txt01">
+  <text><![CDATA[La mémoire vive dynamique (DRAM) est une puce mémoire utilisée comme mémoire principale. La DRAM doit être réactualisée en permanence par des impulsions électriques afin que les données stockées sur la puce soient conservées.]]></text>
+  </component>
+<component id="ID_txt02">
+  <text><![CDATA[La mémoire vive statique (SRAM) est une puce mémoire utilisée comme mémoire cache. La SRAM est beaucoup plus rapide que la DRAM et ne doit pas être réactualisée aussi souvent. Elle est beaucoup plus chère que la DRAM.]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[La SDRAM à double débit de données de quatrième génération (DDR4) quadruple la capacité de stockage maximale d'une mémoire DDR3, nécessite 40 % d'énergie en moins grâce à la tension plus faible utilisée et possède des fonctions de correction d'erreurs avancées.]]></text> 
+  </component><!--<component id="ID_txt04">
+  <text><![CDATA[Extended Data Out RAM is memory that overlaps consecutive data accesses. This speeds up the access time to retrieve data from memory, because the CPU does not have to wait for one data access cycle to end before another data access cycle begins.]]></text>
+  </component>--><component id="ID_txt04">
+  <text><![CDATA[La mémoire vive dynamique synchrone (SDRAM) fonctionne en synchronisation avec le bus mémoire. Le bus mémoire est le chemin d'accès aux données entre le processeur et la mémoire principale. Les signaux de contrôle permettent de coordonner l'échange des données entre la SDRAM et le processeur.]]></text> 
+  </component>
+<component id="ID_txt05">
+  <text><![CDATA[La SDRAM à double débit de données (DDR, Double Data Rate) transfère les données deux fois plus vite que la SDRAM. La DDR SDRAM améliore les performances en transférant les données deux fois par cycle d'horloge.]]></text> 
+  </component>
+<component id="ID_txt06">
+  <text><![CDATA[La SDRAM à double débit de données de deuxième génération (DDR2) est plus rapide que la DDR SDRAM. La DDR2 SDRAM améliore les performances par rapport à la DDR SDRAM en réduisant les interférences et la diaphonie entre les fils de transmission.]]></text>
+  </component>
+<component id="ID_txt07">
+  <text><![CDATA[La SDRAM à double débit de données de troisième génération (DDR3) augmente la bande passante de la mémoire en doublant la fréquence d'horloge de la DDR2 SDRAM. La DDR3 SDRAM consomme moins d'énergie et génère moins de chaleur que la DDR2 SDRAM.]]></text> 
+  </component><!--<component id="ID_txt09">
+  <text><![CDATA[RAMBus DRAM is a memory chip that was developed to communicate at very high rates of speed. RDRAM chips are not commonly used.]]></text> 
+  </component>  --></textcomponents>

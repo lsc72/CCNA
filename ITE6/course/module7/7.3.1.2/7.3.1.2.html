@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.2 Concentrateurs, ponts et commutateurs</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Concentrateurs, ponts et commutateurs</h1>
+        <div>
+          <p>L'équipement servant à connecter des périphériques au sein d'un réseau local sans fil est passé des concentrateurs aux ponts et commutateurs.</p>
+          <p></p>
+          <p>
+            <b>Concentrateurs</b>
+          </p>
+          <p></p>
+          <p>Les concentrateurs (illustration 1) reçoivent des données sur un port, puis les renvoient à tous les autres ports. La portée du réseau est alors augmentée, car le signal à distance est régénéré. Les concentrateurs peuvent également être raccordés à un autre périphérique réseau, par exemple un commutateur ou un routeur, lui-même connecté à d'autres sections du réseau.</p>
+          <p></p>
+          <p>Les concentrateurs sont moins courants aujourd'hui, en raison de l'efficacité et du faible coût des commutateurs. Les concentrateurs ne segmentent pas le trafic réseau. Lorsqu'un périphérique envoie du trafic, les concentrateurs inondent tous les autres périphériques connectés avec ce trafic. Les périphériques partagent la bande passante.</p>
+          <p></p>
+          <p>
+            <b>Ponts</b>
+          </p>
+          <p></p>
+          <p>Les ponts ont été conçus pour diviser les réseaux locaux sans fil en segments. Les ponts enregistrent tous les périphériques situés sur chaque segment.  Ils peuvent ensuite filtrer le trafic réseau entre différents segments du réseau local. Le trafic entre les périphériques est ainsi réduit. Par exemple, sur l'illustration 2, si le PC-A doit envoyer une tâche à l'imprimante, le trafic ne sera pas transmis au Segment 2.  Toutefois, le serveur recevra également le trafic lié à la tâche de l'imprimante.</p>
+          <p></p>
+          <p>
+            <b>Commutateurs</b>
+          </p>
+          <p></p>
+          <p>Les ponts et les concentrateurs sont considérés comme obsolètes, en raison de l'efficacité et du faible coût des commutateurs. Comme le montre l'illustration 3, un commutateur « microsegmente » un réseau local sans fil. Cette microsegmentation signifie que le commutateur filtre et segmente le trafic réseau en envoyant les données uniquement aux périphériques destinataires.  Ce processus améliore la bande passante disponible pour chaque périphérique du réseau. Si un seul périphérique est relié à chaque port sur un commutateur, il fonctionne en mode bidirectionnel simultané. Ce n'est pas le cas avec un concentrateur. Lorsque PC-A envoie une tâche à l'imprimante, seule celle ci reçoit le trafic.</p>
+          <p></p>
+          <p>Les commutateurs gèrent également une table de commutation. Celle-ci contient la liste de toutes les adresses MAC du réseau, ainsi que la liste des ports de commutateur à utiliser pour la connexion au périphérique correspondant à une adresse MAC donnée. La table de commutation enregistre les adresses MAC en inspectant l'adresse MAC source de chaque trame entrante, ainsi que le port sur lequel la trame arrive. Le commutateur crée alors une table de commutation qui mappe les adresses MAC aux ports sortants. Lorsqu'un trafic destiné à une adresse MAC spécifique arrive, le commutateur se sert de la table de commutation pour déterminer quel port utiliser pour atteindre l'adresse MAC. Le trafic est alors transmis à sa destination via le port sélectionné. L'envoi de trafic à partir d'un seul port vers la destination n'affecte pas les autres ports.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_caption">
+  <text><![CDATA[Un chiffon doux non pelucheux permet de nettoyer différents composants de l'ordinateur sans les rayer ni laisser de peluches.]]></text>
+  </component>
+<component id="ID_s2_caption">
+  <text><![CDATA[L'air comprimé permet de chasser les poussières et les saletés des différentes parties de l'ordinateur, sans en toucher les composants.]]></text> 
+  </component>
+<component id="ID_s3_caption">
+  <text><![CDATA[Les attaches de câbles permettent de rassembler proprement les câbles à l'intérieur et à l'extérieur d'un ordinateur.]]></text> 
+  </component>
+<component id="ID_s4_caption">
+  <text><![CDATA[Un casier de rangement permet de ranger les vis, les cavaliers, les attaches et autres petites pièces, et d'éviter de les mélanger.]]></text>
+</component>
+
+</textcomponents>

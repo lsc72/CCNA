@@ -1,0 +1,11 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>Personnalisation des applications Windows sous Windows 8</b>]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+		<text><![CDATA[<b>Personnalisation du Bureau sous Windows 8</b>]]></text>
+</component><!--Slide 1--><component id='ID_s3_title'>
+	<text><![CDATA[<b>Personnalisation du Bureau sous Windows 7</b>]]></text>
+</component><!--Slide 2--><component id='ID_s4_title'>
+		<text><![CDATA[<b>Personnalisation du Bureau sous Windows Vista</b>]]></text>
+</component>
+
+</textcomponents>

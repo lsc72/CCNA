@@ -1,0 +1,5 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Appareils connectés</b>]]></text>
+	</component>
+</textcomponents>

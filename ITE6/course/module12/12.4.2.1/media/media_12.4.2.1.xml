@@ -1,0 +1,91 @@
+<textcomponents>
+	<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Symptôme</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes du problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Un réseau sans fil a subi une intrusion malgré l'utilisation du chiffrement WEP 128 bits.</td>
+		<td bgcolor='#E9E7E8'>Un pirate informatique utilise des outils de piratage de réseau sans fil aisément disponibles pour contourner le chiffrement.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Passer au chiffrement WPA.</li>
+			<li>Utiliser le filtrage d'adresses MAC pour les clients ne prenant pas en charge le WPA.</li></ul></textformat>
+	</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>Un utilisateur reçoit chaque jour des centaines ou des milliers d'e-mails indésirables.</td>
+		<td bgcolor='#F2F2F2'>Le réseau n'assure pas la détection ou la protection du serveur de messagerie contre les spammeurs.</td>		
+		<td bgcolor='#F2F2F2'>Installer un antivirus ou un logiciel de messagerie permettant de filtrer les e-mails indésirables</td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>On voit un réparateur d'imprimantes inconnu regarder sous les claviers et sur les bureaux.</td>
+		<td bgcolor='#E9E7E8'>Les visiteurs ne sont pas surveillés correctement ou des informations d'identification d'utilisateurs ont été dérobées en vue de pénétrer à l'intérieur du bâtiment.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Contacter le service de sécurité ou la police</li>
+			<li>Conseiller aux utilisateurs de ne jamais cacher leurs mots de passe à proximité de leur espace de travail.</li></ul></textformat>
+	    </td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>Un point d'accès sans fil non autorisé a été découvert sur le réseau.</td>
+		<td bgcolor='#F2F2F2'>Un utilisateur a ajouté un point d'accès sans fil afin d'augmenter la portée sans fil du réseau de l'entreprise.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Déconnectez et confisquez le périphérique non autorisé.</li>
+			<li>Appliquez la stratégie de sécurité en prenant une mesure contre la personne responsable du problème de sécurité.</li></ul></textformat>
+	    </td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>Les utilisateurs de lecteurs flash contaminent les ordinateurs du réseau avec des virus.</td>
+		<td bgcolor='#E9E7E8'>Le lecteur flash a été contaminé par un virus et n'est pas analysé par un logiciel de protection antivirus lorsqu'un ordinateur du réseau y accède.</td>
+		<td bgcolor='#E9E7E8'>Configurer le logiciel antivirus pour qu'il analyse les supports amovibles lors de l'accès à des données</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>Une alerte de sécurité s'affiche.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le Pare-feu Windows est désactivé.</li>
+			<li>Les définitions de virus sont obsolètes.</li>
+			<li>Un programme malveillant a été détecté.</li></ul></textformat>
+	</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Activer le Pare-feu Windows</li>
+			<li>Mettre à jour les définitions de virus</li>
+			<li>Analyser l'ordinateur pour supprimer les éventuels programmes malveillants</li></ul></textformat>
+	   </td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Windows Update échoue.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>La mise à jour téléchargée est endommagée.</li>
+			<li>La mise à jour nécessite une mise à jour précédente qui n'a pas été installée.</li></ul></textformat>
+	   </td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Télécharger manuellement la mise à jour et l'installer.</li>
+			<li>Utiliser la restauration système pour restaurer l'ordinateur à un état antérieur.</li>
+			<li>Restaurer les données de l'ordinateur à partir d'une sauvegarde</li></ul></textformat>
+		</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>Des fichiers système ont été renommés, certaines applications ne fonctionnent pas, des fichiers disparaissent ou les autorisations d'accès aux fichiers ont changé.</td>
+		<td bgcolor='#F2F2F2'>L'ordinateur a été contaminé par un virus.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Supprimer le virus à l'aide d'un antivirus</li>
+			<li>Restaurer les données de l'ordinateur à partir d'une sauvegarde</li></ul></textformat>
+	</td>
+	</tr>
+ 
+    <tr class="mtable">
+		<td bgcolor='#E9E7E8'>Les contacts de votre messagerie vous ont informé que du courrier indésirable leur était envoyé depuis votre adresse.</td>
+		<td bgcolor='#E9E7E8'>Votre messagerie a été piratée.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Modifier le mot de passe de la messagerie</li>
+			<li>Contacter le fournisseur de messagerie pour réinitialiser le compte</li></ul></textformat>
+	</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

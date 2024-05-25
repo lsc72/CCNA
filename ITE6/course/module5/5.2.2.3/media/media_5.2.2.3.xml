@@ -1,0 +1,17 @@
+﻿<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Installation PXE de Windows</b>]]></text>
+    </component>	
+	
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Installations sans surveillance de Windows</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[L'illustration montre le premier écran qui s'affiche lors d'une installation PXE de Windows. Les installations affichées ont été créées sur un serveur Windows en tant qu'images PXE et placées dans un dossier TFTP. Les clients PXE peuvent rechercher et récupérer des fichiers dans ce dossier TFTP.]]></text>
+	</component>
+</textcomponents>

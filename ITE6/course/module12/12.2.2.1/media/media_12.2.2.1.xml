@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Fonctions de sécurité du navigateur Web</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Filtrage ActiveX]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Bloqueur de fenêtres intempestives (parfois appelées « surgissantes », ou pop-ups)]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Filtre SmartScreen]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[Navigation InPrivate]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[<b>Sécurité du navigateur</b>]]></text>
+	</component>
+
+</textcomponents>

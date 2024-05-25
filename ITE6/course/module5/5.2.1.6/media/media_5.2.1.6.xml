@@ -1,0 +1,23 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>Fenêtre d'installation de Windows 8.1</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>Types d'installation de Windows 8.1</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>Installation de Windows 8,1</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>Personnalisation de Windows 8.1</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>Mot de passe du réseau sans fil dans Windows 8.1</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>Paramètres de Windows 8.1</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>Ouverture de session avec Windows 8.1</b>]]></text>
+</component><!-- Slide 8 --><component id='ID_s8_title'>
+	<text><![CDATA[<b>Création d'un compte local avec Windows 8.1</b>]]></text>
+</component><!-- Slide 9 --><component id='ID_s9_title'>
+	<text><![CDATA[<b>Création d'un compte local avec Windows 8.1</b>]]></text>
+</component><!-- Slide 10 --><component id='ID_s10_title'>
+	<text><![CDATA[<b>Écran de démarrage de Windows 8.1</b>]]></text>
+</component>
+
+</textcomponents>

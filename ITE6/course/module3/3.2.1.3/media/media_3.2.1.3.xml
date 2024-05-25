@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Utilitaire de configuration du BIOS</b>]]></text>
+	</component>
+</textcomponents>

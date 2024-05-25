@@ -1,0 +1,111 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Exercice – Identifier la terminologie relative au cloud</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Associez le terme à sa description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé chaque terme à sa description.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas associé correctement chaque terme à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Conditions</b></font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">ITaaS</font>]]></text>
+</component>
+
+<component id='ID_drag06'>
+	<text><![CDATA[<font color="#393536">Clouds</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">PaaS</font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">SaaS</font>]]></text>
+</component>
+
+<component id='ID_drag07'>
+	<text><![CDATA[<font color="#393536">Communauté</font>]]></text>
+</component>
+
+<component id='ID_drag08'>
+	<text><![CDATA[<font color="#393536">Hybride</font>]]></text>
+</component>
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">Privés</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">IaaS</font>]]></text>
+</component><!--Questions--><component id='ID_target_header'>
+	<text><![CDATA[<b>Terme</b>]]></text>
+</component>
+<component id='ID_text_header'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[Ce type de cloud est mis à la disposition du public par un fournisseur de services qui héberge l'infrastructure cloud.]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Le fournisseur de cloud fournit l'équipement réseau, les services réseau virtualisés et l'infrastructure réseau sous-jacente.]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[Ce type de cloud est partagé par plusieurs entreprises.]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[Cette infrastructure cloud est gérée et utilisée par une seule entreprise.]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[Le fournisseur de cloud gère et fournit les applications de l'utilisateur final via Internet.]]></text> 
+</component>
+
+<component id="ID_txt06">
+  <text><![CDATA[Cette infrastructure cloud est une combinaison de deux types de cloud ou plus : public, privé ou communauté.]]></text> 
+</component>
+
+<component id="ID_txt07">
+  <text><![CDATA[Le fournisseur de cloud gère l'infrastructure, notamment le matériel et le système d'exploitation.]]></text> 
+</component>
+
+<component id="ID_txt08">
+  <text><![CDATA[Modèle de fonctionnement de l'assistance informatique pour le SaaS, le PaaS et l'IaaS.]]></text> 
+</component>
+   
+</textcomponents>

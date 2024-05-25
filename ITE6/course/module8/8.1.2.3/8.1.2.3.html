@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.3 Configuration de l&#x0027;emplacement réseau</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Configuration de l&#x0027;emplacement réseau</h1>
+        <div>
+          <p>Lors de la première connexion d'un ordinateur exécutant Windows à un réseau, un profil d'emplacement réseau doit être sélectionné. Chaque profil d'emplacement réseau a des paramètres par défaut différents. Selon le profil sélectionné, les fonctionnalités de partage de fichiers et d'imprimantes et de découverte de réseau sont activées ou non, et les paramètres du pare-feu sont différents. </p>
+          <p></p>
+          <p>Windows dispose de trois profils d'emplacement réseau :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Réseau domestique</b> - Choisissez cet emplacement réseau pour les réseaux domestiques ou lorsque vous vous connectez à un réseau regroupant des périphériques et des utilisateurs de confiance. La découverte de réseau est alors activée, ce qui permet à tous les utilisateurs du réseau de voir les autres ordinateurs et périphériques du réseau.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Réseau de bureau</b> - Choisissez ce profil si l'ordinateur est connecté au réseau d'une petite entreprise ou d'un autre lieu de travail. La découverte de réseau est alors activée. Il est impossible de créer ou de rejoindre un groupe résidentiel avec ce profil.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Réseau public</b> - Choisissez ce profil si vous vous connectez à Internet dans un aéroport, un café ou tout autre lieu public. La découverte de réseau est alors désactivée. Ce profil d'emplacement réseau est le plus sécurisé. Choisissez également ce profil si vous vous connectez directement à Internet sans utiliser de routeur, ou si vous utilisez une connexion haut débit mobile. Il est impossible de créer ou de rejoindre un groupe résidentiel avec ce profil.</li>
+            </ul>
+          </p>
+          <p>Les ordinateurs appartenant à un réseau public, de bureau ou domestique doivent faire partie du même groupe de travail pour pouvoir partager des ressources. Les ordinateurs connectés à un réseau domestique peuvent également faire partie d'un groupe résidentiel. Le groupe résidentiel permet de partager simplement des fichiers et des imprimantes. Cette fonctionnalité n'est pas disponible sur Windows Vista.</p>
+          <p></p>
+          <p>Il existe un quatrième profil d'emplacement réseau, le <b>Réseau avec domaine</b>, qui est généralement utilisé par les entreprises. Ce profil est géré par l'administrateur réseau et ne peut pas être sélectionné ou modifié par les utilisateurs connectés au réseau de l'entreprise.</p>
+          <p></p>
+          <p>
+            <b>Remarque </b>: si un seul ordinateur est connecté à un réseau et que le partage de fichiers et d'imprimantes est inutile, il est recommandé d'utiliser le profil de réseau public pour plus de sécurité.</p>
+          <p></p>
+          <p>Vous pouvez modifier le paramétrage par défaut de tous les profils d'emplacement réseau, comme indiqué à l'illustration 2. Ces modifications seront appliquées à tous les réseaux utilisant le profil en question.</p>
+          <p></p>
+          <p>Si la fenêtre Définir un emplacement réseau ne s'affiche pas lorsque vous connectez un ordinateur à un réseau pour la première fois, il peut être nécessaire de libérer et de renouveler l'adresse IP de l'ordinateur. Après avoir ouvert l'invite de commandes, entrez <b>ipconfig /release</b>, puis <b>ipconfig /renew</b> pour recevoir une nouvelle adresse IP en provenance du routeur.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

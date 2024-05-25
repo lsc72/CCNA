@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.7 Gérer les utilisateurs</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Gérer les utilisateurs</h1>
+        <div>
+          <p>Les tâches de maintenance régulières que doivent effectuer les administrateurs consistent à créer et à supprimer les utilisateurs sur le réseau, changer les mots de passe des comptes ou modifier les autorisations des utilisateurs. </p>
+          <p>Les opérations suivantes peuvent être effectuées lors de la gestion des comptes d'utilisateurs locaux :</p>
+          <p>
+            <ul>
+              <li>Créer un compte d'utilisateur local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Réinitialiser le mot de passe d'un compte d'utilisateur local </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Désactiver ou activer un compte d'utilisateur local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Supprimer un compte d'utilisateur local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Renommer un compte d'utilisateur local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Attribuer un script d'ouverture de session à un compte d'utilisateur local</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Attribuer un dossier de base à un compte d'utilisateur local</li>
+            </ul>
+          </p>
+          <p>Deux outils peuvent être utilisés pour effectuer ces opérations :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Contrôle de compte d'utilisateur (UAC)</b> : pour ajouter, supprimer ou modifier les attributs des utilisateurs. Une fois connecté en tant qu'administrateur, utilisez le contrôle de compte d'utilisateur pour configurer les paramètres afin d'empêcher tout code malveillant d'obtenir les privilèges d'administrateur.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Gestionnaire Utilisateurs et groupes locaux</b> : peut être utilisé pour créer et gérer les utilisateurs et les groupes qui sont stockés localement sur un ordinateur. </li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : vous devez disposer de privilèges administrateur pour pouvoir gérer les utilisateurs.</p>
+          <p></p>
+          <p>Pour ouvrir le Contrôle de compte d'utilisateur, procédez comme suit : </p>
+          <p>
+            <b>Panneau de configuration > Comptes utilisateurs > Gérer un autre compte</b>
+          </p>
+          <p>Pour ouvrir le gestionnaire Utilisateurs et groupes locaux, procédez comme suit :</p>
+          <p>
+            <b>Panneau de configuration > Outils d'administration > Gestion de l'ordinateur > Utilisateurs et groupes locaux</b>
+          </p>
+          <p>Avec les utilisateurs et les groupes locaux, vous pouvez limiter la capacité des utilisateurs et des groupes à effectuer certaines opérations en leur attribuant des droits et des autorisations. Le droit permet à l'utilisateur d'effectuer certaines opérations sur un ordinateur, par exemple la sauvegarde de fichiers et de dossiers ou l'arrêt de l'ordinateur. Une autorisation est une règle associée à un objet (en général un fichier, un dossier ou une imprimante) et qui définit quels utilisateurs ont accès à un objet et de quelle manière.</p>
+          <p>Dans la fenêtre Utilisateurs et groupes locaux, double-cliquez sur <b>Utilisateurs</b>. Il y a deux comptes prédéfinis :</p>
+          <p>
+            <ul>
+              <li>
+                <b>Administrateur</b> : par défaut, ce compte est désactivé. Lorsqu'il est activé, ce compte a le contrôle total de l'ordinateur et il peut attribuer des droits d'utilisateur et des autorisations de contrôle d'accès aux utilisateurs en fonction de leurs besoins. Le compte Administrateur est membre du groupe Administrateurs de l'ordinateur. Le compte Administrateur ne peut jamais être supprimé ni retiré du groupe Administrateurs, mais il peut être renommé ou désactivé.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Invité</b> : par défaut, ce compte est désactivé. Il sert aux utilisateurs qui n'ont pas de compte sur l'ordinateur. Par défaut, ce compte ne nécessite pas de mot de passe. Il est membre du groupe Invités par défaut, ce qui permet à l'utilisateur d'ouvrir une session sur l'ordinateur. </li>
+            </ul>
+          </p>
+          <p>Pour ajouter un utilisateur, cliquez sur le menu <b>Action</b> et sélectionnez <b>Nouvel utilisateur</b>. Cette commande ouvre la fenêtre Nouvel utilisateur, voir l'illustration 2. Vous pouvez attribuer un nom d'utilisateur, un nom complet, une description et définir les options du compte.</p>
+          <p>Double-cliquez sur un utilisateur ou cliquez avec le bouton droit et choisissez <b>Propriétés</b> pour ouvrir la fenêtre des propriétés de l'utilisateur, voir l'illustration 3. Cette fenêtre vous permet de modifier les options utilisateur définies lorsque l'utilisateur a été créé. Elle permet aussi de verrouiller un compte. La fenêtre vous permet également d'affecter un utilisateur à un groupe à l'aide de l'onglet <b>Membre</b> ou de contrôler les dossiers auxquels l'utilisateur a accès à l'aide de l'onglet <b>Profil</b>. </p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : il existe également un autre type important de compte appelé Utilisateur avancé. Ce compte possède la plupart des droits de l'administrateur, notamment celui d'installer des programmes ou de modifier des paramètres du pare-feu, mais il ne dispose pas de tous les privilèges de l'administrateur, pour des raisons de sécurité.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

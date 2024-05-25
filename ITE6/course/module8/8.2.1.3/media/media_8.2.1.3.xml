@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>Service Internet sans fil en visibilité directe</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Transmission en visibilité directe]]></text> 
+  </component>
+</textcomponents>

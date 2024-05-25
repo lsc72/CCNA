@@ -1,0 +1,52 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Mode avancé UEFI d'ASUS</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Écran Mes favoris du mode avancé</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Écran de l'arborescence de la configuration des favoris</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Écran principal du mode avancé</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>Écran du mode avancé Ai Tweaker</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>Écran Avancé du mode avancé</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s7_title">
+	<text><![CDATA[<b>Écran Moniteur du mode avancé</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s8_title">
+	<text><![CDATA[<b>Écran Démarrage du mode avancé</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s9_title">
+	<text><![CDATA[<b>Écran Outil du mode avancé</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s10_title">
+	<text><![CDATA[<b>Écran Quitter du mode avancé</b>]]></text>
+	</component>	
+	
+	
+</textcomponents>

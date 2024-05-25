@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.2.1.3 Restrictions en cas d&#x0027;échec de l&#x0027;identification</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.2.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Restrictions en cas d&#x0027;échec de l&#x0027;identification</h1>
+        <div>
+          <p>Pour déverrouiller un appareil utilisant le verrouillage par code secret, vous devez entrer le code PIN, le mot de passe, le modèle ou le code secret approprié. En théorie, il est possible de deviner un code PIN avec assez de temps et de persévérance. Pour empêcher quiconque d'essayer plusieurs codes, il est possible de définir le comportement de l'appareil mobile au bout de plusieurs codes erronés.</p>
+          <p></p>
+          <p>Pour les appareils Android, le nombre d'échecs avant le verrouillage complet dépend de l'appareil et de la version d'Android. En général, un appareil Android se verrouille après un nombre d'échecs compris entre 4 et 12. Il est alors possible de déverrouiller l'appareil en entrant les coordonnées du compte Gmail utilisé pour paramétrer l'appareil.</p>
+          <p></p>
+          <p>Sur iOS, l'appareil se désactive après cinq échecs, voir l'illustration 1. Au sixième échec, l'appareil reste désactivé pendant 1 minute. Passé ce nombre, chaque nouvel échec augmente la durée d'indisponibilité de l'appareil. Le tableau de l'illustration 2 indique les résultats d'une saisie de code erroné.</p>
+          <p></p>
+          <p>
+            <b>Remarque</b> : les mots de passe incorrects doivent être différents pour déclencher le délai d'attente.</p>
+          <p></p>
+          <p>Activez l'option d'effacement des données, voir l'illustration 3. Si le code échoue 10 fois, l'écran s'éteint et toutes les données de l'appareil sont supprimées. Pour restaurer iOS et les données de l'appareil, il est alors nécessaire de se connecter à l'ordinateur avec lequel l'appareil s'était synchronisé pour la dernière fois et d'utiliser l'option de restauration d'iTunes.</p>
+          <p></p>
+          <p>Sur iOS, pour améliorer la sécurité, le code secret est utilisé dans la clé de chiffrement de l'ensemble du système. Comme le code secret n'est enregistré nulle part, personne ne peut accéder aux données de l'utilisateur des appareils iOS, pas même Apple. Pour pouvoir être déverrouillé et déchiffré, le code secret fourni par l'utilisateur doit impérativement être entré. Si le code secret est oublié, les données sont inaccessibles, forçant ainsi l'utilisateur à effectuer une restauration complète via iTunes sur l'ordinateur avec lequel l'appareil a été synchronisé pour la dernière fois.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>Connexion satellite</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[FAI (fournisseur de services par satellites)]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[Satellite]]></text>
+</component>
+
+<component id="ID_txt03">
+<text><![CDATA[Modem satellite]]></text>
+</component>
+
+</textcomponents>

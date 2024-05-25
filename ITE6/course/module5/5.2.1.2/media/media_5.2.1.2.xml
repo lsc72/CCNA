@@ -1,0 +1,49 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>MBR et GPT : comparaison</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='220'><font color='#FFFFFF'><b>MBR</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>GPT</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Maximum de 4 partitions principales</td>
+                <td bgcolor='#E9E7E8'>Maximum de 128 partitions dans Windows.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Taille de partition maximale de 2 To</td>
+                <td bgcolor='#F2F2F2'>Taille de partition maximale de 9,4 Zo (9,4 × 10^21 octets). </td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>Pas de sauvegarde de la table de partition</td>
+                <td bgcolor='#E9E7E8'>Stocke une sauvegarde de la table de partition.</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Données de partition et de démarrage stockées au même endroit</td>
+                <td bgcolor='#F2F2F2'>Données de partition et de démarrage stockées en divers endroits sur le disque.</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Tout ordinateur peut démarrer à partir du MBR</td>
+                <td bgcolor='#E9E7E8'>L'ordinateur doit être basé sur l'UEFI et exécuter un système d'exploitation 64 bits.</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

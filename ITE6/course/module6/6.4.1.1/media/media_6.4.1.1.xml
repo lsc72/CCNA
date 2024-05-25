@@ -1,0 +1,36 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 1 : Identifier le problème</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Questions ouvertes</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>Quels problèmes rencontrez-vous ?</li>
+			<li>Quel est le système d'exploitation installé sur l'ordinateur ?</li>
+			<li>Quelles mises à jour avez-vous installées récemment ?</li>
+			<li>Quels programmes avez-vous installés récemment ?</li>
+			<li>Que faisiez-vous lorsque le problème a été détecté ?</li></ul></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Questions fermées</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>Pouvez-vous démarrer le système d'exploitation ?</li>
+			<li>Pouvez-vous démarrer le système d'exploitation en mode sans échec ?</li>
+			<li>Avez-vous modifié votre mot de passe récemment ?</li>
+			<li>Avez-vous reçu un message d'erreur sur votre ordinateur ?</li>
+			<li>Une autre personne a-t-elle utilisé l'ordinateur récemment ?</li>
+			<li>Du matériel a-t-il été ajouté récemment ?</li></ul></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

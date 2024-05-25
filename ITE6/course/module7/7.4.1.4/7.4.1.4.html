@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.4 Adressage IPv4 par classe et sans classe</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Adressage IPv4 par classe et sans classe</h1>
+        <div>
+          <p>Quand le protocole IPv4 a été spécifié en 1981, les adresses étaient divisées en trois classes, comme le montre l'illustration 1. La valeur du premier octet d'une adresse IPv4 indique à quelle classe il appartient. Un masque de sous-réseau par défaut était affecté à chaque classe. </p>
+          <p></p>
+          <p>Les masques de sous-réseau sont souvent affichés à l'aide d'une notation de préfixe, comme le montre l'illustration 2. Le nombre après la barre oblique indique combien de bits du masque de sous-réseau sont des bits « un ». Par exemple, le réseau de classe B 172.16.0.0 avec le masque de sous-réseau 255.255.0.0 correspondrait à 172.16.0.0/16. « /16 » indique que les 16 premiers bits du masque de sous-réseau sont tous des « un ».</p>
+          <p></p>
+          <p>Au début des années 1990, il a paru évident aux ingénieurs réseau que le système d'adressage IPv4 par classe allait un jour manquer d'espace. Pour bon nombre d'entreprises, une adresse réseau de classe C, qui n'avait que 254 adresses hôtes, était insuffisante, mais une adresse réseau de classe B avec 65 534 adresses hôtes était largement supérieure aux besoins. Pour cette raison, le groupe de travail IETF a mis au point une stratégie d'affectation des adresses appelée CIDR, ou Classless Inter-Domain Router. CIDR (qui se prononce comme « cider » en anglais) était une mesure temporaire permettant aux entreprises d'utiliser un plan d'adressage personnalisé. Une entreprise pouvait recevoir quatre adresses réseau de classe C avec un masque de sous-réseau personnalisé, comme le montre l'illustration 3. L'adresse réseau qui en résulte est appelée un « super-réseau », car elle consiste en plus d'une adresse réseau par classe.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

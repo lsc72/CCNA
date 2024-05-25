@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.3 Format d&#x0027;adresse IPv4</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Format d&#x0027;adresse IPv4</h1>
+        <div>
+          <p>Lorsqu'un hôte est configuré avec une adresse IPv4, celle-ci est entrée au format décimal à point, comme le montre l'illustration 1. Imaginez que vous deviez entrer l'équivalent binaire 32 bits. L'adresse 192.168.200.8 correspondrait à 11000000101010001100100000001000. Si ne serait-ce qu'un bit n'était pas saisi correctement, l'adresse serait différente et le périphérique ne pourrait pas communiquer sur le réseau.</p>
+          <p></p>
+          <p>Chaque nombre séparé par un point s'appelle un octet, car il représente 8 bits. Ainsi, l'adresse 192.168.200.8 possède quatre octets. Chaque bit d'un octet correspond soit à 1 (on) soit à 0 (off). Chaque bit représente également une valeur. Le bit le plus à droite représente un 1. Chaque bit à sa gauche est doublé, de sorte que le bit le plus à gauche représente 128. Pour convertir l'adresse binaire, ajoutez les valeurs de chaque bit correspondant à 1 dans chaque octet, comme le montre l'illustration 2.</p>
+          <p></p>
+          <p>Notons par ailleurs qu'une adresse IPv4 est constituée de deux parties. La première partie identifie le réseau. La seconde identifie un hôte sur ce réseau. Ces deux parties sont nécessaires au bon fonctionnement sur le réseau.</p>
+          <p></p>
+          <p>Quand un ordinateur prépare des données à envoyer sur le réseau, il doit déterminer s'il doit les envoyer directement au destinataire ou à un routeur. Les données sont envoyées directement si le destinataire se trouve sur le même réseau. Autrement, elles sont envoyées à un routeur. Le routeur utilise ensuite la partie réseau de l'adresse IP pour diriger le trafic entre les différents réseaux.</p>
+          <p></p>
+          <p>Les ordinateurs et routeurs utilisent le masque de sous-réseau pour calculer la partie réseau de l'adresse de destination IPv4. Tout comme l'adresse IPv4, le masque de sous-réseau est représenté au format décimal à point. Par exemple, le masque de sous-réseau de l'adresse IPv4 192.168.200.8 pourra être 255.255.255.0, comme le montre l'illustration 1. Les ordinateurs utilisent l'adresse et le masque de sous-réseau pour déterminer la partie réseau de l'adresse. Cette opération s'effectue au niveau binaire. À l'illustration 3, l'adresse 192.168.200.8 et le masque de sous-réseau 255.255.255.0 sont convertis en leurs équivalents binaires. Un octet dont la valeur décimale est 255 correspond à 8 « un » en binaire. Un bit « un » dans le masque de sous-réseau signifie que le bit appartient à la partie réseau. Ainsi, les 24 premiers bits de l'adresse 192.168.200.8 sont des bits de réseau. Les 8 derniers bits sont des bits d'hôte. </p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

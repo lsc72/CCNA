@@ -1,0 +1,127 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes avancés et solutions : systèmes d'exploitation</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Identification du problème</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Causes probables</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Solutions possibles</b></font></td>
+		</tr>
+
+
+            <tr>
+                <td bgcolor='#E9E7E8'>L'ordinateur affiche l'erreur « Disque système non valide » après le test automatique de mise sous tension (POST).</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Un support ne contenant pas de système d'exploitation est dans un lecteur.</li><li>L'ordre de démarrage n'est pas défini correctement dans le BIOS/UEFI.</li><li>Le disque dur n'est pas détecté.</li><li>Le disque dur n'a pas de système d'exploitation installé.</li><li>Le secteur MBR/GPT est endommagé.</li><li>Il y a un virus dans le secteur de démarrage.</li><li>Le disque dur présente des défaillances.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Retirer tous les supports insérés dans les lecteurs.</li><li>Modifier l'ordre de démarrage dans le BIOS/UEFI afin de démarrer sur le disque de démarrage.</li><li>Reconnecter les câbles du disque dur.</li><li>Installer un système d'exploitation.</li><li>Utiliser la commande <font face="_typewriter"><b><i>bootrec /fixmbr</i></b></font> depuis le système.</li><li>Options de récupération de Windows 7 ou Windows Vista.</li><li>Exécuter le logiciel de suppression des virus.</li><li>Remplacer le disque dur</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>L'ordinateur affiche l'erreur « Disque système inaccessible » après le test automatique de mise sous tension (POST).</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Un pilote de périphérique installé récemment est incompatible avec le contrôleur de démarrage.</li><li>BOOTMGR est endommagé.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Utiliser la dernière bonne configuration connue pour démarrer l'ordinateur</li><li>Démarrer l'ordinateur en mode sans échec et charger un point de restauration avant d'installer le nouveau matériel.</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>L'ordinateur affiche l'erreur « BOOTMGR absent » après le test POST.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>BOOTMGR est manquant ou endommagé.</li><li>L'ordre de démarrage n'est pas défini correctement dans le BIOS/UEFI.</li><li>Le secteur MBR/GPT est endommagé.</li><li>Le disque dur présente des défaillances.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Restaurer BOOTMGR à l'aide de l'Environnement de récupération Windows.</li><li>Modifier l'ordre de démarrage dans le BIOS afin de démarrer sur le disque de démarrage.</li><li>Exécuter <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font> à partir de la console de récupération.</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>Échec du démarrage d'un service au démarrage de l'ordinateur.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Échec du démarrage d'un service au démarrage de l'ordinateur.</li><li>Le service n'est pas activé.</li><li>Le service est défini sur Manuel et le service défaillant requiert l'activation d'un autre service.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Activer le service.</li><li>Mettre le service en automatique et réactiver le service requis.</li></ul></textformat></td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>Un périphérique n'a pas pu démarrer lors du démarrage de l'ordinateur.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le périphérique a été désactivé dans le BIOS.</li><li>Le périphérique est en conflit avec un nouveau périphérique installé.</li><li>Le pilote est endommagé.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Activer le périphérique dans le BIOS.</li><li>Supprimer le nouveau périphérique installé.</li><li>Réinstaller le pilote ou la version précédente du pilote.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>Un programme recensé dans le Registre est introuvable.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Le programme de désinstallation n'a pas fonctionné correctement.</li><li>Le disque dur est endommagé.</li><li>L'ordinateur a été contaminé par un virus.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Réinstaller le programme et réexécuter le programme de désinstallation.</li><li>Exécuter <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font> pour réparer les entrées de fichiers du disque dur.</li><li>Rechercher et supprimer le virus.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>L'ordinateur redémarre constamment sans afficher le Bureau.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>L'ordinateur est configuré pour redémarrer en cas de défaillance.</li><li>Un fichier de démarrage est endommagé.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Appuyer sur F8 pour ouvrir le menu des options avancées, et choisir Désactiver le redémarrage automatique en cas d'échec du système.</li><li>Exécuter <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font> à partir de l'environnement de récupération.</li><li>Effectuer la réparation automatique depuis l'environnement de récupération sous Windows 8.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>L'ordinateur affiche un écran noir ou bleu.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Un pilote n'est pas compatible avec le matériel.</li><li>Panne matérielle.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Rechercher l'erreur STOP et le nom du module qui a généré l'erreur.</li><li>Remplacer les périphériques défectueux par des périphériques en bon état.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>L'ordinateur se bloque sans afficher un message d'erreur.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Les paramètres du processeur ou du FSB sont incorrects sur la carte mère ou dans le BIOS.</li><li>L'ordinateur chauffe trop</li><li>Une mise à jour a endommagé le système d'exploitation.</li><li>Panne matérielle.</li><li>L'ordinateur a été contaminé par un virus.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Vérifier et réinitialiser les paramètres du processeur et du bus frontal (FSB).</li><li>Vérifier et remplacer les dispositifs de refroidissement si nécessaire.</li><li>Désinstaller la mise à jour du logiciel, ou effectuer une restauration du système.</li><li>Exécuter <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font> à partir de l'environnement de récupération.</li><li>Remplacer les périphériques défectueux par des périphériques en bon état.</li><li>Rechercher et supprimer le virus.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>Une application ne s'installe pas.</td>
+                <td bgcolor='#F2F2F2'>L'application n'est pas compatible avec le système d'exploitation.</td>
+                <td bgcolor='#F2F2F2'>Exécuter l'application d'installation en mode de compatibilité.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>La fonctionnalité de recherche met beaucoup de temps à trouver les résultats.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le service d'indexation ne fonctionne pas.</li><li>Le service d'indexation n'indexe pas les emplacements appropriés.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Démarrer les services d'indexation à l'aide de <b>services.msc</b>.</li><li>Modifier les paramètres du service d'indexation dans le volet Options avancées.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>L'ordinateur fonctionne lentement et met du temps à répondre.</td>
+                <td bgcolor='#F2F2F2'>Un processus en cours utilise la plupart des ressources du processeur.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Redémarrer le processus à l'aide de <b>services.msc</b>.</li><li>Si le processus n'est pas nécessaire, y mettre fin à l'aide du Gestionnaire des tâches.</li><li>Redémarrez l'ordinateur.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Lorsqu'un programme est exécuté, un message faisant état d'un fichier DLL manquant ou endommagé s'affiche.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Un ou plusieurs programmes utilisant le fichier DLL ont été désinstallés. Cela a entraîné la suppression du fichier DLL qui était également utilisé par un autre programme.</li><li>Le fichier DLL a été endommagé lors d'une mauvaise installation.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Réinstaller le programme faisant état d'un fichier DLL manquant ou endommagé.</li><li>Réinstaller l'application ayant désinstallé le fichier DLL.</li><li>Exécuter la commande <font face="_typewriter"><b><i>sfc /scannow</i></b></font> en mode sans échec.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>Le RAID n'est pas détecté lors de l'installation.</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Windows ne dispose pas des pilotes permettant de détecter le RAID.</li><li>Les paramètres RAID sont incorrects dans le BIOS/UEFI.</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Installer les pilotes appropriés.</li><li>Modifier les paramètres du BIOS/UEFI afin d'activer le RAID.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Un fichier système est endommagé.</td>
+                <td bgcolor='#E9E7E8'>L'ordinateur n'a pas été éteint normalement.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Réparer l'ordinateur à partir du menu d'options de démarrage avancées.</li><li>Démarrer l'ordinateur en mode sans échec et exécuter la commande <font face="_typewriter"><b><i>sfc /scannow</i></b></font>.</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>L'ordinateur démarre en mode sans échec.</td>
+                <td bgcolor='#F2F2F2'>L'ordinateur a été configuré pour démarrer en mode sans échec.</td>
+                <td bgcolor='#F2F2F2'>Utiliser msconfig pour régler les paramètres de démarrage du programme.</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>Le fichier ne s'ouvre pas.</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>L'ordinateur a été contaminé par un virus.</li><li>Le fichier est endommagé.</li><li>Le type de fichier n'est associé à aucun programme.</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Rechercher et supprimer les virus.</li><li>Restaurer le fichier à partir d'une sauvegarde.</li><li>Sélectionner un programme pour ouvrir ce type de fichier.</li></ul></textformat></td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

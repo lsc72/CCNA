@@ -1,0 +1,68 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Date et heure système du BIOS</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Paramètres des périphériques dans le BIOS</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Ordre de démarrage du BIOS</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Vitesse d'horloge du processeur dans le BIOS</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>Paramètres de virtualisation du BIOS</b>]]></text>
+	</component>	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>Configuration des paramètres du BIOS</b>]]></text>
+	</component>
+
+	<component id="ID_s6_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Paramètre du BIOS</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Détails des paramètres</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Date et heure</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Définissez toujours ces champs à l'heure et à la date correctes, car ils sont référencés par le système d'exploitation et d'autres programmes. </li><li>Une date et une heure incorrectes peuvent entraîner des problèmes inattendus.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Désactivation des périphériques</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Désactivez les fonctionnalités intégrées de la carte mère en cas d'installation d'une carte vidéo, d'une carte son ou d'une carte réseau dédiée.</li><li>Si un périphérique ne fonctionne pas, vérifiez les paramètres avancés du BIOS pour voir si le périphérique est désactivé par défaut ou s'il a été désactivé accidentellement. </li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Ordre de démarrage</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Créez l'ordre de démarrage en fonction des besoins des utilisateurs. </li><li>Désactivez les périphériques inutilisés ou supprimez-les de la séquence de démarrage.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Vitesse d'horloge </td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>L'overclocking du processeur annule sa garantie, peut réduire sa durée de vie ou l'endommager. </li><li>Installez toujours un système de refroidissement capable de dissiper la chaleur supplémentaire créée par l'overclocking afin d'éviter d'endommager le processeur. </li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Virtualisation</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Désactivez ce paramètre si la virtualisation ne s'exécute pas correctement ou si elle n'est pas utilisée.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+</textcomponents>

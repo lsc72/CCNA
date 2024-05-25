@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Sauvegardes avec Déjà Dup sur Ubuntu Linux</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Déjà Dup sur Ubuntu Linux et emplacement de sauvegarde</b>]]></text>
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>Planification d'une sauvegarde avec Déjà Dup sur Ubuntu Linux</b>]]></text>
+</component>
+<component id="ID_s4_title">
+	<text><![CDATA[<b>Restauration d'une sauvegarde avec Déjà Dup sur Ubuntu Linux</b>]]></text>
+</component>
+<component id="ID_s5_title">
+	<text><![CDATA[<b>Nouveau disque de destination dans Time Machine</b>]]></text>
+</component>
+<component id="ID_s6_title">
+	<text><![CDATA[<b>Paramètres de Time Machine</b>]]></text>
+</component>
+<component id="ID_s7_title">
+	<text><![CDATA[<b>État de la barre de menus de Time Machine</b>]]></text>
+</component>
+<component id="ID_s8_title">
+	<text><![CDATA[<b>Ouverture de Time Machine</b>]]></text>
+</component>
+</textcomponents>

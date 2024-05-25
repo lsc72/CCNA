@@ -1,0 +1,90 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Profils de vitesse du ventilateur</b>]]></text>
+	</component>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Profil du ventilateur</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Standard</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Le ventilateur se règle automatiquement en fonction de la température du processeur, du boîtier, de l'alimentation ou d'un autre composant.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Turbo</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>La vitesse du ventilateur est maximale en permanence.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Silencieux</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Réduit le plus possible la vitesse du ventilateur afin de diminuer le bruit.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Manuel</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>L'utilisateur peut régler la vitesse du ventilateur.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Tensions</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Vitesses d'horloge et de bus</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Diagnostics intégrés</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>Test de diagnostic</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Test de démarrage</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Vérifie les composants principaux afin de s'assurer qu'ils fonctionnent correctement.</li><li>Utilisez ce test lorsque l'ordinateur ne démarre pas correctement.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Test du disque dur</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Vérifiez l'absence de zones endommagées sur le disque dur.</li><li>Si le système détecte une zone endommagée, il tente de récupérer les données et de les déplacer vers une zone fiable. Il marque alors la zone endommagée comme zone défectueuse, afin que celle-ci ne soit plus utilisée.</li><li>Exécutez ce test si vous pensez que le disque dur ne fonctionne pas correctement, si l'ordinateur ne démarre pas ou si le disque dur fait des bruits inhabituels.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Test de la mémoire</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Vérifie les modules de mémoire afin de s'assurer qu'ils fonctionnent correctement.</li><li>Exécutez ce test si l'ordinateur fonctionne de manière instable ou ne démarre pas.</li><li>Remplacez la mémoire immédiatement si ce test signale des erreurs.</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Test de la batterie</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Vérifie que la batterie fonctionne correctement.</li><li>Exécutez ce test si votre batterie ne fonctionne pas correctement, ne tient pas la charge ou indique un niveau de charge incorrect.</li><li>Remplacez la batterie en cas d'échec à ce test.</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

@@ -1,0 +1,290 @@
+﻿<textcomponents>
+
+<component id="ID_test">
+<text><![CDATA[Légendes]]></text>
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>Vue de dessus</b>]]></text>
+</component><!--Textbox --><component id='ID_s01_titleTxt01'>
+	<text><![CDATA[LED d'état Bluetooth]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[La LED d'état Bluetooth indique si l'émetteur-récepteur Bluetooth est activé. Bluetooth est une norme de l'industrie sans fil qui permet à des périphériques portables de communiquer sur des distances courtes.]]></text>
+</component>
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[LED d'état de la batterie]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[La LED d'état de la batterie indique le niveau de charge de la batterie. Pour fonctionner, un ordinateur portable peut utiliser une batterie ou un adaptateur secteur. Le type de batterie et la façon d'utiliser l'ordinateur affectent l'autonomie de celui-ci.]]></text>
+</component>
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[LED mode Veille]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[La LED du mode veille indique si l'ordinateur est en veille. En mode veille, l'écran, le disque dur et le processeur sont éteints, afin de réduire la consommation d'électricité de l'ordinateur portable. Une faible quantité d'électricité est utilisée pour alimenter la mémoire vive (RAM) et préserver l'accès aux données. Un ordinateur portable peut passer en mode veille s'il n'a pas été utilisé pendant une durée prédéfinie.]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>Vue de la face arrière</b>]]></text>
+</component>
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[Logement de la batterie]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[Le logement de la batterie est un connecteur qui permet de brancher une batterie d'ordinateur portable.]]></text>
+</component>
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[Connecteur d'alimentation secteur (CA)]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[Le connecteur CA (courant alternatif) sert à relier l'adaptateur secteur à l'ordinateur portable et à charger la batterie.]]></text>
+</component>
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[Port parallèle]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[Le port parallèle est utilisé pour connecter un périphérique, par exemple une imprimante ou un scanner.]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s03_title">
+<text><![CDATA[<b>Comparaison des batteries d'ordinateurs portables</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				
+	<tr class="mtable_title">
+		<td colspan="3" bgcolor='#FFFFFF'><font size="16">Comparaison des batteries d'ordinateurs portables</font></td>
+	</tr>
+
+	<tr class="mtable_top">
+		<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>				
+	
+	<tr>
+		<td bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>Type de batterie</b></font></td>
+		<td bgcolor='#666263'class="msubtitle"><font color='#FFFFFF'><b>Caractéristiques</b></font></td>
+		<td bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>Utilisation courante</b></font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>Nickel-cadmium « Ni-Cad » (NiCd)</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Lourde pour sa capacité, longue durée de vie (plusieurs cycles de chargement), peut présenter des effets mémoire</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Jouets, téléphones sans fil, éclairage d'urgence, outils électriques, flash d'appareil photo</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Nickel-métal-hydrure (NiMH)</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Poids modéré pour sa capacité, durée de vie modérée, peut présenter une « inversion de polarité » en fin de cycle, éteindre ou recharger immédiatement. Plusieurs cycles de charge/décharge peuvent être nécessaires pour atteindre sa capacité complète</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Téléphones portables, appareils photo numériques, systèmes GPS, lampes de poche et autres équipements électroniques grand public</font></td>
+		
+	</tr>	
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>Lithium-ion (Li-ion)</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Légère pour sa capacité, pas d'effet mémoire, surchauffe facilement, veiller à maintenir un refroidissement adéquat, recharger souvent, rechercher les batteries dont la date de fabrication est la plus récente</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>Téléphones portables, ordinateurs portables</font></td>
+	
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Lithium-polymère<br/>(Li-Poly ou LiPo)</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Chère, petite, légère pour sa capacité, capacité modérée, recharge rapide, durée de vie modérée, ne pas court-circuiter, ininflammable</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>Assistants numériques personnels, ordinateurs portables, lecteurs MP3 portables, consoles de jeux portables, avions radioguidés</font></td>
+		
+	</tr></table>]]></text>
+</component><!-- end slide 3 --><!-- slide 4 --><component id="ID_s04_title">
+<text><![CDATA[<b>Vue du côté gauche</b>]]></text>
+</component>
+
+<component id='ID_s04_titleTxt01'>
+	<text><![CDATA[Serrure de sécurité]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt01">
+<text><![CDATA[L'encoche de sécurité est un point de fixation solide dans la structure de l'ordinateur portable, prévu pour fixer un câble de sécurité.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt02'>
+	<text><![CDATA[Bus série universel (USB)]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt02">
+<text><![CDATA[Le port USB (Universal Serial Bus) est utilisé pour connecter un ou plusieurs périphériques.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt03'>
+	<text><![CDATA[Port S-Vidéo]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt03">
+<text><![CDATA[Le port S-vidéo est un connecteur mini-DIN à quatre broches utilisé pour envoyer des signaux vidéo à un périphérique compatible. La technologie S-Vidéo sépare les portions de luminosité et de couleur d'un signal vidéo.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt04'>
+	<text><![CDATA[Port de modem RJ-11]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt04">
+<text><![CDATA[Le port modem RJ-11 est utilisé pour raccorder l'ordinateur portable à une ligne téléphonique standard. Le modem peut être utilisé pour connecter l'ordinateur à Internet, pour faxer des documents et pour répondre aux appels entrants.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt05'>
+	<text><![CDATA[Port Ethernet]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt05">
+<text><![CDATA[Le port Ethernet est un connecteur RJ-45 utilisé pour connecter l'ordinateur portable à un réseau local câblé.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt06'>
+	<text><![CDATA[LED réseau]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt06">
+<text><![CDATA[Les deux LED réseau indiquent l'état de la connexion réseau. La LED verte signale une connectivité réseau. L'autre LED indique le trafic entrant et sortant de l'ordinateur portable.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt07'>
+	<text><![CDATA[Prise casque]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt07">
+<text><![CDATA[La prise casque est utilisée pour transmettre des signaux audio à des haut-parleurs ou à un casque stéréo connectés.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt08'>
+	<text><![CDATA[Prise microphone]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt08">
+<text><![CDATA[La prise microphone sert à brancher un microphone pour bénéficier d'une entrée audio.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt09'>
+	<text><![CDATA[Grille de ventilation]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt09">
+<text><![CDATA[La grille de ventilation permet d'expulser vers l'extérieur l'air chaud produit à l'intérieur de l'ordinateur portable.]]></text>
+</component>
+
+<component id='ID_s04_titleTxt10'>
+	<text><![CDATA[Slot d'extension combiné pour cartes PC]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt10">
+<text><![CDATA[Le slot d'extension combiné de cartes PC prend en charge les cartes d'extension ExpressCard dans le slot supérieur et les cartes PC Card dans le slot inférieur.]]></text>
+</component><!-- end slide 4 --><!-- slide 5 --><component id="ID_s05_title">
+<text><![CDATA[<b>Vue de la face avant</b>]]></text>
+</component>
+
+
+<component id='ID_s05_titleTxt01'>
+	<text><![CDATA[Port infrarouge]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt01">
+<text><![CDATA[Le port infrarouge est un émetteur-récepteur en visibilité directe utilisé pour la transmission de données.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt02'>
+	<text><![CDATA[Haut-parleurs]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt02">
+<text><![CDATA[Les haut-parleurs sont des périphériques de sortie qui convertissent en son les signaux audio produits à l'intérieur de l'ordinateur portable.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt03'>
+	<text><![CDATA[Loquet de l'ordinateur portable.]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt03">
+<text><![CDATA[Le loquet de l'ordinateur portable est un levier qui permet d'ouvrir le capot.]]></text>
+</component>
+
+<component id='ID_s05_titleTxt04'>
+	<text><![CDATA[Grille de ventilation]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt04">
+<text><![CDATA[La grille de ventilation permet d'expulser vers l'extérieur l'air chaud produit à l'intérieur de l'ordinateur portable.]]></text>
+</component><!-- end slide 5 --><!-- slide 6 --><component id="ID_s06_title">
+<text><![CDATA[<b>Vue du côté droit</b>]]></text>
+</component>
+
+<component id='ID_s06_titleTxt01'>
+	<text><![CDATA[Lecteur optique]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt01">
+<text><![CDATA[Le lecteur optique est un lecteur de disque utilisé pour lire et graver des supports optiques.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt02'>
+	<text><![CDATA[Indicateur d'activité du lecteur optique]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt02">
+<text><![CDATA[L'indicateur d'activité du lecteur optique est une LED qui s'allume lorsque le lecteur est en cours d'utilisation.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt03'>
+	<text><![CDATA[Indicateur d'état de la baie de disque]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt03">
+<text><![CDATA[L'indicateur d'état de la baie de disque est une LED qui s'allume lorsqu'un disque dur est installé dans la baie de l'ordinateur portable.]]></text>
+</component>
+
+<component id='ID_s06_titleTxt04'>
+	<text><![CDATA[Port VGA]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt04">
+<text><![CDATA[Le port VGA est un connecteur à 15 broches qui se connecte à un écran ou à un retro-projecteur.]]></text>
+</component><!-- end slide 6 --><!-- slide 7 --><component id="ID_s07_title">
+<text><![CDATA[<b>Vue de dessous</b>]]></text>
+</component>
+
+
+<component id='ID_s07_titleTxt01'>
+	<text><![CDATA[Panneau d'accès au disque dur]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt01">
+<text><![CDATA[Le panneau d'accès au disque dur est un cache permettant d'accéder au compartiment du disque dur interne.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt02'>
+	<text><![CDATA[Loquets de la batterie]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt02">
+<text><![CDATA[Les deux loquets de la batterie sont utilisés pour insérer, retirer ou fixer la batterie de l'ordinateur portable.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt03'>
+	<text><![CDATA[Connecteur de station d'accueil]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt03">
+<text><![CDATA[Le connecteur d'amarrage permet de brancher l'ordinateur portable sur une station d'accueil.]]></text>
+</component>
+
+<component id='ID_s07_titleTxt04'>
+	<text><![CDATA[Panneau d'accès à la mémoire vive]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt04">
+<text><![CDATA[Le panneau d'accès à la mémoire vive (RAM) est un cache permettant d'accéder à la mémoire vive et d'en rajouter si nécessaire.]]></text>
+</component><!-- end slide 7 --><component id="ID_inst">
+  <text><![CDATA[Cliquez sur la zone en évidence pour obtenir des informations importantes. Cliquez à nouveau sur cette zone pour fermer la fenêtre d'informations.]]></text> 
+</component>  
+
+</textcomponents>

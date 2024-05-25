@@ -1,0 +1,35 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>Architecture</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>Description</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><b>32 bits (x86-32)</b></td>
+                <td bgcolor='#E9E7E8'><ul><li>Traite plusieurs instructions à l'aide d'un espace d'adressage 32 bits.</li><li>Prend en charge un système d'exploitation 32 bits.</li><li>Prend en charge un maximum de 4 Go de mémoire vive.</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><b>64 bits (x86-64)</b></td>
+                <td bgcolor='#F2F2F2'><ul><li>Ajoute des registres supplémentaires spécifiquement pour les instructions qui utilisent un espace d'adressage 64 bits.</li><li>Est rétrocompatible avec le processeur 32 bits.</li><li>Prend en charge les systèmes d'exploitation 32 et 64 bits.</li></ul></td>
+            </tr>
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,48 @@
+﻿<textcomponents><!-- slide 2 --><component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' width='175'>Boîtier de l'ordinateur et extérieur de l'écran</td>
+			<td bgcolor='#E9E7E8'>Solution de nettoyage douce et chiffon non pelucheux</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>écran LCD</td>
+			<td bgcolor='#F2F2F2'>Solution de nettoyage pour écran LCD ou eau distillée et chiffon non pelucheux</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Écran cathodique</td>
+			<td bgcolor='#E9E7E8'>Eau distillée et chiffon non pelucheux</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Dissipateur thermique</td>
+			<td bgcolor='#F2F2F2'>Air comprimé</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Mémoire vive (RAM)</td>
+			<td bgcolor='#E9E7E8'>Alcool isopropylique et tampon non pelucheux</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>Clavier</td>
+			<td bgcolor='#F2F2F2'>Aspirateur portatif avec brosse</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>Souris</td>
+			<td bgcolor='#E9E7E8'>Solution de nettoyage douce et chiffon non pelucheux</td>
+		</tr>
+	
+	</table>]]></text> 
+</component><!-- end slide 2 --></textcomponents>

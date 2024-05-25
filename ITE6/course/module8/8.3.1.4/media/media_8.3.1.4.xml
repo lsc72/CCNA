@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Modèle de services cloud</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[Logiciel en tant que service (SaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[Plate-forme en tant que service (PaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[Infrastructure en tant que service (IaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[IT en tant que service (ITaaS)]]></text>
+	</component>
+	
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<b>Logiciel en tant que service (SaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[Le fournisseur de cloud est responsable de l'accès aux services tels que la messagerie électronique, la communication et les bureaux virtuels fournis via Internet.]]></text>
+	</component>
+
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<b>Plate-forme en tant que service (PaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[Le fournisseur de cloud est responsable de l'accès aux outils de développement et aux services utilisés pour fournir les applications.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<b>IaaS</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[Le fournisseur de cloud est responsable de l'accès à l'équipement réseau, aux services réseau virtualisés et à l'infrastructure réseau sous-jacente.]]></text>
+	</component>	
+	
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<b>IT en tant que service (ITaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[Le fournisseur de cloud est responsable de l'assistance IT pour les modèles de services IaaS, PaaS et SaaS. Dans le modèle ITaaS, une entreprise charge le fournisseur de cloud de réaliser des services individuels ou groupés.]]></text>
+	</component>
+
+</textcomponents>

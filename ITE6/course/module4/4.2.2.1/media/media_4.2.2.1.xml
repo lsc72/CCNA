@@ -1,0 +1,259 @@
+﻿<textcomponents><!--slide 1--><component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problèmes courants et solutions : périphériques de stockage</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='175'><font color='#F2F2F2'><b>Identifier le problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur ne reconnaît pas un périphérique de stockage.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Le câble d'alimentation est débranché.</li><li>Le câble de données est débranché.</li><li>Les cavaliers ne sont pas configurés correctement.</li><li>Le périphérique de stockage est défectueux.</li><li>Les paramètres du périphérique de stockage sont incorrects dans le BIOS.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Fixer le câble d'alimentation</li><li>Fixer le câble de données</li><li>Repositionner les cavaliers</li><li>Remplacer le périphérique de stockage</li><li>Réinitialiser les paramètres du périphérique de stockage dans le BIOS</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne parvient pas à reconnaître un disque optique.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le disque a été inséré à l'envers.</li><li>Il y a plusieurs disques dans le lecteur.</li><li>Le disque est endommagé.</li><li>Le format du disque est incorrect.</li><li>Le lecteur optique est défectueux.</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Insérer le disque correctement</li><li>Vérifier que le lecteur ne contient qu'un seul disque</li><li>Remplacer le disque</li><li>Utiliser le type de disque approprié</li><li>Remplacer le lecteur optique</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur n'éjecte pas le disque optique.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Le lecteur optique est bloqué.</li><li>Le lecteur optique est verrouillé par un logiciel.</li><li>Le lecteur optique est défectueux.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Insérer une épingle dans le petit orifice situé à côté du bouton d'éjection sur le lecteur pour ouvrir le tiroir</li><li>Redémarrer l'ordinateur</li><li>Remplacer le lecteur optique</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne reconnaît pas un disque dur externe amovible.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le disque dur externe amovible n'est pas connecté correctement.</li><li>Les ports externes sont désactivés dans les paramètres du BIOS.</li><li>Le disque dur externe amovible est défectueux.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Déconnecter, puis reconnecter le disque dur</li><li>Activer les ports dans les paramètres du BIOS</li><li>Remplacer le disque dur externe amovible</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Un lecteur de cartes mémoire ne parvient pas à lire une carte mémoire qui fonctionne correctement dans un appareil photo.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Le lecteur de cartes mémoire ne prend pas en charge ce type de carte mémoire.</li><li>Le lecteur de cartes mémoire n'est pas connecté correctement.</li><li>Le lecteur de cartes mémoire n'est pas configuré correctement dans les paramètres du BIOS.</li><li>Le lecteur de cartes mémoire est défectueux.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Utiliser un autre type de carte mémoire</li><li>Vérifier la connexion entre le lecteur de cartes mémoire et l'ordinateur</li><li>Reconfigurer le lecteur de cartes mémoire dans les paramètres du BIOS</li><li>Installer un lecteur de cartes mémoire en bon état</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>La récupération ou l'enregistrement de données à partir du lecteur flash USB est lent.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>La carte mère ne prend pas en charge la norme USB 3.0.</li><li>Le port est réglé sur le débit maximal dans les paramètres du BIOS.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Mettre à niveau la carte mère ou le lecteur Flash USB de telle sorte qu'ils prennent en charge la norme USB 3.0</li><li>Régler la vitesse du port sur le haut débit dans les paramètres du BIOS</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problèmes courants et solutions : cartes mères et composants internes</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identifier le problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'horloge de l'ordinateur ne conserve pas l'heure correcte, ou les paramètres du BIOS sont modifiés lors du redémarrage de l'ordinateur</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>La pile du CMOS est peut-être déconnectée</li><li>La pile du CMOS est peut-être défectueuse</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Fixer la pile</li><li>Remplacer la pile</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne démarre pas après la mise à jour du micrologiciel du BIOS</td>
+		<td bgcolor='#F2F2F2'>La mise à jour du micrologiciel du BIOS n'a pas été installée correctement</td>
+		<td bgcolor='#F2F2F2'>Contacter le fabricant de la carte mère pour obtenir une nouvelle puce BIOS. (Si la carte mère possède deux puces BIOS, la deuxième peut être utilisée.)</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Au démarrage, l'ordinateur affiche des informations incorrectes sur le processeur.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Les paramètres du processeur sont incorrects dans les paramètres avancés du BIOS.</li><li>Le BIOS ne reconnaît pas correctement le processeur.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Corriger les paramètres avancés du BIOS pour le processeur</li><li>Mettre à jour le BIOS</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Le voyant (LED) du disque dur à l'avant de l'ordinateur ne s'allume pas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>Le câble du voyant du disque dur n'est pas connecté ou est mal branché.</li><li>Le câble du voyant du disque dur n'est pas correctement orienté par rapport aux connecteurs du panneau avant.</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Reconnecter le câble du voyant du disque dur sur la carte mère</li><li>Orienter correctement le câble du voyant du disque dur par rapport au connecteur situé sur le panneau avant et le reconnecter</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>La carte réseau intégrée a cessé de fonctionner sur un ordinateur.</td>
+		<td bgcolor='#E9E7E8'>La carte réseau est défectueuse.</td>
+		<td bgcolor='#E9E7E8'>Ajouter une nouvelle carte réseau dans un slot d'extension disponible.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'affichage vidéo ne fonctionne pas sur l'ordinateur après l'installation d'une nouvelle carte vidéo PCIe.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Les paramètres du BIOS sont configurés pour utiliser la carte vidéo intégrée.</li><li>Le câble est toujours connecté à la carte vidéo intégrée.</li><li>La nouvelle carte vidéo est défectueuse.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Désactiver la carte vidéo intégrée dans les paramètres du BIOS</li><li>Connecter le câble à la nouvelle carte vidéo</li><li>La nouvelle carte vidéo a besoin d'une alimentation auxiliaire.</li><li>Brancher les connecteurs d'alimentation requis à la carte vidéo</li><li>Installer une carte vidéo en état de marche</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>La nouvelle carte son ne fonctionne pas.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Les haut-parleurs ne sont pas connectés à la prise appropriée.</li><li>Le mode muet est activé.</li><li>La carte son est défectueuse.</li><li>Les paramètres du BIOS sont configurés pour utiliser la carte son intégrée.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Connecter les haut-parleurs à la prise adéquate</li><li>Désactiver le mode muet</li><li>Installer une carte son en bon état</li><li>Désactiver la carte son intégrée dans les paramètres du BIOS</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 2--><!--slide 3--><component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problèmes courants et solutions : alimentations</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identifier le problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne s'allume pas.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>L'ordinateur n'est pas branché sur une prise secteur CA.</li><li>La prise secteur CA est défectueuse.</li><li>Le cordon d'alimentation est défectueux.</li><li>L'interrupteur d'alimentation n'est pas allumé.</li><li>L'interrupteur d'alimentation n'est pas réglé sur la tension appropriée.</li><li>Le bouton d'alimentation n'est pas relié correctement au connecteur sur le panneau avant.</li><li>L'alimentation est défectueuse.</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Brancher l'ordinateur sur une prise secteur CA en état de marche</li><li>Utiliser un cordon d'alimentation en bon état</li><li>Mettre l'interrupteur d'alimentation sur la position Marche</li><li>Définir le paramètre de tension correct sur l'interrupteur d'alimentation</li><li>Orienter correctement le bouton d'alimentation par rapport au connecteur sur le panneau avant et le reconnecter</li><li>Installer une alimentation en bon état</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur redémarre ou s'arrête subitement ; il dégage de la fumée ou une odeur de composants électroniques brûlés.</td>
+		<td bgcolor='#E9E7E8'>L'alimentation est défectueuse.</td>
+		<td bgcolor='#E9E7E8'>Remplacer le bloc d'alimentation</td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 3--><!--slide 4--><component id='ID_s4_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problèmes courants et solutions : processeurs et mémoire</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identifier le problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur ne démarre pas ou se bloque.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>Le processeur surchauffe.</li><li>Le ventilateur du processeur ne fonctionne pas normalement.</li><li>Le processeur est défectueux.</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Réinstaller le processeur</li><li>Remplacer le ventilateur du processeur</li><li>Installer un ou plusieurs ventilateurs dans le boîtier</li><li>Remplacer le processeur</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Le ventilateur du processeur fait un bruit inhabituel.</td>
+		<td bgcolor='#E9E7E8'>Le ventilateur du processeur ne fonctionne pas normalement.</td>
+		<td bgcolor='#E9E7E8'>Remplacer le ventilateur du processeur</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'ordinateur redémarre intempestivement, se bloque ou affiche des messages d'erreur.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>La vitesse du bus frontal est trop élevée.</li><li>Le multiplicateur du processeur est défini sur une valeur trop élevée.</li><li>La tension du processeur est définie sur une valeur trop élevée.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Rétablir les paramètres d'usine par défaut sur la carte mère</li><li>Régler le bus frontal sur un débit inférieur</li><li>Diminuer les valeurs des paramètres du multiplicateur</li><li>Diminuer les valeurs des paramètres de tension du processeur</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Après le remplacement d'un processeur monocœur par un processeur à double cœur, l'ordinateur fonctionne plus lentement et affiche un seul graphique de processeur dans le Gestionnaire des tâches.</td>
+		<td bgcolor='#E9E7E8'>Le BIOS ne reconnaît pas le processeur à double cœur.</td>
+		<td bgcolor='#E9E7E8'>Mettre à jour le micrologiciel du BIOS pour assurer la prise en charge du processeur à double cœur</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'installation d'un nouveau processeur sur la carte mère est impossible.</td>
+		<td bgcolor='#F2F2F2'>Le type de processeur est incorrect.</td>
+		<td bgcolor='#F2F2F2'>Utiliser un processeur qui correspond au type de socket de la carte mère.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'ordinateur ne reconnaît pas la nouvelle mémoire vive (RAM) installée.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>La nouvelle mémoire vive est défectueuse.</li><li>Le type de mémoire vive installé est incorrect.</li><li>La mémoire vive ajoutée n'est pas du même type que celle qui était présente.</li><li>La nouvelle mémoire vive n'est pas enfichée correctement dans son slot.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Remplacer la mémoire vive</li><li>Installer les modules de mémoire vive corrects</li><li>Installer correctement la barrette de mémoire vive dans son slot</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Après une mise à niveau de Windows, l'ordinateur fonctionne très lentement.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>L'ordinateur n'a pas assez de mémoire vive (RAM).</li><li>La carte vidéo ne dispose pas d'une mémoire suffisante.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Installer de la mémoire vive (RAM) supplémentaire</li><li>Installer une carte vidéo disposant de plus de mémoire.</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 4--><component id='ID_s5_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Problèmes courants et solutions : écrans</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>Identifier le problème</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Causes probables</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>Solutions possibles</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'écran s'allume mais n'affiche aucune image.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>Le câble vidéo est mal branché ou endommagé.</li><li>L'ordinateur n'envoie pas de signal vidéo à l'écran externe.</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Reconnectez ou remplacez le câble vidéo.</li><li>Utilisez la touche de fonction (touche Fn) avec la touche multifonction pour basculer sur l'écran externe.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'image tremble.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'></textformat><ul><li>La fréquence de rafraîchissement de l'écran n'est pas assez élevée.</li><li>L'inverter de l'écran est endommagé ou défaillant.</li></ul></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Modifier la fréquence de rafraîchissement de l'écran.</li><li>Démonter l'écran et remplacer l'inverter.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'image à l'écran est trop sombre.</td>
+		<td bgcolor='#F2F2F2'>Le rétroéclairage de l'écran LCD n'est pas correctement réglé.</td>
+		<td bgcolor='#F2F2F2'>Rechercher dans le manuel de réparation les instructions relatives au calibrage du rétroéclairage de l'écran LCD. Réglez correctement le rétroéclairage.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Certains pixels de l'écran n'affichent aucune couleur ou sont éteints.</td>
+		<td bgcolor='#E9E7E8'>Les pixels ne reçoivent aucune alimentation.</td>
+		<td bgcolor='#E9E7E8'>Contacter le fabricant.</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Certaines lignes de l'image à l'écran clignotent ou des formes de diverses couleurs et tailles apparaissent (artefacts).</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>L'écran n'est pas branché correctement.</li><li>La carte graphique est en surchauffe.</li><li>La carte graphique est défaillante ou fonctionne mal.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Démonter l'écran pour vérifier les connexions.</li><li>Démonter et nettoyer l'ordinateur pour éliminer la poussière et les débris.</li><li>Remplacer la carte graphique.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Les couleurs affichées à l'écran sont incorrectes.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>L'écran n'est pas branché correctement.</li><li>La carte graphique est en surchauffe.</li><li>La carte graphique est défaillante ou fonctionne mal.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Démonter l'écran pour vérifier les connexions.</li><li>Démonter et nettoyer l'ordinateur pour éliminer la poussière et les débris.</li><li>Remplacer la carte graphique.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Les images à l'écran sont déformées.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Les paramètres d'affichage ont été modifiés.</li><li>L'écran n'est pas branché correctement.</li><li>La carte graphique est en surchauffe.</li><li>La carte graphique est défaillante ou fonctionne mal.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Restaurer les paramètres d'usine de l'écran.</li><li>Démonter l'ordinateur pour vérifier les connexions de l'écran.</li><li>Démonter et nettoyer l'ordinateur pour éliminer la poussière et les débris.</li><li>Remplacer la carte graphique.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>L'écran présente une « image fantôme ».</td>
+		<td bgcolor='#E9E7E8'>L'affichage présente des effets de « burn-in ».</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Éteignez l'écran et débranchez-le de la source d'alimentation pendant quelques heures.</li><li>Si elle est disponible, utilisez la fonction de démagnétisation.</li><li>Remplacez l'écran.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>La géométrie des images à l'écran est déformée.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le pilote est corrompu.</li><li>Les paramètres de l'écran sont incorrects.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Mettre à niveau ou réinstaller le pilote en mode sans échec.</li><li>Utiliser les paramètres de l'écran pour corriger la géométrie.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Les images et les icônes de l'écran sont surdimensionnées.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Le pilote est corrompu.</li><li>Les paramètres de l'écran sont incorrects.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Mettre à niveau ou réinstaller le pilote en mode sans échec.</li><li>Utiliser les paramètres de l'écran pour corriger la géométrie.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>Le projecteur surchauffe et s'éteint.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Le ventilateur ne fonctionne pas.</li><li>Les évents sont obstrués.</li><li>Le projecteur est situé dans un boîtier.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Remplacer le ventilateur.</li><li>Nettoyer les évents.</li><li>Retirer le boîtier ou vérifier si la ventilation est adéquate.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>Dans une configuration à écrans multiples, les écrans ne sont pas alignés ou ne sont pas correctement orientés.</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Les paramètres de plusieurs moniteurs sont incorrects.</li><li>Le pilote est corrompu.</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>Utiliser le panneau de configuration d'affichage pour identifier chaque écran et définir l'alignement et l'orientation.</li><li>Mettre à niveau ou réinstaller le pilote en mode sans échec.</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>L'écran est en mode VGA.</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>L'ordinateur est en mode sans échec.</li><li>Le pilote est corrompu.</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Redémarrer l'ordinateur</li><li>Mettre à niveau ou réinstaller le pilote en mode sans échec.</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Packet Tracer]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Ajout d'ordinateurs à un réseau existant]]></text>
+	</component>
+	
+</textcomponents>

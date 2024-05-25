@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Motifs d'installation d'un nouveau disque dur</b>]]></text>
+	</component><!-- Textbox --><component id='ID_titleTxt'>
+		<text><![CDATA[<b>Motifs d'installation d'un nouveau disque dur</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<textformat blockindent='-16'><ul><li>Augmenter l'espace de stockage</li><li>Accroître la vitesse du disque dur</li><li>Installer un second système d'exploitation</li><li>Stocker le fichier d'échange du système</li><li>Fournir une tolérance aux pannes</li><li>Sauvegarder le disque dur d'origine</li></ul></textformat>]]></text>
+	</component><!-- End Textbox --></textcomponents>

@@ -1,0 +1,155 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Alimentation d'un ordinateur</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Connecteurs d'alimentation d'ordinateurs</b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Connecteur enfichable à 20 ou 24 broches]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+	<text><![CDATA[Connecteur SATA avec détrompeur]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+	<text><![CDATA[Connecteur Molex avec détrompeur]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+	<text><![CDATA[Connecteur Berg avec détrompeur]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+	<text><![CDATA[Connecteur d'alimentation auxiliaire à 4 ou 8 broches]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+	<text><![CDATA[Connecteur d'alimentation PCIe à 6 ou 8 broches]]></text>
+	</component>	
+	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Connecteurs d'alimentation courants</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>Connecteur</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>Description</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>Connecteur enfichable à 20 ou 24 broches</td>
+			<td bgcolor='#E9E7E8'><ul><li>Connexion à la carte mère</li><li>Le connecteur à 24 broches comporte deux rangées de 12 broches chacune.</li><li>Le connecteur à 20 broches comporte deux rangées de 10 broches chacune.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Connecteur SATA avec détrompeur</td>
+			<td bgcolor='#F2F2F2'><ul><li>Connecteur pour les disques durs.</li><li>Ce connecteur est plus large et plus fin qu'un connecteur Molex.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Connecteur Molex avec détrompeur</td>
+			<td bgcolor='#E9E7E8'><ul><li>Connecteur pour les disques durs, lecteurs optiques ou d'autres périphériques.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Connecteur Berg avec détrompeur</td>
+			<td bgcolor='#F2F2F2'><ul><li>Connecteur pour les anciens lecteurs de disquettes.</li><li>Plus petit qu'un connecteur Molex.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Connecteur d'alimentation auxiliaire à 4 ou 8 broches</td>
+			<td bgcolor='#E9E7E8'><ul><li>Ce connecteur est formé de deux rangées de deux à quatre broches et il alimente différentes zones de la carte mère.</li><li>Le connecteur d'alimentation auxiliaire a la même forme que le connecteur principal, mais il est plus petit.</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Connecteur d'alimentation PCIe à 6 ou 8 broches</td>
+			<td bgcolor='#F2F2F2'><ul><li>Ce connecteur comporte deux rangées de trois à quatre broches et il alimente les autres composants internes.</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>Tensions d'alimentation</b>]]></text>
+	</component>	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="6" bgcolor='#FFFFFF'><br/><br/></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='6' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="55" rowspan='2' id="voltage"><font color='#FFFFFF' ><b>Tension</b></font></td>
+			<td bgcolor='#666263' width="55" rowspan='2' id="Wire"><font color='#FFFFFF' ><b>Couleur du fil</b></font></td>
+			<td bgcolor='#666263' rowspan='2' id="use"><font color='#FFFFFF' ><b>Utilisation</b></font></td>
+			<td bgcolor='#666263' class="border_left" colspan='3' ><font color='#FFFFFF'  ><b>Type d'alimentation</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  width="30" class="border_left"><font color='#FFFFFF' ><b>AT</b></font></td>
+			<td bgcolor='#666263'  width="35" class="border_left"><font color='#FFFFFF' ><b>ATX</b></font></td>
+			<td bgcolor='#666263'  width="55" class="border_left" id="ATXv12"><font color='#FFFFFF' ><b>ATX12V</b></font></td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+12V</td>
+			<td bgcolor='#E9E7E8'>Jaune</td>
+			<td bgcolor='#E9E7E8'>Moteurs de disque dur, ventilateurs, dispositifs de refroidissement et logements pour bus système</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>-12V</td>
+			<td bgcolor='#F2F2F2'>Bleu</td>
+			<td bgcolor='#F2F2F2'>Certains types de circuits de port série et ancienne mémoire PROM (Programmable Read-Only Memory)</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+3,3V</td>
+			<td bgcolor='#E9E7E8'>Orange</td>
+			<td bgcolor='#E9E7E8'>La plupart des nouveaux processeurs, certains types de mémoire système et cartes vidéo AGP</td>
+			<td bgcolor='#E9E7E8'></td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>+5V</td>
+			<td bgcolor='#F2F2F2'>Rouge</td>
+			<td bgcolor='#F2F2F2'>Carte mère, carte Baby AT et processeurs plus anciens, ainsi que de nombreux composants de carte mère</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>-5V</td>
+			<td bgcolor='#E9E7E8'>Blanc</td>
+			<td bgcolor='#E9E7E8'>Cartes pour bus ISA et anciennes PROM</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>0V</td>
+			<td bgcolor='#F2F2F2'>Noir</td>
+			<td bgcolor='#F2F2F2'>Masse : retour commun à toutes les tensions</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+</textcomponents>

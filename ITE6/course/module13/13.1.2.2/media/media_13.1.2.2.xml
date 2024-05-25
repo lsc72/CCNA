@@ -1,0 +1,82 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Comment mettre un client en attente</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top" width='315'><font color='#FFFFFF' ><b>À faire</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>À éviter</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Attendre que le client ait fini d'expliquer son problème.</td>
+			<td bgcolor='#E9E7E8'>Interrompre le client.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Expliquer au client que vous devez le mettre en attente et pourquoi. Demander au client l'autorisation de mettre l'appel en attente.</td>
+			<td bgcolor='#E9E7E8'>Mettre le client en attente sans explication.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Lorsque le client accepte, le remercier et lui expliquer que vous serez de retour dans quelques minutes. Expliquer ce que vous allez faire pendant ce temps.</td>
+			<td bgcolor='#E9E7E8'>Mettre le client en attente sans son accord.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Si, après avoir placé un appel en attente, il vous faut plus de temps que prévu pour revenir auprès du client, reprendre rapidement l'appel pour lui expliquer la situation.</td>
+			<td bgcolor='#E9E7E8'>Supposer que votre temps est plus précieux que celui du client.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Toujours remercier le client de sa patience pendant la résolution du problème.</td>
+			<td bgcolor='#E9E7E8'>Supposer que votre temps est plus précieux que celui du client.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+	
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Transférer un appel</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top" width='315'><font color='#FFFFFF' ><b>À faire</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>À éviter</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Attendre que le client ait fini d'expliquer son problème.</td>
+			<td bgcolor='#E9E7E8'>Interrompre le client.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Expliquer que vous devez transférer l'appel et pourquoi. Donner au client le nom et le numéro de la personne à laquelle ils vont parler. Demander au client l'autorisation de transférer l'appel.</td>
+			<td bgcolor='#E9E7E8'>Transférer l'appel sans explication.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Lorsque le client est d'accord, le remercier et effectuer le transfert d'appel.</td>
+			<td bgcolor='#E9E7E8'>Transférer l'appel sans l'accord du client.</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Donner au technicien qui recevra le transfert votre nom, le numéro du dossier et le nom du client.</td>
+			<td bgcolor='#E9E7E8'>Supposer que votre temps est plus précieux que celui du client.</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

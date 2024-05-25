@@ -1,0 +1,54 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Types de ROM</b>]]></text>
+    </component>
+  
+    <component id="ID_s1_btn01">
+        <text><![CDATA[ROM]]></text>
+    </component>
+    
+    <component id="ID_s1_btn02">
+        <text><![CDATA[PROM]]></text> 
+    </component>
+    
+    <component id="ID_s1_btn03">
+        <text><![CDATA[EPROM]]></text> 
+    </component>
+    
+    <component id="ID_s1_btn04">
+        <text><![CDATA[EEPROM]]></text>
+    </component>
+    
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>ROM</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_titleTxt02">
+        <text><![CDATA[<b>PROM</b>]]></text> 
+    </component>
+    
+    <component id="ID_s1_titleTxt03">
+        <text><![CDATA[<b>EPROM</b>]]></text> 
+    </component>
+    
+    <component id="ID_s1_titleTxt04">
+        <text><![CDATA[<b>EEPROM</b>]]></text>
+    </component>
+
+    <component id="ID_s1_txt01">
+        <text><![CDATA[Puces de mémoire morte (Read-Only Memory). Des informations sont écrites sur une puce ROM lors de sa fabrication. Il est impossible d'effacer le contenu d'une puce ROM ou de l'écraser ; elle est inaltérable.]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[Mémoire morte programmable (Programmable Read-Only Memory). Des informations sont écrites sur une puce PROM après sa fabrication. Il est impossible d'effacer le contenu d'une puce PROM ou de l'écraser.]]></text> 
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[Mémoire morte reprogrammable (Erasable Programmable Read-Only Memory). Des informations sont écrites sur une puce EPROM après sa fabrication. L'exposition aux rayons UV peut effacer le contenu d'une puce EPROM. Un équipement spécial est requis.]]></text> 
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Mémoire morte reprogrammable électriquement (Electrically Erasable Programmable Read-Only Memory). Des informations sont écrites sur une puce EEPROM après sa fabrication. Les puces EEPROM sont également appelées ROM Flash. Il est possible d'effacer le contenu d'une puce EEPROM et de l'écraser sans retirer la puce de l'ordinateur.]]></text>
+    </component>
+
+</textcomponents>

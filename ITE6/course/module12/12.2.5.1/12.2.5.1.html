@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.1 Méthodes courantes de chiffrement des communications</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Méthodes courantes de chiffrement des communications</h1>
+        <div>
+          <p>Les communications entre ordinateurs peuvent nécessiter une communication sécurisée. Pour ce faire, les protocoles suivants sont nécessaires :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Codage par hachage</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Chiffrement symétrique</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Chiffrement asymétrique</b>
+              </li>
+            </ul>
+          </p>
+          <p>Le codage par hachage, ou simplement hachage, garantit l'intégrité du message. Il garantit que le message n'est ni endommagé ni modifié pendant la transmission. Cette technique utilise une fonction mathématique pour créer une valeur numérique unique pour les données, l'algorithme de hachage. Même si un seul caractère est modifié, le résultat de la fonction diffère. Cette fonction ne peut être utilisée que dans un sens. Donc, même si le pirate connaît l'algorithme, il ne peut pas recréer le message. Cette mesure de sécurité rend difficiles l'interception et la modification des messages. Cet encodage par hachage est indiqué à l'illustration 1. L'algorithme de hachage le plus répandu est le SHA (Secure Hash Algorithm), qui remplace l'algorithme Message Digest 5 (MD5), plus ancien. </p>
+          <p></p>
+          <p>Le chiffrement symétrique assure la confidentialité du message. Si un message chiffré est intercepté, il ne peut pas être compris. Il peut uniquement être déchiffré (c'est-à-dire être lu) avec le mot de passe (la clé) avec lequel il a été chiffré. Ce chiffrement exige que les deux interlocuteurs d'une conversation chiffrée utilisent une clé de chiffrement pour coder et décoder les données. L'expéditeur et le récepteur doivent utiliser des clés identiques. Le chiffrement symétrique est indiqué à l'illustration 2. Advanced Encryption Standard (AES) et 3DES (Triple Data Encryption Algorithm) sont des exemples de chiffrement symétrique.</p>
+          <p></p>
+          <p>Le chiffrement asymétrique assure également la confidentialité du message. Il exige deux clés, une privée et une autre publique. La clé publique peut être largement diffusée, y compris par e-mail, en texte clair ou dans des publications sur le Web. La clé privée est conservée par une seule personne et elle ne doit pas être divulguée. Ces clés peuvent être utilisées de deux manières :</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>Le chiffrement à clé publique est utilisé lorsqu'une organisation a besoin de recevoir un texte chiffré émanant de plusieurs sources. La clé publique peut être distribuée à grande échelle et utilisée pour chiffrer les messages. Le destinataire prévu est le seul à disposer de la clé privée, qui sert à déchiffrer les messages. Le chiffrement asymétrique avec clé publique est indiqué à l'illustration 3.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>Dans le cas de signatures numériques, il faut une clé privée pour chiffrer un message et une clé publique pour le décoder. Cette approche permet au destinataire de faire confiance à la source du message, car seul un message chiffré avec la clé privée de l'émetteur peut être déchiffré par la clé publique. RSA est l'exemple le plus courant de chiffrement asymétrique.</li>
+            </ul>
+          </p>
+          <p>
+            <b>Remarque</b> : le chiffrement symétrique exige que les deux systèmes soient préconfigurés avec une clé secrète. Le chiffrement asymétrique a seulement besoin qu'un des deux systèmes utilise une clé privée.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

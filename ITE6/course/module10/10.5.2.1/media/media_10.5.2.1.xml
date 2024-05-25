@@ -1,0 +1,386 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Problèmes courants et solutions</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions : systèmes d'exploitation pour appareils mobiles</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identification du problème</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Causes probables</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Solutions possibles</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile ne peut pas se connecter à Internet.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Le Wi-Fi est désactivé.</li>
+                            <li>Les paramètres Wi-Fi sont incorrects.</li>
+                            <li>Le mode avion est activé.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Activer le Wi-Fi.</li>
+                            <li>Reconfigurer les paramètres Wi-Fi.</li>
+                            <li>Désactiver le mode avion.</li></ul></textformat></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Une application ne répond pas.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>L'application ne fonctionne pas correctement.</li>
+                            <li>L'application ne se ferme pas.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Forcer la fermeture de l'application.</li>
+                                <li>Redémarrer l'appareil mobile.</li>
+                                <li>Réinstaller l'application.</li>
+                                <li>Retirer et réinsérer la batterie, si possible.</li>
+                                <li>Réinitialiser l'appareil mobile.</li></ul></textformat></font></td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile ne répond pas.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Une erreur s'est produite au niveau du système d'exploitation.</li>
+                            <li>Une application a entraîné le blocage du système d'exploitation.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Redémarrer l'appareil mobile.</li>
+                                <li>Retirer et réinsérer la batterie, si possible.</li>
+                                <li>Réinitialiser l'appareil mobile.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>L'appareil mobile ne peut pas envoyer ou recevoir d'e-mails.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>L'appareil mobile n'est pas connecté à Internet.</li>
+                            <li>Les paramètres du compte de messagerie sont incorrects.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Connecter l'appareil à un réseau Wi-Fi ou cellulaire.</li>
+                                <li>Reconfigurer les comptes de messagerie.</li></ul></textformat></font></td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Il est impossible d'installer des applications supplémentaires ou d'enregistrer de nouvelles photos sur un appareil mobile.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile n'a plus d'espace de stockage disponible.</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Insérer une carte mémoire ou remplacer la carte mémoire par une carte de capacité supérieure, si possible.</li>
+                                <li>Supprimer les fichiers inutiles.</li>
+                                <li>Désinstaller les applications inutiles.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>La connexion d'un appareil mobile avec un périphérique Bluetooth ne fonctionne pas.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Le Bluetooth n'est pas activé sur l'appareil mobile.</li>
+                        <li>Le périphérique Bluetooth est hors de portée.</li>
+                        <li>L'appareil Bluetooth n'est pas allumé.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Activer le Bluetooth sur l'appareil mobile.</li>
+                            <li>Déplacer le périphérique Bluetooth pour qu'il soit à portée de l'appareil mobile.</li>
+                            <li>Allumer l'appareil Bluetooth.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Le jumelage de l'appareil mobile avec un périphérique Bluetooth ne fonctionne pas.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Le Bluetooth n'est pas activé sur l'appareil mobile.</li>
+                        <li>L'appareil Bluetooth n'est pas allumé.</li>
+                        <li>Le code PIN est incorrect.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Activer le Bluetooth sur l'appareil mobile.</li>
+                            <li>Allumer l'appareil Bluetooth.</li>
+                            <li>Entrer le bon code PIN.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>L'affichage de l'appareil mobile est sombre.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>La luminosité est trop faible dans les paramètres d'affichage.</li>
+                            <li>La luminosité automatique ne fonctionne pas correctement dans les zones bien éclairées.</li>
+                            <li>La luminosité automatique n'est pas correctement étalonnée.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Augmenter la luminosité dans les paramètres d'affichage.</li>
+                            <li>Désactiver la luminosité automatique.</li>
+                            <li>Recalibrer le capteur de luminosité.</li></ul></textformat></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile ne peut assurer la diffusion sur un écran externe.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Aucun écran sans fil n'est disponible.</li>
+                            <li>Aucune technologie d'affichage sans fil comme Miracast, WiDi, AirPlay ou autre n'est activée.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Installer un appareil compatible avec la technologie sans fil ou l'activer si elle est présente.</li>
+                                <li>Activer la fonctionnalité sans fil de l'écran.</li></ul></textformat></font></td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Les performances de l'appareil mobile sont réduites.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Une application GPS fonctionne.</li>
+                            <li>Une ou plusieurs applications gourmandes en énergie sont exécutées.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Arrêter le GPS ou fermer l'application GPS.</li>
+                                <li>Fermer toutes les applications inutiles.</li>
+                                <li>Redémarrez le périphérique.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile ne peut pas déchiffrer l'e-mail.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Votre client de messagerie n'est pas configuré pour déchiffrer les e-mails.</li>
+                            <li>Vous ne disposez pas de la bonne clé de déchiffrement.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Configurer le client de messagerie pour qu'il déchiffre les e-mails chiffrés.</li>
+                                <li>Récupérer la clé de déchiffrement de l'expéditeur de l'e-mail chiffré.</li></ul></textformat></font></td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Le système d'exploitation de l'appareil mobile est bloqué.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Une application n'est pas compatible avec l'appareil.</li>
+                            <li>La connectivité réseau est mauvaise.</li>
+                            <li>L'appareil contient des composants défaillants.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Désinstaller l'application incompatible.</li>
+                                <li>Se déplacer dans une zone avec une meilleure couverture réseau.</li>
+                                <li>Remplacer tout composant matériel défaillant.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile n'émet aucun son dans les haut-parleurs.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Le volume de l'appareil est trop faible dans les paramètres audio ou dans une application.</li>
+                        <li>Le son est coupé.</li>
+                        <li>Le haut-parleur est défectueux.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Augmenter le volume dans les paramètres audio ou dans l'application.</li>
+                            <li>Désactiver le mode muet de la fonctionnalité audio.</li>
+                            <li>Remplacer le haut-parleur.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>L'écran tactile de l'appareil mobile ne réagit pas correctement.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>L'écran tactile n'est pas étalonné dans les paramètres d'affichage ou dans une application.</li>
+                        <li>L'écran tactile est sale.</li>
+                        <li>L'écran tactile subit des courts-circuits à cause d'un dommage ou de la présence d'eau.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Recalibrer l'écran tactile dans les paramètres d'affichage ou dans l'application.</li>
+                            <li>Nettoyer l'écran tactile.</li>
+                            <li>Remplacer l'écran tactile.</li></ul></textformat></font></td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Problèmes courants et solutions</b>]]></text> 
+    </component>
+    
+   <component id="ID_s2_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions : sécurité du système d'exploitation des appareils mobiles</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identification du problème</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Causes probables</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Solutions possibles</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile reçoit un signal faible ou le signal a été perdu. </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Il n'y a pas assez d'antennes-relais dans la zone.</li>
+                            <li>La zone se trouve entre les zones couvertes par l'opérateur.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Se déplacer dans une zone plus peuplée qui dispose de plus d'antennes-relais.</li>
+                            <li>Se déplacer dans une zone couverte par votre opérateur.</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>La batterie de l'appareil mobile s'épuise plus rapidement que la normale.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>L'appareil saute d'une antenne ou d'une zone à une autre.</li>
+                        <li>La luminosité de l'écran est trop importante.</li>
+                        <li>Une application utilise trop de ressources.</li>
+                        <li>Trop de radios sont utilisées.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Se déplacer dans une zone couverte par votre opérateur.</li>
+                            <li>Réduire le niveau de luminosité de l'écran.</li>
+                            <li>Fermer toutes les applications inutiles.</li>
+                            <li>Désactiver toutes les radios inutiles.</li>
+                            <li>Redémarrer le périphérique.</li></ul></textformat></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Le débit des données mobiles est trop lent sur l'appareil.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>L'antenne connectée est trop éloignée pour les données à haut débit.</li>
+                        <li>L'appareil mobile est en itinérance.</li>
+                        <li>La transmission des données dépasse la limite d'utilisation de l'appareil.</li>
+                        <li>L'appareil utilise les ressources de façon intensive.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Se rapprocher de l'antenne-relais. </li>
+                            <li>Se déplacer dans une zone couverte par votre opérateur.</li>
+                            <li>Augmenter la limite de consommation des données sur l'appareil.</li>
+                            <li>Désactiver l'utilisation des données sur l'appareil.</li>
+                            <li>Fermer toutes les applications inutiles.</li>
+                            <li>Redémarrez le périphérique.</li></ul></textformat></font></td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>L'appareil mobile se connecte inopinément à un réseau Wi-Fi.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'>L'appareil est configuré pour se connecter automatiquement aux réseaux Wi-Fi inconnus.</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Régler l'appareil afin qu'il ne se connecte qu'aux réseaux Wi-Fi connus.</font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile se jumelle inopinément à un appareil Bluetooth.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil est configuré pour effectuer automatiquement le jumelage avec les appareils inconnus.</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Régler l'appareil pour désactiver le jumelage Bluetooth par défaut.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil mobile a diffusé des fichiers et des données personnelles. </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>L'appareil a été perdu ou volé.</li>
+                            <li>L'appareil a été compromis par un programme malveillant.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Effectuer un verrouillage ou un effacement à distance sur l'appareil.</li>
+                            <li>Rechercher et supprimer le programme malveillant de l'appareil.</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Un compte d'appareil mobile a été utilisé par du personnel non autorisé.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Les informations d'identification sont stockées par défaut.</li>
+                        <li>Aucun VPN n'est utilisé.</li>
+                        <li>Aucun code secret n'est défini sur l'appareil.</li>
+                        <li>Le code secret de l'appareil a été deviné.</li>
+                        <li>L'appareil a été compromis par un programme malveillant.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Régler l'appareil pour qu'il ne conserve plus les informations d'identification par défaut.</li>
+                            <li>Utiliser une connexion VPN.</li>
+                            <li>Définir un code secret sur l'appareil.</li>
+                            <li>Remplacer le code par un code secret plus sécurisé.</li>
+                            <li>Rechercher et supprimer le programme malveillant de l'appareil.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Une application a obtenu un accès non autorisé à la racine.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil a été compromis par un programme malveillant.</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Rechercher et supprimer le programme malveillant de l'appareil.</font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>La localisation d'un appareil mobile est suivie sans autorisation.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Le GPS est activé, mais il n'est utilisé par aucune application.</li>
+                        <li>Une application autorise la connexion au GPS.</li>
+                        <li>L'appareil a été compromis par un programme malveillant.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Éteindre le GPS lorsqu'il n'est pas utilisé.</li>
+                            <li>Désactiver ou supprimer toutes les applications indésirables qui autorisent la connexion au GPS.</li>
+                            <li>Rechercher et supprimer le programme malveillant de l'appareil.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'appareil photo ou le microphone de l'appareil mobile est utilisé sans autorisation.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Une application autorise la connexion à l'appareil photo ou au microphone.</li>
+                            <li>L'appareil a été compromis par un programme malveillant.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Désactiver ou supprimer toutes les applications indésirables qui autorisent la connexion à l'appareil photo ou au microphone.</li>
+                            <li>Rechercher et supprimer le programme malveillant de l'appareil.</li></ul></textformat></font></td>
+            </tr>
+
+        </table>]]></text>
+        
+    </component>
+
+
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Problèmes courants et solutions</b>]]></text> 
+    </component>
+    
+    <component id="ID_s3_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Problèmes courants et solutions : systèmes d'exploitation Linux et OS X</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>Identification du problème</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>Causes probables</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>Solutions possibles</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>L'opération de sauvegarde automatique ne démarre pas. </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Time Machine est désactivé sur OS X.</li>
+                            <li> Deja Dup est désactivé sur Linux.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Activer Time Machine dans OS X.</li>
+                            <li>Activer Déjà Dup dans Linux.</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Le répertoire est vide.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Le répertoire est le point de montage d'un autre disque ou d'une autre partition.</li>
+                        <li>Les fichiers ont été supprimés accidentellement.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Remonter le disque avec le répertoire approprié, à l'aide de Disk Utility pour OS X.</li>
+                            <li>Remonter le disque avec le répertoire approprié, à l'aide de Disks pour Linux.</li>
+                            <li>Restaurer les fichiers supprimés à partir de la sauvegarde avec Time Machine ou Déjà Dup.</li></ul></textformat></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Une application ne répond plus dans OS X.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>L'application ne fonctionne plus.</li>
+                        <li>L'application utilisait une ressource qui n'est plus disponible.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Forcer la fermeture de l'application. </li></ul></textformat></font></td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Le Wi-Fi n'est pas accessible avec Ubuntu.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Le pilote de la carte réseau n'a pas été installé correctement. </li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Installer le pilote Linux depuis le site Web du fabricant, le cas échéant.</li>
+                            <li>Installer le pilote Linux depuis le référentiel Ubuntu, le cas échéant.</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>OS X ne peut pas lire le disque optique distant avec Remote Disc.</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul> <li>Le Mac comporte déjà un lecteur optique.</li>
+                        <li>L'option pour demander l'autorisation d'utiliser le lecteur optique a été activée.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Placer le support dans le lecteur optique local.</li>
+                            <li>Accepter la demande d'autorisation pour utiliser le lecteur.</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Linux ne démarre pas et affiche un message « GRUB manquant » ou « LILO manquant ». </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>GRUB ou LILO a été endommagé.</li>
+                            <li>GRUB ou LILO a été supprimé.</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Exécuter Linux depuis le support d'installation, ouvrir un terminal et installer le gestionnaire de démarrage avec la commande suivante : sudo grub-install ou sudo lilo-install</font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Linux ou Mac OS se bloque au démarrage et affiche une panique du noyau là où se trouve l'écran d'arrêt.</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Un pilote est endommagé.</li>
+                        <li>Défaillance du matériel.</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>Mettre à jour tous les pilotes de périphérique depuis le site Web du fabricant.</li>
+                            <li>Remplacer tout composant matériel défaillant.</li></ul></textformat></font></td>
+            </tr>
+        </table>]]></text>
+        
+    </component>
+</textcomponents>

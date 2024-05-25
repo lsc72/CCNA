@@ -1,0 +1,133 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+
+
+  <component id="ID_s2_btn01">
+<text><![CDATA[Consigner et suivre les incidents]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[Enregistrer des informations sur les<br/>contacts]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[Rechercher des informations sur les<br/>produits]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[Exécuter des utilitaires de diagnostic]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[Effectuer des recherches dans une<br/>base de connaissances]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[Collecter des commentaires client]]></text>
+</component>
+
+
+
+  <component id='ID_s2_titleTxt01'>
+    <text><![CDATA[Consigner et suivre les incidents]]></text>
+  </component>
+   <component id='ID_s2_titleTxt02'>
+    <text><![CDATA[Enregistrer des informations sur les contacts]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt03'>
+    <text><![CDATA[Rechercher des informations sur les produits]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt04'>
+    <text><![CDATA[Exécuter des utilitaires de diagnostic]]></text>
+   </component>
+
+    <component id='ID_s2_titleTxt05'>
+    <text><![CDATA[Effectuer des recherches dans une base de connaissances]]></text>
+  </component>
+
+   <component id='ID_s2_titleTxt06'>
+    <text><![CDATA[Collecter des commentaires client]]></text>
+  </component>
+
+
+  
+
+
+
+  <component id="ID_s2_bodyTxt01">
+<text><![CDATA[Le logiciel peut gérer les files d'attente d'appels, définir les priorités d'appel, attribuer des appels et transmettre les appels à un niveau supérieur.]]></text>
+</component>
+<component id="ID_s2_bodyTxt02">
+<text><![CDATA[Le logiciel peut stocker, modifier et rechercher des noms de clients, des adresses e-mail, des numéros de téléphone, des emplacements, des sites Web, des numéros de fax et d'autres informations dans une base de données.]]></text>
+</component>
+<component id="ID_s2_bodyTxt03">
+<text><![CDATA[Le logiciel peut fournir aux techniciens des informations sur les produits qu'ils prennent en charge, y compris les fonctionnalités, les limites, les nouvelles versions, les contraintes de configuration, les bogues connus, la disponibilité des produits, les liens vers des fichiers d'aide en ligne et d'autres informations.]]></text>
+</component>
+<component id="ID_s2_bodyTxt04">
+<text><![CDATA[Le logiciel peut comporter plusieurs utilitaires de diagnostic, y compris un logiciel de diagnostic à distance qui permet au technicien de prendre le contrôle de l'ordinateur d'un client tout en restant assis à son propre bureau au centre d'appels.]]></text>
+</component>
+<component id="ID_s2_bodyTxt05">
+<text><![CDATA[Le logiciel peut contenir une base de connaissances préprogrammée avec les problèmes courants et leurs solutions. Cette base de données peut se développer avec les enregistrements de problèmes et de solutions des techniciens.]]></text>
+</component>
+<component id="ID_s2_bodyTxt06">
+<text><![CDATA[Le logiciel peut recueillir les commentaires des clients concernant la satisfaction par rapport aux produits et services du centre d'appels.]]></text>
+</component>
+
+    
+<component id="ID_s3_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Hiérarchisation des appels</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+           <tr>
+              <td bgcolor='#666263' width="125"><font color='#ffffff'><b>Nom</b></font></td>
+              <td bgcolor='#666263'><font color='#ffffff'><b>Définition</b></font></td>
+              <td bgcolor='#666263' width="175"><font color='#ffffff'><b>Priorité</b></font></td>
+
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Hors service</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>L'entreprise ne peut utiliser aucun de ses périphériques informatiques.</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>1 (Le plus urgent)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Matériel</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Au moins un ordinateur de l'entreprise ne fonctionne pas correctement.</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>2 (Urgent)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Logiciels</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Au moins un ordinateur de l'entreprise rencontre des problèmes liés au système d'exploitation ou à des logiciels.</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>2 (Urgent)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Réseau</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>Au moins un ordinateur de l'entreprise ne peut pas accéder au réseau.</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>2 (Urgent)</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Amélioration</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>Demande d'une entreprise concernant l'amélioration de ses capacités en termes d'informatique.</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>3 (Important)</font></td>
+            </tr>
+               
+           
+        </table>]]></text>
+    </component>	
+	
+	
+	
+</textcomponents>

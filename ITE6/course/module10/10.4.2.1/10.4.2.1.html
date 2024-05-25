@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.2.1 Tâches planifiées</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Tâches planifiées</h1>
+        <div>
+          <p>Les systèmes informatiques ont besoin d'une maintenance préventive pour assurer des performances optimales. Les tâches de maintenance doivent être planifiées et effectuées régulièrement pour éviter les problèmes ou les détecter rapidement. Afin d'éviter de manquer des tâches de maintenance à cause d'erreurs humaines, les systèmes peuvent être programmés pour effectuer automatiquement certaines tâches. La sauvegarde et la vérification du disque sont deux tâches qui doivent être planifiées et exécutées automatiquement.</p>
+          <p></p>
+          <p>La planification des sauvegardes est importante pour éviter toute perte de données importantes suite à une défaillance matérielle. Plus les sauvegardes sont fréquentes, plus le risque de perte de données est limité.</p>
+          <p></p>
+          <p>La capacité d'un support magnétique à contenir les charges électromagnétiques pour stocker les données s'affaiblit avec le temps. En examinant régulièrement le disque afin d'y repérer les secteurs défectueux, l'administrateur peut déterminer la probabilité des pannes et prévoir la migration des données.</p>
+          <p></p>
+          <p>La sauvegarde et la vérification du disque sont généralement des tâches qui prennent du temps. Autre avantage de la planification des tâches de maintenance : l'ordinateur peut effectuer ces opérations lorsque l'utilisateur ne se sert pas du système. L'utilitaire de CLI, appelé cron, peut programmer ces tâches pendant les heures creuses.</p>
+          <p></p>
+          <p>
+            <b>Planification d'une tâche - Service Cron</b>
+          </p>
+          <p></p>
+          <p>Dans Linux et OS X, le service <b>cron</b> est responsable des tâches planifiées. En tant que service, <b>cron</b> fonctionne en arrière-plan et exécute les tâches à la date et à l'heure spécifiées. <b>cron</b> utilise un tableau de planification, appelé table cron, qui peut être modifié à l'aide de la commande <b>crontab</b>.</p>
+          <p></p>
+          <p>La table cron est un fichier en texte clair qui possède 6 colonnes, formaté comme indiqué à l'illustration 1.  Une tâche est généralement représentée par une commande, un programme ou un script. Pour planifier une tâche, l'utilisateur ajoute une ligne à la table cron. La nouvelle ligne indique la minute, l'heure, la date et le jour de la semaine où la tâche doit être effectuée par le service <b>cron</b>. Lorsque la date et l'heure spécifiées arrivent, la tâche est exécutée. </p>
+          <p></p>
+          <p>L'illustration 2 explique les champs de la table cron. La colonne centrale contient le type de données acceptable pour les champs. </p>
+          <p></p>
+          <p>La table cron indiquée à l'illustration 3 comporte deux entrées. La première indique au service <b>cron</b> qu'il doit exécuter le script <b>myFirstTask</b>, qui se trouve dans <b>/myDirectory/</b>, le premier et le quinzième jour de chaque mois et aussi le lundi, toujours à minuit (0 h 0 m). La seconde entrée indique que le service <b>cron</b> doit exécuter le script <b>mySecondTask</b>, qui se trouve lui aussi dans <b>/myDirectory/</b>, tous les mercredis à 2 h 37.</p>
+          <p></p>
+          <p>Pour créer ou modifier la table cron, utilisez la commande <b>crontab -e</b> dans le terminal.</p>
+          <p></p>
+          <p>Pour consulter la table cron actuelle, utilisez la commande <b>crontab –l</b>.</p>
+          <p></p>
+          <p>Pour supprimer la table cron actuelle, utilisez la commande <b>crontab –r</b>.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

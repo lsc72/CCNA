@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+        <tr class="mtable_title">
+			<td colspan="1" bgcolor='#FFFFFF'><font size="16"><b>Étape 2. Établir une théorie sur les causes probables</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='1' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>  
+			<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'><li>Périphérique hors tension </li><li>Interrupteur d'alimentation éteint au niveau de la prise </li><li>Parasurtenseur éteint </li><li>Câbles externes mal branchés</li><li>Disque non démarrable dans le lecteur de démarrage désigné</li><li>Ordre de démarrage incorrect dans le BIOS</li></textformat></td>		 
+		</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

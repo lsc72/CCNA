@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 5 : Vérifier l'intégralité des fonctionnalités du système et, le cas échéant, implémenter des mesures préventives</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>Vérifier le fonctionnement du système complet</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>Arrêter l'ordinateur et le redémarrer</li>
+			<li>Vérifier les journaux des événements afin de s'assurer qu'il n'y a pas de <span id="span1">nouveaux avertissements ni d'erreurs</span></li>
+			<li>Vérifier le Gestionnaire de périphériques afin de s'assurer qu'il n'y a pas <span id="span1">d'avertissements ni d'erreurs</span></li>
+			<li>Exécuter DxDiag afin de s'assurer que DirectX fonctionne correctement</li>
+			<li>Vérifier que les applications fonctionnent correctement</li>
+			<li>Vérifier que les partages réseau sont accessibles</li>
+			<li>Vérifier l'accès à Internet</li>
+			<li>Exécuter à nouveau le Vérificateur des fichiers système pour s'assurer <span id="span1">que tous les fichiers sont corrects</span></li>
+			<li>Vérifier le Gestionnaire des tâches pour s'assurer que tous les <span id="span1">programmes sont « En cours d'exécution »</span></li>
+			<li>Exécuter à nouveau les outils de diagnostic tiers</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

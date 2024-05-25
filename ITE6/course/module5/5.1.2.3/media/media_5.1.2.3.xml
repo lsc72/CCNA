@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[Travaux pratiques]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[Recherche de certifications et d'emplois relatifs au centre d'exploitation du réseau]]></text>
+	</component>
+	
+</textcomponents>

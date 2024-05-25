@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Achat d'une nouvelle solution de stockage externe</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt'>
+		<text><![CDATA[<b>Facteurs à prendre en compte pour les nouveaux périphériques de stockage externes</b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt'>
+		<text><![CDATA[<ul><textformat blockindent='-18'><li>Type de port</li><li>Capacité de stockage</li><li>Vitesse</li><li>Portabilité</li><li>Alimentation requise</li></textformat></ul>]]></text>
+	</component>
+	
+</textcomponents>

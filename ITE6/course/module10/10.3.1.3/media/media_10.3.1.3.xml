@@ -1,0 +1,18 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Bouton d'activation des données cellulaires sur iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Point d'accès personnel sur iOS</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Bouton d'activation du mode avion sur Android</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Bouton d'activation du mode avion sur iOS</b>]]></text>
+	</component>
+   
+</textcomponents>

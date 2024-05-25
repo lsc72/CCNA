@@ -1,0 +1,34 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Câbles et connecteurs PS/2</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Connecteurs audio et Gameport</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Câbles et connecteurs réseau</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_txt01">
+        <text><![CDATA[Entrée ligne]]></text>
+    </component>
+
+    <component id="ID_s2_txt02">
+        <text><![CDATA[Prise microphone]]></text>
+    </component>
+
+    <component id="ID_s2_txt03">
+        <text><![CDATA[Sortie ligne]]></text>
+    </component>
+
+    <component id="ID_s2_txt04">
+        <text><![CDATA[Entrée auxiliaire]]></text>
+    </component>
+
+    <component id="ID_s2_txt05">
+        <text><![CDATA[Gameport/MIDI]]></text>
+    </component>
+    
+</textcomponents>

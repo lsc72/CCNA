@@ -1,0 +1,88 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Exercice - Identifier la terminologie relative à la protection des données</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[Associez chaque terme relatif à la protection des données avec sa description.]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[Correct]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[Vous avez correctement associé les termes relatifs à la protection des données à leur définition.]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[Incorrect]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[Vous n'avez pas correctement associé les termes relatifs à la protection des données à leur définition. Cliquez sur Réinitialiser pour réessayer.]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[Contrôler]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[Réinitialiser]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>Terme relatif à la protection des données</b></font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">Pare-feu logiciel</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">Démagnétisation</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">Module de plate-forme sécurisée (TPM)</font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">Jeton d'authentification</font>]]></text>
+</component>
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">Principe du privilège minimum</font>]]></text>
+</component><!--Questions--><component id='ID_target_header'>
+	<text><![CDATA[<b>Terme relatif à la protection des données</b>]]></text>
+</component>
+<component id='ID_text_header'>
+	<text><![CDATA[<b>Description</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[Utilise des aimants puissants pour éliminer le champ magnétique du disque dur.]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[Doit être activé dans le BIOS pour que BitLocker puisse être utilisé.]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[Les utilisateurs n'ont accès qu'aux ressources dont ils ont besoin, sur l'ordinateur ou sur le réseau.]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[Petit dispositif utilisé pour l'authentification à deux facteurs.]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[Programme qui s'exécute sur un ordinateur en vue d'autoriser ou de refuser du trafic entre un ordinateur et les autres ordinateurs auxquels il est connecté.]]></text> 
+</component>
+
+   
+</textcomponents>

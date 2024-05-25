@@ -1,0 +1,35 @@
+﻿<textcomponents>
+		<component id="ID_s2_title">
+	<text><![CDATA[<b>Rôle du masque de sous-réseau</b>]]></text>
+	</component>  	
+
+	<component id="ID_s2_txt01">
+	<text><![CDATA[<b>Partie réseau</b>]]></text>
+	</component> 
+	
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>Partie hôte</b>]]></text>
+	</component>  
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Conversion du format binaire au format décimal</b>]]></text>
+	</component>  	
+
+	<component id="ID_s3_txt01">
+	<text><![CDATA[Notation binaire d'une adresse IPv4]]></text>
+	</component> 
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[Chaque octet est composé de 8 bits]]></text>
+	</component> 
+	<component id="ID_s3_txt03">
+	<text><![CDATA[Chaque bit représente un nombre]]></text>
+	</component> 
+	
+	<component id="ID_s3_txt04">
+	<text><![CDATA[Chaque bit s'additionne]]></text>
+	</component>
+	
+	<component id="ID_s3_txt05">
+	<text><![CDATA[Adresse IPv4 en notation en décimale à point]]></text>
+	</component>  
+</textcomponents>

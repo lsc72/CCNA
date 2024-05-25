@@ -1,0 +1,28 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>Gestionnaire de démarrage de Windows 8.x</b>]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+	<text><![CDATA[<b>Gestionnaire de démarrage de Windows 7 et Windows Vista</b>]]></text>
+</component>
+
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt01"><b>Gestionnaire de démarrage Windows</b></font>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<font face='_typewriter'><b>Choisissez un système d'exploitation pour démarrer ou appuyez sur TAB pour sélectionner un outil :</b><br>(Utilisez les flèches pour choisir une option, puis appuyez sur ENTRÉE.)</font>]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt02"><b>Pour spécifier une option avancée pour cette sélection, appuyez sur F8.</b><br><span class="ID_s1_txt02">Secondes avant le démarrage automatique du choix en surbrillance : 29</span><br><br><br><b class="ID_s1_txt02">Outils :</b><br><br><textformat blockindent='25'><span class="ID_s1_txt02 alignment">Diagnostic de mémoire Windows</span></textformat></font>]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt04">Windows 7 <span class="space">></span><b></font>]]></text>
+</component>
+<component id='ID_s1_txt05'>
+	<text><![CDATA[<font face='_typewriter' class="ID_s1_txt05">Windows XP<b></font>]]></text>
+</component>
+
+
+</textcomponents>

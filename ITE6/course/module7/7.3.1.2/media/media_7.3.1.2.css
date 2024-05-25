@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+#ID_s1_txt03{
+	letter-spacing: -0.8px !important;
+}
+
+#ID_s3_txt01{
+	letter-spacing: -0.8px !important;
+	background-color: #fff!important;
+	border: 2px solid #fff;
+	
+
+}

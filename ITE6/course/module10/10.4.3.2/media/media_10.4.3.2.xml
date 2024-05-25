@@ -1,0 +1,199 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Autorisations relatives aux fichiers UNIX</b>]]></text> 
+    </component>
+
+     <component id="ID_s1_txt01">
+        <text><![CDATA[Utilisateur]]></text> 
+    </component>
+
+     <component id="ID_s1_txt02">
+        <text><![CDATA[Groupe]]></text> 
+    </component>
+     <component id="ID_s1_txt03">
+        <text><![CDATA[Autre]]></text> 
+    </component>
+
+    <component id="ID_s1_txt04">
+        <text><![CDATA[Élément de fichier ou de dossier :<br/>- indique qu'il s'agit d'un fichier, d indique qu'il s'agit d'un répertoire]]></text> 
+    </component>    
+	
+    <component id="ID_s1_txt05">
+        <text><![CDATA[<b>Utilisez les valeurs octales pour définir les autorisations :</b>]]></text> 
+    </component> 
+
+    <component id="ID_s1_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+            <tr>
+                <td bgcolor='#666263' width='70' ><font color='#F2F2F2'><b>- ou d</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>x</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>x</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>x</b></font></td>
+               
+             </tr>
+        </table>]]></text>
+    </component>
+
+    
+    <component id="ID_s1_table02">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="4" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="4" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+             <tr>
+                <td bgcolor='#666263' width='80'><font color='#F2F2F2'><b>Binaire</b></font></td>
+                <td bgcolor='#666263' width='80'><font color='#F2F2F2'><b>Octal</b></font></td>
+                <td bgcolor='#666263' width='110'><font color='#F2F2F2'><b>Autorisation</b></font></td>
+                <td bgcolor='#666263' ><font color='#F2F2F2'><b>Description</b></font></td>
+             </tr>
+
+            
+
+             <tr>
+                <td bgcolor='#E9E7E8'>000</td>
+                <td bgcolor='#E9E7E8'>0</td>
+                <td bgcolor='#E9E7E8'>---</td>
+                <td bgcolor='#E9E7E8'>Pas d'accès</td>
+
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>001</td>
+                <td bgcolor='#F2F2F2'>1</td>   
+                <td bgcolor='#F2F2F2'>--x</td>     
+                <td bgcolor='#F2F2F2'>Exécution uniquement</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>010</td>
+                <td bgcolor='#E9E7E8'>2</td>
+                <td bgcolor='#E9E7E8'>-w-</td>
+                <td bgcolor='#E9E7E8'>Écriture seule</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>011</td>
+                <td bgcolor='#F2F2F2'>3</td>
+                <td bgcolor='#F2F2F2'>-wx</td>        
+                <td bgcolor='#F2F2F2'>Écriture et exécution</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>100</td>
+                <td bgcolor='#E9E7E8'>4</td>
+                <td bgcolor='#E9E7E8'>r--</td>
+                <td bgcolor='#E9E7E8'>Lecture seule</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>101</td>
+                <td bgcolor='#F2F2F2'>5</td>
+                <td bgcolor='#F2F2F2'>r-x</td>        
+                <td bgcolor='#F2F2F2'>Lecture et exécution</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'>110</td>
+                <td bgcolor='#E9E7E8'>6</td>
+                <td bgcolor='#E9E7E8'>rw-</td>
+                <td bgcolor='#E9E7E8'>Lire et écrire</td>
+            </tr>
+             <tr>
+                <td bgcolor='#F2F2F2'>111</td>
+                <td bgcolor='#F2F2F2'>7</td>
+                <td bgcolor='#F2F2F2'>rwx</td>
+                <td bgcolor='#F2F2F2'>Lecture, écriture et exécution</td>
+            </tr>
+
+
+        </table>]]></text>
+    </component>
+
+     <component id="ID_s2_title">
+        <text><![CDATA[<b>Outils administratifs de ligne de commande</b>]]></text> 
+    </component>
+
+     <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+			
+             <tr>
+                <td bgcolor='#666263' width='200'><font color='#F2F2F2'><b>Commande</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>Description</b></font></td>
+             </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>mv</b></font></td>
+                <td bgcolor='#E9E7E8'>Déplace ou renomme les fichiers et les répertoires</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>chmod</b></font></td>
+                <td bgcolor='#F2F2F2'>Modifie les autorisations du fichier</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>chown</b></font></td>
+                <td bgcolor='#E9E7E8'>Change le propriétaire d'un fichier</td>   
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>dd</b></font></td>
+                <td bgcolor='#F2F2F2'>Copie les données de l'entrée vers le résultat</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>shutdown</b></font></td>
+                <td bgcolor='#E9E7E8'>Arrête le système</td>   
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>pwd</b></font></td>
+                <td bgcolor='#F2F2F2'>Affiche le nom du répertoire actif</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>passwd</b></font></td>
+                <td bgcolor='#E9E7E8'>Modifie le mot de passe de l'utilisateur</td>   
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>ps</b></font></td>
+                <td bgcolor='#F2F2F2'>Affiche le processus en cours sur le système</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>su</b></font></td>
+                <td bgcolor='#E9E7E8'>Simule une session avec un autre utilisateur ou permet de devenir un super-utilisateur</td>   
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>sudo</b></font></td>
+                <td bgcolor='#F2F2F2'>Exécute une commande en tant qu'autre utilisateur</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>ifconfig</b></font></td>
+                <td bgcolor='#E9E7E8'>Affiche ou configure les informations relatives aux cartes réseau</td>   
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>apt-get</b></font><br/>(non disponible sur OS X par défaut)</td>
+                <td bgcolor='#F2F2F2'>Gestionnaire de package Ubuntu Linux, qui permet d'installer, de configurer et de supprimer des packages sur Ubuntu</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>iwconfig</b></font><br/>(non disponible sur OS X par défaut)</td>
+                <td bgcolor='#E9E7E8'>Affiche ou configure les informations relatives aux cartes réseau sans fil</td>   
+            </tr>
+
+        </table>]]></text>
+    </component>
+</textcomponents>

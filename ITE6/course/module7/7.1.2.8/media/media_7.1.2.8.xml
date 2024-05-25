@@ -1,0 +1,100 @@
+<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice – Types de réseau</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez chaque type de réseau à sa définition.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[LAN]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[Peer to peer]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[MAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[WLAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[WAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[PAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Client-serveur]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque type de réseau à sa description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas correctement associé chaque type de réseau à sa description. Cliquez sur <b>Réinitialiser </b>pour réessayer.]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Type de réseau</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Réseau qui connecte des périphériques sur une portée très limitée, pour une seule personne. Tous ces périphériques sont dédiés à un seul hôte.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[ Réseau qui n'établit pas de hiérarchie parmi les ordinateurs et qui n'a pas de serveur dédié. Chaque client possède des fonctionnalités et responsabilités équivalentes.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Réseau qui englobe une petite zone géographique, appartenant généralement à un particulier ou entièrement gérée par un service informatique.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Réseau qui s'étend sur un grand complexe ou une ville et qui comprend plusieurs bâtiments interconnectés en réseaux fédérateurs sans fil ou à fibre optique. ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Réseau utilisant des ondes radio pour transférer des données entre les appareils sans fil. Ce réseau peut fonctionner en mode d'infrastructure ou en mode ad hoc.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Réseau qui connecte plusieurs réseaux situés dans des zones géographiques distinctes et qui est la propriété d'un opérateur télécoms.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[Réseau dans lequel les hôtes demandent des informations ou services auprès d'un serveur. Le serveur fournit les informations ou les services demandés aux hôtes.]]></text>
+	</component>
+</textcomponents>

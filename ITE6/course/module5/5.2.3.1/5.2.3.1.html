@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.1 Processus de démarrage de Windows</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Processus de démarrage de Windows</h1>
+        <div>
+          <p>La compréhension du processus de démarrage de Windows peut aider un technicien à résoudre les problèmes de démarrage.</p>
+          <p></p>
+          <p>
+            <b>Processus de démarrage de Windows</b>
+          </p>
+          <p></p>
+          <p>Pour lancer le processus de démarrage, allumez l'ordinateur. Cette opération s'appelle un démarrage à froid. Lorsque l'ordinateur est mis sous tension, il exécute un test POST (Power-On Self Test ou autotest de mise sous tension). Comme la carte vidéo n'a pas encore été initialisée, toutes les erreurs qui se produisent à ce moment dans le processus de démarrage se traduisent par une série de signaux sonores, appelés codes de bips.</p>
+          <p></p>
+          <p>Après le POST, le BIOS localise et lit les paramètres de configuration enregistrés dans la mémoire CMOS. L'ordre de démarrage (Boot Device Priority), que l'on voit sur l'illustration ci-contre, détermine l'ordre dans lequel les périphériques sont analysés pour localiser la partition démarrable. La séquence des périphériques de démarrage est définie dans le BIOS et peut être organisée dans n'importe quel ordre. Le BIOS démarre l'ordinateur à l'aide du premier disque contenant un secteur de démarrage valide.</p>
+          <p></p>
+          <p>Les disques durs, les lecteurs réseau, les lecteurs USB et même les supports amovibles peuvent être utilisés dans l'ordre de démarrage, en fonction des fonctionnalités de la carte mère. Certains BIOS possèdent aussi un menu relatif à l'ordre de démarrage, auquel on accède par le biais d'une combinaison spéciale de touches lors du démarrage de l'ordinateur. Vous pouvez utiliser ce menu pour sélectionner le périphérique de démarrage.</p>
+          <p></p>
+          <p>
+            <b>Chargeur de démarrage Windows et Gestionnaire de démarrage Windows</b>
+          </p>
+          <p></p>
+          <p>À ce stade, le code contenu dans le secteur de démarrage est exécuté et le contrôle du processus de démarrage est octroyé au Gestionnaire de démarrage Windows (BOOTMGR). Le Gestionnaire de démarrage Windows (BOOTMGR) contrôle plusieurs étapes du démarrage : </p>
+          <p></p>
+          <p>1. WinLoad (WINLOAD.EXE) utilise le chemin indiqué dans le BOOTMGR pour trouver la partition de démarrage.</p>
+          <p>2. WinLoad charge deux fichiers constituant le cœur de Windows, à savoir NTOSKRNL.EXE et HAL.DLL.</p>
+          <p>3. WinLoad lit les fichiers du Registre, choisit un profil matériel et charge les pilotes des périphériques.</p>
+          <p></p>
+          <p>
+            <b>Noyau de Windows</b>
+          </p>
+          <p></p>
+          <p>À ce stade, le noyau de Windows prend le relais. Le nom de ce fichier est NTOSKRNL.EXE. Il démarre le fichier d'ouverture de session appelé WINLOGON.EXE et affiche l'écran d'accueil de Windows.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>Étape 3 : Tester la théorie pour déterminer la cause</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Étapes classiques pour déterminer la cause des problèmes sur les ordinateurs portables</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Utiliser l'adaptateur secteur avec l'ordinateur portable.</li>
+					<li>Remplacer la batterie.</li>
+					<li>Redémarrer l'ordinateur portable.</li>
+					<li>Vérifier les paramètres du BIOS.</li>
+					<li>Déconnecter et reconnecter les câbles.</li>
+					<li>Déconnecter les périphériques.</li><li>Appuyer sur la touche Verr. Num.</li>
+					<li>Retirer et réinstaller la mémoire vive.</li><li>Appuyer sur la touche de verrouillage des majuscules.</li>
+					<li>S'assurer qu'aucun support non démarrable n'est inséré dans le périphérique de démarrage.</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">Étapes classiques pour déterminer la cause des problèmes sur les appareils mobiles</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>Redémarrer l'appareil mobile.</li>
+					<li>Raccorder l'appareil mobile à une prise électrique.</li>
+					<li>Remplacer la batterie de l'appareil mobile.</li>
+					<li>Retirer la batterie amovible et la réinstaller.</li>
+					<li>Nettoyer le haut-parleur, le microphone, le port de charge et les autres ports.</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

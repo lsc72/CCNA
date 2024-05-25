@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>Exercice – Identifier les types de connexion de FAI</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[Instructions]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[Associez le terme à sa description.]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Cellulaire]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[Satellite]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[WiMAX]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[DSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[Ligne commutée]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[Câble]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[Contrôler]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[Réinitialiser]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[Correct]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[Vous avez correctement associé chaque terme à sa description.]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[Incorrect]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[Vous n'avez pas associé correctement chaque terme à sa description. Cliquez sur Réinitialiser pour réessayer.]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>Terme</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>Description</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[Le client est un représentant commercial qui est en déplacement la plupart du temps. Une connexion au siège social est requise presque 24 h/24.]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[Le client travaille à domicile, a besoin des débits ascendants (upload) et descendants (download) les plus élevés possible afin d'accéder au serveur FTP de l'entreprise et vit dans une zone très isolée où ni la DSL, ni le câble ne sont disponibles.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Le client travaille au cœur d'une grande ville et a besoin d'une connexion rapide et fiable, qui n'est pas facilement interrompue par de grands bâtiments.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Le client ne peut recevoir la télévision que par satellite mais vit dans une zone où l'accès Internet haut débit est disponible.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[Le client vit dans une zone isolée, au fond d'une vallée, et n'a pas les moyens de payer une connexion haut débit.]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[Le client souhaite recevoir la télévision, l'accès Internet et le téléphone via le même fournisseur, mais l'opérateur de téléphonie local n'offre pas tous ces services.]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

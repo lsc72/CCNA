@@ -1,0 +1,82 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Format de la table Cron</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="6" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="6" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>minute</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>heures</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Jours</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Mois</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>Jours de la semaine</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>Commandes</b></font></td>
+             </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Champs de la table Cron</b>]]></text> 
+    </component>
+    
+    <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8' width='110'>minute</td>
+                <td bgcolor='#E9E7E8' width='80'>0-59</td>
+                <td bgcolor='#E9E7E8'>La minute à laquelle la commande s'exécute.</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>heure</td>
+                <td bgcolor='#F2F2F2'>0-23</td>        
+                <td bgcolor='#F2F2F2'>L'heure à laquelle la commande s'exécute.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>Jour</td>
+                <td bgcolor='#E9E7E8'>1-31</td>
+                <td bgcolor='#E9E7E8'>Jour du mois où la commande s'exécute.</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>mois</td>
+                <td bgcolor='#F2F2F2'>1-12</td>        
+                <td bgcolor='#F2F2F2'>Le mois où la commande s'exécute.</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>jour de la semaine</td>
+                <td bgcolor='#E9E7E8'>0-6</td>
+                <td bgcolor='#E9E7E8'>Le jour de la semaine où la commande s'exécute.<br/>0 = dimanche,<br/>1 = lundi<br/>, etc.</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>commande</td>
+                <td bgcolor='#F2F2F2'>variable</td>        
+                <td bgcolor='#F2F2F2'>Commande ou jeu de commandes. Doit être compatible avec l'interpréteur de commandes et l'utilisation.</td>
+            </tr>
+
+        </table>]]></text>
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>Exemple Crontab</b>]]></text> 
+    </component>
+</textcomponents>

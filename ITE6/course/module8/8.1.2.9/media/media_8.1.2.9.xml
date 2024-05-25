@@ -1,0 +1,8 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+  <text><![CDATA[<b>Commandes de la CLI du réseau</b>]]></text> 
+</component>
+
+
+</textcomponents>
