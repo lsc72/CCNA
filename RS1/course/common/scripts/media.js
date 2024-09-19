@@ -1,12 +1,10 @@
 if (typeof(jQuery) == "undefined") {
     var iframeBody = document.getElementsByTagName("body");
-   
-    if(parent.parent.jQuery)
-    {
-    	window.jQuery = function (selector) { return parent.parent.jQuery(selector, iframeBody); };
-         window.$ = window.jQuery;
-    }
-}	
+	window.jQuery = function (selector) { return parent.parent.jQuery(selector, iframeBody); };
+    window.$ = window.jQuery;	
+}
+
+	
 
 function loadScript(url, callback){
     var script = document.createElement("script")

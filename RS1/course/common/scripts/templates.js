@@ -1,10 +1,9 @@
 var preload,canvasXML,mediaXML;
 var folderId;
-var htmlSlideCount = 0;
-var lastslide=0;
-function init(isHtml)
+
+function init()
 {
-	runtime = getUrlVars()["display"];
+	var runtime = getUrlVars()["display"];
 	if (runtime && runtime == "html") 
 	{		
 		loadHTMLVersion();			
@@ -12,9 +11,6 @@ function init(isHtml)
 	else if(swfobject && !swfobject.hasFlashPlayerVersion("1"))
 	{
 		loadHTMLVersion();					
-	}else if(isHtml){
-		runtime = "html";
-		loadHTMLVersion();
 	}	
 }
 
@@ -41,19 +37,18 @@ function jqueryLoaded()
 {
 	folderId= $("[name = 'movie']")[0].value;
 
-	//var runtime = getUrlVars()["display"];
+	var runtime = getUrlVars()["display"];
 	if (runtime && runtime == "html") {
 		var _w = $("#canvas").attr("width");
 		var _h = $("#canvas").attr("height");
 
-		//$("#myId").remove();
-		$("#flashObject").remove();
-		$("#flashContent").append('<div id="htmlMedia"><canvas id="canvas" width="'+_w+'" height="'+_h+'" style="background-color:#ffffff"></canvas></div>')
+		$("#myId").remove();
+		$("#flashContent").append('<canvas id="canvas" width="'+_w+'" height="'+_h+'" style="background-color:#ffffff"></canvas>')
 	}
 
 	loadScript("../../../common/scripts/createJS_bundle_060.min.js", loadTemplate);	
 	
-	if(parent.parent.jquery) $.noConflict();
+	$.noConflict();
 }
 
 //To load template files
@@ -112,15 +107,7 @@ function hLoaded(event) {
 function hComplete(event)
 {
 	preload = null;
-	initiateTemplate();	
-}
-
-function setSlide(index)
-{
-	if(typeof slideViewChange == 'function') slideViewChange(btnArray[index-1],index-1);
-	btnArray[lastslide].hide();
-	btnArray[index-1].show();
-	lastslide=index-1;
+	initiateTemplate();
 }
 
 function hError(event) {

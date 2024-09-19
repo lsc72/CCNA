@@ -16,45 +16,19 @@ th 	-	this
 obj	-	object
 *********************************************************************************************************************************/
 var canvas, mediaStage, root, mediaDOM,isResize;
-var sWidth =680;
-var sHeight = 490;
+var sWidth = 470;
+var sHeight = 400;
 var update = false;
 var isResize = true;
 var textBoxCount = 0;
 var templateType = "";
-var currentSlide=0;
-var btnArray=[];
-var imghitShapeArr=[];
-var imgLastHitShape;
 /********************************************************************************************************************************
 													Initiate Template Process 
 *********************************************************************************************************************************/
-
-function getBgImagePath(type){	
-	var path = ""
-	if(type=="IMAGE")
-	{
-		path = "../../../common/images/IoE_image-and-caption_"
-	}
-	if(type=="VIDEO")
-	{
-		path = "../../../common/images/IoE_video_"
-	}
-	switch(window.parent.pageType)
-	{
-		case "text-on-left":
-		   path += "TextLeft.png";
-		break;
-		case "text-on-right":
-		   path += "TextRight.png";
-		break;
-	}
-	return path;
-}
 function initiateTemplate()
 {
-	var isExpand = media.getPseudolocalize();
-	if(isExpand)
+	var isExpand = getUrlVars()['expand'];
+	if(isExpand && isExpand == "true")
 	{
 		//Translation
 		translationProcess();	
@@ -74,15 +48,11 @@ function initiateTemplate()
 	var rout = false;
 	$(xml).find("element").each(function(index, element) {       
 	   if($(this).attr("type") == "IMAGE")
-	   {  
+	   {
 		  if($(this).attr("src"))
-		  {			 
+		  {
 			  manifest.push({id:"bitmap_"+index,src:$(this).attr("src")}); 	
-		  }	
-		   if($(this).attr("subType") && $(this).attr("subType").toLowerCase()=="bg"){		  
-				manifest.push({id:"bitmap_"+index,src:getBgImagePath($(this).attr("bgType"))});
-				$(this).attr("src",getBgImagePath($(this).attr("bgType")));
-		   }		  
+		  }
 	   }
 	   if($(this).attr("type") == "ROUTER")
 	   {
@@ -122,7 +92,6 @@ function initSlide()
 	//Check stage width and height
 	if($(firstNode).attr("width")) sWidth = $(firstNode).attr("width");
 	if($(firstNode).attr("height")) sHeight = $(firstNode).attr("height");	
-	if(window.parent.pageType=="full-media") sWidth = 1000;
 	//Create Root Container for media
 	root = new RootContainer();		
 	mediaStage.addChild(root);		
@@ -136,8 +105,6 @@ function initSlide()
 	//Hide preloader
 	$("#preloader").hide();		
 }
-
-		
 /********************************************************************************************************************************
 														Get Media XML text 
 														------------------
@@ -146,9 +113,6 @@ function initSlide()
 function getMediaText(id)
 {
 	return $(mediaXML).find("component#"+id).text();
-}
-function loadMuttonAssets(){
-
 }
 /********************************************************************************************************************************
 													Get createJS Media Element 
@@ -172,25 +136,8 @@ function getCJSElement(type,obj,divId,xmlElement)
 		case "MBAR":
 				element = new MultiBar(obj);
 			break; 
-		case "MBUTTON":				
-			var imgArray = [];
-			$(obj).children().each(function(index, ele) {				
-				if(ele.attributes["buttonType"])
-				{
-					if(ele.attributes["buttonType"].value == "IMAGE_PLUS")
-					{
-						imgArray.push({src:ele.attributes["imgSel"].value,id:"img_"+imgArray.length});
-					}					
-				}
-			});		
-
-			if(imgArray.length == 0){
-				element = new MButton(obj,divId);
-			}
-			else
-			{						
-				element = new MButtonAssetComp(imgArray,obj,divId);				
-			}
+		case "MBUTTON":
+			element = new MButton(obj,divId);
 			break;
 		case "IMAGE":
 				element = new ImageComp(obj);						
@@ -213,15 +160,9 @@ function getCJSElement(type,obj,divId,xmlElement)
 			break;							
 		case "BLUE_BUTTON":
 				element = new BlueButton(obj);				
-			break;
-		case "SYNTAX_BUTTON":
-				element = new SyntaxButton(obj);				
 			break;										
 		case "IMAGE_BUTTON":
 				element = new ImageButton(obj);
-			break;
-		case "IMAGE_BUTTON_PLUS":
-				element = new ImageButtonPlus(obj);
 			break;
 		case "ACTIVITY":
 				element = new ActivityComp(obj,xmlElement);
@@ -248,47 +189,31 @@ function getCJSElement(type,obj,divId,xmlElement)
 	//bgShape.alpha = 0.5;
 	th.addChild(bgShape);
 	//Resize function
-	canvas.width =  sWidth;
-	canvas.height = sHeight;
-
-	//document.body.style.overflow = "auto";
-	
-	$("#htmlMedia").css("width",sWidth);
-	$("#htmlMedia").css("height",sHeight);
-	/*th.resizer = function()
+	th.resizer = function()
 	{			
-		
-	
+		canvas.width = $("#flashContent").width();
+		canvas.height = $("#flashContent").height();
 		var ratio = Math.min(canvas.width/sWidth,canvas.height/sHeight);	
-		
-		
-		var temp=(canvas.height/canvas.width);
-		alert(temp)
 		ratio = isResize ? ratio.toFixed(2) : 1;		
 		mediaDOM.x = 0;
-		var test=(.6/canvas.width);
-		test*=canvas.width
-		if(ratio >test)
+		
+		if(ratio > 1.3)
 		{	
-			mediaDOM.x =canvas.width*(-.005);
+			mediaDOM.x = -2.5;
 			ratio = 1.3;			
 		}else if(ratio < 0.9)
 		{			
 			ratio = 0.9;
-			if(sWidth == 680){
+			if(sWidth == 580){
 				ratio = 0.78;
 			}
 			
-		}
-	
-	  var test1=(.6/canvas.height);
-	  test1*=canvas.height
-	  th.scaleX =  1;
-	  th.scaleY =1;	
-		th.x =0
-		th.y = 0			
+		}	
+		th.scaleX = th.scaleY = ratio;	
+		th.x = ((canvas.width - (sWidth * ratio))/2);
+		th.y = ((canvas.height - (sHeight * ratio))/2);				
 		mediaStage.update();				
-	}		*/
+	}		
 	th.tick = function()
 	{				
 		if(update)
@@ -297,11 +222,11 @@ function getCJSElement(type,obj,divId,xmlElement)
 			mediaStage.update();			
 		}
 	}			
-	/*$(window).resize(function(){
+	$(window).resize(function(){
 		th.resizer();
 	});
 	th.resizer();		
-		*/
+		
 }).prototype = new createjs.Container();
 /********************************************************************************************************************************
 													Single Slide Container
@@ -446,11 +371,7 @@ function getCJSElement(type,obj,divId,xmlElement)
 				}			
 				th.addChild(getCJSElement($(this).attr("type"),obj));			
 			}
-		});	
-		//Provide slide count to parent template
-		htmlSlideCount=slideCnt;
-		media.ready();
-	    btnArray = slideArray;			
+		});				
 	}
 	
 	th.loadButtons = function(imgs)
@@ -461,7 +382,7 @@ function getCJSElement(type,obj,divId,xmlElement)
 		tempImg = new createjs.Bitmap(imgs["btn_bar"]); //ImageComp({src:"../../../common/images/btn_bar.png",x:,y:1})
 		tempImg.x = sWidth-30;
 		tempImg.y = 1;
-		//th.addChild(tempImg);
+		th.addChild(tempImg);
 		
 		for(var i = 0;i<$(xml).find("slide").length;i++)
 		{
@@ -490,7 +411,7 @@ function getCJSElement(type,obj,divId,xmlElement)
 			bContainer.onMouseOver = th.mouseOver;
 			bContainer.onMouseOut = th.mouseOut;
 			bContainer.onClick = th.mouseClick;
-			//th.addChild(bContainer);		
+			th.addChild(bContainer);		
 			bContainer.x = sWidth-28;
 			bContainer.y = 3+(i*36);		
 			if(i==0 ) currentBtn = bContainer;
@@ -527,32 +448,6 @@ function getCJSElement(type,obj,divId,xmlElement)
 /********************************************************************************************************************************
 												Multiple Slides with Bar Button
 *********************************************************************************************************************************/
-(MButtonAssetComp = function(imgArray,obj,divId){
-	this.initialize();
-	var isHide = false;
-	var th = this;
-	var mbutton;
-	this.imgLoaded = function(){
-		mbutton = new MButton(obj,divId);
-		th.addChild(mbutton);
-
-		if(isHide){
-			mbutton.hide();
-		} else{
-			mbutton.show();
-		}
-	}
-	th.hide = function(){
-		isHide = true;
-		if (mbutton) {mbutton.hide()};
-	}
-	th.show = function(){
-		isHide = false;
-		if (mbutton) {mbutton.show()};
-	}
-	loadImages(imgArray, this.imgLoaded);
-}).prototype = new createjs.Container();
-
 (MButton = function(xml,divId){
 	this.initialize();
 	
@@ -598,7 +493,7 @@ function getCJSElement(type,obj,divId,xmlElement)
 			$("#"+slideDivId).append('<div id="'+slideDivId+'_'+slideCnt+'" style="visiblity:hidden;top:0px;left:0px;pointer-events:none;"></div>');
 			$("#"+slideDivId+"_"+slideCnt).append('<div id="'+slideDivId+'_canvas_div_'+slideCnt+'"></div>');
 			
-			$("#"+slideDivId+"_canvas_div_"+slideCnt).append('<canvas id="'+slideDivId+'_slide_canvas_'+slideCnt+'" width="'+stageWidth+'" height="490"></canvas>');
+			$("#"+slideDivId+"_canvas_div_"+slideCnt).append('<canvas id="'+slideDivId+'_slide_canvas_'+slideCnt+'" width="'+stageWidth+'" height="400"></canvas>');
 			var dom = new createjs.DOMElement(document.getElementById(slideDivId+"_"+slideCnt));
 			th.addChild(dom);			
 			slideStage = new createjs.Stage(document.getElementById(slideDivId+"_slide_canvas_"+slideCnt));			
@@ -613,10 +508,6 @@ function getCJSElement(type,obj,divId,xmlElement)
 			else if(obj.buttonType == "IMAGE")
 			{
 			button = getCJSElement("IMAGE_BUTTON",{x:obj.buttonX,y:obj.buttonY,div:slideDivId,id:slideCnt,callback:th.clickHandler,compId:obj.compId,imgSel:obj.imgSel,imgOver:obj.imgOver,hover:obj.hover});
-			}
-			else if(obj.buttonType=="IMAGE_PLUS")
-			{
-				button = getCJSElement("IMAGE_BUTTON_PLUS",{x:obj.buttonX,y:obj.buttonY,imageType:obj.imageType,imageRadius:obj.imageRadius,imgX:obj.imgX,imgY:obj.imgY,imgWidth:obj.imgWidth,imgHeight:obj.imgHeight,div:slideDivId,id:slideCnt,callback:th.clickHandler,compId:obj.compId,imgSel:obj.imgSel,imgOver:obj.imgOver,imgShadow:obj.imgShadow,selected:obj.selected});
 			}
 			else
 			{
@@ -634,13 +525,7 @@ function getCJSElement(type,obj,divId,xmlElement)
 			//Element content						
 			th.addChild(getCJSElement($(this).attr("type"),obj,slideDivId));			
 		}
-		if(obj.selected && obj.selected == "true"){			
-			currentSlide = slideCnt-1;			
-		}
-	});	
-	if(currentSlide != 0){
-		th.slideHandler();
-	}	
+	});		
 	
 	if(!$(xml).find("slide").attr("selected") || $(xml).find("slide").attr("selected") == "true")
 	{
@@ -678,78 +563,42 @@ function getCJSElement(type,obj,divId,xmlElement)
 	obj.div = obj.div ? obj.div : "commonMediaText";
 	obj.width = obj.width ? obj.width : 100;
 	obj.height = obj.height ? obj.height : 50;	
+		
+	var videoFrame;	
+	if(obj.src)
+	{
+		videoFrame = document.createElement("video");
+		videoFrame.controls = 1;
+		videoFrame.src = obj.src;	
+	}else if(obj.videoId)
+	{
+		videoFrame = document.createElement("iframe");
+		videoFrame.src = "//www.youtube.com/embed/"+obj.videoId+"?version=3&fs=1&modestbranding=1&rel=0&color=white&theme=light&autohide=0&frameborder=0&allowfullscreen";
+	} 
+	videoFrame.width = obj.width;
+	videoFrame.height = obj.height;
+	videoFrame.id = "vdo";
+	videoFrame.style.cssText = "position:absolute;top:0px;left:0px;visibility:hidden;border:0;-webkit-backface-visibility: hidden !important;"
+	$("#"+obj.div).append(videoFrame);
 	
-
-	if(obj.api == "youtube"){
-		var videoFrame;	
-		if(obj.src)
-		{
-			videoFrame = document.createElement("video");
-			videoFrame.controls = 1;
-			videoFrame.src = obj.src;
-			
-		}else if(obj.videoId)
-		{
-			videoFrame = document.createElement("iframe");
-			videoFrame.src = "//www.youtube.com/embed/"+obj.videoId+"?version=3&fs=1&modestbranding=1&rel=0&color=white&theme=light&autohide=0&frameborder=0&allowfullscreen";
-		} 
-		videoFrame.width = 640;
-		videoFrame.height = 390;
-		videoFrame.id = "vdo";
-		videoFrame.style.cssText = "position:absolute;top:0px;left:0px;visibility:hidden;border:0;-webkit-backface-visibility: hidden !important;"
-		$("#"+obj.div).append(videoFrame);
-		
-		var domFrame = new createjs.DOMElement(videoFrame);
-		domFrame.id = "video";
-		domFrame.scaleX = domFrame.scaleY = (obj.width/640);
-		th.addChild(domFrame);
-		
-		th.x = obj.x ? parseFloat(obj.x) : 0;
-	    th.y = obj.y ? parseFloat(obj.y) : 0; 
-		
-		update = true;
-		
-		function resize(){
-			th.scaleX = th.scaleY = 1;
-			th.x  = obj.x ? parseFloat(obj.x) : 0;
-			th.scaleX = th.scaleY = 1-(1-((1/root.scaleX)));
-			th.x += (obj.width - (obj.width*th.scaleX))/2;
-			// if (createjs.Touch.isSupported()) th.x+=15;
-		}
-		
-		$(window).resize(resize);
-		resize();
-	}else{
-		loadScript("https://sadmin.brightcove.com/js/BrightcoveExperiences.js", brightcoveLoaded);
+	var domFrame = new createjs.DOMElement(videoFrame);
+	th.addChild(domFrame);
+	
+	th.x = obj.x ? parseFloat(obj.x) : 0;
+    th.y = obj.y ? parseFloat(obj.y) : 0; 
+	
+	update = true;
+	
+	function resize(){
+		th.scaleX = th.scaleY = 1;
+		th.x  = obj.x ? parseFloat(obj.x) : 0;
+		th.scaleX = th.scaleY = 1-(1-((1/root.scaleX)));
+		th.x += (obj.width - (obj.width*th.scaleX))/2;
+		// if (createjs.Touch.isSupported()) th.x+=15;
 	}
-
-		function brightcoveLoaded(){
-			//alert("loaded brightcrove....");
-			$("#"+obj.div).append('<div style="position: absolute;top:'+obj.y+'px;left:'+obj.x+'px;"><object id="video1" class="BrightcoveExperience">'+
-	        '<param name="bgcolor" value="#FFFFFF" />'+
-	        '<param name="width" value="'+obj.width+'" />'+
-	        '<param name="height" value="'+obj.height+'" />'+
-	       '<param name="playerID" value="3677677591001" />'+
-	        '<param name="playerKey" value="AQ~~,AAACaPvlvkE~,zCw2Hw90_KQ_-Dx6JuQmRi84dqeyKuLs" />'+
-    '<param name="isUI" value="true" />'+
-	        '<param name="isVid" value="true" />'+
-	        '<param name="dynamicStreaming" value="true" />'+
-	        '<param name="wmode" value="transparent" />'+
-	        '<param name="includeAPI" value="true" />'+
-	        '<param name="templateLoadHandler" value="onTemplateLoad" />'+
-	        '<param name="templateReadyHandler" value="onTemplateReady" />'+
-	        '<param name="@videoPlayer" value="'+obj.videoId+'" />'+     
-	        '<param name="htmlFallback" value="true" />'+
-	        '<param name="secureConnections" value="true" />'+
-	        '<param name="secureHTMLConnections" value="true" />'+
-	      	'</object>'+
-	     	'<script language="Javascript" type="text/javascript" src="http://www.cisco.com/assets/swa/flash/cisco-html5-analytics.js"></script>'+
-
-	    	'</div>');
-
-			setTimeout(brightcove.createExperiences, 1000);
-		}
 	
+	$(window).resize(resize);
+	resize();
 }).prototype = new createjs.Container();
 /********************************************************************************************************************************
 														Image Component
@@ -763,67 +612,24 @@ function getCJSElement(type,obj,divId,xmlElement)
 	var img,bitmap,width,height;
 		
 	img = new Image();
-	img.onload = function(ev){th.imageLoaded(ev)};
-	$("#preloader").show();		
-		
+	img.onload = function(ev){th.imageLoaded(ev)};	
 	img.src = obj.src;	
-		
+	
 	th.imageLoaded = function(ev)
-	{	
-	$("#preloader").hide();				
+	{			
 		obj.width = obj.width ? obj.width :ev.target.width;
-		obj.height = obj.height ? obj.height :ev.target.height;
-		if(obj.subType=="bg" ){
-			obj.ratio =1;
-		}
-		else{
-			//Calculating Image size ratio
-			obj.ratio = Math.min((obj.width/ev.target.width),(obj.height/ev.target.height));
-		}
-		
-			
+		obj.height = obj.height ? obj.height :ev.target.height;		
+		//Calculating Image size ratio
+		obj.ratio = Math.min((obj.width/ev.target.width),(obj.height/ev.target.height));	
 		//Check subtype	
 		obj.subType = obj.subType ? obj.subType : "none";
-		obj.bgType = obj.bgType ? obj.bgType : "none";
-	
-	
 		width = ev.target.width * obj.ratio;
 		height = ev.target.height * obj.ratio;	
-	
 		//Bitmap
 		bitmap = new createjs.Bitmap(ev.target);
 		bitmap.scaleX = bitmap.scaleY = obj.ratio;
-		
-		if(obj.scaleY) {
-			//alert(obj.ratio)
-			height = ev.target.height * obj.scaleY;	
-			bitmap.scaleY = obj.scaleY;
-		}
-		if(obj.rotation) {
-			 bitmap.scaleY = -obj.ratio;
-			bitmap.regY = height/2;
-			bitmap.regX = width/2;
-			bitmap.rotation=obj.rotation;
-			
-		}
-		if(obj.maskX || obj.maskY || obj.maskWidth || obj.maskHeight){
-			var maskShape1 = new createjs.Shape();
-		maskShape1.graphics.beginFill().drawRect(obj.maskX,obj.maskY,obj.maskWidth,obj.maskHeight);			
-		th.addChild(maskShape1);			
-		bitmap.mask = maskShape1;	
-		}
-        
-        if(obj.rotation) {
-			// th.scaleY = -obj.ratio;
-			//th.regY = height/2;
-			//th.regX = width/2;
-			//th.rotation=obj.rotation;
-			
-		}
-        
 		th.addChild(bitmap);
 		//Check subtype
-	
 		switch(obj.subType)
 		{
 			case "STD":
@@ -832,11 +638,9 @@ function getCJSElement(type,obj,divId,xmlElement)
 			case "HTML":
 					th.removeChild(bitmap);					
 				break;
-			
-		   case "HOTSPOT":
+			case "HOTSPOT":
 			
 				break;
-		       
 		}				
 		if(obj.x) th.x = obj.x;
 		if(obj.y) th.y = obj.y;		
@@ -858,9 +662,8 @@ function getCJSElement(type,obj,divId,xmlElement)
 		maskShape.graphics.beginFill().drawRoundRect(0,0,width,height,8);			
 		th.addChild(maskShape);			
 		bitmap.mask = maskShape;	
-	}
+	}	
 	
-		
 }).prototype = new createjs.Container();
 /********************************************************************************************************************************
 													Lazy Text Component
@@ -874,7 +677,6 @@ function getCJSElement(type,obj,divId,xmlElement)
     
     var th = this;    
     var divElement,width,height,widthStr;
-	
         
     obj.color = obj.color ? obj.color : "#393536";
     obj.size = obj.size ? obj.size : 11;
@@ -892,28 +694,40 @@ function getCJSElement(type,obj,divId,xmlElement)
     if(obj.subType == "TITLE")
     {    
         obj.align = "center";
-        obj.size = 17;        
-        obj.x = 5;
-        obj.y = 7;
+        obj.size = 13;
+        if($($(canvasXML).find("data")[0]).attr("course") == "ITE") obj.size = 16;
+        obj.x = 0;
+        obj.y = 1;
         obj.expand = "down";
-		obj.width = sWidth - 10;
-		obj.bold = true;
-        /*if($($(canvasXML).find("slide")[0]).attr("type") == "MBAR")
+        if($($(canvasXML).find("slide")[0]).attr("type") == "MBAR")
         {        
             obj.width = sWidth-32;    
         }
         else
         {
-            
-        }*/
+            obj.width = sWidth-2;
+        }
     }
     widthStr = obj.width+"px";
     //For table
+   // obj.expand = obj.subType == "TABLE" ? "undefined" : obj.expand;    
+   // if(obj.subType == "TABLE") obj.x = obj.x - 10;
    	if(obj.subType == "TABLE")
    	{
 	   if(obj.height) obj.style += "max-height:"+parseFloat(obj.height)+"px;overflow:auto;";
 	   obj.class = "mtable";
+	   if($($(canvasXML).find("data")[0]).attr("course") == "ITE")obj.class = "mtable-ite";
 	}
+    //For label and title
+    if((obj.subType == "TITLE") || (obj.subType == "LABEL"))
+    {
+      
+    }
+    //For static text
+    if(obj.text)
+    {         
+                       
+    }
     //Text from canvas xml
     if(obj.textId)
     {
@@ -1024,7 +838,7 @@ function getCJSElement(type,obj,divId,xmlElement)
        		{
 				bg.graphics.beginFill(obj.bgColor).drawRoundRect(0,1,width+2,height,obj.corner);
 				bg.y = -2;	
-				domElement.x = -7;
+				domElement.x = 3;
 				domElement.y = 2;
 				obj.y = obj.y + 3;
 			}
@@ -1033,22 +847,14 @@ function getCJSElement(type,obj,divId,xmlElement)
 				bg.graphics.beginFill(obj.bgColor).drawRoundRect(-2.5-obj.border,-2.5,width+5,height+5,obj.corner);    
 				bg.y = -2.5;	
 			}
-			if(obj.bgWithoutBorder=="true"){
-				bg.x=0;
-			}
-			else
-			{
-				bg.x = -10;
-			}
-			
-			
+			bg.x = -10;
 		}
     }
 	
     th.drawBG();   
     
     if(obj.rotation) th.rotation = obj.rotation;
-    th.x = obj.x - 10;
+    th.x = obj.x;
     th.y = obj.y;
     th.addChild(domElement);        
 }).prototype = new createjs.Container();
@@ -1162,22 +968,10 @@ function drawGraphics(obj)
 	
 	obj.width = obj.width ? (parseFloat(obj.width) * 2)-60 : 50;
 	obj.height = obj.height ? (parseFloat(obj.height)*2)-60 : 35;
-	
-	obj.syntax = obj.syntax ? obj.syntax :0;
 	 
 	var img = new Image();
 	img.onload = function(e){th.imageLoaded(e);};
-	if(obj.syntax==1)
-	{
-		img.src = "../../../common/images/Syntax-router.png";
-	}
-	else
-	{
-		img.src = "../../../common/images/Router.png";
-	}
-	
-	 
-	
+	img.src = "../../../common/images/Router.png";
 	
 	th.imageLoaded = function(ev)
 	{		
@@ -1192,7 +986,7 @@ function drawGraphics(obj)
 		
 		//For background color
 		shape = new createjs.Shape();
-		shape.graphics.beginFill("#020202").drawRect(20,20,obj.width+40,obj.height+40);	
+		shape.graphics.beginFill("#F2F2F2").drawRect(20,20,obj.width+40,obj.height+40);	
 		container.addChild(shape);
 		//For top left corner
 		shape = new createjs.Shape();
@@ -1239,14 +1033,6 @@ function drawGraphics(obj)
 					
 		container.scaleX = container.scaleY = 0.5;
 		container.x = -5;
-		if(obj.syntax==1)
-	{
-	}
-	else
-	{
-		
-		container.shadow=new createjs.Shadow("#000000", 0, 1, 2);
-	}
 		
 		cacheCont = new createjs.Container();
 		cacheCont = container.cache(0,0,obj.width/0.5,obj.height/0.1,0.5);		
@@ -1260,7 +1046,7 @@ function drawGraphics(obj)
 			obj.div = obj.div ? obj.div : "commonMediaText";
 			obj.textX = obj.textX ? obj.textX : 6.5;
 			obj.style = "font-family: courier new;overflow:auto;padding-left:2px;padding-top:1px;height:"+((obj.height/2)+13)+"px";		
-	        textComp = new TextComp({textId:obj.textId,subType:"ROUTER",text:obj.text,x:obj.textX,y:12,expand:"down",div:obj.div,width:((obj.width/2)+20),align:"left",style:obj.style,size:obj.size,color:"#fff"});			
+	        textComp = new TextComp({textId:obj.textId,subType:"ROUTER",text:obj.text,x:obj.textX,y:12,expand:"down",div:obj.div,width:((obj.width/2)+12),align:"left",style:obj.style,size:obj.size,color:"#000"});			
 			th.addChild(textComp);	
 		}else if(obj.compId)
 		{						
@@ -1270,7 +1056,7 @@ function drawGraphics(obj)
 			obj.div = obj.div ? obj.div : "commonMediaText";
 			obj.textX = obj.textX ? obj.textX : 6.5;
 			obj.style = "font-family: courier new;overflow:auto;padding-left:2px;padding-top:1px;height:"+((obj.height/2)+13)+"px";		
-	        textComp = new TextComp({compId:obj.compId,subType:"ROUTER",x:obj.textX,y:12,expand:"down",div:obj.div,width:((obj.width/2)+20),align:"left",style:obj.style,size:obj.size,color:"#000"});			
+	        textComp = new TextComp({compId:obj.compId,subType:"ROUTER",x:obj.textX,y:12,expand:"down",div:obj.div,width:((obj.width/2)+12),align:"left",style:obj.style,size:obj.size,color:"#000"});			
 			th.addChild(textComp);	
 		}	
 		th.x = obj.x ? parseFloat(obj.x) : 0;
@@ -1298,17 +1084,17 @@ function drawGraphics(obj)
 	obj.y = obj.y ? parseFloat(obj.y) : 0;
 	obj.size = obj.size ? obj.size : 11;
 	obj.div = obj.div ? obj.div : "commonMediaText";
-	obj.bgColor = obj.bgColor ? obj.bgColor : "#666263";
-	obj.borderColor = obj.borderColor ? obj.borderColor : "#FFFFFF";
+	obj.bgColor = obj.bgColor ? obj.bgColor : "#cce9e7";
+	obj.borderColor = obj.borderColor ? obj.borderColor : "#67bdbc";
 	
 	width = obj.width;
 	height = obj.height;
 	
 	if((obj.tailPosition == "2") || (obj.tailPosition == "3") ||(obj.tailPosition == "4") ||(obj.tailPosition == "8") ||(obj.tailPosition == "9") ||(obj.tailPosition == "10")) width = width-20;
 	obj.wid = width;	
-	textComp = new TextComp({subType:"BUBBLE",compId:obj.compId,x:10,y:0,size:obj.size,div:obj.div,width:width-6,height:height-6,align:obj.align,bgColor:obj.bgColor,borderColor:obj.borderColor,corner:2,border:3,expand:"down"});
+	textComp = new TextComp({subType:"BUBBLE",compId:obj.compId,x:0,y:0,size:obj.size,div:obj.div,width:width-6,height:height-6,align:obj.align,bgColor:obj.bgColor,borderColor:obj.borderColor,corner:2,border:3,expand:"down"});
 			
-	width = $("#"+obj.compId).width()+10;
+	width = $("#"+obj.compId).width();
 	height = $("#"+obj.compId).height() + 10;
 	//Shadow container
 	shadowCont = new createjs.Container();	
@@ -1347,26 +1133,26 @@ function drawGraphics(obj)
 			break;					
 		case "2":
 				shadowTail.rotation = 90;				
-				shadowTail.x = width-1;
+				shadowTail.x = width+5;
 				shadowTail.y = 12;
 				obj.x = obj.x - 3;
 			break;								
 		case "3":
 				shadowTail.rotation = 90;	
-				shadowTail.x = width-2;
-				shadowTail.y = (height-20)/2;
+				shadowTail.x = width+5;
+				shadowTail.y = (height-15)/2;
 				obj.x = obj.x - 3;
 			break;							
 		case "4"://done
 				shadowTail.rotation = 90;	
-				shadowTail.x = width-2;
+				shadowTail.x = width+5;
 				shadowTail.y = height-20;
 				obj.x = obj.x - 3;	
 			break;								
 		case "5"://done
 				shadowTail.rotation = 180;				
-				shadowTail.x = width-5;
-				shadowTail.y = height-5;
+				shadowTail.x = width;
+				shadowTail.y = height-1;
 				if(height == 30)
 				shadowTail.y = height-8;
 				obj.x = obj.x - 1;		
@@ -1403,12 +1189,11 @@ function drawGraphics(obj)
 				shadowTail.y = (height+15)/2;
 				obj.x = obj.x + 18;
 			break;												
-		case "10"://done
+		case "10":
 				shadowTail.rotation = 270;
 				textComp.x = textComp.x+5;
 				shadowTail.x = shadowTail.x;
 				shadowTail.y = 28;
-				textComp.x = textComp.x-5;
 			break;			
 		case "11"://done
 				textComp.x = textComp.x-3;
@@ -1466,7 +1251,6 @@ function drawGraphics(obj)
 		
 	var th = this;
 	var shape,tbCanvas,tbContainer,width,height,titleHeight,textComp,bodyTextY;
-	var heightBox=0;
 	
 	width = obj.width ? parseFloat(obj.width) : 50;
 	height = obj.height ? parseFloat(obj.height) : 50;
@@ -1492,8 +1276,7 @@ function drawGraphics(obj)
 	{		
 		$("#"+obj.divId+'_title').remove();
 		$("#"+obj.divId).append('<div id="'+obj.divId+'_title"></div>');
-		textComp = new TextComp({compId:id,x:25,y:20,width:width-50,size:18,div:obj.divId+'_title',color:"#393536"});
-		$("#"+id).css({'font-family': "CiscoSansTTThin"});
+		textComp = new TextComp({compId:id,x:11,y:13,width:width-30,div:obj.divId+'_title',color:"#442557"});
 		th.addChild(textComp);
 		//$("#"+obj.titleId).text(getMediaText(id));
 	}
@@ -1503,8 +1286,8 @@ function drawGraphics(obj)
 		//$("#"+obj.bodyId).text(getMediaText(id));
 		$("#"+obj.divId+'_body').remove();
 		$("#"+obj.divId).append('<div id="'+obj.divId+'_body"></div>');
-		obj.style = 'font-family:'+"CiscoSansTTLight;"+"overflow:auto !important; height:"+(height-20)+"px;"+"line-height:"+"1.5";
-		textComp = new TextComp({compId:id,x:26,y:bodyTextY+3,width:width-17,size:11,color:"#0a0a0a",style:obj.style,div:obj.divId+'_body'});
+		obj.style = "overflow:auto !important; height:"+(height-14)+"px;";
+		textComp = new TextComp({compId:id,x:11,y:bodyTextY,width:width-11,style:obj.style,div:obj.divId+'_body'});
 		th.addChild(textComp);
 	}	
 	
@@ -1517,13 +1300,13 @@ function drawGraphics(obj)
 	pStage.addChild(tbContainer);	
 	//Background color
 	shape = new createjs.Shape();
-	shape.graphics.beginFill("#fff").drawRoundRectComplex(0,0,width,height,2,2,0,0);	
-	shape.shadow = new createjs.Shadow("#666263",0,0.5,6);
+	shape.graphics.beginFill("#C1ABD1").drawRoundRect(0,0,width,height,4);	
+	shape.shadow = new createjs.Shadow("#666263",0,3,7);
 	tbContainer.addChild(shape);
 	//Title line
 	shape = new createjs.Shape();
-	shape.graphics.beginFill("#cccccc").drawRect(10,0,width-20,1);	
-	shape.y = 3;
+	shape.graphics.beginFill("#462559").drawRect(2,0,width-4,2);	
+	shape.y = 5;
 	tbContainer.addChild(shape);
 	titleHeight = 4;	
 	height = height - 4;
@@ -1533,63 +1316,9 @@ function drawGraphics(obj)
 		th.setTitleId(obj.titleId);	
 		//textComp = new TextComp({compId:obj.titleId,x:11,y:13,width:width-30,div:obj.divId+'_title',color:"#442557"});
 		//th.addChild(textComp);
-		//alert(height);
-		if(height<=96)
-		{
-			
-			heightBox=1
-			heightComp=1;
-			titleHeight = $("#"+obj.titleId).height()
-			
-			if(titleHeight==23)
-			{
-				titleHeight = titleHeight-5;
-			}
-			else if(titleHeight==47 ||titleHeight==46)
-			{
-				titleHeight = titleHeight-11;
-			}
-			else if(titleHeight==70 ||titleHeight==69)
-			{
-				titleHeight = titleHeight-30;
-			}
-			else
-			{
-				titleHeight = titleHeight-40;
-			}
-			
-			$("#"+obj.titleId).css('font-size','14px');
-			$("#"+obj.titleId).css('top','-10px');
-		}
-		else
-		{
-			heightBox=0
-			heightComp=0;
-			if(($("#"+obj.titleId).height())==0){
-				 titleHeight = 40;
-			}
-			else
-			{
-		    titleHeight = $("#"+obj.titleId).height()+23;
-			}
-		}
-		
-		//titleHeight = $("#"+obj.titleId).height()+23;
+		titleHeight = $("#"+obj.titleId).height()+4;
 		shape.y = titleHeight;
 		height = height-titleHeight+4;
-	}
-	
-	else
-	{
-		if(obj.subType == "CLOSABLE")
-		{
-			shape.y = 16;
-			titleHeight = 9;
-		}
-		else{
-           tbContainer.removeChild(shape);
-            titleHeight = 1;
-        }
 	}
 	//Body background
 	shape = new createjs.Shape();
@@ -1599,15 +1328,7 @@ function drawGraphics(obj)
 	//Body text 
 	if(obj.bodyId)
 	{
-		if(heightBox==1)
-		{
-			bodyTextY = (shape.y+14);
-		}
-		else
-		{
 		bodyTextY = (shape.y+18);
-		
-		}
 		th.setBodyId(obj.bodyId);		
 		//obj.style = "overflow:auto !important; height:"+(height-14)+"px;";
 		//textComp = new TextComp({compId:obj.bodyId,x:11,y:(shape.y+18),width:width-11,style:obj.style,div:obj.divId});
@@ -1620,29 +1341,14 @@ function drawGraphics(obj)
 		if (createjs.Touch.isSupported()) createjs.Touch.enable(pStage);
 		pStage.enableMouseOver();
 		var cImg = new Image();
-		cImg.src = "../../../common/images/closeBtn.png";
+		cImg.src = "../../../common/images/closeBtn.jpg";
 		cImg.onload = function(ev)
 		{			
 			shape = new createjs.Bitmap(ev.target);//ImageComp({src:"../../../common/images/closeBtn.jpg",x:width-18,y:3});
 			shape.cursor = "pointer";
-			
-			
-			
-			
-			if(heightBox==1)
-			{
-				shape.x = width-25;
-			shape.y = 3;
-			shape.scaleX = shape.scaleY = 0.5;
-			}
-			else
-			{
-				shape.x = width-40;
-			shape.y = 10;
-			shape.scaleX = shape.scaleY = 0.9;
-			}
-			
-			
+			shape.x = width-19;
+			shape.y = 1;
+			shape.scaleX = shape.scaleY = 0.8;
 			shape.onClick = function(ev)
 			{
 				if(obj.animated && obj.animated == "1")
@@ -1685,7 +1391,7 @@ function drawGraphics(obj)
 	obj.width = obj.width ? parseFloat(obj.width) : 100;
 	obj.height = obj.height ? parseFloat(obj.height) : 40;	
 	obj.div = obj.div ? obj.div : "commonMediaText";
-	obj.bold = obj.bold ? obj.bold : "0";
+	obj.bold = obj.bold ? obj.bold : "1";
 	//obj.bold = getMediaText(obj.compId).substr(0,3) == "<b>" ? "0" : obj.bold;
 		
 	//Default selected mode
@@ -1696,13 +1402,13 @@ function drawGraphics(obj)
 		selected = mode;
 		if(selected)
 		{
-			$("#"+obj.compId).css("color","#b47c07");
+			$("#"+obj.compId).css("color","#0f668d");
 			normalCont.visible = false;
 			overCont.visible = true;			
 		}
 		else
 		{
-			$("#"+obj.compId).css("color","#343434");
+			$("#"+obj.compId).css("color","white");
 			normalCont.visible = true;
 			overCont.visible = false;
 		}
@@ -1714,7 +1420,7 @@ function drawGraphics(obj)
 	{
 		th.cursor='pointer';
 		if(selected) return;
-		$("#"+obj.compId).css("color","#b47c07");
+		$("#"+obj.compId).css("color","#0f668d");
 		normalCont.visible = false;
 		overCont.visible = true;
 		update = true;
@@ -1725,7 +1431,7 @@ function drawGraphics(obj)
 	{
 		th.cursor='default';
 		if(selected) return;
-		$("#"+obj.compId).css("color","#343434");
+		$("#"+obj.compId).css("color","white");
 		normalCont.visible = true;
 		overCont.visible = false;
 		if(th.getStage()) th.getStage().update();
@@ -1743,174 +1449,43 @@ function drawGraphics(obj)
 	th.onClick = th.mouseClick;
 	
 	//For Blue Button Label
-	var label = new TextComp({x:0,y:2,width:obj.width-2,compId:obj.compId,align:"center",color:"#343434",div:obj.div,bold:obj.bold,style:"pointer-events:none;cursor:pointer;"+"line-height:"+"1.1"});
+	var label = new TextComp({x:0,y:2,width:obj.width-2,compId:obj.compId,align:"center",color:"white",div:obj.div,bold:obj.bold,style:"pointer-events:none;cursor:pointer;"});
 	th.addChild(label);	
 	
 	label.y = $("#"+obj.compId).height() < 20 ? (20-$("#"+obj.compId).height())/2 : (obj.height-$("#"+obj.compId).height())/2;
-
-	obj.width = $("#"+obj.compId).width();
-	obj.height = obj.height < $("#"+obj.compId).height() ? obj.height : $("#"+obj.compId).height()*1.6;//1.5
-	
-	//alert("H::"+obj.height);
-	
-	//Normal stage container
-	normalCont = new createjs.Container();		
-	minusfactor= obj.height*60/100;
-	plusfactor= obj.height*40/100;			  
-	ya= parseInt(obj.height-minusfactor);
-	yb= parseInt(obj.height+plusfactor);	
-
-	bgShape = new createjs.Shape();
-	bgShape.graphics.lf(["#FFFFFF","#c2dbe8"],[0.396,0.663],-0.2, -ya,0.4, yb).drawRoundRect(0, 0, obj.width, obj.height, 3);
-	
-
-	blackShape = new createjs.Shape();	
-	blackShape.graphics.setStrokeStyle(1.5).beginLinearGradientStroke(["#9c9d9d","#9c9d9d"], [.8, .4], 0, 0, 0, obj.height).beginFill().drawRoundRect(0, -2, obj.width, obj.height+2, 3);
-	blackShape.shadow = new createjs.Shadow("#8c999e",0,0,.5);
-	th.addChild(blackShape,bgShape);
-
-	orangeShape = new createjs.Shape();
-	orangeShape.graphics.setStrokeStyle(1.5).beginLinearGradientStroke(["#feec72","#fdab26"], [0.2, .8], 0, 0, 0, obj.height-3).beginFill().drawRoundRect(1, 0, obj.width-2, obj.height-1, 3);
-	normalCont.addChild(orangeShape);	
-	th.addChild(normalCont);
-	
-	//Over state container
-	overCont = new createjs.Container();	
-	orangeShape = new createjs.Shape();
-	orangeShape.graphics.setStrokeStyle(3.5).beginLinearGradientStroke(["#feec72","#fdab26"], [0.2, .8], 0, 0, 0, obj.height).beginFill().drawRoundRect(1, 1.2, obj.width-3.5, obj.height-3.5, 3);
-	blackShape = new createjs.Shape();	
-	blackShape.graphics.setStrokeStyle(1.5).beginLinearGradientStroke(["#9c9d9d","#9c9d9d"], [1, .7], 0, 0, 0, obj.height).beginFill().drawRoundRect(0, -2, obj.width, obj.height+2, 3);
-	blackShape.shadow = new createjs.Shadow("#8c999e",0,0,1);
-	overCont.addChild(blackShape, orangeShape);	
-	th.addChild(overCont);
-	overCont.visible = false;
-
-	th.x = obj.x ? parseFloat(obj.x) : 0;
-	th.y = obj.y ? parseFloat(obj.y) : 0;
-	
-}).prototype = new createjs.Container();
-
-/********************************************************************************************************************************
-														Syntax Button Component
-														---------------------
-	new SyntaxButton({x:18,y:o.height-37,width:126.6,height:20,id:"r",compId:"comp_text",callback:t.cb});
-*********************************************************************************************************************************/
-(SyntaxButton = function(obj){
-	this.initialize();
-	
-	var th = this;	
-	var normalCont,overCont,bgShape,selected;
-	var minusfactor,plusfactor;
-	obj.id = obj.id ? obj.id : "btn";
-	obj.width = obj.width ? parseFloat(obj.width) : 100;
-	obj.height = obj.height ? parseFloat(obj.height) : 40;	
-	obj.div = obj.div ? obj.div : "commonMediaText";
-	obj.bold = obj.bold ? obj.bold : "0";
-	//obj.bold = getMediaText(obj.compId).substr(0,3) == "<b>" ? "0" : obj.bold;
 		
-	//Default selected mode
-	selected = false;
-	//Set selected mode
-	th.setSelected = function(mode)
-	{
-		selected = mode;
-		if(selected)
-		{
-			$("#"+obj.compId).css("color","#b47c07");
-			normalCont.visible = false;
-			overCont.visible = true;			
-		}
-		else
-		{
-			$("#"+obj.compId).css("color","#343434");
-			normalCont.visible = true;
-			overCont.visible = false;
-		}
-		update = true;
-		if(th.getStage()) th.getStage().update();
-	}
-	//Mouse over function
-	th.mouseOver = function()
-	{
-		th.cursor='pointer';
-		if(selected) return;
-		$("#"+obj.compId).css("color","#b47c07");
-		normalCont.visible = false;
-		overCont.visible = true;
-		update = true;
-		if(th.getStage()) th.getStage().update();
-	}
-	//Mouse out function
-	th.mouseOut = function()
-	{
-		th.cursor='default';
-		if(selected) return;
-		$("#"+obj.compId).css("color","#343434");
-		normalCont.visible = true;
-		overCont.visible = false;
-		if(th.getStage()) th.getStage().update();
-	}
-	//Mouse click function
-	th.mouseClick = function()
-	{
-		if(selected) return;
-		if(obj.callback) obj.callback(obj.id,th);
-		update = true;
-	}
-	//Assign mouse events
-	th.onMouseOver = th.mouseOver;
-	th.onMouseOut = th.mouseOut;
-	th.onClick = th.mouseClick;
-	
-	//For Blue Button Label
-	var label = new TextComp({x:0,y:2,width:obj.width-2,compId:obj.compId,align:"center",color:"#343434",div:obj.div,bold:obj.bold,style:"pointer-events:none;cursor:pointer;"+"line-height:"+"1.1"});
-	th.addChild(label);	
-	
-	//label.y = $("#"+obj.compId).height() < 20 ? (20-$("#"+obj.compId).height())/2 : (obj.height-$("#"+obj.compId).height())/2;
-
 	obj.width = $("#"+obj.compId).width();
-	obj.height = obj.height < $("#"+obj.compId).height() ? obj.height : $("#"+obj.compId).height()*1.3;//1.5
-	
-	//alert("H::"+obj.height);
+	obj.height = obj.height < $("#"+obj.compId).height() ? obj.height : $("#"+obj.compId).height()*1.5;
 	
 	//Normal stage container
 	normalCont = new createjs.Container();		
 	minusfactor= obj.height*60/100;
 	plusfactor= obj.height*40/100;			  
 	ya= parseInt(obj.height-minusfactor);
-	yb= parseInt(obj.height+plusfactor);	
-
+	yb= parseInt(obj.height+plusfactor); 	
 	bgShape = new createjs.Shape();
-	bgShape.graphics.lf(["#FFFFFF","#c2dbe8"],[0.396,0.663],-0.2, -ya,0.4, yb).drawRoundRect(0, 0, obj.width, obj.height, 3);
-	
-
-	blackShape = new createjs.Shape();	
-	blackShape.graphics.setStrokeStyle(1.5).beginLinearGradientStroke(["#9c9d9d","#9c9d9d"], [.8, .4], 0, 0, 0, obj.height).beginFill().drawRoundRect(0, -2, obj.width, obj.height+2, 3);
-	blackShape.shadow = new createjs.Shadow("#8c999e",0,0,.5);
-	th.addChild(blackShape,bgShape);
-
-	orangeShape = new createjs.Shape();
-	orangeShape.graphics.setStrokeStyle(1.5).beginLinearGradientStroke(["#feec72","#fdab26"], [0.2, .8], 0, 0, 0, obj.height-3).beginFill().drawRoundRect(1, 0, obj.width-2, obj.height-1, 3);
-	normalCont.addChild(orangeShape);	
+	bgShape.graphics.beginLinearGradientFill(["#038BD1","#00A1E3"], [0.431,0.6],0, -ya, 0, yb).drawRoundRect(0, 0, obj.width, obj.height, 3);	
+	bgShape.shadow = new createjs.Shadow("rgba(13,101,139,1)",0,0,3);
+	normalCont.addChild(bgShape);	
 	th.addChild(normalCont);
 	
 	//Over state container
 	overCont = new createjs.Container();	
-	orangeShape = new createjs.Shape();
-	orangeShape.graphics.setStrokeStyle(3.5).beginLinearGradientStroke(["#feec72","#fdab26"], [0.2, .8], 0, 0, 0, obj.height).beginFill().drawRoundRect(1, 1.2, obj.width-3.5, obj.height-3.5, 3);
-	blackShape = new createjs.Shape();	
-	blackShape.graphics.setStrokeStyle(1.5).beginLinearGradientStroke(["#9c9d9d","#9c9d9d"], [1, .7], 0, 0, 0, obj.height).beginFill().drawRoundRect(0, -2, obj.width, obj.height+2, 3);
-	blackShape.shadow = new createjs.Shadow("#8c999e",0,0,1);
-	overCont.addChild(blackShape, orangeShape);	
+	minusfactor= obj.height*33/100; 
+	plusfactor= obj.height*95/100;
+	ya= parseInt(obj.height-minusfactor);
+	yb= parseInt(obj.height+plusfactor);
+	bgShape = new createjs.Shape();
+	bgShape.graphics.lf(["#FFFFFF","#CDEAF8"],[0.396,0.663],-0.2, -ya,0.4, yb).drawRoundRect(0, 0, obj.width, obj.height, 3);
+	bgShape.shadow = new createjs.Shadow("rgba(13,101,139,1)",0.2,-.02,3);	
+	overCont.addChild(bgShape);	
 	th.addChild(overCont);
 	overCont.visible = false;
-
+	
 	th.x = obj.x ? parseFloat(obj.x) : 0;
 	th.y = obj.y ? parseFloat(obj.y) : 0;
 	
 }).prototype = new createjs.Container();
-
-
 /********************************************************************************************************************************
 														Image Button Component
 														---------------------
@@ -1991,150 +1566,6 @@ function drawGraphics(obj)
 	
 
 }).prototype = new createjs.Container();
-
-
-/********************************************************************************************************************************
-														Image Button Component
-														---------------------
-*********************************************************************************************************************************/
-(ImageButtonPlus = function(obj){
-	this.initialize();
-	var th = this;
-	selected = false;
-	var btnCont,overCont,bgShape,selected,bitmap,shadowShape,heighlight_Shape;
-	
-	 //Set selected mode
-	th.setSelected = function(mode)
-	{
-		selected = mode;
-		if(selected)
-		{
-			heighlight_Shape.visible=true;
-		}
-		else
-		{
-			heighlight_Shape.visible=false;
-		}
-		update = true;
-		if(th.getStage()) th.getStage().update = true;
-	}
-       //image container
-		var imgContainer=new createjs.Container();
-		var img = new Image();
-		img.onload = function(ev){th.imageLoaded(ev)};
-		img.src = obj.imgSel;	
-		
-	th.imageLoaded = function(ev)
-	{
-        //Add Shadow Container
-		if(obj.imgShadow=="false")
-		{
-		}
-		else
-		{
-			th.addChild(shadowShape);
-		}
-		//th.addChild(shadowShape);		
-		th.swapChildren(imgContainer,shadowShape)
-        //highlight container 
-		th.addChild(heighlight_Shape);
-			
-		if(th.getStage()) th.getStage().update();		
-		update = true;
-		if(obj.selected=="true")heighlight_Shape.visible=true;
-		else heighlight_Shape.visible=false;
-		
-        //Mask shape
-		var maskShape = new createjs.Shape();
-		maskShape.graphics.beginFill().drawRoundRect(0,0,parseFloat(obj.imgWidth),parseFloat(obj.imgHeight),4);			
-		th.addChild(maskShape);			
-		imgContainer.mask = maskShape;	
-        //adding Images 		
-		obj.imgWidth = obj.imgWidth ? obj.imgWidth :ev.target.width;
-		obj.imgHeiht = obj.imgHeiht  ? obj.imgHeiht  :ev.target.height;
-		var  ratio = Math.min((obj.imgWidth/ev.target.width),(obj.imgHeiht/ev.target.height));
-		bitmap = new createjs.Bitmap(ev.target);
-		bitmap.scaleX = bitmap.scaleY = ratio;
-		imgContainer.addChild(bitmap);
-		th.addChild(imgContainer);		
-        //adding Plus Button Container 				
-		btnCont = new createjs.Container();		
-		var imgBut= new createjs.Bitmap("../../../common/images/plus_btn.png");
-		var imgOverBut= new createjs.Bitmap("../../../common/images/plus_btn_over.png");
-		btnCont.addChild(imgOverBut);
-		btnCont.addChild(imgBut);			
-		btnCont.id=obj.id;
-		btnCont.x=parseFloat(obj.x);
-		btnCont.y=parseFloat(obj.y);
-		th.addChild(btnCont);
-		btnCont.cursor='pointer';
-        // Button Container clicking  					
-		btnCont.onMouseOver = function()
-		{			
-			imgBut.visible = false;
-			imgOverBut.visible = true;
-			update = true;
-			if(th.getStage()) th.getStage().update = true;
-		}
-		btnCont.onMouseOut = function()
-		{			
-			imgBut.visible = true;
-			imgOverBut.visible = false;
-			if(th.getStage()) th.getStage().update = true;
-		}
-		
-		btnCont.onClick = function(event)
-		{
-			if(typeof multibuttonLocal == 'function') multibuttonLocal(th,imgContainer,obj.id);
-			if(selected) return;
-			if(obj.callback) obj.callback(obj.id,th);
-			if(th.getStage()) th.getStage().update = true;
-		}
-				
-		if(th.getStage()) th.getStage().update();		
-		update = true;
-	}
-
-        //heighlight shape 
-        heighlight_Shape = new createjs.Shape();
-		heighlight_Shape.graphics.beginStroke("#f8ae18");
-		heighlight_Shape.graphics.setStrokeStyle(4); // 2 pixel
-		var imgW=parseInt(obj.imgWidth)+3
-		var imgH=parseInt(obj.imgHeight)+3
-		if(obj.imageType=="circle")
-		{
-			//heighlight_Shape.graphics.drawCircle(imgW/2,imgH/2,50); // Change size as-needed
-			heighlight_Shape.graphics.drawCircle(58,58,obj.imageRadius); 
-		
-		}
-		else
-		{
-			heighlight_Shape.graphics.drawRoundRect(-2,-2,imgW,imgH,4); // Change size as-needed
-		}
-		heighlight_Shape.visible=false;
-		
-		 // shadow Shape
-		shadowShape = new createjs.Shape();	
-		if(obj.imageType=="circle")
-		{
-		shadowShape.graphics.beginFill('rgba(0,0,0,1)').drawCircle(58,58,obj.imageRadius-5);
-		shadowShape.shadow = new createjs.Shadow("#000000",2,2,10);
-		shadowShape.x = shadowShape.y = 2;
-		shadowShape.scaleX = shadowShape.scaleY = 0.97;
-		}
-		else
-		{
-		shadowShape.graphics.beginFill('rgba(0,0,0,1)').drawRoundRect(0,0,parseFloat(obj.imgWidth),parseFloat(obj.imgHeight),4);
-		shadowShape.shadow = new createjs.Shadow("#000000",3,3,10);
-		shadowShape.x = shadowShape.y = 0.5;
-		shadowShape.scaleX = shadowShape.scaleY = 0.97;
-		}
-		
-    th.x = obj.imgX ? parseFloat(obj.imgX) : 0;
-	th.y = obj.imgY ? parseFloat(obj.imgY) : 0;
-}).prototype = new createjs.Container();
-
-
 /********************************************************************************************************************************
 															Load Images 
 *********************************************************************************************************************************/
