@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.6 Suppression des entrées d&#x0027;une table ARP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Suppression des entrées d&#x0027;une table ARP</h1>
+        <div>
+          <p>Pour chaque périphérique, un compteur de cache ARP supprime les entrées ARP qui n’ont pas été utilisées pendant une période donnée. Cette période varie en fonction du système d'exploitation du périphérique. Par exemple, certains systèmes d'exploitation Windows stockent les entrées de cache ARP pendant 2 minutes, comme illustré sur la figure. </p>
+          <p>Des commandes permettent aussi de supprimer manuellement les entrées du tableau ARP totalement ou partiellement. Lorsqu’une entrée est supprimée, le processus d’envoi d’une requête ARP et de réception d’une réponse ARP doit être répété pour entrer le mappage dans le tableau ARP.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows three PCs connected to a switch. The switch is connected to router 1. Router 1 is connected to a cloud labeled “network” PC A has sent data in the past to router 1 and has an entry for R1 in its ARP cache. PC A will remove the ARP entry in 2 minutes if it has not used it.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>
