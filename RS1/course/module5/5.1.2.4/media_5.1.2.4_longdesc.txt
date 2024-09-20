@@ -1,1 +1,0 @@
-Figure one is an interactive activity that allows the learner to practice matching the Ethernet frame fields with their description. Figure two is an interactive activity that allows the learner to practice matching the Ethernet frame fields with their lengths in bytes.
