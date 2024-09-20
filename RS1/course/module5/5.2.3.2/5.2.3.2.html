@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.2 Auto-MDIX</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Auto-MDIX</h1>
+        <div>
+          <p>Outre le paramètre duplex approprié, il est également nécessaire que le type de câble adéquat soit défini pour chaque port. Les connexions entre des périphériques spécifiques, notamment entre deux commutateurs, un commutateur et un routeur, un commutateur et un hôte, et un routeur et des périphériques hôtes nécessitaient au départ l'utilisation de types de câble spécifiques (croisés ou droits). Désormais, la plupart des commutateurs prennent en charge la commande de configuration d'interface mdix auto dans l'interface en ligne de commande (CLI), qui active la fonction auto-MDIX. </p>
+          <p>Lorsque vous activez cette fonction, le commutateur détecte le type de câble connecté au port et configure les interfaces en conséquence. Vous devez donc opter pour un câble croisé ou un câble droit pour les connexions sur un port 10/100/1000 cuivre sur le commutateur, quel que soit le type de périphérique à l’autre extrémité de la connexion. </p>
+          <p>
+            <b>Remarque</b> : par défaut, la fonction auto-MDIX est activée sur les commutateurs qui exécutent la version 12.2(18)SE (ou ultérieure) du logiciel Cisco IOS.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure shows 3 connections: switch to switch, switch to router, and switch to P.C.  Auto-MIDX auto detects the type of cable and configures the interface accordingly.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>
