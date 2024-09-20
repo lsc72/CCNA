@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.3.2.3 Démonstration vidéo – Requête ARP</title>
+    <!-- Activity / Other / Flash PnC -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.3.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Démonstration vidéo – Requête ARP</h1>
+        <div>
+          <p>Une requête ARP est envoyée lorsqu'un périphérique a besoin d'une adresse MAC associée à une adresse IPv4 qui ne figure pas dans sa table ARP. </p>
+          <p>Les messages ARP sont encapsulés directement dans une trame Ethernet. Il n'existe pas d'en-tête IPv4. Le message de la requête ARP contient les éléments suivants :</p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse IPv4 cible</b>, c'est-à-dire l'adresse IPv4 dont l'adresse MAC correspondante est requise. </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse MAC cible</b>, qui n'est pas connue et n'est donc pas renseignée dans le message de la requête ARP.</li>
+            </ul>
+          </p>
+          <p>La requête ARP est encapsulée dans une trame Ethernet à l'aide des informations d'en-tête suivantes :</p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse MAC de destination</b> - il s'agit d'une adresse de diffusion qui nécessite que toutes les cartes réseau Ethernet sur le LAN acceptent et traitent la requête ARP.  </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>l'adresse MAC source</b>, qui correspond à l'adresse MAC de l'expéditeur de la requête ARP.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>le type</b> - les messages ARP ont un champ type de 0x806. Ce type informe la carte réseau réceptrice que la partie données de la trame doit être transmise au processus ARP.</li>
+            </ul>
+          </p>
+          <p>Comme les requêtes ARP sont des diffusions, elles sont envoyées par tous les ports du commutateur sauf le port récepteur. Toutes les cartes réseau Ethernet du LAN traitent les diffusions. Chaque périphérique doit traiter la requête ARP pour voir si l'adresse IPv4 cible correspond à la sienne. Les routeurs ne transmettent pas les diffusions par d'autres interfaces.</p>
+          <p>Seul un périphérique du réseau local possède l'adresse IPv4 correspondant à l'adresse IPv4 cible de la requête ARP. Aucun des autres périphériques ne répond.</p>
+          <p>Cliquez sur Lecture sur la figure pour lancer une vidéo sur une requête ARP pour une adresse IPv4 de destination située sur le réseau local.</p>
+          <p>Cliquez <a href="../../files/5.3.2.3%20Video%20Slides%20-%20ARP%20Operation%20-%20ARP%20Request.pdf" target="_blank">ici</a> pour télécharger les extraits vidéo de la démonstration.</p>
+          <p>Cliquez <a href="../../files/5.3.2.3%20Video%20-%20ARP%20Operation%20-%20ARP%20Request.pdf" target="_blank">ici</a> pour lire la transcription de cette vidéo.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" src="media/index.html" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">The figure is a video with the title "ARP Request".</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>
