@@ -1,0 +1,78 @@
+<textcomponents>
+	
+	<component id="ID_title">
+	<text><![CDATA[<b>Ethernet II Frame Fields</b>]]></text> 
+	</component>
+	
+	<component id="ID_txt01">
+	<text><![CDATA[Preamble]]></text>
+	</component>
+		
+	<component id="ID_txt02">
+	<text><![CDATA[Destination MAC Address]]></text> 
+	</component>
+	
+	<component id="ID_txt03">
+	<text><![CDATA[Source  MAC Address]]></text> 
+	</component>
+	
+	<component id="ID_txt04">
+	<text><![CDATA[EtherType]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+	<text><![CDATA[Data]]></text> 
+	</component>
+	
+	<component id="ID_txt06">
+	<text><![CDATA[FCS]]></text> 
+	</component>
+	
+	<component id="ID_titleTxt01">
+	<text><![CDATA[Preamble and Start Frame Delimiter Fields]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt01">
+	<text><![CDATA[The Preamble (7 bytes) and Start Frame Delimiter (SFD), also called the Start of Frame (1 byte), fields are used for synchronization between the sending and receiving devices. These first eight bytes of the frame are used to get the attention of the receiving nodes. Essentially, the first few bytes tell the receivers to get ready to receive a new frame.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt02">
+	<text><![CDATA[Destination MAC Address Field]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt02">
+	<text><![CDATA[This 6-byte field is the identifier for the intended recipient. As you will recall, this address is used by Layer 2 to assist devices in determining if a frame is addressed to them. The address in the frame is compared to the MAC address in the device. If there is a match, the device accepts the frame. Can be a unicast, multicast or broadcast address.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+	<text><![CDATA[Source MAC Address Field]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt03">
+	<text><![CDATA[This 6-byte field identifies the frame's originating NIC or interface. Must be a unicast address.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt04">
+	<text><![CDATA[EtherType Field]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt04">
+	<text><![CDATA[This 2-byte field identifies the upper layer protocol encapsulated in the Ethernet frame. Common values are, in hexadecimal, 0x800 for IPv4, 0x86DD for IPv6 and 0x806 for ARP.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt05">
+	<text><![CDATA[Data Field]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt05">
+	<text><![CDATA[This field (46 - 1500 bytes) contains the encapsulated data from a higher layer, which is a generic Layer 3 PDU, or more commonly, an IPv4 packet. All frames must be at least 64 bytes long. If a small packet is encapsulated, additional bits called a pad are used to increase the size of the frame to this minimum size.]]></text>
+	</component>
+	
+	<component id="ID_titleTxt06">
+	<text><![CDATA[Frame Check Sequence Field]]></text>
+	</component>
+	
+	<component id="ID_bodyTxt06">
+	<text><![CDATA[The Frame Check Sequence (FCS) field (4 bytes) is used to detect errors in a frame. It uses a cyclic redundancy check (CRC). The sending device includes the results of a CRC in the FCS field of the frame. The receiving device receives the frame and generates a CRC to look for errors. If the calculations match, no error occurred. Calculations that do not match are an indication that the data has changed; therefore, the frame is dropped. A change in the data could be the result of a disruption of the electrical signals that represent the bits.]]></text>
+	</component>
+</textcomponents>

@@ -1,0 +1,16 @@
+
+/*   load the main media CSS file    */
+
+@import url('../../../common/styles/media2.css');
+
+
+
+.alignment{
+	margin-left:15px !important;
+	}
+	
+
+
+	#mc_table{
+	height: 265px !important;
+}
