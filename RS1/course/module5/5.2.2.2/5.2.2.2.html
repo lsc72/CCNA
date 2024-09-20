@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.2 Commutation cut-through</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Commutation cut-through</h1>
+        <div>
+          <p>Dans le cas de la commutation cut-through, le commutateur agit sur les données à mesure qu’il les reçoit, même si la transmission n’est pas terminée. Le commutateur met une quantité juste suffisante de la trame en tampon afin de lire l’adresse MAC de destination et déterminer ainsi le port auquel les données sont à transmettre. L’adresse MAC de destination est située dans les six premiers octets de la trame à la suite du préambule. Le commutateur recherche l’adresse MAC de destination dans sa table de commutation, détermine le port d’interface de sortie et transmet la trame vers sa destination via le port de commutateur désigné. Le commutateur ne procède à aucun contrôle d’erreur dans la trame. </p>
+          <p>Lancez l'animation pour afficher une démonstration du processus de commutation cut-through.</p>
+          <p>Il existe deux variantes de la commutation cut-through :</p>
+          <p>
+            <ul>
+              <li>
+                <b>la commutation Fast-Forward</b> : ce mode de commutation offre le niveau de latence le plus faible. La commutation Fast-Forward transmet un paquet immédiatement après la lecture de l’adresse de destination. Du fait que le mode de commutation Fast-Forward entame la transmission avant la réception du paquet tout entier, il peut arriver que des paquets relayés comportent des erreurs. Cette situation est occasionnelle et la carte réseau de destination ignore le paquet défectueux lors de sa réception. En mode Fast-Forward, la latence est mesurée à partir du premier bit reçu jusqu’au premier bit transmis. La commutation Fast-Forward est la méthode de commutation cut-through classique.</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>la commutation Fragment-free</b> : avec ce mode de commutation, le commutateur stocke les 64 premiers octets de la trame avant la transmission. La commutation Fragment-free peut être considérée comme un compromis entre la commutation store-and-forward et la commutation fast-forward. La raison pour laquelle la commutation Fragment-Free stocke uniquement les 64 premiers octets de la trame est que la plupart des erreurs et des collisions sur le réseau surviennent pendant ces 64 premiers octets. La commutation Fragment-free tente d'améliorer la commutation fast-forward en procédant à un petit contrôle d'erreur sur les 64 premiers octets de la trame afin de s'assurer qu'aucune collision ne s'est produite avant la transmission de la trame. La commutation Fragment-free offre un compromis entre, d'une parte, la latence élevée et la forte intégrité de la commutation store-and-forward, et d'autre part la faible latence et l'intégrité réduite de la commutation fast-forward.</li>
+            </ul>
+          </p>
+          <p>Certains commutateurs sont configurés pour une commutation cut-through par port. Une fois le seuil d'erreurs défini par l'utilisateur atteint, ils passent automatiquement en mode de commutation store-and-forward. Lorsque le nombre d’erreurs est inférieur au seuil défini, le port revient automatiquement en mode de commutation cut-through.</p>
+        </div>
+      </div>
+      <div id="text-handle" title="Redimensionner" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic" aria-describedby="media-description"></iframe>
+      <div id="media-description">Figure is an animation showing that a switch starts forwarding the frame before it receives the entire frame.  This is known as cut through switching.</div>
+    </div>
+    <div id="login">Connectez-vous à <a href="http://netacad.com">netacad.com</a> avant d'accéder à ce cours.</div>
+  </body>
+</html>
