@@ -9,7 +9,7 @@ var mainMovieClip;
 (Animation = function(control,id){
 
 	var manifest = [
-		{src:"images/_5113.png", id:"_5113"},
+		{src:"images/5113.png", id:"_5113"},
 		{src:"images/Arrow.png", id:"Arrow"},
 		{src:"images/arrow_purple1.png", id:"arrow_purple1"},
 		{src:"images/arrow_purple2.png", id:"arrow_purple2"},
